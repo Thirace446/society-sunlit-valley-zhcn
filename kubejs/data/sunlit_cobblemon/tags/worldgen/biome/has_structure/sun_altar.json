@@ -1,6 +1,11 @@
 {
   "values": [
     "#minecraft:is_jungle",
+    "#minecraft:is_nether",
+    "#minecraft:is_beach",
+    "#forge:is_desert",
+    "#minecraft:is_forest",
+    "#minecraft:is_mountain",
     "#forge:is_snowy",
     "minecraft:plains",
     "minecraft:savanna",

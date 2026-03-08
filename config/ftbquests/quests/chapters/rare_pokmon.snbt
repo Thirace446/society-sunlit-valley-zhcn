@@ -371,7 +371,7 @@
 			id: "7169193680597E82"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -398,7 +398,7 @@
 			id: "1B20E6F6F396A6B0"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -425,7 +425,7 @@
 			id: "0AFC79E0751923A6"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -452,7 +452,7 @@
 			id: "40782D6A62B4B8D0"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -476,64 +476,10 @@
 		}
 		{
 			description: [""]
-			id: "0899C51F59322D7B"
-			shape: "none"
-			size: 2.0d
-			subtitle: "Not Yet Implemented"
-			tasks: [{
-				action: "catch"
-				amount: 1L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "1C0371E3BBCC4E1E"
-				poke_ball_used: ""
-				pokemon: "cobblemon:poipole"
-				pokemon_type: ""
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Poipole"
-			x: 35.0d
-			y: -23.0d
-		}
-		{
-			description: [""]
-			id: "604EF840F7D138AE"
-			shape: "none"
-			size: 2.0d
-			subtitle: "Not Yet Implemented"
-			tasks: [{
-				action: "catch"
-				amount: 1L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "67C38FA697462ED3"
-				poke_ball_used: ""
-				pokemon: "cobblemon:naganadel"
-				pokemon_type: ""
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Naganadel"
-			x: 37.0d
-			y: -23.0d
-		}
-		{
-			description: [""]
 			id: "0FD10C2F7AE4677E"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -551,20 +497,18 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Naganadel"
-			x: 35.0d
-			y: -21.0d
+			title: "Blacephalon"
+			x: 39.0d
+			y: -23.0d
 		}
 		{
 			dependencies: [
 				"46AC1742C4A72259"
 				"1B20E6F6F396A6B0"
-				"604EF840F7D138AE"
 				"0AFC79E0751923A6"
 				"7169193680597E82"
 				"0FD10C2F7AE4677E"
 				"40782D6A62B4B8D0"
-				"0899C51F59322D7B"
 			]
 			hide_dependency_lines: true
 			icon: "cobblemon:beast_ball"
@@ -3488,8 +3432,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Celesteela"
-			x: 39.0d
-			y: -23.0d
+			x: 30.0d
+			y: -21.0d
 		}
 		{
 			description: [""]
@@ -3515,15 +3459,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Pheromosa"
-			x: 41.0d
-			y: -23.0d
+			x: 32.0d
+			y: -21.0d
 		}
 		{
 			description: [""]
 			id: "27095A5816F58B81"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -3542,15 +3486,16 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Poipole"
-			x: 29.0d
-			y: -21.0d
+			x: 35.0d
+			y: -23.0d
 		}
 		{
+			dependencies: ["27095A5816F58B81"]
 			description: [""]
 			id: "1862834CE4AA333D"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Evolved from Poipole"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -3569,8 +3514,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Naganadel"
-			x: 31.0d
-			y: -21.0d
+			x: 37.0d
+			y: -23.0d
 		}
 		{
 			description: [""]
@@ -3596,7 +3541,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Stakataka"
-			x: 33.0d
+			x: 34.0d
 			y: -21.0d
 		}
 	]

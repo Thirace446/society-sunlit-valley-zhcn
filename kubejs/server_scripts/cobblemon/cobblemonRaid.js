@@ -36,6 +36,11 @@ const rollDenPokemon = (level, player, pool) => {
     return rolledEntry || -1;
 }
 
+const displayStats = (player, raidLevel, nbt) => {
+    let tierStats = getTierStats(nbt.data.tier)
+    player.tell(`Tier: ${nbt.data.tier} | Pokemon: ${nbt.data.type.equals("") ? "Unknown" : Text.translate(`cobblemon.species.${nbt.data.type}.name`).getString()} | Raid Level ${raidLevel} | Level: ${nbt.data.level} | Shiny Chance: ${Number(tierStats.shinyChance * 100).toFixed(2)}% | Hidden Ability Chance: ${Number(tierStats.hiddenAbilityChance * 100).toFixed(2)}%`)
+
+}
 const initializeSunRaid = (level, block, player) => {
     let nbt = block.getEntityData();
     let foundTier = Number(nbt.data.tier)
@@ -53,12 +58,11 @@ const initializeSunRaid = (level, block, player) => {
             tier: tier
         },
     });
-    block.setEntityData(nbt);
-    block.getEntity().setChanged();
+    global.setBlockEntityData(block, nbt);
 }
 
 BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
-    const { block, hand, player, level, server } = e;
+    const { block, hand, player, level, item, server } = e;
     if (hand !== "MAIN_HAND") return;
     if (!global.hasScope(player)) {
         player.tell(Text.translatable("sunlit_cobblemon.need_scope").red());
@@ -69,6 +73,30 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
     if (!nbt.data.type || nbt.data.type.equals("")) {
         initializeSunRaid(level, block, player);
         nbt = block.getEntityData();
+    }
+    if (item.id.equals("sunlit_cobblemon:mystica_cookie")) {
+        initializeSunRaid(level, block, player);
+        nbt = block.getEntityData();
+        displayStats(player, Math.min(100, global.getPartyLevel(player) + (5 * (Number(nbt.data.tier) + 1))), nbt);
+        server.runCommandSilent(`playsound botania:babylon_spawn block @a ${block.x} ${block.y} ${block.z}`);
+        if (!player.isCreative()) item.shrink(1);
+        return;
+    } else if (item.id.equals("sunlit_cobblemon:sun_essence")) {
+        let currentTier = Number(nbt.data.tier);
+        if (currentTier < 4) {
+            nbt.merge({
+                data: {
+                    tier: Number(nbt.data.tier) + 1
+                },
+            });
+            global.setBlockEntityData(block, nbt);
+            displayStats(player, Math.min(100, global.getPartyLevel(player) + (5 * (Number(nbt.data.tier) + 1))), nbt);
+            server.runCommandSilent(`playsound botania:babylon_spawn block @a ${block.x} ${block.y} ${block.z}`);
+            if (!player.isCreative()) item.shrink(1);
+        } else {
+            player.tell(Text.translatable("sunlit_cobblemon.sun_raid.highest_tier").red())
+        }
+        return;
     }
     let day = global.getDay(level);
     let raidLevel = Math.min(100, global.getPartyLevel(player) + (5 * (Number(nbt.data.tier) + 1)))
@@ -82,42 +110,21 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
         let tierStats = getTierStats(nbt.data.tier)
         let hiddenAbility = Math.random() < tierStats.hiddenAbilityChance;
         let shiny = Math.random() < tierStats.shinyChance;
-        let spawnedAny = false;
-        server.runCommandSilent(`execute in ${level.dimension} run pokespawnat ${block.x} ${block.y + 1} ${block.z} ${nbt.data.type}  ${shiny ? "shiny " : ""}${hiddenAbility ? "hiddenability " : ""}${nbt.data.variant && nbt.data.variant.equals("") ? "" : nbt.data.variant} level=${raidLevel} hp_ev=84 defence_ev=84 special_defence_ev=84 speed_ev=252 uncatchable=yes hp_iv=32 defence_iv=31 special_defence_iv=31 attack_iv=31 special_attack_iv=31 speed_iv=31`);
-        let spawnedPokemon = level.getEntitiesWithin(AABB.ofBlock(level.getBlock(block.getPos())).inflate(0.2)).filter((e) => e.type.equals("cobblemon:pokemon"));
-        if (spawnedPokemon && spawnedPokemon.length > 0) {
-            spawnedAny = true;
-            spawnedPokemon = spawnedPokemon[0];
-            spawnedPokemon.setDeltaMovement(new Vec3d(0, 1.1, 0));
-            spawnedPokemon.persistentData.raidMon = true;
-            spawnedPokemon.persistentData.raidMonStats = {
-                tier: nbt.data.tier,
-                hasHiddenAbility: hiddenAbility,
-                spawnedLevel: nbt.data.level,
-                shinyChance: tierStats.shinyChance,
-                variant: nbt.data.variant,
-                isShiny: shiny
-            }
-            spawnedPokemon.potionEffects.add("minecraft:glowing", 400, 0, false, false);
-            spawnedPokemon.potionEffects.add("minecraft:slow_falling", 400, 0, false, false);
-            server.runCommandSilent(`scale set 3 ${spawnedPokemon.getUuid().toString()}`)
-        }
+        let spawnedAny = global.summonRaidPokemon(server, level, block, nbt.data.type, nbt.data.variant, raidLevel, nbt.data.level, shiny, hiddenAbility, nbt.data.tier, true);
         if (spawnedAny) {
             nbt.merge({
                 data: {
                     dayLastRaided: day
                 },
             });
-            block.setEntityData(nbt);
-            block.getEntity().setChanged();
-            server.runCommandSilent( `playsound cobblemon:poke_ball.send_out block @a ${block.x} ${block.y} ${block.z}`);
-            server.runCommandSilent( `playsound species:effect.gut_feeling.applied block @a ${block.x} ${block.y} ${block.z}`);
-            server.runCommandSilent( `playsound species:effect.gut_feeling.roar block @a ${block.x} ${block.y} ${block.z}`);
+            global.setBlockEntityData(block, nbt);
+            server.runCommandSilent(`playsound cobblemon:poke_ball.send_out block @a ${block.x} ${block.y} ${block.z}`);
+            server.runCommandSilent(`playsound species:effect.gut_feeling.applied block @a ${block.x} ${block.y} ${block.z}`);
+            server.runCommandSilent(`playsound species:effect.gut_feeling.roar block @a ${block.x} ${block.y} ${block.z}`);
         }
     } else if (player.isCrouching() && !canSpawnToday) {
         server.runCommandSilent(`openshop ${player.username} sun_offering`)
     } else {
-        let tierStats = getTierStats(nbt.data.tier)
-        player.tell(`Tier: ${nbt.data.tier} | Pokemon: ${nbt.data.type.equals("") ? "Unknown" : Text.translate(`cobblemon.species.${nbt.data.type}.name`).getString()} | Raid Level ${raidLevel} | Level: ${nbt.data.level} | Shiny Chance: ${Number(tierStats.shinyChance * 100).toFixed(2)}% | Hidden Ability Chance: ${Number(tierStats.hiddenAbilityChance * 100).toFixed(2)}%`)
+        displayStats(player, raidLevel, nbt)
     }
 });

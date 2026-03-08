@@ -19,6 +19,11 @@
 				},
 				{
 					"type": "item",
+					"name": "sunlit_cobblemon:cosmic_dust",
+					"weight": 8
+				},
+				{
+					"type": "item",
 					"name": "sunlit_cobblemon:prismatic_tm_pack",
 					"weight": 1
 				}

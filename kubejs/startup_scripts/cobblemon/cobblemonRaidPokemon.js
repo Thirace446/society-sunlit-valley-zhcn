@@ -22,6 +22,50 @@ StartupEvents.postInit((init) => {
     });
 });
 
+const mysticaChances = [0, 0.1, 0.25, 0.45]
+
+const expTables = [
+    { lvl: 19, xp: ['cobblemon:exp_candy_xs', 'cobblemon:exp_candy_s'] },
+    { lvl: 35, xp: ['3x cobblemon:exp_candy_s'] },
+    { lvl: 45, xp: ['cobblemon:exp_candy_s', '2x cobblemon:exp_candy_m'] },
+    { lvl: 75, xp: ['2x cobblemon:exp_candy_m', 'cobblemon:exp_candy_l'] },
+    { lvl: 90, xp: ['cobblemon:exp_candy_l', 'cobblemon:exp_candy_xl'] },
+    { lvl: 100, xp: ['4x cobblemon:exp_candy_l', 'cobblemon:exp_candy_xl'] },
+]
+const dropRaidItems = (entityMon, raidLevel, tier) => {
+    let sunDrops = entityMon.level.createEntity("minecraft:item");
+    sunDrops.x = entityMon.x;
+    sunDrops.y = entityMon.y;
+    sunDrops.z = entityMon.z;
+    sunDrops.item = Item.of(`${Math.max(1, rnd(tier + 1, (tier + 1) * tier))}x sunlit_cobblemon:sun_drops`);
+    sunDrops.spawn();
+
+    if (tier > 0 && Math.random() < mysticaChances[tier]) {
+        let mystica = entityMon.level.createEntity("minecraft:item");
+        mystica.x = entityMon.x;
+        mystica.y = entityMon.y;
+        mystica.z = entityMon.z;
+        mystica.item = Item.of("1x sunlit_cobblemon:mystica_branch");
+        mystica.spawn();
+    }
+    let experienceDrops = expTables[0];
+    for (let i = 0; i < expTables.length; i++) {
+        if (raidLevel >= expTables[i].lvl) experienceDrops = expTables[i];
+    }
+
+    let xpDrop
+    let dropItem
+    experienceDrops.xp.forEach((drop) => {
+        xpDrop = entityMon.level.createEntity("minecraft:item");
+        xpDrop.x = entityMon.x;
+        xpDrop.y = entityMon.y;
+        xpDrop.z = entityMon.z;
+        dropItem = Item.of(drop);
+        dropItem.count = Math.max(1, dropItem.count + Number(tier - 2))
+        xpDrop.item = dropItem
+        xpDrop.spawn();
+    })
+}
 
 global.handleRaidDefeat = (e) => {
     const pokemon = e.pokemon;
@@ -30,27 +74,13 @@ global.handleRaidDefeat = (e) => {
         let raidMondStats = entityMon.persistentData.raidMonStats;
         let server = pokemon.entity.getServer()
         let level = pokemon.entity.getLevel()
+        let raidLevel = pokemon.getLevel();
         let commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} ${pokemon.getSpecies()} ${raidMondStats.isShiny ? "shiny " : ""} ${raidMondStats.hasHiddenAbility ? "hiddenability " : ""}${raidMondStats.variant && raidMondStats.variant.equals("") ? "" : raidMondStats.variant} level=${Number(raidMondStats.spawnedLevel)}`;
         let tier = Math.max(0, Number(raidMondStats.tier))
 
         server.scheduleInTicks(0, () => {
             server.scheduleInTicks(60, () => {
-                let sunDrops = entityMon.level.createEntity("minecraft:item");
-                sunDrops.x = entityMon.x;
-                sunDrops.y = entityMon.y;
-                sunDrops.z = entityMon.z;
-                sunDrops.item = Item.of(`${Math.max(1, rnd(tier + 1, (tier + 1) * tier))}x sunlit_cobblemon:sun_drops`);
-                sunDrops.spawn();
-
-                let mysticaChances = [0, 0.1, 0.25, 0.45]
-                if (tier > 0 && Math.random() < mysticaChances[tier]) {
-                    let mystica = entityMon.level.createEntity("minecraft:item");
-                    mystica.x = entityMon.x;
-                    mystica.y = entityMon.y;
-                    mystica.z = entityMon.z;
-                    mystica.item = Item.of("1x sunlit_cobblemon:mystica_branch");
-                    mystica.spawn();
-                }
+                dropRaidItems(entityMon, raidLevel, tier)
                 server.runCommandSilent(`playsound cobblemon:poke_ball.recall block @a ${entityMon.x} ${entityMon.y} ${entityMon.z}`);
                 server.runCommandSilent(`playsound species:block.spectralibur.can_be_pulled3 block @a ${entityMon.x} ${entityMon.y} ${entityMon.z}`);
                 server.runCommandSilent(`playsound stardew_fishing:complete block @a ${entityMon.x} ${entityMon.y} ${entityMon.z}`);

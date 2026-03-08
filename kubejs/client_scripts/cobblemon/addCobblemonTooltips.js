@@ -34,27 +34,27 @@ ItemEvents.tooltip((tooltip) => {
 
   tooltip.add(
     "sunlit_cobblemon:silph_scope",
-    Text.green("Allows you to enter the World of Pokémon!"),
+    Text.translatable(`tooltip.sunlit_cobblemon.silph_scope.description`).green()
   );
   tooltip.add(
     "sunlit_cobblemon:silph_scope",
-    Text.gold("Right click to equip!"),
+    Text.translatable(`tooltip.sunlit_cobblemon.silph_scope.equip`).gold()
   );
   tooltip.add(
     "sunlit_cobblemon:poke_bobber",
-    Text.gold("Fishes up a common Pokémon with every catch"),
+    Text.translatable(`tooltip.sunlit_cobblemon.poke_bobber.description`).gold()
   );
   tooltip.add(
     "sunlit_cobblemon:great_poke_bobber",
-    Text.gold("Fishes up an uncommon Pokémon with every catch"),
+    Text.translatable(`tooltip.sunlit_cobblemon.great_poke_bobber.description`).gold()
   );
   tooltip.add(
     "sunlit_cobblemon:ultra_poke_bobber",
-    Text.gold("Fishes up a rare Pokémon with every catch"),
+    Text.translatable(`tooltip.sunlit_cobblemon.ultra_poke_bobber.description`).gold()
   );
   tooltip.add(
     "sunlit_cobblemon:master_poke_bobber",
-    Text.gold("Fishes up an epic Pokémon with every catch"),
+    Text.translatable(`tooltip.sunlit_cobblemon.master_poke_bobber.description`).gold()
   );
   // Legendaries
 
@@ -127,41 +127,65 @@ ItemEvents.tooltip((tooltip) => {
     },
   );
   // TM Packs
-  tooltip.add("sunlit_cobblemon:tm_pack", Text.gray("Right click to open"));
-  tooltip.add("sunlit_cobblemon:tm_pack", Text.green("12% chance for a TM"));
-
-  tooltip.add(
-    "sunlit_cobblemon:greater_tm_pack",
-    Text.gray("Right click to open"),
+  tooltip.add("sunlit_cobblemon:tm_pack",
+    Text.translatable("tooltip.society.right_click_open").gray()
+  );
+  tooltip.add("sunlit_cobblemon:tm_pack",
+    Text.translatable("tooltip.sunlit_cobblemon.greater_tm_pack.description.chance").green(),
   );
   tooltip.add(
     "sunlit_cobblemon:greater_tm_pack",
-    Text.green("20% chance for a TM"),
+    Text.translatable("tooltip.society.right_click_open").gray()
   );
   tooltip.add(
     "sunlit_cobblemon:greater_tm_pack",
-    Text.green("At least one TM guaranteed!"),
+    Text.translatable("tooltip.sunlit_cobblemon.greater_tm_pack.description.chance").green(),
   );
-
   tooltip.add(
-    "sunlit_cobblemon:prismatic_tm_pack",
-    Text.gray("Right click to open"),
+    "sunlit_cobblemon:greater_tm_pack",
+    Text.translatable("tooltip.sunlit_cobblemon.greater_tm_pack.description").green(),
   );
   tooltip.add(
     "sunlit_cobblemon:prismatic_tm_pack",
-    Text.green("Only contains TMs"),
+    Text.translatable("tooltip.society.right_click_open").gray()
+  );
+  tooltip.add(
+    "sunlit_cobblemon:prismatic_tm_pack",
+    Text.translatable("tooltip.sunlit_cobblemon.prismatic_tm_pack.description").green(),
   );
 
   tooltip.add(
     "sunlit_cobblemon:berry_capsule",
-    Text.gray("Right click to open"),
+    Text.translatable("tooltip.society.right_click_open").gray()
   );
   tooltip.add(
     "sunlit_cobblemon:berry_capsule",
-    Text.green("Contains common berries"),
-  );
+    Text.translatable(
+      `tooltip.sunlit_cobblemon.berry_capsule.description`,
+    ).gray());
 
+  tooltip.add('sunlit_cobblemon:sun_drops',
+    Text.translatable(
+      `tooltip.sunlit_cobblemon.sun_drops.description`,
+    ).gray());
+  tooltip.add('sunlit_cobblemon:mystica_branch',
+    Text.translatable(
+      `tooltip.sunlit_cobblemon.mystica_branch.description`,
+    ).gray());
 
+  tooltip.add(
+    'sunlit_cobblemon:sun_essence',
+    Text.translatable(
+      `tooltip.sunlit_cobblemon.sun_essence.description`,
+    ).gray());
+  tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  tooltip.add(
+    'sunlit_cobblemon:mystica_cookie',
+    Text.translatable(
+      `tooltip.sunlit_cobblemon.sun_essence.description`,
+    ).gray());
+
+  tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   [
     "ability_capsule", "ability_patch",
   ].forEach((item) => {
@@ -299,4 +323,26 @@ ItemEvents.tooltip((tooltip) => {
     tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   });
 
+  tooltip.addAdvanced("sunlit_cobblemon:wormhole_generator",
+    (item, advanced, text) => {
+      text.add(1, [
+        Text.translatable("sunlit_cobblemon.society.wormhole_generator.description").gray(),
+      ]);
+      if (item.nbt) {
+        text.add(2, [
+          Text.translatable(
+            "sunlit_cobblemon.society.wormhole_generator.dust_count",
+            item.nbt.dust
+          ).darkPurple(),
+        ]);
+      } else {
+        text.add(2, [
+          Text.translatable(
+            "sunlit_cobblemon.society.wormhole_generator.dust_count",
+            0
+          ).darkPurple(),
+        ]);
+      }
+    }
+  );
 });

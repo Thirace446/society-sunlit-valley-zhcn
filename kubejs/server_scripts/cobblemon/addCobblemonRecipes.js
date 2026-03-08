@@ -1,6 +1,19 @@
 console.info("[SOCIETY-S-COBBLEMON] addCobblemonRecipes.js loaded");
 
 ServerEvents.recipes((e) => {
+  // Experience
+  e.shapeless("cobblemon:exp_candy_s", ["8x cobblemon:exp_candy_xs"]);
+  e.shapeless("8x cobblemon:exp_candy_xs", ["cobblemon:exp_candy_s"]);
+
+  e.shapeless("cobblemon:exp_candy_m", ["3x cobblemon:exp_candy_s"]);
+  e.shapeless("3x cobblemon:exp_candy_s", ["cobblemon:exp_candy_m"]);
+
+  e.shapeless("cobblemon:exp_candy_l", ["3x cobblemon:exp_candy_m"]);
+  e.shapeless("3x cobblemon:exp_candy_m", ["cobblemon:exp_candy_l"]);
+
+  e.shapeless("cobblemon:exp_candy_xl", ["3x cobblemon:exp_candy_l"]);
+  e.shapeless("3x cobblemon:exp_candy_l", ["cobblemon:exp_candy_xl"]);
+  // TMS
   e.shapeless("sunlit_cobblemon:tm_pack", ["9x #sunlit_cobblemon:tr"]);
   e.shapeless("sunlit_cobblemon:greater_tm_pack", ["9x #sunlit_cobblemon:tm"]);
   e.shaped("sunlit_cobblemon:uncharged_battery", [" zr", "zrz", "rz "], {
@@ -115,6 +128,36 @@ ServerEvents.recipes((e) => {
       s: "society:production_science_pack",
     },
   );
+  e.shaped("sunlit_cobblemon:sun_essence", ["dmd", "msm", "dmd"], {
+    s: 'society:mystic_syrup',
+    m: 'sunlit_cobblemon:mystica_branch',
+    d: 'sunlit_cobblemon:sun_drops'
+  });
+  e.shaped('sunlit_cobblemon:wormhole_generator', ["ded", "sus", "dbd"], {
+    s: 'minecraft:echo_shard',
+    d: 'sunlit_cobblemon:cosmic_dust',
+    e: 'oreganized:electrum_ingot',
+    u: 'oreganized:unknown_device',
+    b: 'society:battery'
+  });
+  e.custom({
+    "type": "farm_and_charm:stove",
+    "ingredients": [
+      {
+        "item": "bakery:sweet_dough"
+      },
+      {
+        "item": 'sunlit_cobblemon:dried_legendary_cobbleberry'
+      },
+      {
+        "item": 'sunlit_cobblemon:mystica_branch'
+      }
+    ],
+    "item": 'sunlit_cobblemon:mystica_cookie',
+    "count": 4,
+    "experience": 0.3
+  })
+
   global.cobbleTypeGems.forEach((gem) => {
     e.shapeless(`3x ${gem.item}`, [`society:pristine_${gem.item.split(":")[1]}`]);
   });

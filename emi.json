@@ -23,7 +23,56 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "sunlit_cobblemon:sun_essence",
+      "amount": 64
+    },
+    "item:sunlit_cobblemon:cosmic_dust",
+    {
+      "type": "item",
+      "id": "sunlit_cobblemon:mystica_cookie",
+      "amount": 64
+    },
+    "item:cobblemon:beast_ball",
+    "item:stardew_fishing:cork_bobber{Damage:0}",
+    "item:refurbished_furniture:blue_lamp",
+    {
+      "type": "item",
+      "id": "minecraft:echo_shard",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "oreganized:unknown_device",
+      "amount": 64
+    },
+    "item:vintagedelight:pickled_egg",
+    "item:twigs:polished_calcite_bricks",
+    "item:cobblemon:poison_barb",
+    "item:cobblemon:hyper_potion",
     "item:sunlit_cobblemon:mystica_branch",
+    "item:society:mystic_syrup",
+    {
+      "type": "item",
+      "id": "sunlit_cobblemon:sun_drops",
+      "amount": 64
+    },
+    "item:sunlit_cobblemon:dried_legendary_cobbleberry",
+    "item:society:ancient_cookie",
+    "item:bakery:strawberry_glazed_cookie",
+    "item:vinery:white_grape",
+    "item:vinery:savanna_grape_seeds_red",
+    "item:vinery:savanna_grapes_red",
+    "item:cobblemon:exp_candy_s",
+    "item:cobblemon:exp_candy_m",
+    "item:cobblemon:exp_candy_l",
+    "item:cobblemon:exp_candy_xl",
+    {
+      "type": "item",
+      "id": "cobblemon:exp_candy_xs",
+      "amount": 6
+    },
     "item:cobblemon:careful_mint",
     "item:cobblemon:gentle_mint",
     "item:cobblemon:cyan_mint_leaf",
@@ -46,7 +95,6 @@
     "item:cobblemon:poke_ball",
     "item:cobblemon:ultra_ball",
     "item:create_klinks_n_klangs:unpainted_ultra_ball",
-    "item:cobblemon:beast_ball",
     "item:cobblemon:ancient_ultra_ball",
     "item:cobblemon:master_ball",
     "item:society:large_amethyst_milk",
@@ -80,8 +128,6 @@
     },
     "item:cobblemon:iron",
     "item:cobblemon:hp_up",
-    "item:cobblemon:exp_candy_xl",
-    "item:cobblemon:exp_candy_m",
     "item:cobblemon:carbos",
     "item:cobblemon:zinc",
     "item:cobblemon:calcium",
@@ -173,7 +219,6 @@
     "item:cobblemon:focus_sash",
     "item:cobblemon:focus_band",
     "item:cobblemon:assault_vest",
-    "item:cobblemon:poison_barb",
     "item:cobblemon:charcoal_stick",
     "item:cobblemon:metal_coat",
     "item:cobblemon:dragon_fang",
@@ -261,7 +306,6 @@
     "item:sunlit_cobblemon:super_berry_smoothie",
     "item:cobblemon:potion",
     "item:cobblemon:super_potion",
-    "item:cobblemon:hyper_potion",
     "item:cobblemon:max_potion",
     "item:society:ancient_juice",
     "item:fantasyfurniture:decorations/fairy_lights_1",
@@ -278,7 +322,6 @@
       "id": "society:battery",
       "amount": 4
     },
-    "item:sunlit_cobblemon:dried_legendary_cobbleberry",
     "item:sunlit_cobblemon:dried_rare_cobbleberry",
     "item:sunlit_cobblemon:dried_common_cobbleberry",
     "item:sunlit_cobblemon:trainer_podium",
@@ -1026,7 +1069,6 @@
     "item:bakery:chocolate_jam",
     "item:bakery:chocolate_glazed_cookie",
     "item:candlelight:chocolate_mousse",
-    "item:bakery:strawberry_glazed_cookie",
     "item:bakery:sweetberry_glazed_cookie",
     "item:bakery:strawberry_jam",
     "item:bakery:cake_dough",
@@ -1210,7 +1252,6 @@
       "amount": 3
     },
     "item:vintagedelight:pickled_onion",
-    "item:vintagedelight:pickled_egg",
     "item:vintagedelight:kimchi",
     "item:unusualfishmod:raw_picklefish",
     "item:society:pickled_pumpkin_slice",
@@ -1627,36 +1668,7 @@
       "amount": 64
     },
     "item:cobblemon:life_orb",
-    "item:cobblemon:clover_sweet",
-    "item:etcetera:dice",
-    "item:cobblemon:icy_rock",
-    "item:whimsy_deco:golden_horseshoe",
-    "item:simplehats:crown",
-    "item:simplehats:bigcrown",
-    "item:cobblemon:damp_rock",
-    "item:create:netherite_diving_boots{Damage:0}",
-    "item:create:copper_diving_boots{Damage:0}",
-    "item:windswept:snow_boots{Damage:0}",
-    {
-      "type": "item",
-      "id": "cobblemon:flame_orb",
-      "amount": 64
-    },
-    "item:society:energy_drink",
-    "item:create_enchantment_industry:hyper_experience_bottle",
-    "item:society:mining_monthly",
-    {
-      "type": "fluid",
-      "id": "relics:relic_experience",
-      "amount": 0
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:eject_button",
-      "amount": 64
-    },
-    "item:minecraft:redstone_block",
-    "item:windswept:redstone_fairy_light"
+    "item:cobblemon:clover_sweet"
   ],
   "craft_history": [
     "minecraft:kjs/sunlit_cobblemon_star_pixie_5",

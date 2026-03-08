@@ -157,7 +157,7 @@
 		{
 			dependencies: ["60A705547AE0B95E"]
 			description: [
-				"The &6 Craft Station&r allows workers to create items depending on their type."
+				"The &6Craft Station&r allows workers to create items depending on their type."
 				""
 				"- &6Fire&r - Crafts all furnace recipes and smokes fish"
 				"- &6Fighting&r - Chops trees from Saplings"
@@ -408,7 +408,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0CA84740D7922353"]
+			dependencies: ["063B238596D407D9"]
 			description: [
 				"If you've played Cobblemon before, you might be asking yourself where those Leeks are..."
 				""
@@ -430,8 +430,8 @@
 				type: "checkmark"
 			}]
 			title: "Crafting Medical Supplies?"
-			x: 9.5d
-			y: -2.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0CA84740D7922353"]
@@ -503,7 +503,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3BD199B4A938437F"]
+			dependencies: ["60A705547AE0B95E"]
 			description: [
 				"Leving up your Pokémon is an important aspect of Cobblemon. It gives them better stats in battle, learn new moves, and even evolve them if they can."
 				""
@@ -759,6 +759,172 @@
 			title: "Hunting Legendaries"
 			x: 21.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["43DCB8601B40FB9A"]
+			description: [
+				"Unnatural dust can be found within &6Beast Loot Balls&r scattered around the world."
+				""
+				"It seems to have been dropped by a Pokémon from another dimension..."
+			]
+			id: "02A029AD9B654F48"
+			rewards: [{
+				id: "7EE27A68EFEF1D55"
+				item: "sunlit_cobblemon:cosmic_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "614293D1324352C7"
+				item: "sunlit_cobblemon:cosmic_dust"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02A029AD9B654F48"]
+			description: [
+				"The &6Wormhole Generator&r is a curious device tuned into cosmic frequencies of the valley."
+				""
+				"It can be fed &6Cosmic Dust&r to generate &bUltra-Wormholes&r, bringing forth different &bUltra-Beasts&r from another dimension depending on your current location."
+				""
+				"This process angers the beasts, causing them to draw power of the sun. They are uncatchable until defeated, and are best caught with Beast Balls."
+			]
+			hide_until_deps_complete: true
+			id: "5E5313D628E28251"
+			rewards: [{
+				id: "5B0834853099F142"
+				item: "cobblemon:beast_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "207FCC23945F9F21"
+				item: "sunlit_cobblemon:wormhole_generator"
+				type: "item"
+			}]
+			title: "Ultra-Dimensional Transport"
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0CA84740D7922353"]
+			description: [
+				"Scattered around the world are &6Sun Raid Statues&r, mysterious shrines that summon powerful sun-infused Pokémon when activated using &6Shift + Right Click&r. They cannot be caught until defeated in battle once."
+				""
+				"The power and rarity of the spawned Pokémon will depend on its &6tier&r and the current spawn pool when activated for the first time. "
+				""
+				""
+				"They can be activated once a day."
+			]
+			id: "4F8153DD174CECBF"
+			rewards: [{
+				count: 4
+				id: "4CDA0F0FCD977645"
+				item: "sunlit_cobblemon:sun_drops"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "sunlit_cobblemon:sun_raid_statue"
+				id: "072766131781F876"
+				observe_type: 0
+				timer: 0L
+				title: "Find a &6Sun Raid Statue"
+				to_observe: "sunlit_cobblemon:sun_raid_statue"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F8153DD174CECBF"]
+			description: [
+				"Sun-Infused Pokémon will drop a random amount of &6Sun Drops&r when defeated!"
+				""
+				"These can be offered up for rare items to a &6Sun Raid Statue&r after it has been activated once that day."
+				""
+				"&oThe higher your trainer tier, the more the statue will offer you...&r"
+			]
+			id: "612E6552C11E7D9B"
+			rewards: [{
+				count: 8
+				id: "78CF154181D02631"
+				item: "sunlit_cobblemon:sun_drops"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54F1C621AA11E45D"
+				item: "sunlit_cobblemon:sun_drops"
+				type: "item"
+			}]
+			title: "Drops of Sun"
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["612E6552C11E7D9B"]
+			description: [
+				"Some Pokémon will drop a &6Mystica Branch&r when defeated! This herb is filled with power, and can be offered to the &6Sun Raid Statue&r for even better rewards."
+				""
+				"The higher the tier of the raid Pokémon, the higher chance it has to drop."
+			]
+			id: "6366052B4FD5F516"
+			rewards: [{
+				id: "04B11C5FA9636495"
+				item: "sunlit_cobblemon:sun_raid_statue"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73AEA813FED217B5"
+				item: "sunlit_cobblemon:mystica_branch"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6366052B4FD5F516"]
+			description: [
+				"Looking for a certain Pokémon can be tedious, and higher tiers of &6Sun Raid Statues&r will pull from rare or ultra-rare spawn pools!"
+				""
+				"&6Mystica Cookies&r can be used to re-roll which Pokémon are assigned to the statue."
+			]
+			id: "227824A991F8325C"
+			rewards: [{
+				count: 3
+				id: "453E506DF0CDAF0B"
+				item: "sunlit_cobblemon:mystica_cookie"
+				type: "item"
+			}]
+			subtitle: "Re-rolling Pokémon"
+			tasks: [{
+				id: "414E14ACC6191063"
+				item: "sunlit_cobblemon:mystica_cookie"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6366052B4FD5F516"]
+			description: [
+				"&6Sun Essence&r can be offered to increase the tier of a &6Sun Raid Statue&r."
+				""
+				"It does not re-roll the Pokémon assigned to it."
+			]
+			id: "179E6CCD0172DEE3"
+			rewards: [{
+				id: "68CF641BED88C6BA"
+				item: "sunlit_cobblemon:mystica_branch"
+				type: "item"
+			}]
+			subtitle: "Upgrading Tiers"
+			tasks: [{
+				id: "33DF37C893C81988"
+				item: "sunlit_cobblemon:sun_essence"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
 		}
 	]
 	title: "I.C - Cobblemon"

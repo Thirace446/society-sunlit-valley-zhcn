@@ -70,7 +70,9 @@ StartupEvents.registry("item", (e) => {
   // Misc
   e.create("sunlit_cobblemon:mystica_branch");
   e.create("sunlit_cobblemon:sun_drops");
-  
+  e.create("sunlit_cobblemon:sun_essence");
+  e.create("sunlit_cobblemon:mystica_cookie");
+
   e.create("sunlit_cobblemon:poke_radar")
     .displayName("Poké Radar");
   e.create("sunlit_cobblemon:berry_capsule").texture(
@@ -97,6 +99,8 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:prismatic_ice");
   e.create("sunlit_cobblemon:atmospheric_vial");
   e.create("sunlit_cobblemon:unbreakable_cog");
+  e.create("sunlit_cobblemon:cosmic_dust");
+  e.create("sunlit_cobblemon:wormhole_generator");
 
   global.cobblemonPreserves.forEach((jar) => {
     if (jar.item.includes("sunlit_cobblemon")) {

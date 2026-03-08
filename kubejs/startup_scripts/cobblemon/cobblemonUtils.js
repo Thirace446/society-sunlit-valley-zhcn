@@ -82,3 +82,26 @@ global.getCurrentSpawnDetails = (level, player, rarity) => {
   let contexts = spawner.resolver.resolve(spawner, spawner.contextCalculators, slice)
   return spawner.getSpawningSelector().getProbabilities(spawner, contexts)
 }
+
+
+global.summonRaidPokemon = (server, level, block, type, variant, raidLevel, spawnedLevel, shiny, hiddenAbility, raidTier, moveUp) => {
+  server.runCommandSilent(`execute in ${level.dimension} run pokespawnat ${block.x} ${block.y + 1} ${block.z} ${type}  ${shiny ? "shiny " : ""}${hiddenAbility ? "hiddenability " : ""}${variant && variant.equals("") ? "" : variant} level=${raidLevel} hp_ev=84 defence_ev=84 special_defence_ev=84 speed_ev=252 uncatchable=yes hp_iv=32 defence_iv=31 special_defence_iv=31 attack_iv=31 special_attack_iv=31 speed_iv=31`);
+  let spawnedPokemon = level.getEntitiesWithin(AABB.ofBlock(level.getBlock(block.getPos())).inflate(0.2)).filter((e) => e.type.equals("cobblemon:pokemon"));
+  if (spawnedPokemon && spawnedPokemon.length > 0) {
+    spawnedPokemon = spawnedPokemon[0];
+    if (moveUp) spawnedPokemon.setDeltaMovement(new Vec3d(0, 1.1, 0));
+    spawnedPokemon.persistentData.raidMon = true;
+    spawnedPokemon.persistentData.raidMonStats = {
+      tier: raidTier,
+      hasHiddenAbility: hiddenAbility,
+      spawnedLevel: spawnedLevel,
+      variant: variant,
+      isShiny: shiny
+    }
+    spawnedPokemon.potionEffects.add("minecraft:glowing", 400, 0, false, false);
+    spawnedPokemon.potionEffects.add("minecraft:slow_falling", 400, 0, false, false);
+    server.runCommandSilent(`scale set 3 ${spawnedPokemon.getUuid().toString()}`)
+    return true;
+  }
+  return false;
+}

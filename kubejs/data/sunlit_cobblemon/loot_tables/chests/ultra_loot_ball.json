@@ -110,6 +110,16 @@
 				},
 				{
 					"type": "item",
+					"name": "sunlit_cobblemon:sun_essence",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "sunlit_cobblemon:mystica_cookie",
+					"weight": 2
+				},
+				{
+					"type": "item",
 					"name": "cobblemon:twisted_spoon",
 					"weight": 2
 				},
