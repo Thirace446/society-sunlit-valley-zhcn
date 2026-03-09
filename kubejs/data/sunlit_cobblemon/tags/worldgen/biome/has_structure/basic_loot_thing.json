@@ -3,6 +3,7 @@
     "#minecraft:is_jungle",
     "#minecraft:is_nether",
     "#minecraft:is_beach",
+    "#minecraft:is_badlands",
     "#forge:is_desert",
     "#minecraft:is_forest",
     "#minecraft:is_mountain",
@@ -15,6 +16,8 @@
     "windswept:lavender_fields",
     "windswept:lavender_hills",
     "windswept:flowering_savanna",
-    "windswept:tundra"
+    "windswept:tundra",
+    "autumnity:maple_forest",
+    "autumnity:pumpkin_fields"
   ]
 }

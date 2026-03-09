@@ -2689,29 +2689,49 @@
 			dependencies: ["1D5ABDB54D158E4D"]
 			icon: "sunlit_cobblemon:fairy_heart"
 			id: "4350C5EFABB9B8A1"
+			min_required_tasks: 1
 			rewards: [{
 				id: "03CCEA55ADD97763"
 				item: "cobblemon:ability_capsule"
 				type: "item"
 			}]
-			tasks: [{
-				action: "catch"
-				amount: 1L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "047E94B437EBE213"
-				poke_ball_used: ""
-				pokemon: "cobblemon:xerneas"
-				pokemon_type: ""
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Catch Xerneas"
+			tasks: [
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "047E94B437EBE213"
+					poke_ball_used: ""
+					pokemon: "cobblemon:xerneas"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					action: "catch"
+					amount: 1L
+					biome: ""
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "56C921D15B17874F"
+					poke_ball_used: ""
+					pokemon: "cobblemon:yveltal"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			title: "Catch Xerneas or Yveltel"
 			x: -14.0d
 			y: 31.5d
 		}

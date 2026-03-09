@@ -140,6 +140,20 @@ ServerEvents.recipes((e) => {
     u: 'oreganized:unknown_device',
     b: 'society:battery'
   });
+  e.shaped('sunlit_cobblemon:blooming_ring', ["StS", "nsc", "SrS"], {
+    S: 'sunlit_cobblemon:sunlit_league_medallion',
+    c: 'society:sunlit_crystal',
+    s: 'sunlit_cobblemon:sun_essence',
+    r: 'society:recycled_core',
+    n: 'society:net_bobber',
+    t: 'domesticationinnovation:collar_tag'
+  });
+  e.shaped('sunlit_cobblemon:cornucopia_of_greed', ["psp", "scs", "SpS"], {
+    p: 'numismatics:prismatic_coin',
+    c: 'society:cornucopia',
+    s: 'sunlit_cobblemon:sun_essence',
+    S: 'sunlit_cobblemon:sunlit_league_medallion',
+  });
   e.custom({
     "type": "farm_and_charm:stove",
     "ingredients": [

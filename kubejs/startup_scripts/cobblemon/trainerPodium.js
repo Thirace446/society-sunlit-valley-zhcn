@@ -52,7 +52,8 @@ global.runTrainerPodium = (entity) => {
     if (spawnTrainer) {
       let levelAverage = Math.min(100, global.getPartyLevel(ownerPlayer));
       let levelTier = global.getPlayerPodiumLevelTier(ownerPlayer, levelAverage);
-      let trainer = global.getRandomTrainer(Math.min(100, levelTier));
+      // let trainer = global.getRandomTrainer(Math.min(100, levelTier));
+      let trainer = "league_caroline3"
       let freshTrainer = level.createEntity("rctmod:trainer");
       let trainerNBT = freshTrainer.getNbt();
       trainerNBT.TrainerId = trainer;

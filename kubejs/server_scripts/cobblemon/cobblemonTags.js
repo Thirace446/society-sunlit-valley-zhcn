@@ -163,6 +163,7 @@ ServerEvents.tags("item", (e) => {
     e.add("sereneseasons:autumn_crops", crop);
   });
   e.add("society:raw_logs", "cobblemon:apricorn_log");
+  e.add("society:fossilish", "#cobblemon:fossils");
 });
 
 ServerEvents.tags("block", (e) => {

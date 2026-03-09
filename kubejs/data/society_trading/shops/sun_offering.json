@@ -16,8 +16,6 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 2
       },
-      "stage_required": "trainer_lvl_1",
-      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_berry_capsule"
     },
     {
@@ -29,8 +27,8 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 8
       },
-      "stage_required": "trainer_lvl_2",
-      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "stage_required": "trainer_lvl_1",
+      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_hp_up"
     },
     {
@@ -42,8 +40,8 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 8
       },
-      "stage_required": "trainer_lvl_2",
-      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "stage_required": "trainer_lvl_1",
+      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_protein"
     },
     {
@@ -55,8 +53,8 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 8
       },
-      "stage_required": "trainer_lvl_2",
-      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "stage_required": "trainer_lvl_1",
+      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_calcium"
     },
     {
@@ -68,8 +66,8 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 8
       },
-      "stage_required": "trainer_lvl_2",
-      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "stage_required": "trainer_lvl_1",
+      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_zinc"
     },
     {
@@ -81,8 +79,8 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 8
       },
-      "stage_required": "trainer_lvl_2",
-      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "stage_required": "trainer_lvl_1",
+      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_cobblemon:carbos"
     },
     {
@@ -94,8 +92,8 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 8
       },
-      "stage_required": "trainer_lvl_2",
-      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "stage_required": "trainer_lvl_1",
+      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_pp_up"
     },
     {
@@ -146,8 +144,6 @@
         "item": "sunlit_cobblemon:sun_drops",
         "count": 32
       },
-      "stage_required": "trainer_lvl_1",
-      "unlock_description": "jei.society_trading.trainer_lvl_1",
       "trade_id": "sun_offering_tm_pack"
     },
     {

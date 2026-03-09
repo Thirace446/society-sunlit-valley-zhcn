@@ -757,8 +757,8 @@
 				type: "item"
 			}]
 			title: "Hunting Legendaries"
-			x: 21.5d
-			y: -0.5d
+			x: 20.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["43DCB8601B40FB9A"]
@@ -818,9 +818,8 @@
 			]
 			id: "4F8153DD174CECBF"
 			rewards: [{
-				count: 4
-				id: "4CDA0F0FCD977645"
-				item: "sunlit_cobblemon:sun_drops"
+				id: "5A266E0E40E68980"
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			tasks: [{
@@ -925,6 +924,52 @@
 			}]
 			x: 15.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["43DCB8601B40FB9A"]
+			id: "539CA5F135AA627D"
+			rewards: [{
+				id: "1D74F3A546FEA876"
+				item: "unimplemented_items:bottle_cap"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A5B42D4BC73403"
+				item: "sunlit_cobblemon:sunlit_league_medallion"
+				type: "item"
+			}]
+			title: "League Bosses"
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["539CA5F135AA627D"]
+			icon: {
+				Count: 1
+				id: "cobblemon:pokemon_model"
+				tag: {
+					aspects: [ ]
+					species: "cobblemon:xerneas"
+				}
+			}
+			id: "7B184B7096AC9BD8"
+			min_required_tasks: 1
+			size: 2.0d
+			tasks: [
+				{
+					id: "4BE66C3803EE3FBC"
+					item: "sunlit_cobblemon:blooming_ring"
+					type: "item"
+				}
+				{
+					id: "2A6FED6856128264"
+					item: "sunlit_cobblemon:cornucopia_of_greed"
+					type: "item"
+				}
+			]
+			title: "Guardians of the Sun"
+			x: 25.0d
+			y: -0.5d
 		}
 	]
 	title: "I.C - Cobblemon"
