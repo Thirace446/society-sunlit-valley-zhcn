@@ -48,47 +48,47 @@ const getNearbyPodium = (level, target) => {
   return level.getBlock(target.onPos.above()).id == "sunlit_cobblemon:trainer_podium";
 };
 
-// ItemEvents.entityInteracted((e) => {
-//   const { hand, player, item, target, level, server } = e;
-//   if (hand == "OFF_HAND") return;
-//   if (target.type !== "rctmod:trainer") return;
-//   if (level.getBlock(target.onPos.above()).id != "sunlit_cobblemon:trainer_podium") {
-//       target.setRemoved("unloaded_to_chunk");
-//       level.spawnParticles(
-//         "species:ascending_dust",
-//         true,
-//         target.x,
-//         target.y + 0.5,
-//         target.z,
-//         0.1 * rnd(1, 4),
-//         0.1 * rnd(1, 4),
-//         0.1 * rnd(1, 4),
-//         10,
-//         0.1
-//       );
-//     e.cancel();
-//   }
-//   let levelAverage = global.getPartyLevel(player);
-//   if (levelAverage > 100) {
-//     server.runCommandSilent(
-//       `emberstextapi sendcustom ${player.username} ${global.animalMessageSettings} 120 Using a legendary or mythical Pokémon isn't allowed by the League...`
-//     );
-//     e.cancel();
-//     return;
-//   }
-//   let currentLevel = global.getPlayerPodiumLevelTier(player, levelAverage);
-//   let trainerLevel = global.getTrainerLevelTier(
-//     target.getNbt().TrainerId.toString()
-//   );
-//   if (trainerLevel !== currentLevel) {
-//     let tooHigh = currentLevel < trainerLevel;
-//     server.runCommandSilent(
-//       `emberstextapi sendcustom ${player.username} ${
-//         global.animalMessageSettings
-//       } 120 This trainer's level is too ${
-//         tooHigh ? "high" : "low"
-//       } for your team! You need an average level of ${trainerLevel + 5}.`
-//     );
-//     e.cancel();
-//   }
-// });
+ItemEvents.entityInteracted((e) => {
+  const { hand, player, item, target, level, server } = e;
+  if (hand == "OFF_HAND") return;
+  if (target.type !== "rctmod:trainer") return;
+  if (level.getBlock(target.onPos.above()).id != "sunlit_cobblemon:trainer_podium") {
+      target.setRemoved("unloaded_to_chunk");
+      level.spawnParticles(
+        "species:ascending_dust",
+        true,
+        target.x,
+        target.y + 0.5,
+        target.z,
+        0.1 * rnd(1, 4),
+        0.1 * rnd(1, 4),
+        0.1 * rnd(1, 4),
+        10,
+        0.1
+      );
+    e.cancel();
+  }
+  let levelAverage = global.getPartyLevel(player);
+  if (levelAverage > 100) {
+    server.runCommandSilent(
+      `emberstextapi sendcustom ${player.username} ${global.animalMessageSettings} 120 Using a legendary or mythical Pokémon isn't allowed by the League...`
+    );
+    e.cancel();
+    return;
+  }
+  let currentLevel = global.getPlayerPodiumLevelTier(player, levelAverage);
+  let trainerLevel = global.getTrainerLevelTier(
+    target.getNbt().TrainerId.toString()
+  );
+  if (trainerLevel !== currentLevel) {
+    let tooHigh = currentLevel < trainerLevel;
+    server.runCommandSilent(
+      `emberstextapi sendcustom ${player.username} ${
+        global.animalMessageSettings
+      } 120 This trainer's level is too ${
+        tooHigh ? "high" : "low"
+      } for your team! You need an average level of ${trainerLevel + 5}.`
+    );
+    e.cancel();
+  }
+});
