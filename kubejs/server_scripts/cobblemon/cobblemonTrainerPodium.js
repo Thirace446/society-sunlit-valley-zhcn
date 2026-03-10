@@ -49,7 +49,7 @@ const getNearbyPodium = (level, target) => {
 };
 
 ItemEvents.entityInteracted((e) => {
-  const { hand, player, item, target, level, server } = e;
+  const { hand, player, target, level, server } = e;
   if (hand == "OFF_HAND") return;
   if (target.type !== "rctmod:trainer") return;
   if (level.getBlock(target.onPos.above()).id != "sunlit_cobblemon:trainer_podium") {
@@ -77,9 +77,7 @@ ItemEvents.entityInteracted((e) => {
     return;
   }
   let currentLevel = global.getPlayerPodiumLevelTier(player, levelAverage);
-  let trainerLevel = global.getTrainerLevelTier(
-    target.getNbt().TrainerId.toString()
-  );
+  let trainerLevel = Number(target.persistentData.levelTier) 
   if (trainerLevel !== currentLevel) {
     let tooHigh = currentLevel < trainerLevel;
     server.runCommandSilent(

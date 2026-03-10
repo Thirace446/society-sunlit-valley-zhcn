@@ -10,9 +10,7 @@ StartupEvents.registry("block", (e) => {
         })
         .model("sunlit_cobblemon:block/raid_statue")
         .item((item) => {
-            item.tooltip(
-                Text.translatable("block.society.sun_raid_statue.description").gray()
-            );
+            item.tooltip(Text.translatable("block.sunlit_cobblemon.sun_raid_statue.description").gray());
             item.modelJson({
                 parent: "sunlit_cobblemon:block/raid_statue",
             });

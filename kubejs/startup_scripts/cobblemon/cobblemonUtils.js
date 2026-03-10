@@ -22,17 +22,6 @@ global.getPartyLevel = (player) => {
   return levelAverage;
 };
 
-global.getTrainerLevelTier = (trainerID) => {
-  let foundLevel = -1;
-  Array.from(trainerBuckets.keys()).forEach((bucket) => {
-    let foundIndex = trainerBuckets
-      .get(bucket)
-      .findIndex((bucketTrainerID) => bucketTrainerID === trainerID);
-    if (foundIndex !== -1) foundLevel = bucket;
-  });
-  return foundLevel;
-};
-
 global.hasScope = (entity) => entity.nbt.ForgeCaps["curios:inventory"].toString().includes("sunlit_cobblemon:silph_scope");
 
 global.rollPokeWeightedTable = (table) => {

@@ -322,7 +322,33 @@
       "numismatics_cost": 163840,
       "stage_required": "trainer_lvl_5",
       "unlock_description": "jei.society_trading.trainer_lvl_5",
-      "trade_id": "pmart_healing_machine"
+      "trade_id": "pmart_trainer_podium"
+    },
+    {
+      "offer": {
+        "item": "unimplemented_items:bottle_cap",
+        "count": 1
+      },
+      "request": {
+        "item": "sunlit_cobblemon:sunlit_league_medallion",
+        "count": 1
+      },
+      "stage_required": "trainer_lvl_5",
+      "unlock_description": "jei.society_trading.trainer_lvl_5",
+      "trade_id": "pmart_bottle_caps"
+    },
+    {
+      "offer": {
+        "item": "sunlit_cobblemon:greater_tm_pack",
+        "count": 1
+      },
+      "request": {
+        "item": "sunlit_cobblemon:sunlit_league_medallion",
+        "count": 1
+      },
+      "stage_required": "trainer_lvl_5",
+      "unlock_description": "jei.society_trading.trainer_lvl_5",
+      "trade_id": "pmart_greater_tm_pack"
     },
     {
       "offer": {

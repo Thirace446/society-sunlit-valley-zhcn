@@ -23,7 +23,16 @@
     }
   ],
   "lookup_history": [
+    "item:sunlit_cobblemon:greater_tm_pack",
+    "item:sunlit_cobblemon:prismatic_tm_pack",
     "item:sunlit_cobblemon:sunlit_league_medallion",
+    "item:botania:brewery",
+    "item:society:botanical_tribute",
+    "item:minecraft:dragon_breath",
+    "item:minecraft:honey_bottle",
+    "item:domesticationinnovation:pet_bed_white",
+    "item:railways:flat_slashed_locometal",
+    "item:cobblemon:rare_candy",
     "item:farmersdelight:stuffed_pumpkin_block",
     "item:cobblemon:sail_fossil",
     "item:cobblemon:jaw_fossil",
@@ -325,8 +334,6 @@
     "item:minecraft:oak_planks",
     "item:quark:stripped_oak_post",
     "item:sunlit_cobblemon:tm_pack",
-    "item:sunlit_cobblemon:greater_tm_pack",
-    "item:sunlit_cobblemon:prismatic_tm_pack",
     "item:society:jade",
     "item:minecraft:diamond",
     "item:numismatics:cog",
@@ -401,7 +408,6 @@
       "id": "vintagedelight:honey_mason_jar",
       "amount": 16
     },
-    "item:minecraft:honey_bottle",
     {
       "type": "item",
       "id": "windswept:pinecone_jam_bottle",
@@ -759,7 +765,6 @@
       "amount": 0
     },
     "item:cobblemon:green_mint_leaf",
-    "item:cobblemon:rare_candy",
     {
       "type": "fluid",
       "id": "create_klinks_n_klangs:liquid_max_potion",
@@ -1663,12 +1668,7 @@
     "item:farmersdelight:nether_salad",
     "item:windswept:holly_berries",
     "item:species:wicked_swapper",
-    "item:society:sap",
-    "item:society:oak_resin",
-    "item:society:crystal_of_regret_husbandry",
-    "item:society:modern_catalog",
-    "item:society:deepslate_sparkstone_ore",
-    "item:candlelight:love_letter_open"
+    "item:society:sap"
   ],
   "craft_history": [
     "meadow:fire_log",

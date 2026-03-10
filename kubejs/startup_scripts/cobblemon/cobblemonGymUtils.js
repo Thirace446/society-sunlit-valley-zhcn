@@ -459,6 +459,13 @@ global.getPlayerPodiumLevelTier = (player, partyLevel) =>
   Math.max(
     10,
     Math.round(partyLevel / 5) * 5 +
-      Math.floor(player.persistentData.winStreak / 10) * 5 -
-      5,
+    Math.floor(player.persistentData.winStreak / 10) * 5 -
+    5,
   );
+
+const leagueBosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria"];
+
+global.getLeagueBoss = (levelBucket) => {
+  let bossNumber = Math.max(1, Math.floor(levelBucket / 10) - 1);
+  return `league_${leagueBosses[rnd(0, leagueBosses.length - 1)]}${bossNumber}`;
+};

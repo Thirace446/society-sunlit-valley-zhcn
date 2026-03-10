@@ -154,38 +154,20 @@ ItemEvents.tooltip((tooltip) => {
     Text.translatable("tooltip.sunlit_cobblemon.prismatic_tm_pack.description").green(),
   );
 
-  tooltip.add(
-    "sunlit_cobblemon:berry_capsule",
-    Text.translatable("tooltip.society.right_click_open").gray()
-  );
-  tooltip.add(
-    "sunlit_cobblemon:berry_capsule",
-    Text.translatable(
-      `tooltip.sunlit_cobblemon.berry_capsule.description`,
-    ).gray());
+  // Misc
+  tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable("tooltip.society.right_click_open").gray());
+  tooltip.add( "sunlit_cobblemon:berry_capsule", Text.translatable(`tooltip.sunlit_cobblemon.berry_capsule.description`).gray());
 
-  tooltip.add('sunlit_cobblemon:sun_drops',
-    Text.translatable(
-      `tooltip.sunlit_cobblemon.sun_drops.description`,
-    ).gray());
-  tooltip.add('sunlit_cobblemon:mystica_branch',
-    Text.translatable(
-      `tooltip.sunlit_cobblemon.mystica_branch.description`,
-    ).gray());
+  tooltip.add('sunlit_cobblemon:sun_drops', Text.translatable(`tooltip.sunlit_cobblemon.sun_drops.description`).gray());
+  tooltip.add('sunlit_cobblemon:mystica_branch', Text.translatable(`tooltip.sunlit_cobblemon.mystica_branch.description`).gray());
 
-  tooltip.add(
-    'sunlit_cobblemon:sun_essence',
-    Text.translatable(
-      `tooltip.sunlit_cobblemon.sun_essence.description`,
-    ).gray());
+  tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
   tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
-  tooltip.add(
-    'sunlit_cobblemon:mystica_cookie',
-    Text.translatable(
-      `tooltip.sunlit_cobblemon.sun_essence.description`,
-    ).gray());
 
+  tooltip.add('sunlit_cobblemon:mystica_cookie',  Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
   tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  tooltip.add('sunlit_cobblemon:sunlit_league_medallion', Text.translatable(`tooltip.sunlit_cobblemon.sunlit_league_medallion.description`).gray());
+  
   [
     "ability_capsule", "ability_patch",
   ].forEach((item) => {

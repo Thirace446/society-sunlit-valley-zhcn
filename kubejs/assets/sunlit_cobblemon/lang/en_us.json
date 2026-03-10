@@ -26,6 +26,9 @@
   "sunlit_cobblemon.wormhole_generator.hint.blacephalon": "Wormhole Generator detecting bursts of energy in the area",
   "sunlit_cobblemon.wormhole_generator.hint.xurkitree": "Wormhole Generator detecting sharp electricity in the area",
   
+  "block.sunlit_cobblemon.trainer_podium.description": "Invites Trainers to your Gym. Their levels will match the average of your party",
+  "block.sunlit_cobblemon.sun_raid_statue.description": "Summons a sun raid Pokémon once a day.\nShift + Right click to activate the altar",
+
   "tooltip.sunlit_cobblemon.silph_scope.description": "Allows Pokémon to spawn around you",
   "tooltip.sunlit_cobblemon.silph_scope.description.equip": "Right click to equip!",
   "tooltip.sunlit_cobblemon.poke_bobber.description": "Fishes up a common Pokémon with every catch",
@@ -42,6 +45,7 @@
   "tooltip.sunlit_cobblemon.mystica_branch.description": "Rarely dropped from high tier Pokémon infused with the power of the sun",
   "tooltip.sunlit_cobblemon.mystica_cookie.description": "Offer to a Sun Raid Statue to lure in a different Pokémon from the current spawn pool and tier",
   "tooltip.sunlit_cobblemon.sun_essence.description": "Offer to a Sun Raid Statue to upgrade its tier by 1 without changing the current Pokémon",
+  "tooltip.sunlit_cobblemon.sunlit_league_medallion.description": "Won from Sunlit League trainers that appear every 10 wins in a row from the trainer podium",
 
   "tooltip.sunlit_cobblemon.gachamon_capsule.description": "Spawns a random Pokémon from a preset pool alongside a bonus pool",
   "tooltip.sunlit_cobblemon.gachamon_capsule.guaranteed": "Guaranteed set Pokémon",

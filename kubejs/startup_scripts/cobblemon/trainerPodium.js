@@ -52,8 +52,13 @@ global.runTrainerPodium = (entity) => {
     if (spawnTrainer) {
       let levelAverage = Math.min(100, global.getPartyLevel(ownerPlayer));
       let levelTier = global.getPlayerPodiumLevelTier(ownerPlayer, levelAverage);
-      // let trainer = global.getRandomTrainer(Math.min(100, levelTier));
-      let trainer = "league_caroline3"
+      let trainer
+      ownerPlayer.persistentData.winStreak = 10
+      if (ownerPlayer.persistentData.winStreak % 10 === 0) {
+        trainer = global.getLeagueBoss(Math.min(100, levelTier))
+      } else {
+        trainer = global.getRandomTrainer(Math.min(100, levelTier));
+      }
       let freshTrainer = level.createEntity("rctmod:trainer");
       let trainerNBT = freshTrainer.getNbt();
       trainerNBT.TrainerId = trainer;
@@ -64,6 +69,7 @@ global.runTrainerPodium = (entity) => {
         Number(block.z) + 0.5,
       ];
       freshTrainer.setNbt(trainerNBT);
+      freshTrainer.persistentData.levelTier = levelTier
       freshTrainer.spawn();
       level.spawnParticles(
         "species:ascending_dust",
@@ -87,11 +93,11 @@ StartupEvents.registry("block", (event) => {
     .tagBlock("minecraft:mineable/pickaxe")
     .tagBlock("minecraft:mineable/axe")
     .tagBlock("minecraft:needs_stone_tool")
-    .box(0, 0, 0, 18, 2, 18)
+    .box(1, 0, 1, 15, 2, 15)
     .defaultCutout()
     .item((item) => {
-      item.tooltip(Text.gray("Invites Trainers to your Gym. Their levels"));
-      item.tooltip(Text.gray("will match the average of your party"));
+      item.tooltip(Text.translatable("block.sunlit_cobblemon.trainer_podium.description").gray());
+      item.tooltip(Text.gray(""));
       item.modelJson({
         parent: "sunlit_cobblemon:block/trainer_podium",
       });
@@ -99,7 +105,7 @@ StartupEvents.registry("block", (event) => {
     .model("sunlit_cobblemon:block/trainer_podium")
     .blockEntity((blockInfo) => {
       blockInfo.enableSync();
-      blockInfo.initialData({ owner: "-1" });
+      blockInfo.initialData({ owner: "-1", trainer: "" });
       blockInfo.serverTick(600, 0, (entity) => {
         global.runTrainerPodium(entity);
       });

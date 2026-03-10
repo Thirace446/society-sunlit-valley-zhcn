@@ -1,6 +1,5 @@
 {
-
-  "displayName": "League Leon",
+  "displayName": "Sunlit League Aiden",
   "team": [
     {
       "species": "cobblemon:pawmot",
@@ -113,13 +112,13 @@
       "species": "cobblemon:lanturn",
       "gender": "FEMALE",
       "level": 60,
-      "nature": "cobblemon:gentle",
-      "ability": "illuminate",
+      "nature": "cobblemon:sassy",
+      "ability": "punkrock",
       "moveset": [
-        "bubblebeam",
-        "signalbeam",
-        "aquaring",
-        "electroball"
+        "thundershock",
+        "acidspray",
+        "toxic",
+        "venoshock"
       ],
       "ivs": {
         "hp": 19,
@@ -130,7 +129,7 @@
       },
       "evs": {},
       "shiny": false,
-      "heldItem": "cobblemon:leftovers",
+      "heldItem": "cobblemon:black_sludge",
       "aspects": [
         "female"
       ]
