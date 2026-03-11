@@ -240,7 +240,7 @@
 		{
 			dependencies: ["60A705547AE0B95E"]
 			description: [
-				"The &6Mystery Mine&r is a block that workers to enter to obtain various resources. It's a long trip, so they'll need a steady supply of Cobble Berries! The more expensive the berry, the better the loot."
+				"The &6Mystery Mine&r is a block that workers enter to obtain various resources. It's a long trip, so they'll need a steady supply of Cobble Berries! The more expensive the berry, the better the loot."
 				""
 				"- &6Ground&r - Digs for archeology drops"
 				"- &6Rock&r - Mines for Overworld, Nether, and Skull Cavern ores (dimensional ones require certain foods)"
@@ -579,7 +579,6 @@
 				item: "cobblemon:relic_coin_pouch"
 				type: "item"
 			}]
-			subtitle: "Press K to level up Trainer Level"
 			tasks: [{
 				icon: "twigs:twig"
 				id: "1ACAD6973ECFAD65"
@@ -750,6 +749,11 @@
 		}
 		{
 			dependencies: ["43DCB8601B40FB9A"]
+			description: [
+				"Legendaries are a work in progress and will probably look very different in the final release."
+				""
+				"For now make the star pixie!"
+			]
 			id: "4441EAF3D8A0A3CB"
 			tasks: [{
 				id: "1DA944B5A3C4675B"
@@ -812,7 +816,6 @@
 				"Scattered around the world are &6Sun Raid Statues&r, mysterious shrines that summon powerful sun-infused Pokémon when activated using &6Shift + Right Click&r. They cannot be caught until defeated in battle once."
 				""
 				"The power and rarity of the spawned Pokémon will depend on its &6tier&r and the current spawn pool when activated for the first time. "
-				""
 				""
 				"They can be activated once a day."
 			]
@@ -927,12 +930,20 @@
 		}
 		{
 			dependencies: ["43DCB8601B40FB9A"]
+			description: [
+				"Every 10 wins in a row from trainers that come to your &6Trainer Podium&r, you'll be faced with a trainer from the &6Sunlit League&r."
+				""
+				"These trainers are extra challenging, with a full and thought-out team. "
+				""
+				"Winning against these trainers will give you proof that you're fit to lead a gym: &6Sunlit League Medalions&r! These can be exchanged for a few rare items or just shown off."
+			]
 			id: "539CA5F135AA627D"
 			rewards: [{
 				id: "1D74F3A546FEA876"
 				item: "unimplemented_items:bottle_cap"
 				type: "item"
 			}]
+			subtitle: "You've been audited!"
 			tasks: [{
 				id: "74A5B42D4BC73403"
 				item: "sunlit_cobblemon:sunlit_league_medallion"
@@ -944,6 +955,13 @@
 		}
 		{
 			dependencies: ["539CA5F135AA627D"]
+			description: [
+				"The &6Blooming Ring&r and &6Cornucopia of Greed&r are the secret artifacts of the valley, created from mastery of farming and capitalism."
+				""
+				"They are offered to a &6Sun Raid Statue&r to summon sunlit forms of &6Xerneas&r and &6Yveltal&r respectively."
+				""
+				"The Sunlit League has awarded you a &dMaster Ball&r to catch one of these Pokémon, once their sun-infused form is defeated."
+			]
 			icon: {
 				Count: 1
 				id: "cobblemon:pokemon_model"
@@ -954,7 +972,13 @@
 			}
 			id: "7B184B7096AC9BD8"
 			min_required_tasks: 1
+			rewards: [{
+				id: "56E1F9BB08669E08"
+				item: "cobblemon:master_ball"
+				type: "item"
+			}]
 			size: 2.0d
+			subtitle: "&oRecommended level: 60-80&r"
 			tasks: [
 				{
 					id: "4BE66C3803EE3FBC"
@@ -970,6 +994,45 @@
 			title: "Guardians of the Sun"
 			x: 25.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"12A48976D7B8F138"
+				"2B6877708A709B5C"
+			]
+			description: [
+				"Pokémon spawns are broken down into buckets named: &6Common&r, &6Uncommon&r, &6Rare&r, and &6Ultra-Rare&r. Each Pokémon has a different chance to spawn within its bucket! "
+				""
+				"This can make searching for specific Pokémon difficult, but the &6Poké-Radar&r is here to help!"
+				""
+				"It can be worn to show the spawnable Pokémon on your screen as well, though setting your radar to &6Common&r will end up filling your screen most of the time. "
+			]
+			id: "5DCA4E4E712454CA"
+			rewards: [{
+				id: "77DE9610CF2EC259"
+				item: {
+					Count: 1
+					id: "sunlit_cobblemon:poke_radar"
+					tag: {
+						rarity: "ultra-rare"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A3A4E657A05B41D"
+				item: {
+					Count: 1
+					id: "sunlit_cobblemon:poke_radar"
+					tag: {
+						rarity: "ultra-rare"
+					}
+				}
+				type: "item"
+			}]
+			title: "Scanning for Mons"
+			x: 17.0d
+			y: -2.0d
 		}
 	]
 	title: "I.C - Cobblemon"

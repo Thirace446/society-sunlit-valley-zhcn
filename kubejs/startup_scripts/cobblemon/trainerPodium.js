@@ -53,7 +53,6 @@ global.runTrainerPodium = (entity) => {
       let levelAverage = Math.min(100, global.getPartyLevel(ownerPlayer));
       let levelTier = global.getPlayerPodiumLevelTier(ownerPlayer, levelAverage);
       let trainer
-      ownerPlayer.persistentData.winStreak = 10
       if (ownerPlayer.persistentData.winStreak % 10 === 0) {
         trainer = global.getLeagueBoss(Math.min(100, levelTier))
       } else {
@@ -97,7 +96,6 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout()
     .item((item) => {
       item.tooltip(Text.translatable("block.sunlit_cobblemon.trainer_podium.description").gray());
-      item.tooltip(Text.gray(""));
       item.modelJson({
         parent: "sunlit_cobblemon:block/trainer_podium",
       });

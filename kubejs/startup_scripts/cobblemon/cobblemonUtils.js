@@ -1,5 +1,6 @@
 // priority: -21
 console.info("[SOCIETY-S-COBBLEMON] cobblemonUtils.js loaded");
+
 const $CobblemonAPI = Java.loadClass("com.cobblemon.mod.common.Cobblemon").INSTANCE;
 
 global.getPlayerParty = (player) => $CobblemonAPI.getStorage().getParty(player.uuid);

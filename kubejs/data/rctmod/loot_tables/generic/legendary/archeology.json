@@ -69,10 +69,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_upgrade_smithing_template"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cobblemon:ancient_origin_ball"
         }
       ]
     }

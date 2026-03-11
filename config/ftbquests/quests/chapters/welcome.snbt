@@ -111,8 +111,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.welcome.quest7A7B131D229E5279.title}"
-			x: 0.0d
-			y: -2.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2B6877708A709B5C"]
@@ -348,6 +348,26 @@
 			title: "{ftbquests.chapter.welcome.quest5FDA526D348C8A0F.title}"
 			x: 2.5d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2B6877708A709B5C"]
+			description: [
+				"&6Society: Sunlit Valley&r is a modpack made on Minecraft 1.20.1, and it's what this modpack is built on!"
+				""
+				"The Cobblemon team no longer maintains the 1.20.1 version of the mod, so features you may be expecting from newer versions might not be present here!"
+				""
+				"&6The Sunlit Cobblemon team has opted to backport features from the newer versions of Cobblemon instead or bringing the pack forward!&r  "
+			]
+			icon: "cobblemon:poke_ball"
+			id: "4CD7DF94AD736993"
+			tasks: [{
+				id: "18F589F1324790A9"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "Not on the latest version of Cobblemon?"
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	title: "{ftbquests.chapter.welcome.title}"

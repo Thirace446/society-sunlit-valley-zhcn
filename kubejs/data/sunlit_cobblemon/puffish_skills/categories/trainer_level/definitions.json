@@ -1,7 +1,7 @@
 {
   "twig": {
     "title": "Twig",
-    "description": "New Poké Mart consumables\nNew Poké Mart consumables\n§d+2 Worker slots",
+    "description": "New Poké Mart consumables\n§d+2 Worker slots",
     "icon": {
       "type": "item",
       "data": {
@@ -28,7 +28,7 @@
   },
   "rock": {
     "title": "Rock",
-    "description": "§d+2 Worker slots",
+    "description": "Poké-Radar sold in the Poké Mart§d+2 Worker slots",
     "icon": {
       "type": "item",
       "data": {
@@ -55,7 +55,7 @@
   },
   "iron": {
     "title": "Iron",
-    "description": "New Poké Mart consumables\nGreat Poké Bobber\nBall Botique\n§d+2 Worker slots",
+    "description": "New Poké Mart consumables\nGreat Poké Bobber sold in the Poké Mart\nBall Botique\n§d+2 Worker slots",
     "icon": {
       "type": "item",
       "data": {
@@ -136,7 +136,7 @@
   },
   "iridium": {
     "title": "Iridium",
-    "description": "New Poké Mart consumables\nUltra Poké Bobber\n§d+2 Worker slots",
+    "description": "New Poké Mart consumables\nUltra Poké Bobber sold in the Poké Mart\n§d+2 Worker slots",
     "icon": {
       "type": "item",
       "data": {
@@ -163,7 +163,7 @@
   },
   "ancient": {
     "title": "Ancient",
-    "description": "New Poké Mart consumables\nUltra Poké Bobber\n§d+2 Worker slots",
+    "description": "New Poké Mart consumables\nUltra Poké Bobber sold in the Poké Mart\n§d+2 Worker slots",
     "icon": {
       "type": "item",
       "data": {
@@ -190,7 +190,7 @@
   },
   "prismatic": {
     "title": "Prismatic",
-    "description": "Master Poké Bobber\n+4 Worker slots",
+    "description": "Master Poké Bobber sold in the Poké Mart\n+4 Worker slots",
     "icon": {
       "type": "item",
       "data": {

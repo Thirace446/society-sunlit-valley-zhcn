@@ -156,7 +156,7 @@ ItemEvents.tooltip((tooltip) => {
 
   // Misc
   tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable("tooltip.society.right_click_open").gray());
-  tooltip.add( "sunlit_cobblemon:berry_capsule", Text.translatable(`tooltip.sunlit_cobblemon.berry_capsule.description`).gray());
+  tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable(`tooltip.sunlit_cobblemon.berry_capsule.description`).gray());
 
   tooltip.add('sunlit_cobblemon:sun_drops', Text.translatable(`tooltip.sunlit_cobblemon.sun_drops.description`).gray());
   tooltip.add('sunlit_cobblemon:mystica_branch', Text.translatable(`tooltip.sunlit_cobblemon.mystica_branch.description`).gray());
@@ -164,10 +164,20 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
   tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
 
-  tooltip.add('sunlit_cobblemon:mystica_cookie',  Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
+  tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
   tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   tooltip.add('sunlit_cobblemon:sunlit_league_medallion', Text.translatable(`tooltip.sunlit_cobblemon.sunlit_league_medallion.description`).gray());
-  
+
+  tooltip.add('sunlit_cobblemon:poke_radar', Text.translatable(`tooltip.sunlit_cobblemon.poke_radar.description`).gray());
+  tooltip.add('sunlit_cobblemon:poke_radar', Text.translatable(`tooltip.sunlit_cobblemon.poke_radar.left_click`).gray());
+  tooltip.add('sunlit_cobblemon:poke_radar', Text.translatable(`tooltip.sunlit_cobblemon.poke_radar.right_click`).gray());
+  tooltip.add('sunlit_cobblemon:poke_radar', Text.translatable(`tooltip.sunlit_cobblemon.poke_radar.shift_right_click`).gray());
+
+  tooltip.add('sunlit_cobblemon:blooming_ring', Text.translatable(`tooltip.blooming_ring.description`).gray());
+  tooltip.add('sunlit_cobblemon:blooming_ring', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  tooltip.add('sunlit_cobblemon:cornucopia_of_greed', Text.translatable(`tooltip.cornucopia_of_greed.description`).gray());
+  tooltip.add('sunlit_cobblemon:cornucopia_of_greed', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+
   [
     "ability_capsule", "ability_patch",
   ].forEach((item) => {
@@ -307,18 +317,18 @@ ItemEvents.tooltip((tooltip) => {
 
   tooltip.addAdvanced("sunlit_cobblemon:wormhole_generator",
     (item, advanced, text) => {
-      text.add(1, [
-        Text.translatable("sunlit_cobblemon.society.wormhole_generator.description").gray(),
-      ]);
+      text.add(1, [Text.translatable("sunlit_cobblemon.society.wormhole_generator.description").gray()]);
+      text.add(2, [Text.translatable("sunlit_cobblemon.society.wormhole_generator.right_click").gray()]);
+      text.add(3, [Text.translatable("sunlit_cobblemon.society.wormhole_generator.shift_right_click").gray()]);
       if (item.nbt) {
-        text.add(2, [
+        text.add(4, [
           Text.translatable(
             "sunlit_cobblemon.society.wormhole_generator.dust_count",
             item.nbt.dust
           ).darkPurple(),
         ]);
       } else {
-        text.add(2, [
+        text.add(4, [
           Text.translatable(
             "sunlit_cobblemon.society.wormhole_generator.dust_count",
             0

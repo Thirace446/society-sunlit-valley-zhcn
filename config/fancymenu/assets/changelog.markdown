@@ -1,21 +1,33 @@
 ^^^
 ## Sunlit Cobblemon
-### vPLAYTEST-7-1.0.0-HOTFIX-2
+### vPLAYTEST-8-1.0.0-SSV4.0.4
 ^^^
 --- 
-- Updated to match Sunlit Valley 4.0 playtest
-- Added tooltips to most Cobblemon items
-- Improved trainer tier rewards
-- Fixed multiplyer messages, please report any ones missed!
-- Fixed streak message being wrong
-- Fixed Cornucopia
-- Fixed pristine type gems not converting into normal
-- Bunch of 4.0 specific fixes
 
+
+- Updated to Sunlit Valley 4.0.4
+- Added Poke Radar, an item with similar properties to the Fish Radar for viewing nearby Pokemon (Please use this opportunity to report biomes with lackluster spawn pools!)
+* Added loot poke balls to many structures and the Skull Cavern
+* Added Sun Raid statues to worldgen for spawning Sun Raid Pokemon
+* Added Sun Drop and Mystica Branch as Sun Raid Pokemon drops
+* Added Sun Offering shop to trade Sun Raid drops for powerful/useful items 
+* Added capture experience
+* Added League Bosses every 10 wins to the Trainer Podium
+* Added Cornucopia of Greed for summoning Yveltal and Blooming Ring for summoning Xerneas sun battles
+* Added Bottlecaps - IV maxing item to Sun Offering shop
+* Added Dry Root - EV resetting item to Sun Offering shop
+* Added Wormhole Generator and Cosmic Dust for summoning Ultra-Beasts
+* Added ability for Ribbit Huts to harvest cobblemon crops (not apricorns as they are categorized as tree fruits)
+* Updated master ball recipe
+- Trainer levels will now be auto-allocated instead of manually
+* Filled out the rare Pokemon tab  
+* Fixed Lavender and maple biomes not really having any Pokemon spawns
+* Fixed pumpkin Pokemon not spawning in the pumpkin biome
+- Fixed items from being used on certain Pokemon (lasso, masks)
 ---
 ^^^
 ## Heart of the Community
-### SSV v4.0.0
+### SSV v4.0.4
 ^^^
 --- 
 ## 4.0.4
@@ -217,6 +229,16 @@
 - Fixed certain farm animal drops not having quality
 - Fixed Garlic Clove being plantable
 - Fixed exploits
+
+### Playtest 7
+- Updated to match Sunlit Valley 4.0 playtest
+- Added tooltips to most Cobblemon items
+- Improved trainer tier rewards
+- Fixed multiplyer messages, please report any ones missed!
+- Fixed streak message being wrong
+- Fixed Cornucopia
+- Fixed pristine type gems not converting into normal
+- Bunch of 4.0 specific fixes
 
 ### Playtest 6
 - Most of this playtest version revolves around Sunlit Valley 4.0! Refer to the changelog below before posting issues!

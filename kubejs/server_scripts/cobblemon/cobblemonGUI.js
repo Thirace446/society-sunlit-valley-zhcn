@@ -2,18 +2,36 @@ console.info("[SOCIETY] cobblemonGUI.js loaded");
 
 const pokeRadarPadding = 2;
 
+const $PokemonSpecies = Java.loadClass("com.cobblemon.mod.common.api.pokemon.PokemonSpecies").INSTANCE;
+
+const formMap = new Map([
+    ["deerling", "spring"],
+    ["sawsbuck", "spring"],
+    ["oinkologne", "female"],
+    ["vileplume", "female"],
+    ["florges", "red"],
+    ["floette", "red"],
+    ["flabebe", "red"],
+    ["unown", "c"],
+]);
+
 PlayerEvents.tick((e) => {
     const { player, level } = e;
     const curios = player.nbt.ForgeCaps["curios:inventory"];
 
-    if (player.age % 60 == 0 && curios.toString().includes("sunlit_cobblemon:poke_radar")) {
+    if (player.age % 200 == 0 && curios.toString().includes("sunlit_cobblemon:poke_radar")) {
 
         let rarityMatch = /{rarity:"([^"]*)"/.exec(curios.toString());
         let mons = [];
         let spawnDetails = global.getCurrentSpawnDetails(level, player, rarityMatch ? rarityMatch[1] : "common");
 
         spawnDetails.forEach((entry) => {
-            let foundMon = entry.getId().split("-")[0]
+            let identifier = entry.getPokemon().species;
+            let species = $PokemonSpecies.getByName(identifier);
+            let variant = formMap.get(`${identifier}`)
+
+            let foundMon = `${String(species.nationalPokedexNumber).padStart(4, '0')}_${identifier}/${identifier}${variant ? `_${variant}` : ""}`
+            console.log(foundMon)
             if (!mons.includes(foundMon)) mons.push(foundMon);
         })
         let pokeRadarStart = 4;
@@ -21,7 +39,7 @@ PlayerEvents.tick((e) => {
             pokeRadarDisplay: {
                 type: "text",
                 x: pokeRadarPadding,
-                y: pokeRadarStart,
+                y: pokeRadarStart + 8,
                 text:
                     `${Text.of("=[ ").gray()
                         .append(Text.translatable("item.sunlit_cobblemon.poke_radar").red())
@@ -44,7 +62,7 @@ PlayerEvents.tick((e) => {
                 h: 64,
                 x: (index % 12) * 18 - 96,
                 y: Math.floor(index / 12) * 18,
-                texture: "cobblemon:textures/gui/sprite/" + mon + ".png",
+                texture: "cobblemon:textures/entity_icon/" + mon + ".png",
                 alignX: "center",
                 alignY: "top",
             };

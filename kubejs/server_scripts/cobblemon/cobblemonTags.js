@@ -185,4 +185,18 @@ ServerEvents.tags("block", (e) => {
   e.add("society:raw_logs", "cobblemon:apricorn_log");
   e.add("minecraft:crops", "#cobblemon:berries");
   e.add("minecraft:dirt", "#dewdrop:waterable");
+
+  e.add("society:ribbit_hut_harvests", "#cobblemon:berries");
+  [
+    "cobblemon:blue_mint",
+    "cobblemon:cyan_mint",
+    "cobblemon:red_mint",
+    "cobblemon:white_mint",
+    "cobblemon:green_mint",
+    "cobblemon:pink_mint",
+    "cobblemon:revival_herb",
+    "cobblemon:vivichoke_seeds"
+  ].forEach((crop) => {
+    e.add("society:ribbit_hut_harvests", crop);
+  });
 });

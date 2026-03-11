@@ -1,6 +1,6 @@
 {
     "name": "Society Sunlit Cobblemon",
-    "version": "PLAYTEST-7-1.0.0-HOTFIX-2",
+    "version": "PLAYTEST-8-1.0.0-SSV4.0.4",
     "overrides": [
         "config",
         "defaultconfigs",
@@ -88,6 +88,9 @@
             "side": "CLIENT"
         },
         "more-overlays-updated": {
+            "side": "CLIENT"
+        },
+        "seasonhud": {
             "side": "CLIENT"
         },
         "mouse-tweaks": {

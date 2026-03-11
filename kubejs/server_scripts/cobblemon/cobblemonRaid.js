@@ -41,6 +41,7 @@ const displayStats = (player, raidLevel, nbt) => {
     player.tell(`Tier: ${nbt.data.tier} | Pokemon: ${nbt.data.type.equals("") ? "Unknown" : Text.translate(`cobblemon.species.${nbt.data.type}.name`).getString()} | Raid Level ${raidLevel} | Level: ${nbt.data.level} | Shiny Chance: ${Number(tierStats.shinyChance * 100).toFixed(2)}% | Hidden Ability Chance: ${Number(tierStats.hiddenAbilityChance * 100).toFixed(2)}%`)
 
 }
+
 const initializeSunRaid = (level, block, player) => {
     let nbt = block.getEntityData();
     let foundTier = Number(nbt.data.tier)
@@ -60,6 +61,66 @@ const initializeSunRaid = (level, block, player) => {
     });
     global.setBlockEntityData(block, nbt);
 }
+
+const legendaryEffects = (server, level, delay, count, x, y, z) => {
+    for (let i = 0; i < count; i++) {
+        server.scheduleInTicks(delay * i * (i / 2), () => {
+            server.runCommandSilent(`playsound botania:starcaller block @a ${x} ${y} ${z} 3 0.3`);
+            server.runCommandSilent(`execute in ${level.dimension} run summon lightning_bolt ${x} ${y} ${z}`);
+            level.spawnParticles(
+                "species:ascending_spectre_smoke",
+                true,
+                x,
+                y + 1.5,
+                z,
+                0.5 * rnd(0, 10),
+                0.5 * rnd(0, 10),
+                0.5 * rnd(0, 10),
+                20,
+                0.01
+            );
+            level.spawnParticles(
+                "species:hanger_crit",
+                true,
+                x,
+                y + 1.5,
+                z,
+                0,
+                0.5 * rnd(0, 1),
+                0,
+                1,
+                0.01
+            );
+        });
+    }
+}
+const summonRaidLegendary = (level, server, player, item, block, legendaryToSummon, raidLevel) => {
+    const { x, y, z } = block;
+    let delay = 2;
+    let count = 16;
+    server.runCommandSilent(`playsound botania:babylon_spawn block @a ${x} ${y} ${z} 3 0.3`);
+    legendaryEffects(server, level, delay, count, x, y, z);
+    let idUsed = item.id
+    item.shrink(1)
+    global.addItemCooldown(player, item, (delay * count * (count / 2)) + 20);
+    server.scheduleInTicks(delay * count * (count / 2), () => {
+        let spawnedAny = global.summonRaidPokemon(server, level, block, legendaryToSummon, "", Math.max(80, raidLevel), 45, false, false, 0);
+        if (spawnedAny) {
+            server.runCommandSilent(`playsound cobblemon:poke_ball.send_out block @a ${x} ${y} ${z} 2`);
+            server.runCommandSilent(`playsound species:effect.gut_feeling.applied block @a ${x} ${y} ${z} 2`);
+            server.runCommandSilent(`playsound botania:babylon_spawn block @a ${x} ${y} ${z} 2`);
+            level.spawnParticles("species:ghoul_searching2", true, x + 0.5, y + 2, z + 0.5, 0, 0, 0, 1, 2);
+            global.addItemCooldown(player, item, 1200);
+        } else {
+            player.give(idUsed);
+        }
+    })
+}
+
+const sunLegendaries = new Map([
+    ["sunlit_cobblemon:blooming_ring", "xerneas"],
+    ["sunlit_cobblemon:cornucopia_of_greed", "yveltal"],
+]);
 
 BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
     const { block, hand, player, level, item, server } = e;
@@ -99,13 +160,24 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
         return;
     }
     let day = global.getDay(level);
+    let spawnBlock = level.getBlock(block.getPos().offset(0, 1, 0));
     let raidLevel = Math.min(100, global.getPartyLevel(player) + (5 * (Number(nbt.data.tier) + 1)))
+    let legendaryToSummon = sunLegendaries.get(`${item.id}`);
+    const canSpawnToday = !nbt.data || !nbt.data.dayLastRaided || global.compareDay(day, nbt.data.dayLastRaided, 1)
     // let raidLevel = 1;
-    if (player.isCrouching() && level.getEntitiesWithin(AABB.ofBlock(level.getBlock(block.getPos())).inflate(2)).filter((e) => e.type.equals("cobblemon:pokemon")).length !== 0) {
-        player.tell(Text.translatable("sunlit_cobblemon.sun_raid.clear_area").red());
+    if (canSpawnToday || legendaryToSummon) {
+        if (player.isCrouching() && level.getEntitiesWithin(AABB.ofBlock(level.getBlock(block.getPos())).inflate(2)).filter((e) => e.type.equals("cobblemon:pokemon")).length !== 0) {
+            player.tell(Text.translatable("sunlit_cobblemon.sun_raid.clear_area").red());
+            return;
+        } else if (!spawnBlock.id.equals("minecraft:air")) {
+            player.tell(Text.translatable("sunlit_cobblemon.spawning.no_room").red());
+            return;
+        }
+    }
+    if (legendaryToSummon) {
+        summonRaidLegendary(level, server, player, item, block, legendaryToSummon, raidLevel)
         return;
     }
-    const canSpawnToday = !nbt.data || !nbt.data.dayLastRaided || global.compareDay(day, nbt.data.dayLastRaided, 1)
     if (player.isCrouching() && canSpawnToday) {
         let tierStats = getTierStats(nbt.data.tier)
         let hiddenAbility = Math.random() < tierStats.hiddenAbilityChance;

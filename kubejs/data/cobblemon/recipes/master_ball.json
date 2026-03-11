@@ -1,21 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [" t ", "lcr", " b "],
+  "pattern": ["dtd", "lcr", "dbd"],
   "key": {
+    "d": {
+      "item": "sunlit_cobblemon:cosmic_dust"
+    },
     "t": {
-      "item": "minecraft:shulker_shell"
+      "item": "sunlit_cobblemon:sun_essence"
     },
     "l": {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:netherite_block"
     },
     "c": {
       "item": "numismatics:prismatic_coin"
     },
     "r": {
-      "item": "minecraft:netherite_ingot"
+      "item": "minecraft:netherite_block"
     },
     "b": {
-      "item": "minecraft:shulker_shell"
+      "item": "sunlit_cobblemon:sun_essence"
     }
   },
   "result": {

@@ -230,6 +230,20 @@
     },
     {
       "offer": {
+        "item": "sunlit_cobblemon:poke_radar",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 3
+      },
+      "numismatics_cost": 12288,
+      "stage_required": "trainer_lvl_2",
+      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "trade_id": "pmart_great_poke_radar"
+    },
+    {
+      "offer": {
         "item": "sunlit_cobblemon:poke_bobber",
         "count": 1
       },

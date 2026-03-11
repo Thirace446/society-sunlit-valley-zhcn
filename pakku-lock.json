@@ -1,5 +1,5 @@
 {
-    "target": "curseforge",
+    "target": "multiplatform",
     "mc_versions": [
         "1.20.1"
     ],
@@ -1080,6 +1080,49 @@
             ]
         },
         {
+            "pakku_id": "D2B0wzbVgCiUsU9W",
+            "pakku_links": [
+                "KDWmpmJACN6AFIki"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "bonimons"
+            },
+            "name": {
+                "modrinth": "BoniMons [Cobblemon]"
+            },
+            "id": {
+                "modrinth": "mNsZrKvy"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "BoniMons.zip",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "datapack"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/mNsZrKvy/versions/go6G55ma/BoniMons.zip",
+                    "id": "go6G55ma",
+                    "parent_id": "mNsZrKvy",
+                    "hashes": {
+                        "sha512": "79b8b72aac7eb962f3efbf1f46fb87e7de405a3169fa83f06375548f2ed206f058cfc10bf2f1206ed7e2cef2d969cccd09f44b4c9a3c3bf2a9733c1aab7c61b6",
+                        "sha1": "c1902a61b3f2af57cd0d1627266bb7cee1a6ab61"
+                    },
+                    "required_dependencies": [
+                        "MdwFAVRL"
+                    ],
+                    "size": 611385,
+                    "date_published": "2025-04-18T03:38:24.014817Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3SKTUBNWpuvwHjOs",
             "type": "MOD",
             "slug": {
@@ -1961,6 +2004,48 @@
             ]
         },
         {
+            "pakku_id": "QTJNYYFDFeExIJ2M",
+            "pakku_links": [
+                "KDWmpmJACN6AFIki"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cobblemon-capture-xp"
+            },
+            "name": {
+                "curseforge": "Cobblemon Capture XP"
+            },
+            "id": {
+                "curseforge": "901059"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cobblemon-capturexp-1.5-forge-1.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5346/656/cobblemon-capturexp-1.5-forge-1.0.1.jar",
+                    "id": "5346656",
+                    "parent_id": "901059",
+                    "hashes": {
+                        "sha1": "422df1217de7e25e587aed463c9f5a50b69d98bb",
+                        "md5": "2c76d7e604fd4c24a7973f8b57ec0714"
+                    },
+                    "required_dependencies": [
+                        "308769",
+                        "687131"
+                    ],
+                    "size": 14010,
+                    "date_published": "2024-05-15T20:29:11.203Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kyii66YBWGG8g9iQ",
             "type": "MOD",
             "slug": {
@@ -2476,6 +2561,52 @@
                     ],
                     "size": 218546,
                     "date_published": "2024-08-06T14:02:28.957Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6OwotECuqvihZLon",
+            "pakku_links": [
+                "VjY1yclSang7lBB5",
+                "E1izozCgXnbgewv8",
+                "KDWmpmJACN6AFIki"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "cobbreeding"
+            },
+            "name": {
+                "modrinth": "Cobbreeding"
+            },
+            "id": {
+                "modrinth": "ItmVb4zY"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Cobbreeding-forge-1.7.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/L7IKCpcg/Cobbreeding-forge-1.7.4.jar",
+                    "id": "L7IKCpcg",
+                    "parent_id": "ItmVb4zY",
+                    "hashes": {
+                        "sha512": "edaa3c58a472419b4aec5d32bc6ded9527f072f46d2709d3927b01ff02ced7f8654d09b136340e8f6bbd86d701ff65c3a367ff283aaf89e6dd324990595e6138",
+                        "sha1": "af601dd1c556e12e7e88bcb23b629c2891251dd6"
+                    },
+                    "required_dependencies": [
+                        "ordsPcFz",
+                        "lhGA9TYQ",
+                        "MdwFAVRL"
+                    ],
+                    "size": 92784,
+                    "date_published": "2024-12-08T13:14:44.842225Z"
                 }
             ]
         },
@@ -5335,49 +5466,6 @@
                     ],
                     "size": 1158842,
                     "date_published": "2025-04-17T08:07:07.033Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "lL2aEJ0AU7VsM3gP",
-            "pakku_links": [
-                "C08Uky0tNFxJ90MG",
-                "GFhUhyMlIM6meeOb"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "ftbxaerocompat"
-            },
-            "name": {
-                "curseforge": "FTB Chunks x Xaero's Compat"
-            },
-            "id": {
-                "curseforge": "1357724"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ftbxaerocompat-forge-1.1.3.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7655/63/ftbxaerocompat-forge-1.1.3.jar",
-                    "id": "7655063",
-                    "parent_id": "1357724",
-                    "hashes": {
-                        "sha1": "8a3c74b6a5e285ec755097a76a97a469f2490726",
-                        "md5": "84d22e4c5ea26ee46af69b4caff9ad8c"
-                    },
-                    "required_dependencies": [
-                        "314906",
-                        "317780"
-                    ],
-                    "size": 737596,
-                    "date_published": "2026-02-20T20:20:39.643Z"
                 }
             ]
         },
@@ -11118,6 +11206,7 @@
         {
             "pakku_id": "ZM2PDKLSwRGTWLbF",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "seasonhud"
             },
