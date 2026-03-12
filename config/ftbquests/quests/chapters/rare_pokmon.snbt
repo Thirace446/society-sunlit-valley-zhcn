@@ -2367,7 +2367,7 @@
 			id: "47A1B7188C6C0E16"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Blooming Ring"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2394,7 +2394,7 @@
 			id: "59CE1B4B97CD55E8"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Cornucopia of Greed"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -3200,7 +3200,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Ogerpon"
+			title: "Munkidori"
 			x: -3.0d
 			y: -5.0d
 		}
@@ -3543,6 +3543,41 @@
 			title: "Stakataka"
 			x: 34.0d
 			y: -21.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cobblemon:pokemon_model"
+				tag: {
+					species: "cobblemon:chiyu"
+				}
+			}
+			id: "57323D1D7796E99F"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7940361AAAAD785D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:wochien"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Wo-Chein"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Chi-Yu"
+			x: 13.0d
+			y: -5.0d
 		}
 	]
 	title: "Rare Pokémon"

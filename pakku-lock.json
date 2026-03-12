@@ -1084,7 +1084,7 @@
             "pakku_links": [
                 "KDWmpmJACN6AFIki"
             ],
-            "type": "MOD",
+            "type": "RESOURCE_PACK",
             "side": "SERVER",
             "slug": {
                 "modrinth": "bonimons"

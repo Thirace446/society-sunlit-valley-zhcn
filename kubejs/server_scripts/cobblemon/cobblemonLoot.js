@@ -21,4 +21,7 @@ LootJS.modifiers((e) => {
     p.randomChance(0.02).addLoot("cobblemon:shiny_stone");
     p.randomChance(0.01).addLoot("cobblemon:dust_stone");
   });
+  ['sunlit_cobblemon:poke_loot_ball', 'sunlit_cobblemon:great_loot_ball', 'sunlit_cobblemon:ultra_loot_ball', 'sunlit_cobblemon:beast_loot_ball', 'sunlit_cobblemon:sun_raid_statue'].forEach((block) => {
+    e.addBlockLootModifier(block).removeLoot(block);
+  })
 });

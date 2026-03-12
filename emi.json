@@ -23,10 +23,15 @@
     }
   ],
   "lookup_history": [
+    "item:cobblemon:mental_herb",
+    "item:cobblemon:beast_ball",
+    "item:atmospheric:orange",
+    "item:cobblemon:strawberry_sweet",
+    "item:cobble_workers:mystery_mine",
+    "item:cobble_workers:gardening_station",
     "item:cobblemon:oran_berry",
     "item:create:controls",
     "item:society:iridium_clock",
-    "item:cobblemon:beast_ball",
     "item:society:golden_clock",
     "item:vinery:jellie_wine",
     "item:numismatics:prismatic_coin",
@@ -233,7 +238,6 @@
     "item:cobblemon:automaton_armor_trim_smithing_template",
     "item:cobblemon:growth_mulch",
     "item:cobblemon:red_mint_seeds",
-    "item:cobblemon:strawberry_sweet",
     {
       "type": "item",
       "id": "cobblemon:black_augurite",
@@ -253,7 +257,6 @@
     },
     "item:sunlit_cobblemon:atmospheric_vial",
     "item:sunlit_cobblemon:berry_smoothie",
-    "item:cobblemon:mental_herb",
     "item:sunlit_cobblemon:great_loot_ball",
     "item:sunlit_cobblemon:ultra_loot_ball",
     "item:sunlit_cobblemon:beast_loot_ball",
@@ -399,7 +402,6 @@
     "item:farmersdelight:cabbage_seeds",
     "item:cobblemon:yache_berry",
     "item:cobblemon:pomeg_berry",
-    "item:cobble_workers:gardening_station",
     {
       "type": "item",
       "id": "quark:diamond_heart",
@@ -447,11 +449,6 @@
     "item:society:relic_trove",
     "item:cobblemon:small_budding_sky_tumblestone",
     "item:brewery:beer_hops",
-    {
-      "type": "item",
-      "id": "atmospheric:orange",
-      "amount": 18
-    },
     "item:sunlit_cobblemon:dried_uncommon_cobbleberry",
     "item:society:dried_crystalberry",
     "item:society:dried_wild_berries",
@@ -514,7 +511,6 @@
     "item:minecraft:copper_block",
     "item:create:raw_zinc",
     "item:create:zinc_ingot",
-    "item:cobble_workers:mystery_mine",
     "item:cobble_workers:craft_station",
     "item:oreganized:raw_lead",
     "item:minecraft:cod",

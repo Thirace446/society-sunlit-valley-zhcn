@@ -13,6 +13,7 @@
   "sunlit_cobblemon.sun_raid.checkspawns.nothing": "Nothing can spawn here right now. Try clearing the area of Pokémon before trying again.",
   "sunlit_cobblemon.sun_raid.highest_tier": "The tier of this Raid Statue is already the maximum!",
   "sunlit_cobblemon.sun_raid.battle_start": "%s is filled with the power of the sun!",
+  "sunlit_cobblemon.sun_raid.under_leveled": "Your Pokémon aren't strong enough to activate the altar!",
   "sunlit_cobblemon.spawning.no_room": "Not enough room to summon a Pokémon here.",
 
   "sunlit_cobblemon.society.wormhole_generator.description": "Generates an Ultra Wormholes nearby using Cosmic Dust\n§6Right Click§7 to scan for Ultra Beasts\n§6Shift + Right Click§7 to summon wormhole",
@@ -31,6 +32,7 @@
   
   "block.sunlit_cobblemon.trainer_podium.description": "Invites Trainers to your Gym. Their levels will match the average of your party",
   "block.sunlit_cobblemon.sun_raid_statue.description": "Summons a sun raid Pokémon once a day. Shift + Right click to activate the altar",
+  "block.sunlit_cobblemon.sun_raid_statue.breaks_forever": "Breaking the Sun Raid Statue will desecrate it forever and it will not drop! In order to break, you must sneak while doing so.",
 
   "tooltip.sunlit_cobblemon.silph_scope.description": "Allows Pokémon to spawn around you",
   "tooltip.sunlit_cobblemon.silph_scope.description.equip": "Right click to equip!",

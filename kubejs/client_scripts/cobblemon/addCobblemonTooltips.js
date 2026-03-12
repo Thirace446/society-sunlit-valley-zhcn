@@ -173,9 +173,9 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add('sunlit_cobblemon:poke_radar', Text.translatable(`tooltip.sunlit_cobblemon.poke_radar.right_click`).gray());
   tooltip.add('sunlit_cobblemon:poke_radar', Text.translatable(`tooltip.sunlit_cobblemon.poke_radar.shift_right_click`).gray());
 
-  tooltip.add('sunlit_cobblemon:blooming_ring', Text.translatable(`tooltip.blooming_ring.description`).gray());
+  tooltip.add('sunlit_cobblemon:blooming_ring', Text.translatable(`tooltip.sunlit_cobblemon.blooming_ring.description`).gray());
   tooltip.add('sunlit_cobblemon:blooming_ring', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
-  tooltip.add('sunlit_cobblemon:cornucopia_of_greed', Text.translatable(`tooltip.cornucopia_of_greed.description`).gray());
+  tooltip.add('sunlit_cobblemon:cornucopia_of_greed', Text.translatable(`tooltip.sunlit_cobblemon.cornucopia_of_greed.description`).gray());
   tooltip.add('sunlit_cobblemon:cornucopia_of_greed', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
 
   [

@@ -1,4 +1,4 @@
-console.info("[SOCIETY-S-COBBLEMON] cobblemonTrainerPodium.js.js loaded");
+console.info("[SOCIETY-S-COBBLEMON] cobblemonTrainerPodium.js loaded");
 
 BlockEvents.placed("sunlit_cobblemon:trainer_podium", (e) => {
   const playerUUID = e.player.getUuid().toString();

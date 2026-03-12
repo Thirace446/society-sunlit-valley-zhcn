@@ -174,6 +174,10 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
             return;
         }
     }
+    if (!raidLevel || raidLevel < 10) {
+        player.tell(Text.translatable("sunlit_cobblemon.sun_raid.under_leveled").red());
+        return;
+    }
     if (legendaryToSummon) {
         summonRaidLegendary(level, server, player, item, block, legendaryToSummon, raidLevel)
         return;

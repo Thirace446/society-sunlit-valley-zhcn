@@ -19,21 +19,6 @@
 				},
 				{
 					"type": "item",
-					"name": "cobblemon:mental_herb",
-					"weight": 4
-				},
-				{
-					"type": "item",
-					"name": "cobblemon:vivichoke_seeds",
-					"weight": 1
-				},
-				{
-					"type": "item",
-					"name": "cobblemon:revival_herb",
-					"weight": 4
-				},
-				{
-					"type": "item",
 					"name": "cobblemon:timer_ball",
 					"weight": 3
 				},
@@ -231,21 +216,6 @@
 					"type": "item",
 					"name": "cobblemon:tumblestone",
 					"weight": 1
-				},
-				{
-					"type": "item",
-					"name": "cobblemon:mirror_herb",
-					"weight": 4
-				},
-				{
-					"type": "item",
-					"name": "cobblemon:white_herb",
-					"weight": 4
-				},
-				{
-					"type": "item",
-					"name": "cobblemon:power_herb",
-					"weight": 4
 				},
 				{
 					"type": "item",

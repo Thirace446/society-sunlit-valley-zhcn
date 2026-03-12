@@ -140,7 +140,37 @@
 				{
 					"type": "item",
 					"name": "society:iron_upgrade_smithing_template",
-					"weight": 4
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "cobblemon:mental_herb",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "cobblemon:vivichoke_seeds",
+					"weight": 1
+				},
+				{
+					"type": "item",
+					"name": "cobblemon:revival_herb",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "cobblemon:mirror_herb",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "cobblemon:white_herb",
+					"weight": 2
+				},
+				{
+					"type": "item",
+					"name": "cobblemon:power_herb",
+					"weight": 2
 				},
 				{
 					"type": "item",
