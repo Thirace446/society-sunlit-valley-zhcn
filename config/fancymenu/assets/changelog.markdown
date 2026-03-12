@@ -1,8 +1,11 @@
 ^^^
 ## Sunlit Cobblemon
-### vPLAYTEST-8-HOTFIX-1.0.0-SSV4.0.4
+### vPLAYTEST-9-1.0.0-SSV4.0.4
 ^^^
 --- 
+
+- TODO
+### Playtest 8
 - Updated to Sunlit Valley 4.0.4
 - Added Poke Radar, an item with similar properties to the Fish Radar for viewing nearby Pokemon (Please use this opportunity to report biomes with lackluster spawn pools!)
 - Added loot poke balls to many structures and the Skull Cavern
