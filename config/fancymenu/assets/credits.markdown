@@ -35,6 +35,7 @@
 - Devon - Farmer's Almanac trees, various fixes
 - copixel - Fish Finder
 - Mayhan - Various fix contributions
+- Tomsauy - /debt commands
 
 ### Translation Contributors
 - AonGreyfox - th_th translation
