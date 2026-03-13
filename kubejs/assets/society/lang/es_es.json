@@ -1537,7 +1537,7 @@
   "item.society.infinity_worm": "Gusano del infinito[ES]",
   "item.society.inserter": "Insertador[ES]",
   "item.society.intro_to_algorithms": "La sombra del plomo[ES]",
-  "item.society.invitation": "Invitación[ES]",
+  "item.society.invitation": "Invitación del %s",
   "item.society.iron_upgrade_smithing_template": "Molde de mejora de herrería de hierro[ES]",
   "item.society.jade": "Jade[ES]",
   "item.society.jagoite": "Jagoita[ES]",
@@ -1960,3 +1960,4 @@
   "item.society.yucca_preserves": "Conservas de yuca",
   "item.society.zucchini_preserves": "Conservas de calabacín"
 }
+
