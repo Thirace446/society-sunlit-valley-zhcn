@@ -1571,7 +1571,7 @@
   "item.society.infinity_worm": "无限蠕虫",
   "item.society.inserter": "插入器",
   "item.society.intro_to_algorithms": "算法入门",
-  "item.society.invitation": "邀请函",
+  "item.society.invitation": "%s 邀请函",
   "item.society.iron_upgrade_smithing_template": "铁锻造模板",
   "item.society.jade": "翡翠",
   "item.society.jagoite": "亚高石",
@@ -1993,4 +1993,5 @@
   "item.society.yellow_sheet": "黄布",
   "item.society.yucca_preserves": "丝兰果酱",
   "item.society.zucchini_preserves": "西葫芦果酱"
+
 }
