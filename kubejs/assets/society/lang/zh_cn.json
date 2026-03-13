@@ -169,7 +169,7 @@
   "tag.item.society.farmer_product": "农产品",
   "tag.item.society.artisan_product": "工艺品",
   "tag.item.society.geologist_product": "地质学",
-  "tag.item.society.adventurer_product": "探险家",
+  "tag.item.society.adventurer_product": "冒险家",
   "tag.item.society.villager_gift": "村民礼物",
 
   "society.advancement.obtain_crystalarium.description": "制作水晶机以种植宝石和矿物......不知怎么的。",
@@ -527,7 +527,7 @@
   "tooltip.society.farmer_product": "§f🔱§r 农产品",
   "tooltip.society.artisan_product": "§f✎§r 工艺品",
   "tooltip.society.geologist_product": "§f🎣§r 地质学",
-  "tooltip.society.adventurer_product": "§f🗡§r 探险家",
+  "tooltip.society.adventurer_product": "§f🗡§r 冒险家",
   "tooltip.society.plushies": "♢ §6毛绒玩偶",
   "tooltip.society.plushies.rarity": "§6★ §7稀有度: ",
   "tooltip.society.plushies.trait": "§b♫ §7特性: ",
@@ -1995,3 +1995,4 @@
   "item.society.zucchini_preserves": "西葫芦果酱"
 
 }
+
