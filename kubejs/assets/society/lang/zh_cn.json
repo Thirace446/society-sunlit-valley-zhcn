@@ -517,7 +517,7 @@
   "tooltip.society.stack_value": "所有价值",
   "tooltip.society.multipliers": " + 倍率加成",
   "tooltip.society.hold_key": "按住 [%s]",
-  "tooltip.society.area": "范围: %s",
+  "tooltip.society.area": "§a范围: %s",
   "tooltip.society.right_click_open": "右键点击开启",
   "tooltip.society.item_type.crafting_material": "-制作材料-",
   "tooltip.society.item_type.prize_machine_reward": "§f🍖§r 奖品机奖励",
@@ -1097,7 +1097,7 @@
   "item.society.aged_beer_oat": "陈酿燕麦啤酒",
   "item.society.aged_beer_wheat": "陈酿小麦啤酒",
   "item.society.aged_blackfish_roe": "熟成黑鱼籽酱",
-  "item.society.aged_blazefish_roe": "熟成火焰鱼籽酱",
+  "item.society.aged_blazefish_roe": "熟成烈焰鱼籽酱",
   "item.society.aged_blazewine_pinot": "陈酿烈焰黑皮诺",
   "item.society.aged_blind_sailfin_roe": "熟成盲帆鳍鱼籽酱",
   "item.society.aged_bluegill_roe": "熟成蓝鳃太阳鱼籽酱",
@@ -1142,7 +1142,7 @@
   "item.society.aged_frosty_fin_roe": "熟成雪尾鱼籽酱",
   "item.society.aged_gar_roe": "熟成雀鳝籽",
   "item.society.aged_ghastly_grenache": "陈酿恶魂歌海娜",
-  "item.society.aged_glowdine_roe": "熟成光辉鱼籽酱",
+  "item.society.aged_glowdine_roe": "熟成发光沙丁鱼籽酱",
   "item.society.aged_glowing_wine": "陈酿阳光白葡萄酒",
   "item.society.aged_goat_cheese_block": "风味山羊奶酪轮",
   "item.society.aged_goldfish_roe": "熟成金鱼籽酱",
@@ -1274,8 +1274,8 @@
   "item.society.black_sheet": "黑布",
   "item.society.blackfish_bait": "黑鱼饵",
   "item.society.blackfish_roe": "黑鱼籽",
-  "item.society.blazefish_bait": "火焰鱼饵",
-  "item.society.blazefish_roe": "火焰鱼籽",
+  "item.society.blazefish_bait": "烈焰鱼饵",
+  "item.society.blazefish_roe": "烈焰鱼籽",
   "item.society.blind_sailfin_bait": "盲帆鳍鱼饵",
   "item.society.blind_sailfin_roe": "盲帆鳍鱼籽",
   "item.society.blue_sheet": "蓝色布",
@@ -1544,8 +1544,8 @@
   "item.society.ghost_crystal": "幽灵水晶",
   "item.society.giant_bandolier_belt": "巨型背带",
   "item.society.ginger_preserves": "姜果酱",
-  "item.society.glowdine_bait": "荧光鱼饵",
-  "item.society.glowdine_roe": "荧光鱼籽",
+  "item.society.glowdine_bait": "发光沙丁鱼饵",
+  "item.society.glowdine_roe": "发光沙丁鱼籽",
   "item.society.goat_milk": "山羊奶",
   "item.society.gold_upgrade_smithing_template": "金锻造模板",
   "item.society.golden_mayonnaise": "金蛋黄酱",
@@ -1847,7 +1847,7 @@
   "item.society.smoked_bayad": "熏制鲿鱼",
   "item.society.smoked_beaked_herring": "熏制喙鲱鱼",
   "item.society.smoked_blackfish": "熏制黑鱼",
-  "item.society.smoked_blazefish": "熏制火焰鱼",
+  "item.society.smoked_blazefish": "熏制烈焰鱼",
   "item.society.smoked_blind_sailfin": "熏制盲帆鳍鱼",
   "item.society.smoked_bluegill": "熏制蓝鳃太阳鱼",
   "item.society.smoked_bonefish": "熏制骷髅鱼",
@@ -1995,4 +1995,5 @@
   "item.society.zucchini_preserves": "西葫芦果酱"
 
 }
+
 
