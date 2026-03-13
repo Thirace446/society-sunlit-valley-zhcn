@@ -288,8 +288,8 @@
   "society.hospital_receipt.author": "阳光谷医院",
   "society.hospital_receipt.first_death.title": "医院留言",
   "society.hospital_receipt.first_death": "  阳光谷医院\n\n有人把你送了过来，看来你晕过去了！通常我们会收取少许治疗费，但由于你是第一次，我们免费为你提供了治疗。\n\n下次请多加小心！",
-  "society.hospital_receipt.fee_taked": " 阳光谷医院\n\n看来你又晕过去了！我们已为你提供治疗并收取了少量费用。\n\n为了方便起见，我们已从你的银行账户中直接扣款。下次请多加小心！\n\n已支付 %s",
-  "society.hospital_receipt.debt": " 阳光谷医院\n\n看来你又晕过去了！由于你的银行账户余额不足以支付治疗费，我们将从你的后续收益中扣除 %s，直到付清为止。下次请多加小心！\n\n欠款： %s",
+  "society.hospital_receipt.fee_taked": " 阳光谷医院\n\n看来你又晕过去了！我们已为你提供治疗并收取了少量费用。\n\n方便起见，我们已从你的银行账户中直接扣款。下次请多加小心！\n\n已支付§f●§r %s",
+  "society.hospital_receipt.debt": " 阳光谷医院\n\n看来你又晕过去了！由于你的银行账户余额不足以支付治疗费，我们将从你出货箱的收益中扣除§f●§r%s，直到付清为止。下次请多加小心！\n\n欠款：§f●§r %s",
   "society.blaze_banker.break": "如果方块无法破坏，请手持镐右键点击。",
   "society.blaze_banker.break.not_empty": "请先清空身份卡和银行账户中的资金后手持镐右键点击。",
   "society.furniture_catalog.give_me_coin": "手持 %s 个 %s 右键就能买 %s 个 %s 啦",
@@ -1995,5 +1995,6 @@
   "item.society.zucchini_preserves": "西葫芦果酱"
 
 }
+
 
 
