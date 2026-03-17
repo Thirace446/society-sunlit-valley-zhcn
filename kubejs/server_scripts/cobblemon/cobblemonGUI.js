@@ -28,7 +28,8 @@ const formMap = new Map([
     ["tatsugiri", "curly"],
     ["alcremie", "berry_ruby"],
     ["shellos", "east"],
-    ["gastrodon", "east"]
+    ["gastrodon", "east"],
+    ["indeedee", "female"]
 ]);
 
 PlayerEvents.tick((e) => {

@@ -269,10 +269,6 @@ ItemEvents.tooltip((tooltip) => {
     { item: "unremarkable_teacup" },
     { item: "upgrade", crit: "trade" },
     { item: "whipped_dream", crit: "trade" },
-    { item: "metal_alloy" },
-    { item: "shell_helmet" },
-    { item: "scroll_of_darkness" },
-    { item: "scroll_of_waters" },
   ].forEach((item) => {
     tooltip.add(`cobblemon:${item.item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.${item.item}`).gray());
     if (item.crit)
@@ -371,7 +367,7 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "sunlit_cobblemon:mukbeth",
-      description: "Grimer, Trubbish, and their evolutions are no longer caught by Pokebobbers.",
+      description: "Grimer, Trubbish, and their evolutions are no longer caught by Poké Bobbers.",
     },
     {
       item: "sunlit_cobblemon:savage_sun",

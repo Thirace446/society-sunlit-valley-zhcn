@@ -1,7 +1,7 @@
 const runBossDatagen = false;
 
 if (runBossDatagen) {
-  ["leon", "aiden", "ace", "caroline", "haruna", "maria"].forEach((boss) => {
+  ["leon", "aiden", "ace", "caroline", "haruna", "maria", "karma", "king", "kingkarma"].forEach((boss) => {
     for (let index = 1; index < 10; index++) {
       JsonIO.write(`kubejs/data/rctmod/loot_tables/trainers/single/league_${boss}${index}.json`, {
         "pools": [

@@ -63,8 +63,15 @@ ServerEvents.recipes((e) => {
     "species:ichor_bottle",
     "cobblemon:vivichoke",
   ]);
-  
+
   e.shapeless('cobblemon:shell_helmet', ['society:froggy_helm', "crabbersdelight:nautilus_shell_block"])
+  const compactCobblemon = (output, compactInput, count) => {
+    e.shapeless(`${count}x ${compactInput}`, [output]);
+    e.shapeless(output, [`${count}x ${compactInput}`]);
+  };
+  ['dawn', 'dusk', 'fire', 'ice', 'leaf', 'moon', 'shiny', 'sun', 'thunder', 'water'].forEach((stone) => {
+    compactCobblemon(`cobblemon:${stone}_stone_block`, `cobblemon:${stone}_stone`, 9);
+  })
   // Legendaries
   e.shaped(
     Item.of("sunlit_cobblemon:star_pixie", '{type:"fire"}'),
