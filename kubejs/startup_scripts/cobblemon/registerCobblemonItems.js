@@ -1,6 +1,13 @@
 console.info("[SOCIETY-S-COBBLEMON] registerCobblemonItems.js loaded");
 
 StartupEvents.registry("item", (e) => {
+  // Cobblemon
+  e.create("cobblemon:metal_alloy").texture("cobblemon:item/evolution/metal_alloy");
+  e.create("cobblemon:shell_helmet").texture("cobblemon:item/evolution/shell_helmet");
+  e.create("cobblemon:syrupy_apple").texture("cobblemon:item/evolution/syrupy_apple");
+  e.create("cobblemon:scroll_of_darkness").texture("cobblemon:item/evolution/scroll_of_darkness");
+  e.create("cobblemon:scroll_of_waters").texture("cobblemon:item/evolution/scroll_of_waters");
+  // Sunlit Cobblemon
   e.create("sunlit_cobblemon:unlooted_ball").modelJson({
     "parent": "society:block/kubejs/pond_quest"
   });

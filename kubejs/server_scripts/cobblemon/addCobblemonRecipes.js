@@ -63,6 +63,8 @@ ServerEvents.recipes((e) => {
     "species:ichor_bottle",
     "cobblemon:vivichoke",
   ]);
+  
+  e.shapeless('cobblemon:shell_helmet', ['society:froggy_helm', "crabbersdelight:nautilus_shell_block"])
   // Legendaries
   e.shaped(
     Item.of("sunlit_cobblemon:star_pixie", '{type:"fire"}'),

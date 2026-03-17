@@ -220,6 +220,12 @@ ItemEvents.tooltip((tooltip) => {
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.stone`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
   });
+  
+  ['whimsy_deco:washing_machine', 'whimsy_deco:orange_lawn_mower', 'refurbished_furniture:light_stove', 'whimsy_deco:fan', 'beachparty:mini_fridge'].forEach((item) => {
+    tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.rotom`).gray());
+    tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
+  });
+
   [
     { item: "auspicious_armor", },
     { item: "black_augurite", },
@@ -263,6 +269,10 @@ ItemEvents.tooltip((tooltip) => {
     { item: "unremarkable_teacup" },
     { item: "upgrade", crit: "trade" },
     { item: "whipped_dream", crit: "trade" },
+    { item: "metal_alloy" },
+    { item: "shell_helmet" },
+    { item: "scroll_of_darkness" },
+    { item: "scroll_of_waters" },
   ].forEach((item) => {
     tooltip.add(`cobblemon:${item.item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.${item.item}`).gray());
     if (item.crit)

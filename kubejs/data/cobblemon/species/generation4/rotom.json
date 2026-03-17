@@ -148,7 +148,7 @@
                 "airslash"
             ],
             "requirements": [],
-            "requiredContext": "cobblemon:thunder_stone"
+            "requiredContext": "whimsy_deco:fan"
         },
         {
             "id": "rotomfrost",
@@ -159,7 +159,7 @@
                 "blizzard"
             ],
             "requirements": [],
-            "requiredContext": "cobblemon:ice_stone"
+            "requiredContext": "beachparty:mini_fridge"
         },
         {
             "id": "rotomheat",
@@ -170,7 +170,7 @@
                 "overheat"
             ],
             "requirements": [],
-            "requiredContext": "cobblemon:fire_stone"
+            "requiredContext": "refurbished_furniture:light_stove"
         },
         {
             "id": "rotommow",
@@ -181,7 +181,7 @@
                 "leafstorm"
             ],
             "requirements": [],
-            "requiredContext": "cobblemon:leaf_stone"
+            "requiredContext": "whimsy_deco:orange_lawn_mower"
         },
         {
             "id": "rotomwash",
@@ -192,7 +192,7 @@
                 "hydropump"
             ],
             "requirements": [],
-            "requiredContext": "cobblemon:water_stone"
+            "requiredContext": "whimsy_deco:washing_machine"
         }
     ],
     "forms": [

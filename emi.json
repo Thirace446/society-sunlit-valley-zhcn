@@ -23,6 +23,40 @@
     }
   ],
   "lookup_history": [
+    "item:sunlit_cobblemon:sunlit_league_medallion",
+    "item:sunlit_cobblemon:poke_bobber",
+    "item:cobblemon:shell_helmet",
+    "item:betterarcheology:rotten_log",
+    "item:decorative_blocks:oak_beam",
+    {
+      "id": "nethervinery:gravedigger"
+    },
+    "item:society:laputa_franc",
+    "item:society:mana_fruit",
+    "item:society:mana_fruit_juice",
+    "item:society:mana_king",
+    "item:society:aged_mana_king",
+    "item:society:aged_ancient_cider",
+    "item:society:froggy_helm",
+    "item:cobblemon:chipped_pot",
+    "item:cobblemon:cracked_pot",
+    "item:cobblemon:metal_alloy",
+    "item:society:ancient_cider",
+    "item:society:aged_apple_cider",
+    "item:cobblemon:syrupy_apple",
+    "item:cobblemon:sweet_apple",
+    "item:cobblemon:tart_apple",
+    "item:cobblemon:prism_scale",
+    "item:cobblemon:reaper_cloth",
+    "item:cobblemon:whipped_dream",
+    "item:cobblemon:sachet",
+    "item:cobblemon:relic_coin_sack",
+    "item:whimsy_deco:washing_machine",
+    "item:whimsy_deco:orange_lawn_mower",
+    "item:refurbished_furniture:light_stove",
+    "item:beachparty:mini_fridge",
+    "item:whimsy_deco:fan",
+    "item:cobblemon:fire_stone",
     "item:crittersandcompanions:shima_enaga_spawn_egg",
     "item:cobblemon:ability_shield",
     "item:cobblemon:ability_patch",
@@ -58,7 +92,6 @@
     "item:sunlit_cobblemon:mystica_branch",
     "item:sunlit_cobblemon:cornucopia_of_greed",
     "item:sunlit_cobblemon:blooming_ring",
-    "item:sunlit_cobblemon:sunlit_league_medallion",
     "item:minecraft:potion{Potion:\"minecraft:weakness\"}",
     "item:vinery:rotten_cherry",
     "item:vinery:cherry",
@@ -190,12 +223,9 @@
     "item:cobblemon:dubious_disc",
     "item:cobblemon:masterpiece_teacup",
     "item:simpletms:tm_absorb",
-    "item:cobblemon:cracked_pot",
     "item:cobblemon:protector",
-    "item:cobblemon:tart_apple",
     "item:cobblemon:auspicious_armor",
     "item:cobblemon:unremarkable_teacup",
-    "item:cobblemon:reaper_cloth",
     "item:cobblemon:fairy_feather",
     "item:windswept:elder_feather",
     {
@@ -313,8 +343,6 @@
     "item:society:dried_mossberry",
     "item:society:treasure_totem",
     "item:society:dried_shimmering_mushrooms",
-    "item:society:mana_king",
-    "item:society:ancient_cider",
     "item:society:sparkling_le_roy",
     "item:society:violet_moon",
     "item:cobblemon:dusk_ball",
@@ -500,11 +528,6 @@
     "item:cobblemon:ancient_ivory_ball",
     "item:cobblemon:slate_ball",
     "item:cobblemon:roseate_ball",
-    {
-      "type": "item",
-      "id": "society:aged_ancient_cider",
-      "amount": 64
-    },
     "item:minecraft:mutton",
     "item:cobblemon:pasture",
     "item:minecraft:blackstone",
@@ -577,7 +600,6 @@
     "item:simpletms:tr_rocksmash",
     "item:simpletms:tr_meteorbeam",
     "item:cobblemon:rocky_helmet",
-    "item:cobblemon:fire_stone",
     "item:cobblemon:water_stone",
     "item:cobblemon:ice_stone",
     "item:cobblemon:steel_gem",
@@ -809,7 +831,6 @@
     "item:cobblemon:razor_claw",
     "item:cobblemon:quick_powder",
     "item:cobblemon:shiny_stone",
-    "item:cobblemon:prism_scale",
     "item:cobblemon:sun_stone",
     "item:cobblemon:covert_cloak",
     "item:cobblemon:deep_sea_scale",
@@ -924,7 +945,6 @@
     "item:cobblemon:everstone",
     "item:twigs:twig",
     "item:cobblemon:heat_rock",
-    "item:sunlit_cobblemon:poke_bobber",
     "item:herbalbrews:oolong_tea",
     {
       "type": "item",
@@ -1019,7 +1039,6 @@
       "amount": 32
     },
     "item:unusualfishmod:raw_snowflake{quality_food:{effects:[],quality:3}}",
-    "item:society:froggy_helm",
     "item:society:spark_gro",
     "item:cobblemon:fossilized_dino",
     {
@@ -1476,16 +1495,10 @@
     "item:windswept:pinecone_wreath",
     "item:windswept:cherry_wreath",
     "item:snowyspirit:wreath",
-    "item:cobblemon:whipped_dream",
     {
       "type": "item",
       "id": "cobblemon:upgrade",
       "amount": 63
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:sachet",
-      "amount": 64
     },
     {
       "type": "item",
@@ -1496,7 +1509,6 @@
     "item:society:purple_sheet",
     "item:society:magenta_sheet",
     "item:vinery:apple_cider",
-    "item:society:aged_apple_cider",
     "item:society:aged_apple_wine",
     "item:gamediscs:game_disc_slime",
     "item:gamediscs:game_disc_blocktris",
@@ -1505,11 +1517,6 @@
     "item:refinedstorage:exporter",
     "item:pipez:item_pipe",
     "item:refinedstorage:cable",
-    {
-      "type": "item",
-      "id": "cobblemon:chipped_pot",
-      "amount": 64
-    },
     "item:cobblemon:ribbon_sweet",
     "item:cobblemon:malicious_armor",
     "item:cobblemon:kings_rock",
@@ -1618,45 +1625,7 @@
       "id": "pamhc2trees:bananaitem",
       "amount": 64
     },
-    "item:minecraft:oak_wood",
-    "item:farm_and_charm:silo_wood",
-    {
-      "type": "item",
-      "id": "society:blueberry",
-      "nbt": "{quality_food:{effects:[],quality:1}}",
-      "amount": 10
-    },
-    {
-      "type": "item",
-      "id": "farm_and_charm:oat",
-      "amount": 3
-    },
-    "item:society:large_grain_milk",
-    {
-      "type": "item",
-      "id": "brewery:dried_wheat",
-      "amount": 3
-    },
-    "item:sophisticatedbackpacks:backpack{contentsUuid:[I;-382085041,1833846479,-1286660169,545539153],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{}}]},upgradeSlots:1}",
-    "item:minecraft:totem_of_undying",
-    "item:cobblemon:quick_claw",
-    "item:minecraft:gold_ingot",
-    "item:society:petrified_slime",
-    {
-      "type": "item",
-      "id": "cobblemon:ancient_azure_ball",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:ancient_slate_ball",
-      "amount": 64
-    },
-    "item:farm_and_charm:oatmeal_with_strawberries",
-    "item:farm_and_charm:wild_strawberries",
-    "item:beachparty:sweetberry_icecream",
-    "item:farm_and_charm:strawberry_tea",
-    "item:farm_and_charm:grandmothers_strawberry_cake"
+    "item:minecraft:oak_wood"
   ],
   "craft_history": [
     "meadow:fire_log",

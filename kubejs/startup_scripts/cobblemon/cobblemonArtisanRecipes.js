@@ -111,6 +111,10 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
     output: ["cobblemon:tart_apple"],
   },
   {
+    input: "society:aged_mana_king",
+    output: ["cobblemon:syrupy_apple"],
+  },
+  {
     input: "farmersdelight:sweet_berry_cheesecake",
     output: ["cobblemon:whipped_dream"],
   },
