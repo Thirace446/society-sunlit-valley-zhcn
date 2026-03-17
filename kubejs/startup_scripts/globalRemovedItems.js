@@ -16,6 +16,8 @@ global.removedItems = [
   "unimplemented_items:shiny_charm",
   "create_klinks_n_klangs:repeat_ball_stencil",
   "cobblemon:medicinal_leek",
+  "simpletms:tr_maxovergrowth",
+  "simpletms:tm_maxovergrowth",
   "simpletms:tm_gmaxdrumsolo",
   "simpletms:tm_gmaxwildfire",
   "simpletms:tm_gmaxvinelash",

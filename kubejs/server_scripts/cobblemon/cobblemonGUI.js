@@ -13,6 +13,22 @@ const formMap = new Map([
     ["floette", "red"],
     ["flabebe", "red"],
     ["unown", "c"],
+    ["vivillon", "archipelago"],
+    ["basculin", "whitestripe"],
+    ["basculegion", "female"],
+    ["morpeko", "full_belly"],
+    ["squawkabilly", "blue"],
+    ["unfezant", "male"],
+    ["pyroar", "female"],
+    ["hippowdon", "male"],
+    ["hippopotas", "male"],
+    ["frillish", "female"],
+    ["jellicent", "female"],
+    ["gimmighoul", "chest"],
+    ["tatsugiri", "curly"],
+    ["alcremie", "berry_ruby"],
+    ["shellos", "east"],
+    ["gastrodon", "east"]
 ]);
 
 PlayerEvents.tick((e) => {
@@ -30,8 +46,8 @@ PlayerEvents.tick((e) => {
             let species = $PokemonSpecies.getByName(identifier);
             let variant = formMap.get(`${identifier}`)
 
-            let foundMon = `${String(species.nationalPokedexNumber).padStart(4, '0')}_${identifier}/${identifier}${variant ? `_${variant}` : ""}`
-            console.log(foundMon)
+            // Why is Mr Rime like that
+            let foundMon = `${String(species.nationalPokedexNumber).padStart(4, '0')}_${["mrrime", "mrmime"].includes(identifier) ? "mr" : identifier}/${identifier}${variant ? `_${variant}` : ""}`
             if (!mons.includes(foundMon)) mons.push(foundMon);
         })
         let pokeRadarStart = 4;
@@ -52,20 +68,22 @@ PlayerEvents.tick((e) => {
         });
         let fishUiElements = {};
         let fishUiElementIds = [];
-        for (let index = 0; index < 80; index++) {
+        for (let index = 0; index <= 72; index++) {
             fishUiElementIds.push(`poke_radar_${index}`);
         }
         mons.forEach((mon, index) => {
-            fishUiElements[`poke_radar_${index}`] = {
-                type: "rectangle",
-                w: 64,
-                h: 64,
-                x: (index % 12) * 18 - 96,
-                y: Math.floor(index / 12) * 18,
-                texture: "cobblemon:textures/entity_icon/" + mon + ".png",
-                alignX: "center",
-                alignY: "top",
-            };
+            if (index <= 72) {
+                fishUiElements[`poke_radar_${index}`] = {
+                    type: "rectangle",
+                    w: 64,
+                    h: 64,
+                    x: (index % 12) * 18 - 96,
+                    y: Math.floor(index / 12) * 18,
+                    texture: "cobblemon:textures/entity_icon/" + mon + ".png",
+                    alignX: "center",
+                    alignY: "top",
+                };
+            }
         });
         global.renderUiItemText(player, fishUiElements, fishUiElementIds);
     } else if (player.age % 100 == 0 && !curios.toString().includes("sunlit_cobblemon:poke_radar")) {

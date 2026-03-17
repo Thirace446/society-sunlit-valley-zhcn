@@ -164,7 +164,7 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
   tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
 
-  tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
+  tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.mystica_cookie.description`).gray());
   tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   tooltip.add('sunlit_cobblemon:sunlit_league_medallion', Text.translatable(`tooltip.sunlit_cobblemon.sunlit_league_medallion.description`).gray());
 
@@ -195,7 +195,7 @@ ItemEvents.tooltip((tooltip) => {
   });
 
   [
-    "ability_shield", "absorb_bulb", "air_balloon", "assault_vest", "big_root", "binding_band",
+    "ability_shield", "absorb_bulb", "air_balloon", "assault_vest", "binding_band",
     "black_sludge", "blunder_policy", "bright_powder", "cell_battery", "choice_band", "choice_scarf",
     "choice_specs", "cleanse_tag", "covert_cloak", "damp_rock", "deep_sea_scale", "deep_sea_tooth",
     "destiny_knot", "eject_button", "eject_pack", "everstone", "eviolite", "expert_belt", "exp_share",
@@ -337,4 +337,44 @@ ItemEvents.tooltip((tooltip) => {
       }
     }
   );
+
+  [
+    {
+      item: "sunlit_cobblemon:the_art_of_battle",
+      description: "The Sunlit league pays out 25% more per battle."
+    },
+    {
+      item: "sunlit_cobblemon:berry_labor_and_capital",
+      description: "+3 Pokémon worker slots.",
+    },
+    {
+      item: "sunlit_cobblemon:bottlecaps_and_nothingness",
+      description: "Small chance to find Bottlecaps in loot chests.",
+    },
+    {
+      item: "sunlit_cobblemon:braiding_surprisegrass",
+      description: "50% more likely to find Pokémon when harvesting crops and fruit trees.",
+    },
+    {
+      item: "sunlit_cobblemon:the_gachamonbler",
+      description: "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
+    },
+    {
+      item: "sunlit_cobblemon:mukbeth",
+      description: "Grimer, Trubbish, and their evolutions are no longer caught by Pokebobbers.",
+    },
+    {
+      item: "sunlit_cobblemon:savage_sun",
+      description: "Sun Raid Statues have a 15% chance to ignore their activation cooldown when used."
+    },
+  ].forEach((book) => {
+    tooltip.add(
+      book.item,
+      global.translatableWithFallback(`sunlit_cobblemon.books.${book.item.path}.description`, book.description).gray()
+    );
+    tooltip.add(
+      book.item,
+      Text.translatable("tooltip.society.skill_book.use").green()
+    );
+  });
 });

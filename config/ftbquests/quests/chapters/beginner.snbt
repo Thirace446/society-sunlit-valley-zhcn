@@ -2858,9 +2858,10 @@
 			icon: "cobblemon:luxury_ball"
 			id: "6858A84A546BC064"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A0CCBDD943C36AD"
-				type: "random"
+				count: 2
+				id: "68FD36654B9D8615"
+				item: "sunlit_cobblemon:greater_tm_pack"
+				type: "item"
 			}]
 			tasks: [{
 				action: "evolve"

@@ -5,6 +5,7 @@
   "sunlit_cobblemon.poke_radar.rarity.uncommon": "Uncommon",
   "sunlit_cobblemon.poke_radar.rarity.rare": "Rare",
   "sunlit_cobblemon.poke_radar.rarity.ultra-rare": "Ultra-Rare",
+  "sunlit_cobblemon.special_magikarp": "This Magikarp looks a little different!",
   "sunlit_cobblemon.gachamon_capsule.shiny_announce": "%s found a shiny %s from their Gachamon Capsule!",
   "sunlit_cobblemon.need_scope": "You need a Silph Scope to use this...",
   "sunlit_cobblemon.gachamon_capsule.addiction": "Woah there you Gachamon addict! Defeat some nearby Pokémon before opening more!",
@@ -346,5 +347,13 @@
   "tooltip.sunlit_cobblemon.cobblemon.crit.trade": "Requires Trade or Link Cable",
   "tooltip.sunlit_cobblemon.cobblemon.crit.moon": "Requires a full moon at night",
   "tooltip.sunlit_cobblemon.cobblemon.crit.night": "Requires a level gained at night",
-  "tooltip.sunlit_cobblemon.cobblemon.crit.form_time": "Time of day and affects form"
+  "tooltip.sunlit_cobblemon.cobblemon.crit.form_time": "Time of day and affects form",
+
+  "sunlit_cobblemon.books.the_art_of_battle.description": "The Sunlit league pays out 25% more per battle.",
+  "sunlit_cobblemon.books.berry_labor_and_capital.description": "+3 Pokémon worker slots.",
+  "sunlit_cobblemon.books.bottlecaps_and_nothingness.description": "Small chance to find Bottlecaps in loot chests.",
+  "sunlit_cobblemon.books.braiding_surprisegrass.description": "50% more likely to find Pokémon when harvesting crops and fruit trees.",
+  "sunlit_cobblemon.books.the_gachamonbler.description": "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
+  "sunlit_cobblemon.books.mukbeth.description": "Grimer, Trubbish, and their evolutions are no longer caught by Pokebobbers.",
+  "sunlit_cobblemon.books.savage_sun.description": "Sun Raid Statues have a 15% chance to ignore their activation cooldown when used."
 }

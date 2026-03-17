@@ -126,7 +126,12 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
     const { block, hand, player, level, item, server } = e;
     if (hand !== "MAIN_HAND") return;
     if (!global.hasScope(player)) {
-        player.tell(Text.translatable("sunlit_cobblemon.need_scope").red());
+        if (player.isCrouching()) {
+            server.runCommandSilent(`openshop ${player.username} sun_offering`)
+        } else {
+            player.tell(Text.translatable("sunlit_cobblemon.need_scope").red());
+
+        }
         return;
     }
     let nbt = block.getEntityData();

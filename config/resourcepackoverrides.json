@@ -21,7 +21,8 @@
     "file/AlphabetSoup-v2.1.zip",
     "file/RCT Trainers+ [1.5] v1.4.zip",
     "file/Cobblemon - Icons for JourneyMap.zip",
-    "file/BoniMons.zip"
+    "file/BoniMons.zip",
+    "file/future-mons.zip"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -47,7 +48,8 @@
     "file/AlphabetSoup-v2.1.zip",
     "file/RCT Trainers+ [1.5] v1.4.zip",
     "file/Cobblemon - Icons for JourneyMap.zip",
-    "file/BoniMons.zip"
+    "file/BoniMons.zip",
+    "file/future-mons.zip"
   ],
     "$$1": {
       "hidden": false,

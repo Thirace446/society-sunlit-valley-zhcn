@@ -105,6 +105,10 @@
   "jadeaddons.lootr": {
     "info": true
   },
+  "item-descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
+  },
   "pipez": {
     "pipe": true
   },

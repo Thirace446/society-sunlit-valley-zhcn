@@ -245,8 +245,7 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
     );
   }
   server.runCommandSilent(
-    `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${
-      caughtMon.pokemon
+    `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon
     } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}${isShiny ? "shiny" : ""}`,
   );
   server.runCommandSilent(

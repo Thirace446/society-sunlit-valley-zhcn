@@ -2,11 +2,17 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonFishing.js loaded");
 
 const Vec3 = Java.loadClass("net.minecraft.world.phys.Vec3");
 
-const getCobbleFishPool = (tier, season, waterType) => {
-  return global.cobblemonFishPool
+const getCobbleFishPool = (tier, season, waterType, mukbeth) => {
+  let resolvedPool = global.cobblemonFishPool
     .filter((entry) => entry.tiers.includes(tier))
     .filter((entry) => entry.seasons.includes(season))
     .filter((entry) => entry.waterTypes.includes(waterType));
+
+  if (mukbeth) {
+    resolvedPool = resolvedPool.filter((entry) => !['grimer', 'muk', 'trubbish', 'garbodor'].includes(entry.pokemon));
+  }
+
+  return resolvedPool
 };
 
 const getCobbleNetherFishPool = (tier) => {
@@ -52,16 +58,14 @@ const catchPokemon = (caughtMon, level, hook, server, player, nether) => {
   }
   if (nether) {
     server.runCommandSilent(
-      `execute in minecraft:the_nether run pokespawnat ${hook.x} ${hook.y} ${
-        hook.z
-      } ${caughtMon.pokemon} level=${pokeLevel} ${
-        caughtMon.variant ? caughtMon.variant : ""
+      `execute in minecraft:the_nether run pokespawnat ${hook.x} ${hook.y} ${hook.z
+      } ${caughtMon.pokemon} level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""
       }`
     );
   } else {
+    if (caughtMon.variant && caughtMon.variant.includes("magikarp")) player.tell(Text.translatable("sunlit_cobblemon.special_magikarp").gold());
     server.runCommandSilent(
-      `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${
-        caughtMon.pokemon
+      `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${caughtMon.pokemon
       } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}`
     );
   }
@@ -69,7 +73,7 @@ const catchPokemon = (caughtMon, level, hook, server, player, nether) => {
   // TODO: Pokemon get kinda stuck in the lava
   let caughtPokemon = level
     .getEntitiesWithin(
-      AABB.ofBlock(level.getBlock(hook.getPos())).inflate(nether ? 3 : 1)
+      AABB.ofBlock(level.getBlock(hook.getPos())).inflate(nether ? 3 : 2)
     )
     .filter((e) => e.type.equals("cobblemon:pokemon"));
   if (caughtPokemon && caughtPokemon.length > 0) {
@@ -105,7 +109,8 @@ global.handleCobblemonFish = (e) => {
       getCobbleFishPool(
         bobberTier,
         global.getSeasonFromLevel(level),
-        getWaterType(biome)
+        getWaterType(biome),
+        player.stages.has("mukbeth")
       )
     );
     catchPokemon(caughtMon, level, hook, server, player);

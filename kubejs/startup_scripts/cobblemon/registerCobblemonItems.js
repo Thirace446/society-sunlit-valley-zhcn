@@ -103,7 +103,19 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:wormhole_generator").maxStackSize(1)
   e.create("sunlit_cobblemon:blooming_ring");
   e.create("sunlit_cobblemon:cornucopia_of_greed");
-
+  [
+    "the_art_of_battle",
+    "berry_labor_and_capital",
+    "bottlecaps_and_nothingness",
+    "braiding_surprisegrass",
+    "the_gachamonbler",
+    "mukbeth",
+    "savage_sun",
+  ].forEach((item) => {
+    e.create(`sunlit_cobblemon:${item}`)
+      .texture(`sunlit_cobblemon:item/books/${item}`)
+      .rarity("rare");
+  });
   global.cobblemonPreserves.forEach((jar) => {
     if (jar.item.includes("sunlit_cobblemon")) {
       e.create(`sunlit_cobblemon:${jar.item.split(":")[1]}`)

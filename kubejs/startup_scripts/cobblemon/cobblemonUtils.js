@@ -26,6 +26,7 @@ global.getPartyLevel = (player) => {
 global.hasScope = (entity) => entity.nbt.ForgeCaps["curios:inventory"].toString().includes("sunlit_cobblemon:silph_scope");
 
 global.rollPokeWeightedTable = (table) => {
+  console.log(table)
   let roll = 0;
   const totalWeight = table.reduce((acc, current) => acc + current.weight, 0);
   let currentWeight = 0;
