@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "clefairy",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "botania:pixie_dust",
+			"count": 1,
+			"chance": 1,
+			"min_hearts": 4
+		},
+		{
+			"item": "botania:dragonstone",
+			"count": 1,
+			"chance": 0.2,
+			"min_hearts": 8
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "trevenant",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:pine_tar",
+			"count": 1,
+			"chance": 0.25,
+			"min_hearts": 6
+		},
+		{
+			"item": "mysticaloaktree:wise_oak",
+			"count": 1,
+			"chance": 0.01,
+			"min_hearts": 10
+		}
+	]
+}

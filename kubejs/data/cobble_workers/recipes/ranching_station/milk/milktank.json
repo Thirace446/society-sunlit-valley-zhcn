@@ -1,0 +1,9 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "milktank",
+	"action_type": "milking",
+	"milk": {
+		"sm": "sunlit_cobblemon:moomoo_milk",
+		"lg": "sunlit_cobblemon:large_moomoo_milk"
+	}
+}

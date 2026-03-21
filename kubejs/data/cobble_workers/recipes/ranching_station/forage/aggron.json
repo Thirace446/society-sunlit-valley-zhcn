@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "aggron",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "minecraft:iron_block",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 3
+		}
+	]
+}

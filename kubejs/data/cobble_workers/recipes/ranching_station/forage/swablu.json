@@ -1,0 +1,14 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "swablu",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:fine_wool",
+			"count": 4,
+			"chance": 1,
+			"has_quality": true,
+			"min_hearts": 5
+		}
+	]
+}

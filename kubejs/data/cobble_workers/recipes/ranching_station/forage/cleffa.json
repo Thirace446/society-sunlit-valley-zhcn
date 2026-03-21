@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "cleffa",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "botania:pixie_dust",
+			"count": 1,
+			"chance": 0.25,
+			"min_hearts": 4
+		}
+	]
+}

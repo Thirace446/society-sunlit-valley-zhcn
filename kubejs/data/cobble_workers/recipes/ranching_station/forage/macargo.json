@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "macargo",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "autumnity:snail_goo",
+			"count": 4,
+			"chance": 0.4,
+			"min_hearts": 4
+		},
+		{
+			"item": "autumnity:snail_shell_block",
+			"count": 1,
+			"chance": 0.2,
+			"min_hearts": 8
+		}
+	]
+}

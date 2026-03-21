@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "slugma",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "autumnity:snail_goo",
+			"count": 4,
+			"chance": 0.4,
+			"min_hearts": 4
+		}
+	]
+}

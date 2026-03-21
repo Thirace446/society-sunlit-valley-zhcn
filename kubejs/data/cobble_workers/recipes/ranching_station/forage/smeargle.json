@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "smeargle",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "minecraft:painting",
+			"count": 1,
+			"chance": 1,
+			"min_hearts": 1
+		}
+	]
+}

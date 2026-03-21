@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "cosmog",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "sunlit_cobblemon:cosmic_dust",
+			"count": 1,
+			"chance": 0.2,
+			"min_hearts": 10
+		}
+	]
+}

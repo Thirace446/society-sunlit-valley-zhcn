@@ -1,0 +1,9 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "tauros",
+	"action_type": "milking",
+	"milk": {
+		"sm": "society:buffalo_milk",
+		"lg": "society:large_buffalo_milk"
+	}
+}

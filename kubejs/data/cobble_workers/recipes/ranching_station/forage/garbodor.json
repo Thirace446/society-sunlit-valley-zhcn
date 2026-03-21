@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "garbodor",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "furniture:trash_bag",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 4
+		},
+		{
+			"item": "society:scavenged_food_bag",
+			"count": 2,
+			"chance": 1,
+			"min_hearts": 8
+		}
+	]
+}

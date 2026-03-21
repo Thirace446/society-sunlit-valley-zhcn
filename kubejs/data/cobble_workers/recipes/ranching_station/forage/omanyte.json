@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "omanyte",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "minecraft:nautilus_shell",
+			"count": 1,
+			"chance": 0.4,
+			"min_hearts": 4
+		}
+	]
+}

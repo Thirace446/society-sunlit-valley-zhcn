@@ -1,0 +1,14 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "starly",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "minecraft:egg",
+			"count": 1,
+			"chance": 1,
+			"has_quality": true,
+			"min_hearts": 1
+		}
+	]
+}

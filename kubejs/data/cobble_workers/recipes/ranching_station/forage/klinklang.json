@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "klinklang",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "create:andesite_alloy",
+			"count": 16,
+			"chance": 1,
+			"min_hearts": 3
+		},
+		{
+			"item": "create:brass_ingot",
+			"count": 2,
+			"chance": 0.5,
+			"min_hearts": 10
+		}
+	]
+}

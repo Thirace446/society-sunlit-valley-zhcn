@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "delibird",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:furniture_box",
+			"count": 1,
+			"chance": 1,
+			"min_hearts": 2
+		},
+		{
+			"item": "minecraft:coal",
+			"count": 1,
+			"chance": 1,
+			"min_hearts": 2
+		}
+	]
+}

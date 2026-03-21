@@ -1,0 +1,14 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "lechonk",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:truffle",
+			"count": 1,
+			"chance": 1,
+			"min_hearts": 6,
+			"has_quality": true
+		}
+	]
+}

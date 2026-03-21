@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "exeggutor",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "beachparty:coconut",
+			"count": 3,
+			"chance": 1,
+			"min_hearts": 3
+		},
+		{
+			"item": "society:star_coquito",
+			"count": 1,
+			"chance": 0.15,
+			"min_hearts": 10
+		}
+	]
+}

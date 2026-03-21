@@ -1,0 +1,14 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "grafaiai",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "pamhc2trees:bananaitem",
+			"count": 4,
+			"chance": 1,
+			"has_quality": true,
+			"min_hearts": 3
+		}
+	]
+}

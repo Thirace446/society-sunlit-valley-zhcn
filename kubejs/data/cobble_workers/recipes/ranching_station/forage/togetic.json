@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "togetic",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:thunder_egg",
+			"count": 2,
+			"chance": 1,
+			"min_hearts": 0
+		}
+	]
+}

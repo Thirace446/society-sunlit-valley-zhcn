@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "dipplin",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "buzzier_bees:honey_apple",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 1
+		},
+		{
+			"item": "society:maple_syrup",
+			"count": 1,
+			"chance": 0.25,
+			"min_hearts": 6
+		}
+	]
+}

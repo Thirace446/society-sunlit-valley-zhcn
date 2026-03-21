@@ -1,0 +1,25 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "magnezone",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "oreganized:lead_ingot",
+			"count": 1,
+			"chance": 1,
+			"min_hearts": 1
+		},
+		{
+			"item": "oreganized:silver_ingot",
+			"count": 1,
+			"chance": 0.25,
+			"min_hearts": 5
+		},
+		{
+			"item": "oreganized:electrum_nugget",
+			"count": 1,
+			"chance": 0.15,
+			"min_hearts": 8
+		}
+	]
+}

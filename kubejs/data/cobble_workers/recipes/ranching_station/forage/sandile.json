@@ -1,0 +1,13 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "sandile",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "numismatics:crown",
+			"count": 3,
+			"chance": 0.2,
+			"min_hearts": 3
+		}
+	]
+}

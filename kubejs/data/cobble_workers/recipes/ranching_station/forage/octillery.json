@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "octillery",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "crabbersdelight:raw_squid_tentacles",
+			"count": 4,
+			"chance": 0.25,
+			"min_hearts": 3
+		},
+		{
+			"item": "society:legendary_ink",
+			"count": 1,
+			"chance": 0.15,
+			"min_hearts": 6
+		}
+	]
+}

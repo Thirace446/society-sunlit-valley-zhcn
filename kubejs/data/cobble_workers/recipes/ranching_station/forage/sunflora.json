@@ -1,0 +1,19 @@
+{
+	"type": "cobble_workers:ranching_station",
+	"pokemon": "sunflora",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "minecraft:sunflower",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 0
+		},
+		{
+			"item": "sunlit_cobblemon:sun_drops",
+			"count": 2,
+			"chance": 0.05,
+			"min_hearts": 8
+		}
+	]
+}
