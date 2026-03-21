@@ -1,9 +1,0 @@
-{
-	"type": "cobble_workers:ranching_station",
-	"pokemon": "wooloo",
-	"action_type": "milking",
-	"milk": {
-		"sm": "society:sheep_milk",
-		"lg": "society:large_sheep_milk"
-	}
-}

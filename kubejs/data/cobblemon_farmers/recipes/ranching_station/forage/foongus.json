@@ -1,0 +1,21 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "foongus",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "cluttered:fly_agaric",
+			"count": 4,
+			"chance": 0.35,
+			"has_quality": true,
+			"min_hearts": 4
+		},
+		{
+			"item": "cluttered:fly_agaric",
+			"count": 4,
+			"chance": 0.4,
+			"has_quality": true,
+			"min_hearts": 8
+		}
+	]
+}

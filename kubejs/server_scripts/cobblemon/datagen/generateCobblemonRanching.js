@@ -2493,7 +2493,7 @@ if (runRanchingDataGen) {
     let recipe
     ranchingDef.forEach((def) => {
         recipe = {
-            type: "cobble_workers:ranching_station",
+            type: "cobblemon_farmers:ranching_station",
             pokemon: def.pokemon,
         }
         if (def.milk) {
@@ -2503,7 +2503,7 @@ if (runRanchingDataGen) {
             recipe.action_type = "forage"
             recipe.forages = def.forages
         }
-        JsonIO.write(`kubejs/data/cobble_workers/recipes/ranching_station/${def.milk ? "milk" : "forage"}/${def.pokemon}.json`, recipe);
+        JsonIO.write(`kubejs/data/cobblemon_farmers/recipes/ranching_station/${def.milk ? "milk" : "forage"}/${def.pokemon}.json`, recipe);
     });
 
     ItemEvents.rightClicked('fightorflight:oran_lucky_egg', (e) => {

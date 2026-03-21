@@ -1,0 +1,19 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "cubone",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "betterarcheology:artifact_shards",
+			"count": 3,
+			"chance": 0.25,
+			"min_hearts": 6
+		},
+		{
+			"item": "mysticaloaktree:wise_oak",
+			"count": 1,
+			"chance": 0.01,
+			"min_hearts": 10
+		}
+	]
+}

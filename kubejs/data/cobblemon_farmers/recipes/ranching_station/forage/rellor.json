@@ -1,0 +1,13 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "rellor",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "farm_and_charm:fertilizer",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 3
+		}
+	]
+}

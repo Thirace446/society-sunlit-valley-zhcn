@@ -2024,7 +2024,7 @@
         "value": 100
       }
     },
-    "cobble_workers:worker_cap": {
+    "cobblemon_farmers:worker_cap": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -3047,7 +3047,7 @@
         "value": 100
       }
     },
-    "cobble_workers:workers_assigned": {
+    "cobblemon_farmers:workers_assigned": {
       "enabled": false,
       "min": {
         "default": 0,

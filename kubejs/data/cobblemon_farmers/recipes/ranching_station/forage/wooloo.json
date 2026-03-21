@@ -1,0 +1,14 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "wooloo",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:fine_wool",
+			"count": 1,
+			"chance": 1,
+			"has_quality": true,
+			"min_hearts": 1
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "altaria",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:fine_wool",
+			"count": 8,
+			"chance": 1,
+			"has_quality": true,
+			"min_hearts": 5
+		}
+	]
+}

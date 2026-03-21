@@ -66,5 +66,5 @@ JEIAddedEvents.registerRecipes((e) => {
   addLootBoxRecipes(e, "sunlit_cobblemon:greater_tm_pack", "#sunlit_cobblemon:tm");
   addLootBoxRecipes(e, "sunlit_cobblemon:greater_tm_pack", "#sunlit_cobblemon:tr");
   addLootBoxRecipes(e, "sunlit_cobblemon:prismatic_tm_pack", "#sunlit_cobblemon:tm");
-  addLootBoxRecipes(e, "sunlit_cobblemon:berry_capsule", "#cobble_workers:common_berries");
+  addLootBoxRecipes(e, "sunlit_cobblemon:berry_capsule", "#cobblemon_farmers:common_berries");
 });

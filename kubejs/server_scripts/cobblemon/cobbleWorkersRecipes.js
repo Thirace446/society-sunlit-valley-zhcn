@@ -11,7 +11,7 @@ ServerEvents.recipes((e) => {
     multStat
   ) => {
     let recipe = {
-      type: "cobble_workers:craft_station",
+      type: "cobblemon_farmers:craft_station",
       elemental_type: elementalType,
       crafting_time: craftingTime,
       speed_stat: speedStat,

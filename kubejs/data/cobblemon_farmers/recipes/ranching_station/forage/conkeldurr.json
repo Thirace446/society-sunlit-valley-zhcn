@@ -1,0 +1,19 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "conkeldurr",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:earth_crystal",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 4
+		},
+		{
+			"item": "society:jade",
+			"count": 4,
+			"chance": 0.1,
+			"min_hearts": 8
+		}
+	]
+}

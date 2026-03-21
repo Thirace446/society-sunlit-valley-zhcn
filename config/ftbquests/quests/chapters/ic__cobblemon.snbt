@@ -175,7 +175,7 @@
 			}]
 			tasks: [{
 				id: "2FC310EB8E266FB0"
-				item: "cobble_workers:craft_station"
+				item: "cobblemon_farmers:craft_station"
 				type: "item"
 			}]
 			title: "Putting them to WORK"
@@ -263,7 +263,7 @@
 			]
 			tasks: [{
 				id: "142977AD5F543BF8"
-				item: "cobble_workers:mystery_mine"
+				item: "cobblemon_farmers:mystery_mine"
 				type: "item"
 			}]
 			x: 12.0d
@@ -497,7 +497,7 @@
 			}]
 			tasks: [{
 				id: "59B1B96B2056F1D8"
-				item: "cobble_workers:gardening_station"
+				item: "cobblemon_farmers:gardening_station"
 				type: "item"
 			}]
 			x: 13.5d
@@ -555,7 +555,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "cobble_workers:uncommon_berries"
+						value: "cobblemon_farmers:uncommon_berries"
 					}
 				}
 				title: "Any mutated berry"

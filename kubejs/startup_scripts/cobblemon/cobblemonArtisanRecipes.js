@@ -66,19 +66,19 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
     output: ["sunlit_cobblemon:vivichoke_preserves"],
   },
   {
-    input: "#cobble_workers:common_berries",
+    input: "#cobblemon_farmers:common_berries",
     output: ["sunlit_cobblemon:common_cobbleberry_preserves"],
   },
   {
-    input: "#cobble_workers:uncommon_berries",
+    input: "#cobblemon_farmers:uncommon_berries",
     output: ["sunlit_cobblemon:uncommon_cobbleberry_preserves"],
   },
   {
-    input: "#cobble_workers:rare_berries",
+    input: "#cobblemon_farmers:rare_berries",
     output: ["sunlit_cobblemon:rare_cobbleberry_preserves"],
   },
   {
-    input: "#cobble_workers:legendary_berries",
+    input: "#cobblemon_farmers:legendary_berries",
     output: ["sunlit_cobblemon:legendary_cobbleberry_preserves"],
   },
 ].forEach((recipe) => {
@@ -124,19 +124,19 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
 
 [
   {
-    input: "#cobble_workers:common_berries",
+    input: "#cobblemon_farmers:common_berries",
     output: ["sunlit_cobblemon:dried_common_cobbleberry"],
   },
   {
-    input: "#cobble_workers:uncommon_berries",
+    input: "#cobblemon_farmers:uncommon_berries",
     output: ["sunlit_cobblemon:dried_uncommon_cobbleberry"],
   },
   {
-    input: "#cobble_workers:rare_berries",
+    input: "#cobblemon_farmers:rare_berries",
     output: ["sunlit_cobblemon:dried_rare_cobbleberry"],
   },
   {
-    input: "#cobble_workers:legendary_berries",
+    input: "#cobblemon_farmers:legendary_berries",
     output: ["sunlit_cobblemon:dried_legendary_cobbleberry"],
   },
 ].forEach((recipe) => {

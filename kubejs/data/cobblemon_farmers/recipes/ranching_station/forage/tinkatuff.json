@@ -1,0 +1,25 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "tinkatuff",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "create:cogwheel",
+			"count": 4,
+			"chance": 0.75,
+			"min_hearts": 3
+		},
+		{
+			"item": "create:large_cogwheel",
+			"count": 4,
+			"chance": 0.75,
+			"min_hearts": 5
+		},
+		{
+			"item": "create:gearbox",
+			"count": 2,
+			"chance": 0.75,
+			"min_hearts": 7
+		}
+	]
+}

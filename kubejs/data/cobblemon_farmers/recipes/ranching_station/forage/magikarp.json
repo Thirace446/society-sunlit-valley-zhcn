@@ -1,0 +1,31 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "magikarp",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:carp_roe",
+			"count": 3,
+			"chance": 1,
+			"min_hearts": 0
+		},
+		{
+			"item": "society:carp_roe",
+			"count": 3,
+			"chance": 1,
+			"min_hearts": 4
+		},
+		{
+			"item": "society:carp_roe",
+			"count": 3,
+			"chance": 1,
+			"min_hearts": 6
+		},
+		{
+			"item": "society:carp_roe",
+			"count": 3,
+			"chance": 1,
+			"min_hearts": 8
+		}
+	]
+}

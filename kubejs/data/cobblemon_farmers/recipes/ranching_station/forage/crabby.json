@@ -1,0 +1,14 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "crabby",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "quark:crab_leg",
+			"count": 1,
+			"chance": 0.45,
+			"has_quality": true,
+			"min_hearts": 3
+		}
+	]
+}

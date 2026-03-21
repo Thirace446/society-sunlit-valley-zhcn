@@ -1,0 +1,13 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "porygon",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "sunlit_cobblemon:tm_pack",
+			"count": 1,
+			"chance": 0.25,
+			"min_hearts": 6
+		}
+	]
+}

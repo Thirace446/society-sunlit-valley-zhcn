@@ -1,0 +1,9 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "bouffalant",
+	"action_type": "milking",
+	"milk": {
+		"sm": "society:buffalo_milk",
+		"lg": "society:large_buffalo_milk"
+	}
+}

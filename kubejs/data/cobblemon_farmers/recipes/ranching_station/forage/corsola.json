@@ -1,0 +1,13 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "corsola",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "crabbersdelight:coral_fragments",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 2
+		}
+	]
+}

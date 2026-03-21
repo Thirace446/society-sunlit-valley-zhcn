@@ -92,7 +92,7 @@ ItemEvents.rightClicked("sunlit_cobblemon:berry_capsule", (e) => {
     `playsound minecraft:ui.stonecutter.take_result block @a ${player.x} ${player.y} ${player.z}`
   );
 
-  const furniture = Ingredient.of("#cobble_workers:common_berries").itemIds;
+  const furniture = Ingredient.of("#cobblemon_farmers:common_berries").itemIds;
 
   if (!player.isCreative()) item.count--;
   let reward = player.level.createEntity("minecraft:item");

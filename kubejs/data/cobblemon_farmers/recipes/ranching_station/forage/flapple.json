@@ -1,0 +1,19 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "flapple",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "society:aged_apple_wine",
+			"count": 1,
+			"chance": 0.8,
+			"min_hearts": 1
+		},
+		{
+			"item": "cobblemon:syrupy_apple",
+			"count": 1,
+			"chance": 0.04,
+			"min_hearts": 10
+		}
+	]
+}

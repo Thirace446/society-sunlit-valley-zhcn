@@ -1,0 +1,9 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "skiddo",
+	"action_type": "milking",
+	"milk": {
+		"sm": "society:goat_milk",
+		"lg": "society:large_goat_milk"
+	}
+}

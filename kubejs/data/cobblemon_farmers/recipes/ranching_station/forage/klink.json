@@ -1,0 +1,13 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "klink",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "create:andesite_alloy",
+			"count": 1,
+			"chance": 1,
+			"min_hearts": 3
+		}
+	]
+}

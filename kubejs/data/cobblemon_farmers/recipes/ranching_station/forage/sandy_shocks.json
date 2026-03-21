@@ -1,0 +1,19 @@
+{
+	"type": "cobblemon_farmers:ranching_station",
+	"pokemon": "sandy_shocks",
+	"action_type": "forage",
+	"forages": [
+		{
+			"item": "oreganized:lead_ingot",
+			"count": 4,
+			"chance": 1,
+			"min_hearts": 1
+		},
+		{
+			"item": "minecraft:ancient_debris",
+			"count": 1,
+			"chance": 0.04,
+			"min_hearts": 10
+		}
+	]
+}
