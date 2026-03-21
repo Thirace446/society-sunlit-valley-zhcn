@@ -23,6 +23,23 @@
     }
   ],
   "lookup_history": [
+    "item:cobblemon:fire_stone",
+    "item:minecraft:chicken",
+    "#item:forge:raw_chicken",
+    "item:cobblemon:lucky_egg",
+    "item:vintagedelight:century_egg",
+    "item:vintagedelight:golden_egg",
+    "item:minecraft:honey_bottle",
+    "item:quark:hollow_birch_log",
+    "item:minecraft:dandelion",
+    "item:windswept:pinecone",
+    "item:windswept:pinecone_block",
+    "item:minecraft:raw_iron",
+    "item:minecraft:iron_trapdoor",
+    "item:classicpipes:iron_fluid_pipe",
+    "item:create:andesite_alloy",
+    "item:minecraft:gravel",
+    "item:cobblemon:silk_scarf",
     "item:society:mayonnaise_machine",
     "item:society:mayonnaise",
     "item:society:enkephalin",
@@ -60,7 +77,6 @@
       "id": "cobblemon:shiny_stone_block",
       "amount": 64
     },
-    "item:minecraft:honey_bottle",
     "item:cobblemon:sweet_apple",
     "item:cobblemon:tart_apple",
     "item:cobblemon:syrupy_apple",
@@ -96,7 +112,6 @@
     "item:refurbished_furniture:light_stove",
     "item:beachparty:mini_fridge",
     "item:whimsy_deco:fan",
-    "item:cobblemon:fire_stone",
     "item:crittersandcompanions:shima_enaga_spawn_egg",
     "item:cobblemon:ability_shield",
     "item:cobblemon:ability_patch",
@@ -595,12 +610,10 @@
     "item:oreganized:lead_block",
     "item:society:aging_cask",
     "item:simpletms:tr_ragingfury",
-    "item:vintagedelight:century_egg",
     "item:society:wine_keg",
     "item:minecraft:iron_block",
     "item:minecraft:quartz_block",
     "item:classicpipes:obsidian_fluid_pipe",
-    "item:classicpipes:iron_fluid_pipe",
     "item:classicpipes:birch_fluid_pipe",
     "item:society:pickled_turnip",
     "item:society:pickled_cauliflower",
@@ -858,7 +871,6 @@
     "item:cobblemon:deep_sea_tooth",
     "item:cobblemon:iron_ball",
     "item:cobblemon:magnet",
-    "item:cobblemon:silk_scarf",
     "item:cobblemon:safety_goggles",
     "item:cobblemon:razor_claw",
     "item:cobblemon:quick_powder",
@@ -1269,11 +1281,6 @@
     },
     {
       "type": "item",
-      "id": "minecraft:raw_iron",
-      "amount": 4
-    },
-    {
-      "type": "item",
       "id": "netherdepthsupgrade:baked_searing_cod_stew",
       "amount": 62
     },
@@ -1460,11 +1467,6 @@
     "item:beachparty:sunglasses{Damage:0}",
     "item:society:sunlit_pearl",
     "item:vintagedelight:pickled_beetroot",
-    {
-      "type": "item",
-      "id": "minecraft:chicken",
-      "amount": 64
-    },
     "item:society:wraptor_mayonnaise",
     "item:society:springling_mayonnaise",
     "item:cobblemon:burn_heal",
@@ -1617,17 +1619,7 @@
     "item:society:aged_solaris_wine",
     "item:society:aged_magnetic_wine",
     "item:society:double_aged_kelp_cider",
-    "item:society:aged_jellie_wine",
-    "item:society:aged_forks_of_blue",
-    "item:society:aged_energy_drink",
-    "item:nethervinery:blazewine_pinot",
-    "item:nethervinery:ghastly_grenache",
-    "item:society:aged_ghastly_grenache",
-    "item:society:aged_century_egg",
-    "item:society:aged_kelp_cider",
-    "item:vinery:mead",
-    "item:vinery:bottle_mojang_noir",
-    "item:society:aged_bottle_mojang_noir"
+    "item:society:aged_jellie_wine"
   ],
   "craft_history": [
     "meadow:fire_log",

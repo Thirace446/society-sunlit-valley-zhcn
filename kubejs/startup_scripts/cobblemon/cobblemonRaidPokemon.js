@@ -71,12 +71,12 @@ global.handleRaidDefeat = (e) => {
     const pokemon = e.pokemon;
     if (pokemon.entity && pokemon.entity.persistentData && pokemon.entity.persistentData.raidMon) {
         let entityMon = pokemon.entity
-        let raidMondStats = entityMon.persistentData.raidMonStats;
+        let raidMonStats = entityMon.persistentData.raidMonStats;
         let server = pokemon.entity.getServer()
         let level = pokemon.entity.getLevel()
         let raidLevel = pokemon.getLevel();
-        let commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} ${pokemon.getSpecies()} ${raidMondStats.isShiny ? "shiny " : ""} ${raidMondStats.hasHiddenAbility ? "hiddenability " : ""}${raidMondStats.variant && raidMondStats.variant.equals("") ? "" : raidMondStats.variant} level=${Number(raidMondStats.spawnedLevel)}`;
-        let tier = Math.max(0, Number(raidMondStats.tier))
+        let commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} ${pokemon.getSpecies()} ${raidMonStats.isShiny ? "shiny " : ""} ${raidMonStats.hasHiddenAbility ? "hiddenability " : ""}${raidMonStats.variant && raidMonStats.variant.equals("") ? "" : raidMonStats.variant} level=${Number(raidMonStats.spawnedLevel)}`;
+        let tier = Math.max(0, Number(raidMonStats.tier))
 
         server.scheduleInTicks(0, () => {
             server.scheduleInTicks(60, () => {

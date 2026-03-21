@@ -13,8 +13,8 @@
       "after": "item:cobblemon:metal_alloy"
     },
     {
-      "stack": "item:cobblemon:shell_helmet",
-      "after": "item:cobblemon:scroll_of_darkness"
+      "stack": "item:cobblemon:scroll_of_darkness",
+      "after": "item:cobblemon:shell_helmet"
     },
     {
       "stack": "item:cobblemon:scroll_of_waters",

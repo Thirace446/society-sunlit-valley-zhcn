@@ -196,7 +196,7 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
             nbt.merge({
                 data: {
                     dayLastRaided: day
-                },
+                }
             });
             global.setBlockEntityData(block, nbt);
             server.runCommandSilent(`playsound cobblemon:poke_ball.send_out block @a ${block.x} ${block.y} ${block.z}`);
