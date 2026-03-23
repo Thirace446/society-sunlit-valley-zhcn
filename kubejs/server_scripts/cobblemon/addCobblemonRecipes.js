@@ -182,6 +182,60 @@ ServerEvents.recipes((e) => {
   })
 
   global.cobbleTypeGems.forEach((gem) => {
-    e.shapeless(`3x ${gem.item}`, [`society:pristine_${gem.item.split(":")[1]}`]);
+    e.shapeless(`3x ${gem.item}`, [`sunlit_cobblemon:pristine_${gem.item.split(":")[1]}`]);
   });
+
+
+  // Botania Alts
+  e.custom({
+    "type": "botania:runic_altar",
+    "ingredients": [
+      {
+        "tag": "botania:mana_diamond_gems"
+      },
+      {
+        "tag": "botania:mana_diamond_gems"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "botania:rune_earth"
+      },
+      {
+        "item": "botania:rune_mana"
+      }
+    ],
+    "mana": 12000,
+    "output": {
+      "item": "botania:rune_wrath"
+    }
+  })
+  e.custom({
+    "type": "botania:runic_altar",
+    "ingredients": [
+      {
+        "item": "botania:rune_water"
+      },
+      {
+        "item": "botania:rune_earth"
+      },
+      {
+        "item": "sunlit_cobblemon:permafrost"
+      }
+    ],
+    "mana": 8000,
+    "output": {
+      "item": "botania:rune_winter"
+    }
+  })
 });

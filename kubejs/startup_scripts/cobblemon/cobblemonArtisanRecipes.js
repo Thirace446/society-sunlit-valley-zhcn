@@ -118,6 +118,10 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
     input: "farmersdelight:sweet_berry_cheesecake",
     output: ["cobblemon:whipped_dream"],
   },
+  {
+    input: "sunlit_cobblemon:poison_drop",
+    output: ["society:spark_gro"],
+  },
 ].forEach((recipe) => {
   global.recyclingMachineRecipes.set(recipe.input, { output: recipe.output });
 });
@@ -151,3 +155,6 @@ global.cobbleTypeGems.forEach((gem) => {
 });
 
 global.mushroomLogRecipes.set("cobblemon:apricorn_log", { output: ["1x cobblemon:big_root"]});
+
+global.loomRecipes.set("sunlit_cobblemon:electro_wool", { output: ["sunlit_cobblemon:electric_canvas"]});
+

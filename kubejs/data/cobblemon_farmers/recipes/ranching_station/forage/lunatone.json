@@ -1,13 +1,18 @@
 {
-	"type": "cobblemon_farmers:ranching_station",
+	"type": "cobblemon_farmers:ranching_station/forage",
 	"pokemon": "lunatone",
-	"action_type": "forage",
 	"forages": [
 		{
 			"item": "society:lunarite",
 			"count": 1,
 			"chance": 0.45,
 			"min_hearts": 1
+		},
+		{
+			"item": "sunlit_cobblemon:moondust",
+			"count": 1,
+			"chance": 0.8,
+			"min_hearts": 10
 		}
 	]
 }

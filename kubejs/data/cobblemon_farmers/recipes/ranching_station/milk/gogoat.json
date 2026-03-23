@@ -1,7 +1,6 @@
 {
-	"type": "cobblemon_farmers:ranching_station",
+	"type": "cobblemon_farmers:ranching_station/milk",
 	"pokemon": "gogoat",
-	"action_type": "milking",
 	"milk": {
 		"sm": "society:goat_milk",
 		"lg": "society:large_goat_milk"

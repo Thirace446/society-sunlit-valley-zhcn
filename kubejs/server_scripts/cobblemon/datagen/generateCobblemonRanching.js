@@ -1,12 +1,117 @@
 
-const runRanchingDataGen = false;
+const runRanchingDataGen = true;
 
 if (runRanchingDataGen) {
-    const cowMilk = { sm: "society:milk", lg: "society:large_milk" };
+    let cobbleSheepMilk = { sm: "society:sheep_milk", lg: "society:large_sheep_milk" };
 
-    const sheepMilk = { sm: "society:sheep_milk", lg: "society:large_sheep_milk" };
-
-    const ranchingDef = [
+    let ranchingDef = [
+        {
+            pokemon: "smeargle",
+            forages: [
+                {
+                    item: "minecraft:painting",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: "society:red_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 1
+                },
+                {
+                    item: "society:orange_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 2
+                },
+                {
+                    item: "society:yellow_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 3
+                },
+                {
+                    item: "society:lime_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:green_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:blue_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 5
+                },
+                {
+                    item: "society:cyan_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:light_blue_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:pink_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 7
+                },
+                {
+                    item: "society:magenta_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 7
+                },
+                {
+                    item: "society:purple_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 8
+                },
+                {
+                    item: "society:white_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 8
+                },
+                {
+                    item: "society:light_gray_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 9
+                },
+                {
+                    item: "society:gray_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 9
+                },
+                {
+                    item: "society:black_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 10
+                },
+                {
+                    item: "society:brown_sheet",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 10
+                }
+            ],
+        },
         {
             pokemon: "corsola",
             forages: [
@@ -632,7 +737,7 @@ if (runRanchingDataGen) {
                 },
                 {
                     item: "species:frozen_hair",
-                    countMult: 4,
+                    count: 4,
                     chance: 0.35,
                     min_hearts: 7,
                 }
@@ -650,7 +755,7 @@ if (runRanchingDataGen) {
                 },
                 {
                     item: "species:frozen_hair",
-                    countMult: 4,
+                    count: 4,
                     chance: 0.45,
                     min_hearts: 7,
                 }
@@ -828,6 +933,106 @@ if (runRanchingDataGen) {
             ],
         },
         {
+            pokemon: "yanma",
+            forages: [
+                {
+                    item: "verdantvibes:cattails",
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 3
+                },
+                {
+                    item: "crittersandcompanions:dragonfly_wing",
+                    count: 1,
+                    chance: 0.25,
+                    min_hearts: 8
+                },
+            ],
+        },
+        {
+            pokemon: "yanmega",
+            forages: [
+                {
+                    item: "verdantvibes:cattails",
+                    count: 3,
+                    chance: 0.45,
+                    min_hearts: 3
+                },
+                {
+                    item: "crittersandcompanions:dragonfly_wing",
+                    count: 1,
+                    chance: 0.15,
+                    min_hearts: 6
+                },
+                {
+                    item: "botania:lens_normal",
+                    count: 1,
+                    chance: 0.2,
+                    min_hearts: 10
+                }
+            ],
+        },
+        {
+            pokemon: "trapinch",
+            forages: [
+                {
+                    item: 'society:sandstone_slate',
+                    count: 1,
+                    chance: 0.15,
+                    has_quality: true,
+                    min_hearts: 3
+                },
+                {
+                    item: "unusualfishmod:ripper_tooth",
+                    count: 1,
+                    chance: 0.03,
+                    min_hearts: 7
+                }
+            ],
+        },
+        {
+            pokemon: "vibrava",
+            forages: [
+                {
+                    item: 'society:pristine_sandstone_slate',
+                    count: 1,
+                    chance: 0.15,
+                    has_quality: true,
+                    min_hearts: 3
+                },
+                {
+                    item: "crittersandcompanions:dragonfly_wing",
+                    count: 1,
+                    chance: 0.05,
+                    min_hearts: 6
+                }
+            ],
+        },
+        {
+            pokemon: "flygon",
+            forages: [
+                {
+                    item: 'society:pristine_sandstone_slate',
+                    count: 1,
+                    chance: 0.45,
+                    has_quality: true,
+                    min_hearts: 3
+                },
+                {
+                    item: "crittersandcompanions:dragonfly_wing",
+                    count: 1,
+                    chance: 0.15,
+                    min_hearts: 6
+                },
+                {
+                    item: 'unimplemented_items:dry_root',
+                    count: 1,
+                    chance: 0.05,
+                    min_hearts: 10
+                }
+            ],
+        },
+        {
             pokemon: "foongus",
             forages: [
                 {
@@ -952,6 +1157,12 @@ if (runRanchingDataGen) {
                     count: 1,
                     chance: 0.25,
                     min_hearts: 4
+                },
+                {
+                    item: 'sunlit_cobblemon:moondust',
+                    count: 1,
+                    chance: 0.1,
+                    min_hearts: 10
                 }
             ],
         },
@@ -969,6 +1180,12 @@ if (runRanchingDataGen) {
                     count: 1,
                     chance: 0.2,
                     min_hearts: 8
+                },
+                {
+                    item: 'sunlit_cobblemon:moondust',
+                    count: 1,
+                    chance: 0.08,
+                    min_hearts: 10
                 }
             ],
         },
@@ -986,17 +1203,12 @@ if (runRanchingDataGen) {
                     count: 1,
                     chance: 0.45,
                     min_hearts: 8
-                }
-            ],
-        },
-        {
-            pokemon: "smeargle",
-            forages: [
+                },
                 {
-                    item: "minecraft:painting",
+                    item: 'sunlit_cobblemon:moondust',
                     count: 1,
-                    chance: 1,
-                    min_hearts: 1
+                    chance: 0.05,
+                    min_hearts: 10
                 }
             ],
         },
@@ -1008,6 +1220,92 @@ if (runRanchingDataGen) {
                     count: 1,
                     chance: 0.45,
                     min_hearts: 1
+                },
+                {
+                    item: 'sunlit_cobblemon:moondust',
+                    count: 1,
+                    chance: 0.8,
+                    min_hearts: 10
+                }
+            ],
+        },
+        {
+            pokemon: "teddiursa",
+            forages: [
+                {
+                    item: "golemoverhaul:honey_blob",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 6
+                }
+            ],
+        },
+        {
+            pokemon: "ursaring",
+            forages: [
+                {
+                    item: "golemoverhaul:honey_blob",
+                    count: 4,
+                    chance: 0.4,
+                    min_hearts: 6
+                },
+                {
+                    item: "minecraft:bee_nest",
+                    count: 1,
+                    chance: 0.2,
+                    min_hearts: 6
+                }
+            ],
+        },
+        {
+            pokemon: "ursaluna",
+            forages: [
+                {
+                    item: "golemoverhaul:honey_blob",
+                    count: 18,
+                    chance: 0.2,
+                    min_hearts: 6
+                },
+                {
+                    item: "minecraft:bee_nest",
+                    count: 1,
+                    chance: 0.2,
+                    min_hearts: 6
+                },
+                {
+                    item: 'sunlit_cobblemon:moondust',
+                    count: 1,
+                    chance: 0.01,
+                    min_hearts: 5
+                },
+                {
+                    item: "unusualfishmod:ripper_tooth",
+                    count: 1,
+                    chance: 0.03,
+                    min_hearts: 7
+                }
+            ],
+        },
+        {
+            pokemon: "cresselia",
+            forages: [
+                {
+                    item: 'cobblemon:moon_stone',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 2
+                },
+                {
+                    item: 'sunlit_cobblemon:moondust',
+                    count: 1,
+                    chance: 0.4,
+                    min_hearts: 3
+                },
+                {
+                    item: 'sunlit_cobblemon:resonance_gem',
+                    count: 1,
+                    chance: 0.2,
+                    min_hearts: 6
                 }
             ],
         },
@@ -1684,7 +1982,7 @@ if (runRanchingDataGen) {
                 {
                     item: "aquaculture:neptunium_nugget",
                     count: 1,
-                    chance: 0.5,
+                    chance: 0.05,
                     min_hearts: 10
                 }
             ],
@@ -1707,7 +2005,7 @@ if (runRanchingDataGen) {
                 {
                     item: "aquaculture:neptunium_ingot",
                     count: 1,
-                    chance: 0.3,
+                    chance: 0.03,
                     min_hearts: 10
                 }
             ],
@@ -1726,6 +2024,29 @@ if (runRanchingDataGen) {
                     count: 1,
                     chance: 0.5,
                     min_hearts: 5
+                }
+            ],
+        },
+        {
+            pokemon: "kecleon",
+            forages: [
+                {
+                    item: "society:legendary_ink",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 3
+                },
+                {
+                    item: "cobblemon:prism_scale",
+                    count: 1,
+                    chance: 0.04,
+                    min_hearts: 6
+                },
+                {
+                    item: "species:wicked_mask",
+                    count: 1,
+                    chance: 0.05,
+                    min_hearts: 8
                 }
             ],
         },
@@ -1827,7 +2148,7 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "wurmple",
+            pokemon: "weedle",
             forages: [
                 {
                     item: "crittersandcompanions:silk",
@@ -1838,14 +2159,108 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "weedle",
+            pokemon: "sentret",
             forages: [
                 {
-                    item: "crittersandcompanions:silk",
+                    item: "pamhc2trees:hazelnutitem",
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 6,
+                    has_quality: true,
+                },
+            ],
+        },
+        {
+            pokemon: "furret",
+            forages: [
+                {
+                    item: "pamhc2trees:hazelnutitem",
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 6,
+                    has_quality: true,
+                },
+                {
+                    item: "society:aquamarine",
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 9,
+                    has_quality: true,
+                },
+            ],
+        },
+        {
+            pokemon: "skwovet",
+            forages: [
+                {
+                    item: "pamhc2trees:hazelnutitem",
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 3,
+                    has_quality: true,
+                },
+            ],
+        },
+        {
+            pokemon: "greedent",
+            forages: [
+                {
+                    item: "pamhc2trees:hazelnutitem",
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 3,
+                    has_quality: true,
+                },
+                {
+                    item: "society:scavenged_food_bag",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 7,
+                },
+            ],
+        },
+        {
+            pokemon: "pachirisu",
+            forages: [
+                {
+                    item: "pamhc2trees:hazelnutitem",
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 6,
+                    has_quality: true,
+                },
+                {
+                    item: "cobblemon:sitrus_berry",
                     count: 1,
                     chance: 1,
-                    min_hearts: 3
-                }
+                    min_hearts: 7,
+                    has_quality: true,
+                },
+                {
+                    item: "cobblemon:dragon_gem",
+                    count: 1,
+                    chance: 0.5,
+                    min_hearts: 10
+                },
+            ],
+        },
+        {
+            pokemon: "emolga",
+            forages: [
+                {
+                    item: "pamhc2trees:hazelnutitem",
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 6,
+                    has_quality: true,
+                },
+                {
+                    item: "society:sparkpod",
+                    count: 1,
+                    chance: 0.05,
+                    min_hearts: 10,
+                    has_quality: true,
+                },
             ],
         },
         {
@@ -2214,7 +2629,7 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "gimmighoul",
+            pokemon: "gholdengo",
             forages: [
                 {
                     item: "cobblemon:relic_coin",
@@ -2392,7 +2807,7 @@ if (runRanchingDataGen) {
         },
         {
             pokemon: "wooloo",
-            milk: sheepMilk,
+            milk: cobbleSheepMilk,
         },
         {
             pokemon: "wooloo",
@@ -2408,7 +2823,7 @@ if (runRanchingDataGen) {
         },
         {
             pokemon: "dubwool",
-            milk: sheepMilk,
+            milk: cobbleSheepMilk,
         },
         {
             pokemon: "dubwool",
@@ -2431,13 +2846,13 @@ if (runRanchingDataGen) {
         },
         {
             pokemon: "mareep",
-            milk: sheepMilk,
+            milk: cobbleSheepMilk,
         },
         {
             pokemon: "mareep",
             forages: [
                 {
-                    item: "society:fine_wool",
+                    item: "sunlit_cobblemon:electro_wool",
                     count: 3,
                     chance: 0.8,
                     has_quality: true,
@@ -2446,14 +2861,14 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "flaafy",
-            milk: sheepMilk,
+            pokemon: "flaaffy",
+            milk: cobbleSheepMilk,
         },
         {
-            pokemon: "flaafy",
+            pokemon: "flaaffy",
             forages: [
                 {
-                    item: "society:fine_wool",
+                    item: "sunlit_cobblemon:electro_wool",
                     count: 1,
                     chance: 0.8,
                     has_quality: true,
@@ -2469,7 +2884,7 @@ if (runRanchingDataGen) {
         },
         {
             pokemon: "ampharos",
-            milk: sheepMilk,
+            milk: cobbleSheepMilk,
         },
         {
             pokemon: "ampharos",
@@ -2493,14 +2908,12 @@ if (runRanchingDataGen) {
     let recipe
     ranchingDef.forEach((def) => {
         recipe = {
-            type: "cobblemon_farmers:ranching_station",
+            type: `cobblemon_farmers:ranching_station/${def.milk ? "milk" : "forage"}`,
             pokemon: def.pokemon,
         }
         if (def.milk) {
-            recipe.action_type = "milking"
             recipe.milk = def.milk
         } else {
-            recipe.action_type = "forage"
             recipe.forages = def.forages
         }
         JsonIO.write(`kubejs/data/cobblemon_farmers/recipes/ranching_station/${def.milk ? "milk" : "forage"}/${def.pokemon}.json`, recipe);

@@ -1,7 +1,6 @@
 {
-	"type": "cobblemon_farmers:ranching_station",
+	"type": "cobblemon_farmers:ranching_station/milk",
 	"pokemon": "flaafy",
-	"action_type": "milking",
 	"milk": {
 		"sm": "society:sheep_milk",
 		"lg": "society:large_sheep_milk"

@@ -1,7 +1,6 @@
 {
-	"type": "cobblemon_farmers:ranching_station",
+	"type": "cobblemon_farmers:ranching_station/forage",
 	"pokemon": "slaking",
-	"action_type": "forage",
 	"forages": [
 		{
 			"item": "pamhc2trees:bananaitem",

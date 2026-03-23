@@ -1,0 +1,8 @@
+{
+	"type": "cobblemon_farmers:ranching_station/milk",
+	"pokemon": "flaaffy",
+	"milk": {
+		"sm": "society:sheep_milk",
+		"lg": "society:large_sheep_milk"
+	}
+}

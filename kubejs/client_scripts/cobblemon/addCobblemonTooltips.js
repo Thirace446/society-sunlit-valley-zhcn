@@ -19,6 +19,9 @@ ItemEvents.tooltip((tooltip) => {
   global.cobblePristineTypeGems.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "gem");
   });
+  global.cobblemonFarmerProducts.forEach((item) => {
+    global.addPriceTooltip(tooltip, item, "crop");
+  });
   global.cobblemonCooking.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "crop");
   });

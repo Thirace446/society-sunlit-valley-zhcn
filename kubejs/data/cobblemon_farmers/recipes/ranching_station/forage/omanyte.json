@@ -1,7 +1,6 @@
 {
-	"type": "cobblemon_farmers:ranching_station",
+	"type": "cobblemon_farmers:ranching_station/forage",
 	"pokemon": "omanyte",
-	"action_type": "forage",
 	"forages": [
 		{
 			"item": "minecraft:nautilus_shell",

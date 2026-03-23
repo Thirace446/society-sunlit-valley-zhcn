@@ -1572,6 +1572,7 @@ global.removedItems = [
 ];
 
 global.hiddenItems = [
+  "sunlit_cobblemon:unlooted_ball",
   "minecraft:ancient_debris",
   "society:growth_obelisk_upper",
   "cluttered:diamond_wallpaper_apple_bottom_brown",

@@ -1,7 +1,6 @@
 {
-	"type": "cobblemon_farmers:ranching_station",
+	"type": "cobblemon_farmers:ranching_station/forage",
 	"pokemon": "araquanid",
-	"action_type": "forage",
 	"forages": [
 		{
 			"item": "crittersandcompanions:silk",
@@ -18,7 +17,7 @@
 		{
 			"item": "aquaculture:neptunium_ingot",
 			"count": 1,
-			"chance": 0.3,
+			"chance": 0.03,
 			"min_hearts": 10
 		}
 	]

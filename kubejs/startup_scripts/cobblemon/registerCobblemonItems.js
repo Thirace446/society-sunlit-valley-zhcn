@@ -91,6 +91,29 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:uncharged_battery").texture(
     "sunlit_cobblemon:item/uncharged_battery",
   );
+  
+  e.create("sunlit_cobblemon:poison_drop");
+  e.create("sunlit_cobblemon:strange_spore");
+  e.create("sunlit_cobblemon:crystaline_water");
+  e.create("sunlit_cobblemon:permafrost");
+  e.create("sunlit_cobblemon:resonance_gem");
+  e.create("sunlit_cobblemon:electro_wool");
+  e.create("sunlit_cobblemon:electric_canvas");
+  e.create("sunlit_cobblemon:moondust");
+  e.create("sunlit_cobblemon:paras_mushroom");
+  [
+    "moomoo_milk",
+    "large_moomoo_milk",
+  ].forEach((item) => {
+    e.create(`sunlit_cobblemon:${item}`)
+      .food((food) => {
+        food.hunger(item.includes("large") ? 5 : 1);
+        food.saturation(1);
+        food.effect("farm_and_charm:grandmas_blessing", 200, 0, 1.0);
+        food.alwaysEdible(true);
+      })
+      .useAnimation("drink");
+  });
   e.create("sunlit_cobblemon:poke_genes")
     .texture("sunlit_cobblemon:item/poke_genes")
     .displayName("Poké Genes");

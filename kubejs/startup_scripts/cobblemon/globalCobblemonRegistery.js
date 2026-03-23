@@ -27,6 +27,7 @@ global.cobbleAdventuring = [
   { item: "cobblemon:nostalgic_sherd", value: 256 },
   { item: "cobblemon:suspicious_sherd", value: 256 },
 ];
+
 global.cobbleTypeGems = [
   { item: "cobblemon:normal_gem", value: 512 },
   { item: "cobblemon:fire_gem", value: 512 },
@@ -47,6 +48,7 @@ global.cobbleTypeGems = [
   { item: "cobblemon:steel_gem", value: 512 },
   { item: "cobblemon:fairy_gem", value: 512 },
 ];
+
 global.cobblePristineTypeGems = [];
 global.cobbleTypeGems.forEach((gem) => {
   global.cobblePristineTypeGems.push({
@@ -54,6 +56,7 @@ global.cobbleTypeGems.forEach((gem) => {
     value: gem.value * 4,
   });
 });
+
 global.cobbleGeology = [
   { item: "cobblemon:tumblestone", value: 8 },
   { item: "cobblemon:black_tumblestone", value: 12 },
@@ -61,17 +64,28 @@ global.cobbleGeology = [
   { item: "cobblemon:tumblestone_block", value: 32 },
   { item: "cobblemon:black_tumblestone_block", value: 48 },
   { item: "cobblemon:sky_tumblestone_block", value: 64 },
-  { item: "cobblemon:fire_stone", value: 2048 },
+  { item: "cobblemon:fire_stone", value: 1048 },
+  { item: "cobblemon:fire_stone_block", value: 9432 },
   { item: "cobblemon:water_stone", value: 820 },
+  { item: "cobblemon:water_stone_block", value: 7380 },
   { item: "cobblemon:thunder_stone", value: 500 },
+  { item: "cobblemon:thunder_stone_block", value: 4500 },
   { item: "cobblemon:leaf_stone", value: 640 },
+  { item: "cobblemon:leaf_stone_block", value: 5760 },
   { item: "cobblemon:moon_stone", value: 230 },
+  { item: "cobblemon:moon_stone_block", value: 2070 },
   { item: "cobblemon:sun_stone", value: 500 },
+  { item: "cobblemon:sun_stone_block", value: 4500 },
   { item: "cobblemon:shiny_stone", value: 1200 },
-  { item: "cobblemon:dusk_stone", value: 1800 },
+  { item: "cobblemon:shiny_stone_block", value: 10800 },
+  { item: "cobblemon:dusk_stone", value: 1200 },
+  { item: "cobblemon:dusk_stone_block", value: 10800 },
   { item: "cobblemon:dawn_stone", value: 806 },
+  { item: "cobblemon:dawn_stone_block", value: 7254 },
   { item: "cobblemon:ice_stone", value: 1020 },
+  { item: "cobblemon:ice_stone_block", value: 9180 },
 ];
+
 global.cobbleTypeGems.forEach((gem) => global.cobbleGeology.push(gem));
 
 global.cobblemonCooking = [
@@ -85,6 +99,7 @@ global.cobblemonCooking = [
   { item: "cobblemon:max_potion", value: 2048 },
   { item: "cobblemon:full_restore", value: 3072 },
 ];
+
 global.cobbleCrops = [
   { item: "cobblemon:big_root", value: 4 },
   { item: "cobblemon:energy_root", value: 16 },
@@ -178,6 +193,20 @@ global.cobbleCrops = [
   { item: "cobblemon:jaboca_berry", value: 32 },
   { item: "cobblemon:rowap_berry", value: 32 },
 ];
+
+global.cobblemonFarmerProducts = [
+  { item: "sunlit_cobblemon:paras_mushroom", value: 225 },
+  { item: "sunlit_cobblemon:strange_spore", value: 225 },
+  { item: "sunlit_cobblemon:poison_drop", value: 4 },
+  { item: "sunlit_cobblemon:crystaline_water", value: 225 },
+  { item: "sunlit_cobblemon:permafrost", value: 225 },
+  { item: "sunlit_cobblemon:resonance_gem", value: 225 },
+  { item: "sunlit_cobblemon:electro_wool", value: 512 },
+  { item: "sunlit_cobblemon:electric_canvas", value: 8192 },
+  { item: "sunlit_cobblemon:moomoo_milk", value: 225 },
+  { item: "sunlit_cobblemon:large_moomoo_milk", value: 225 },
+];
+
 /**
  * Preserves
  * Formula: Ingredient * 20
@@ -199,6 +228,7 @@ global.cobblemonDehydrated = [
   { item: "sunlit_cobblemon:dried_uncommon_cobbleberry", value: 176 },
   { item: "sunlit_cobblemon:dried_rare_cobbleberry", value: 288 },
   { item: "sunlit_cobblemon:dried_legendary_cobbleberry", value: 512 },
+  { item: "sunlit_cobblemon:dried_paras_mushroom", value: 3214 },
 ];
 global.cobbleAdventuring.forEach((miscItem) => {
   const { item, value } = miscItem;
@@ -219,6 +249,13 @@ global.cobblePristineTypeGems.forEach((miscItem) => {
   global.trades.set(item, {
     value: value,
     multiplier: "shippingbin:gem_sell_multiplier",
+  });
+});
+global.cobblemonFarmerProducts.forEach((dish) => {
+  const { item, value } = dish;
+  global.trades.set(item, {
+    value: value,
+    multiplier: "shippingbin:crop_sell_multiplier",
   });
 });
 global.cobblemonCooking.forEach((dish) => {

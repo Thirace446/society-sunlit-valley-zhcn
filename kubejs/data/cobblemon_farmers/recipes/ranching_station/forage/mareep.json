@@ -1,10 +1,9 @@
 {
-	"type": "cobblemon_farmers:ranching_station",
+	"type": "cobblemon_farmers:ranching_station/forage",
 	"pokemon": "mareep",
-	"action_type": "forage",
 	"forages": [
 		{
-			"item": "society:fine_wool",
+			"item": "sunlit_cobblemon:electro_wool",
 			"count": 3,
 			"chance": 0.8,
 			"has_quality": true,
