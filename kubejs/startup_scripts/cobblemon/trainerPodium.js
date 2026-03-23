@@ -53,8 +53,8 @@ global.runTrainerPodium = (entity) => {
       let levelAverage = Math.min(100, global.getPartyLevel(ownerPlayer));
       let levelTier = global.getPlayerPodiumLevelTier(ownerPlayer, levelAverage);
       let trainer
-      ownerPlayer.persistentData.winStreak = 11
-      if (ownerPlayer.persistentData.winStreak % 10 === 0) {
+      // ownerPlayer.persistentData.winStreak = 11
+      if (ownerPlayer.persistentData.winStreak > 9 && ownerPlayer.persistentData.winStreak % 10 === 0) {
         trainer = global.getLeagueBoss(Math.min(100, levelTier))
       } else {
         trainer = global.getRandomTrainer(Math.min(100, levelTier));

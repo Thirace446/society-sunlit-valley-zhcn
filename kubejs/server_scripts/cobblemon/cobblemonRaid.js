@@ -193,11 +193,39 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
         let shiny = Math.random() < tierStats.shinyChance;
         let spawnedAny = global.summonRaidPokemon(server, level, block, nbt.data.type, nbt.data.variant, raidLevel, nbt.data.level, shiny, hiddenAbility, nbt.data.tier, true);
         if (spawnedAny) {
-            nbt.merge({
-                data: {
-                    dayLastRaided: day
-                }
-            });
+            if (player.stages.has("savage_sun") && Math.random() < 0.15) {
+                server.runCommandSilent(`playsound stardew_fishing:complete block @a ${block.x} ${block.y} ${block.z}`);
+                level.spawnParticles(
+                    "species:ascending_dust",
+                    true,
+                    block.x,
+                    block.y + 0.5,
+                    block.z,
+                    0.5 * rnd(0, 2),
+                    0.5 * rnd(0, 2),
+                    0.5 * rnd(0, 2),
+                    20,
+                    0.01
+                );
+                level.spawnParticles(
+                    "amendments:fireball_trail",
+                    true,
+                    block.x,
+                    block.y + 0.5,
+                    block.z,
+                    0.2 * rnd(0, 2),
+                    0.2 * rnd(0, 2),
+                    0.2 * rnd(0, 2),
+                    20,
+                    0.01
+                );
+            } else {
+                nbt.merge({
+                    data: {
+                        dayLastRaided: day
+                    }
+                });
+            }
             global.setBlockEntityData(block, nbt);
             server.runCommandSilent(`playsound cobblemon:poke_ball.send_out block @a ${block.x} ${block.y} ${block.z}`);
             server.runCommandSilent(`playsound species:effect.gut_feeling.applied block @a ${block.x} ${block.y} ${block.z}`);

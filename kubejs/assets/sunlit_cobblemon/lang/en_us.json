@@ -30,6 +30,7 @@
   "sunlit_cobblemon.wormhole_generator.hint.guzzlord": "Wormhole Generator detecting a massive void in the area",
   "sunlit_cobblemon.wormhole_generator.hint.blacephalon": "Wormhole Generator detecting bursts of energy in the area",
   "sunlit_cobblemon.wormhole_generator.hint.xurkitree": "Wormhole Generator detecting sharp electricity in the area",
+  "sunlit_cobblemon.wormhole_generator.hint.celesteela": "Wormhole Generator detecting jet fuel residue in the area",
   
   "block.sunlit_cobblemon.trainer_podium.description": "Invites Trainers to your Gym. Their levels will match the average of your party",
   "block.sunlit_cobblemon.sun_raid_statue.description": "Summons a sun raid Pokémon once a day. Shift + Right click to activate the altar",
@@ -353,7 +354,7 @@
   "sunlit_cobblemon.books.the_art_of_battle.description": "The Sunlit league pays out 25% more per battle.",
   "sunlit_cobblemon.books.berry_labor_and_capital.description": "+3 Pokémon worker slots.",
   "sunlit_cobblemon.books.bottlecaps_and_nothingness.description": "Small chance to find Bottlecaps in loot chests.",
-  "sunlit_cobblemon.books.braiding_surprisegrass.description": "50% more likely to find Pokémon when harvesting crops and fruit trees.",
+  "sunlit_cobblemon.books.braiding_surprisegrass.description": "Twice as likely to find Pokémon when harvesting crops and fruit trees.",
   "sunlit_cobblemon.books.the_gachamonbler.description": "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
   "sunlit_cobblemon.books.mukbeth.description": "Grimer, Trubbish, and their evolutions are no longer caught by Poké Bobbers.",
   "sunlit_cobblemon.books.savage_sun.description": "Sun Raid Statues have a 15% chance to ignore their activation cooldown when used."

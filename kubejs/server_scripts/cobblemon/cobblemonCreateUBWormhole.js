@@ -37,6 +37,8 @@ const getUBFromBiome = (level, player) => {
         return "kartana";
     } else if (biomeTags.includes("minecraft:is_mountain")) {
         return "guzzlord"
+    } else if (biomeTags.includes("minecraft:is_badlands")) {
+        return "celesteela"
     } else if (biomeTags.includes("minecraft:is_nether")) {
         return "blacephalon"
     }

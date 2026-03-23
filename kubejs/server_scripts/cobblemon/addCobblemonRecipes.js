@@ -180,11 +180,13 @@ ServerEvents.recipes((e) => {
     "count": 4,
     "experience": 0.3
   })
-
+  // Misc
+  
+  e.shapeless("cobblemon:energy_root", ["cobblemon:big_root", "sunlit_cobblemon:strange_spore"]);
   global.cobbleTypeGems.forEach((gem) => {
     e.shapeless(`3x ${gem.item}`, [`sunlit_cobblemon:pristine_${gem.item.split(":")[1]}`]);
   });
-
+  
 
   // Botania Alts
   e.custom({
@@ -236,6 +238,17 @@ ServerEvents.recipes((e) => {
     "mana": 8000,
     "output": {
       "item": "botania:rune_winter"
+    }
+  })
+  e.custom({
+    "type": "botania:mana_infusion",
+    "input": {
+      "item": "sunlit_cobblemon:electro_wool"
+    },
+    "mana": 2500,
+    "output": {
+      "item": "botania:mana_string",
+      "count": 4
     }
   })
 });

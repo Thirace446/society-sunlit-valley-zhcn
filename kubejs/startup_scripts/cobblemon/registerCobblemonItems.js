@@ -93,8 +93,8 @@ StartupEvents.registry("item", (e) => {
   );
   
   e.create("sunlit_cobblemon:poison_drop");
+  e.create("sunlit_cobblemon:venomshine");
   e.create("sunlit_cobblemon:strange_spore");
-  e.create("sunlit_cobblemon:crystaline_water");
   e.create("sunlit_cobblemon:permafrost");
   e.create("sunlit_cobblemon:resonance_gem");
   e.create("sunlit_cobblemon:electro_wool");

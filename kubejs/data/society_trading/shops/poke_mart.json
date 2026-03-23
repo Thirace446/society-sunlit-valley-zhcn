@@ -366,6 +366,19 @@
     },
     {
       "offer": {
+        "item": "sunlit_league_medallion:berry_labor_and_capital",
+        "count": 1
+      },
+      "request": {
+        "item": "sunlit_cobblemon:sunlit_league_medallion",
+        "count": 10
+      },
+      "stage_required": "trainer_lvl_5",
+      "unlock_description": "jei.society_trading.trainer_lvl_5",
+      "trade_id": "pmart_metal_alloy"
+    },
+    {
+      "offer": {
         "item": "cobblemon:metal_alloy",
         "count": 1
       },

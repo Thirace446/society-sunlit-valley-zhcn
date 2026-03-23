@@ -10,10 +10,9 @@
 			"min_hearts": 4
 		},
 		{
-			"item": "cluttered:fly_agaric",
-			"count": 4,
-			"chance": 0.4,
-			"has_quality": true,
+			"item": "sunlit_cobblemon:strange_spore",
+			"count": 1,
+			"chance": 0.15,
 			"min_hearts": 8
 		}
 	]

@@ -31,6 +31,9 @@ ItemEvents.tooltip((tooltip) => {
   global.cobblemonDehydrated.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "wood");
   });
+  global.cobblemonArtisan.forEach((item) => {
+    global.addPriceTooltip(tooltip, item, "wood");
+  });
   global.cobbleCrops.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "crop");
   });
@@ -362,7 +365,7 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "sunlit_cobblemon:braiding_surprisegrass",
-      description: "50% more likely to find Pokémon when harvesting crops and fruit trees.",
+      description: "Twice as likely to find Pokémon when harvesting crops and fruit trees.",
     },
     {
       item: "sunlit_cobblemon:the_gachamonbler",

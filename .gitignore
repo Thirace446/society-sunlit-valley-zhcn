@@ -9,6 +9,7 @@ xaero/
 local/
 logs
 resourcepacks/*
+datapacks/*
 !/resourcepacks/sunlit_overrides.zip
 !config/defaultoptions/options.txt
 mods/

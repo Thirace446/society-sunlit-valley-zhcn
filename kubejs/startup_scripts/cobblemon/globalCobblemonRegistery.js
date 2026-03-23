@@ -230,6 +230,11 @@ global.cobblemonDehydrated = [
   { item: "sunlit_cobblemon:dried_legendary_cobbleberry", value: 512 },
   { item: "sunlit_cobblemon:dried_paras_mushroom", value: 3214 },
 ];
+
+global.cobblemonArtisan = [
+  { item: "sunlit_cobblemon:venomshine", value: 480 },
+];
+
 global.cobbleAdventuring.forEach((miscItem) => {
   const { item, value } = miscItem;
   global.trades.set(item, {
@@ -273,6 +278,13 @@ global.cobblemonPreserves.forEach((miscItem) => {
   });
 });
 global.cobblemonDehydrated.forEach((dehydratee) => {
+  const { item, value } = dehydratee;
+  global.trades.set(item, {
+    value: value,
+    multiplier: "shippingbin:wood_sell_multiplier",
+  });
+});
+global.cobblemonArtisan.forEach((dehydratee) => {
   const { item, value } = dehydratee;
   global.trades.set(item, {
     value: value,

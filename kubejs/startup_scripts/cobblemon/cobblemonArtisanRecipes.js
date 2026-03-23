@@ -122,6 +122,10 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
     input: "sunlit_cobblemon:poison_drop",
     output: ["society:spark_gro"],
   },
+  {
+    input: "sunlit_cobblemon:strange_spore",
+    output: ["4x society:enriched_bone_meal"],
+  },
 ].forEach((recipe) => {
   global.recyclingMachineRecipes.set(recipe.input, { output: recipe.output });
 });
@@ -143,6 +147,10 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
     input: "#cobblemon_farmers:legendary_berries",
     output: ["sunlit_cobblemon:dried_legendary_cobbleberry"],
   },
+  {
+    input: "sunlit_cobblemon:paras_mushroom",
+    output: ["sunlit_cobblemon:dried_paras_mushroom"],
+  },
 ].forEach((recipe) => {
   global.dehydratorRecipes.set(recipe.input, { output: recipe.output });
 });
@@ -157,4 +165,6 @@ global.cobbleTypeGems.forEach((gem) => {
 global.mushroomLogRecipes.set("cobblemon:apricorn_log", { output: ["1x cobblemon:big_root"]});
 
 global.loomRecipes.set("sunlit_cobblemon:electro_wool", { output: ["sunlit_cobblemon:electric_canvas"]});
+
+global.oilMakerRecipes.set("sunlit_cobblemon:poison_drop", { output: ["sunlit_cobblemon:venomshine"]});
 

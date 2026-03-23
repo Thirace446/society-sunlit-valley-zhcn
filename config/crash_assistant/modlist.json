@@ -375,6 +375,13 @@
     "curseForgeHash": 3290138757,
     "modrinthHash": "ac86f60938f74031e298f72d3bc6b852d703ecea"
   },
+  "cobblemon_farmers-0.5.jar": {
+    "jarName": "cobblemon_farmers-0.5.jar",
+    "modId": "cobble_workers",
+    "version": "0.5",
+    "curseForgeHash": 1178132196,
+    "modrinthHash": "511f31ae217679b3fd41728b2f90095ab8edc012"
+  },
   "cobblemon_farmers-1.0.jar": {
     "jarName": "cobblemon_farmers-1.0.jar",
     "modId": "cobblemon_farmers",
@@ -1159,13 +1166,6 @@
     "curseForgeHash": 3328741320,
     "modrinthHash": "1a0aaf7c33b9acb26bf75899a43e8941cac1f6e7"
   },
-  "globalpacks-forge-1.20.1-19.3.7.jar": {
-    "jarName": "globalpacks-forge-1.20.1-19.3.7.jar",
-    "modId": "globalpacks",
-    "version": "19.3.7",
-    "curseForgeHash": 4208659270,
-    "modrinthHash": "46063649fa29df57c253072e10495c2e60579302"
-  },
   "gnetum-2.3.4.jar": {
     "jarName": "gnetum-2.3.4.jar",
     "modId": "gnetum",
@@ -1228,13 +1228,6 @@
     "version": "0.6.8+1.20.1",
     "curseForgeHash": 2144919017,
     "modrinthHash": "f3a464ae2cb3173c7a7b765b4b9e61591f71833c"
-  },
-  "immersiveoverlays-1.5.0+1.20.1-forge.jar": {
-    "jarName": "immersiveoverlays-1.5.0+1.20.1-forge.jar",
-    "modId": "immersiveoverlays",
-    "version": "1.5.0+1.20.1",
-    "curseForgeHash": 113609628,
-    "modrinthHash": "e2a67d8ca13135c122f347c4928f5ef957ee5c3c"
   },
   "incontrol-1.20-9.4.1.jar": {
     "jarName": "incontrol-1.20-9.4.1.jar",
@@ -1702,6 +1695,13 @@
     "version": "1.20-6.0.0",
     "curseForgeHash": 1733614260,
     "modrinthHash": "272bddb5e5284737f11519c6895cfb07fe38ab51"
+  },
+  "OpenLoader-Forge-1.20.1-19.0.5.jar": {
+    "jarName": "OpenLoader-Forge-1.20.1-19.0.5.jar",
+    "modId": "openloader",
+    "version": "19.0.5",
+    "curseForgeHash": 692457962,
+    "modrinthHash": "a0d862da2dd1dc21d00e64508f56e45d31639686"
   },
   "Oreganized 1.20.1-4.3.1.jar": {
     "jarName": "Oreganized 1.20.1-4.3.1.jar",

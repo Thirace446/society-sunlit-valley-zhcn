@@ -6,6 +6,7 @@
 			"item": "crabbersdelight:raw_squid_tentacles",
 			"count": 4,
 			"chance": 0.25,
+			"has_quality": true,
 			"min_hearts": 3
 		},
 		{
