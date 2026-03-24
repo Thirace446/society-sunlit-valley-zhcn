@@ -57,5 +57,27 @@
     "item.cobblemon.tanga_berry.tooltip": "Halves damage taken from a supereffective Bug-type attack",
     "item.cobblemon.wacan_berry.tooltip": "Halves damage taken from a supereffective Electric-type attack",
     "item.cobblemon.wiki_berry.tooltip": "Restores 1/3 max HP at 1/4 max HP or less; confuses if -SpA Nature",
-    "item.cobblemon.yache_berry.tooltip": "Halves damage taken from a supereffective Ice-type attack"
+    "item.cobblemon.yache_berry.tooltip": "Halves damage taken from a supereffective Ice-type attack",
+
+    "item.cobblemon.health_mochi.tooltip": "Raises the Pokémon's HP EVs by 4",
+    "item.cobblemon.muscle_mochi.tooltip": "Raises the Pokémon's Attack EVs by 4",
+    "item.cobblemon.resist_mochi.tooltip": "Raises the Pokémon's Defense EVs by 4",
+    "item.cobblemon.genius_mochi.tooltip": "Raises the Pokémon's Sp. Atk EVs by 4",
+    "item.cobblemon.clever_mochi.tooltip": "Raises the Pokémon's Sp. Def EVs by 4",
+    "item.cobblemon.swift_mochi.tooltip": "Raises the Pokémon's Speed EVs by 4",
+    "item.cobblemon.fresh_start_mochi": "Fresh-Start Mochi",
+    "item.cobblemon.fresh_start_mochi.tooltip": "Resets all of the Pokémon's EVs to 0",
+  
+    "item.cobblemon.health_candy.tooltip": "Raises the Pokémon's effective HP IV stat by 1",
+    "item.cobblemon.mighty_candy.tooltip": "Raises the Pokémon's effective Attack IV stat by 1",
+    "item.cobblemon.tough_candy.tooltip": "Raises the Pokémon's effective Defense IV stat by 1",
+    "item.cobblemon.smart_candy.tooltip": "Raises the Pokémon's effective Special Attack IV stat by 1",
+    "item.cobblemon.courage_candy.tooltip": "Raises the Pokémon's effective Special Defense IV stat by 1",
+    "item.cobblemon.quick_candy.tooltip": "Raises the Pokémon's effective Speed IV stat by 1",
+    "item.cobblemon.sickly_candy.tooltip": "Lowers the Pokémon's effective HP IV stat by 1",
+    "item.cobblemon.weak_candy.tooltip": "Lowers the Pokémon's effective Attack IV stat by 1",
+    "item.cobblemon.brittle_candy.tooltip": "Lowers the Pokémon's effective Defense IV stat by 1",
+    "item.cobblemon.numb_candy.tooltip": "Lowers the Pokémon's effective Special Attack IV stat by 1",
+    "item.cobblemon.coward_candy.tooltip": "Lowers the Pokémon's effective Special Defense IV stat by 1",
+    "item.cobblemon.slow_candy.tooltip": "Lowers the Pokémon's effective Speed IV stat by 1"
 }

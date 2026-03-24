@@ -7,6 +7,16 @@ StartupEvents.registry("item", (e) => {
   e.create("cobblemon:syrupy_apple").texture("cobblemon:item/evolution/syrupy_apple");
   e.create("cobblemon:scroll_of_darkness").texture("cobblemon:item/evolution/scroll_of_darkness");
   e.create("cobblemon:scroll_of_waters").texture("cobblemon:item/evolution/scroll_of_waters");
+
+  ["courage", "health", "mighty", "quick", "smart", "tough", "brittle", "coward", "numb", "sickly", "slow", "weak"].forEach((candyType) => {
+    e.create(`cobblemon:${candyType}_candy`).texture(`cobblemon:item/iv_candy/${candyType}_candy`);
+  });
+
+  ["health", "muscle", "resist", "genius", "clever", "swift", "fresh_start"].forEach((mochi) => {
+    e.create(`cobblemon:${mochi}_mochi`).texture(`cobblemon:item/mochis/${mochi}_mochi`);
+  });
+
+
   // Sunlit Cobblemon
   e.create("sunlit_cobblemon:unlooted_ball").modelJson({
     "parent": "society:block/kubejs/pond_quest"
@@ -91,7 +101,7 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:uncharged_battery").texture(
     "sunlit_cobblemon:item/uncharged_battery",
   );
-  
+
   e.create("sunlit_cobblemon:poison_drop");
   e.create("sunlit_cobblemon:venomshine");
   e.create("sunlit_cobblemon:strange_spore");

@@ -304,6 +304,16 @@ ItemEvents.tooltip((tooltip) => {
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   });
 
+  ["courage", "health", "mighty", "quick", "smart", "yough", "brittle", "coward", "numb", "sickly", "slow", "weak"].forEach((item) => {
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`item.cobblemon.${item}_candy.tooltip`).gray());
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  });
+
+  ["health", "muscle", "resist", "genius", "clever", "swift", "fresh_start"].forEach((item) => {
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`item.cobblemon.${item}_mochi.tooltip`).gray());
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  });
+
   [
     "revival_herb", "big_root", "energy_root",
     "antidote", "awakening", "burn_heal", "ice_heal", "paralyze_heal", "full_heal",
