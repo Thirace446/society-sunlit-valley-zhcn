@@ -508,6 +508,10 @@
   "jade.society.crop_growth":"성장: %s/%s 일",
   "jade.society.crop_growth.mature":"수확 가능",
   "jade.society.crop_growth.stop":"생장 정지됨",
+  "jade.society.crop_growth.need_stem":"포도 지지대 필요",
+  "jade.society.crop_growth.need_lattice":"포도 격자판 필요",
+  "jade.society.crop_growth.need_farmland":"경작지에 심어야 함",
+  "jade.society.crop_growth.need_watered_farmland":"수중 경작지에 심어야 함",
 
   "tooltip.society.coins": "§f●§r %s",
   "tooltip.society.stack_value": "총 가격",

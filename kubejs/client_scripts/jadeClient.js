@@ -154,7 +154,7 @@ global["JadeSocietyCropClientCallback"] = (
 ) => {
   const block = accessor.getBlock();
   const state = accessor.getBlockState();
-  const name = block.getIdLocation();
+  const name = block.getIdLocation().toString();
   const skips = [
     "minecraft:cocoa",
     "minecraft:chorus_flower",
@@ -185,16 +185,6 @@ global["JadeSocietyCropClientCallback"] = (
     "farmersdelight:rice_panicles"
   ];
 
-  const addGrowthLevelTooltip = (current, max, isFertile) => {
-    if (current >= max) {
-      tooltip.add(Component.translatable("jade.society.crop_growth.mature").darkGreen());
-    } else {
-      tooltip.add(Component.translatable("jade.society.crop_growth", Number(current).toFixed(), Number(max).toFixed()));
-    }
-    if (!isFertile) {
-      tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
-    }
-  };
   const hasGreenhouseGlass = (level, cropPos) => {
     let scannedBlock;
     for (let i = 0; i < 16; i++) {
@@ -216,12 +206,22 @@ global["JadeSocietyCropClientCallback"] = (
     return false;
   };
   const isCropFertile = (cropId) => {
-    if (needsFarmland.includes(cropId.toString()) && !hasFarmland(accessor.getLevel(), accessor.getPosition())) return false;
-    return $SereneFertility.isCropFertile(cropId.toString(), accessor.getLevel(), accessor.getPosition())
+    if (needsFarmland.includes(name) && !hasFarmland(accessor.getLevel(), accessor.getPosition())) return false;
+    return $SereneFertility.isCropFertile(cropId, accessor.getLevel(), accessor.getPosition())
     || hasGreenhouseGlass(accessor.getLevel(), accessor.getPosition());
   };
+  const addGrowthLevelTooltip = (current, max, isFertile) => {
+    if (current >= max) {
+      tooltip.add(Component.translatable("jade.society.crop_growth.mature").darkGreen());
+    } else {
+      tooltip.add(Component.translatable("jade.society.crop_growth", Number(current).toFixed(), Number(max).toFixed()));
+    }
+    if (!isFertile) {
+      tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
+    }
+  };
 
-  if ($SereneFertility.isCrop(state) && !skips.includes(name.toString())) {
+  if ($SereneFertility.isCrop(state) && !skips.includes(name)) {
     try {
       if (block instanceof $CropBlock) {
         addGrowthLevelTooltip(block.getAge(state), block.getMaxAge(), isCropFertile(name));
@@ -235,14 +235,20 @@ global["JadeSocietyCropClientCallback"] = (
         addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_3), 3, isCropFertile(name));
       }
     } catch (e) {}
-  } else if (name.toString().includes("grape_bush")) {
+  } else if (name.includes("grape_bush")) {
       tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
+      if (name.includes("jungle")) tooltip.add(Component.translatable("jade.society.crop_growth.need_lattice").red());
+      else tooltip.add(Component.translatable("jade.society.crop_growth.need_stem").red());
   } else {
     $JadeCropInfo.INSTANCE.appendTooltip(tooltip.getTooltip(), accessor, pluginConfig);
-    if (skips.includes(name.toString()) && !isCropFertile(name)) {
+    if (skips.includes(name) && !isCropFertile(name)) {
       tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
     }
   }
+  if (needsFarmland.includes(name) && !hasFarmland(accessor.getLevel(), accessor.getPosition())) {
+      if (name.includes("rice")) tooltip.add(Component.translatable("jade.society.crop_growth.need_watered_farmland").red());
+      else tooltip.add(Component.translatable("jade.society.crop_growth.need_farmland").red());
+  } 
 };
 
 JadeEvents.onClientRegistration((e) => {
