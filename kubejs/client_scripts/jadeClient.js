@@ -5,6 +5,14 @@ const $IntegerProperty = Java.loadClass(
 const $BooleanProperty = Java.loadClass(
   "net.minecraft.world.level.block.state.properties.BooleanProperty"
 );
+const $CropBlock = Java.loadClass(
+  "net.minecraft.world.level.block.CropBlock"
+);
+const $BlockStateProperties = Java.loadClass(
+  "net.minecraft.world.level.block.state.properties.BlockStateProperties"
+);
+const $SereneFertility = Java.loadClass("sereneseasons.init.ModFertility");
+const $JadeCropInfo = Java.loadClass("snownee.jade.addon.vanilla.CropProgressProvider");
 const Vec2 = Java.loadClass("net.minecraft.world.phys.Vec2");
 
 global["JadePlushieClientCallback"] = (tooltip, accessor, pluginConfig) => {
@@ -139,6 +147,90 @@ global["JadeArtisanMachineClientCallback"] = (
   );
 };
 
+global["JadeSocietyCropClientCallback"] = (
+  tooltip,
+  accessor,
+  pluginConfig
+) => {
+  const block = accessor.getBlock();
+  const state = accessor.getBlockState();
+  const name = block.getIdLocation();
+  const skips = [
+    "minecraft:cocoa",
+    "minecraft:chorus_flower",
+    "minecraft:nether_wart",
+    "atmospheric:aloe_vera",
+    "farmersdelight:rice",
+    "pamhc2trees:pam"
+  ];
+  const needsFarmland = [
+    "minecraft:sweet_berry_bush",
+    "windswept:wild_berry_bush",
+    "vintagedelight:gearo_berry_bush",
+    "farmersdelight:rice",
+    "farmersdelight:rice_panicles"
+  ];
+
+  const addGrowthLevelTooltip = (current, max, isFertile) => {
+    if (current >= max) {
+      tooltip.add(Component.translatable("jade.society.crop_growth.mature").darkGreen());
+    } else {
+      tooltip.add(Component.translatable("jade.society.crop_growth", Number(current).toFixed(), Number(max).toFixed()));
+    }
+    if (!isFertile) {
+      tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
+    }
+  };
+  const hasGreenhouseGlass = (level, cropPos) => {
+    let scannedBlock;
+    for (let i = 0; i < 16; i++) {
+      scannedBlock = level.getBlock(cropPos.offset(0, i + 1, 0));
+      if (scannedBlock.hasTag("sereneseasons:greenhouse_glass")) {
+        return true;
+      }
+    }
+    return false;
+  };
+  const hasFarmland = (level, cropPos) => {
+    let scannedBlock;
+    for (let i = -2; i < 0 ; i++) {
+      scannedBlock = level.getBlock(cropPos.offset(0, i, 0));
+      if (scannedBlock.getId().includes("farmland")) {
+        return true;
+      }
+    }
+    return false;
+  };
+  const isCropFertile = (cropId) => {
+    if (needsFarmland.includes(cropId.toString()) && !hasFarmland(accessor.getLevel(), accessor.getPosition())) return false;
+    return $SereneFertility.isCropFertile(cropId.toString(), accessor.getLevel(), accessor.getPosition())
+    || hasGreenhouseGlass(accessor.getLevel(), accessor.getPosition());
+  };
+
+  if ($SereneFertility.isCrop(state) && !skips.some(s => name.toString().includes(s))) {
+    try {
+      if (block instanceof $CropBlock) {
+        addGrowthLevelTooltip(block.getAge(state), block.getMaxAge(), isCropFertile(name));
+      } else if (state.hasProperty($BlockStateProperties.AGE_7)) {
+        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_7), 7, isCropFertile(name));
+      } else if (state.hasProperty($BlockStateProperties.AGE_5)) {
+        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_5), 3, isCropFertile(name));
+      } else if (state.hasProperty($BlockStateProperties.AGE_4)) {
+        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_4), 3, isCropFertile(name));
+      } else if (state.hasProperty($BlockStateProperties.AGE_3)) {
+        addGrowthLevelTooltip(state.getValue($BlockStateProperties.AGE_3), 3, isCropFertile(name));
+      }
+    } catch (e) {}
+  } else if (name.toString().includes("grape_bush")) {
+      tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
+  } else {
+    $JadeCropInfo.INSTANCE.appendTooltip(tooltip.getTooltip(), accessor, pluginConfig);
+    if (skips.some(s => name.toString().includes(s)) && !isCropFertile(name)) {
+      tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
+    }
+  }
+};
+
 JadeEvents.onClientRegistration((e) => {
   e.block("society:plushie_jade", $Block).tooltip(
     (tooltip, accessor, pluginConfig) => {
@@ -157,6 +249,11 @@ JadeEvents.onClientRegistration((e) => {
         accessor,
         pluginConfig
       );
+    }
+  );
+  e.block("society:crop_growth_jade", $Block).tooltip(
+    (tooltip, accessor, pluginConfig) => {
+      global["JadeSocietyCropClientCallback"](tooltip, accessor, pluginConfig);
     }
   );
 });

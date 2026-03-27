@@ -513,6 +513,9 @@
   "jei.society.husbandry.pool.select": " %s%% chance to be selected",
   "jei.society.tea_drying": "Place block and wait...",
   "jade.society.working_block_entity.progress": "Progress: %s/%s ",
+  "jade.society.crop_growth":"Growth: %s/%s Days",
+  "jade.society.crop_growth.mature":"Mature",
+  "jade.society.crop_growth.stop":"Growth Stopped",
 
   "tooltip.society.coins": "§f●§r %s",
   "tooltip.society.stack_value": "Stack value",
