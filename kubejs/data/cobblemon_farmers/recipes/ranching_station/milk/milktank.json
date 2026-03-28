@@ -1,8 +1,0 @@
-{
-	"type": "cobblemon_farmers:ranching_station/milk",
-	"pokemon": "milktank",
-	"milk": {
-		"sm": "sunlit_cobblemon:moomoo_milk",
-		"lg": "sunlit_cobblemon:large_moomoo_milk"
-	}
-}

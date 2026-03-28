@@ -10,8 +10,8 @@
 		},
 		{
 			"item": "sunlit_cobblemon:sun_drops",
-			"count": 2,
-			"chance": 0.05,
+			"count": 1,
+			"chance": 0.03,
 			"min_hearts": 8
 		}
 	]

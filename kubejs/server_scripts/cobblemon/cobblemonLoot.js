@@ -24,4 +24,9 @@ LootJS.modifiers((e) => {
   ['sunlit_cobblemon:poke_loot_ball', 'sunlit_cobblemon:great_loot_ball', 'sunlit_cobblemon:ultra_loot_ball', 'sunlit_cobblemon:beast_loot_ball', 'sunlit_cobblemon:sun_raid_statue'].forEach((block) => {
     e.addBlockLootModifier(block).removeLoot(block);
   })
+  e.addLootTypeModifier(LootType.CHEST)
+    .hasAnyStage("bottlecaps_and_nothingness")
+    .pool((p) => {
+      p.randomChance(0.03).addLoot("unimplemented_items:bottle_cap");
+    });
 });

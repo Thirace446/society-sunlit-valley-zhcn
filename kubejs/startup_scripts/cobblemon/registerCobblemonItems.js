@@ -16,7 +16,12 @@ StartupEvents.registry("item", (e) => {
     e.create(`cobblemon:${mochi}_mochi`).texture(`cobblemon:item/mochis/${mochi}_mochi`);
   });
 
-
+  e.create("cobblemon:tasty_tail").texture("cobblemon:item/food/tasty_tail")
+    .food((food) => {
+      food.hunger(1);
+      food.saturation(3);
+      food.fastToEat(true);
+    })
   // Sunlit Cobblemon
   e.create("sunlit_cobblemon:unlooted_ball").modelJson({
     "parent": "society:block/kubejs/pond_quest"
@@ -116,6 +121,7 @@ StartupEvents.registry("item", (e) => {
     "large_moomoo_milk",
   ].forEach((item) => {
     e.create(`sunlit_cobblemon:${item}`)
+      .texture(`cobblemon:item/food/${item}`)
       .food((food) => {
         food.hunger(item.includes("large") ? 5 : 1);
         food.saturation(1);
@@ -124,6 +130,22 @@ StartupEvents.registry("item", (e) => {
       })
       .useAnimation("drink");
   });
+  e.create(`sunlit_cobblemon:moomoo_cheese`)
+    .food((food) => {
+      food.hunger(5);
+      food.saturation(2);
+      food.effect("farm_and_charm:grandmas_blessing", 1200, 0, 1.0);
+    })
+
+  e.create(`sunlit_cobblemon:aged_moomoo_cheese`)
+    .texture(`sunlit_cobblemon:item/moomoo_cheese`)
+    .glow(true)
+    .color(0, 0xcae9f4);
+  e.create(`sunlit_cobblemon:double_aged_moomoo_cheese`)
+    .texture(`sunlit_cobblemon:item/moomoo_cheese`)
+    .glow(true)
+    .color(0, 0x28adde);
+
   e.create("sunlit_cobblemon:poke_genes")
     .texture("sunlit_cobblemon:item/poke_genes")
     .displayName("Poké Genes");

@@ -1,0 +1,12 @@
+{
+	"type": "cobblemon_farmers:ranching_station/forage",
+	"pokemon": "sunkern",
+	"forages": [
+		{
+			"item": "veggiesdelight:dandelion_leaf",
+			"count": 2,
+			"chance": 1,
+			"min_hearts": 0
+		}
+	]
+}

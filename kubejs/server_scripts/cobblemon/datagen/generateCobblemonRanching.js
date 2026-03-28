@@ -558,7 +558,6 @@ if (runRanchingDataGen) {
                     has_quality: true,
                     min_hearts: 4
                 }
-
             ]
         },
         {
@@ -599,7 +598,45 @@ if (runRanchingDataGen) {
             ]
         },
         {
-            pokemon: "nidoran",
+            pokemon: "ekans",
+            milk: { sm: "sunlit_cobblemon:poison_drop" },
+        },
+        {
+            pokemon: "arbok",
+            milk: { sm: "sunlit_cobblemon:poison_drop" },
+        },
+        {
+            pokemon: "skorupi",
+            milk: { sm: "sunlit_cobblemon:poison_drop" },
+        },
+        {
+            pokemon: "drapion",
+            milk: { sm: "sunlit_cobblemon:poison_drop" },
+        },
+        {
+            pokemon: "nihilego",
+            forages: [
+                {
+                    item: 'society:spinel',
+                    count: 1,
+                    chance: 0.46,
+                    has_quality: true,
+                    min_hearts: 6
+                },
+                {
+                    item: 'minecraft:echo_shard',
+                    count: 1,
+                    chance: 0.1,
+                    min_hearts: 7
+                }
+            ]
+        },
+        {
+            pokemon: "nihilego",
+            milk: { sm: "sunlit_cobblemon:poison_drop", lg: "sunlit_cobblemon:venomshine" },
+        },
+        {
+            pokemon: "nidoranf",
             forages: [
                 {
                     item: 'sunlit_cobblemon:poison_drop',
@@ -612,6 +649,24 @@ if (runRanchingDataGen) {
                     item: 'sunlit_cobblemon:berry_capsule',
                     count: 1,
                     chance: 0.1,
+                    min_hearts: 7
+                }
+            ]
+        },
+        {
+            pokemon: "nidoranm",
+            forages: [
+                {
+                    item: 'sunlit_cobblemon:poison_drop',
+                    count: 1,
+                    chance: 0.41,
+                    has_quality: true,
+                    min_hearts: 6
+                },
+                {
+                    item: 'sunlit_cobblemon:berry_capsule',
+                    count: 1,
+                    chance: 0.15,
                     min_hearts: 7
                 }
             ]
@@ -1089,7 +1144,7 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "iron_bundle",
+            pokemon: "ironbundle",
             forages: [
                 {
                     item: "society:furniture_box",
@@ -1290,7 +1345,11 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "macargo",
+            pokemon: "slugma",
+            milk: { sm: "minecraft:magma_cream", lg: "society:nether_jelly" },
+        },
+        {
+            pokemon: "magcargo",
             forages: [
                 {
                     item: "autumnity:snail_goo",
@@ -1305,6 +1364,10 @@ if (runRanchingDataGen) {
                     min_hearts: 8
                 }
             ],
+        },
+        {
+            pokemon: "magcargo",
+            milk: { sm: "minecraft:magma_cream", lg: "society:nether_jelly" },
         },
         {
             pokemon: "bounsweet",
@@ -1596,7 +1659,7 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "crabby",
+            pokemon: "krabby",
             forages: [
                 {
                     item: "quark:crab_leg",
@@ -2138,7 +2201,7 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "porygon-z",
+            pokemon: "porygonz",
             forages: [
                 {
                     item: "sunlit_cobblemon:tm_pack",
@@ -2318,6 +2381,12 @@ if (runRanchingDataGen) {
                     item: "brewery:whiskey_jojannik",
                     count: 1,
                     chance: 0.45,
+                    min_hearts: 6
+                },
+                {
+                    item: "sunlit_cobblemon:mukbeth",
+                    count: 1,
+                    chance: 0.01,
                     min_hearts: 6
                 }
             ],
@@ -2507,7 +2576,7 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "sandy_shocks",
+            pokemon: "sandyshocks",
             forages: [
                 {
                     item: "oreganized:lead_ingot",
@@ -3375,6 +3444,17 @@ if (runRanchingDataGen) {
             ],
         },
         {
+            pokemon: "sunkern",
+            forages: [
+                {
+                    item: 'veggiesdelight:dandelion_leaf',
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 0
+                }
+            ],
+        },
+        {
             pokemon: "sunflora",
             forages: [
                 {
@@ -3385,8 +3465,8 @@ if (runRanchingDataGen) {
                 },
                 {
                     item: "sunlit_cobblemon:sun_drops",
-                    count: 2,
-                    chance: 0.05,
+                    count: 1,
+                    chance: 0.03,
                     min_hearts: 8
                 }
             ],
@@ -3573,6 +3653,14 @@ if (runRanchingDataGen) {
                     min_hearts: 3
                 }
             ],
+        },
+        {
+            pokemon: "milcery",
+            milk: { sm: "society:large_milk" },
+        },
+        {
+            pokemon: "alcremie",
+            milk: { sm: "society:large_warped_milk" },
         },
         {
             pokemon: "combee",
@@ -3891,7 +3979,7 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "milktank",
+            pokemon: "miltank",
             milk: { sm: "sunlit_cobblemon:moomoo_milk", lg: "sunlit_cobblemon:large_moomoo_milk" },
         },
         {
@@ -4029,7 +4117,14 @@ if (runRanchingDataGen) {
             pokemon: def.pokemon,
         }
         if (def.milk) {
-            recipe.milk = def.milk
+            recipe.consume_bucket = false;
+            recipe.milk = {}
+            if (def.milk.sm) {
+                recipe.milk.sm = { item: def.milk.sm, count: 1 }
+            }
+            if (def.milk.lg) {
+                recipe.milk.lg = { item: def.milk.lg, count: 1 }
+            }
         } else {
             recipe.forages = def.forages
         }

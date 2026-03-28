@@ -1,14 +1,10 @@
 {
 	"type": "cobblemon_farmers:ranching_station/milk",
-	"pokemon": "gogoat",
+	"pokemon": "arbok",
 	"consume_bucket": false,
 	"milk": {
 		"sm": {
-			"item": "society:goat_milk",
-			"count": 1
-		},
-		"lg": {
-			"item": "society:large_goat_milk",
+			"item": "sunlit_cobblemon:poison_drop",
 			"count": 1
 		}
 	}

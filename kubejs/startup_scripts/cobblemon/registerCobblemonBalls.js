@@ -1,4 +1,3 @@
-
 console.info("[SOCIETY-S-COBBLEMON] registerCobblemonBalls.js loaded");
 
 // Based on a script by Chesoku

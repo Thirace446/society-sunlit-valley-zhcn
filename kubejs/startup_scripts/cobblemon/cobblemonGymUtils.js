@@ -446,6 +446,40 @@ const trainerBuckets = new Map([
       "dragon_tamer_ramiro_0134",
     ],
   ],
+  [
+    100,
+    [
+      "gym_crusher_alexander",
+      "gym_crusher_howitzer",
+      "ace_swimmer_torrent",
+      "gym_crusher_foxxy",
+      "gym_rat_king"
+    ],
+  ],
+  [
+    105,
+    [],
+  ],
+  [
+    110,
+    ["gym_crusher_dennis"],
+  ],
+  [
+    115,
+    [],
+  ],
+  [
+    120,
+    [],
+  ],
+  [
+    125,
+    [],
+  ],
+  [
+    130,
+    ["dimensional_entity_0"],
+  ],
 ]);
 
 global.getRandomTrainer = (levelBucket) => {

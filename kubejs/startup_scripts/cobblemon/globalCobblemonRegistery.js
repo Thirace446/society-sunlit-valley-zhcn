@@ -233,6 +233,9 @@ global.cobblemonDehydrated = [
 
 global.cobblemonArtisan = [
   { item: "sunlit_cobblemon:venomshine", value: 480 },
+  { item: "sunlit_cobblemon:moomoo_cheese", value: 450 },
+  { item: "sunlit_cobblemon:aged_moomoo_cheese", value: 1350 },
+  { item: "sunlit_cobblemon:double_aged_moomoo_cheese", value: 4050 },
 ];
 
 global.cobbleAdventuring.forEach((miscItem) => {

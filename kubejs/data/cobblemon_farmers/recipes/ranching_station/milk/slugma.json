@@ -1,14 +1,14 @@
 {
 	"type": "cobblemon_farmers:ranching_station/milk",
-	"pokemon": "flaaffy",
+	"pokemon": "slugma",
 	"consume_bucket": false,
 	"milk": {
 		"sm": {
-			"item": "society:sheep_milk",
+			"item": "minecraft:magma_cream",
 			"count": 1
 		},
 		"lg": {
-			"item": "society:large_sheep_milk",
+			"item": "society:nether_jelly",
 			"count": 1
 		}
 	}

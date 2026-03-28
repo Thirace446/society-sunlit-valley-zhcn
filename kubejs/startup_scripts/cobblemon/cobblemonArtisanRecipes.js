@@ -168,3 +168,8 @@ global.loomRecipes.set("sunlit_cobblemon:electro_wool", { output: ["sunlit_cobbl
 
 global.oilMakerRecipes.set("sunlit_cobblemon:poison_drop", { output: ["sunlit_cobblemon:venomshine"]});
 
+global.cheesePressRecipes.set("sunlit_cobblemon:moomoo_milk", { output: ["sunlit_cobblemon:moomoo_cheese"]});
+global.cheesePressRecipes.set("sunlit_cobblemon:large_moomoo_milk", { output: ["4x sunlit_cobblemon:moomoo_cheese"]});
+
+global.agingCaskRecipes.set("sunlit_cobblemon:moomoo_cheese", { output: ["1x sunlit_cobblemon:aged_moomoo_cheese"], time: 3});
+global.ancientCaskRecipes.set("sunlit_cobblemon:aged_moomoo_cheese", { output: ["1x sunlit_cobblemon:double_aged_moomoo_cheese"], time: 13});
