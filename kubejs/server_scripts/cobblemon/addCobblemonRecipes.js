@@ -16,6 +16,12 @@ ServerEvents.recipes((e) => {
   // TMS
   e.shapeless("sunlit_cobblemon:tm_pack", ["9x #sunlit_cobblemon:tr"]);
   e.shapeless("sunlit_cobblemon:greater_tm_pack", ["9x #sunlit_cobblemon:tm"]);
+  e.shapeless("simpletms:tr_firepledge", ["sunlit_cobblemon:fire_pledge"]);
+  e.shapeless("simpletms:tr_waterpledge", ["sunlit_cobblemon:water_pledge"]);
+  e.shapeless("simpletms:tr_grasspledge", ["sunlit_cobblemon:grass_pledge"]);
+  e.shapeless("simpletms:tm_firepledge",  ["society:prismatic_shard", "sunlit_cobblemon:fire_pledge"]);
+  e.shapeless("simpletms:tm_waterpledge", ["society:prismatic_shard", "sunlit_cobblemon:water_pledge"]);
+  e.shapeless("simpletms:tm_grasspledge", ["society:prismatic_shard", "sunlit_cobblemon:grass_pledge"]);
   e.shaped("sunlit_cobblemon:uncharged_battery", [" zr", "zrz", "rz "], {
     z: "create:zinc_ingot",
     r: "create:rose_quartz",
@@ -182,7 +188,7 @@ ServerEvents.recipes((e) => {
   })
   // Misc
   
-  e.shapeless("cobblemon:energy_root", ["cobblemon:big_root", "sunlit_cobblemon:strange_spore"]);
+  e.shapeless("4x cobblemon:energy_root", ["sunlit_cobblemon:strange_spore", "cobblemon:big_root", "cobblemon:big_root", "cobblemon:big_root", "cobblemon:big_root"]);
   global.cobbleTypeGems.forEach((gem) => {
     e.shapeless(`3x ${gem.item}`, [`sunlit_cobblemon:pristine_${gem.item.split(":")[1]}`]);
   });

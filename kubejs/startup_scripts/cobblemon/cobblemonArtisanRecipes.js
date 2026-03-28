@@ -126,6 +126,10 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
     input: "sunlit_cobblemon:strange_spore",
     output: ["4x society:enriched_bone_meal"],
   },
+  {
+    input: "cobblemon:metal_coat",
+    output: ["4x oreganized:silver_ingot"],
+  },
 ].forEach((recipe) => {
   global.recyclingMachineRecipes.set(recipe.input, { output: recipe.output });
 });

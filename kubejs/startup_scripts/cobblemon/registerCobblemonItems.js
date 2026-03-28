@@ -94,7 +94,7 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:sun_drops");
   e.create("sunlit_cobblemon:sun_essence");
   e.create("sunlit_cobblemon:mystica_cookie");
-  e.create("sunlit_cobblemon:sunlit_league_medallion").texture("rpgtimeline:item/chronicle_world_first");
+  e.create("sunlit_cobblemon:sunlit_league_medallion");
   e.create("sunlit_cobblemon:poke_radar")
     .displayName("Poké Radar");
   e.create("sunlit_cobblemon:berry_capsule").texture(
@@ -106,7 +106,9 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:uncharged_battery").texture(
     "sunlit_cobblemon:item/uncharged_battery",
   );
-
+  e.create(`sunlit_cobblemon:fire_pledge`).texture(`cobblemon:item/fire_pledge`)
+  e.create(`sunlit_cobblemon:grass_pledge`).texture(`cobblemon:item/grass_pledge`)
+  e.create(`sunlit_cobblemon:water_pledge`).texture(`cobblemon:item/water_pledge`)
   e.create("sunlit_cobblemon:poison_drop");
   e.create("sunlit_cobblemon:venomshine");
   e.create("sunlit_cobblemon:strange_spore");

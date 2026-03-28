@@ -452,13 +452,14 @@ const trainerBuckets = new Map([
       "gym_crusher_alexander",
       "gym_crusher_howitzer",
       "ace_swimmer_torrent",
-      "gym_crusher_foxxy",
-      "gym_rat_king"
+      "gym_crusher_foxxy"
     ],
   ],
   [
     105,
-    [],
+    [,
+      "gym_rat_king"
+    ],
   ],
   [
     110,

@@ -6,7 +6,6 @@
 			"item": "society:spinel",
 			"count": 1,
 			"chance": 0.46,
-			"has_quality": true,
 			"min_hearts": 6
 		},
 		{

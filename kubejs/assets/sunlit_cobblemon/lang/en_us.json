@@ -59,6 +59,9 @@
   "tooltip.sunlit_cobblemon.poke_radar.shift_right_click": "§6Shift + Right Click§7 to update equipped radar's bucket",
   "tooltip.sunlit_cobblemon.blooming_ring.description": "Offer to a Sun Raid Statue to summon Sunlit Xerneas",
   "tooltip.sunlit_cobblemon.cornucopia_of_greed.description": "Offer to a Sun Raid Statue to summon Sunlit Yveltal",
+  "tooltip.sunlit_cobblemon.fire_pledge.description": "Proof of your loyalty to a Fire type starter",
+  "tooltip.sunlit_cobblemon.grass_pledge.description": "Proof of your loyalty to a Grass type starter",
+  "tooltip.sunlit_cobblemon.water_pledge.description": "Proof of your loyalty to a Water type starter",
 
   "tooltip.sunlit_cobblemon.gachamon_capsule.description": "Spawns a random Pokémon from a preset pool alongside a bonus pool",
   "tooltip.sunlit_cobblemon.gachamon_capsule.guaranteed": "Guaranteed set Pokémon",
@@ -349,7 +352,7 @@
   "tooltip.sunlit_cobblemon.cobblemon.crit.trade": "Requires Trade or Link Cable",
   "tooltip.sunlit_cobblemon.cobblemon.crit.moon": "Requires a full moon at night",
   "tooltip.sunlit_cobblemon.cobblemon.crit.night": "Requires a level gained at night",
-  "tooltip.sunlit_cobblemon.cobblemon.crit.form_time": "Time of day and affects form",
+  "tooltip.sunlit_cobblemon.cobblemon.crit.form_time": "Time of day and sweet flavor affects form",
 
   "sunlit_cobblemon.books.the_art_of_battle.description": "The Sunlit league pays out 25% more per battle.",
   "sunlit_cobblemon.books.berry_labor_and_capital.description": "+3 Pokémon worker slots.",

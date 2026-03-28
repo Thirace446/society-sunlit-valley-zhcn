@@ -5,7 +5,7 @@
   },
   "dataPacks": {
     "enabled": true,
-    "additionalFolders": ["resourcepacks", "datapacks"]
+    "additionalFolders": ["datapacks", "resourcepacks"]
   },
   "displaySourceName": true
 }

@@ -710,7 +710,7 @@
 				gender: ""
 				id: "13FB719A9444CF0C"
 				poke_ball_used: ""
-				pokemon: "cobblemon:chiyu"
+				pokemon: "cobblemon:wochien"
 				pokemon_type: ""
 				region: ""
 				shiny: false
@@ -718,7 +718,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Chi-Yu"
+			title: "Wo-Chien"
 			x: 11.0d
 			y: -5.0d
 		}
@@ -3577,6 +3577,32 @@
 			}]
 			title: "Chi-Yu"
 			x: 13.0d
+			y: -5.0d
+		}
+		{
+			description: [""]
+			id: "31C7D687A7AF3DEB"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "157C032C5A22CF72"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tinglu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 15.0d
 			y: -5.0d
 		}
 	]

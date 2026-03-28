@@ -9,6 +9,12 @@
 			"min_hearts": 1
 		},
 		{
+			"item": "sunlit_cobblemon:resonance_gem",
+			"count": 1,
+			"chance": 0.2,
+			"min_hearts": 8
+		},
+		{
 			"item": "sunlit_cobblemon:moondust",
 			"count": 1,
 			"chance": 0.8,
