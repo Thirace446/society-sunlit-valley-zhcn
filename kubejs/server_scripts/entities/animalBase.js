@@ -233,7 +233,7 @@ const handlePet = (name, data, mood, day, peckish, hungry, e) => {
         )
       );
     }
-  } else if (item === "minecraft:air") {
+  } else if (item === "minecraft:air" || item === 'society:mood_scanner') {
     let nameColor;
     if (peckish) {
       nameColor = "#FFAA00";
