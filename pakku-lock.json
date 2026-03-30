@@ -1080,49 +1080,6 @@
             ]
         },
         {
-            "pakku_id": "D2B0wzbVgCiUsU9W",
-            "pakku_links": [
-                "KDWmpmJACN6AFIki"
-            ],
-            "type": "RESOURCE_PACK",
-            "side": "SERVER",
-            "slug": {
-                "modrinth": "bonimons"
-            },
-            "name": {
-                "modrinth": "BoniMons [Cobblemon]"
-            },
-            "id": {
-                "modrinth": "mNsZrKvy"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "BoniMons.zip",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "datapack"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/mNsZrKvy/versions/go6G55ma/BoniMons.zip",
-                    "id": "go6G55ma",
-                    "parent_id": "mNsZrKvy",
-                    "hashes": {
-                        "sha512": "79b8b72aac7eb962f3efbf1f46fb87e7de405a3169fa83f06375548f2ed206f058cfc10bf2f1206ed7e2cef2d969cccd09f44b4c9a3c3bf2a9733c1aab7c61b6",
-                        "sha1": "c1902a61b3f2af57cd0d1627266bb7cee1a6ab61"
-                    },
-                    "required_dependencies": [
-                        "MdwFAVRL"
-                    ],
-                    "size": 611385,
-                    "date_published": "2025-04-18T03:38:24.014817Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "3SKTUBNWpuvwHjOs",
             "type": "MOD",
             "slug": {

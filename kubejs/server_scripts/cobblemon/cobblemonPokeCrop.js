@@ -214,6 +214,7 @@ BlockEvents.rightClicked((e) => {
     let blockState;
     if (
       (block.hasTag("minecraft:crops") || block.id.includes("pamhc2trees")) &&
+      !block.hasTag("cobblemon:berries") &&
       initialBlock.block.isMaxAge(initialBlock) &&
       global.hasScope(player)
     ) {

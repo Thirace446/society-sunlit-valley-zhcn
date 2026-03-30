@@ -4691,7 +4691,7 @@ if (runRanchingDataGen) {
                     item: "minecraft:honeycomb",
                     count: 4,
                     chance: 1,
-                    min_hearts: 4
+                    min_hearts: 2
                 }
             ],
         },

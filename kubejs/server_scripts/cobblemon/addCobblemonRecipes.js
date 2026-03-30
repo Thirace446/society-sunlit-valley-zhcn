@@ -47,7 +47,13 @@ ServerEvents.recipes((e) => {
   });
   e.shaped("cobblemon_farmers:mystery_mine", ["efe", "fpf", "efe"], {
     f: "meadow:fire_log",
-    p: "cobblemon:poke_ball",
+    p: 'cobblemon:great_ball',
+    e: "society:earth_crystal",
+  });
+  e.shaped("cobblemon_farmers:ranching_station", ["sps", "ese", "fff"], {
+    s: "farmersdelight:straw",
+    f: "meadow:fire_log",
+    p: 'cobblemon:great_ball',
     e: "society:earth_crystal",
   });
   e.shapeless("sunlit_cobblemon:berry_smoothie", [

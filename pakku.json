@@ -7,8 +7,7 @@
         "kubejs",
         "patchouli_books",
         "resourcepacks/AlphabetSoup-v2.1.zip",
-        "resourcepacks/BCG x AllTheMons 1.2.0.zip",
-        "resourcepacks/BoniMons.zip"
+        "resourcepacks/BCG x AllTheMons 1.2.0.zip"
     ],
     "client_overrides": [
         "resourcepacks",
