@@ -16,7 +16,7 @@
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
     "item_frame": true,
-    "crop_progress": true,
+    "crop_progress": false,
     "command_block": true,
     "mob_growth": true,
     "waxed": true,

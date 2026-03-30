@@ -514,6 +514,13 @@
   "jei.society.husbandry.pool.select": " %s%% chance to be selected",
   "jei.society.tea_drying": "Place block and wait...",
   "jade.society.working_block_entity.progress": "Progress: %s/%s ",
+  "jade.society.crop_growth":"Growth: %s/%s Days",
+  "jade.society.crop_growth.mature":"Mature",
+  "jade.society.crop_growth.stop":"Cannot grow",
+  "jade.society.crop_growth.need_stem":"Needs Grapevine Stem",
+  "jade.society.crop_growth.need_lattice":"Needs Grapevine Lattice",
+  "jade.society.crop_growth.need_farmland":"Should on Farmland",
+  "jade.society.crop_growth.need_watered_farmland":"Should on Farmland underwater",
 
   "tooltip.society.coins": "§f●§r %s",
   "tooltip.society.stack_value": "Stack value",
