@@ -1997,13 +1997,6 @@
     "curseForgeHash": 1585838124,
     "modrinthHash": "def7db68bb8a89bdbbda7d9eee85778f93b5884c"
   },
-  "rpgtimeline-forge-1.20.1-2.0.4.2.jar": {
-    "jarName": "rpgtimeline-forge-1.20.1-2.0.4.2.jar",
-    "modId": "rpgtimeline",
-    "version": "2.0.4.2",
-    "curseForgeHash": 3531782902,
-    "modrinthHash": "18aa045e91380833b94571b0591d49b98c60bfc8"
-  },
   "RSInfinityBooster-1.20.1-1.0+41.jar": {
     "jarName": "RSInfinityBooster-1.20.1-1.0+41.jar",
     "modId": "rsinfinitybooster",
@@ -2256,12 +2249,12 @@
     "curseForgeHash": 4174736090,
     "modrinthHash": "b4d924f4faf6eb201db04205b61fa1524a8b0178"
   },
-  "splendid_slimes-0.19.1.jar": {
-    "jarName": "splendid_slimes-0.19.1.jar",
+  "splendid_slimes-0.19.2.jar": {
+    "jarName": "splendid_slimes-0.19.2.jar",
     "modId": "splendid_slimes",
-    "version": "0.19.1",
-    "curseForgeHash": 3796041283,
-    "modrinthHash": "6f73ff38a0c0ae2e8f375c832e80ff70bfff99ab"
+    "version": "0.19.2",
+    "curseForgeHash": 3814594245,
+    "modrinthHash": "3dd24246a3cc07b2a1e854aa82262cf3b9b4d1f4"
   },
   "stardew_fishing-3.5-1.20.1.jar": {
     "jarName": "stardew_fishing-3.5-1.20.1.jar",

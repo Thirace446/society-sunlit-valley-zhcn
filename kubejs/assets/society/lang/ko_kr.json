@@ -452,6 +452,7 @@
   "society.villager_home.too_close": "다른 주민과 너무 가깝습니다!",
   "society.villager_home.recently_moved_in": "이 주민은 최근에 이사했습니다!",
   "society.villager_home.error": "무엇인가 끔찍하게 잘못되었습니다! 로그와 함께 개발자에게 문의하십시오.",
+  "society.invitation.place_home": "주민을 배치하고 싶은 장소에 주민 거주지 블록을 설치하세요! 거주지는 언제든지 옮길 수 있습니다.",
 
   "jei.society.category.seed_making": "씨앗 생성",
   "jei.society.category.preserving": "절이기",
@@ -504,6 +505,13 @@
   "jei.society.husbandry.pool.select": " %s%% 확률로 선택",
   "jei.society.tea_drying": "블록을 설치하고 기다리기...",
   "jade.society.working_block_entity.progress": "진행도: %s/%s ",
+  "jade.society.crop_growth":"성장: %s/%s 일",
+  "jade.society.crop_growth.mature":"수확 가능",
+  "jade.society.crop_growth.stop":"생장 정지됨",
+  "jade.society.crop_growth.need_stem":"포도 지지대 필요",
+  "jade.society.crop_growth.need_lattice":"포도 격자판 필요",
+  "jade.society.crop_growth.need_farmland":"경작지에 심어야 함",
+  "jade.society.crop_growth.need_watered_farmland":"수중 경작지에 심어야 함",
 
   "tooltip.society.coins": "§f●§r %s",
   "tooltip.society.stack_value": "총 가격",
