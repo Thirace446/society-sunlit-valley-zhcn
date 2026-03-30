@@ -1123,6 +1123,7 @@ global.cropList = [
   "farmersdelight:rice_panicles",
   "society:ancient_fruit",
   "society:cranberry",
+  "society:sparkpod",
   "windswept:wild_berry_bush",
   "society:mana_fruit",
   "etcetera:cotton",

@@ -388,7 +388,7 @@ const handleSheepMagicShears = (e) => {
 const handleMagicHarvest = (name, data, e) => {
   const { player, level, target, item, server } = e;
   if (player.cooldowns.isOnCooldown(item)) return;
-  if (target.type == "minecraft:sheep") handleSheepMagicShears(e);
+  if (["minecraft:sheep", "wildernature:minisheep"].includes(target.type)) handleSheepMagicShears(e);
   const affection = data.getInt("affection");
   let hearts = Math.floor((affection > 1000 ? 1000 : affection) / 100);
 

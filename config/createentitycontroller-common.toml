@@ -22,7 +22,7 @@
 	"block entity max length Y" = 60
 	#--------------------------------------------------------------------------
 	#A list of blocks can't be moved and change into block entities.
-	blocks_unmoved = ["minecraft:deepslate", "minecraft:stone", "minecraft:cobblestone", "create:belt", "create:mechanical_crafter"]
+	blocks_unmoved = ["minecraft:deepslate", "minecraft:stone", "minecraft:cobblestone", "create:belt", "create:mechanical_crafter", "waterframes:tv_box", "waterframes:big_tv", "waterframes:tv", "waterframes:frame", "waterframes:projector"]
 	#--------------------------------------------------------------------------
 	#A list of blocks can't be crushed by block entities. 
 	#If you squeeze a stone with dirt and stone in this list the dirt will drop while stone leave!

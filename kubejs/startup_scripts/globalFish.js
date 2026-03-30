@@ -408,6 +408,8 @@ global.validatePond = (block, level, lavaFish) => {
       scannedBlockProperties.get("waterlogged") == "true"
     ) {
       waterAmount += 1;
+    } else if (level.getBlock(pos).hasTag("society:fish_pond_water")) {
+      waterAmount += 1;
     }
   }
   if (waterAmount !== 12 || conflictingPonds) return false;

@@ -456,8 +456,8 @@ ServerEvents.tags("item", (e) => {
     "society:large_duck_egg",
     "society:large_goose_egg",
     "society:large_turkey_egg",
-    "society:large_galliraptor_egg", 
-    "society:penguin_egg", 
+    "society:large_galliraptor_egg",
+    "society:penguin_egg",
     "society:flamingo_egg"].forEach((egg) => {
       e.add("society:large_eggs", egg);
     });
@@ -798,6 +798,7 @@ ServerEvents.tags("block", (e) => {
   });
   e.remove("minecraft:leaves", "beachparty:palm_leaves");
   e.add("society:palm_leaves", "beachparty:palm_leaves");
+  e.add("minecraft:leaves", "meadow:pine_leaves_2");
   [
     "minecraft:crafting_table",
     "numismatics:andesite_depositor",
@@ -808,6 +809,18 @@ ServerEvents.tags("block", (e) => {
     "bountiful:bountyboard",
     "tanukidecor:slot_machine",
     "whimsy_deco:gatcha_machine",
+    "whimsy_deco:black_atm",
+    "whimsy_deco:blue_atm",
+    "whimsy_deco:red_atm",
+    "whimsy_deco:yellow_atm",
+    "whimsy_deco:green_atm",
+    "whimsy_deco:blue_phone",
+    "whimsy_deco:black_phone",
+    "whimsy_deco:red_phone",
+    "tanukidecor:antique_phone",
+    "lootr:lootr_chest",
+    "lootr:lootr_barrel",
+    "lootr:lootr_trapped_chest"
   ].forEach((item) => {
     e.add("ftbchunks:interact_whitelist", item);
   });
