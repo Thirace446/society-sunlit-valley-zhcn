@@ -4,7 +4,7 @@ BlockEvents.broken(['sunlit_cobblemon:poke_loot_ball', 'sunlit_cobblemon:great_l
   const { player } = e;
   if (!player.isCrouching()) {
     player.tell(Text.translatable("lootr.message.should_sneak").aqua())
-    player.tell(Text.translatable("lootr.message.should_sneak2", "per-player per-ball").aqua())
+    player.tell(Text.translatable("lootr.message.should_sneak2", Text.translatable("lootr.message.ball_should_sneak3")).aqua())
     e.cancel()
   }
 });
