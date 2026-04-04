@@ -64,10 +64,34 @@ const catchPokemon = (caughtMon, level, hook, server, player, nether) => {
     );
   } else {
     if (caughtMon.variant && caughtMon.variant.includes("magikarp")) player.tell(Text.translatable("sunlit_cobblemon.special_magikarp").gold());
-    server.runCommandSilent(
-      `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${caughtMon.pokemon
-      } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}`
-    );
+    if (global.getHasCurio(player, 'sunlit_cobblemon:swampy_mystica_branch')) {
+      let lakeLegendaries = ["mesprit", "azelf", "uxie"]
+      if (Math.random() < 0.04 && global.hasPartyPokemon(player, lakeLegendaries, 3)) {
+        let blockToSet = level.getBlock(level.getBlock(hook.getPos()).getPos().above());
+        blockToSet.set("cobblemon:moon_stone_block")
+        let spawnedAny = global.summonRaidPokemon(server, level, blockToSet, "cresselia", "", 100, 75, false, false, 0, true);
+        if (spawnedAny) {
+          let { x, y, z } = blockToSet;
+          server.runCommandSilent(`playsound cobblemon:poke_ball.send_out block @a ${x} ${y} ${z} 2`);
+          server.runCommandSilent(`playsound species:effect.gut_feeling.applied block @a ${x} ${y} ${z} 2`);
+          server.runCommandSilent(`playsound botania:babylon_spawn block @a ${x} ${y} ${z} 2`);
+          level.spawnParticles("species:ghoul_searching2", true, x + 0.5, y + 2, z + 0.5, 0, 0, 0, 1, 2);
+          server.runCommandSilent(`playsound unusualfishmod:deep_water block @a ${x} ${y} ${z} 2`);
+          server.runCommandSilent(`playsound unusualfishmod:deep_water block @a ${x} ${y} ${z} 2`);
+          return;
+        }
+      } else {
+        server.runCommandSilent(
+          `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${lakeLegendaries[Math.floor(Math.random() * lakeLegendaries.length)]} level=80`
+        );
+
+      }
+    } else {
+      server.runCommandSilent(
+        `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${caughtMon.pokemon
+        } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}`
+      );
+    }
   }
 
   // TODO: Pokemon get kinda stuck in the lava

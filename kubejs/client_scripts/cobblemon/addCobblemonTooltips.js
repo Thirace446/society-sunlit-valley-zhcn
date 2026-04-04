@@ -63,7 +63,6 @@ ItemEvents.tooltip((tooltip) => {
     Text.translatable(`tooltip.sunlit_cobblemon.master_poke_bobber.description`).gold()
   );
   // Legendaries
-
   tooltip.addAdvanced("sunlit_cobblemon:star_pixie", (item, advanced, text) => {
     if (item.nbt && item.nbt.getString("type")) {
       let data = global.cobblemonLegendaryMap.get(
@@ -187,6 +186,23 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add('sunlit_cobblemon:fire_pledge', Text.translatable(`tooltip.sunlit_cobblemon.fire_pledge.description`).red());
   tooltip.add('sunlit_cobblemon:grass_pledge', Text.translatable(`tooltip.sunlit_cobblemon.grass_pledge.description`).green());
   tooltip.add('sunlit_cobblemon:water_pledge', Text.translatable(`tooltip.sunlit_cobblemon.water_pledge.description`).aqua());
+
+  tooltip.add('sunlit_cobblemon:blazing_calamity', Text.translatable(`tooltip.sunlit_cobblemon.blazing_calamity.description`).gray());
+  tooltip.add('sunlit_cobblemon:blazing_calamity', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+
+  tooltip.add('sunlit_cobblemon:frozen_calamity', Text.translatable(`tooltip.sunlit_cobblemon.frozen_calamity.description`).gray());
+  tooltip.add('sunlit_cobblemon:frozen_calamity', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+
+  tooltip.add('sunlit_cobblemon:star_pixie', Text.translatable(`tooltip.sunlit_cobblemon.star_pixie.description`).gray());
+  tooltip.add('sunlit_cobblemon:star_pixie', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+
+  tooltip.add('sunlit_cobblemon:tabula_rasa', Text.translatable(`tooltip.sunlit_cobblemon.tabula_rasa.description`).gray());
+  tooltip.add('sunlit_cobblemon:tabula_rasa', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  tooltip.add('sunlit_cobblemon:ominous_black_stake', Text.translatable(`tooltip.sunlit_cobblemon.ominous_black_stake.description`).gray());
+  tooltip.add('sunlit_cobblemon:gem_box', Text.translatable(`tooltip.sunlit_cobblemon.gem_box.description`).gray());
+  tooltip.add('sunlit_cobblemon:mystica_nectar', Text.translatable(`tooltip.sunlit_cobblemon.mystica_nectar.description`).gray());
+  tooltip.add('sunlit_cobblemon:rainbow_steam', Text.translatable(`tooltip.sunlit_cobblemon.rainbow_steam.description`).gray());
+  tooltip.add('sunlit_cobblemon:swampy_mystica_branch', Text.translatable(`tooltip.sunlit_cobblemon.swampy_mystica_branch.description`).gray());
   [
     "ability_capsule", "ability_patch",
   ].forEach((item) => {

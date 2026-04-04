@@ -280,30 +280,12 @@ ServerEvents.recipes((e) => {
   );
   createCobbleWorkerRecipe(
     {
-      item: "society:prismatic_shard",
+      item: "sunlit_cobblemon:blazing_calamity",
     },
-    { item: "sunlit_cobblemon:prismatic_ice", count: 1 },
+    { item: "sunlit_cobblemon:frozen_calamity", count: 1 },
     "ice",
     24000,
     "DEFENCE"
-  );
-  createCobbleWorkerRecipe(
-    {
-      item: "society:prismatic_shard",
-    },
-    { item: "sunlit_cobblemon:unbreakable_cog", count: 1 },
-    "steel",
-    24000,
-    "SPEED"
-  );
-  createCobbleWorkerRecipe(
-    {
-      item: "society:prismatic_shard",
-    },
-    { item: "sunlit_cobblemon:atmospheric_vial", count: 1 },
-    "flying",
-    24000,
-    "HP"
   );
   createCobbleWorkerRecipe(
     {
@@ -322,14 +304,5 @@ ServerEvents.recipes((e) => {
     "electric",
     24000,
     "ATTACK"
-  );
-  createCobbleWorkerRecipe(
-    {
-      item: "society:prismatic_shard",
-    },
-    { item: "sunlit_cobblemon:blazing_stone", count: 1 },
-    "fire",
-    24000,
-    "HP"
   );
 });

@@ -303,6 +303,7 @@ global.cobblemonFarmerProducts = [
   { item: "sunlit_cobblemon:poison_drop", value: 4 },
   { item: "sunlit_cobblemon:permafrost", value: 340 },
   { item: "sunlit_cobblemon:resonance_gem", value: 460 },
+  { item: "sunlit_cobblemon:moondust", value: 860 },
   { item: "sunlit_cobblemon:electro_wool", value: 512 },
   { item: "sunlit_cobblemon:electric_canvas", value: 8192 },
   { item: "sunlit_cobblemon:spider_milk", value: 1 },

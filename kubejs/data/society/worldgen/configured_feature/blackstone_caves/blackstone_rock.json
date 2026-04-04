@@ -81,6 +81,12 @@
           "data": {
             "Name": "sunlit_cobblemon:ultra_loot_ball"
           }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "sunlit_cobblemon:ominous_black_stake"
+          }
         }
       ]
     }

@@ -81,6 +81,7 @@ global.summonRaidPokemon = (server, level, block, type, variant, raidLevel, spaw
     spawnedPokemon = spawnedPokemon[0];
     if (moveUp) spawnedPokemon.setDeltaMovement(new Vec3d(0, 1.1, 0));
     spawnedPokemon.persistentData.raidMon = true;
+    if (type === "lunala") spawnedPokemon.persistentData.moonMon = true;
     spawnedPokemon.persistentData.raidMonStats = {
       tier: raidTier,
       hasHiddenAbility: hiddenAbility,
@@ -88,10 +89,22 @@ global.summonRaidPokemon = (server, level, block, type, variant, raidLevel, spaw
       variant: variant,
       isShiny: shiny
     }
-    spawnedPokemon.potionEffects.add("minecraft:glowing", 400, 0, false, false);
+    spawnedPokemon.potionEffects.add("minecraft:glowing", 1200, 0, false, false);
     spawnedPokemon.potionEffects.add("minecraft:slow_falling", 400, 0, false, false);
     server.runCommandSilent(`scale set 3 ${spawnedPokemon.getUuid().toString()}`)
     return true;
   }
   return false;
 }
+
+global.hasPartyPokemon = (player, pokemonNames, count) => {
+  if (player == undefined) return false;
+  const party = global.getPlayerParty(player);
+  if (party == undefined) return false;
+  let regis = []
+  party.forEach((pokemon) => {
+    let speciesId = pokemon.species.toString()
+    if (pokemonNames.includes(speciesId) && !regis.includes(speciesId)) regis.push(speciesId)
+  });
+  return regis.length >= count;
+};

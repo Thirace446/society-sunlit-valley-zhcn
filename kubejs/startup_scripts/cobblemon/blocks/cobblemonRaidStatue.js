@@ -1,4 +1,5 @@
 console.info("[SOCIETY-S-COBBLEMON] cobblemonRaidStatue.js loaded");
+
 global.runRaidStatue = (tickEvent) => {
     const { level, block } = tickEvent;
     let nbt = block.getEntityData();

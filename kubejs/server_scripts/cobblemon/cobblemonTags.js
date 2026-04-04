@@ -208,4 +208,23 @@ ServerEvents.tags("block", (e) => {
   ].forEach((crop) => {
     e.add("society:ribbit_hut_harvests", crop);
   });
+  const lootBlockTags = [
+    "minecraft:wither_immune",
+    "buildinggadgets2:deny",
+    "forge:relocation_not_supported",
+    "c:relocation_not_supported",
+    "create:non_movable",
+    "create:non_breakable",
+  ];
+  [
+    "sunlit_cobblemon:sun_raid_statue",
+    "sunlit_cobblemon:poke_loot_ball",
+    "sunlit_cobblemon:great_loot_ball",
+    "sunlit_cobblemon:ultra_loot_ball",
+    "sunlit_cobblemon:beast_loot_ball"
+  ].forEach((block) => {
+    lootBlockTags.forEach((tag) => {
+      e.add(tag, block);
+    });
+  });
 });

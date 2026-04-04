@@ -170,16 +170,18 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:star_pixie").texture(
     "sunlit_cobblemon:item/star_pixie",
   );
-  e.create("sunlit_cobblemon:blazing_stone");
   e.create("sunlit_cobblemon:endless_battery");
   e.create("sunlit_cobblemon:tabula_rasa");
-  e.create("sunlit_cobblemon:prismatic_ice");
-  e.create("sunlit_cobblemon:atmospheric_vial");
-  e.create("sunlit_cobblemon:unbreakable_cog");
+  e.create("sunlit_cobblemon:frozen_calamity");
+  e.create("sunlit_cobblemon:blazing_calamity");
+  e.create("sunlit_cobblemon:rainbow_steam");
+  e.create("sunlit_cobblemon:swampy_mystica_branch");
+  e.create("sunlit_cobblemon:mystica_nectar");
   e.create("sunlit_cobblemon:cosmic_dust");
   e.create("sunlit_cobblemon:wormhole_generator").maxStackSize(1)
   e.create("sunlit_cobblemon:blooming_ring");
   e.create("sunlit_cobblemon:cornucopia_of_greed");
+  e.create("sunlit_cobblemon:moongeist_crystal");
   [
     "the_art_of_battle",
     "berry_labor_and_capital",

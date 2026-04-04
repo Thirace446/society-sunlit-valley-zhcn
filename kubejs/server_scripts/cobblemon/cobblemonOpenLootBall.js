@@ -29,7 +29,6 @@ BlockEvents.rightClicked(lootBallTypes, (e) => {
             });
             global.setBlockEntityData(block, nbt)
     		level.sendBlockUpdated(block.getPos(), block.getBlockState(), block.getBlockState(), 3);
-            player.tell(block.getEntityData());
             server.runCommandSilent(`playsound stardew_fishing:chest_get block @a ${player.x} ${player.y} ${player.z}`);
         }
     }

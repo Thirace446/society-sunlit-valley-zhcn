@@ -5,7 +5,11 @@ global.handleRaidPokemonBattle = (e) => {
         actor.getPokemonList().forEach((battlePokemon) => {
             if (battlePokemon.entity && battlePokemon.entity.persistentData && battlePokemon.entity.persistentData.raidMon) {
                 battle.getPlayers().forEach(player => {
-                    player.tell(Text.translatable("sunlit_cobblemon.sun_raid.battle_start", battlePokemon.getName().getString()).gold())
+                    if (battlePokemon.entity.persistentData.moonMon) {
+                        player.tell(Text.translatable("sunlit_cobblemon.moon_raid.battle_start", battlePokemon.getName().getString()).darkPurple())
+                    } else {
+                        player.tell(Text.translatable("sunlit_cobblemon.sun_raid.battle_start", battlePokemon.getName().getString()).gold())
+                    }
                 });
             }
 
@@ -77,7 +81,9 @@ global.handleRaidDefeat = (e) => {
         let raidLevel = pokemon.getLevel()
         let commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} ${pokemon.getSpecies()} ${raidMonStats.isShiny ? "shiny " : ""} ${raidMonStats.hasHiddenAbility ? "hiddenability " : ""}${raidMonStats.variant && raidMonStats.variant.equals("") ? "" : raidMonStats.variant} level=${Number(raidMonStats.spawnedLevel)}`;
         let tier = Math.max(0, Number(raidMonStats.tier))
-
+        if (pokemon.getSpecies() === "lunala") { 
+            commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} cosmog ${raidMonStats.isShiny ? "shiny " : ""} ${raidMonStats.hasHiddenAbility ? "hiddenability " : ""} level=1`;
+        }
         server.scheduleInTicks(0, () => {
             server.scheduleInTicks(60, () => {
                 dropRaidItems(entityMon, raidLevel, tier)

@@ -1,5 +1,5 @@
 {
-	autofocus_id: "302AA9BB1D2219A8"
+	autofocus_id: "690C4EE7C6DBED87"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rare_pokmon"
@@ -754,7 +754,7 @@
 			id: "33312768E1E4BA1D"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using an Ice Star Pixie"
+			subtitle: "Lure using Mystica Nectar"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -781,7 +781,7 @@
 			id: "322ACE3883EF0B1B"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using an Electric Star Pixie"
+			subtitle: "Lure using Mystica Nectar"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -808,7 +808,7 @@
 			id: "444BE411AB96960F"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Fire Star Pixie"
+			subtitle: "Lure using Mystica Nectar"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -862,7 +862,7 @@
 			id: "237C9725D6792C55"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Rock Star Pixie"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -889,7 +889,7 @@
 			id: "1E0508A8E8FE6814"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using an Ice Star Pixie"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -916,7 +916,7 @@
 			id: "65F2AB32EFCF4051"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Steel Star Pixie"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1024,7 +1024,7 @@
 			id: "3A174D139C314784"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Psychic Star Pixie"
+			subtitle: "Lure using Swampy Mystica Branch"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1051,7 +1051,7 @@
 			id: "404206ADF8E6B097"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Psychic Star Pixie"
+			subtitle: "Lure using Swampy Mystica Branch"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1078,7 +1078,7 @@
 			id: "1F0857E5F4C8E85E"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Psychic Star Pixie"
+			subtitle: "Lure using Swampy Mystica Branch"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1186,7 +1186,7 @@
 			id: "7CF60082CA31BE92"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Flying Star Pixie"
+			subtitle: "Lure using Rainbow Steam"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1213,7 +1213,7 @@
 			id: "5B02036AA208B3D7"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Flying Star Pixie"
+			subtitle: "Lure using Rainbow Steam"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1240,7 +1240,7 @@
 			id: "6434E3E25D873D00"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Flying Star Pixie"
+			subtitle: "Lure using Rainbow Steam"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2232,7 +2232,7 @@
 			id: "12130DEA8E725997"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2259,7 +2259,7 @@
 			id: "690C4EE7C6DBED87"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Fish while having all 3 lake spirits"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2444,11 +2444,12 @@
 			y: -11.0d
 		}
 		{
+			dependencies: ["70053D76E4DA6905"]
 			description: [""]
 			id: "069B5BCA35F1FB9A"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Evolve Cosmoem"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2471,11 +2472,12 @@
 			y: -9.0d
 		}
 		{
+			dependencies: ["70053D76E4DA6905"]
 			description: [""]
 			id: "7CD7B2B58503E5E1"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Evolve Cosmoem"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2585,7 +2587,7 @@
 			id: "017B8D1E26A3992E"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Defeat Moonlit Lunala"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2613,7 +2615,7 @@
 			id: "70053D76E4DA6905"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Evolve Cosmog"
 			tasks: [{
 				action: "catch"
 				amount: 1L
