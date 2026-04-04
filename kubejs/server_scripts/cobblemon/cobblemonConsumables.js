@@ -75,3 +75,43 @@ ItemEvents.entityInteracted((e) => {
     }
   }
 });
+
+const poffletMap = new Map([
+  ["sunlit_cobblemon:plain_pofflet", { baseIncrease: 4, positiveTypes: ["normal", "flying"], tripleBonus: ["normal"], }],
+  ["sunlit_cobblemon:mossy_pofflet", { baseIncrease: 8, positiveTypes: ["grass", "bug"] }],
+  ["sunlit_cobblemon:frosty_pofflet", { baseIncrease: 8, positiveTypes: ["water", "ice", "steel"], decreaseOthers: true }],
+  ["sunlit_cobblemon:deadly_pofflet", { baseIncrease: 8, positiveTypes: ["poison", "ghost", "dark"], decreaseOthers: true }],
+  ["sunlit_cobblemon:spicy_pofflet", { baseIncrease: 8, positiveTypes: ["fire", "fighting", "electric"], decreaseOthers: true }],
+  ["sunlit_cobblemon:captivating_pofflet", { baseIncrease: 16, positiveTypes: ["fairy", "psychic"] }],
+  ["sunlit_cobblemon:crystalline_pofflet", { baseIncrease: 8, positiveTypes: ["dragon", "ground", "rock"], decreaseOthers: true }],
+  ["sunlit_cobblemon:mana_pofflet", { baseIncrease: 14, positiveTypes: [] }],
+]);
+
+const pokemonHasType = (pokemon, types) => types.includes(`${pokemon.primaryType.getName()}`) || pokemon.secondaryType && types.includes(`${pokemon.secondaryType.getName()}`);
+ItemEvents.entityInteracted((e) => {
+  const { player, server, item, hand, target } = e;
+  if (target.type !== "cobblemon:pokemon") return;
+  if (hand == "MAIN_HAND") {
+    if (poffletMap.get(`${item.id}`)) {
+      let effect = poffletMap.get(`${item.id}`);
+      let currentStat = target.pokemon.friendship;
+      let bonus = effect.baseIncrease;
+      let consume = false;
+      if (pokemonHasType(target.pokemon, effect.positiveTypes)) {
+        bonus = effect.baseIncrease * (effect.tripleBonus && pokemonHasType(target.pokemon, effect.tripleBonus) ? 2 : 1.5)
+      } else if (effect.decreaseOthers) {
+        player.tell(Text.translatable("sunlit_cobblemon.pofflet.hated").red())
+        return;
+      }
+      if (currentStat < 255) {
+        target.pokemon.incrementFriendship(Math.floor(bonus), true)
+        consume = true;
+      }
+      if (consume) {
+        server.runCommandSilent(`playsound cobblemon:berry.eat block @a ${player.x} ${player.y} ${player.z}`);
+        if (!player.isCreative()) item.shrink(1)
+      }
+    }
+  }
+});
+

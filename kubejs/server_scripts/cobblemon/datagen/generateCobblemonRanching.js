@@ -1,5 +1,5 @@
 
-const runRanchingDataGen = true;
+const runRanchingDataGen = false;
 
 if (runRanchingDataGen) {
     let cobbleSheepMilk = { sm: "society:sheep_milk", lg: "society:large_sheep_milk" };
@@ -1677,6 +1677,73 @@ if (runRanchingDataGen) {
             ],
         },
         {
+            pokemon: "kabuto",
+            forages: [
+                {
+                    item: 'minecraft:armadillo_scute',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 1
+                },
+                {
+                    item: 'herbalbrews:coffee_beans',
+                    count: 2,
+                    chance: 1,
+                    has_quality: true,
+                    min_hearts: 3
+                },
+                {
+                    item: 'pamhc2trees:cinnamonitem',
+                    count: 1,
+                    chance: 0.4,
+                    has_quality: true,
+                    min_hearts: 8
+                }
+            ],
+        },
+        {
+            pokemon: "kabutops",
+            forages: [
+                {
+                    item: 'minecraft:armadillo_scute',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 1
+                },
+                {
+                    item: 'herbalbrews:ground_coffee',
+                    count: 4,
+                    chance: 1,
+                    has_quality: true,
+                    min_hearts: 5
+                },
+                {
+                    item: 'society:ground_cinnamon',
+                    count: 4,
+                    chance: 0.73,
+                    has_quality: true,
+                    min_hearts: 8
+                }
+            ],
+        },
+        {
+            pokemon: "aerodactyl",
+            forages: [
+                {
+                    item: 'cobblemon:hard_stone',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 1
+                },
+                {
+                    item: 'society:thunder_egg',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 5
+                }
+            ],
+        },
+        {
             pokemon: "omanyte",
             forages: [
                 {
@@ -1708,11 +1775,18 @@ if (runRanchingDataGen) {
             pokemon: "omastar",
             forages: [
                 {
+                    item: "crabbersdelight:raw_squid_tentacles",
+                    count: 4,
+                    chance: 0.25,
+                    has_quality: true,
+                    min_hearts: 2
+                },
+                {
                     item: "minecraft:nautilus_shell",
                     count: 1,
                     chance: 1,
                     min_hearts: 4
-                }
+                },
             ],
         },
         {
@@ -3372,7 +3446,7 @@ if (runRanchingDataGen) {
                     count: 1,
                     chance: 1,
                     has_quality: true,
-                    min_hearts: 3
+                    min_hearts: 2
                 },
                 {
                     item: "sunlit_cobblemon:poison_drop",
@@ -3390,7 +3464,7 @@ if (runRanchingDataGen) {
                     count: 4,
                     chance: 1,
                     has_quality: true,
-                    min_hearts: 3
+                    min_hearts: 2
                 },
                 {
                     item: "sunlit_cobblemon:poison_drop",
@@ -3491,6 +3565,42 @@ if (runRanchingDataGen) {
                     chance: 0.04,
                     min_hearts: 10
                 }
+            ],
+        },
+        {
+            pokemon: "klefki",
+            forages: [
+                {
+                    item: 'supplementaries:key',
+                    count: 1,
+                    chance: 0.06,
+                    min_hearts: 1
+                },
+                {
+                    item: 'trials:trial_key',
+                    count: 1,
+                    chance: 0.06,
+                    min_hearts: 3
+                },
+                {
+                    item: 'cluttered:brass_key',
+                    count: 1,
+                    chance: 0.1,
+                    min_hearts: 3
+                },
+                {
+                    item: 'trials:trial_key_ominous',
+                    count: 1,
+                    chance: 0.03,
+                    min_hearts: 9
+                },
+                {
+                    item: 'society:car_key',
+                    count: 1,
+                    chance: 0.01,
+                    min_hearts: 9
+                },
+
             ],
         },
         {
@@ -3814,6 +3924,10 @@ if (runRanchingDataGen) {
             ],
         },
         {
+            pokemon: "dewpider",
+            milk: { sm: "sunlit_cobblemon:spider_milk" },
+        },
+        {
             pokemon: "araquanid",
             forages: [
                 {
@@ -3835,6 +3949,10 @@ if (runRanchingDataGen) {
                     min_hearts: 10
                 }
             ],
+        },
+        {
+            pokemon: "araquanid",
+            milk: { sm: "sunlit_cobblemon:spider_milk" },
         },
         {
             pokemon: "tarountula",
@@ -3900,6 +4018,21 @@ if (runRanchingDataGen) {
             ],
         },
         {
+            pokemon: "spidops",
+            milk: { sm: "sunlit_cobblemon:spider_milk" },
+        },
+        {
+            pokemon: "joltik",
+            forages: [
+                {
+                    item: 'society:limestone_pebble',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 1
+                }
+            ],
+        },
+        {
             pokemon: "galvantula",
             forages: [
                 {
@@ -3921,6 +4054,10 @@ if (runRanchingDataGen) {
                     min_hearts: 10
                 }
             ],
+        },
+        {
+            pokemon: "galvantula",
+            milk: { sm: "sunlit_cobblemon:spider_milk" },
         },
         {
             pokemon: "spinarak",
@@ -3961,6 +4098,10 @@ if (runRanchingDataGen) {
                     min_hearts: 10
                 }
             ],
+        },
+        {
+            pokemon: "ariados",
+            milk: { sm: "sunlit_cobblemon:spider_milk" },
         },
         {
             pokemon: "scatterbug",
@@ -4128,17 +4269,6 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "bidoof",
-            forages: [
-                {
-                    item: "meadow:fire_log",
-                    count: 1,
-                    chance: 1,
-                    min_hearts: 1
-                },
-            ],
-        },
-        {
             pokemon: "barboach",
             forages: [
                 {
@@ -4203,13 +4333,31 @@ if (runRanchingDataGen) {
             ],
         },
         {
+            pokemon: "bidoof",
+            forages: [
+                {
+                    item: "meadow:fire_log",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 1
+                },
+            ],
+        },
+        {
             pokemon: "bibarel",
             forages: [
                 {
                     item: "meadow:fire_log",
                     count: 4,
                     chance: 1,
-                    min_hearts: 3
+                    min_hearts: 1
+                },
+                {
+                    item: 'pamhc2trees:cinnamonitem',
+                    count: 1,
+                    chance: 0.65,
+                    has_quality: true,
+                    min_hearts: 4
                 },
                 {
                     item: "unusualfishmod:raw_bark_angelfish",
@@ -5080,8 +5228,8 @@ if (runRanchingDataGen) {
             forages: [
                 {
                     item: "sunlit_cobblemon:electro_wool",
-                    count: 3,
-                    chance: 0.8,
+                    count: 2,
+                    chance: 1,
                     has_quality: true,
                     min_hearts: 5
                 }

@@ -7,7 +7,7 @@
 			"count": 4,
 			"chance": 1,
 			"has_quality": true,
-			"min_hearts": 3
+			"min_hearts": 2
 		},
 		{
 			"item": "sunlit_cobblemon:poison_drop",

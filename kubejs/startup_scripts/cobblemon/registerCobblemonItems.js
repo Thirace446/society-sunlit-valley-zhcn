@@ -56,6 +56,11 @@ StartupEvents.registry("item", (e) => {
     .texture("sunlit_cobblemon:item/master_poke_bobber")
     .maxStackSize(1)
     .displayName("Master Poké Bobber");
+
+  ["plain", "frosty", "captivating", "crystalline", "deadly", "mossy", "spicy", "mana"].forEach((pofflet) => {
+    e.create(`sunlit_cobblemon:${pofflet}_pofflet`)
+  });
+
   // Smoothies
   e.create("sunlit_cobblemon:berry_smoothie")
     .texture("sunlit_cobblemon:item/berry_smoothie")
@@ -118,12 +123,20 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:electric_canvas");
   e.create("sunlit_cobblemon:moondust");
   e.create("sunlit_cobblemon:paras_mushroom");
+  e.create("sunlit_cobblemon:spider_milk")
+      .food((food) => {
+        food.hunger(1);
+        food.saturation(1);
+        food.effect("minecraft:poison", 200, 2, 1.0);
+        food.alwaysEdible(true);
+      })
+      .useAnimation("drink");
   [
     "moomoo_milk",
     "large_moomoo_milk",
   ].forEach((item) => {
     e.create(`sunlit_cobblemon:${item}`)
-      .texture(`cobblemon:item/food/${item}`)
+      .texture(item.includes("moomoo") ? `cobblemon:item/food/${item}` : `sunlit_cobblemon:item/${item}`)
       .food((food) => {
         food.hunger(item.includes("large") ? 5 : 1);
         food.saturation(1);
@@ -192,19 +205,8 @@ StartupEvents.registry("item", (e) => {
         });
     }
   });
-  const cobblemonDehydratorMapping = [
-    { item: "sunlit_cobblemon:dried_common_cobbleberry", hex: 0xdd5e8c },
-    { item: "sunlit_cobblemon:dried_uncommon_cobbleberry", hex: 0xc20e34 },
-    { item: "sunlit_cobblemon:dried_rare_cobbleberry", hex: 0x474976 },
-    { item: "sunlit_cobblemon:dried_legendary_cobbleberry", hex: 0xfcc112 },
-  ];
   global.cobblemonDehydrated.forEach((item) => {
-    const itemHex = cobblemonDehydratorMapping.find(
-      (val) => val.item === item.item,
-    )?.hex;
     e.create(item.item)
-      .texture(`society:item/dried_fruit`)
-      .color(0, itemHex)
       .food((food) => {
         food.hunger(9);
         food.saturation(0.5);

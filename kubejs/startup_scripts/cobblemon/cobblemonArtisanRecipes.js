@@ -130,6 +130,10 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
     input: "cobblemon:metal_coat",
     output: ["4x oreganized:silver_ingot"],
   },
+  {
+    input: "sunlit_cobblemon:permafrost",
+    output: ["4x society:frozen_tear"],
+  },
 ].forEach((recipe) => {
   global.recyclingMachineRecipes.set(recipe.input, { output: recipe.output });
 });
@@ -174,6 +178,6 @@ global.oilMakerRecipes.set("sunlit_cobblemon:poison_drop", { output: ["sunlit_co
 
 global.cheesePressRecipes.set("sunlit_cobblemon:moomoo_milk", { output: ["sunlit_cobblemon:moomoo_cheese"]});
 global.cheesePressRecipes.set("sunlit_cobblemon:large_moomoo_milk", { output: ["4x sunlit_cobblemon:moomoo_cheese"]});
-
+global.cheesePressRecipes.set("sunlit_cobblemon:spider_milk", { output: ["sunlit_cobblemon:spider_milk"]})
 global.agingCaskRecipes.set("sunlit_cobblemon:moomoo_cheese", { output: ["1x sunlit_cobblemon:aged_moomoo_cheese"], time: 3});
 global.ancientCaskRecipes.set("sunlit_cobblemon:aged_moomoo_cheese", { output: ["1x sunlit_cobblemon:double_aged_moomoo_cheese"], time: 13});

@@ -263,4 +263,9 @@ ServerEvents.recipes((e) => {
       "count": 4
     }
   })
+    const compact = (output, compactInput, count) => {
+    e.shapeless(`${count}x ${compactInput}`, [output]);
+    e.shapeless(output, [`${count}x ${compactInput}`]);
+  };
+  compact(`sunlit_cobblemon:large_moomoo_milk`, `sunlit_cobblemon:moomoo_milk`, 4);
 });

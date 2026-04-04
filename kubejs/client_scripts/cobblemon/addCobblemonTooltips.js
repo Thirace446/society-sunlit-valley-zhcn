@@ -229,7 +229,7 @@ ItemEvents.tooltip((tooltip) => {
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.stone`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
   });
-  
+
   ['whimsy_deco:washing_machine', 'whimsy_deco:orange_lawn_mower', 'refurbished_furniture:light_stove', 'whimsy_deco:fan', 'beachparty:mini_fridge'].forEach((item) => {
     tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.rotom`).gray());
     tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
@@ -315,6 +315,22 @@ ItemEvents.tooltip((tooltip) => {
   ["health", "muscle", "resist", "genius", "clever", "swift", "fresh_start"].forEach((item) => {
     tooltip.add(`cobblemon:${item}`, Text.translatable(`item.cobblemon.${item}_mochi.tooltip`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  });
+  const clientPoffletMap = new Map([
+    ["sunlit_cobblemon:plain_pofflet", { baseIncrease: 5, positiveTypes: ["normal", "flying"], tripleBonus: ["normal"], }],
+    ["sunlit_cobblemon:mossy_pofflet", { baseIncrease: 10, positiveTypes: ["grass", "bug"] }],
+    ["sunlit_cobblemon:frosty_pofflet", { baseIncrease: 10, positiveTypes: ["water", "ice", "steel"], decreaseOthers: true }],
+    ["sunlit_cobblemon:deadly_pofflet", { baseIncrease: 10, positiveTypes: ["poison", "ghost", "dark"], decreaseOthers: true }],
+    ["sunlit_cobblemon:spicy_pofflet", { baseIncrease: 10, positiveTypes: ["fire", "fighting", "electric"], decreaseOthers: true }],
+    ["sunlit_cobblemon:captivating_pofflet", { baseIncrease: 15, positiveTypes: ["fairy", "psychic"] }],
+    ["sunlit_cobblemon:crystalline_pofflet", { baseIncrease: 10, positiveTypes: ["dragon", "ground", "rock"], decreaseOthers: true }],
+    ["sunlit_cobblemon:mana_pofflet", { baseIncrease: 15, positiveTypes: [] }],
+  ]);
+  ["plain", "frosty", "captivating", "crystalline", "deadly", "mossy", "spicy", "mana"].forEach((pofflet) => {
+    let effect = clientPoffletMap.get(`sunlit_cobblemon:${pofflet}_pofflet`);
+    tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet`, String(effect.baseIncrease)).gray());
+    if (effect.positiveTypes.length > 0) tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet.loved_by_${effect.positiveTypes.length == 2 ? "two" : "three"}`, effect.positiveTypes.map((type) => Text.translatable(`cobblemon.type.${type}`))).green())
+    if (effect.decreaseOthers) tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet.hated`).red())
   });
 
   [

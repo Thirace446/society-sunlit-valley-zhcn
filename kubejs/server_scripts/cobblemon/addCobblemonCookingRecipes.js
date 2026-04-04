@@ -51,7 +51,7 @@ ServerEvents.recipes((e) => {
         },
     });
 
-    
+
     const hyperCandyBase = (candy, mochi, increase) => {
         e.custom({
             type: "farmersdelight:cooking",
@@ -98,4 +98,34 @@ ServerEvents.recipes((e) => {
     hyperCandyBase("slow", "swift");
     hyperCandyBase("numb", "genius");
     hyperCandyBase("coward", "clever");
+
+    const poffletBase = (pofflet, catalyst) => {
+        e.custom({
+            type: "farm_and_charm:stove",
+            experience: 1.2,
+            ingredients: [
+                {
+                    "item": "bakery:sweet_dough"
+                },
+                {
+                    item: catalyst,
+                },
+                {
+                    item: "sunlit_cobblemon:sun_drops",
+                }
+            ],
+            item: `sunlit_cobblemon:${pofflet}_pofflet`,
+            count: 1
+        });
+    }
+
+    poffletBase("plain", "sunlit_cobblemon:moomoo_cheese");
+    poffletBase("mossy", "sunlit_cobblemon:strange_spore");
+    poffletBase("frosty", "society:frozen_tear");
+    poffletBase("deadly", "sunlit_cobblemon:venomshine");
+    poffletBase("deadly", "sunlit_cobblemon:spider_milk");
+    poffletBase("spicy", "vintagedelight:pepper_jam_mason_jar");
+    poffletBase("captivating", "sunlit_cobblemon:mystica_branch");
+    poffletBase("crystalline", "society:spinel");
+    poffletBase("mana", "society:mana_fruit");
 })

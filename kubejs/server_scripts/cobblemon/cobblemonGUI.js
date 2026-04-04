@@ -3,7 +3,7 @@ console.info("[SOCIETY] cobblemonGUI.js loaded");
 const pokeRadarPadding = 2;
 
 const $PokemonSpecies = Java.loadClass("com.cobblemon.mod.common.api.pokemon.PokemonSpecies").INSTANCE;
-
+// pumpkaboo /gourg
 const formMap = new Map([
     ["deerling", "spring"],
     ["sawsbuck", "spring"],
@@ -31,7 +31,11 @@ const formMap = new Map([
     ["gastrodon", "east"],
     ["indeedee", "female"]
 ]);
-
+// ["mrrime", "mrmime"].includes(identifier) ? "mr" : identifier}/${}
+const handleIdentifier = (id) => {
+    if (!["mrrime", "mrmime"].includes(id)) return `${id}/${id}`;
+    return `mr/${id.slice(0, 2) + "_" + id.slice(2)}`;
+}
 PlayerEvents.tick((e) => {
     const { player, level } = e;
     const curios = player.nbt.ForgeCaps["curios:inventory"];
@@ -48,7 +52,7 @@ PlayerEvents.tick((e) => {
             let variant = formMap.get(`${identifier}`)
 
             // Why is Mr Rime like that
-            let foundMon = `${String(species.nationalPokedexNumber).padStart(4, '0')}_${["mrrime", "mrmime"].includes(identifier) ? "mr" : identifier}/${identifier}${variant ? `_${variant}` : ""}`
+            let foundMon = `${String(species.nationalPokedexNumber).padStart(4, '0')}_${handleIdentifier(identifier)}${variant ? `_${variant}` : ""}`
             if (!mons.includes(foundMon)) mons.push(foundMon);
         })
         let pokeRadarStart = 4;

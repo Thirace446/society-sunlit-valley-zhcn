@@ -1081,8 +1081,9 @@
 					type: "item"
 				}
 				{
-					id: "67498697BBBB639D"
-					item: "sunlit_cobblemon:moomoo_milk"
+					count: 4
+					id: "705366EC134FA56D"
+					item: "sunlit_cobblemon:plain_pofflet"
 					type: "item"
 				}
 			]

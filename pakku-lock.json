@@ -2188,6 +2188,39 @@
             ]
         },
         {
+            "pakku_id": "L6K4cPC9q6f4DP3m",
+            "type": "DATA_PACK",
+            "slug": {
+                "curseforge": "cobblemon-move-effects-backport"
+            },
+            "name": {
+                "curseforge": "Cobblemon Move Effects Backport | Forge/Fabric"
+            },
+            "id": {
+                "curseforge": "1499371"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Cobblemon Move Effects Backport 1.0.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7844/67/Cobblemon Move Effects Backport 1.0.zip",
+                    "id": "7844067",
+                    "parent_id": "1499371",
+                    "hashes": {
+                        "sha1": "959d1184b71a937addcaa587d34e639a9d89f5d1",
+                        "md5": "fbed6afcfa9fc143e624aeaa3e6abdcc"
+                    },
+                    "required_dependencies": [],
+                    "size": 12901715,
+                    "date_published": "2026-03-30T02:56:48.747Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "NvTe2BvotGFKiruM",
             "pakku_links": [
                 "KDWmpmJACN6AFIki"
@@ -12815,21 +12848,21 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sunlit-mons-1.0.zip",
+                    "file_name": "sunlit-mons-2.0.zip",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7772/239/sunlit-mons-1.0.zip",
-                    "id": "7772239",
+                    "url": "https://edge.forgecdn.net/files/7847/815/sunlit-mons-2.0.zip",
+                    "id": "7847815",
                     "parent_id": "1488690",
                     "hashes": {
-                        "sha1": "76a637efdf0ab904f6a0ceb96cd7c8fff83b15c7",
-                        "md5": "ae4f4cf733d483c40ee1d351ce9c497b"
+                        "sha1": "3c46dc3ffe683c1088f286dbe37ff36d87f48ddf",
+                        "md5": "634a5e4f854307a494ca781729b57b2a"
                     },
                     "required_dependencies": [],
-                    "size": 6374104,
-                    "date_published": "2026-03-17T16:55:26.227Z"
+                    "size": 6828916,
+                    "date_published": "2026-03-30T21:37:26.080Z"
                 }
             ]
         },

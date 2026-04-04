@@ -26,7 +26,13 @@ ServerEvents.tags("worldgen/biome", (e) => {
   e.add("cobblemon:is_floral", "windswept:lavender_hills")
   e.add("cobblemon:is_sky", "atmospheric:aspen_parkland")
   e.add("cobblemon:is_spooky", "minecraft:pale_garden")
-  e.add("cobblemon:is_magical", "minecraft:pale_garden")
+  e.add("cobblemon:is_magical", "minecraft:pale_garden");
+  e.add("cobblemon:is_shrubland", "atmospheric:scrubland");
+  e.add("cobblemon:is_sandy", "atmospheric:scrubland");
+  e.add("cobblemon:is_sandy", "atmospheric:dunes");
+  e.add("cobblemon:is_desert", "atmospheric:dunes");
+  e.add("cobblemon:is_sandy", "atmospheric:flourishing_dunes");
+  e.add("cobblemon:is_desert", "atmospheric:flourishing_dunes");
 });
 
 const cobblemonAllSeasonCrops = [

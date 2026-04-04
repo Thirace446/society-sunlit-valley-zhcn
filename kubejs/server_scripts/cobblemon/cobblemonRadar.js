@@ -105,7 +105,12 @@ ItemEvents.firstLeftClicked("sunlit_cobblemon:poke_radar", (e) => {
       `sunlit_cobblemon.poke_radar.rarity.${selectedRarity}`,
     ).green(),
   );
-
+  const raritySelectedTextBG = Text.translatable(
+    "sunlit_cobblemon.poke_radar.rarity_selected",
+    Text.translatable(
+      `sunlit_cobblemon.poke_radar.rarity.${selectedRarity}`,
+    ).black(),
+  );
   global.renderUiText(
     player,
     server,
@@ -124,7 +129,7 @@ ItemEvents.firstLeftClicked("sunlit_cobblemon:poke_radar", (e) => {
         x: 1,
         z: -1,
         y: -89,
-        text: raritySelectedText.getString(),
+        text: `${raritySelectedTextBG.toJson()}`,
         color: "#000000",
         alignX: "center",
         alignY: "bottom",

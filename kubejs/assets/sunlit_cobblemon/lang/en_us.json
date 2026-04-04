@@ -31,6 +31,7 @@
   "sunlit_cobblemon.wormhole_generator.hint.blacephalon": "Wormhole Generator detecting bursts of energy in the area",
   "sunlit_cobblemon.wormhole_generator.hint.xurkitree": "Wormhole Generator detecting sharp electricity in the area",
   "sunlit_cobblemon.wormhole_generator.hint.celesteela": "Wormhole Generator detecting jet fuel residue in the area",
+  "sunlit_cobblemon.pofflet.hated": "It doesn't like that flavor of Pofflet...",
   
   "block.sunlit_cobblemon.trainer_podium.description": "Invites Trainers to your Gym. Their levels will match the average of your party",
   "block.sunlit_cobblemon.sun_raid_statue.description": "Summons a sun raid Pokémon once a day. Shift + Right click to activate the altar",
@@ -353,6 +354,11 @@
   "tooltip.sunlit_cobblemon.cobblemon.crit.moon": "Requires a full moon at night",
   "tooltip.sunlit_cobblemon.cobblemon.crit.night": "Requires a level gained at night",
   "tooltip.sunlit_cobblemon.cobblemon.crit.form_time": "Time of day and sweet flavor affects form",
+  
+  "tooltip.sunlit_cobblemon.pofflet": "Raises a Pokémon's friendship by %s",
+  "tooltip.sunlit_cobblemon.pofflet.loved_by_three": "%s, %s, and %s types love these!",
+  "tooltip.sunlit_cobblemon.pofflet.loved_by_two": "%s and %s types love these!",
+  "tooltip.sunlit_cobblemon.pofflet.hated": "Other types dislike the flavor...",
 
   "sunlit_cobblemon.books.the_art_of_battle.description": "The Sunlit league pays out 25% more per battle.",
   "sunlit_cobblemon.books.berry_labor_and_capital.description": "+3 Pokémon worker slots.",

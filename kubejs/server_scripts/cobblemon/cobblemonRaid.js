@@ -51,7 +51,6 @@ const initializeSunRaid = (level, block, player) => {
         player.tell(Text.translatable("sunlit_cobblemon.sun_raid.checkspawns.nothing").red())
         return;
     }
-    console.log(mon.levelRange)
     nbt.merge({
         data: {
             type: mon.pokemon.species,
