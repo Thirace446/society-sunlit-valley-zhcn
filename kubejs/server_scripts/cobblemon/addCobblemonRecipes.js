@@ -90,9 +90,10 @@ ServerEvents.recipes((e) => {
   e.shapeless("sunlit_cobblemon:swampy_mystica_branch", ["sunlit_cobblemon:grass_pledge", "sunlit_cobblemon:water_pledge", "sunlit_cobblemon:mystica_branch", "society:sunlit_crystal"]);
   e.shapeless("sunlit_cobblemon:mystica_nectar", ["society:mossberry_stew", "sunlit_cobblemon:mystica_branch", "sunlit_cobblemon:swampy_mystica_branch"]);
     e.shaped(
-    "sunlit_cobblemon:star_pixie",
-    ["mdr", "mfm", "rmd"],
+    "sunlit_cobblemon:moongeist_crystal",
+    ["dmb", "mfm", "rmd"],
     {
+      b: "sunlit_cobblemon:blooming_ring",
       m: "cobblemon:moon_stone",
       f: "sunlit_cobblemon:fairy_heart",
       d: "sunlit_cobblemon:moondust",

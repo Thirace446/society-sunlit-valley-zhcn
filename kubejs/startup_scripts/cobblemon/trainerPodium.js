@@ -37,7 +37,7 @@ global.removeNearbyTrainers = (level, block, forceRemoval) => {
 global.runTrainerPodium = (entity) => {
   const { level, block } = entity;
   let nbt = block.getEntityData();
-  const { owner } = nbt.data;
+  const { owner, trainer, lastStreak } = nbt.data;
   let nearbyPlayers = level
     .getEntitiesWithin(AABB.ofBlock(block).inflate(10))
     .filter((scanEntity) => scanEntity.isPlayer());
@@ -52,16 +52,20 @@ global.runTrainerPodium = (entity) => {
     if (spawnTrainer) {
       let levelAverage = Math.min(100, global.getPartyLevel(ownerPlayer));
       let levelTier = global.getPlayerPodiumLevelTier(ownerPlayer, levelAverage);
-      let trainer
+      let newTrainer = trainer;
       // ownerPlayer.persistentData.winStreak = 11
-      if (ownerPlayer.persistentData.winStreak > 9 && ownerPlayer.persistentData.winStreak % 10 === 0) {
-        trainer = global.getLeagueBoss(Math.min(100, levelTier))
-      } else {
-        trainer = global.getRandomTrainer(Math.min(100, levelTier));
+      if (ownerPlayer.persistentData.winStreak == 0 || !newTrainer || lastStreak !== ownerPlayer.persistentData.winStreak) {
+        if (ownerPlayer.persistentData.winStreak > 9 && ownerPlayer.persistentData.winStreak % 10 === 0) {
+          newTrainer = global.getLeagueBoss(Math.min(100, levelTier))
+        } else {
+          newTrainer = global.getRandomTrainer(Math.min(100, levelTier));
+        }
+        nbt.merge({ data: { trainer: newTrainer, lastStreak: ownerPlayer.persistentData.winStreak } });
+        global.setBlockEntityData(block, nbt);
       }
       let freshTrainer = level.createEntity("rctmod:trainer");
       let trainerNBT = freshTrainer.getNbt();
-      trainerNBT.TrainerId = trainer;
+      trainerNBT.TrainerId = newTrainer;
       trainerNBT.NoAI = true;
       trainerNBT.Pos = [
         Number(block.x) + 0.5,
@@ -105,7 +109,7 @@ StartupEvents.registry("block", (event) => {
     .blockEntity((blockInfo) => {
       blockInfo.enableSync();
       blockInfo.initialData({ owner: "-1", trainer: "" });
-      blockInfo.serverTick(600, 0, (entity) => {
+      blockInfo.serverTick(300, 0, (entity) => {
         global.runTrainerPodium(entity);
       });
     });

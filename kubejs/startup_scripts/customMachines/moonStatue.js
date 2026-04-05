@@ -10,7 +10,7 @@ const statueBuffs = [
 ];
 global.handleMoonStatueClick = (click) => {
   const { player, server, hand, block, item, level } = click;
-  if (item.id === 'sunlit_cobblemon:star_pixie') return;
+  if (item.id === 'sunlit_cobblemon:moongeist_crystal') return;
   if (!player.isFake() && player.stages.has("mining_mastery")) {
     if (hand == "OFF_HAND") return;
     if (hand == "MAIN_HAND") {

@@ -1,6 +1,8 @@
 console.info("[SOCIETY-S-COBBLEMON] registerCobblemonItems.js loaded");
 
 StartupEvents.registry("item", (e) => {
+  
+  e.create("sunlit_cobblemon:mystery_gift")
   // Cobblemon
   e.create("cobblemon:metal_alloy").texture("cobblemon:item/evolution/metal_alloy");
   e.create("cobblemon:shell_helmet").texture("cobblemon:item/evolution/shell_helmet");
@@ -57,8 +59,9 @@ StartupEvents.registry("item", (e) => {
     .maxStackSize(1)
     .displayName("Master Poké Bobber");
 
+  e.create("sunlit_cobblemon:pofflet_box");
   ["plain", "frosty", "captivating", "crystalline", "deadly", "mossy", "spicy", "mana"].forEach((pofflet) => {
-    e.create(`sunlit_cobblemon:${pofflet}_pofflet`)
+    e.create(`sunlit_cobblemon:${pofflet}_pofflet`).tag("sunlit_cobblemon:pofflet");
   });
 
   // Smoothies
@@ -99,9 +102,9 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:sun_drops");
   e.create("sunlit_cobblemon:sun_essence");
   e.create("sunlit_cobblemon:mystica_cookie");
+  e.create("sunlit_cobblemon:sun_mirror").maxStackSize(1);
   e.create("sunlit_cobblemon:sunlit_league_medallion");
-  e.create("sunlit_cobblemon:poke_radar")
-    .displayName("Poké Radar");
+  e.create("sunlit_cobblemon:poke_radar").maxStackSize(1).displayName("Poké Radar");
   e.create("sunlit_cobblemon:berry_capsule").texture(
     "sunlit_cobblemon:item/berry_capsule",
   );
@@ -124,13 +127,13 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:moondust");
   e.create("sunlit_cobblemon:paras_mushroom");
   e.create("sunlit_cobblemon:spider_milk")
-      .food((food) => {
-        food.hunger(1);
-        food.saturation(1);
-        food.effect("minecraft:poison", 200, 2, 1.0);
-        food.alwaysEdible(true);
-      })
-      .useAnimation("drink");
+    .food((food) => {
+      food.hunger(1);
+      food.saturation(1);
+      food.effect("minecraft:poison", 200, 2, 1.0);
+      food.alwaysEdible(true);
+    })
+    .useAnimation("drink");
   [
     "moomoo_milk",
     "large_moomoo_milk",

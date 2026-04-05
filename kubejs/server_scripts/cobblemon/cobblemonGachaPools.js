@@ -251,6 +251,28 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
     `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon
     } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}${isShiny ? "shiny" : ""}`,
   );
+  if (player.stages.has("the_red_and_the_black")) {
+    if (!isShiny) {
+      if (Math.random() < shinyChance) {
+        isShiny = true;
+        server.tell(
+          Text.translatable(
+            "sunlit_cobblemon.gachamon_capsule.shiny_announce",
+            Text.red(`${player.username}`),
+            Text.gold(
+              Text.translatable(
+                `cobblemon.species.${caughtMon.pokemon}.name`,
+              ).getString(),
+            ),
+          ).gray(),
+        );
+      }
+    }
+    server.runCommandSilent(
+      `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon
+      } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}${isShiny ? "shiny" : ""}`,
+    );
+  }
   server.runCommandSilent(
     `playsound stardew_fishing:chest_get block @a ${pos.x} ${pos.y} ${pos.z}`,
   );

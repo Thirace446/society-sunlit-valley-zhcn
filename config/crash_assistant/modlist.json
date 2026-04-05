@@ -1703,8 +1703,8 @@
     "curseForgeHash": 692457962,
     "modrinthHash": "a0d862da2dd1dc21d00e64508f56e45d31639686"
   },
-  "Oreganized 1.20.1-4.3.1.jar": {
-    "jarName": "Oreganized 1.20.1-4.3.1.jar",
+  "Oreganized 1.20.1-4.3.2.jar": {
+    "jarName": "Oreganized 1.20.1-4.3.2.jar",
     "modId": "oreganized",
     "version": "4.3.2",
     "curseForgeHash": 4092688125,
@@ -2179,12 +2179,12 @@
     "curseForgeHash": 3402444196,
     "modrinthHash": "15296a7d8942a7a3376f293265b5146af6c42ec7"
   },
-  "society-1.16.jar": {
-    "jarName": "society-1.16.jar",
+  "society-1.15.jar": {
+    "jarName": "society-1.15.jar",
     "modId": "society",
-    "version": "1.16",
-    "curseForgeHash": 3566033015,
-    "modrinthHash": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9"
+    "version": "1.15",
+    "curseForgeHash": 710360043,
+    "modrinthHash": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204"
   },
   "society_trading-1.0.4.jar": {
     "jarName": "society_trading-1.0.4.jar",

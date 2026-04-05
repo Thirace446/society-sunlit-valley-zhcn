@@ -62,41 +62,45 @@ ItemEvents.tooltip((tooltip) => {
     "sunlit_cobblemon:master_poke_bobber",
     Text.translatable(`tooltip.sunlit_cobblemon.master_poke_bobber.description`).gold()
   );
-  // Legendaries
-  tooltip.addAdvanced("sunlit_cobblemon:star_pixie", (item, advanced, text) => {
-    if (item.nbt && item.nbt.getString("type")) {
-      let data = global.cobblemonLegendaryMap.get(
-        `${item.nbt.getString("type")}`,
-      );
+  tooltip.addAdvanced("sunlit_cobblemon:sun_mirror", (item, advanced, text) => {
+    if (item.nbt && item.nbt.monData && item.nbt.monData.getString("type")) {
+      let data = item.nbt.monData
       if (data) {
-        if (tooltip.shift) {
-          data.legendaries.forEach((legendary, index) => {
-            text.add(index + 1, [
-              Text.gray(`Summons §${data.color}`),
-              Text.translate(
-                `cobblemon.species.${legendary.pokemonId}.name`
-              ).gold(),
-              Text.gray(` §7from a §${data.color}`),
-              Text.translate(
-                `entity.${legendary.entity.namespace}.${legendary.entity.path}`,
-              ).gold(),
-            ]);
-          });
-        } else {
-          text.add(1, [
-            `§7Pixe Type: §${data.color}${global.formatName(
-              `${item.nbt.getString("type")}`,
-            )}`,
-          ]);
+        text.add(1, [
+          Text.translatable(
+            "tooltip.sunlit_cobblemon.sun_mirror.pokemon"
+          ).gray(),
+          Text.translate(`cobblemon.species.${data.getString("type")}.name`).gold(),
+          Text.translatable(
+            "tooltip.sunlit_cobblemon.sun_mirror.level", Number(data.getInt("level"))
+          ).gray(),
+        ]);
+        if (data.getString("variant")) {
           text.add(2, [
-            Text.darkGray("Hold ["),
-            Text.gray("Shift"),
-            Text.darkGray("] to view Pokémon that can be summoned"),
+            Text.translatable(
+              "tooltip.sunlit_cobblemon.sun_mirror.variant", data.getString("variant")
+            ).gray()
+          ]);
+          text.add(3, [
+            Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.insert").green()
+          ]);
+        } else {
+          text.add(2, [
+            Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.insert").green()
           ]);
         }
+      } else {
+        text.add(1, [
+          Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.description").gray()
+        ]);
       }
+    } else {
+      text.add(1, [
+        Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.description").gray()
+      ]);
     }
   });
+  // Gach
   // Gachapon
   tooltip.addAdvanced(
     "sunlit_cobblemon:gachamon_capsule",
@@ -160,8 +164,11 @@ ItemEvents.tooltip((tooltip) => {
   );
 
   // Misc
+  tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable(`tooltip.sunlit_cobblemon.berry_capsule.description`).gold());
   tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable("tooltip.society.right_click_open").gray());
-  tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable(`tooltip.sunlit_cobblemon.berry_capsule.description`).gray());
+
+  tooltip.add("sunlit_cobblemon:pofflet_box", Text.translatable(`tooltip.sunlit_cobblemon.pofflet_box.description`).gold());
+  tooltip.add("sunlit_cobblemon:pofflet_box", Text.translatable("tooltip.society.right_click_open").gray());
 
   tooltip.add('sunlit_cobblemon:sun_drops', Text.translatable(`tooltip.sunlit_cobblemon.sun_drops.description`).gray());
   tooltip.add('sunlit_cobblemon:mystica_branch', Text.translatable(`tooltip.sunlit_cobblemon.mystica_branch.description`).gray());
@@ -193,8 +200,8 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add('sunlit_cobblemon:frozen_calamity', Text.translatable(`tooltip.sunlit_cobblemon.frozen_calamity.description`).gray());
   tooltip.add('sunlit_cobblemon:frozen_calamity', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
 
-  tooltip.add('sunlit_cobblemon:star_pixie', Text.translatable(`tooltip.sunlit_cobblemon.star_pixie.description`).gray());
-  tooltip.add('sunlit_cobblemon:star_pixie', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  tooltip.add('sunlit_cobblemon:moongeist_crystal', Text.translatable(`tooltip.sunlit_cobblemon.moongeist_crystal.description`).gray());
+  tooltip.add('sunlit_cobblemon:moongeist_crystal', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
 
   tooltip.add('sunlit_cobblemon:tabula_rasa', Text.translatable(`tooltip.sunlit_cobblemon.tabula_rasa.description`).gray());
   tooltip.add('sunlit_cobblemon:tabula_rasa', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());

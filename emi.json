@@ -63,6 +63,40 @@
     }
   ],
   "lookup_history": [
+    "item:cobblemon:syrupy_apple",
+    "item:society:double_aged_violet_moon",
+    "item:sunlit_cobblemon:moongeist_crystal",
+    "item:sunlit_cobblemon:star_pixie",
+    "item:sunlit_cobblemon:moondust",
+    "item:sunlit_cobblemon:trainer_podium",
+    "item:sunlit_cobblemon:sun_mirror",
+    "item:sunlit_cobblemon:sunlit_league_medallion",
+    "item:sunlit_cobblemon:mystica_branch",
+    "item:sunlit_cobblemon:mystica_nectar",
+    "item:sunlit_cobblemon:swampy_mystica_branch",
+    "item:sunlit_cobblemon:crystalline_pofflet",
+    "item:sunlit_cobblemon:mana_pofflet",
+    "item:sunlit_cobblemon:deadly_pofflet",
+    "item:sunlit_cobblemon:plain_pofflet",
+    "item:sunlit_cobblemon:frosty_pofflet",
+    "item:sunlit_cobblemon:captivating_pofflet",
+    "item:sunlit_cobblemon:spicy_pofflet",
+    "item:sunlit_cobblemon:mossy_pofflet",
+    "item:cobblemon:tart_apple",
+    "item:cobblemon:sweet_apple",
+    "item:cobblemon:leaf_stone",
+    "item:cobblemon:friend_ball",
+    "item:cobblemon:moon_ball",
+    "item:cobblemon:sport_ball",
+    "item:cobblemon:dream_ball",
+    "item:cobblemon:quick_ball",
+    "item:cobblemon:heal_ball",
+    "item:cobblemon:ancient_verdant_ball",
+    "item:cobblemon:master_ball",
+    "item:cobblemon:beast_ball",
+    "item:cobblemon:ancient_ivory_ball",
+    "item:sunlit_cobblemon:resonance_gem",
+    "item:society:ancient_fruit",
     "item:cobblemon_farmers:dark_type_worker",
     "item:cobblemon_farmers:fairy_type_worker",
     "item:cobblemon_farmers:dragon_type_worker",
@@ -81,7 +115,6 @@
     "item:cobblemon_farmers:fire_type_worker",
     "item:cobblemon_farmers:normal_type_worker",
     "item:society:thunder_egg",
-    "item:cobblemon:syrupy_apple",
     "item:sunlit_cobblemon:venomshine",
     "item:sunlit_cobblemon:poison_drop",
     {
@@ -119,11 +152,6 @@
     "item:society:animal_feed_sack",
     "item:longwings:butterfly_bowl_feeder",
     "item:minecraft:sunflower",
-    {
-      "type": "item",
-      "id": "sunlit_cobblemon:resonance_gem",
-      "amount": 64
-    },
     "item:cluttered:garland_sunflower",
     "item:sunlit_cobblemon:fire_pledge",
     "item:cobblemon:water_stone",
@@ -147,12 +175,6 @@
     "item:sunlit_cobblemon:tabula_rasa",
     "item:sunlit_cobblemon:blazing_calamity",
     "item:society:recycled_core",
-    "item:sunlit_cobblemon:swampy_mystica_branch",
-    {
-      "type": "item",
-      "id": "sunlit_cobblemon:mystica_nectar",
-      "amount": 63
-    },
     "item:sunlit_cobblemon:sun_essence",
     "item:society:sparkling_le_roy",
     {
@@ -165,9 +187,7 @@
       "id": "society:ember_crystal_cluster",
       "amount": 63
     },
-    "item:sunlit_cobblemon:sunlit_league_medallion",
     "item:candlelight:cooking_pot",
-    "item:sunlit_cobblemon:star_pixie",
     "item:society:sparkpod",
     "item:botania:brew_vial{brewKey:\"botania:clear\"}",
     "item:botania:temperance_stone",
@@ -219,7 +239,6 @@
     "item:society:sparkstone",
     "item:minecraft:diamond",
     "item:minecraft:redstone",
-    "item:sunlit_cobblemon:captivating_pofflet",
     "item:sunlit_cobblemon:sun_drops",
     "item:sunlit_cobblemon:spider_milk",
     "item:cobblemon:pokemon_model{aspects:[\"female\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"sandveil\",AbilityPriority:\"LOWEST\"},BenchedMoves:[],CaughtBall:\"cobblemon:premier_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{speed:3s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:96012,FaintedTimer:-1,FormId:\"normal\",Friendship:0s,Gender:\"FEMALE\",GmaxFactor:0b,HealingTimer:58,Health:1s,IVs:{attack:5s,defence:24s,hp:6s,special_attack:31s,special_defence:18s,speed:10s},Level:47s,MoveSet:[{MoveName:\"energyball\",MovePP:8,RaisedPPStages:0},{MoveName:\"pinmissile\",MovePP:18,RaisedPPStages:0},{MoveName:\"suckerpunch\",MovePP:3,RaisedPPStages:0},{MoveName:\"spikes\",MovePP:19,RaisedPPStages:0}],Nature:\"cobblemon:hasty\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:cacturne\",TeraType:\"cobblemon:grass\",Tradeable:1b,UUID:[I;1832233068,-684243066,-1081527890,1240173074]},species:\"cobblemon:cacturne\"}",
@@ -325,7 +344,6 @@
     "item:cobblemon:soothe_bell",
     "item:cobblemon:wise_glasses",
     "item:splendid_slimes:plort{plort:{id:\"splendid_slimes:bitwise\"}}",
-    "item:cobblemon:beast_ball",
     "item:cobblemon:oval_stone",
     "item:society:magenta_sheet",
     "item:cobblemon:sachet",
@@ -357,7 +375,6 @@
     "item:cobblemon:power_weight",
     "item:trials:trial_key_ominous",
     "item:society:car_key",
-    "item:sunlit_cobblemon:deadly_pofflet",
     "item:railways:limestone_paint_pitcher",
     "item:farm_and_charm:minced_beef",
     "item:atmospheric:blood_orange",
@@ -366,7 +383,6 @@
     "item:meadow:warped_cheese_block",
     "item:society:aged_warped_cheese_block",
     "item:sunlit_cobblemon:paras_mushroom",
-    "item:cobblemon:leaf_stone",
     "item:cobblemon:dusk_stone",
     "item:cobblemon:ice_stone",
     {
@@ -405,13 +421,11 @@
       "id": "cobblemon:thunder_stone",
       "amount": 2
     },
-    "item:sunlit_cobblemon:mystica_branch",
     "item:society:tapper",
     "item:meadow:wooden_bucket",
     "item:farm_and_charm:crafting_bowl",
     "item:minecraft:bucket",
     "item:bakery:sweet_dough",
-    "item:sunlit_cobblemon:plain_pofflet",
     {
       "type": "item",
       "id": "minecraft:sugar",
@@ -493,10 +507,6 @@
       "amount": 2
     },
     "item:farmersdelight:canvas",
-    "item:sunlit_cobblemon:crystalline_pofflet",
-    "item:sunlit_cobblemon:mossy_pofflet",
-    "item:sunlit_cobblemon:spicy_pofflet",
-    "item:sunlit_cobblemon:frosty_pofflet",
     "item:candlelight:cobblestone_stove",
     "item:minecraft:campfire",
     "item:meadow:stove_tiles_bench",
@@ -508,11 +518,6 @@
       "type": "item",
       "id": "crittersandcompanions:silk",
       "amount": 2
-    },
-    {
-      "type": "item",
-      "id": "sunlit_cobblemon:mana_pofflet",
-      "amount": 64
     },
     "item:sunlit_cobblemon:strange_spore",
     "item:vintagedelight:kimchi",
@@ -552,11 +557,6 @@
       "type": "item",
       "id": "society:salmonberry_crate",
       "amount": 21
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:friend_ball",
-      "amount": 4
     },
     {
       "type": "item",
@@ -628,11 +628,6 @@
       "id": "cobblemon:ribbon_sweet",
       "amount": 64
     },
-    {
-      "type": "item",
-      "id": "cobblemon:tart_apple",
-      "amount": 64
-    },
     "item:minecraft:oak_pressure_plate",
     {
       "type": "item",
@@ -658,11 +653,6 @@
     {
       "type": "item",
       "id": "cobblemon:deep_sea_scale",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:sweet_apple",
       "amount": 64
     },
     "item:vinery:apple_cider",
@@ -716,7 +706,6 @@
     "item:betterarcheology:soul_totem{Damage:0}",
     "item:species:broken_links",
     "item:simpletms:tm_rockpolish",
-    "item:sunlit_cobblemon:moondust",
     "item:sunlit_cobblemon:aged_moomoo_cheese",
     "item:cobblemon:energy_root",
     "item:simpletms:tm_firepledge",
@@ -934,17 +923,11 @@
     "item:cobblemon:timer_ball",
     "item:botania:red_string",
     "item:botania:light_relay",
-    "item:cobblemon:quick_ball",
-    "item:cobblemon:dream_ball",
     "item:windswept:dream_catcher",
     "item:cobblemon:nest_ball",
-    "item:cobblemon:moon_ball",
     "item:cobblemon:dusk_ball",
     "item:cobblemon:ancient_wing_ball",
     "item:cobblemon:ancient_azure_ball",
-    "item:cobblemon:master_ball",
-    "item:cobblemon:heal_ball",
-    "item:cobblemon:sport_ball",
     "item:cobblemon:lure_ball",
     "item:cobblemon:safari_ball",
     "item:cobblemon:fast_ball",
@@ -1112,7 +1095,6 @@
     "item:vinery:rotten_cherry",
     "item:vinery:cherry",
     "item:sunlit_cobblemon:silph_scope",
-    "item:sunlit_cobblemon:trainer_podium",
     "item:sunlit_cobblemon:sun_raid_statue",
     "item:botania:brewery",
     "item:society:botanical_tribute",

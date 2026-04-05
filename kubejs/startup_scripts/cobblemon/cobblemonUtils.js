@@ -108,3 +108,61 @@ global.hasPartyPokemon = (player, pokemonNames, count) => {
   });
   return regis.length >= count;
 };
+
+
+global.handleLeagueFee = (server, player, reason) => {
+  const UUID = player.getUuid();
+  let amountToDeduct = 0;
+  let balance = 0;
+  let account = null;
+  let maxFee = 0;
+  let minimumFee = 512;
+
+  global.GLOBAL_BANK.accounts.forEach((playerUUID, bankAccount) => {
+    if (UUID.toString() == playerUUID.toString()) {
+      balance = bankAccount.getBalance();
+      account = bankAccount;
+    }
+  });
+  if (reason === "murder") {
+    minimumFee = 10000;
+    maxFee = 50000;
+    amountToDeduct = Math.min((Math.round(balance * 0.2) * (player.persistentData.winStreak + 1)), maxFee);
+  }
+  if (reason === "loss") {
+    minimumFee = 512;
+    maxFee = 10000;
+
+    amountToDeduct = Math.min(Math.round(balance * 0.05) * (player.persistentData.winStreak + 1), maxFee);
+  }
+  amountToDeduct *= player.stages.has("trainer_level_8") ? 2 : 1;
+  if (amountToDeduct < minimumFee) amountToDeduct = minimumFee;
+  if (balance < amountToDeduct) {
+    let currentDebt = null;
+    let foundIndex = -1;
+    if (!server.persistentData.debts) server.persistentData.debts = [];
+    for (let index = 0; index < server.persistentData.debts.length; index++) {
+      if (String(UUID) === String(server.persistentData.debts[index].uuid)) {
+        currentDebt = Number(server.persistentData.debts[index].amount);
+        server.persistentData.debts[index].amount = currentDebt + amountToDeduct;
+        foundIndex = index;
+        break;
+      }
+    }
+    if (!currentDebt) {
+      server.persistentData.debts.push({ uuid: UUID.toString(), amount: amountToDeduct });
+    }
+  } else {
+    account.setBalance(balance - amountToDeduct);
+  }
+  server.runCommandSilent(
+    global.getEmbersTextAPICommand(
+      player.username,
+      `{anchor:"TOP_LEFT",background:1,color:"#FFFFFF",size:1,offsetY:36,offsetX:6,typewriter:1,align:"TOP_LEFT"}`,
+      160,
+      Text.translatable(
+        reason === "murder" ? "sunlit_cobblemon.murder.fee" : "sunlit_cobblemon.loss.fee",
+        global.formatPrice(amountToDeduct.toFixed())
+      ).toJson()
+    ))
+};

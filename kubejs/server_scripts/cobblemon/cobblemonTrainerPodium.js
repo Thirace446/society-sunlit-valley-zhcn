@@ -1,14 +1,29 @@
 console.info("[SOCIETY-S-COBBLEMON] cobblemonTrainerPodium.js loaded");
 
 BlockEvents.placed("sunlit_cobblemon:trainer_podium", (e) => {
+  let item = e.player.getHeldItem("main_hand");
+  let podiumNbt;
+  if (item.id !== "sunlit_cobblemon:trainer_podium") item = e.player.getHeldItem("off_hand");
+  if (item.id !== "sunlit_cobblemon:trainer_podium") return;
+  podiumNbt = item.getNbt();
+  let nbt = e.block.getEntityData();
+  if (podiumNbt && !podiumNbt.isEmpty()) {
+    nbt.merge({
+      data: {
+        trainer: podiumNbt.get("trainer"),
+        lastStreak: Number(podiumNbt.get("lastStreak"))
+      },
+    });
+  }
   const playerUUID = e.player.getUuid().toString();
-  let nbt = e.block.entityData;
   nbt.merge({ data: { owner: playerUUID } });
-  e.block.setEntityData(nbt);
+  global.setBlockEntityData(e.block, nbt);
 });
 
 BlockEvents.broken("sunlit_cobblemon:trainer_podium", (e) => {
   global.removeNearbyTrainers(e.level, e.block, true);
+  const nbt = e.block.getEntityData();
+  e.block.popItem(Item.of("sunlit_cobblemon:trainer_podium", `{trainer:${nbt.data.trainer},lastStreak:${nbt.data.lastStreak}}`));
 });
 
 BlockEvents.rightClicked("sunlit_cobblemon:trainer_podium", (e) => {
@@ -29,10 +44,9 @@ BlockEvents.rightClicked("sunlit_cobblemon:trainer_podium", (e) => {
       `§7Current Win Streak: §6${podiumPlayer.persistentData.winStreak}`
     );
     player.tell(
-      `§7Trainer Level Tier: §6${
-        levelAverage > 100
-          ? "Not League legal!"
-          : global.getPlayerPodiumLevelTier(podiumPlayer, levelAverage)
+      `§7Trainer Level Tier: §6${levelAverage > 100
+        ? "Not League legal!"
+        : global.getPlayerPodiumLevelTier(podiumPlayer, levelAverage)
       }`
     );
   } else {
@@ -53,19 +67,19 @@ ItemEvents.entityInteracted((e) => {
   if (hand == "OFF_HAND") return;
   if (target.type !== "rctmod:trainer") return;
   if (level.getBlock(target.onPos.above()).id != "sunlit_cobblemon:trainer_podium") {
-      target.setRemoved("unloaded_to_chunk");
-      level.spawnParticles(
-        "species:ascending_dust",
-        true,
-        target.x,
-        target.y + 0.5,
-        target.z,
-        0.1 * rnd(1, 4),
-        0.1 * rnd(1, 4),
-        0.1 * rnd(1, 4),
-        10,
-        0.1
-      );
+    target.setRemoved("unloaded_to_chunk");
+    level.spawnParticles(
+      "species:ascending_dust",
+      true,
+      target.x,
+      target.y + 0.5,
+      target.z,
+      0.1 * rnd(1, 4),
+      0.1 * rnd(1, 4),
+      0.1 * rnd(1, 4),
+      10,
+      0.1
+    );
     e.cancel();
   }
   let levelAverage = global.getPartyLevel(player);
@@ -77,16 +91,26 @@ ItemEvents.entityInteracted((e) => {
     return;
   }
   let currentLevel = global.getPlayerPodiumLevelTier(player, levelAverage);
-  let trainerLevel = Number(target.persistentData.levelTier) 
+  let trainerLevel = Number(target.persistentData.levelTier)
   if (trainerLevel !== currentLevel) {
     let tooHigh = currentLevel < trainerLevel;
     server.runCommandSilent(
-      `emberstextapi sendcustom ${player.username} ${
-        global.animalMessageSettings
-      } 120 This trainer's level is too ${
-        tooHigh ? "high" : "low"
+      `emberstextapi sendcustom ${player.username} ${global.animalMessageSettings
+      } 120 This trainer's level is too ${tooHigh ? "high" : "low"
       } for your team! You need an average level of ${trainerLevel + 5}.`
     );
     e.cancel();
+  }
+});
+
+EntityEvents.death((e) => {
+  const { source, server, entity } = e;
+  if (
+    source.player &&
+    source.player.getType() === "minecraft:player" &&
+    entity.type == "rctmod:trainer"
+  ) {
+    server.runCommandSilent(`playsound refurbished_furniture:ui.paddle_ball.retro_lose block @a ${source.player.x} ${source.player.y} ${source.player.z}`);
+    global.handleLeagueFee(server, source.player, "murder")
   }
 });

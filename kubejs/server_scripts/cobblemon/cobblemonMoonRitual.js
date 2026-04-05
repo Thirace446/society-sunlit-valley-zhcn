@@ -29,7 +29,7 @@ let pedestalRitual = (level, server, block, player, item, pedestalItem) => {
 BlockEvents.rightClicked("society:moon_statue", (e) => {
     const { block, hand, player, level, item, server } = e;
     if (hand !== "MAIN_HAND") return;
-    if (item.id !== 'sunlit_cobblemon:star_pixie') return;
+    if (item.id !== 'sunlit_cobblemon:moongeist_crystal') return;
     if (!global.hasScope(player)) {
         player.tell(Text.translatable("sunlit_cobblemon.need_scope").red());
         return;
