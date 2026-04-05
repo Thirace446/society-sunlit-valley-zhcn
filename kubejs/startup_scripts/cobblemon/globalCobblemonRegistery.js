@@ -26,7 +26,93 @@ global.cobbleAdventuring = [
   { item: "cobblemon:helix_sherd", value: 256 },
   { item: "cobblemon:nostalgic_sherd", value: 256 },
   { item: "cobblemon:suspicious_sherd", value: 256 },
+  { item: "cobblemon:malicious_armor", value: 2400 },
+  { item: "cobblemon:auspicious_armor", value: 2400 },
+  { item: "cobblemon:unremarkable_teacup", value: 200 },
+  { item: "cobblemon:masterpiece_teacup", value: 16384 },
+  { item: "cobblemon:chipped_pot", value: 300 },
+  { item: "cobblemon:cracked_pot", value: 11 },
+  { item: "sunlit_cobblemon:fire_pledge", value: 10000 },
+  { item: "sunlit_cobblemon:water_pledge", value: 10000 },
+  { item: "sunlit_cobblemon:grass_pledge", value: 10000 },
+  { item: "cobblemon:magmarizer", value: 256 },
+  { item: "cobblemon:electirizer", value: 256 },
+  { item: "cobblemon:upgrade", value: 1298 },
+  { item: "cobblemon:dubious_disc", value: 1998 },
+  { item: "cobblemon:sticky_barb", value: 240 },
+  { item: "cobblemon:reaper_cloth", value: 528 },
+  { item: "cobblemon:sachet", value: 220 },
+  { item: "cobblemon:metal_alloy", value: 10000 },
+  { item: "cobblemon:shell_helmet", value: 1120 },
+  { item: "cobblemon:oval_stone", value: 200 },
+  { item: "cobblemon:protector", value: 450 },
+  { item: "cobblemon:silk_scarf", value: 800 },
+  { item: "cobblemon:toxic_orb", value: 58 },
+  { item: "cobblemon:twisted_spoon", value: 700 },
+  { item: "cobblemon:wise_glasses", value: 300 },
+  { item: "cobblemon:soothe_bell", value: 300 },
+  { item: "cobblemon:spell_tag", value: 72 },
+  { item: "cobblemon:smooth_rock", value: 47 },
+  { item: "cobblemon:smoke_ball", value: 299 },
+  { item: "cobblemon:silver_powder", value: 120 },
+  { item: "cobblemon:shell_bell", value: 550 },
+  { item: "cobblemon:sharp_beak", value: 120 },
+  { item: "cobblemon:safety_goggles", value: 200 },
+  { item: "cobblemon:rocky_helmet", value: 40 },
+  { item: "cobblemon:ring_target", value: 1 },
+  { item: "cobblemon:red_card", value: 1 },
+  { item: "cobblemon:quick_powder", value: 210 },
+  { item: "cobblemon:quick_claw", value: 300 },
+  { item: "cobblemon:poison_barb", value: 8 },
+  { item: "cobblemon:never_melt_ice", value: 300 },
+  { item: "cobblemon:mystic_water", value: 120 },
+  { item: "cobblemon:muscle_band", value: 400 },
+  { item: "cobblemon:miracle_seed", value: 700 },
+  { item: "cobblemon:metal_powder", value: 10 },
+  { item: "cobblemon:magnet", value: 80 },
+  { item: "cobblemon:lucky_egg", value: 777 },
+  { item: "cobblemon:loaded_dice", value: 777 },
+  { item: "cobblemon:light_clay", value: 48 },
+  { item: "cobblemon:light_ball", value:  200 },
+  { item: "cobblemon:life_orb", value: 400 },
+  { item: "cobblemon:leftovers", value: 1 },
+  { item: "cobblemon:kings_rock", value: 220 },
+  { item: "cobblemon:iron_ball", value: 67 },
+  { item: "cobblemon:icy_rock", value: 1408 },
+  { item: "cobblemon:heavy_duty_boots", value: 120 },
+  { item: "cobblemon:heat_rock", value: 948 },
+  { item: "cobblemon:hard_stone", value: 20 },
+  { item: "cobblemon:focus_sash", value: 300 },
+  { item: "cobblemon:focus_band", value: 300 },
+  { item: "cobblemon:float_stone", value: 256 },
+  { item: "cobblemon:flame_orb", value: 2390 },
+  { item: "cobblemon:fairy_feather", value: 3000 },
+  { item: "cobblemon:exp_share", value: 512 },
+  { item: "cobblemon:destiny_knot", value: 128 },
+  { item: "cobblemon:expert_belt", value: 2400 },
+  { item: "cobblemon:eviolite", value: 600 },
+  { item: "cobblemon:everstone", value: 320 },
+  { item: "cobblemon:eject_button", value: 600 },
+  { item: "cobblemon:damp_rock", value: 740 },
+  { item: "cobblemon:covert_cloak", value: 499 },
+  { item: "cobblemon:cleanse_tag", value: 1 },
+  { item: "cobblemon:choice_specs", value: 800 },
+  { item: "cobblemon:choice_scarf", value: 800 },
+  { item: "cobblemon:choice_band", value: 800 },
+  { item: "cobblemon:charcoal_stick", value: 330 },
+  { item: "cobblemon:cell_battery", value: 560 },
+  { item: "cobblemon:bright_powder", value: 725 },
+  { item: "cobblemon:blunder_policy", value: 210 },
+  { item: "cobblemon:black_sludge", value: 45 },
+  { item: "cobblemon:black_glasses", value: 328 },
+  { item: "cobblemon:black_belt", value: 720 },
+  { item: "cobblemon:binding_band", value: 120 },
+  { item: "cobblemon:assault_vest", value: 1208 },
+  { item: "cobblemon:air_balloon", value: 204 },
+  { item: "cobblemon:absorb_bulb", value: 64 },
+  { item: "cobblemon:ability_shield", value: 740 }
 ];
+
 global.cobbleTypeGems = [
   { item: "cobblemon:normal_gem", value: 512 },
   { item: "cobblemon:fire_gem", value: 512 },
@@ -47,6 +133,7 @@ global.cobbleTypeGems = [
   { item: "cobblemon:steel_gem", value: 512 },
   { item: "cobblemon:fairy_gem", value: 512 },
 ];
+
 global.cobblePristineTypeGems = [];
 global.cobbleTypeGems.forEach((gem) => {
   global.cobblePristineTypeGems.push({
@@ -54,6 +141,7 @@ global.cobbleTypeGems.forEach((gem) => {
     value: gem.value * 4,
   });
 });
+
 global.cobbleGeology = [
   { item: "cobblemon:tumblestone", value: 8 },
   { item: "cobblemon:black_tumblestone", value: 12 },
@@ -61,17 +149,30 @@ global.cobbleGeology = [
   { item: "cobblemon:tumblestone_block", value: 32 },
   { item: "cobblemon:black_tumblestone_block", value: 48 },
   { item: "cobblemon:sky_tumblestone_block", value: 64 },
-  { item: "cobblemon:fire_stone", value: 2048 },
-  { item: "cobblemon:water_stone", value: 820 },
+  { item: "cobblemon:fire_stone", value: 640 },
+  { item: "cobblemon:fire_stone_block", value: 4500 },
+  { item: "cobblemon:water_stone", value: 640 },
+  { item: "cobblemon:water_stone_block", value: 4500 },
   { item: "cobblemon:thunder_stone", value: 500 },
+  { item: "cobblemon:thunder_stone_block", value: 4500 },
   { item: "cobblemon:leaf_stone", value: 640 },
+  { item: "cobblemon:leaf_stone_block", value: 5760 },
   { item: "cobblemon:moon_stone", value: 230 },
+  { item: "cobblemon:moon_stone_block", value: 2070 },
   { item: "cobblemon:sun_stone", value: 500 },
+  { item: "cobblemon:sun_stone_block", value: 4500 },
   { item: "cobblemon:shiny_stone", value: 1200 },
-  { item: "cobblemon:dusk_stone", value: 1800 },
+  { item: "cobblemon:shiny_stone_block", value: 10800 },
+  { item: "cobblemon:dusk_stone", value: 1200 },
+  { item: "cobblemon:dusk_stone_block", value: 10800 },
   { item: "cobblemon:dawn_stone", value: 806 },
+  { item: "cobblemon:dawn_stone_block", value: 7254 },
   { item: "cobblemon:ice_stone", value: 1020 },
+  { item: "cobblemon:ice_stone_block", value: 9180 },
+  { item: "cobblemon:black_augurite", value: 725 },
+  { item: "cobblemon:metal_coat", value: 1695 },
 ];
+
 global.cobbleTypeGems.forEach((gem) => global.cobbleGeology.push(gem));
 
 global.cobblemonCooking = [
@@ -79,12 +180,26 @@ global.cobblemonCooking = [
   { item: "cobblemon:roasted_leek", value: 3 },
   { item: "cobblemon:leek_and_potato_stew", value: 55 },
   { item: "cobblemon:vivichoke_dip", value: 1 },
+  { item: "cobblemon:berry_juice", value: 900 },
+  { item: "cobblemon:remedy", value: 8 },
+  { item: "cobblemon:fine_remedy", value: 78 },
+  { item: "cobblemon:superb_remedy", value: 245 },
+  { item: "cobblemon:heal_powder", value: 78 },
   { item: "cobblemon:potion", value: 128 },
   { item: "cobblemon:super_potion", value: 512 },
   { item: "cobblemon:hyper_potion", value: 1024 },
   { item: "cobblemon:max_potion", value: 2048 },
   { item: "cobblemon:full_restore", value: 3072 },
+  { item: "cobblemon:whipped_dream", value: 1905 },
+  { item: "cobblemon:ribbon_sweet", value: 312 },
+  { item: "cobblemon:strawberry_sweet", value: 312 },
+  { item: "cobblemon:love_sweet", value: 312 },
+  { item: "cobblemon:berry_sweet", value: 312 },
+  { item: "cobblemon:clover_sweet", value: 312 },
+  { item: "cobblemon:flower_sweet", value: 312 },
+  { item: "cobblemon:star_sweet", value: 312 },
 ];
+
 global.cobbleCrops = [
   { item: "cobblemon:big_root", value: 4 },
   { item: "cobblemon:energy_root", value: 16 },
@@ -177,7 +292,33 @@ global.cobbleCrops = [
   { item: "cobblemon:custap_berry", value: 32 },
   { item: "cobblemon:jaboca_berry", value: 32 },
   { item: "cobblemon:rowap_berry", value: 32 },
+  { item: "cobblemon:tart_apple", value: 20736 },
+  { item: "cobblemon:sweet_apple", value: 3072 },
+  { item: "cobblemon:syrupy_apple", value: 26368 }
 ];
+
+global.cobblemonFarmerProducts = [
+  { item: "sunlit_cobblemon:paras_mushroom", value: 225 },
+  { item: "sunlit_cobblemon:strange_spore", value: 130 },
+  { item: "sunlit_cobblemon:poison_drop", value: 4 },
+  { item: "sunlit_cobblemon:permafrost", value: 340 },
+  { item: "sunlit_cobblemon:resonance_gem", value: 460 },
+  { item: "sunlit_cobblemon:moondust", value: 860 },
+  { item: "sunlit_cobblemon:electro_wool", value: 512 },
+  { item: "sunlit_cobblemon:electric_canvas", value: 8192 },
+  { item: "sunlit_cobblemon:spider_milk", value: 1 },
+  { item: "sunlit_cobblemon:moomoo_milk", value: 320 },
+  { item: "sunlit_cobblemon:large_moomoo_milk", value: 1280 },
+  { item: "cobblemon:tasty_tail", value: 780 },
+  { item: "cobblemon:deep_sea_scale", value: 450 },
+  { item: "cobblemon:dragon_scale", value: 3260 },
+  { item: "cobblemon:prism_scale", value: 6520 },
+  { item: "cobblemon:deep_sea_tooth", value: 330 },
+  { item: "cobblemon:razor_fang", value: 220 },
+  { item: "cobblemon:razor_claw", value: 128 },
+  { item: "cobblemon:dragon_fang", value: 1430 },
+];
+
 /**
  * Preserves
  * Formula: Ingredient * 20
@@ -199,7 +340,16 @@ global.cobblemonDehydrated = [
   { item: "sunlit_cobblemon:dried_uncommon_cobbleberry", value: 176 },
   { item: "sunlit_cobblemon:dried_rare_cobbleberry", value: 288 },
   { item: "sunlit_cobblemon:dried_legendary_cobbleberry", value: 512 },
+  { item: "sunlit_cobblemon:dried_paras_mushroom", value: 3214 },
 ];
+
+global.cobblemonArtisan = [
+  { item: "sunlit_cobblemon:venomshine", value: 480 },
+  { item: "sunlit_cobblemon:moomoo_cheese", value: 640 },
+  { item: "sunlit_cobblemon:aged_moomoo_cheese", value: 1920 },
+  { item: "sunlit_cobblemon:double_aged_moomoo_cheese", value: 5760 },
+];
+
 global.cobbleAdventuring.forEach((miscItem) => {
   const { item, value } = miscItem;
   global.trades.set(item, {
@@ -221,6 +371,13 @@ global.cobblePristineTypeGems.forEach((miscItem) => {
     multiplier: "shippingbin:gem_sell_multiplier",
   });
 });
+global.cobblemonFarmerProducts.forEach((dish) => {
+  const { item, value } = dish;
+  global.trades.set(item, {
+    value: value,
+    multiplier: "shippingbin:crop_sell_multiplier",
+  });
+});
 global.cobblemonCooking.forEach((dish) => {
   const { item, value } = dish;
   global.trades.set(item, {
@@ -236,6 +393,13 @@ global.cobblemonPreserves.forEach((miscItem) => {
   });
 });
 global.cobblemonDehydrated.forEach((dehydratee) => {
+  const { item, value } = dehydratee;
+  global.trades.set(item, {
+    value: value,
+    multiplier: "shippingbin:wood_sell_multiplier",
+  });
+});
+global.cobblemonArtisan.forEach((dehydratee) => {
   const { item, value } = dehydratee;
   global.trades.set(item, {
     value: value,

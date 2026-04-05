@@ -87,6 +87,12 @@ BlockEvents.rightClicked((e) => {
           "verdantvibes:bracket_mushroom",
           "vinery:apple_leaves",
           "vinery:dark_cherry_leaves",
+          "cluttered:blue_roundhead",
+          "cluttered:fly_agaric",
+          "quark:glow_shroom",
+          "farmersdelight:brown_mushroom_colony",
+          "species:alphacene_mushroom",
+          "farmersdelight:red_mushroom_colony"
         ].includes(block.id)
       ) {
         player.tell(Text.translatable("society.bone_meal.weak"));
@@ -101,6 +107,7 @@ BlockEvents.rightClicked((e) => {
     let blockState;
     if (
       block.hasTag("minecraft:crops") &&
+      !block.hasTag("cobblemon:berries") &&
       !deniedCrops.includes(block.id) &&
       initialBlock.block.isMaxAge(initialBlock)
     ) {

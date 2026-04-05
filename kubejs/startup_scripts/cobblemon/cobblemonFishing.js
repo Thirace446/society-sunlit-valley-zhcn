@@ -2,11 +2,17 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonFishing.js loaded");
 
 const Vec3 = Java.loadClass("net.minecraft.world.phys.Vec3");
 
-const getCobbleFishPool = (tier, season, waterType) => {
-  return global.cobblemonFishPool
+const getCobbleFishPool = (tier, season, waterType, mukbeth) => {
+  let resolvedPool = global.cobblemonFishPool
     .filter((entry) => entry.tiers.includes(tier))
     .filter((entry) => entry.seasons.includes(season))
     .filter((entry) => entry.waterTypes.includes(waterType));
+
+  if (mukbeth) {
+    resolvedPool = resolvedPool.filter((entry) => !['grimer', 'muk', 'trubbish', 'garbodor'].includes(entry.pokemon));
+  }
+
+  return resolvedPool
 };
 
 const getCobbleNetherFishPool = (tier) => {
@@ -52,24 +58,46 @@ const catchPokemon = (caughtMon, level, hook, server, player, nether) => {
   }
   if (nether) {
     server.runCommandSilent(
-      `execute in minecraft:the_nether run pokespawnat ${hook.x} ${hook.y} ${
-        hook.z
-      } ${caughtMon.pokemon} level=${pokeLevel} ${
-        caughtMon.variant ? caughtMon.variant : ""
+      `execute in minecraft:the_nether run pokespawnat ${hook.x} ${hook.y} ${hook.z
+      } ${caughtMon.pokemon} level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""
       }`
     );
   } else {
-    server.runCommandSilent(
-      `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${
-        caughtMon.pokemon
-      } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}`
-    );
+    if (caughtMon.variant && caughtMon.variant.includes("magikarp")) player.tell(Text.translatable("sunlit_cobblemon.special_magikarp").gold());
+    if (global.getHasCurio(player, 'sunlit_cobblemon:swampy_mystica_branch')) {
+      let lakeLegendaries = ["mesprit", "azelf", "uxie"]
+      if (Math.random() < 0.04 && global.hasPartyPokemon(player, lakeLegendaries, 3)) {
+        let blockToSet = level.getBlock(level.getBlock(hook.getPos()).getPos().above());
+        blockToSet.set("cobblemon:moon_stone_block")
+        let spawnedAny = global.summonRaidPokemon(server, level, blockToSet, "cresselia", "", 100, 75, false, false, 0, true);
+        if (spawnedAny) {
+          let { x, y, z } = blockToSet;
+          server.runCommandSilent(`playsound cobblemon:poke_ball.send_out block @a ${x} ${y} ${z} 2`);
+          server.runCommandSilent(`playsound species:effect.gut_feeling.applied block @a ${x} ${y} ${z} 2`);
+          server.runCommandSilent(`playsound botania:babylon_spawn block @a ${x} ${y} ${z} 2`);
+          level.spawnParticles("species:ghoul_searching2", true, x + 0.5, y + 2, z + 0.5, 0, 0, 0, 1, 2);
+          server.runCommandSilent(`playsound unusualfishmod:deep_water block @a ${x} ${y} ${z} 2`);
+          server.runCommandSilent(`playsound unusualfishmod:deep_water block @a ${x} ${y} ${z} 2`);
+          return;
+        }
+      } else {
+        server.runCommandSilent(
+          `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${lakeLegendaries[Math.floor(Math.random() * lakeLegendaries.length)]} level=80`
+        );
+
+      }
+    } else {
+      server.runCommandSilent(
+        `pokespawnat ${hook.x} ${hook.y + 2} ${hook.z} ${caughtMon.pokemon
+        } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}`
+      );
+    }
   }
 
   // TODO: Pokemon get kinda stuck in the lava
   let caughtPokemon = level
     .getEntitiesWithin(
-      AABB.ofBlock(level.getBlock(hook.getPos())).inflate(nether ? 3 : 1)
+      AABB.ofBlock(level.getBlock(hook.getPos())).inflate(nether ? 3 : 2)
     )
     .filter((e) => e.type.equals("cobblemon:pokemon"));
   if (caughtPokemon && caughtPokemon.length > 0) {
@@ -105,7 +133,8 @@ global.handleCobblemonFish = (e) => {
       getCobbleFishPool(
         bobberTier,
         global.getSeasonFromLevel(level),
-        getWaterType(biome)
+        getWaterType(biome),
+        player.stages.has("mukbeth")
       )
     );
     catchPokemon(caughtMon, level, hook, server, player);

@@ -55,7 +55,7 @@ const initializeSunRaid = (level, block, player) => {
         data: {
             type: mon.pokemon.species,
             variant: mon.pokemon.variant,
-            level: Math.min(mon.levelRange.last + 10, 100),
+            level: Math.min(mon.levelRange.first + 10, 100),
             tier: tier
         },
     });
@@ -126,7 +126,12 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
     const { block, hand, player, level, item, server } = e;
     if (hand !== "MAIN_HAND") return;
     if (!global.hasScope(player)) {
-        player.tell(Text.translatable("sunlit_cobblemon.need_scope").red());
+        if (player.isCrouching()) {
+            server.runCommandSilent(`openshop ${player.username} sun_offering`)
+        } else {
+            player.tell(Text.translatable("sunlit_cobblemon.need_scope").red());
+
+        }
         return;
     }
     let nbt = block.getEntityData();
@@ -144,7 +149,7 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
         return;
     } else if (item.id.equals("sunlit_cobblemon:sun_essence")) {
         let currentTier = Number(nbt.data.tier);
-        if (currentTier < 4) {
+        if (currentTier < 3) {
             nbt.merge({
                 data: {
                     tier: Number(nbt.data.tier) + 1
@@ -157,6 +162,72 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
         } else {
             player.tell(Text.translatable("sunlit_cobblemon.sun_raid.highest_tier").red())
         }
+        return;
+    } else if (item.id.equals("sunlit_cobblemon:sun_mirror")) {
+        let extracted = false;
+        if (nbt.data.type === "") {
+            player.tell(Text.translatable("sunlit_cobblemon.sun_mirror.no_mon").red())
+            return;
+        }
+        if (item.nbt && item.nbt.monData == null) {
+            item.nbt.monData = nbt;
+            extracted = true;
+        } else if (item.nbt && item.nbt.monData !== null) {
+            nbt.merge({
+                data: {
+                    tier: 0,
+                    type: item.nbt.monData.type,
+                    variant: item.nbt.monData.variant,
+                    level: item.nbt.monData.level
+                },
+            });
+            server.runCommandSilent(`playsound botania:spreader_fire block @a ${block.x} ${block.y} ${block.z}`);
+            global.setBlockEntityData(block, nbt);
+            
+            level.spawnParticles(
+                "atmospheric:orange_vapor",
+                true,
+                block.x,
+                block.y + 0.5,
+                block.z,
+                0.2 * rnd(0, 2),
+                0.2 * rnd(0, 2),
+                0.2 * rnd(0, 2),
+                10,
+                0.01
+            );
+            if (!player.isCreative()) item.shrink(1);
+            return;
+        } else {
+            item.nbt = {}
+            item.nbt.monData = { type: nbt.data.type, variant: nbt.data.variant, level: nbt.data.level };
+            extracted = true;
+        }
+        if (extracted) {
+            nbt.merge({
+                data: {
+                    tier: -1,
+                    type: "",
+                    variant: "",
+                    level: -1
+                },
+            });
+            level.spawnParticles(
+                "species:youth_potion",
+                true,
+                block.x,
+                block.y + 0.5,
+                block.z,
+                0.2 * rnd(0, 2),
+                0.2 * rnd(0, 2),
+                0.2 * rnd(0, 2),
+                10,
+                0.01
+            );
+            global.setBlockEntityData(block, nbt);
+            server.runCommandSilent(`playsound botania:virus_infect block @a ${block.x} ${block.y} ${block.z}`);
+        }
+        global.addItemCooldown(player, item, 100);
         return;
     }
     let day = global.getDay(level);
@@ -188,11 +259,39 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
         let shiny = Math.random() < tierStats.shinyChance;
         let spawnedAny = global.summonRaidPokemon(server, level, block, nbt.data.type, nbt.data.variant, raidLevel, nbt.data.level, shiny, hiddenAbility, nbt.data.tier, true);
         if (spawnedAny) {
-            nbt.merge({
-                data: {
-                    dayLastRaided: day
-                },
-            });
+            if (player.stages.has("savage_sun") && Math.random() < 0.15) {
+                server.runCommandSilent(`playsound stardew_fishing:complete block @a ${block.x} ${block.y} ${block.z}`);
+                level.spawnParticles(
+                    "species:ascending_dust",
+                    true,
+                    block.x,
+                    block.y + 0.5,
+                    block.z,
+                    0.5 * rnd(0, 2),
+                    0.5 * rnd(0, 2),
+                    0.5 * rnd(0, 2),
+                    20,
+                    0.01
+                );
+                level.spawnParticles(
+                    "amendments:fireball_trail",
+                    true,
+                    block.x,
+                    block.y + 0.5,
+                    block.z,
+                    0.2 * rnd(0, 2),
+                    0.2 * rnd(0, 2),
+                    0.2 * rnd(0, 2),
+                    20,
+                    0.01
+                );
+            } else {
+                nbt.merge({
+                    data: {
+                        dayLastRaided: day
+                    }
+                });
+            }
             global.setBlockEntityData(block, nbt);
             server.runCommandSilent(`playsound cobblemon:poke_ball.send_out block @a ${block.x} ${block.y} ${block.z}`);
             server.runCommandSilent(`playsound species:effect.gut_feeling.applied block @a ${block.x} ${block.y} ${block.z}`);

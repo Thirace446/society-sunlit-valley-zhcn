@@ -392,6 +392,23 @@
     },
     {
       "offer": {
+        "item": "sunlit_cobblemon:savage_sun",
+        "count": 1
+      },
+      "request": {
+        "item": "sunlit_cobblemon:sun_drops",
+        "count": 64
+      },
+      "second_request": {
+        "item": "sunlit_cobblemon:mystica_branch",
+        "count": 20
+      },
+      "stage_required": "trainer_lvl_9",
+      "unlock_description": "jei.society_trading.trainer_lvl_9",
+      "trade_id": "sun_offering_savage_sun"
+    },
+    {
+      "offer": {
         "item": "sunlit_cobblemon:sun_raid_statue",
         "count": 1
       },
@@ -405,7 +422,24 @@
       },
       "stage_required": "trainer_lvl_5",
       "unlock_description": "jei.society_trading.trainer_lvl_5",
-      "trade_id": "sun_offering_x"
+      "trade_id": "sun_offering_sun_raid_statue"
+    },
+    {
+      "offer": {
+        "item": "sunlit_cobblemon:sun_mirror",
+        "count": 1
+      },
+      "request": {
+        "item": "sunlit_cobblemon:sunlit_league_medallion",
+        "count": 1
+      },
+      "second_request": {
+        "item": "sunlit_cobblemon:sun_essence",
+        "count": 4
+      },
+      "stage_required": "trainer_lvl_6",
+      "unlock_description": "jei.society_trading.trainer_lvl_6",
+      "trade_id": "sun_offering_sun_mirror"
     }
   ]
 }

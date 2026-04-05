@@ -3,10 +3,13 @@ global.handleRaidPokemonBattle = (e) => {
     const battle = e.battle;
     battle.getActors().forEach((actor) => {
         actor.getPokemonList().forEach((battlePokemon) => {
-            console.log(battlePokemon)
             if (battlePokemon.entity && battlePokemon.entity.persistentData && battlePokemon.entity.persistentData.raidMon) {
                 battle.getPlayers().forEach(player => {
-                    player.tell(Text.translatable("sunlit_cobblemon.sun_raid.battle_start", battlePokemon.getName().getString()).gold())
+                    if (battlePokemon.entity.persistentData.moonMon) {
+                        player.tell(Text.translatable("sunlit_cobblemon.moon_raid.battle_start", battlePokemon.getName().getString()).darkPurple())
+                    } else {
+                        player.tell(Text.translatable("sunlit_cobblemon.sun_raid.battle_start", battlePokemon.getName().getString()).gold())
+                    }
                 });
             }
 
@@ -68,16 +71,19 @@ const dropRaidItems = (entityMon, raidLevel, tier) => {
 }
 
 global.handleRaidDefeat = (e) => {
-    const pokemon = e.pokemon;
-    if (pokemon.entity && pokemon.entity.persistentData && pokemon.entity.persistentData.raidMon) {
-        let entityMon = pokemon.entity
-        let raidMondStats = entityMon.persistentData.raidMonStats;
-        let server = pokemon.entity.getServer()
-        let level = pokemon.entity.getLevel()
-        let raidLevel = pokemon.getLevel();
-        let commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} ${pokemon.getSpecies()} ${raidMondStats.isShiny ? "shiny " : ""} ${raidMondStats.hasHiddenAbility ? "hiddenability " : ""}${raidMondStats.variant && raidMondStats.variant.equals("") ? "" : raidMondStats.variant} level=${Number(raidMondStats.spawnedLevel)}`;
-        let tier = Math.max(0, Number(raidMondStats.tier))
-
+    let entityMon = e.killed.entity
+    if (entityMon && entityMon.persistentData && entityMon.persistentData.raidMon) {
+        let pokemon = entityMon.pokemon;
+        let player = e.battle.players.get(0);
+        let raidMonStats = entityMon.persistentData.raidMonStats;
+        let server = entityMon.getServer()
+        let level = player.getLevel()
+        let raidLevel = pokemon.getLevel()
+        let commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} ${pokemon.getSpecies()} ${raidMonStats.isShiny ? "shiny " : ""} ${raidMonStats.hasHiddenAbility ? "hiddenability " : ""}${raidMonStats.variant && raidMonStats.variant.equals("") ? "" : raidMonStats.variant} level=${Number(raidMonStats.spawnedLevel)}`;
+        let tier = Math.max(0, Number(raidMonStats.tier))
+        if (pokemon.getSpecies() === "lunala") { 
+            commandStr = `execute in ${level.dimension} run pokespawnat ${entityMon.x} ${entityMon.y} ${entityMon.z} cosmog ${raidMonStats.isShiny ? "shiny " : ""} ${raidMonStats.hasHiddenAbility ? "hiddenability " : ""} level=1`;
+        }
         server.scheduleInTicks(0, () => {
             server.scheduleInTicks(60, () => {
                 dropRaidItems(entityMon, raidLevel, tier)
@@ -94,7 +100,7 @@ global.handleRaidDefeat = (e) => {
 StartupEvents.postInit((init) => {
     let $CobblemonEvents = Java.loadClass("com.cobblemon.mod.common.api.events.CobblemonEvents");
 
-    $CobblemonEvents.POKEMON_FAINTED.subscribe("normal", (e) => {
+    $CobblemonEvents.BATTLE_FAINTED.subscribe("normal", (e) => {
         global.handleRaidDefeat(e);
     });
 });

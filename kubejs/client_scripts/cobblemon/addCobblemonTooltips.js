@@ -19,6 +19,9 @@ ItemEvents.tooltip((tooltip) => {
   global.cobblePristineTypeGems.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "gem");
   });
+  global.cobblemonFarmerProducts.forEach((item) => {
+    global.addPriceTooltip(tooltip, item, "crop");
+  });
   global.cobblemonCooking.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "crop");
   });
@@ -26,6 +29,9 @@ ItemEvents.tooltip((tooltip) => {
     global.addPriceTooltip(tooltip, item, "wood");
   });
   global.cobblemonDehydrated.forEach((item) => {
+    global.addPriceTooltip(tooltip, item, "wood");
+  });
+  global.cobblemonArtisan.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "wood");
   });
   global.cobbleCrops.forEach((item) => {
@@ -56,42 +62,45 @@ ItemEvents.tooltip((tooltip) => {
     "sunlit_cobblemon:master_poke_bobber",
     Text.translatable(`tooltip.sunlit_cobblemon.master_poke_bobber.description`).gold()
   );
-  // Legendaries
-
-  tooltip.addAdvanced("sunlit_cobblemon:star_pixie", (item, advanced, text) => {
-    if (item.nbt && item.nbt.getString("type")) {
-      let data = global.cobblemonLegendaryMap.get(
-        `${item.nbt.getString("type")}`,
-      );
+  tooltip.addAdvanced("sunlit_cobblemon:sun_mirror", (item, advanced, text) => {
+    if (item.nbt && item.nbt.monData && item.nbt.monData.getString("type")) {
+      let data = item.nbt.monData
       if (data) {
-        if (tooltip.shift) {
-          data.legendaries.forEach((legendary, index) => {
-            text.add(index + 1, [
-              Text.gray(`Summons §${data.color}`),
-              Text.translate(
-                `cobblemon.species.${legendary.pokemonId}.name`
-              ).gold(),
-              Text.gray(` §7from a §${data.color}`),
-              Text.translate(
-                `entity.${legendary.entity.namespace}.${legendary.entity.path}`,
-              ).gold(),
-            ]);
-          });
-        } else {
-          text.add(1, [
-            `§7Pixe Type: §${data.color}${global.formatName(
-              `${item.nbt.getString("type")}`,
-            )}`,
-          ]);
+        text.add(1, [
+          Text.translatable(
+            "tooltip.sunlit_cobblemon.sun_mirror.pokemon"
+          ).gray(),
+          Text.translate(`cobblemon.species.${data.getString("type")}.name`).gold(),
+          Text.translatable(
+            "tooltip.sunlit_cobblemon.sun_mirror.level", Number(data.getInt("level"))
+          ).gray(),
+        ]);
+        if (data.getString("variant")) {
           text.add(2, [
-            Text.darkGray("Hold ["),
-            Text.gray("Shift"),
-            Text.darkGray("] to view Pokémon that can be summoned"),
+            Text.translatable(
+              "tooltip.sunlit_cobblemon.sun_mirror.variant", data.getString("variant")
+            ).gray()
+          ]);
+          text.add(3, [
+            Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.insert").green()
+          ]);
+        } else {
+          text.add(2, [
+            Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.insert").green()
           ]);
         }
+      } else {
+        text.add(1, [
+          Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.description").gray()
+        ]);
       }
+    } else {
+      text.add(1, [
+        Text.translatable("tooltip.sunlit_cobblemon.sun_mirror.description").gray()
+      ]);
     }
   });
+  // Gach
   // Gachapon
   tooltip.addAdvanced(
     "sunlit_cobblemon:gachamon_capsule",
@@ -155,8 +164,11 @@ ItemEvents.tooltip((tooltip) => {
   );
 
   // Misc
+  tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable(`tooltip.sunlit_cobblemon.berry_capsule.description`).gold());
   tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable("tooltip.society.right_click_open").gray());
-  tooltip.add("sunlit_cobblemon:berry_capsule", Text.translatable(`tooltip.sunlit_cobblemon.berry_capsule.description`).gray());
+
+  tooltip.add("sunlit_cobblemon:pofflet_box", Text.translatable(`tooltip.sunlit_cobblemon.pofflet_box.description`).gold());
+  tooltip.add("sunlit_cobblemon:pofflet_box", Text.translatable("tooltip.society.right_click_open").gray());
 
   tooltip.add('sunlit_cobblemon:sun_drops', Text.translatable(`tooltip.sunlit_cobblemon.sun_drops.description`).gray());
   tooltip.add('sunlit_cobblemon:mystica_branch', Text.translatable(`tooltip.sunlit_cobblemon.mystica_branch.description`).gray());
@@ -164,7 +176,7 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
   tooltip.add('sunlit_cobblemon:sun_essence', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
 
-  tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.sun_essence.description`).gray());
+  tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.mystica_cookie.description`).gray());
   tooltip.add('sunlit_cobblemon:mystica_cookie', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   tooltip.add('sunlit_cobblemon:sunlit_league_medallion', Text.translatable(`tooltip.sunlit_cobblemon.sunlit_league_medallion.description`).gray());
 
@@ -178,6 +190,26 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add('sunlit_cobblemon:cornucopia_of_greed', Text.translatable(`tooltip.sunlit_cobblemon.cornucopia_of_greed.description`).gray());
   tooltip.add('sunlit_cobblemon:cornucopia_of_greed', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
 
+  tooltip.add('sunlit_cobblemon:fire_pledge', Text.translatable(`tooltip.sunlit_cobblemon.fire_pledge.description`).red());
+  tooltip.add('sunlit_cobblemon:grass_pledge', Text.translatable(`tooltip.sunlit_cobblemon.grass_pledge.description`).green());
+  tooltip.add('sunlit_cobblemon:water_pledge', Text.translatable(`tooltip.sunlit_cobblemon.water_pledge.description`).aqua());
+
+  tooltip.add('sunlit_cobblemon:blazing_calamity', Text.translatable(`tooltip.sunlit_cobblemon.blazing_calamity.description`).gray());
+  tooltip.add('sunlit_cobblemon:blazing_calamity', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+
+  tooltip.add('sunlit_cobblemon:frozen_calamity', Text.translatable(`tooltip.sunlit_cobblemon.frozen_calamity.description`).gray());
+  tooltip.add('sunlit_cobblemon:frozen_calamity', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+
+  tooltip.add('sunlit_cobblemon:moongeist_crystal', Text.translatable(`tooltip.sunlit_cobblemon.moongeist_crystal.description`).gray());
+  tooltip.add('sunlit_cobblemon:moongeist_crystal', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+
+  tooltip.add('sunlit_cobblemon:tabula_rasa', Text.translatable(`tooltip.sunlit_cobblemon.tabula_rasa.description`).gray());
+  tooltip.add('sunlit_cobblemon:tabula_rasa', Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  tooltip.add('sunlit_cobblemon:ominous_black_stake', Text.translatable(`tooltip.sunlit_cobblemon.ominous_black_stake.description`).gray());
+  tooltip.add('sunlit_cobblemon:gem_box', Text.translatable(`tooltip.sunlit_cobblemon.gem_box.description`).gray());
+  tooltip.add('sunlit_cobblemon:mystica_nectar', Text.translatable(`tooltip.sunlit_cobblemon.mystica_nectar.description`).gray());
+  tooltip.add('sunlit_cobblemon:rainbow_steam', Text.translatable(`tooltip.sunlit_cobblemon.rainbow_steam.description`).gray());
+  tooltip.add('sunlit_cobblemon:swampy_mystica_branch', Text.translatable(`tooltip.sunlit_cobblemon.swampy_mystica_branch.description`).gray());
   [
     "ability_capsule", "ability_patch",
   ].forEach((item) => {
@@ -195,7 +227,7 @@ ItemEvents.tooltip((tooltip) => {
   });
 
   [
-    "ability_shield", "absorb_bulb", "air_balloon", "assault_vest", "big_root", "binding_band",
+    "ability_shield", "absorb_bulb", "air_balloon", "assault_vest", "binding_band",
     "black_sludge", "blunder_policy", "bright_powder", "cell_battery", "choice_band", "choice_scarf",
     "choice_specs", "cleanse_tag", "covert_cloak", "damp_rock", "deep_sea_scale", "deep_sea_tooth",
     "destiny_knot", "eject_button", "eject_pack", "everstone", "eviolite", "expert_belt", "exp_share",
@@ -220,6 +252,12 @@ ItemEvents.tooltip((tooltip) => {
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.stone`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
   });
+
+  ['whimsy_deco:washing_machine', 'whimsy_deco:orange_lawn_mower', 'refurbished_furniture:light_stove', 'whimsy_deco:fan', 'beachparty:mini_fridge'].forEach((item) => {
+    tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.rotom`).gray());
+    tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
+  });
+
   [
     { item: "auspicious_armor", },
     { item: "black_augurite", },
@@ -292,6 +330,32 @@ ItemEvents.tooltip((tooltip) => {
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   });
 
+  ["courage", "health", "mighty", "quick", "smart", "yough", "brittle", "coward", "numb", "sickly", "slow", "weak"].forEach((item) => {
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`item.cobblemon.${item}_candy.tooltip`).gray());
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  });
+
+  ["health", "muscle", "resist", "genius", "clever", "swift", "fresh_start"].forEach((item) => {
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`item.cobblemon.${item}_mochi.tooltip`).gray());
+    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
+  });
+  const clientPoffletMap = new Map([
+    ["sunlit_cobblemon:plain_pofflet", { baseIncrease: 5, positiveTypes: ["normal", "flying"], tripleBonus: ["normal"], }],
+    ["sunlit_cobblemon:mossy_pofflet", { baseIncrease: 10, positiveTypes: ["grass", "bug"] }],
+    ["sunlit_cobblemon:frosty_pofflet", { baseIncrease: 10, positiveTypes: ["water", "ice", "steel"], decreaseOthers: true }],
+    ["sunlit_cobblemon:deadly_pofflet", { baseIncrease: 10, positiveTypes: ["poison", "ghost", "dark"], decreaseOthers: true }],
+    ["sunlit_cobblemon:spicy_pofflet", { baseIncrease: 10, positiveTypes: ["fire", "fighting", "electric"], decreaseOthers: true }],
+    ["sunlit_cobblemon:captivating_pofflet", { baseIncrease: 15, positiveTypes: ["fairy", "psychic"] }],
+    ["sunlit_cobblemon:crystalline_pofflet", { baseIncrease: 10, positiveTypes: ["dragon", "ground", "rock"], decreaseOthers: true }],
+    ["sunlit_cobblemon:mana_pofflet", { baseIncrease: 15, positiveTypes: [] }],
+  ]);
+  ["plain", "frosty", "captivating", "crystalline", "deadly", "mossy", "spicy", "mana"].forEach((pofflet) => {
+    let effect = clientPoffletMap.get(`sunlit_cobblemon:${pofflet}_pofflet`);
+    tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet`, String(effect.baseIncrease)).gray());
+    if (effect.positiveTypes.length > 0) tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet.loved_by_${effect.positiveTypes.length == 2 ? "two" : "three"}`, effect.positiveTypes.map((type) => Text.translatable(`cobblemon.type.${type}`))).green())
+    if (effect.decreaseOthers) tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet.hated`).red())
+  });
+
   [
     "revival_herb", "big_root", "energy_root",
     "antidote", "awakening", "burn_heal", "ice_heal", "paralyze_heal", "full_heal",
@@ -337,4 +401,44 @@ ItemEvents.tooltip((tooltip) => {
       }
     }
   );
+
+  [
+    {
+      item: "sunlit_cobblemon:the_art_of_battle",
+      description: "The Sunlit league pays out 25% more per battle."
+    },
+    {
+      item: "sunlit_cobblemon:berry_labor_and_capital",
+      description: "+3 Pokémon worker slots.",
+    },
+    {
+      item: "sunlit_cobblemon:bottlecaps_and_nothingness",
+      description: "Small chance to find Bottlecaps in loot chests.",
+    },
+    {
+      item: "sunlit_cobblemon:braiding_surprisegrass",
+      description: "Twice as likely to find Pokémon when harvesting crops and fruit trees.",
+    },
+    {
+      item: "sunlit_cobblemon:the_gachamonbler",
+      description: "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
+    },
+    {
+      item: "sunlit_cobblemon:mukbeth",
+      description: "Grimer, Trubbish, and their evolutions are no longer caught by Poké Bobbers.",
+    },
+    {
+      item: "sunlit_cobblemon:savage_sun",
+      description: "Sun Raid Statues have a 15% chance to ignore their activation cooldown when used."
+    },
+  ].forEach((book) => {
+    tooltip.add(
+      book.item,
+      global.translatableWithFallback(`sunlit_cobblemon.books.${book.item.path}.description`, book.description).gray()
+    );
+    tooltip.add(
+      book.item,
+      Text.translatable("tooltip.society.skill_book.use").green()
+    );
+  });
 });

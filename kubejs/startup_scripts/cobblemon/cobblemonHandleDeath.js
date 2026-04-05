@@ -36,10 +36,8 @@ global.handleCobblemonDefeat = (e) => {
       if (winStreak % 10 == 0) {
         winningPlayer.tell(
           Text.green(
-            `Your Gym win streak is now ${
-              winningPlayer.persistentData.winStreak
-            }! Trainer reward money increased by x${
-              (winningPlayer.persistentData.winStreak / 10) * 1.25
+            `Your Gym win streak is now ${winningPlayer.persistentData.winStreak
+            }! Trainer reward money increased by x${(winningPlayer.persistentData.winStreak / 10) * 1.25
             } and difficulty increased!`
           )
         );
@@ -51,6 +49,11 @@ global.handleCobblemonDefeat = (e) => {
       if (winStreak > 10) {
         reward *= Math.floor(winStreak / 10) * 1.25;
       }
+      if (player && player.stages.has("the_art_of_battle")) {
+        reward *= 1.25
+      } else if (player && Math.random() < 0.01) {
+        player.give(Item.of("sunlit_cobblemon:the_art_of_battle"))
+      }
     }
     let account = global.GLOBAL_BANK.getAccount(winningPlayer.getUuid());
     if (account && account.getBalance() + reward < 2147483000) {
@@ -58,8 +61,7 @@ global.handleCobblemonDefeat = (e) => {
       winningPlayer
         .getServer()
         .runCommandSilent(
-          `emberstextapi sendcustom ${
-            winningPlayer.username
+          `emberstextapi sendcustom ${winningPlayer.username
           } {anchor:"TOP_LEFT",background:1,color:"#FFFFFF",size:1,offsetY:68,offsetX:6,typewriter:1,align:"TOP_LEFT"} 160 ● §6${global.formatPrice(
             reward
           )} §7rewarded by the League`
@@ -67,13 +69,14 @@ global.handleCobblemonDefeat = (e) => {
     }
   } else if (
     !winningPlayer.isPlayer() &&
-    winningPlayer.type == "rctmod:trainer" &&
-    losingPlayer.persistentData.winStreak > 1
+    winningPlayer.type == "rctmod:trainer"
   ) {
-    losingPlayer.tell(
-      Text.red(`You lost your §6${losingPlayer.persistentData.winStreak} §cwinning streak...`)
-    );
-    losingPlayer.persistentData.winStreak = 0;
+    global.handleLeagueFee(losingPlayer.getServer(), losingPlayer, "loss")
+
+    if (losingPlayer.persistentData.winStreak > 1) {
+      losingPlayer.tell(Text.red(`You lost your §6${losingPlayer.persistentData.winStreak} §cwinning streak...`));
+      losingPlayer.persistentData.winStreak = 0;
+    }
   }
 };
 

@@ -1,14 +1,13 @@
 {
     "name": "Society Sunlit Cobblemon",
-    "version": "PLAYTEST-8-HOTFIX-1.0.0-SSV4.0.4",
+    "version": "PLAYTEST-9-1.0.0-SSV4.0.5",
     "overrides": [
         "config",
         "defaultconfigs",
         "kubejs",
         "patchouli_books",
         "resourcepacks/AlphabetSoup-v2.1.zip",
-        "resourcepacks/BCG x AllTheMons 1.2.0.zip",
-        "resourcepacks/BoniMons.zip"
+        "resourcepacks/BCG x AllTheMons 1.2.0.zip"
     ],
     "client_overrides": [
         "resourcepacks",

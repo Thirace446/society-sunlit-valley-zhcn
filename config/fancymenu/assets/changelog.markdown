@@ -1,8 +1,49 @@
 ^^^
 ## Sunlit Cobblemon
-### vPLAYTEST-8-HOTFIX-1.0.0-SSV4.0.4
+### vPLAYTEST-9-1.0.0-SSV4.0.5
 ^^^
 --- 
+- Added Ranching Station, allowing Pokemon to be ranched with husbandry mechanics.
+- Added 93 Pokemon from the latest versions of Cobblemon (up to latest). See the end of the changelog for the full list
+- Added Candy and Mochi items for the latest versions of Cobblemon
+- Added Pofflets for increasing Pokemon happiness
+- Added Magikarp jump variants to fishing
+- Added 7 Cobblemon specific skill books
+- Added Pokemon to EMI
+- Added Moon ritual for Cosmog/Cosmem/Lunala/Solego
+- Added Gem box for summoning regis and added regigigas
+- Added Ominous Black Stake for summoning treasures of ruin and added Chi-Yu
+- Added Rainbow Steam for attracting legendary genies
+- Added Mystica Nectar for attracting legendary birds and added galarian variants
+- Added Swampy Mystica Branch for attracting lake spirits and added cresselia
+- Added backported evo items (Metal Alloy, Syrupy Apple, Shell Helmet, etc)
+- Added backported move animations (Thanks MrFreezy™!)
+- Added paying the winner for losing to a gym patron
+- Added Celesteela 
+- Added streak ending trainers to tier 100 gym rolls
+- Added Sun Mirror
+- Added Mystery Gifts
+- Cleaned up Cobblemon fishing pools
+- Cleaned up Rare Pokemon page
+- Mushroom pokemon now spawn near mushroom logs
+- Pale Garden is now considered spooky and magical
+- Fixed Aspen Parkland not having many spawns
+- Fixed bad recipes for capsules/potions/etc
+- Fixed Max Overgrowth being included in the TM/TR pool
+- Fixed Trainer Podiums spawning bosses at 0 streak
+- Fixed balls showing unopened in MP
+- Fixed battle errors when Pokemon die on their own
+- Fixed King/Karma/KingKarma league bosses not dropping medals
+- Fixed murder being an effective strategy on raid pokemon
+- Fixed murder being an effective strategy as a gym leader
+- Fixed sun essence upgrading raid statues past the maximum of 3
+- Fixed Poke Radar texture bugs
+- Fixed Wormhole Generator not checking Cosmic Dust
+- Fixed The Red and The Black not working with Cobblemon items
+- Fixed some super small poke hitboxes
+- New Pokemon: weezing (Galarian), magikarp/gyarados (Jump variants), togepi, togetic, sunkern, sunflora, wobbuffet, girafarig, dunsparce, remoraid, octillery, mantine, slakoth, vigoroth, slaking, meditite, medicham, electrike, manectric, spoink, grumpig, kecleon, wynaut, spheal, sealeo, walrein, bagon, shelgon, salamence, latias, latios, skorupi, drapion, finneon, lumineon, mantyke, togekiss, rotom, pansage, simisage, pansear, simisear, panpour, simipour, blitzle, zebstrika, throh, sawk, scraggy, scrafty, trubbish, garbodor, vanillite, vanillish, vanilluxe, karrablast, escavalier, shelmet, accelgor, stunfisk, mienfoo, mienshao, druddigon, rufflet, braviary, spritzee, aromatisse, swirlix, slurpuff, inkay, malamar, binacle, barbaracle, clauncher, clawitzer, dedenne, bruxish, drampa, skwovet, greedent, chewtle, drednaw, hatenna, hattrem, hatterene, tarountula, spidops, wattrel, kilowattrel
+
+### Playtest 8
 - Updated to Sunlit Valley 4.0.4
 - Added Poke Radar, an item with similar properties to the Fish Radar for viewing nearby Pokemon (Please use this opportunity to report biomes with lackluster spawn pools!)
 - Added loot poke balls to many structures and the Skull Cavern

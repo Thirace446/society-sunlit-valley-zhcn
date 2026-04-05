@@ -16,7 +16,7 @@
     "tnt_stability": true,
     "item_storage.items_per_line": 9,
     "item_frame": true,
-    "crop_progress": true,
+    "crop_progress": false,
     "command_block": true,
     "mob_growth": true,
     "waxed": true,
@@ -92,6 +92,7 @@
   },
   "society": {
     "plushie_jade": true,
+    "crop_growth_jade": true,
     "artisan_machine_jade": true,
     "fish_pond_jade": true
   },
@@ -104,6 +105,10 @@
   },
   "jadeaddons.lootr": {
     "info": true
+  },
+  "item-descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
   },
   "pipez": {
     "pipe": true

@@ -12,7 +12,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }
@@ -39,7 +39,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }
@@ -66,7 +66,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }
@@ -93,7 +93,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }
@@ -120,7 +120,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }
@@ -147,7 +147,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }
@@ -174,7 +174,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }
@@ -201,7 +201,7 @@
       {
         "type": "puffish_skills:attribute",
         "data": {
-          "attribute": "cobble_workers:worker_cap",
+          "attribute": "cobblemon_farmers:worker_cap",
           "value": 2,
           "operation": "addition"
         }

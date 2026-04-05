@@ -41,7 +41,7 @@
       "presets": ["natural"],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
+      "bucket": "rare",
       "level": "34-57",
       "weight": 0.9,
       "condition": {

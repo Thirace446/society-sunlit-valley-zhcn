@@ -1,5 +1,5 @@
 // Priority: 1000
-global.getDay = (level) =>  Number((Math.floor(Number(level.dayTime() / 24000)) + 1).toFixed());
+global.getDay = (level) => Number((Math.floor(Number(level.dayTime() / 24000)) + 1).toFixed());
 
 global.compareDay = (day, checkedDay, amount) => day > Number(checkedDay) || Number(checkedDay) - day > amount;
 
@@ -15,3 +15,9 @@ global.getFacingPlusOffset = (facing, pos, offset) => {
       return pos.offset(offset, 0, 0);
   }
 };
+
+global.getHasCurio = (player, item) => {
+  const curios = player.nbt.ForgeCaps["curios:inventory"]
+  if (!curios) return false;
+  return curios.toString().includes(item)
+} 

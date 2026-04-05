@@ -117,9 +117,21 @@
 			}]
 			size: 1.5d
 			tasks: [{
-				id: "5E2ADB3139BC5AC0"
-				title: "Understood!"
-				type: "checkmark"
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3305EE1606BE69A8"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Trainer Levels"
 			x: 5.5d
@@ -175,7 +187,7 @@
 			}]
 			tasks: [{
 				id: "2FC310EB8E266FB0"
-				item: "cobble_workers:craft_station"
+				item: "cobblemon_farmers:craft_station"
 				type: "item"
 			}]
 			title: "Putting them to WORK"
@@ -199,9 +211,21 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "795BA2C23EAB4F67"
-				title: "Understood!"
-				type: "checkmark"
+				action: "level_up"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "41A8E292506B697D"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "The Poké Mart"
 			x: 8.0d
@@ -256,14 +280,25 @@
 					type: "item"
 				}
 				{
-					id: "65E97B639FE00FDD"
-					item: "sunlit_cobblemon:berry_capsule"
+					id: "7B32600259915356"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_barrel"
+						tag: {
+							woodType: "spruce"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62BCE68786BC236E"
+					item: "sophisticatedstorage:magnet_upgrade"
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "142977AD5F543BF8"
-				item: "cobble_workers:mystery_mine"
+				item: "cobblemon_farmers:mystery_mine"
 				type: "item"
 			}]
 			x: 12.0d
@@ -365,7 +400,8 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4394206CC820DC08"
+					id: "4C12FAD457B85BC1"
+					table_id: 3615002042349613622L
 					type: "choice"
 				}
 			]
@@ -486,17 +522,19 @@
 				""
 				"- &6Water&r - Waters crops in an area"
 				"- &6Grass&r - Grows crops in an area"
-				"- &6Dark&r -  Defeats Pokemon for experience"
+				"- &6Dark&r - Defeats Pokemon for experience"
+				"- &6Normal&r - Harvests forage drops and milk from nearby &6Ranching Stations&r"
+				"- &6Fairy&r - Magically shears from nearby &6Ranching Stations&r"
 			]
 			id: "3BD199B4A938437F"
 			rewards: [{
-				id: "63E5DD67AB944756"
+				id: "0AC8CC3C76630721"
 				item: "cobblemon:exp_candy_l"
 				type: "item"
 			}]
 			tasks: [{
 				id: "59B1B96B2056F1D8"
-				item: "cobble_workers:gardening_station"
+				item: "cobblemon_farmers:gardening_station"
 				type: "item"
 			}]
 			x: 13.5d
@@ -554,7 +592,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "cobble_workers:uncommon_berries"
+						value: "cobblemon_farmers:uncommon_berries"
 					}
 				}
 				title: "Any mutated berry"
@@ -664,7 +702,7 @@
 				title: "IVs and EVs"
 				type: "checkmark"
 			}]
-			x: 17.0d
+			x: 18.5d
 			y: 2.5d
 		}
 		{
@@ -693,8 +731,8 @@
 				type: "checkmark"
 			}]
 			title: "EVs in Detail"
-			x: 16.0d
-			y: 2.0d
+			x: 18.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["127DAB9080BE7D68"]
@@ -721,8 +759,8 @@
 				type: "checkmark"
 			}]
 			title: "IVs in Detail"
-			x: 18.0d
-			y: 2.0d
+			x: 19.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["75DDF6E50DAD20F0"]
@@ -1033,6 +1071,76 @@
 			title: "Scanning for Mons"
 			x: 17.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["3BD199B4A938437F"]
+			description: [
+				"Like normal farm animals, Pokémon can be used to farm various resources!"
+				""
+				"This requires them to be on a &6Ranching Station&r and fed a steady diet of &6Cobble Berries&r."
+				""
+				"Ranching takes advantage of the &6HP&r and &6Friendship&r stats, with better drops the higher they go."
+				""
+				"A &6Milking Pail&r can be used to milk Pokémon if they're able to be. Most Pokémon can also be sheared with &6Magic Shears&r if they have over 5 hearts."
+			]
+			id: "42C6D7A0CA188636"
+			rewards: [
+				{
+					count: 4
+					id: "6BA0179C116F5BC9"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "705366EC134FA56D"
+					item: "sunlit_cobblemon:plain_pofflet"
+					type: "item"
+				}
+			]
+			subtitle: "Moomoo milk?"
+			tasks: [{
+				id: "348E1BE98BD19ABD"
+				item: "cobblemon_farmers:ranching_station"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42C6D7A0CA188636"]
+			description: [
+				"The hearts in the &6Ranching Station's&r UI are a total of two stats:"
+				""
+				"- &6Friendship&r - Up to 5 hearts depending on how high it is relative to max"
+				"- &6HP&r - 5+ hearts depending on how high it is relative to 270"
+				""
+				"&6Friendship&r will increase when harvesting from a Pokémon manually depending on what tier of berry they've eaten last."
+				""
+				"It can also be gained from battling, being out of its Poké-ball, and certain consumables."
+			]
+			icon: "society:face_note"
+			id: "771360679927C8E7"
+			rewards: [
+				{
+					id: "54BB486C831D52E0"
+					item: "cobblemon:hp_up"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BFF4D92CF675DC8"
+					table_id: 9162295297604142301L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "0F5467557E3C38C4"
+				title: "Ranching Hearts"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 2.5d
 		}
 	]
 	title: "I.C - Cobblemon"

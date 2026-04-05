@@ -183,8 +183,7 @@ const uncoverCropPokemon = (level, server, block, initialPos, pos) => {
         console.log(pos);
       }
       server.runCommandSilent(
-        `pokespawnat ${pos.x} ${pos.y} ${pos.z} ${
-          caughtMon.pokemon
+        `pokespawnat ${pos.x} ${pos.y} ${pos.z} ${caughtMon.pokemon
         } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}`
       );
       server.runCommandSilent(
@@ -208,12 +207,14 @@ const uncoverCropPokemon = (level, server, block, initialPos, pos) => {
 
 BlockEvents.rightClicked((e) => {
   const { block, player, server, hand, item, level } = e;
+  let spawnChance = 1 / 80;
   if (hand == "MAIN_HAND") {
     let initialBlock = level.getBlockState(block.pos);
     let checkBlocked;
     let blockState;
     if (
       (block.hasTag("minecraft:crops") || block.id.includes("pamhc2trees")) &&
+      !block.hasTag("cobblemon:berries") &&
       initialBlock.block.isMaxAge(initialBlock) &&
       global.hasScope(player)
     ) {
@@ -225,13 +226,19 @@ BlockEvents.rightClicked((e) => {
           "minecraft:diamond_hoe",
           "botania:elementium_hoe",
         ].includes(item.id)
-      )
+      ) {
         radius = 2;
+      }
+      if (player.stages.has("braiding_surprisegrass")) {
+        spawnChance *= 2
+      } else if (Math.random() < spawnChance) {
+        block.popItemFromFace(Item.of("sunlit_cobblemon:braiding_surprisegrass"));
+      }
       for (let pos of BlockPos.betweenClosed(
         new BlockPos(block.x - radius, block.y, block.z - radius),
         [block.x + radius, block.y, block.z + radius]
       )) {
-        if (Math.random() < 1 / 80) {
+        if (Math.random() < spawnChance) {
           checkBlocked = level.getBlock(pos);
           blockState = level.getBlockState(pos);
           if (

@@ -1,9 +1,10 @@
 {
-	autofocus_id: "302AA9BB1D2219A8"
+	autofocus_id: "5C5A08F990320793"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rare_pokmon"
 	group: "13003519EF914BA5"
+	hide_quest_until_deps_complete: true
 	icon: "cobblemon:beast_ball"
 	id: "6B6EF767526A7A1C"
 	order_index: 1
@@ -33,7 +34,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Scream Trail"
-			x: 25.0d
+			x: 19.0d
 			y: -15.0d
 		}
 		{
@@ -60,7 +61,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Flutter Mane"
-			x: 27.0d
+			x: 21.0d
 			y: -15.0d
 		}
 		{
@@ -86,7 +87,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Slither Wing"
-			x: 29.0d
+			x: 23.0d
 			y: -15.0d
 		}
 		{
@@ -112,7 +113,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Roaring Moon"
-			x: 31.0d
+			x: 25.0d
 			y: -15.0d
 		}
 		{
@@ -138,7 +139,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Walking Wake"
-			x: 37.0d
+			x: 27.0d
 			y: -15.0d
 		}
 		{
@@ -164,7 +165,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Roaring Moon"
-			x: 39.0d
+			x: 29.0d
 			y: -15.0d
 		}
 		{
@@ -191,7 +192,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Bundle"
-			x: 23.0d
+			x: 20.0d
 			y: -13.0d
 		}
 		{
@@ -218,7 +219,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Moth"
-			x: 27.0d
+			x: 24.0d
 			y: -13.0d
 		}
 		{
@@ -245,7 +246,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Thorns"
-			x: 25.0d
+			x: 22.0d
 			y: -13.0d
 		}
 		{
@@ -272,7 +273,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Valiant"
-			x: 29.0d
+			x: 26.0d
 			y: -13.0d
 		}
 		{
@@ -299,7 +300,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Valiant"
-			x: 37.0d
+			x: 28.0d
 			y: -13.0d
 		}
 		{
@@ -318,14 +319,15 @@
 				"3E1B759B00428FB6"
 				"2118ADCB33C9C583"
 			]
+			description: [
+				"&6Paradox Pokémon&r are from a different time, pulled in periodically into the world through mysterious means."
+				""
+				"Selene will occasionally pull in Past Paradox Pokémon into the Skull Cavern, while Future Paradox Pokémon will be pulled into from the sparking energies of Aritsan Hoppers."
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: false
 			icon: "cobblemon:timer_ball"
 			id: "5DE5D055D7BC2BFE"
-			rewards: [{
-				id: "1576918DE5DD48FC"
-				item: "society:mana_clock"
-				type: "item"
-			}]
 			size: 2.0d
 			tasks: [{
 				icon: "tanukidecor:crystal_clock"
@@ -336,7 +338,7 @@
 				value: 1
 			}]
 			title: "Paradox Master"
-			x: 32.0d
+			x: 24.0d
 			y: -17.0d
 		}
 		{
@@ -344,7 +346,7 @@
 			id: "46AC1742C4A72259"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -363,7 +365,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Nihilego"
-			x: 25.0d
+			x: 20.0d
 			y: -23.0d
 		}
 		{
@@ -390,7 +392,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Buzzwole"
-			x: 27.0d
+			x: 22.0d
 			y: -23.0d
 		}
 		{
@@ -417,7 +419,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Xurkitree"
-			x: 29.0d
+			x: 24.0d
 			y: -23.0d
 		}
 		{
@@ -444,7 +446,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Kartana"
-			x: 31.0d
+			x: 26.0d
 			y: -23.0d
 		}
 		{
@@ -471,7 +473,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Guzzlord"
-			x: 33.0d
+			x: 28.0d
 			y: -23.0d
 		}
 		{
@@ -498,8 +500,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Blacephalon"
-			x: 39.0d
-			y: -23.0d
+			x: 25.0d
+			y: -21.0d
 		}
 		{
 			dependencies: [
@@ -510,7 +512,15 @@
 				"0FD10C2F7AE4677E"
 				"40782D6A62B4B8D0"
 			]
+			description: [
+				"&6Ultra Beasts&r are inter-dimensional Pokémon from a world quite unlike ours."
+				""
+				"You'll need to create a &6Wormhole Generator&r and fill it with &6Cosmic Dust&r you find rarely in the world. The biome you are in will match the alternate dimension, pulling a differe beast depending on where you stand."
+				""
+				"Regular balls will have trouble recognizing them as Pokémon, and &6Beast Balls&r are recommended."
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: false
 			icon: "cobblemon:beast_ball"
 			id: "6C472A1603AF02C5"
 			size: 2.0d
@@ -523,8 +533,8 @@
 				value: 1
 			}]
 			title: "Ultra Beast Master"
-			x: 32.0d
-			y: -26.0d
+			x: 24.0d
+			y: -25.0d
 		}
 		{
 			id: "2118ADCB33C9C583"
@@ -549,7 +559,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Gouging Fire"
-			x: 41.0d
+			x: 31.0d
 			y: -15.0d
 		}
 		{
@@ -576,7 +586,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Sandy Shocks"
-			x: 23.0d
+			x: 17.0d
 			y: -15.0d
 		}
 		{
@@ -651,8 +661,18 @@
 				"72CE11D7503543A9"
 				"3FDA64883A8F9681"
 			]
+			description: [
+				"&6Legendary Pokémon&r are incredibly rare and powerful ones that can only be obtained through specific means."
+				""
+				"Some will be easier to find, with information from this page and JEI/EMI. Others will require you to solve puzzles or complete complex rituals to summon..."
+				""
+				"The &6Sunlit League&r does not allow you to use Legendary Pokémon at your gym."
+				""
+				"&oNot all are implemented, and will be added in future versions of the pack&r"
+			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_complete: false
 			icon: "cobblemon:master_ball"
 			id: "302AA9BB1D2219A8"
 			size: 2.0d
@@ -673,7 +693,7 @@
 			id: "1C6F513A824DAE33"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using an Ice Star Pixie"
+			subtitle: "Summoned from Ominous Stake"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -692,10 +712,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Chien-Pao"
-			x: 9.0d
-			y: -5.0d
+			x: -3.0d
+			y: -14.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "3FB31EE76423D1B4"
 			shape: "none"
@@ -710,7 +731,7 @@
 				gender: ""
 				id: "13FB719A9444CF0C"
 				poke_ball_used: ""
-				pokemon: "cobblemon:chiyu"
+				pokemon: "cobblemon:wochien"
 				pokemon_type: ""
 				region: ""
 				shiny: false
@@ -718,9 +739,9 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Chi-Yu"
-			x: 11.0d
-			y: -5.0d
+			title: "Wo-Chien"
+			x: 9.0d
+			y: 14.0d
 		}
 		{
 			description: [""]
@@ -746,15 +767,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ogerpon"
-			x: 1.0d
-			y: -5.0d
+			x: -2.0d
+			y: -10.0d
 		}
 		{
-			description: [""]
+			description: ["&6Galarian&r variant can be found in the same way."]
 			id: "33312768E1E4BA1D"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using an Ice Star Pixie"
+			subtitle: "Lure using Mystica Nectar"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -773,15 +794,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Articuno"
-			x: -4.0d
-			y: -21.0d
+			x: 9.0d
+			y: -22.0d
 		}
 		{
-			description: [""]
+			description: ["&6Galarian&r variant can be found in the same way."]
 			id: "322ACE3883EF0B1B"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using an Electric Star Pixie"
+			subtitle: "Lure using Mystica Nectar"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -800,15 +821,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zapdos"
-			x: -2.0d
-			y: -21.0d
+			x: 11.0d
+			y: -22.0d
 		}
 		{
-			description: [""]
+			description: ["&6Galarian&r variant can be found in the same way."]
 			id: "444BE411AB96960F"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Fire Star Pixie"
+			subtitle: "Lure using Mystica Nectar"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -827,8 +848,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Moltres"
-			x: 0.0d
-			y: -21.0d
+			x: 13.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
@@ -855,14 +876,14 @@
 			}]
 			title: "Mewtwo"
 			x: 5.0d
-			y: -21.0d
+			y: -6.0d
 		}
 		{
 			description: [""]
 			id: "237C9725D6792C55"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Rock Star Pixie"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -882,14 +903,14 @@
 			}]
 			title: "Regirock"
 			x: -4.0d
-			y: -17.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
 			id: "1E0508A8E8FE6814"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using an Ice Star Pixie"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -909,14 +930,14 @@
 			}]
 			title: "Regice"
 			x: -2.0d
-			y: -17.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
 			id: "65F2AB32EFCF4051"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Steel Star Pixie"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -936,7 +957,7 @@
 			}]
 			title: "Registeel"
 			x: 0.0d
-			y: -17.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
@@ -963,7 +984,7 @@
 			}]
 			title: "Kyogre"
 			x: 3.0d
-			y: -17.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
@@ -990,7 +1011,7 @@
 			}]
 			title: "Groudon"
 			x: 5.0d
-			y: -17.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
@@ -1017,14 +1038,14 @@
 			}]
 			title: "Rayquaza"
 			x: 7.0d
-			y: -17.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
 			id: "3A174D139C314784"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Psychic Star Pixie"
+			subtitle: "Lure using Swampy Mystica Branch"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1044,14 +1065,14 @@
 			}]
 			title: "Uxie"
 			x: -4.0d
-			y: -15.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
 			id: "404206ADF8E6B097"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Psychic Star Pixie"
+			subtitle: "Lure using Swampy Mystica Branch"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1071,14 +1092,14 @@
 			}]
 			title: "Mesprit"
 			x: -2.0d
-			y: -15.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
 			id: "1F0857E5F4C8E85E"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Psychic Star Pixie"
+			subtitle: "Lure using Swampy Mystica Branch"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1098,7 +1119,7 @@
 			}]
 			title: "Azelf"
 			x: 0.0d
-			y: -15.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
@@ -1125,7 +1146,7 @@
 			}]
 			title: "Dialga"
 			x: 3.0d
-			y: -15.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
@@ -1152,7 +1173,7 @@
 			}]
 			title: "Palkia"
 			x: 5.0d
-			y: -15.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
@@ -1179,14 +1200,14 @@
 			}]
 			title: "Giratina"
 			x: 7.0d
-			y: -15.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
 			id: "7CF60082CA31BE92"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Flying Star Pixie"
+			subtitle: "Lure using Rainbow Steam"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1206,14 +1227,14 @@
 			}]
 			title: "Tornadus"
 			x: -4.0d
-			y: -13.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
 			id: "5B02036AA208B3D7"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Flying Star Pixie"
+			subtitle: "Lure using Rainbow Steam"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1233,14 +1254,14 @@
 			}]
 			title: "Thundurus"
 			x: -2.0d
-			y: -13.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
 			id: "6434E3E25D873D00"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using a Flying Star Pixie"
+			subtitle: "Lure using Rainbow Steam"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1260,7 +1281,7 @@
 			}]
 			title: "Landorus"
 			x: 0.0d
-			y: -13.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
@@ -1287,7 +1308,7 @@
 			}]
 			title: "Reshiram"
 			x: 3.0d
-			y: -13.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
@@ -1314,7 +1335,7 @@
 			}]
 			title: "Zekrom"
 			x: 5.0d
-			y: -13.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
@@ -1341,7 +1362,7 @@
 			}]
 			title: "Kyurem"
 			x: 7.0d
-			y: -13.0d
+			y: -18.0d
 		}
 		{
 			dependencies: [
@@ -1364,13 +1385,22 @@
 				"77EB2CA4A3E02D3D"
 				"399A40142ADC8F40"
 				"13A9F909305BF8CF"
-				"3796B86F7787002B"
 				"0764E574F4DABF93"
 				"6BA7A0FA9D1106F6"
 				"57BBE9BF4B0DDBD4"
 				"35BDF76CA7B88956"
 			]
+			description: [
+				"&6Mythical Pokémon&r are a categorization of extremely rare Pokémon, similar to Legendaries. The primary way to obtain them is through &6Mystery Gifts&r, a rare item given to you from a villager or through expensive means."
+				""
+				"Some Mythical Pokémon are special, and will have specific ways to obtain them in the future, like Legendaries."
+				""
+				"The &6Sunlit League&r does not allow you to use Mythical Pokémon at your gym."
+				""
+				"&oNot all are implemented, and will be added in future versions of the pack&r"
+			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: false
 			icon: "cobblemon:premier_ball"
 			id: "2321988BC85088DD"
 			size: 2.0d
@@ -1383,14 +1413,15 @@
 				value: 1
 			}]
 			title: "Mythical Master"
-			x: 32.0d
-			y: -10.0d
+			x: -15.0d
+			y: -25.0d
 		}
 		{
 			description: [""]
 			id: "0A6B1B2AFBC744C8"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Not Yet Implemented"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1409,14 +1440,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Mew"
-			x: 27.0d
-			y: -8.0d
+			x: -19.0d
+			y: -14.0d
 		}
 		{
 			description: [""]
 			id: "13A9F909305BF8CF"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Villager Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1435,14 +1467,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Celebi"
-			x: 29.0d
-			y: -8.0d
+			x: -20.0d
+			y: -23.0d
 		}
 		{
 			description: [""]
 			id: "4DAB5AB60AB3DF1C"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Playtesting Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1462,14 +1495,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Celebi"
-			x: 31.0d
-			y: -8.0d
+			x: -15.0d
+			y: -21.0d
 		}
 		{
 			description: [""]
 			id: "09BA4CE3E0F17C5A"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Not Yet Implemented"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1488,14 +1522,17 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Deoxys"
-			x: 33.0d
-			y: -8.0d
+			x: -15.0d
+			y: -14.0d
 		}
 		{
+			dependencies: ["46D1DABC476BF3E6"]
 			description: [""]
+			hide_until_deps_complete: false
 			id: "2152F97C1F6B73AE"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Evolve Phione"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1515,14 +1552,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Celebi"
-			x: 35.0d
-			y: -8.0d
+			x: -14.0d
+			y: -17.0d
 		}
 		{
 			description: [""]
 			id: "46D1DABC476BF3E6"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1541,14 +1579,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Phione"
-			x: 37.0d
-			y: -8.0d
+			x: -16.0d
+			y: -17.0d
 		}
 		{
 			description: [""]
 			id: "3313E6055A9D68C9"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Not Yet Implemented"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1567,14 +1606,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Darkrai"
-			x: 27.0d
-			y: -6.0d
+			x: -17.0d
+			y: -14.0d
 		}
 		{
 			description: [""]
 			id: "75471B623063A9A6"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Not Yet Implemented"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1593,10 +1633,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Shaymin"
-			x: 29.0d
-			y: -6.0d
+			x: -13.0d
+			y: -14.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "35BDF76CA7B88956"
 			shape: "none"
@@ -1619,14 +1660,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Arceus"
-			x: 31.0d
-			y: -6.0d
+			x: -9.0d
+			y: -14.0d
 		}
 		{
 			description: [""]
 			id: "79DD774312E9E054"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1645,10 +1687,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Victini"
-			x: 33.0d
-			y: -6.0d
+			x: -10.0d
+			y: -19.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "57BBE9BF4B0DDBD4"
 			shape: "none"
@@ -1671,14 +1714,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Keldeo"
-			x: 35.0d
-			y: -6.0d
+			x: -12.0d
+			y: -17.0d
 		}
 		{
 			description: [""]
 			id: "4261E8A7D5174E81"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Villager Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1697,14 +1741,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Meloetta"
-			x: 37.0d
-			y: -6.0d
+			x: -14.0d
+			y: -23.0d
 		}
 		{
 			description: [""]
 			id: "09AB8391C585D057"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1723,14 +1768,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Genesect"
-			x: 27.0d
-			y: -4.0d
+			x: -20.0d
+			y: -19.0d
 		}
 		{
 			description: [""]
 			id: "187BBD71E34984E6"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1749,14 +1795,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Diancie"
-			x: 29.0d
-			y: -4.0d
+			x: -18.0d
+			y: -19.0d
 		}
 		{
 			description: [""]
 			id: "0764E574F4DABF93"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1775,14 +1822,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Hoopa"
-			x: 31.0d
-			y: -4.0d
+			x: -16.0d
+			y: -19.0d
 		}
 		{
 			description: [""]
 			id: "59A626ACC353DB15"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Villager Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1800,15 +1848,16 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Diancie"
-			x: 33.0d
-			y: -4.0d
+			title: "Volcanion"
+			x: -10.0d
+			y: -23.0d
 		}
 		{
 			description: [""]
 			id: "140A63847910E0D5"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Villager Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1827,14 +1876,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Magearna"
-			x: 35.0d
-			y: -4.0d
+			x: -18.0d
+			y: -23.0d
 		}
 		{
 			description: [""]
 			id: "6BA7A0FA9D1106F6"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Villager Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1853,8 +1903,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Marshadow"
-			x: 37.0d
-			y: -4.0d
+			x: -12.0d
+			y: -23.0d
 		}
 		{
 			description: [""]
@@ -1879,14 +1929,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zeraora"
-			x: 27.0d
-			y: -2.0d
+			x: -16.0d
+			y: -23.0d
 		}
 		{
 			description: [""]
 			id: "455BB3288399204D"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1906,14 +1957,17 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Meltan"
-			x: 29.0d
-			y: -2.0d
+			x: -14.0d
+			y: -19.0d
 		}
 		{
+			dependencies: ["455BB3288399204D"]
 			description: [""]
+			hide_until_deps_complete: false
 			id: "4E59F51C1DF1A637"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Evolve Meltan"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1932,10 +1986,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Melmetal"
-			x: 31.0d
-			y: -2.0d
+			x: -12.0d
+			y: -19.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "30B2D021B62C6735"
 			shape: "none"
@@ -1958,14 +2013,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zarude"
-			x: 33.0d
-			y: -2.0d
+			x: -10.0d
+			y: -17.0d
 		}
 		{
 			description: [""]
 			id: "399A40142ADC8F40"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Not Yet Implemented"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1984,37 +2040,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Pecharunt"
-			x: 35.0d
-			y: -2.0d
+			x: -11.0d
+			y: -14.0d
 		}
 		{
-			description: [""]
-			id: "3796B86F7787002B"
-			shape: "none"
-			size: 2.0d
-			tasks: [{
-				action: "catch"
-				amount: 1L
-				biome: ""
-				dimension: ""
-				form: ""
-				gender: ""
-				id: "38F4CDFAC2A08551"
-				poke_ball_used: ""
-				pokemon: "cobblemon:melmetal"
-				pokemon_type: ""
-				region: ""
-				shiny: false
-				time_max: 24000L
-				time_min: 0L
-				title: "Melmetal"
-				type: "cobblemon_tasks:cobblemon_task"
-			}]
-			title: "Melmetal"
-			x: 37.0d
-			y: -2.0d
-		}
-		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "08FF418D50AA50E0"
 			shape: "none"
@@ -2037,10 +2067,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Raikou"
-			x: -4.0d
-			y: -19.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "5AC7A1589AB6E7E0"
 			shape: "none"
@@ -2063,10 +2094,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Entei"
-			x: -2.0d
-			y: -19.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "63757B60253677CF"
 			shape: "none"
@@ -2089,10 +2121,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Suicune"
-			x: 0.0d
-			y: -19.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "293D16E291C2E3E9"
 			shape: "none"
@@ -2116,10 +2149,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Lugia"
-			x: 4.0d
-			y: -19.0d
+			x: 11.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "2999021D2E50828A"
 			shape: "none"
@@ -2143,8 +2177,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ho-Oh"
-			x: 6.0d
-			y: -19.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			description: [""]
@@ -2171,7 +2205,7 @@
 			}]
 			title: "Latias"
 			x: 10.0d
-			y: -17.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
@@ -2198,9 +2232,10 @@
 			}]
 			title: "Latios"
 			x: 12.0d
-			y: -17.0d
+			y: -18.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "3FD53A03E6D9D65F"
 			shape: "none"
@@ -2224,15 +2259,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Heatran"
-			x: 10.0d
-			y: -15.0d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			description: [""]
 			id: "12130DEA8E725997"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2251,15 +2286,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regigigas"
-			x: 12.0d
-			y: -15.0d
+			x: 10.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
 			id: "690C4EE7C6DBED87"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Fish while having all 3 lake spirits"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2278,10 +2313,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Cresselia"
-			x: 14.0d
-			y: -15.0d
+			x: 12.0d
+			y: -20.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "4F67833D18A57835"
 			shape: "none"
@@ -2306,9 +2342,10 @@
 			}]
 			title: "Cobalion"
 			x: 10.0d
-			y: -13.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "4716D1AEB1AF123E"
 			shape: "none"
@@ -2323,7 +2360,7 @@
 				gender: ""
 				id: "4760AE13E76C291C"
 				poke_ball_used: ""
-				pokemon: "cobblemon:heatran"
+				pokemon: "cobblemon:virizion"
 				pokemon_type: ""
 				region: ""
 				shiny: false
@@ -2331,11 +2368,12 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Heatran"
+			title: "Virizion"
 			x: 12.0d
-			y: -13.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "511218F87BDB47E3"
 			shape: "none"
@@ -2360,14 +2398,14 @@
 			}]
 			title: "Terrakion"
 			x: 14.0d
-			y: -13.0d
+			y: 4.0d
 		}
 		{
 			description: [""]
 			id: "47A1B7188C6C0E16"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Blooming Ring"
+			subtitle: "Summoned from the Blooming Ring"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2386,15 +2424,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Xerneas"
-			x: 3.0d
-			y: -11.0d
+			x: 4.0d
+			y: -16.0d
 		}
 		{
 			description: [""]
 			id: "59CE1B4B97CD55E8"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Cornucopia of Greed"
+			subtitle: "Summoned from the Cornucopia of Greed"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2413,10 +2451,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Yveltal"
-			x: 5.0d
-			y: -11.0d
+			x: 6.0d
+			y: -16.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "21DC364143467701"
 			shape: "none"
@@ -2440,15 +2479,16 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zygarde"
-			x: 7.0d
-			y: -11.0d
+			x: 11.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["70053D76E4DA6905"]
 			description: [""]
 			id: "069B5BCA35F1FB9A"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Evolve Cosmoem during the day"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2467,15 +2507,16 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Solgaleo"
-			x: 3.0d
-			y: -9.0d
+			x: 4.0d
+			y: -10.0d
 		}
 		{
+			dependencies: ["70053D76E4DA6905"]
 			description: [""]
 			id: "7CD7B2B58503E5E1"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Evolve Cosmoem at night"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2494,8 +2535,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Lunala"
-			x: 5.0d
-			y: -9.0d
+			x: 6.0d
+			y: -10.0d
 		}
 		{
 			description: [""]
@@ -2521,10 +2562,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Necrozma"
-			x: 7.0d
-			y: -9.0d
+			x: 4.0d
+			y: -8.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "72CE11D7503543A9"
 			shape: "none"
@@ -2548,11 +2590,14 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Type: Null"
-			x: -5.0d
-			y: -9.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["72CE11D7503543A9"]
+			dependencies: [
+				"72CE11D7503543A9"
+				"155A8CA7F7CBE10F"
+			]
 			description: [""]
 			id: "1DB8687963B4FA47"
 			shape: "none"
@@ -2577,15 +2622,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Silvall"
-			x: -3.0d
-			y: -9.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			description: [""]
 			id: "017B8D1E26A3992E"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Complete the moon ritual and defeat Moonlit Lunala"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2604,8 +2649,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Cosmog"
-			x: -1.0d
-			y: -9.0d
+			x: 5.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["017B8D1E26A3992E"]
@@ -2613,7 +2658,7 @@
 			id: "70053D76E4DA6905"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Evolve Cosmog"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2632,8 +2677,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Cosmoem"
-			x: 1.0d
-			y: -9.0d
+			x: 5.0d
+			y: -12.0d
 		}
 		{
 			description: [""]
@@ -2659,8 +2704,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tapu Koko"
-			x: 11.0d
-			y: -9.0d
+			x: 12.0d
+			y: -14.0d
 		}
 		{
 			description: [""]
@@ -2686,8 +2731,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tapu Fini"
-			x: 13.0d
-			y: -9.0d
+			x: 10.0d
+			y: -12.0d
 		}
 		{
 			description: [""]
@@ -2713,8 +2758,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tapu Bulu"
-			x: 15.0d
-			y: -9.0d
+			x: 12.0d
+			y: -12.0d
 		}
 		{
 			description: [""]
@@ -2740,10 +2785,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Tapu Lele"
-			x: 9.0d
-			y: -9.0d
+			x: 10.0d
+			y: -14.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "10080BAD20ECA930"
 			shape: "none"
@@ -2767,10 +2813,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zacian"
-			x: 3.0d
-			y: -7.0d
+			x: 11.0d
+			y: 11.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "3A0CC3BC3ACCD847"
 			shape: "none"
@@ -2794,8 +2841,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zamazenta"
-			x: 5.0d
-			y: -7.0d
+			x: 13.0d
+			y: 11.0d
 		}
 		{
 			description: [""]
@@ -2821,10 +2868,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Eternatus"
-			x: 7.0d
-			y: -7.0d
+			x: 6.0d
+			y: -8.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "237DDF00F56D5D30"
 			shape: "none"
@@ -2848,10 +2896,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regieleki"
-			x: -4.0d
-			y: -7.0d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "74F234EF490006A2"
 			shape: "none"
@@ -2875,8 +2924,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regidrago"
-			x: -2.0d
-			y: -7.0d
+			x: 6.0d
+			y: 11.0d
 		}
 		{
 			description: [""]
@@ -2902,8 +2951,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Calyrex"
-			x: 9.0d
-			y: -7.0d
+			x: 11.0d
+			y: -10.0d
 		}
 		{
 			description: [""]
@@ -2929,8 +2978,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Glastrier"
-			x: 11.0d
-			y: -7.0d
+			x: 10.0d
+			y: -8.0d
 		}
 		{
 			description: [""]
@@ -2956,10 +3005,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Spectrier"
-			x: 13.0d
-			y: -7.0d
+			x: 12.0d
+			y: -8.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "019B0829BC7B711D"
 			shape: "none"
@@ -2982,9 +3032,9 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Regidrago"
-			x: 0.0d
-			y: -7.0d
+			title: "Enamorus"
+			x: 8.0d
+			y: 11.0d
 		}
 		{
 			description: [""]
@@ -3010,12 +3060,13 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Kubfu"
-			x: 15.0d
-			y: -7.0d
+			x: -2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5466D94C92226436"]
 			description: [""]
+			hide_until_deps_complete: false
 			id: "2EC9CFEC5B6BE653"
 			shape: "none"
 			size: 2.0d
@@ -3038,12 +3089,13 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Urshifu (Single Strike)"
-			x: 17.0d
-			y: -6.0d
+			x: 0.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["5466D94C92226436"]
 			description: [""]
+			hide_until_deps_complete: false
 			id: "5FEDE5F7908CA571"
 			shape: "none"
 			size: 2.0d
@@ -3066,10 +3118,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Urshifu (Rapid Strike)"
-			x: 17.0d
-			y: -8.0d
+			x: -4.0d
+			y: -12.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "242F129C3C3DAD3D"
 			shape: "none"
@@ -3093,10 +3146,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Terapagos"
-			x: 7.0d
-			y: -5.0d
+			x: 5.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "13F18C6036700BA7"
 			shape: "none"
@@ -3120,10 +3174,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Koraidon"
-			x: 3.0d
-			y: -5.0d
+			x: 1.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "65A0B894A64A878E"
 			shape: "none"
@@ -3147,10 +3202,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zacian"
-			x: 5.0d
-			y: -5.0d
+			x: 3.0d
+			y: 14.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "3FDA64883A8F9681"
 			shape: "none"
@@ -3174,10 +3230,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ogerpon"
-			x: -5.0d
-			y: -5.0d
+			x: 9.0d
+			y: 17.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "520A32661462602C"
 			shape: "none"
@@ -3201,10 +3258,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Munkidori"
-			x: -3.0d
-			y: -5.0d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "1A7AF9AF189DF96F"
 			shape: "none"
@@ -3228,10 +3286,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Fezandipiti"
-			x: -1.0d
-			y: -5.0d
+			x: 13.0d
+			y: 17.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			id: "4072967234D0EEEE"
 			shape: "none"
 			size: 2.0d
@@ -3257,6 +3316,7 @@
 			y: -15.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			id: "23CD26D984004126"
 			shape: "none"
 			size: 2.0d
@@ -3282,6 +3342,7 @@
 			y: -15.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			id: "218747DA6825532A"
 			shape: "none"
 			size: 2.0d
@@ -3303,10 +3364,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Treads"
-			x: 35.0d
+			x: 38.0d
 			y: -13.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			id: "5381445CCB6A2430"
 			shape: "none"
 			size: 2.0d
@@ -3328,10 +3390,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Jugulis"
-			x: 33.0d
+			x: 36.0d
 			y: -13.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "074AC296F1CC06DE"
 			shape: "none"
@@ -3354,10 +3417,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Boulder"
-			x: 39.0d
+			x: 30.0d
 			y: -13.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "3C04065F64DEC2A2"
 			shape: "none"
@@ -3380,10 +3444,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Crown"
-			x: 41.0d
+			x: 32.0d
 			y: -13.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			id: "3493E9B6B38F2182"
 			shape: "none"
 			size: 2.0d
@@ -3405,7 +3470,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Iron Hands"
-			x: 31.0d
+			x: 34.0d
 			y: -13.0d
 		}
 		{
@@ -3413,7 +3478,7 @@
 			id: "0EBCCA3706A180E0"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Wormhole Generator"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -3432,10 +3497,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Celesteela"
-			x: 30.0d
+			x: 27.0d
 			y: -21.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "04F219DF9F2B8A72"
 			shape: "none"
@@ -3459,7 +3525,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Pheromosa"
-			x: 32.0d
+			x: 29.0d
 			y: -21.0d
 		}
 		{
@@ -3486,12 +3552,13 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Poipole"
-			x: 35.0d
-			y: -23.0d
+			x: 21.0d
+			y: -21.0d
 		}
 		{
 			dependencies: ["27095A5816F58B81"]
 			description: [""]
+			hide_until_deps_complete: false
 			id: "1862834CE4AA333D"
 			shape: "none"
 			size: 2.0d
@@ -3514,10 +3581,11 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Naganadel"
-			x: 37.0d
-			y: -23.0d
+			x: 23.0d
+			y: -21.0d
 		}
 		{
+			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "4C9CE98D2374BC52"
 			shape: "none"
@@ -3541,7 +3609,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Stakataka"
-			x: 34.0d
+			x: 31.0d
 			y: -21.0d
 		}
 		{
@@ -3556,7 +3624,7 @@
 			id: "57323D1D7796E99F"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned from Ominous Stake"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -3576,8 +3644,49 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Chi-Yu"
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "31C7D687A7AF3DEB"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "157C032C5A22CF72"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tinglu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
 			x: 13.0d
-			y: -5.0d
+			y: 14.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "155A8CA7F7CBE10F"
+			invisible_until_tasks: 10
+			secret: true
+			tasks: [{
+				id: "1CB7F8333950CAA3"
+				title: "Unimplemented"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -4.0d
 		}
 	]
 	title: "Rare Pokémon"

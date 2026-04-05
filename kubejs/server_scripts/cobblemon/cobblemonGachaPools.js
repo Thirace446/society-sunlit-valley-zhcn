@@ -198,11 +198,11 @@ const specialGachaSpawns = new Map([
   ],
 ]);
 
-const getGachaPool = (type, qualityNbt) => {
+const getGachaPool = (type, qualityNbt, hasGachamonbler) => {
   let basePool = baseGachaSpawns;
   let specialPool = specialGachaSpawns.get(`${type}`);
   if (specialPool && specialPool.length > 0) {
-    if (qualityNbt && qualityNbt.quality && qualityNbt.quality == 3.0) {
+    if (qualityNbt && qualityNbt.quality && qualityNbt.quality == (hasGachamonbler ? 2.0 : 3.0)) {
       return specialPool;
     }
     return basePool.concat(specialPool);
@@ -219,15 +219,18 @@ const getShinyChance = (qualityNbt) => {
   return value;
 };
 const rollGacha = (level, server, itemNbt, player, pos) => {
-  let caughtMon = global.rollPokeWeightedTable(
-    getGachaPool(itemNbt.type, itemNbt.quality_food),
-  );
+  let hasGachamonbler = player.stages.has("the_gachamonbler");
+  let caughtMon = global.rollPokeWeightedTable(getGachaPool(itemNbt.type, itemNbt.quality_food, hasGachamonbler));
   let shinyChance = getShinyChance(itemNbt.quality_food);
+  if (hasGachamonbler) shinyChance *= 3;
+  else if (Math.random() < 0.03) {
+    player.give(Item.of("sunlit_cobblemon:the_gachamonbler"))
+  }
   let isShiny = false;
   if (!caughtMon) return;
   let pokeLevel = global.getPokemonLevel(caughtMon.lvlRange);
   if (pokeLevel == 1) {
-    console.log(`[WARNING] pokeGacha returned invalid level:`);
+    console.log(`[WARNING] pokeGacha returned invalid pokelevel:`);
     console.log(caughtMon);
   }
   if (Math.random() < shinyChance) {
@@ -245,10 +248,31 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
     );
   }
   server.runCommandSilent(
-    `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${
-      caughtMon.pokemon
+    `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon
     } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}${isShiny ? "shiny" : ""}`,
   );
+  if (player.stages.has("the_red_and_the_black")) {
+    if (!isShiny) {
+      if (Math.random() < shinyChance) {
+        isShiny = true;
+        server.tell(
+          Text.translatable(
+            "sunlit_cobblemon.gachamon_capsule.shiny_announce",
+            Text.red(`${player.username}`),
+            Text.gold(
+              Text.translatable(
+                `cobblemon.species.${caughtMon.pokemon}.name`,
+              ).getString(),
+            ),
+          ).gray(),
+        );
+      }
+    }
+    server.runCommandSilent(
+      `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon
+      } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}${isShiny ? "shiny" : ""}`,
+    );
+  }
   server.runCommandSilent(
     `playsound stardew_fishing:chest_get block @a ${pos.x} ${pos.y} ${pos.z}`,
   );
@@ -275,7 +299,7 @@ ItemEvents.rightClicked("sunlit_cobblemon:gachamon_capsule", (e) => {
     return;
   }
   let nearbyMons = level
-    .getEntitiesWithin(player.boundingBox.inflate(20))
+    .getEntitiesWithin(player.boundingBox.inflate(12))
     .filter((scanEntity) => scanEntity.type === "cobblemon:pokemon");
   if (nearbyMons.length > 40) {
     player.tell(

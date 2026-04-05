@@ -14,7 +14,7 @@
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_plains"
+                    "minecraft:meadow"
                 ]
             }
         }

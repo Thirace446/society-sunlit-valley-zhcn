@@ -3,7 +3,7 @@ console.info("[SOCIETY] iridiumClock.js loaded");
 global.runIridiumClock = (entity) => {
   const { level, block } = entity;
   const { x, y, z } = block;
-  const radius = 2;
+  const radius = 1;
   let scanBlock;
   let dayTime = level.dayTime();
   let morningModulo = dayTime % 24000;
@@ -32,7 +32,7 @@ global.runIridiumClock = (entity) => {
         },
       });
     }
-    block.setEntityData(blockNbt);
+    global.setBlockEntityData(block, blockNbt);
     let spinelType = Math.random() < 0.01 * surroundingClocks ? "society:pristine_spinel" : "society:spinel"
     let spinelToInsert = blockNbt.data.triggerTimes;
     let roundedStacks = Math.floor(spinelToInsert / 64);

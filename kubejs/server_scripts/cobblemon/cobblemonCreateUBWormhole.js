@@ -37,6 +37,8 @@ const getUBFromBiome = (level, player) => {
         return "kartana";
     } else if (biomeTags.includes("minecraft:is_mountain")) {
         return "guzzlord"
+    } else if (biomeTags.includes("minecraft:is_badlands")) {
+        return "celesteela"
     } else if (biomeTags.includes("minecraft:is_nether")) {
         return "blacephalon"
     }
@@ -62,7 +64,7 @@ ItemEvents.rightClicked('sunlit_cobblemon:wormhole_generator', e => {
         );
     }
     if (player.isCrouching()) {
-        if (!item.nbt) {
+        if (!item.nbt || !item.nbt.dust || item.nbt.dust <= 0) {
             server.runCommandSilent(
                 global.getEmbersTextAPICommand(
                     player.username,

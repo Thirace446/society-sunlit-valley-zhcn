@@ -1,8 +1,9 @@
 console.info("[SOCIETY-S-COBBLEMON] cobblemonOpenLootBall.js loaded");
+
 const lootBallTypes = global.cobblemonLootBallTypes.map((tier) => `sunlit_cobblemon:${tier}_loot_ball`);
 
 BlockEvents.rightClicked(lootBallTypes, (e) => {
-    const { block, hand, player, server } = e;
+    const { block, hand, player, server, level } = e;
     if (hand !== "MAIN_HAND") return;
     let nbt = block.getEntityData();
     if (!nbt) return;
@@ -26,9 +27,9 @@ BlockEvents.rightClicked(lootBallTypes, (e) => {
                 reward.item = item
                 reward.spawn();
             });
-            block.setEntityData(nbt);
-            block.getEntity().setChanged();
-            server.runCommandSilent( `playsound stardew_fishing:chest_get block @a ${player.x} ${player.y} ${player.z}` );
+            global.setBlockEntityData(block, nbt)
+    		level.sendBlockUpdated(block.getPos(), block.getBlockState(), block.getBlockState(), 3);
+            server.runCommandSilent(`playsound stardew_fishing:chest_get block @a ${player.x} ${player.y} ${player.z}`);
         }
     }
 }

@@ -16,6 +16,12 @@ ServerEvents.recipes((e) => {
   // TMS
   e.shapeless("sunlit_cobblemon:tm_pack", ["9x #sunlit_cobblemon:tr"]);
   e.shapeless("sunlit_cobblemon:greater_tm_pack", ["9x #sunlit_cobblemon:tm"]);
+  e.shapeless("simpletms:tr_firepledge", ["sunlit_cobblemon:fire_pledge"]);
+  e.shapeless("simpletms:tr_waterpledge", ["sunlit_cobblemon:water_pledge"]);
+  e.shapeless("simpletms:tr_grasspledge", ["sunlit_cobblemon:grass_pledge"]);
+  e.shapeless("simpletms:tm_firepledge", ["society:prismatic_shard", "sunlit_cobblemon:fire_pledge"]);
+  e.shapeless("simpletms:tm_waterpledge", ["society:prismatic_shard", "sunlit_cobblemon:water_pledge"]);
+  e.shapeless("simpletms:tm_grasspledge", ["society:prismatic_shard", "sunlit_cobblemon:grass_pledge"]);
   e.shaped("sunlit_cobblemon:uncharged_battery", [" zr", "zrz", "rz "], {
     z: "create:zinc_ingot",
     r: "create:rose_quartz",
@@ -30,18 +36,24 @@ ServerEvents.recipes((e) => {
     f: "sunlit_cobblemon:fairy_heart",
     s: "numismatics:prismatic_coin",
   });
-  e.shaped("cobble_workers:gardening_station", ["fff", "fpf", "f f"], {
+  e.shaped("cobblemon_farmers:gardening_station", ["fff", "fpf", "f f"], {
     f: "meadow:fire_log",
     p: "cobblemon:poke_ball",
   });
-  e.shaped("cobble_workers:craft_station", ["fff", "bpb", "b b"], {
+  e.shaped("cobblemon_farmers:craft_station", ["fff", "bpb", "b b"], {
     f: "meadow:fire_log",
     p: "cobblemon:poke_ball",
     b: "minecraft:bricks",
   });
-  e.shaped("cobble_workers:mystery_mine", ["efe", "fpf", "efe"], {
+  e.shaped("cobblemon_farmers:mystery_mine", ["efe", "fpf", "efe"], {
     f: "meadow:fire_log",
-    p: "cobblemon:poke_ball",
+    p: 'cobblemon:great_ball',
+    e: "society:earth_crystal",
+  });
+  e.shaped("cobblemon_farmers:ranching_station", ["sps", "ese", "fff"], {
+    s: "farmersdelight:straw",
+    f: "meadow:fire_log",
+    p: 'cobblemon:great_ball',
     e: "society:earth_crystal",
   });
   e.shapeless("sunlit_cobblemon:berry_smoothie", [
@@ -63,69 +75,38 @@ ServerEvents.recipes((e) => {
     "species:ichor_bottle",
     "cobblemon:vivichoke",
   ]);
-  // Legendaries
-  e.shaped(
-    Item.of("sunlit_cobblemon:star_pixie", '{type:"fire"}'),
-    [" g ", "fsf", " g "],
-    {
-      g: "sunlit_cobblemon:blazing_stone",
-      f: "sunlit_cobblemon:fairy_heart",
-      s: "society:ember_crystal_cluster",
-    },
-  );
-  e.shaped(
-    Item.of("sunlit_cobblemon:star_pixie", '{type:"electric"}'),
-    [" g ", "fsf", " g "],
-    {
-      g: "sunlit_cobblemon:endless_battery",
-      f: "sunlit_cobblemon:fairy_heart",
-      s: "society:amulet_of_light",
-    },
-  );
-  e.shaped(
-    Item.of("sunlit_cobblemon:star_pixie", '{type:"rock"}'),
-    [" g ", "fsf", " g "],
-    {
-      g: "sunlit_cobblemon:tabula_rasa",
-      f: "sunlit_cobblemon:fairy_heart",
-      s: "society:source_gem",
-    },
-  );
-  e.shaped(
-    Item.of("sunlit_cobblemon:star_pixie", '{type:"ice"}'),
-    [" g ", "fsf", " g "],
-    {
-      g: "sunlit_cobblemon:prismatic_ice",
-      f: "sunlit_cobblemon:fairy_heart",
-      s: "society:wheel_of_adaptation",
-    },
-  );
-  e.shaped(
-    Item.of("sunlit_cobblemon:star_pixie", '{type:"steel"}'),
-    [" g ", "fsf", " g "],
-    {
-      g: "sunlit_cobblemon:unbreakable_cog",
-      f: "sunlit_cobblemon:fairy_heart",
-      s: "society:steamy_gadget",
-    },
-  );
 
-  e.shaped(
-    Item.of("sunlit_cobblemon:star_pixie", '{type:"psychic"}'),
-    [" g ", "fsf", " g "],
+  e.shapeless('cobblemon:shell_helmet', ['society:froggy_helm', "crabbersdelight:nautilus_shell_block"])
+  const compactCobblemon = (output, compactInput, count) => {
+    e.shapeless(`${count}x ${compactInput}`, [output]);
+    e.shapeless(output, [`${count}x ${compactInput}`]);
+  };
+  ['dawn', 'dusk', 'fire', 'ice', 'leaf', 'moon', 'shiny', 'sun', 'thunder', 'water'].forEach((stone) => {
+    compactCobblemon(`cobblemon:${stone}_stone_block`, `cobblemon:${stone}_stone`, 9);
+  })
+  // Legendaries
+  e.shapeless("sunlit_cobblemon:rainbow_steam", ["sunlit_cobblemon:fire_pledge", "sunlit_cobblemon:water_pledge", "society:violet_moon"]);
+  e.shapeless("sunlit_cobblemon:blazing_calamity", ["sunlit_cobblemon:fire_pledge", "sunlit_cobblemon:grass_pledge", 'society:recycled_core']);
+  e.shapeless("sunlit_cobblemon:swampy_mystica_branch", ["sunlit_cobblemon:grass_pledge", "sunlit_cobblemon:water_pledge", "sunlit_cobblemon:mystica_branch", "society:sunlit_crystal"]);
+  e.shapeless("sunlit_cobblemon:mystica_nectar", ["society:mossberry_stew", "sunlit_cobblemon:mystica_branch", "sunlit_cobblemon:swampy_mystica_branch"]);
+    e.shaped(
+    "sunlit_cobblemon:moongeist_crystal",
+    ["dmb", "mfm", "rmd"],
     {
-      g: "sunlit_cobblemon:poke_genes",
+      b: "sunlit_cobblemon:blooming_ring",
+      m: "cobblemon:moon_stone",
       f: "sunlit_cobblemon:fairy_heart",
-      s: "society:production_science_pack",
+      d: "sunlit_cobblemon:moondust",
+      r: "sunlit_cobblemon:resonance_gem",
     },
   );
   e.shaped(
-    Item.of("sunlit_cobblemon:star_pixie", '{type:"flying"}'),
-    [" g ", "fsf", " g "],
+    "sunlit_cobblemon:gem_box",
+    ["sts", "tut", "sts"],
     {
-      g: "sunlit_cobblemon:atmospheric_vial",
-      f: "sunlit_cobblemon:fairy_heart",
-      s: "society:production_science_pack",
+      t: "sunlit_cobblemon:tabula_rasa",
+      u: "society:token_of_unity",
+      s: "quark:sturdy_stone",
     },
   );
   e.shaped("sunlit_cobblemon:sun_essence", ["dmd", "msm", "dmd"], {
@@ -171,8 +152,80 @@ ServerEvents.recipes((e) => {
     "count": 4,
     "experience": 0.3
   })
+  // Misc
 
+  e.shapeless("4x cobblemon:energy_root", ["sunlit_cobblemon:strange_spore", "cobblemon:big_root", "cobblemon:big_root", "cobblemon:big_root", "cobblemon:big_root"]);
   global.cobbleTypeGems.forEach((gem) => {
-    e.shapeless(`3x ${gem.item}`, [`society:pristine_${gem.item.split(":")[1]}`]);
+    e.shapeless(`3x ${gem.item}`, [`sunlit_cobblemon:pristine_${gem.item.split(":")[1]}`]);
   });
+
+
+  // Botania Alts
+  e.custom({
+    "type": "botania:runic_altar",
+    "ingredients": [
+      {
+        "tag": "botania:mana_diamond_gems"
+      },
+      {
+        "tag": "botania:mana_diamond_gems"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "sunlit_cobblemon:poison_drop"
+      },
+      {
+        "item": "botania:rune_earth"
+      },
+      {
+        "item": "botania:rune_mana"
+      }
+    ],
+    "mana": 12000,
+    "output": {
+      "item": "botania:rune_wrath"
+    }
+  })
+  e.custom({
+    "type": "botania:runic_altar",
+    "ingredients": [
+      {
+        "item": "botania:rune_water"
+      },
+      {
+        "item": "botania:rune_earth"
+      },
+      {
+        "item": "sunlit_cobblemon:permafrost"
+      }
+    ],
+    "mana": 8000,
+    "output": {
+      "item": "botania:rune_winter"
+    }
+  })
+  e.custom({
+    "type": "botania:mana_infusion",
+    "input": {
+      "item": "sunlit_cobblemon:electro_wool"
+    },
+    "mana": 2500,
+    "output": {
+      "item": "botania:mana_string",
+      "count": 4
+    }
+  })
+  const compact = (output, compactInput, count) => {
+    e.shapeless(`${count}x ${compactInput}`, [output]);
+    e.shapeless(output, [`${count}x ${compactInput}`]);
+  };
+  compact(`sunlit_cobblemon:large_moomoo_milk`, `sunlit_cobblemon:moomoo_milk`, 4);
 });
