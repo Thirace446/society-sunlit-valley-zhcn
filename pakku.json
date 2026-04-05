@@ -1,6 +1,6 @@
 {
     "name": "Society Sunlit Cobblemon",
-    "version": "PLAYTEST-9-1.0.0-SSV4.0.5",
+    "version": "1.0.0-SSV4.0.5",
     "overrides": [
         "config",
         "defaultconfigs",
