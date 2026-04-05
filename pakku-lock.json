@@ -2075,6 +2075,49 @@
             ]
         },
         {
+            "pakku_id": "2nY3EqV7MxDO5pZI",
+            "pakku_links": [
+                "KDWmpmJACN6AFIki",
+                "G8PY4TgHrc0mTsSS"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cobblemon-emi-backported"
+            },
+            "name": {
+                "curseforge": "Cobblemon EMI Backported"
+            },
+            "id": {
+                "curseforge": "1502748"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cobbleemibackported-1.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7867/487/cobbleemibackported-1.1.jar",
+                    "id": "7867487",
+                    "parent_id": "1502748",
+                    "hashes": {
+                        "sha1": "ef544d9ed6669171df88542c34ec262c7c87e322",
+                        "md5": "d07649c0c94890770631a743acd0c39a"
+                    },
+                    "required_dependencies": [
+                        "687131",
+                        "580555"
+                    ],
+                    "size": 54940,
+                    "date_published": "2026-04-03T13:06:46.423Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oRHF3F0A7HfabsEM",
             "pakku_links": [
                 "KDWmpmJACN6AFIki"
@@ -2092,26 +2135,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cobblemon_farmers-0.5.jar",
+                    "file_name": "cobblemon_farmers-1.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7298/569/cobblemon_farmers-0.5.jar",
-                    "id": "7298569",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7876/122/cobblemon_farmers-1.0.jar",
+                    "id": "7876122",
                     "parent_id": "1375081",
                     "hashes": {
-                        "sha1": "511f31ae217679b3fd41728b2f90095ab8edc012",
-                        "md5": "430b75420ca9245c3bd278db63d54420"
+                        "sha1": "46128b5ef358af4c4a71ccfd541943b090ce8cfb",
+                        "md5": "eccd24f4b862ed23114bcc22f7ace27c"
                     },
                     "required_dependencies": [
                         "687131"
                     ],
-                    "size": 197192,
-                    "date_published": "2025-12-05T23:07:47.413Z"
+                    "size": 394402,
+                    "date_published": "2026-04-04T21:04:49.337Z"
                 }
             ]
         },
@@ -2365,7 +2408,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cobblemon_showdown-1.0.0.jar",
+                    "file_name": "cobblemon_showdown-1.0.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2373,16 +2416,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7666/735/cobblemon_showdown-1.0.0.jar",
-                    "id": "7666735",
+                    "url": "https://edge.forgecdn.net/files/7776/261/cobblemon_showdown-1.0.1.jar",
+                    "id": "7776261",
                     "parent_id": "1469729",
                     "hashes": {
-                        "sha1": "13d3358ca98d89625dff5d2f0abcef6053a36685",
-                        "md5": "b6f3e3879d3c3ce7ed94bb4169c1efb0"
+                        "sha1": "78c0f577dac15e12155eb98800bb2f064e88af32",
+                        "md5": "88c5976dbcc490bd592794f51839f825"
                     },
-                    "required_dependencies": [],
-                    "size": 374940,
-                    "date_published": "2026-02-23T06:28:42.033Z"
+                    "required_dependencies": [
+                        "687131"
+                    ],
+                    "size": 378050,
+                    "date_published": "2026-03-18T15:12:34.067Z"
                 }
             ]
         },

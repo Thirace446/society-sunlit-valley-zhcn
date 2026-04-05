@@ -396,12 +396,12 @@
     "curseForgeHash": 1336535914,
     "modrinthHash": "c0b615b40e9dfc34f0e6bfdabd9480fda6a0e32f"
   },
-  "cobblemon_showdown-1.0.0.jar": {
-    "jarName": "cobblemon_showdown-1.0.0.jar",
+  "cobblemon_showdown-1.0.1.jar": {
+    "jarName": "cobblemon_showdown-1.0.1.jar",
     "modId": "cobblemon_showdown",
-    "version": "1.0.0",
-    "curseForgeHash": 1897432757,
-    "modrinthHash": "13d3358ca98d89625dff5d2f0abcef6053a36685"
+    "version": "1.0.1",
+    "curseForgeHash": 3248614857,
+    "modrinthHash": "78c0f577dac15e12155eb98800bb2f064e88af32"
   },
   "cobblemonchallenge-forge-1.20.1-1.1.8.jar": {
     "jarName": "cobblemonchallenge-forge-1.20.1-1.1.8.jar",

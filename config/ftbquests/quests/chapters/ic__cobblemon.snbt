@@ -280,8 +280,19 @@
 					type: "item"
 				}
 				{
-					id: "65E97B639FE00FDD"
-					item: "sunlit_cobblemon:berry_capsule"
+					id: "7B32600259915356"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_barrel"
+						tag: {
+							woodType: "spruce"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62BCE68786BC236E"
+					item: "sophisticatedstorage:magnet_upgrade"
 					type: "item"
 				}
 			]
@@ -517,7 +528,7 @@
 			]
 			id: "3BD199B4A938437F"
 			rewards: [{
-				id: "63E5DD67AB944756"
+				id: "0AC8CC3C76630721"
 				item: "cobblemon:exp_candy_l"
 				type: "item"
 			}]

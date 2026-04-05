@@ -1158,6 +1158,36 @@ if (runRanchingDataGen) {
             ],
         },
         {
+            pokemon: "luvdisc",
+            forages: [
+                {
+                    item: 'society:spindlefish_roe',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: "society:spindlefish_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:spindlefish_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:spindlefish_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 8
+                }
+            ],
+        },
+        {
+            pokemon: "alomomola",
             forages: [
                 {
                     item: 'society:spindlefish_roe',
@@ -4596,7 +4626,7 @@ if (runRanchingDataGen) {
             pokemon: "sunkern",
             forages: [
                 {
-                    item: 'veggiesdelight:dandelion_leaf',
+                    item: "minecraft:sunflower",
                     count: 2,
                     chance: 1,
                     min_hearts: 0

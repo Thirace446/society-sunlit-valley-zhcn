@@ -3,7 +3,7 @@
 	"pokemon": "sunkern",
 	"forages": [
 		{
-			"item": "veggiesdelight:dandelion_leaf",
+			"item": "minecraft:sunflower",
 			"count": 2,
 			"chance": 1,
 			"min_hearts": 0

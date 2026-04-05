@@ -53,20 +53,70 @@
     },
     {
       "stack": "item:cobblemon:life_orb"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "minecraft:experience_bottle",
+        "amount": 14
+      }
     }
   ],
   "lookup_history": [
+    "item:farmersdelight:skillet{Damage:0}",
+    "item:farmersdelight:tomato_crate",
+    "item:farmersdelight:basket",
+    "item:farmersdelight:stove",
+    "item:cobblemon_farmers:ranching_station",
+    "item:farmersdelight:cutting_board",
+    "item:cobblemon_farmers:mystery_mine",
+    "item:cobblemon_farmers:gardening_station",
+    "item:cobblemon_farmers:craft_station",
+    "item:farmersdelight:apple_pie_slice",
+    "item:farmersdelight:fruit_salad",
+    {
+      "id": "farmersdelight:comfort"
+    },
+    {
+      "id": "farmersdelight:nourishment"
+    },
+    "item:farmersdelight:cake_slice",
+    "item:farmersdelight:sweet_berry_cookie",
+    "item:society:pine_tar",
+    {
+      "type": "item",
+      "id": "meadow:fire_log",
+      "amount": 12
+    },
+    "item:cobblemon:babiri_berry",
+    "item:society:candied_animal_feed",
+    "item:society:mana_feed",
+    "item:splendid_slimes:slime_candy",
+    "item:society:feeding_trough",
+    "item:sophisticatedbackpacks:feeding_upgrade",
+    "item:society:animal_feed",
+    "item:farm_and_charm:chicken_feed",
+    "item:society:animal_feed_sack",
+    "item:longwings:butterfly_bowl_feeder",
+    "item:minecraft:sunflower",
+    {
+      "type": "item",
+      "id": "sunlit_cobblemon:resonance_gem",
+      "amount": 64
+    },
+    "item:cluttered:garland_sunflower",
+    "item:sunlit_cobblemon:fire_pledge",
+    "item:cobblemon:water_stone",
+    "item:sunlit_cobblemon:water_pledge",
     {
       "type": "item",
       "id": "sunlit_cobblemon:fairy_heart",
       "amount": 64
     },
-    "item:sunlit_cobblemon:resonance_gem",
     "item:society:prismatic_shard",
     "item:society:pristine_prismarine_crystals",
     "item:sunlit_cobblemon:rainbow_steam",
     "item:cobblemon:moon_stone_block",
-    "item:sunlit_cobblemon:fire_pledge",
     "item:sunlit_cobblemon:grass_pledge",
     "item:sunlit_cobblemon:gem_box",
     {
@@ -164,12 +214,8 @@
       "id": "society:earth_crystal",
       "amount": 10
     },
-    "item:cobblemon_farmers:ranching_station",
     "item:cobblemon:hopo_berry",
     "item:society:cheese_press",
-    "item:meadow:fire_log",
-    "item:society:pine_tar",
-    "item:cobblemon_farmers:gardening_station",
     "item:cobblemon:haban_berry",
     "item:cobblemon:sitrus_berry",
     {
@@ -334,7 +380,6 @@
       "id": "minecraft:bricks",
       "amount": 16
     },
-    "item:cobblemon_farmers:craft_station",
     {
       "type": "item",
       "id": "cobblemon:thunder_stone",
@@ -428,7 +473,6 @@
       "amount": 2
     },
     "item:farmersdelight:canvas",
-    "item:farmersdelight:basket",
     "item:sunlit_cobblemon:crystalline_pofflet",
     "item:sunlit_cobblemon:mossy_pofflet",
     "item:sunlit_cobblemon:spicy_pofflet",
@@ -438,7 +482,6 @@
     "item:meadow:stove_tiles_bench",
     "item:meadow:stove_tiles_wood",
     "item:farm_and_charm:stove",
-    "item:farmersdelight:stove",
     "item:sunlit_cobblemon:electro_wool",
     "item:farmersdelight:straw",
     {
@@ -501,13 +544,11 @@
       "id": "cobblemon:luxury_ball",
       "amount": 64
     },
-    "item:cobblemon_farmers:mystery_mine",
     "item:cobblemon:health_feather",
     "item:cobblemon:clever_mochi",
     "item:sunlit_cobblemon:master_poke_bobber",
     "item:cobblemon:smart_candy",
     "item:cobblemon:courage_candy",
-    "item:sunlit_cobblemon:water_pledge",
     "item:cobblemon:ancient_jet_ball",
     "item:cobblemon:mirror_herb",
     "item:cobblemon:loamy_mulch",
@@ -640,7 +681,6 @@
       "id": "buzzier_bees:honey_apple",
       "amount": 4
     },
-    "item:minecraft:sunflower",
     "item:veggiesdelight:dandelion_and_eggs",
     "item:cobblemon:dragon_gem",
     "item:crittersandcompanions:dragonfly_wing",
@@ -698,7 +738,6 @@
     "item:society:ocean_jelly",
     "item:sunlit_cobblemon:greater_tm_pack",
     "item:sunlit_cobblemon:prismatic_tm_pack",
-    "item:cobblemon:babiri_berry",
     "item:society:pristine_diamond",
     "item:minecraft:coal",
     "item:minecraft:jack_o_lantern",
@@ -793,7 +832,6 @@
     "item:farmersdelight:fried_rice",
     "item:cobblemon:iron",
     "item:supplementaries:candy",
-    "item:splendid_slimes:slime_candy",
     "item:cluttered:blue_wainscoting",
     "item:vintagedelight:glow_berry_mason_jar",
     "item:minecraft:warped_fungus_on_a_stick{Damage:0}",
@@ -863,7 +901,6 @@
     "item:beachparty:rubber_ring_pelican{Damage:0}",
     "item:vintagedelight:overnight_oats",
     "item:cluttered:nightstand_green",
-    "item:longwings:butterfly_bowl_feeder",
     "item:wildernature:owl_spawn_egg",
     "item:botania:incense_stick{brewKey:\"botania:night_vision\"}",
     "item:supplementaries:cannonball",
@@ -1302,11 +1339,11 @@
     "item:cobblemon:green_mint_seeds"
   ],
   "craft_history": [
+    "minecraft:kjs/society_cheese_press",
+    "minecraft:kjs/cobblemon_farmers_gardening_station",
+    "meadow:fire_log",
     "minecraft:kjs/sunlit_cobblemon_large_moomoo_milk",
     "minecraft:kjs/cobblemon_farmers_ranching_station",
-    "minecraft:kjs/society_cheese_press",
-    "meadow:fire_log",
-    "minecraft:kjs/cobblemon_farmers_gardening_station",
     "minecraft:raw_gold_block",
     "sophisticatedbackpacks:copper_backpack",
     "minecraft:hopper",
