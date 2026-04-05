@@ -455,7 +455,7 @@ global.handleFishPondTick = (tickEvent) => {
   if (type == 0) {
     let defaultNbt = block.getEntityData();
     defaultNbt.merge({ data: { type: "" } });
-    block.setEntityData(defaultNbt);
+    global.setBlockEntityData(block, defaultNbt);
     return;
   }
   if (!String(type).includes(":")) {
