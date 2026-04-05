@@ -173,6 +173,17 @@ ServerEvents.tags("item", (e) => {
   });
   e.add("society:raw_logs", "cobblemon:apricorn_log");
   e.add("society:fossilish", "#cobblemon:fossils");
+
+  [
+    "cobblemon",
+    "aquaculture",
+    "sunlit_cobblemon",
+    "unimplemented_items",
+    "simpletms",
+    "cobblemon_farmers"
+  ].forEach((tag) => {
+    e.add("furniture:trash_bag_blacklist", `@${tag}`);
+  });
 });
 
 ServerEvents.tags("block", (e) => {

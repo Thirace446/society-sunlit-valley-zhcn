@@ -1,14 +1,14 @@
 {
     "info.cobblemon_farmers.craft_station.type.normal": "Can't work here",
-    "info.cobblemon_farmers.craft_station.type.fire": "Smelts/smokes fish",
+    "info.cobblemon_farmers.craft_station.type.fire": "Smelts and smokes",
     "info.cobblemon_farmers.craft_station.type.water": "Can't work here",
     "info.cobblemon_farmers.craft_station.type.grass": "Can't work here",
-    "info.cobblemon_farmers.craft_station.type.flying": "Crafts legandary item",
+    "info.cobblemon_farmers.craft_station.type.flying": "Can't work here",
     "info.cobblemon_farmers.craft_station.type.fighting": "Farms saplings",
     "info.cobblemon_farmers.craft_station.type.poison": "Pickles vegetables",
     "info.cobblemon_farmers.craft_station.type.electric": "Charges batteries",
     "info.cobblemon_farmers.craft_station.type.ground": "Can't work here",
-    "info.cobblemon_farmers.craft_station.type.rock": "Crafts legandary item",
+    "info.cobblemon_farmers.craft_station.type.rock": "Crafts Tabula Rasa",
     "info.cobblemon_farmers.craft_station.type.psychic": "Crafts Poké Genes",
     "info.cobblemon_farmers.craft_station.type.ice": "Grows crystals",
     "info.cobblemon_farmers.craft_station.type.bug": "Crafts potions",
@@ -35,5 +35,7 @@
     "info.cobblemon_farmers.mystery_mine.type.steel": "Can't work here",
     "info.cobblemon_farmers.mystery_mine.type.dragon": "Plunders gems",
     "info.cobblemon_farmers.mystery_mine.type.dark": "Can't work here",
-    "info.cobblemon_farmers.mystery_mine.type.fairy": "Can't work here"
+    "info.cobblemon_farmers.mystery_mine.type.fairy": "Can't work here",
+
+    "info.cobblemon_farmers.gardening_station.type.fire": "Can't work here"
 }

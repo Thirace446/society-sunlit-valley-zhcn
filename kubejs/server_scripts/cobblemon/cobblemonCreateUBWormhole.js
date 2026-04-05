@@ -64,7 +64,7 @@ ItemEvents.rightClicked('sunlit_cobblemon:wormhole_generator', e => {
         );
     }
     if (player.isCrouching()) {
-        if (!item.nbt) {
+        if (!item.nbt || !item.nbt.dust || item.nbt.dust <= 0) {
             server.runCommandSilent(
                 global.getEmbersTextAPICommand(
                     player.username,

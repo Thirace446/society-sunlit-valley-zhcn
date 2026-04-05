@@ -63,6 +63,32 @@
     }
   ],
   "lookup_history": [
+    "item:cobblemon_farmers:dark_type_worker",
+    "item:cobblemon_farmers:fairy_type_worker",
+    "item:cobblemon_farmers:dragon_type_worker",
+    "item:cobblemon_farmers:steel_type_worker",
+    "item:cobblemon_farmers:ghost_type_worker",
+    "item:cobblemon_farmers:bug_type_worker",
+    "item:cobblemon_farmers:ice_type_worker",
+    "item:cobblemon_farmers:psychic_type_worker",
+    "item:cobblemon_farmers:rock_type_worker",
+    "item:cobblemon_farmers:ground_type_worker",
+    "item:cobblemon_farmers:electric_type_worker",
+    "item:cobblemon_farmers:poison_type_worker",
+    "item:cobblemon_farmers:fighting_type_worker",
+    "item:cobblemon_farmers:grass_type_worker",
+    "item:cobblemon_farmers:water_type_worker",
+    "item:cobblemon_farmers:fire_type_worker",
+    "item:cobblemon_farmers:normal_type_worker",
+    "item:society:thunder_egg",
+    "item:cobblemon:syrupy_apple",
+    "item:sunlit_cobblemon:venomshine",
+    "item:sunlit_cobblemon:poison_drop",
+    {
+      "type": "item",
+      "id": "society:moth_pollen",
+      "amount": 3
+    },
     "item:farmersdelight:skillet{Damage:0}",
     "item:farmersdelight:tomato_crate",
     "item:farmersdelight:basket",
@@ -74,12 +100,6 @@
     "item:cobblemon_farmers:craft_station",
     "item:farmersdelight:apple_pie_slice",
     "item:farmersdelight:fruit_salad",
-    {
-      "id": "farmersdelight:comfort"
-    },
-    {
-      "id": "farmersdelight:nourishment"
-    },
     "item:farmersdelight:cake_slice",
     "item:farmersdelight:sweet_berry_cookie",
     "item:society:pine_tar",
@@ -495,7 +515,6 @@
       "amount": 64
     },
     "item:sunlit_cobblemon:strange_spore",
-    "item:sunlit_cobblemon:venomshine",
     "item:vintagedelight:kimchi",
     "item:vintagedelight:ghost_pepper",
     "item:windswept:spicy_snow_cone",
@@ -611,11 +630,6 @@
     },
     {
       "type": "item",
-      "id": "cobblemon:syrupy_apple",
-      "amount": 64
-    },
-    {
-      "type": "item",
       "id": "cobblemon:tart_apple",
       "amount": 64
     },
@@ -674,7 +688,6 @@
     "item:society:fire_quartz",
     "item:cobblemon:humid_mulch",
     "item:sunlit_cobblemon:berry_capsule",
-    "item:sunlit_cobblemon:poison_drop",
     "item:society:maple_syrup",
     {
       "type": "item",
@@ -699,7 +712,6 @@
       "id": "species:wicked_candle",
       "amount": 64
     },
-    "item:cobblemon_farmers:fairy_type_worker",
     "item:botania:life_essence",
     "item:betterarcheology:soul_totem{Damage:0}",
     "item:species:broken_links",
@@ -722,7 +734,6 @@
     "item:vintagedelight:nut_milk_bottle",
     "item:society:steamed_milk",
     "item:beachparty:sweetberry_milkshake",
-    "item:cobblemon_farmers:dragon_type_worker",
     "item:sunlit_cobblemon:wormhole_generator",
     "item:sunlit_cobblemon:savage_sun",
     "item:sunlit_cobblemon:mukbeth",
@@ -978,11 +989,7 @@
     "item:sunlit_cobblemon:pristine_ghost_gem",
     "item:sunlit_cobblemon:pristine_electric_gem",
     "item:cobblemon:black_gilded_chest",
-    "item:cobblemon_farmers:poison_type_worker",
-    "item:cobblemon_farmers:electric_type_worker",
     "item:cobblemon_farmers:flying_type_worker",
-    "item:cobblemon_farmers:grass_type_worker",
-    "item:cobblemon_farmers:water_type_worker",
     "item:cobblemon:automaton_armor_trim_smithing_template",
     "item:splendid_slimes:slime_heart{slime:{id:\"splendid_slimes:bear\"}}",
     "item:splendid_slimes:plort{plort:{id:\"splendid_slimes:bear\"}}",
@@ -1010,16 +1017,6 @@
     "item:untitledduckmod:duck_egg",
     "item:numismatics:ancient_coin",
     "item:society:supreme_mayonnaise",
-    "item:cobblemon_farmers:normal_type_worker",
-    "item:cobblemon_farmers:fire_type_worker",
-    "item:cobblemon_farmers:fighting_type_worker",
-    "item:cobblemon_farmers:ground_type_worker",
-    "item:cobblemon_farmers:psychic_type_worker",
-    "item:cobblemon_farmers:rock_type_worker",
-    "item:cobblemon_farmers:ice_type_worker",
-    "item:cobblemon_farmers:ghost_type_worker",
-    "item:cobblemon_farmers:steel_type_worker",
-    "item:cobblemon_farmers:dark_type_worker",
     "item:society:banana_karenina",
     "item:crittersandcompanions:silk_cocoon",
     "item:society:spider_silk",
@@ -1332,7 +1329,6 @@
     },
     "item:windswept:pinecone_jam_block",
     "item:atmospheric:aloe_gel_bottle",
-    "item:society:moth_pollen",
     "item:cobblemon:net_ball",
     "item:cobblemon:pc",
     "#item:cobblemon:held/is_held_item",
