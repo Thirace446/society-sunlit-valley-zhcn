@@ -1477,7 +1477,7 @@
 			size: 2.0d
 			subtitle: "Playtesting Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""

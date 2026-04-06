@@ -3,7 +3,7 @@ console.info("[SOCIETY] cobblemonGUI.js loaded");
 const pokeRadarPadding = 2;
 
 const $PokemonSpecies = Java.loadClass("com.cobblemon.mod.common.api.pokemon.PokemonSpecies").INSTANCE;
-// pumpkaboo /gourg
+
 const formMap = new Map([
     ["deerling", "spring"],
     ["sawsbuck", "spring"],
@@ -29,10 +29,22 @@ const formMap = new Map([
     ["alcremie", "berry_ruby"],
     ["shellos", "east"],
     ["gastrodon", "east"],
-    ["indeedee", "female"]
+    ["indeedee", "female"],
+    ["meowstic", "male"],
+    ["meowstic", "male"],
+    ["pumpkaboo", "average"],
+    ["gourgeist", "average"],
 ]);
-// ["mrrime", "mrmime"].includes(identifier) ? "mr" : identifier}/${}
+
 const handleIdentifier = (id) => {
+    switch (id) {
+        case "kommoo":
+            return "kommo-o/kommo-o";
+        case "jangmoo":
+            return "jangmo-o/jangmo-o";
+        case "hakamoo":
+            return "hakamo-o/hakamo-o";
+    }
     if (!["mrrime", "mrmime"].includes(id)) return `${id}/${id}`;
     return `mr/${id.slice(0, 2) + "_" + id.slice(2)}`;
 }
