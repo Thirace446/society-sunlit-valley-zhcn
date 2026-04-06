@@ -68,9 +68,9 @@ playerWhitelist = []
 enableSounds = true
 soundId = "minecraft:entity.item.pickup"
 #Range: 0.0 ~ 1.0
-soundVolume = 1.0
+soundVolume = 0.5
 #Range: 0.0 ~ 2.0
-soundPitch = 1.0
+soundPitch = 2.0
 enableFiltering = false
 hideYourCommonItems = false
 hideOtherCommonItems = false
