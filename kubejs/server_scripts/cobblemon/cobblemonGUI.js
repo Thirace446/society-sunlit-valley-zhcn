@@ -1,9 +1,9 @@
 console.info("[SOCIETY] cobblemonGUI.js loaded");
 
 const pokeRadarPadding = 2;
-// lycanroc
+
 const $PokemonSpecies = Java.loadClass("com.cobblemon.mod.common.api.pokemon.PokemonSpecies").INSTANCE;
-// pumpkaboo /gourg
+
 const formMap = new Map([
     ["deerling", "spring"],
     ["sawsbuck", "spring"],
@@ -31,8 +31,11 @@ const formMap = new Map([
     ["gastrodon", "east"],
     ["indeedee", "female"],
     ["meowstic", "male"],
+    ["meowstic", "male"],
+    ["pumpkaboo", "average"],
+    ["gourgeist", "average"],
 ]);
-// ["mrrime", "mrmime"].includes(identifier) ? "mr" : identifier}/${}
+
 const handleIdentifier = (id) => {
     switch (id) {
         case "kommoo":
