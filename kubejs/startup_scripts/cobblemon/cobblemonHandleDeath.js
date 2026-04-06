@@ -49,10 +49,10 @@ global.handleCobblemonDefeat = (e) => {
       if (winStreak > 10) {
         reward *= Math.floor(winStreak / 10) * 1.25;
       }
-      if (player && player.stages.has("the_art_of_battle")) {
+      if (winningPlayer && winningPlayer.stages.has("the_art_of_battle")) {
         reward *= 1.25
-      } else if (player && Math.random() < 0.01) {
-        player.give(Item.of("sunlit_cobblemon:the_art_of_battle"))
+      } else if (winningPlayer && Math.random() < 0.01) {
+        winningPlayer.give(Item.of("sunlit_cobblemon:the_art_of_battle"))
       }
     }
     let account = global.GLOBAL_BANK.getAccount(winningPlayer.getUuid());

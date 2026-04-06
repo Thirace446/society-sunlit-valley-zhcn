@@ -594,7 +594,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills unlock add @p sunlit_cobblemon:trainer_level 92gccoovns266og8"
+					command: "/puffish_skills skills unlock @p sunlit_cobblemon:trainer_level 92gccoovns266og8"
 					elevate_perms: true
 					id: "4FC2E7C232487C1E"
 					silent: true
@@ -677,7 +677,7 @@
 				}
 				{
 					auto: "invisible"
-					command: "/puffish_skills unlock add @p sunlit_cobblemon:trainer_level e120t5f0v4ten9p1"
+					command: "/puffish_skills skills unlock @p sunlit_cobblemon:trainer_level e120t5f0v4ten9p1"
 					elevate_perms: true
 					id: "394458C60641A1A3"
 					silent: true
@@ -924,7 +924,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/puffish_skills unlock add @p sunlit_cobblemon:trainer_level n57z1ecjoewra6uy"
+					command: "/puffish_skills skills unlock @p sunlit_cobblemon:trainer_level n57z1ecjoewra6uy"
 					elevate_perms: true
 					id: "5E47C95DABA998C3"
 					silent: true
@@ -1100,7 +1100,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/puffish_skills unlock add @p sunlit_cobblemon:trainer_level 8jlrnajxtdgftvx4"
+					command: "/puffish_skills skills unlock @p sunlit_cobblemon:trainer_level 8jlrnajxtdgftvx4"
 					elevate_perms: true
 					id: "29F66C2A1BE341DD"
 					silent: true
@@ -1250,7 +1250,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/puffish_skills unlock add @p sunlit_cobblemon:trainer_level f86ran43zu5dnpzj"
+					command: "/puffish_skills skills unlock @p sunlit_cobblemon:trainer_level f86ran43zu5dnpzj"
 					elevate_perms: true
 					id: "478C71831202BD57"
 					silent: true
@@ -1656,7 +1656,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/puffish_skills unlock add @p sunlit_cobblemon:trainer_level e9nhcqkx3gjnemkh"
+					command: "/puffish_skills skills unlock @p sunlit_cobblemon:trainer_level e9nhcqkx3gjnemkh"
 					elevate_perms: true
 					id: "4FF6049DFFC66DF3"
 					silent: true
@@ -2767,7 +2767,7 @@
 			rewards: [
 				{
 					auto: "invisible"
-					command: "/puffish_skills unlock add @p sunlit_cobblemon:trainer_level x9xxq8yf2xwfxltm"
+					command: "/puffish_skills skills unlock @p sunlit_cobblemon:trainer_level x9xxq8yf2xwfxltm"
 					elevate_perms: true
 					id: "12CC41C00865F7A0"
 					silent: true

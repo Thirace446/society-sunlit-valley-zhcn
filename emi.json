@@ -63,6 +63,93 @@
     }
   ],
   "lookup_history": [
+    "item:supplementaries:jar",
+    {
+      "type": "item",
+      "id": "society:jade",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "golemoverhaul:honey_blob",
+      "amount": 18
+    },
+    "item:cobblemon:mulch_base",
+    "item:cobblemon:surprise_mulch",
+    {
+      "type": "item",
+      "id": "sunlit_cobblemon:mystica_branch",
+      "amount": 6
+    },
+    "item:minecraft:copper_block",
+    "item:society:mayonnaise_machine",
+    "item:cobblemon:dawn_stone",
+    {
+      "type": "item",
+      "id": "minecraft:torch",
+      "amount": 12
+    },
+    {
+      "type": "item",
+      "id": "cobblemon:chilan_berry",
+      "amount": 11
+    },
+    {
+      "type": "item",
+      "id": "cobblemon:sitrus_berry",
+      "amount": 8
+    },
+    "item:minecraft:chain",
+    "item:society:penguin_egg",
+    "item:minecraft:anvil",
+    {
+      "type": "item",
+      "id": "cobblemon:exp_candy_l",
+      "amount": 7
+    },
+    {
+      "type": "item",
+      "id": "cobblemon:exp_candy_m",
+      "amount": 21
+    },
+    "item:cobblemon:exp_candy_s",
+    "item:cobblemon:relic_coin",
+    "item:sunlit_cobblemon:mystica_cookie",
+    {
+      "type": "item",
+      "id": "cobblemon:leaf_stone",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "cobblemon:hp_up",
+      "amount": 13
+    },
+    "item:cobblemon_farmers:ranching_station",
+    "item:meadow:fire_log",
+    {
+      "type": "item",
+      "id": "farmersdelight:straw",
+      "amount": 3
+    },
+    "item:sunlit_cobblemon:venomshine",
+    {
+      "type": "item",
+      "id": "sunlit_cobblemon:poison_drop",
+      "amount": 3
+    },
+    "item:cobblemon:peat_block",
+    "item:minecraft:mud",
+    "item:minecraft:clay",
+    "item:farmersdelight:flint_knife{Damage:0}",
+    "item:cobblemon:poison_barb",
+    "item:simpletms:tm_assurance",
+    "item:sunlit_cobblemon:large_moomoo_milk{quality_food:{effects:[],quality:3}}",
+    {
+      "type": "item",
+      "id": "cobblemon:moon_stone",
+      "amount": 2
+    },
     "item:cobblemon:syrupy_apple",
     "item:society:double_aged_violet_moon",
     "item:sunlit_cobblemon:moongeist_crystal",
@@ -71,7 +158,6 @@
     "item:sunlit_cobblemon:trainer_podium",
     "item:sunlit_cobblemon:sun_mirror",
     "item:sunlit_cobblemon:sunlit_league_medallion",
-    "item:sunlit_cobblemon:mystica_branch",
     "item:sunlit_cobblemon:mystica_nectar",
     "item:sunlit_cobblemon:swampy_mystica_branch",
     "item:sunlit_cobblemon:crystalline_pofflet",
@@ -84,7 +170,6 @@
     "item:sunlit_cobblemon:mossy_pofflet",
     "item:cobblemon:tart_apple",
     "item:cobblemon:sweet_apple",
-    "item:cobblemon:leaf_stone",
     "item:cobblemon:friend_ball",
     "item:cobblemon:moon_ball",
     "item:cobblemon:sport_ball",
@@ -115,8 +200,6 @@
     "item:cobblemon_farmers:fire_type_worker",
     "item:cobblemon_farmers:normal_type_worker",
     "item:society:thunder_egg",
-    "item:sunlit_cobblemon:venomshine",
-    "item:sunlit_cobblemon:poison_drop",
     {
       "type": "item",
       "id": "society:moth_pollen",
@@ -126,7 +209,6 @@
     "item:farmersdelight:tomato_crate",
     "item:farmersdelight:basket",
     "item:farmersdelight:stove",
-    "item:cobblemon_farmers:ranching_station",
     "item:farmersdelight:cutting_board",
     "item:cobblemon_farmers:mystery_mine",
     "item:cobblemon_farmers:gardening_station",
@@ -136,11 +218,6 @@
     "item:farmersdelight:cake_slice",
     "item:farmersdelight:sweet_berry_cookie",
     "item:society:pine_tar",
-    {
-      "type": "item",
-      "id": "meadow:fire_log",
-      "amount": 12
-    },
     "item:cobblemon:babiri_berry",
     "item:society:candied_animal_feed",
     "item:society:mana_feed",
@@ -234,7 +311,6 @@
     "item:sunlit_cobblemon:uncommon_cobbleberry_preserves",
     "item:sunlit_cobblemon:dried_paras_mushroom",
     "item:cobblemon:pokemon_model{aspects:[\"male\",\"snake-pattern-legacy\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:1,AbilityName:\"shedskin\",AbilityPriority:\"LOWEST\"},BenchedMoves:[{MoveName:\"crunch\",RaisedPPStages:0b},{MoveName:\"screech\",RaisedPPStages:0b},{MoveName:\"glare\",RaisedPPStages:0b},{MoveName:\"bite\",RaisedPPStages:0b},{MoveName:\"thunderfang\",RaisedPPStages:0b},{MoveName:\"acid\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:great_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{attack:2s,defence:1s,hp:24s,special_defence:1s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:31465,FaintedTimer:-1,FormId:\"normal\",Friendship:109s,Gender:\"MALE\",GmaxFactor:0b,HealingTimer:-1,Health:87s,HeldItem:{Count:1b,id:\"cobblemon:power_weight\"},IVs:{attack:2s,defence:10s,hp:25s,special_attack:16s,special_defence:17s,speed:14s},Level:31s,MoveSet:[{MoveName:\"toxic\",MovePP:10,RaisedPPStages:0},{MoveName:\"psychicfangs\",MovePP:10,RaisedPPStages:0},{MoveName:\"icefang\",MovePP:15,RaisedPPStages:0},{MoveName:\"firefang\",MovePP:15,RaisedPPStages:0}],Nature:\"cobblemon:quiet\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:arbok\",TeraType:\"cobblemon:poison\",Tradeable:1b,UUID:[I;-787156538,-23638579,-2059259085,-1455287727],snake_pattern:\"legacy\"},species:\"cobblemon:arbok\"}",
-    "item:sunlit_cobblemon:large_moomoo_milk",
     "item:sunlit_cobblemon:moomoo_milk{quality_food:{effects:[],quality:3}}",
     "item:society:sparkstone",
     "item:minecraft:diamond",
@@ -256,7 +332,6 @@
     "item:cobblemon:hopo_berry",
     "item:society:cheese_press",
     "item:cobblemon:haban_berry",
-    "item:cobblemon:sitrus_berry",
     {
       "type": "item",
       "id": "cobblemon:silk_scarf",
@@ -321,7 +396,6 @@
     "item:society:giant_bandolier_belt",
     "item:cobblemon:mystic_water",
     "item:cobblemon:never_melt_ice",
-    "item:cobblemon:poison_barb",
     "item:cobblemon:quick_powder",
     "item:cobblemon:quick_claw",
     "item:cobblemon:razor_fang",
@@ -359,7 +433,6 @@
     "item:cobblemon:jolly_mint",
     "item:cobblemon:naive_mint",
     "item:cobblemon:serious_mint",
-    "item:cobblemon:exp_candy_l",
     "item:cobblemon:exp_candy_xl",
     "item:cobblemon:ability_patch",
     "item:aquaculture:fish_bones",
@@ -367,7 +440,6 @@
     "item:cobblemon:power_lens",
     "item:cobblemon:power_bracer",
     "item:cobblemon:weakness_policy",
-    "item:cobblemon:peat_block",
     "item:cobblemon:link_cable",
     "item:cobblemon:prism_scale",
     "item:cobblemon:masterpiece_teacup",
@@ -408,7 +480,6 @@
     "item:sophisticatedbackpacks:copper_backpack{contentsUuid:[I;-1557795289,-1228125931,-2076789867,1138191594],inventorySlots:45,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{}}]},upgradeSlots:1}",
     "item:sophisticatedbackpacks:backpack{contentsUuid:[I;-1557795289,-1228125931,-2076789867,1138191594],inventorySlots:27,renderInfo:{upgradeItems:[{Count:1b,id:\"minecraft:air\",tag:{}}]},upgradeSlots:1}",
     "item:cobblemon:sun_stone",
-    "item:cobblemon:dawn_stone",
     "item:minecraft:hopper",
     "item:minecraft:hopper_minecart",
     {
@@ -435,7 +506,6 @@
     "item:sunlit_cobblemon:electric_canvas",
     "item:society:merino_wool",
     "item:cobblemon:pokemon_model{aspects:[\"male\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"insomnia\",AbilityPriority:\"LOWEST\"},BenchedMoves:[{MoveName:\"assurance\",RaisedPPStages:0b},{MoveName:\"feint\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:sport_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{attack:2s,hp:2s,special_defence:1s,speed:5s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:17924,FaintedTimer:-1,FormId:\"normal\",Friendship:125s,Gender:\"MALE\",GmaxFactor:0b,HealingTimer:60,Health:59s,IVs:{attack:20s,defence:26s,hp:4s,special_attack:15s,special_defence:17s,speed:8s},Level:22s,MoveSet:[{MoveName:\"silktrap\",MovePP:10,RaisedPPStages:0},{MoveName:\"bugbite\",MovePP:20,RaisedPPStages:0},{MoveName:\"strugglebug\",MovePP:20,RaisedPPStages:0},{MoveName:\"stringshot\",MovePP:40,RaisedPPStages:0}],Nature:\"cobblemon:relaxed\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:spidops\",TeraType:\"cobblemon:water\",Tradeable:1b,UUID:[I;992230936,-1537258832,-1643918687,-1171029681]},species:\"cobblemon:spidops\"}",
-    "item:sunlit_cobblemon:mystica_cookie",
     {
       "type": "item",
       "id": "cobblemon:cheri_berry",
@@ -449,11 +519,6 @@
     "item:cobblemon:pokemon_model{aspects:[\"female\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"static\",AbilityPriority:\"LOWEST\"},BenchedMoves:[{MoveName:\"takedown\",RaisedPPStages:0b},{MoveName:\"cottonspore\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:poke_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{defence:1s,hp:252s,special_attack:1s,speed:2s},Evolutions:{Pending:{pending:[\"mareep_flaaffy\"],progress:[]}},Experience:143406,FaintedTimer:-1,FormId:\"normal\",Friendship:133s,Gender:\"FEMALE\",GmaxFactor:0b,HealingTimer:47,Health:128s,IVs:{attack:6s,defence:26s,hp:17s,special_attack:14s,special_defence:2s,speed:3s},Level:53s,MoveSet:[{MoveName:\"electroball\",MovePP:10,RaisedPPStages:0},{MoveName:\"thunderwave\",MovePP:20,RaisedPPStages:0},{MoveName:\"charge\",MovePP:20,RaisedPPStages:0},{MoveName:\"confuseray\",MovePP:10,RaisedPPStages:0}],Nature:\"cobblemon:rash\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:mareep\",TeraType:\"cobblemon:fighting\",Tradeable:1b,UUID:[I;1084777478,-426490252,-1484850539,-567163428],sheared:0b},species:\"cobblemon:mareep\"}",
     "item:cobblemon:pokemon_model{aspects:[\"male\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"speedboost\",AbilityPriority:\"LOW\"},BenchedMoves:[{MoveName:\"detect\",RaisedPPStages:0b},{MoveName:\"quickattack\",RaisedPPStages:0b},{MoveName:\"sandattack\",RaisedPPStages:0b},{MoveName:\"flamecharge\",RaisedPPStages:0b},{MoveName:\"doublekick\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:nest_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{special_defence:1s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:50815,FaintedTimer:-1,FormId:\"normal\",Friendship:116s,Gender:\"MALE\",GmaxFactor:0b,HealingTimer:-1,Health:113s,HeldItem:{Count:1b,id:\"cobblemon:quick_claw\"},IVs:{attack:17s,defence:24s,hp:12s,special_attack:19s,special_defence:16s,speed:7s},Level:38s,MoveSet:[{MoveName:\"aerialace\",MovePP:20,RaisedPPStages:0},{MoveName:\"closecombat\",MovePP:5,RaisedPPStages:0},{MoveName:\"blazekick\",MovePP:10,RaisedPPStages:0},{MoveName:\"flamethrower\",MovePP:15,RaisedPPStages:0}],Nature:\"cobblemon:calm\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:blaziken\",TeraType:\"cobblemon:fire\",Tradeable:1b,UUID:[I;-1324010569,-962051665,-2113735782,-1355373865]},species:\"cobblemon:blaziken\"}",
     "item:dew_drop_farmland_growth:iron_sprinkler",
-    {
-      "type": "item",
-      "id": "cobblemon:exp_candy_m",
-      "amount": 4
-    },
     "item:cobblemon:chople_berry",
     "item:cobblemon:pokemon_model{aspects:[\"female\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:1,AbilityName:\"scrappy\",AbilityPriority:\"LOWEST\"},BenchedMoves:[],CaughtBall:\"cobblemon:great_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{hp:150s,special_defence:1s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:36549,FaintedTimer:-1,FormId:\"normal\",Friendship:61s,Gender:\"FEMALE\",GmaxFactor:0b,HealingTimer:39,Health:98s,HeldItem:{Count:1b,id:\"cobblemon:exp_share\"},IVs:{attack:19s,defence:7s,hp:18s,special_attack:20s,special_defence:28s,speed:26s},Level:30s,MoveSet:[{MoveName:\"headbutt\",MovePP:15,RaisedPPStages:0},{MoveName:\"healbell\",MovePP:5,RaisedPPStages:0},{MoveName:\"stomp\",MovePP:20,RaisedPPStages:0},{MoveName:\"defensecurl\",MovePP:40,RaisedPPStages:0}],Nature:\"cobblemon:hasty\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:miltank\",TeraType:\"cobblemon:ground\",Tradeable:1b,UUID:[I;-290399895,-2121774450,-1882811807,-86458309]},species:\"cobblemon:miltank\"}",
     "item:cobblemon:pokemon_model{aspects:[\"male\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"keeneye\",AbilityPriority:\"LOWEST\"},BenchedMoves:[{MoveName:\"gust\",RaisedPPStages:0b},{MoveName:\"quickattack\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:ultra_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{attack:2s,special_attack:1s,speed:1s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:44814,FaintedTimer:-1,FormId:\"normal\",Friendship:96s,Gender:\"MALE\",GmaxFactor:0b,HealingTimer:-1,Health:118s,IVs:{attack:1s,defence:21s,hp:27s,special_attack:1s,special_defence:4s,speed:8s},Level:37s,MoveSet:[{MoveName:\"twister\",MovePP:20,RaisedPPStages:0},{MoveName:\"whirlwind\",MovePP:20,RaisedPPStages:0},{MoveName:\"airslash\",MovePP:15,RaisedPPStages:0},{MoveName:\"hurricane\",MovePP:10,RaisedPPStages:0}],Nature:\"cobblemon:hasty\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:pidgeot\",TeraType:\"cobblemon:fairy\",Tradeable:1b,UUID:[I;-946746378,1563771836,-1581482175,1403378435]},species:\"cobblemon:pidgeot\"}",
@@ -462,11 +527,6 @@
       "type": "item",
       "id": "atmospheric:yellow_blossoms",
       "amount": 60
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:exp_candy_s",
-      "amount": 12
     },
     "item:cobblemon:metal_coat",
     "item:cobblemon:pokemon_model{aspects:[\"male\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"keeneye\",AbilityPriority:\"LOWEST\"},BenchedMoves:[{MoveName:\"gust\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:ultra_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{attack:2s,speed:1s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:33667,FaintedTimer:-1,FormId:\"normal\",Friendship:88s,Gender:\"MALE\",GmaxFactor:0b,HealingTimer:-1,Health:96s,IVs:{attack:1s,defence:21s,hp:27s,special_attack:1s,special_defence:4s,speed:8s},Level:34s,MoveSet:[{MoveName:\"twister\",MovePP:20,RaisedPPStages:0},{MoveName:\"whirlwind\",MovePP:20,RaisedPPStages:0},{MoveName:\"quickattack\",MovePP:30,RaisedPPStages:0},{MoveName:\"airslash\",MovePP:15,RaisedPPStages:0}],Nature:\"cobblemon:hasty\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:pidgeotto\",TeraType:\"cobblemon:fairy\",Tradeable:1b,UUID:[I;-946746378,1563771836,-1581482175,1403378435]},species:\"cobblemon:pidgeotto\"}",
@@ -497,9 +557,7 @@
       "amount": 5
     },
     "item:cobblemon:pomeg_berry",
-    "item:cobblemon:hp_up",
     "item:minecraft:furnace",
-    "item:minecraft:copper_block",
     "item:meadow:meadow_banner",
     {
       "type": "item",
@@ -513,7 +571,6 @@
     "item:meadow:stove_tiles_wood",
     "item:farm_and_charm:stove",
     "item:sunlit_cobblemon:electro_wool",
-    "item:farmersdelight:straw",
     {
       "type": "item",
       "id": "crittersandcompanions:silk",
@@ -764,7 +821,6 @@
     "item:cobblemon:pokemon_model{aspects:[\"female\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"harvest\",AbilityPriority:\"LOW\"},BenchedMoves:[{MoveName:\"hex\",RaisedPPStages:0b},{MoveName:\"growth\",RaisedPPStages:0b},{MoveName:\"shadowclaw\",RaisedPPStages:0b},{MoveName:\"feintattack\",RaisedPPStages:0b},{MoveName:\"hornleech\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:poke_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{},Evolutions:{Pending:{pending:[],progress:[]}},Experience:125000,FaintedTimer:-1,FormId:\"normal\",Friendship:113s,Gender:\"FEMALE\",GmaxFactor:0b,HealingTimer:53,Health:145s,HeldItem:{Count:1b,id:\"cobblemon:sitrus_berry\"},IVs:{attack:9s,defence:6s,hp:18s,special_attack:15s,special_defence:5s,speed:12s},Level:50s,MoveSet:[{MoveName:\"leechseed\",MovePP:10,RaisedPPStages:0},{MoveName:\"rockslide\",MovePP:10,RaisedPPStages:0},{MoveName:\"confuseray\",MovePP:10,RaisedPPStages:0},{MoveName:\"woodhammer\",MovePP:15,RaisedPPStages:0}],Nature:\"cobblemon:jolly\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:trevenant\",TeraType:\"cobblemon:grass\",Tradeable:1b,UUID:[I;-1714823026,1959215289,-1192012462,-597888015]},species:\"cobblemon:trevenant\"}",
     "item:cobblemon:genius_feather",
     "item:cobblemon:muscle_feather",
-    "item:golemoverhaul:honey_blob",
     "item:cobblemon:deepslate_leaf_stone_ore",
     "item:sunlit_cobblemon:max_berry_smoothie",
     "item:sunlit_cobblemon:berry_smoothie",
@@ -845,7 +901,6 @@
       "amount": 64
     },
     "item:species:alphacene_mushroom_growth",
-    "item:society:jade",
     "item:brewery:whiskey_jojannik",
     "item:sunlit_cobblemon:pristine_poison_gem",
     "item:cobblemon:toxic_orb",
@@ -1022,7 +1077,6 @@
     "item:classicpipes:iron_fluid_pipe",
     "item:create:andesite_alloy",
     "item:minecraft:gravel",
-    "item:society:mayonnaise_machine",
     "item:society:mayonnaise",
     "item:society:enkephalin",
     "item:society:hazelnut_mash",
@@ -1317,11 +1371,28 @@
     "item:cobblemon:green_mint_seeds"
   ],
   "craft_history": [
+    "supplementaries:jar",
+    "cobblemon:surprise_mulch",
+    "cobblemon:mulch_base",
+    "minecraft:copper_block",
+    "minecraft:kjs/society_mayonnaise_machine",
+    "minecraft:kjs/society_frozen_tear",
+    "minecraft:leather_helmet",
+    "minecraft:leather_leggings",
+    "minecraft:leather_chestplate",
+    "minecraft:chain",
+    "minecraft:iron_nugget",
+    "minecraft:anvil",
+    "minecraft:kjs/cobblemon_exp_candy_xl",
+    "minecraft:kjs/cobblemon_exp_candy_l",
+    "minecraft:kjs/cobblemon_exp_candy_m",
+    "minecraft:kjs/cobblemon_farmers_ranching_station",
+    "meadow:fire_log",
+    "cobblemon:peat_block",
+    "minecraft:clay",
+    "minecraft:kjs/sunlit_cobblemon_large_moomoo_milk",
     "minecraft:kjs/society_cheese_press",
     "minecraft:kjs/cobblemon_farmers_gardening_station",
-    "meadow:fire_log",
-    "minecraft:kjs/sunlit_cobblemon_large_moomoo_milk",
-    "minecraft:kjs/cobblemon_farmers_ranching_station",
     "minecraft:raw_gold_block",
     "sophisticatedbackpacks:copper_backpack",
     "minecraft:hopper",
@@ -1334,10 +1405,7 @@
     "minecraft:raw_iron_block",
     "create:crafting/materials/raw_zinc_block",
     "minecraft:kjs/dew_drop_farmland_growth_iron_sprinkler",
-    "minecraft:kjs/cobblemon_exp_candy_l",
-    "minecraft:kjs/cobblemon_exp_candy_m",
     "quark:building/crafting/furnaces/cobblestone_furnace",
-    "minecraft:copper_block",
     "farmersdelight:basket",
     "farmersdelight:canvas",
     "candlelight:cobblestone_stove",
@@ -1353,7 +1421,6 @@
     "minecraft:kjs/society_wine_keg",
     "minecraft:iron_block",
     "minecraft:quartz_block",
-    "minecraft:kjs/society_mayonnaise_machine",
     "rehooked:iron_hook",
     "minecraft:wooden_pickaxe",
     "meadow:cheese_sandwich",
@@ -1371,12 +1438,9 @@
     "minecraft:lever",
     "splendid_slimes:corral_block",
     "minecraft:stonecutter",
-    "cobblemon:peat_block",
     "longwings:netting",
     "minecraft:kjs/farmersdelight_rich_soil",
     "minecraft:oak_hanging_sign",
-    "minecraft:iron_nugget",
-    "minecraft:chain",
     "sophisticatedstorage:magnet_upgrade",
     "simplemagnets:basicmagnet",
     "meadow:pine_planks",
@@ -1392,7 +1456,6 @@
     "minecraft:glowstone",
     "minecraft:netherite_ingot",
     "minecraft:wooden_sword",
-    "minecraft:anvil",
     "minecraft:iron_ingot_from_iron_block",
     "cobblemon:exp_share"
   ],
