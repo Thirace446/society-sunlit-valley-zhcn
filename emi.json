@@ -26,8 +26,13 @@
     }
   ],
   "lookup_history": [
+    "item:herbalbrews:coffee",
+    "item:nethervinery:blazewine_pinot",
+    "item:minecraft:lava_bucket",
     {
-      "id": "irons_rpg_tweaks:drowsy"
+      "type": "fluid",
+      "id": "minecraft:lava",
+      "amount": 0
     },
     "item:displaydelight:food_plate",
     "item:botania:flight_tiara{variant:2}",
@@ -537,7 +542,6 @@
     "item:society:ocean_stone",
     "item:netherdepthsupgrade:fortress_grouper_plate",
     "fluid:create_central_kitchen:aloe_gel",
-    "fluid:minecraft:lava",
     "item:society:nether_raisins",
     "item:farmersdelight:nether_salad",
     "item:nethervinery:nether_fizz",
@@ -805,7 +809,6 @@
     "item:vintagedelight:ghost_pepper_seeds",
     "item:nethervinery:improved_nether_fizz",
     "item:nethervinery:ghastly_grenache",
-    "item:nethervinery:blazewine_pinot",
     "item:society:wild_berries_preserves",
     "item:society:currant_preserves",
     "item:society:garlic_preserves",
@@ -1089,10 +1092,10 @@
     "item:veggiesdelight:stuffed_zucchini_boat",
     "item:veggiesdelight:zucchini_quiche",
     [
-      "item:farmersdelight:cooked_bacon",
+      "item:minecraft:cooked_porkchop",
       "item:farm_and_charm:bacon_with_eggs",
       "item:brewery:pork_knuckle",
-      "item:minecraft:cooked_porkchop",
+      "item:farmersdelight:cooked_bacon",
       "item:candlelight:pork_ribs",
       "#item:forge:cooked_chicken",
       "#item:forge:cooked_beef",
@@ -1105,15 +1108,15 @@
     "item:veggiesdelight:raw_vegetarian_patty",
     [
       "#item:forge:crops/zucchini",
-      "#item:forge:crops/potato",
-      "#item:forge:crops/cauliflower"
+      "#item:forge:crops/cauliflower",
+      "#item:forge:crops/potato"
     ],
     "#item:forge:grain",
     "#item:forge:cabbage",
     "item:veggiesdelight:vegetables_wrap",
     [
-      "item:veggiesdelight:smoked_bellpepper",
       "item:veggiesdelight:roasted_zucchini",
+      "item:veggiesdelight:smoked_bellpepper",
       "#item:forge:mushrooms"
     ],
     "item:veggiesdelight:smoked_bellpepper",
@@ -1474,8 +1477,7 @@
     "item:pamhc2trees:pambanana",
     "item:pamhc2trees:pamcherry",
     "item:pamhc2trees:pampeach",
-    "item:pamhc2trees:pampawpaw",
-    "item:pamhc2trees:pamorange"
+    "item:pamhc2trees:pampawpaw"
   ],
   "craft_history": [
     "minecraft:yellow_outer_counter_left_recipe_1",
@@ -1587,8 +1589,8 @@
   "recipe_defaults": {
     "added": [
       "netherdepthsupgrade:eyeball",
-      "minecraft:kjs/society_sun_candy",
-      "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji"
+      "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji",
+      "minecraft:kjs/society_sun_candy"
     ],
     "tags": {},
     "resolutions": {
