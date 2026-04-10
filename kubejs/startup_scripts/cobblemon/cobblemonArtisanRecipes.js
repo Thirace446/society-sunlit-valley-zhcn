@@ -128,7 +128,7 @@ console.info("[SOCIETY-S-COBBLEMON] cobblemonArtisanRecipes.js loaded");
   },
   {
     input: "cobblemon:metal_coat",
-    output: ["4x oreganized:silver_ingot"],
+    output: ["1x oreganized:silver_ingot"],
   },
   {
     input: "sunlit_cobblemon:permafrost",

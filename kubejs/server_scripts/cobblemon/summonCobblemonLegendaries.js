@@ -31,7 +31,7 @@ ItemEvents.entityInteracted((e) => {
       player.potionEffects.add("minecraft:darkness", 60, 0, true, false);
       target.potionEffects.add("minecraft:invisibility", 1200, 0, true, false);
       server.runCommandSilent(
-        `pokespawnat ${target.x} ${target.y} ${target.z} ${foundLegendary.pokemonId} level=75`
+        `execute in ${level.dimension} run pokespawnat ${target.x} ${target.y} ${target.z} ${foundLegendary.pokemonId} level=75`
       );
       level.spawnParticles(
         "species:spectralibur_released",

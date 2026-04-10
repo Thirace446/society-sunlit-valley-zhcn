@@ -1,39 +1,8 @@
 console.info("[SOCIETY-S-COBBLEMON] cobblemonGachaPools.js loaded");
 
 let baseGachaSpawns = [
-  { pokemon: "meowth", weight: 10, lvlRange: [4, 29] },
-  { pokemon: "meowth", weight: 6, lvlRange: [4, 29], variant: ["alolan"] },
-  { pokemon: "meowth", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
   { pokemon: "growlithe", weight: 10, lvlRange: [20, 35] },
   { pokemon: "growlithe", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
-  { pokemon: "drowzee", weight: 10, lvlRange: [8, 33] },
-  { pokemon: "hypno", weight: 10, lvlRange: [44, 48] },
-  { pokemon: "voltorb", weight: 10, lvlRange: [20, 35] },
-  { pokemon: "voltorb", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
-  { pokemon: "koffing", weight: 10, lvlRange: [9, 35] },
-  { pokemon: "chansey", weight: 4, lvlRange: [17, 55] },
-  { pokemon: "blissey", weight: 2, lvlRange: [45, 90] },
-  { pokemon: "mrmime", weight: 10, lvlRange: [26, 46] },
-  { pokemon: "mimejr", weight: 10, lvlRange: [4, 20] },
-  { pokemon: "jynx", weight: 1, lvlRange: [26, 46] },
-  { pokemon: "eevee", weight: 7, lvlRange: [4, 30] },
-  { pokemon: "snubbull", weight: 7, lvlRange: [4, 30] },
-  { pokemon: "smoochum", weight: 10, lvlRange: [4, 30] },
-  { pokemon: "ralts", weight: 4, lvlRange: [4, 20] },
-  { pokemon: "lillipup", weight: 10, lvlRange: [4, 20] },
-  { pokemon: "pawmi", weight: 10, lvlRange: [4, 20] },
-  { pokemon: "pidove", weight: 10, lvlRange: [4, 20] },
-  { pokemon: "timburr", weight: 10, lvlRange: [4, 20] },
-  { pokemon: "pidove", weight: 10, lvlRange: [4, 20] },
-  { pokemon: "vivillon", weight: 10, lvlRange: [12, 41] },
-  { pokemon: "maschiff", weight: 10, lvlRange: [12, 30] },
-  { pokemon: "klefki", weight: 4, lvlRange: [2, 25] },
-  { pokemon: "perrserker", weight: 10, lvlRange: [28, 45] },
-  { pokemon: "fidough", weight: 10, lvlRange: [2, 25] },
-  { pokemon: "squawkabilly", weight: 10, lvlRange: [2, 25] },
-  { pokemon: "yamper", weight: 10, lvlRange: [2, 25] },
-  { pokemon: "skitty", weight: 10, lvlRange: [2, 25] },
-  { pokemon: "glameow", weight: 10, lvlRange: [2, 25] },
 ];
 let specialGachaTypes = ["starter", "baby_dragon", "baby_fairy", "baby_steel"];
 const specialGachaSpawns = new Map([
@@ -67,6 +36,33 @@ const specialGachaSpawns = new Map([
       { pokemon: "sprigatito", weight: 10, lvlRange: [2, 4] },
       { pokemon: "fuecoco", weight: 10, lvlRange: [2, 4] },
       { pokemon: "quaxly", weight: 10, lvlRange: [2, 4] },
+    ],
+  ],
+  [
+    "rock",
+    [
+      { pokemon: "onix", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "geodude", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "geodude", weight: 5, lvlRange: [2, 4], variant: ["alolan"] },
+      { pokemon: "rhyhorn", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "corsola", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "binacle", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "nosepass", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "klawf", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "dwebble", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "growlithe", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
+      { pokemon: "lunatone", weight: 5, lvlRange: [2, 4] },
+      { pokemon: "bonsly", weight: 6, lvlRange: [2, 4] },
+      { pokemon: "nacli", weight: 5, lvlRange: [2, 4] },
+      { pokemon: "stonjourner", weight: 5, lvlRange: [2, 4] },
+      { pokemon: "aron", weight: 4, lvlRange: [2, 4] },
+      { pokemon: "slugma", weight: 1, lvlRange: [2, 4] },
+      { pokemon: "shuckle", weight: 4, lvlRange: [2, 4] },
+      { pokemon: "rockruff", weight: 3, lvlRange: [2, 4] },
+      { pokemon: "larvitar", weight: 1, lvlRange: [2, 4] },
+      { pokemon: "carbink", weight: 1, lvlRange: [2, 4] },
+      { pokemon: "minior", weight: 1, lvlRange: [2, 4] },
+      { pokemon: "glimmet", weight: 1, lvlRange: [2, 4] },
     ],
   ],
   [
@@ -226,7 +222,7 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
   else if (Math.random() < 0.03) {
     player.give(Item.of("sunlit_cobblemon:the_gachamonbler"))
   }
-  let isShiny = false;
+  let isShiny = true;
   if (!caughtMon) return;
   let pokeLevel = global.getPokemonLevel(caughtMon.lvlRange);
   if (pokeLevel == 1) {
@@ -247,10 +243,7 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
       ).gray(),
     );
   }
-  server.runCommandSilent(
-    `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon
-    } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}${isShiny ? "shiny" : ""}`,
-  );
+  server.runCommandSilent(`execute in ${level.dimension} run pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon} level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""} ${isShiny ? "shiny" : ""}`);
   if (player.stages.has("the_red_and_the_black")) {
     if (!isShiny) {
       if (Math.random() < shinyChance) {
@@ -268,10 +261,7 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
         );
       }
     }
-    server.runCommandSilent(
-      `pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon
-      } level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""}${isShiny ? "shiny" : ""}`,
-    );
+    server.runCommandSilent(`execute in ${level.dimension} run pokespawnat ${pos.x} ${pos.y + 2} ${pos.z} ${caughtMon.pokemon} level=${pokeLevel} ${caughtMon.variant ? caughtMon.variant : ""} ${isShiny ? "shiny" : ""}`);
   }
   server.runCommandSilent(
     `playsound stardew_fishing:chest_get block @a ${pos.x} ${pos.y} ${pos.z}`,

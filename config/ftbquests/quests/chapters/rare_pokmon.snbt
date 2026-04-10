@@ -1491,10 +1491,9 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Jirachi"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Celebi"
+			title: "Jirachi"
 			x: -15.0d
 			y: -21.0d
 		}
@@ -1548,10 +1547,9 @@
 				shiny: false
 				time_max: 24000L
 				time_min: 0L
-				title: "Manaphy"
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Celebi"
+			title: "Manaphy"
 			x: -14.0d
 			y: -17.0d
 		}

@@ -518,10 +518,10 @@ global.getPlayerPodiumLevelTier = (player, partyLevel) =>
   );
 
 const leagueBosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria", "karma", "king", "kingkarma"];
-const tier9Bossees = ["leon", "aiden", "ace", "caroline", "haruna", "maria"];
+const tier9Bosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria"];
 
 global.getLeagueBoss = (levelBucket) => {
-  let bossNumber = Math.max(1, Math.floor(levelBucket / 10) - 1);
-  if (bossNumber >= 9) return `league_${tier9Bossees[rnd(0, tier9Bossees.length - 1)]}${bossNumber}`;
+  let bossNumber = Math.max(1, Math.floor(levelBucket / 10) - 2);
+  if (bossNumber >= 9) return `league_${tier9Bosses[rnd(0, tier9Bosses.length - 1)]}${bossNumber}`;
   return `league_${leagueBosses[rnd(0, leagueBosses.length - 1)]}${bossNumber}`;
 };

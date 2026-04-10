@@ -106,7 +106,7 @@ BlockEvents.rightClicked("sunlit_cobblemon:gem_box", (e) => {
         });
         global.setBlockEntityData(block, nbt);
         if (regiFound) {
-            summonRaidRegi(level, server, player, item, block, global.hasPartyPokemon(player, ["registeel", "regirock", "regice"], 3) ? "regigigast" : regiFound, 100)
+            summonRaidRegi(level, server, player, item, block, global.hasPartyPokemon(player, ["registeel", "regirock", "regice"], 3) ? "regigigas" : regiFound, 100)
         } else {
             server.runCommandSilent(`playsound stardew_fishing:fish_escape block @a ${x} ${y} ${z} 2`);
             global.addItemCooldown(player, item, 100);

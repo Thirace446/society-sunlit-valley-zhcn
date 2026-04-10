@@ -55,7 +55,7 @@ global.runTrainerPodium = (entity) => {
       let newTrainer = trainer;
       // ownerPlayer.persistentData.winStreak = 11
       if (ownerPlayer.persistentData.winStreak == 0 || !newTrainer || lastStreak !== ownerPlayer.persistentData.winStreak) {
-        if (ownerPlayer.persistentData.winStreak > 9 && ownerPlayer.persistentData.winStreak % 10 === 0) {
+        if (ownerPlayer.persistentData.winStreak > 14 && ownerPlayer.persistentData.winStreak % 15 === 0) {
           newTrainer = global.getLeagueBoss(Math.min(100, levelTier))
         } else {
           newTrainer = global.getRandomTrainer(Math.min(100, levelTier));
