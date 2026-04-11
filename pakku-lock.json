@@ -10138,7 +10138,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "seasonhud-forge-1.20.1-2.0.3.jar",
+                    "file_name": "seasonhud-forge-1.20.1-2.0.4.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -10148,16 +10148,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7845/525/seasonhud-forge-1.20.1-2.0.3.jar",
-                    "id": "7845525",
+                    "url": "https://edge.forgecdn.net/files/7887/78/seasonhud-forge-1.20.1-2.0.4.jar",
+                    "id": "7887078",
                     "parent_id": "690971",
                     "hashes": {
-                        "sha1": "868c04a037083b07f07a3574f14f36f3e27742af",
-                        "md5": "a547d4cdac1d97f251d6c7853f55fac2"
+                        "sha1": "d82f727aa25e5ffebcfb497ed2416291c3093c37",
+                        "md5": "cc0fcd58a8be8c4124a820b69c1f1019"
                     },
                     "required_dependencies": [],
-                    "size": 234956,
-                    "date_published": "2026-03-30T12:48:29.840Z"
+                    "size": 236181,
+                    "date_published": "2026-04-06T21:41:40.993Z"
                 }
             ]
         },

@@ -26,6 +26,11 @@
     }
   ],
   "lookup_history": [
+    "item:rehooked:blaze_hook",
+    "item:crittersandcompanions:silk_lead",
+    "item:relics:blazing_flask{abilities:{bonfire:{points:0,stats:{height:4.31924d,speed:0.03042d,step:1.16796d}}}}",
+    "item:cluttered:hand_drill",
+    "item:sophisticatedbackpacks:copper_backpack",
     "item:herbalbrews:coffee",
     "item:nethervinery:blazewine_pinot",
     "item:minecraft:lava_bucket",
@@ -1092,11 +1097,11 @@
     "item:veggiesdelight:stuffed_zucchini_boat",
     "item:veggiesdelight:zucchini_quiche",
     [
-      "item:minecraft:cooked_porkchop",
       "item:farm_and_charm:bacon_with_eggs",
+      "item:candlelight:pork_ribs",
       "item:brewery:pork_knuckle",
       "item:farmersdelight:cooked_bacon",
-      "item:candlelight:pork_ribs",
+      "item:minecraft:cooked_porkchop",
       "#item:forge:cooked_chicken",
       "#item:forge:cooked_beef",
       "#item:forge:cooked_mutton"
@@ -1107,16 +1112,16 @@
     "item:veggiesdelight:cooked_vegetarian_patty",
     "item:veggiesdelight:raw_vegetarian_patty",
     [
-      "#item:forge:crops/zucchini",
+      "#item:forge:crops/potato",
       "#item:forge:crops/cauliflower",
-      "#item:forge:crops/potato"
+      "#item:forge:crops/zucchini"
     ],
     "#item:forge:grain",
     "#item:forge:cabbage",
     "item:veggiesdelight:vegetables_wrap",
     [
-      "item:veggiesdelight:roasted_zucchini",
       "item:veggiesdelight:smoked_bellpepper",
+      "item:veggiesdelight:roasted_zucchini",
       "#item:forge:mushrooms"
     ],
     "item:veggiesdelight:smoked_bellpepper",
@@ -1472,12 +1477,7 @@
     "item:pamhc2trees:pamlychee",
     "item:pamhc2trees:pamapple",
     "item:pamhc2trees:pamlemon",
-    "item:pamhc2trees:pamplum",
-    "item:pamhc2trees:pamhazelnut",
-    "item:pamhc2trees:pambanana",
-    "item:pamhc2trees:pamcherry",
-    "item:pamhc2trees:pampeach",
-    "item:pamhc2trees:pampawpaw"
+    "item:pamhc2trees:pamplum"
   ],
   "craft_history": [
     "minecraft:yellow_outer_counter_left_recipe_1",
@@ -1588,9 +1588,9 @@
   ],
   "recipe_defaults": {
     "added": [
-      "netherdepthsupgrade:eyeball",
       "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji",
-      "minecraft:kjs/society_sun_candy"
+      "minecraft:kjs/society_sun_candy",
+      "netherdepthsupgrade:eyeball"
     ],
     "tags": {},
     "resolutions": {

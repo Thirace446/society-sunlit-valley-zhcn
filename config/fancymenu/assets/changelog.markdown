@@ -9,11 +9,13 @@
 - Added society:fish_pond_water tag for kelp counting as water
 - Added obsidian as a path block
 - Added ability to silk touch Herbalbrews dried tea leaves
+- Added ability to rename Shipping Bins (Thanks Mayhan)
 - Added bulk Mana Feed conversion recipe
 - Added ability for ATMs, Phones, and Lootr chests to be interacted with in claims
 - Added subSeasonDuration to kubejs/startup_scripts/config.js. This allows year 2 to be synced if it's changed in serene season's config.
-- Updated zh_cn translation (Thanks Thirace446)
 - Updated es_es translation (Thanks tukita83)
+- Updated ko_kr translation (Thanks Hexagreen)
+- Updated zh_cn translation (Thanks Thirace446)
 - Updated Steam and Rails, adding more decorative blocks and paint system
 - Beef Wellington now accepts beef, shockingly
 - Magic Shears now shear Minisheep
@@ -42,8 +44,12 @@
 - Fixed Orange Pine leaves not having the leaf tag
 - Fixed Sparkpods not benefiting from extra drops
 - Fixed regular cows not working when plushiefied
+- Fixed Blazing Flask not having sell value
+- Fixed villager home/skull cavern teleporter not working outside of overworld
 - Fixed breeding not giving husbandry experience
 - Fixed Auto-Petter making it so mood never updates
+- Fixed day checker not working correctly, causing a variety of weird bugs
+- Fixed server not syncing seasons correctly when season config changed
 - Fixed so many typos
 - Fixed exploits
 
