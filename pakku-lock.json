@@ -6271,20 +6271,16 @@
             ]
         },
         {
-            "pakku_id": "gysh3ZT3Ni1aUZ9K",
+            "pakku_id": "moFaXKiWUV0gImCy",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "curseforge": "fragmentum",
-                "modrinth": "fragmentum"
+                "curseforge": "fragmentum"
             },
             "name": {
-                "curseforge": "Fragmentum (Forge)",
-                "modrinth": "Fragmentum"
+                "curseforge": "Fragmentum (Forge)"
             },
             "id": {
-                "curseforge": "1123970",
-                "modrinth": "49C5QgTK"
+                "curseforge": "1123970"
             },
             "files": [
                 {
@@ -6307,27 +6303,6 @@
                     "required_dependencies": [],
                     "size": 1690913,
                     "date_published": "2026-04-02T11:44:55.813Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "fragmentum-forge-1.20.1-1.1.4.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/49C5QgTK/versions/nH6DeFfb/fragmentum-forge-1.20.1-1.1.4.jar",
-                    "id": "nH6DeFfb",
-                    "parent_id": "49C5QgTK",
-                    "hashes": {
-                        "sha512": "abf7964bfc6c9ca116cd4521a7a0729932fc6e7223e35c7b0d1929287396ac3f8e9d80d49cf7d1551b5768367bd53d52db5b017a95ab16289a45007cf0af9568",
-                        "sha1": "02aa22eee381b11811e43a3ac36e6013eca5eae4"
-                    },
-                    "required_dependencies": [],
-                    "size": 1690913,
-                    "date_published": "2026-04-02T11:44:45.859533Z"
                 }
             ]
         },
@@ -8207,7 +8182,7 @@
         {
             "pakku_id": "N4E0BWnktwcd6ZdA",
             "pakku_links": [
-                "gysh3ZT3Ni1aUZ9K"
+                "moFaXKiWUV0gImCy"
             ],
             "type": "MOD",
             "side": "CLIENT",
@@ -11359,7 +11334,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "seasonhud-forge-1.20.1-2.0.3.jar",
+                    "file_name": "seasonhud-forge-1.20.1-2.0.4.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -11369,16 +11344,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7845/525/seasonhud-forge-1.20.1-2.0.3.jar",
-                    "id": "7845525",
+                    "url": "https://edge.forgecdn.net/files/7887/78/seasonhud-forge-1.20.1-2.0.4.jar",
+                    "id": "7887078",
                     "parent_id": "690971",
                     "hashes": {
-                        "sha1": "868c04a037083b07f07a3574f14f36f3e27742af",
-                        "md5": "a547d4cdac1d97f251d6c7853f55fac2"
+                        "sha1": "d82f727aa25e5ffebcfb497ed2416291c3093c37",
+                        "md5": "cc0fcd58a8be8c4124a820b69c1f1019"
                     },
                     "required_dependencies": [],
-                    "size": 234956,
-                    "date_published": "2026-03-30T12:48:29.840Z"
+                    "size": 236181,
+                    "date_published": "2026-04-06T21:41:40.993Z"
                 }
             ]
         },
@@ -12173,7 +12148,10 @@
             ]
         },
         {
-            "pakku_id": "pw6YukgW4OD2QwCM",
+            "pakku_id": "jn08O8K0gsfxSq9z",
+            "pakku_links": [
+                "nubF4pshkcyyOIX9"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "society-trading"
@@ -12187,7 +12165,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society_trading-1.0.4.jar",
+                    "file_name": "society_trading-1.0.5.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12195,18 +12173,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7679/663/society_trading-1.0.4.jar",
-                    "id": "7679663",
+                    "url": "https://edge.forgecdn.net/files/7907/806/society_trading-1.0.5.jar",
+                    "id": "7907806",
                     "parent_id": "1347329",
                     "hashes": {
-                        "sha1": "38cef98f3ab6d260e0a675fb12c9b58b2c30ec96",
-                        "md5": "fcaeb4e98f8572be00f1728145a4189f"
+                        "sha1": "683a08b082448dd7376023ecf04b6fa14a828af3",
+                        "md5": "6249e4fcb455a5beeb064cb4169a1cc6"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 174079,
-                    "date_published": "2026-02-26T03:02:23.547Z"
+                    "size": 174084,
+                    "date_published": "2026-04-11T01:01:29.350Z"
                 }
             ]
         },
