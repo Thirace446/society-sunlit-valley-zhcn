@@ -222,7 +222,6 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
   else if (Math.random() < 0.03) {
     player.give(Item.of("sunlit_cobblemon:the_gachamonbler"))
   }
-  let isShiny = true;
   if (!caughtMon) return;
   let pokeLevel = global.getPokemonLevel(caughtMon.lvlRange);
   if (pokeLevel == 1) {
