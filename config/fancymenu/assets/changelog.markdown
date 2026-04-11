@@ -46,6 +46,7 @@
 - Fixed regular cows not working when plushiefied
 - Fixed Blazing Flask not having sell value
 - Fixed villager home/skull cavern teleporter not working outside of overworld
+- Fixed several barns not having correct/any Feeding Troughs
 - Fixed breeding not giving husbandry experience
 - Fixed Auto-Petter making it so mood never updates
 - Fixed day checker not working correctly, causing a variety of weird bugs
