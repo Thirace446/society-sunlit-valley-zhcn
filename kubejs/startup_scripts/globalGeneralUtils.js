@@ -1,4 +1,6 @@
 // Priority: 1000
+global.getDay = (level) =>  Number((Math.floor(Number(level.dayTime() / 24000)) + 1).toFixed());
+
 /**
  * Expected:
  *  day: 10 | checkedDay: 11 | amount: 1 = true. Day in the past (time commands used)

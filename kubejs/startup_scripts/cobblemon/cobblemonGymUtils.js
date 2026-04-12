@@ -521,7 +521,7 @@ const leagueBosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria", "ka
 const tier9Bosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria"];
 
 global.getLeagueBoss = (levelBucket) => {
-  let bossNumber = Math.max(1, Math.floor(levelBucket / 10) - 2);
+  let bossNumber = Math.max(1, Math.floor(levelBucket / 10) - 1);
   if (bossNumber >= 9) return `league_${tier9Bosses[rnd(0, tier9Bosses.length - 1)]}${bossNumber}`;
   return `league_${leagueBosses[rnd(0, leagueBosses.length - 1)]}${bossNumber}`;
 };
