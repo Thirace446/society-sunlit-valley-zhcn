@@ -1923,6 +1923,47 @@
             ]
         },
         {
+            "pakku_id": "3Gpgqlv2zEkGjhqL",
+            "pakku_links": [
+                "SMX0l4qHckvmXby2"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cobblemon-addons-tweaks"
+            },
+            "name": {
+                "curseforge": "Cobblemon Addons Tweaks"
+            },
+            "id": {
+                "curseforge": "1508916"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sunlitcobblemonmixin-1.0.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7898/425/sunlitcobblemonmixin-1.0.0.jar",
+                    "id": "7898425",
+                    "parent_id": "1508916",
+                    "hashes": {
+                        "sha1": "6266576971549474636a2be7155dfb14a5811379",
+                        "md5": "75d6186606343719b6947b01dc76012b"
+                    },
+                    "required_dependencies": [
+                        "959184"
+                    ],
+                    "size": 21580,
+                    "date_published": "2026-04-09T07:27:31.227Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QTJNYYFDFeExIJ2M",
             "pakku_links": [
                 "KDWmpmJACN6AFIki"

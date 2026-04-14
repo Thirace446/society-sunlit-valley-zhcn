@@ -2298,6 +2298,20 @@
     "curseForgeHash": 983096875,
     "modrinthHash": "f184257fad61df437f1e54b9c32d98649d7be996"
   },
+  "sunlit_cobblemon-1.1.jar": {
+    "jarName": "sunlit_cobblemon-1.1.jar",
+    "modId": "sunlit_cobblemon",
+    "version": "1.1",
+    "curseForgeHash": 1547222944,
+    "modrinthHash": "fdc58684f20c72b624b4ce9270ae9bd60407b648"
+  },
+  "sunlitcobblemonmixin-1.0.0.jar": {
+    "jarName": "sunlitcobblemonmixin-1.0.0.jar",
+    "modId": "sunlitcobblemonmixin",
+    "version": "1.0.0",
+    "curseForgeHash": 1447280767,
+    "modrinthHash": "6266576971549474636a2be7155dfb14a5811379"
+  },
   "supermartijn642configlib-1.1.8-forge-mc1.20.jar": {
     "jarName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
     "modId": "supermartijn642configlib",

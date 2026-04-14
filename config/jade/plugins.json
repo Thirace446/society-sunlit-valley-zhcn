@@ -72,6 +72,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "cobblemon_farmers": {
+    "cobblemon_farmers": true
+  },
   "cobblemonintegrations": {
     "healer": true,
     "apricorn": true,
@@ -108,10 +111,6 @@
   },
   "jadeaddons.lootr": {
     "info": true
-  },
-  "item-descriptions": {
-    "block_descriptions": true,
-    "entity_descriptions": true
   },
   "pipez": {
     "pipe": true

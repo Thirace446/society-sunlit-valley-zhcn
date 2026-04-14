@@ -4,7 +4,6 @@ blueprints/
 portable_blueprints/tablet_data
 crash-reports/
 emojiful/cache
-journeymap/
 xaero/
 local/
 logs
@@ -52,3 +51,6 @@ lwjgl_opengl.dll
 lwjgl_stb.dll
 lwjgl.dll
 OpenAL.dll
+/journeymap/*
+!/journeymap/config
+!/journeymap/config/5.10

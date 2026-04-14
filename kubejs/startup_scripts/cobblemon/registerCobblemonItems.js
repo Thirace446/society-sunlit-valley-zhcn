@@ -1,7 +1,7 @@
 console.info("[SOCIETY-S-COBBLEMON] registerCobblemonItems.js loaded");
 
 StartupEvents.registry("item", (e) => {
-  
+
   e.create("sunlit_cobblemon:mystery_gift")
   // Cobblemon
   e.create("cobblemon:metal_alloy").texture("cobblemon:item/evolution/metal_alloy");

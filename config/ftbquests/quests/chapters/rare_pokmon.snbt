@@ -511,6 +511,9 @@
 				"7169193680597E82"
 				"0FD10C2F7AE4677E"
 				"40782D6A62B4B8D0"
+				"0EBCCA3706A180E0"
+				"27095A5816F58B81"
+				"1862834CE4AA333D"
 			]
 			description: [
 				"&6Ultra Beasts&r are inter-dimensional Pokémon from a world quite unlike ours."
@@ -767,8 +770,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ogerpon"
-			x: -2.0d
-			y: -10.0d
+			x: 11.0d
+			y: -8.0d
 		}
 		{
 			description: ["&6Galarian&r variant can be found in the same way."]
@@ -794,7 +797,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Articuno"
-			x: 9.0d
+			x: -4.0d
 			y: -22.0d
 		}
 		{
@@ -821,7 +824,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zapdos"
-			x: 11.0d
+			x: -2.0d
 			y: -22.0d
 		}
 		{
@@ -848,7 +851,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Moltres"
-			x: 13.0d
+			x: 0.0d
 			y: -22.0d
 		}
 		{
@@ -902,7 +905,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regirock"
-			x: -4.0d
+			x: 9.0d
 			y: -22.0d
 		}
 		{
@@ -929,7 +932,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regice"
-			x: -2.0d
+			x: 11.0d
 			y: -22.0d
 		}
 		{
@@ -956,7 +959,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Registeel"
-			x: 0.0d
+			x: 13.0d
 			y: -22.0d
 		}
 		{
@@ -1227,7 +1230,7 @@
 			}]
 			title: "Tornadus"
 			x: -4.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			description: [""]
@@ -1254,7 +1257,7 @@
 			}]
 			title: "Thundurus"
 			x: -2.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			description: [""]
@@ -1281,7 +1284,7 @@
 			}]
 			title: "Landorus"
 			x: 0.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			description: [""]
@@ -2203,7 +2206,7 @@
 			}]
 			title: "Latias"
 			x: 10.0d
-			y: -18.0d
+			y: -15.0d
 		}
 		{
 			description: [""]
@@ -2230,7 +2233,7 @@
 			}]
 			title: "Latios"
 			x: 12.0d
-			y: -18.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]
@@ -2261,11 +2264,20 @@
 			y: 5.0d
 		}
 		{
+			dependencies: [
+				"237DDF00F56D5D30"
+				"237C9725D6792C55"
+				"1E0508A8E8FE6814"
+				"65F2AB32EFCF4051"
+				"74F234EF490006A2"
+			]
 			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "12130DEA8E725997"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Summoned using the Tabula Rasa"
+			subtitle: "Summoned using the Tabula Rasa with all the Regis"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2284,11 +2296,18 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regigigas"
-			x: 10.0d
-			y: -20.0d
+			x: 11.0d
+			y: -18.0d
 		}
 		{
+			dependencies: [
+				"3A174D139C314784"
+				"1F0857E5F4C8E85E"
+				"404206ADF8E6B097"
+			]
 			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "690C4EE7C6DBED87"
 			shape: "none"
 			size: 2.0d
@@ -2311,8 +2330,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Cresselia"
-			x: 12.0d
-			y: -20.0d
+			x: -2.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]
@@ -2483,6 +2502,8 @@
 		{
 			dependencies: ["70053D76E4DA6905"]
 			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "069B5BCA35F1FB9A"
 			shape: "none"
 			size: 2.0d
@@ -2511,6 +2532,8 @@
 		{
 			dependencies: ["70053D76E4DA6905"]
 			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "7CD7B2B58503E5E1"
 			shape: "none"
 			size: 2.0d
@@ -2653,6 +2676,10 @@
 		{
 			dependencies: ["017B8D1E26A3992E"]
 			description: [""]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			id: "70053D76E4DA6905"
 			shape: "none"
 			size: 2.0d
@@ -2703,7 +2730,7 @@
 			}]
 			title: "Tapu Koko"
 			x: 12.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			description: [""]
@@ -2730,7 +2757,7 @@
 			}]
 			title: "Tapu Fini"
 			x: 10.0d
-			y: -12.0d
+			y: -10.0d
 		}
 		{
 			description: [""]
@@ -2757,7 +2784,7 @@
 			}]
 			title: "Tapu Bulu"
 			x: 12.0d
-			y: -12.0d
+			y: -10.0d
 		}
 		{
 			description: [""]
@@ -2784,7 +2811,7 @@
 			}]
 			title: "Tapu Lele"
 			x: 10.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]
@@ -2870,12 +2897,11 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "237DDF00F56D5D30"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2894,16 +2920,15 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regieleki"
-			x: 4.0d
-			y: 11.0d
+			x: 10.0d
+			y: -20.0d
 		}
 		{
-			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "74F234EF490006A2"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Not Yet Implemented"
+			subtitle: "Summoned using the Tabula Rasa"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2922,8 +2947,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Regidrago"
-			x: 6.0d
-			y: 11.0d
+			x: 12.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
@@ -2949,7 +2974,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Calyrex"
-			x: 11.0d
+			x: -2.0d
 			y: -10.0d
 		}
 		{
@@ -2976,7 +3001,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Glastrier"
-			x: 10.0d
+			x: -3.0d
 			y: -8.0d
 		}
 		{
@@ -3003,7 +3028,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Spectrier"
-			x: 12.0d
+			x: -1.0d
 			y: -8.0d
 		}
 		{
@@ -3473,6 +3498,7 @@
 		}
 		{
 			description: [""]
+			hide_dependency_lines: false
 			id: "0EBCCA3706A180E0"
 			shape: "none"
 			size: 2.0d
@@ -3632,7 +3658,7 @@
 				gender: ""
 				id: "7940361AAAAD785D"
 				poke_ball_used: ""
-				pokemon: "cobblemon:wochien"
+				pokemon: "cobblemon:chiyu"
 				pokemon_type: ""
 				region: ""
 				shiny: false
