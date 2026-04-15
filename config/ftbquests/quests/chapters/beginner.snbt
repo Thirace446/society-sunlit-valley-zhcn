@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "beginner"
-	group: ""
+	group: "13003519EF914BA5"
 	icon: "cobblemon:master_ball"
 	id: "210AA16BCC8B86BF"
-	order_index: 2
+	order_index: 0
 	progression_mode: "linear"
 	quest_links: [ ]
 	quests: [
@@ -931,8 +931,8 @@
 					type: "command"
 				}
 				{
-					id: "2D60D73CA617DBDA"
-					item: "cobblemon:pasture"
+					id: "62DCEB6449E0C47C"
+					item: "sunlit_cobblemon:pocket_pc"
 					type: "item"
 				}
 			]
@@ -1257,8 +1257,8 @@
 					type: "command"
 				}
 				{
-					id: "6C66B8E5EA185FF3"
-					item: "sunlit_cobblemon:poke_genes"
+					id: "3D648A729EE46B92"
+					item: "cobblemon:pasture"
 					type: "item"
 				}
 			]

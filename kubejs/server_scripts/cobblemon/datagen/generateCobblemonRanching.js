@@ -484,12 +484,25 @@ if (runRanchingDataGen) {
             forages: [
                 {
                     item: "sunlit_cobblemon:strange_spore",
-                    count: 3,
+                    count: 1,
+                    chance: 0.3,
+                    has_quality: true,
+                    min_hearts: 2
+                },
+                {
+                    item: "sunlit_cobblemon:strange_spore",
+                    count: 1,
                     chance: 0.4,
                     has_quality: true,
-                    min_hearts: 0
+                    min_hearts: 4
+                },
+                {
+                    item: "sunlit_cobblemon:strange_spore",
+                    count: 1,
+                    chance: 0.5,
+                    has_quality: true,
+                    min_hearts: 6
                 }
-
             ]
         },
         {
@@ -497,9 +510,9 @@ if (runRanchingDataGen) {
             forages: [
                 {
                     item: "sunlit_cobblemon:strange_spore",
-                    count: 2,
-                    chance: 0.1,
-                    min_hearts: 8
+                    count: 1,
+                    chance: 0.6,
+                    min_hearts: 4
                 },
                 {
                     item: "society:cordycep",
@@ -1003,6 +1016,64 @@ if (runRanchingDataGen) {
                     count: 1,
                     chance: 0.1,
                     min_hearts: 9
+                }
+            ],
+        },
+        {
+            pokemon: "corphish",
+            forages: [
+                {
+                    item: 'society:clawster_roe',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: 'society:clawster_roe',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: 'society:clawster_roe',
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: 'society:clawster_roe',
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 8
+                }
+            ],
+        },
+        {
+            pokemon: "crawdaunt",
+            forages: [
+                {
+                    item: 'society:clawster_roe',
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: 'society:clawster_roe',
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: 'society:clawster_roe',
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: 'society:clawster_roe',
+                    count: 4,
+                    chance: 1,
+                    min_hearts: 8
                 }
             ],
         },
@@ -2371,20 +2442,154 @@ if (runRanchingDataGen) {
             ],
         },
         {
-            pokemon: "krabby",
+            pokemon: "crabrawler",
             forages: [
                 {
-                    item: "quark:crab_leg",
+                    item: "society:crab_roe",
                     count: 1,
-                    chance: 0.45,
-                    has_quality: true,
-                    min_hearts: 3
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 8
+                },
+                {
+                    item: 'crabbersdelight:crab_trap_bait',
+                    count: 4,
+                    chance: 0.93,
+                    min_hearts: 10
                 }
             ],
         },
         {
-            pokemon: "kingler",
+            pokemon: "crabominable",
             forages: [
+                {
+                    item: "society:crab_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 1,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 8
+                },
+                {
+                    item: 'crabbersdelight:deluxe_crab_trap_bait',
+                    count: 4,
+                    chance: 0.5,
+                    min_hearts: 10
+                }
+            ],
+        },
+        {
+            pokemon: "klawf",
+            forages: [
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 8
+                },
+                {
+                    item: 'crabbersdelight:crab_claw',
+                    count: 1,
+                    chance: 0.15,
+                    min_hearts: 9
+                }
+            ],
+        },
+        {
+            pokemon: "klawf",
+            forages: [
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 8
+                },
+                {
+                    item: 'crabbersdelight:crab_claw',
+                    count: 1,
+                    chance: 0.15,
+                    min_hearts: 9
+                }
+            ],
+        },
+        {
+            pokemon: "krabby",
+            forages: [
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 0
+                },
                 {
                     item: "quark:crab_leg",
                     count: 1,
@@ -2393,11 +2598,71 @@ if (runRanchingDataGen) {
                     min_hearts: 3
                 },
                 {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 8
+                }
+            ],
+        },
+        {
+            pokemon: "kingler",
+            forages: [
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 0
+                },
+                {
+                    item: "quark:crab_leg",
+                    count: 1,
+                    chance: 0.45,
+                    has_quality: true,
+                    min_hearts: 3
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 4
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 2,
+                    chance: 1,
+                    min_hearts: 6
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 8
+                },
+                {
                     item: "quark:crab_shell",
                     count: 1,
                     chance: 0.25,
                     has_quality: true,
                     min_hearts: 8
+                },
+                {
+                    item: "society:crab_roe",
+                    count: 3,
+                    chance: 1,
+                    min_hearts: 10
                 }
             ],
         },

@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ic__cobblemon"
-	group: "457DCF55318282CA"
+	group: "13003519EF914BA5"
 	icon: "cobblemon:poke_ball"
 	id: "0831A4AABC2726FF"
 	order_index: 1
@@ -525,6 +525,7 @@
 				"- &6Dark&r - Defeats Pokemon for experience"
 				"- &6Normal&r - Harvests forage drops and milk from nearby &6Ranching Stations&r"
 				"- &6Fairy&r - Magically shears from nearby &6Ranching Stations&r"
+				"- &6Flying&r - Harvests Cobble Berries in an area, with a chance to eat them"
 			]
 			id: "3BD199B4A938437F"
 			rewards: [{
@@ -784,23 +785,6 @@
 			title: "King Smoothies"
 			x: 13.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["43DCB8601B40FB9A"]
-			description: [
-				"Legendaries are a work in progress and will probably look very different in the final release."
-				""
-				"For now make the star pixie!"
-			]
-			id: "4441EAF3D8A0A3CB"
-			tasks: [{
-				id: "1DA944B5A3C4675B"
-				item: "sunlit_cobblemon:star_pixie"
-				type: "item"
-			}]
-			title: "Hunting Legendaries"
-			x: 20.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["43DCB8601B40FB9A"]
@@ -1142,6 +1126,75 @@
 			x: 16.0d
 			y: 2.5d
 		}
+		{
+			dependencies: [
+				"43B535325E3201AE"
+				"68F841C646C9F9E1"
+			]
+			description: [
+				"Placing PCs everywhere to sort out your Pokémon can be a hassle. The &6Pocket PC&r is a convenient option when you're on the go for managing your strorage."
+				""
+				"The &6Poké Mart&r will start stocking it once you reach &6Gold Tier&r."
+			]
+			id: "2A7540BBB7D13AFD"
+			rewards: [{
+				id: "2E1907004D4AA560"
+				item: "cobblemon:exp_candy_l"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17B2FDE3D8AE7F4A"
+				item: "sunlit_cobblemon:pocket_pc"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"68F841C646C9F9E1"
+				"539CA5F135AA627D"
+			]
+			id: "41E167BF05E599AA"
+			tasks: [{
+				id: "47B926E027A7AB4E"
+				item: "cobblemon:pasture"
+				type: "item"
+			}]
+			title: "Breeding Mons"
+			x: 23.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B184B7096AC9BD8"]
+			description: [
+				"With your guardian captured, it's not the end of your journey trainer journey."
+				""
+				"&6Legendary Pokemon&r can be found in the world, through many different means."
+				""
+				"Some will require you to solve puzzles or collect rare items. Others will test the limits of your farm."
+				""
+				"Go out and catch them all!"
+				""
+				"&oSome more will be added in the next update of Society: Sunlit Cobblemon.&r"
+			]
+			icon: "sunlit_cobblemon:fire_pledge"
+			id: "5172D7410B79BC65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72B6BBC625586265"
+				table_id: 2454335040232007403L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1B2564EA6B87ABD0"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "The Hunt for Legendary Pokémon "
+			x: 27.5d
+			y: -0.5d
+		}
 	]
-	title: "I.C - Cobblemon"
+	title: "Cobblemon Tutorial"
 }

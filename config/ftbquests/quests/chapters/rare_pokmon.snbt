@@ -7,7 +7,7 @@
 	hide_quest_until_deps_complete: true
 	icon: "cobblemon:beast_ball"
 	id: "6B6EF767526A7A1C"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -879,7 +879,7 @@
 			}]
 			title: "Mewtwo"
 			x: 5.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			description: [""]
@@ -987,7 +987,7 @@
 			}]
 			title: "Kyogre"
 			x: 3.0d
-			y: -22.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
@@ -1014,7 +1014,7 @@
 			}]
 			title: "Groudon"
 			x: 5.0d
-			y: -22.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
@@ -1041,7 +1041,7 @@
 			}]
 			title: "Rayquaza"
 			x: 7.0d
-			y: -22.0d
+			y: -20.0d
 		}
 		{
 			description: [""]
@@ -1149,7 +1149,7 @@
 			}]
 			title: "Dialga"
 			x: 3.0d
-			y: -20.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
@@ -1176,7 +1176,7 @@
 			}]
 			title: "Palkia"
 			x: 5.0d
-			y: -20.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
@@ -1203,7 +1203,7 @@
 			}]
 			title: "Giratina"
 			x: 7.0d
-			y: -20.0d
+			y: -18.0d
 		}
 		{
 			description: [""]
@@ -1311,7 +1311,7 @@
 			}]
 			title: "Reshiram"
 			x: 3.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			description: [""]
@@ -1338,7 +1338,7 @@
 			}]
 			title: "Zekrom"
 			x: 5.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			description: [""]
@@ -1365,7 +1365,7 @@
 			}]
 			title: "Kyurem"
 			x: 7.0d
-			y: -18.0d
+			y: -16.0d
 		}
 		{
 			dependencies: [
@@ -1553,7 +1553,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Manaphy"
-			x: -14.0d
+			x: -13.0d
 			y: -17.0d
 		}
 		{
@@ -1580,7 +1580,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Phione"
-			x: -16.0d
+			x: -15.0d
 			y: -17.0d
 		}
 		{
@@ -1715,7 +1715,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Keldeo"
-			x: -12.0d
+			x: -11.0d
 			y: -17.0d
 		}
 		{
@@ -1991,11 +1991,11 @@
 			y: -19.0d
 		}
 		{
-			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "30B2D021B62C6735"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -2014,7 +2014,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Zarude"
-			x: -10.0d
+			x: -17.0d
 			y: -17.0d
 		}
 		{
@@ -2126,7 +2126,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "293D16E291C2E3E9"
 			shape: "none"
@@ -2150,11 +2149,10 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Lugia"
-			x: 11.0d
-			y: 1.0d
+			x: 4.0d
+			y: -22.0d
 		}
 		{
-			dependencies: ["155A8CA7F7CBE10F"]
 			description: [""]
 			id: "2999021D2E50828A"
 			shape: "none"
@@ -2178,8 +2176,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Ho-Oh"
-			x: 13.0d
-			y: 1.0d
+			x: 6.0d
+			y: -22.0d
 		}
 		{
 			description: [""]
@@ -2442,7 +2440,7 @@
 			}]
 			title: "Xerneas"
 			x: 4.0d
-			y: -16.0d
+			y: -14.0d
 		}
 		{
 			description: [""]
@@ -2469,7 +2467,7 @@
 			}]
 			title: "Yveltal"
 			x: 6.0d
-			y: -16.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]
@@ -2527,7 +2525,7 @@
 			}]
 			title: "Solgaleo"
 			x: 4.0d
-			y: -10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["70053D76E4DA6905"]
@@ -2557,7 +2555,7 @@
 			}]
 			title: "Lunala"
 			x: 6.0d
-			y: -10.0d
+			y: -8.0d
 		}
 		{
 			description: [""]
@@ -2584,7 +2582,7 @@
 			}]
 			title: "Necrozma"
 			x: 4.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]
@@ -2671,7 +2669,7 @@
 			}]
 			title: "Cosmog"
 			x: 5.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["017B8D1E26A3992E"]
@@ -2703,7 +2701,7 @@
 			}]
 			title: "Cosmoem"
 			x: 5.0d
-			y: -12.0d
+			y: -10.0d
 		}
 		{
 			description: [""]
@@ -2894,7 +2892,7 @@
 			}]
 			title: "Eternatus"
 			x: 6.0d
-			y: -8.0d
+			y: -6.0d
 		}
 		{
 			description: [""]
@@ -3710,7 +3708,7 @@
 				type: "checkmark"
 			}]
 			x: 5.0d
-			y: -4.0d
+			y: -2.0d
 		}
 	]
 	title: "Rare Pokémon"

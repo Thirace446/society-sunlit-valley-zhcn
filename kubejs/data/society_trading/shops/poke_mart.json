@@ -244,6 +244,20 @@
     },
     {
       "offer": {
+        "item": "sunlit_cobblemon:pocket_pc",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 16
+      },
+      "numismatics_cost": 65536,
+      "stage_required": "trainer_lvl_4",
+      "unlock_description": "jei.society_trading.trainer_lvl_4",
+      "trade_id": "pmart_pocket_pc"
+    },
+    {
+      "offer": {
         "item": "sunlit_cobblemon:poke_bobber",
         "count": 1
       },

@@ -156,39 +156,6 @@
             ]
         },
         {
-            "pakku_id": "Um7R2x86JPCohlyq",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "alphabet-soup"
-            },
-            "name": {
-                "curseforge": "Alphabet Soup (Cobblemon)"
-            },
-            "id": {
-                "curseforge": "901630"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "AlphabetSoup-v2.1.zip",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5197/805/AlphabetSoup-v2.1.zip",
-                    "id": "5197805",
-                    "parent_id": "901630",
-                    "hashes": {
-                        "sha1": "1d7d61450e3d5d125df6a859deea21d8a7b76d5e",
-                        "md5": "76fe8ac6e16446b7541d44d8f5d4f2f3"
-                    },
-                    "required_dependencies": [],
-                    "size": 38563,
-                    "date_published": "2024-03-20T13:55:28.730Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "T6NmCLLXTXRJb1gh",
             "type": "MOD",
             "slug": {

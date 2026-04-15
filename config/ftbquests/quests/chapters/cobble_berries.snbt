@@ -6,7 +6,7 @@
 	group: "13003519EF914BA5"
 	icon: "cobblemon:rawst_berry"
 	id: "77D1971B716B2E27"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

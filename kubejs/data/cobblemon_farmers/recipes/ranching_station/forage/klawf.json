@@ -1,19 +1,12 @@
 {
 	"type": "cobblemon_farmers:ranching_station/forage",
-	"pokemon": "kingler",
+	"pokemon": "klawf",
 	"forages": [
 		{
 			"item": "society:crab_roe",
 			"count": 2,
 			"chance": 1,
 			"min_hearts": 0
-		},
-		{
-			"item": "quark:crab_leg",
-			"count": 1,
-			"chance": 0.45,
-			"has_quality": true,
-			"min_hearts": 3
 		},
 		{
 			"item": "society:crab_roe",
@@ -34,17 +27,10 @@
 			"min_hearts": 8
 		},
 		{
-			"item": "quark:crab_shell",
+			"item": "crabbersdelight:crab_claw",
 			"count": 1,
-			"chance": 0.25,
-			"has_quality": true,
-			"min_hearts": 8
-		},
-		{
-			"item": "society:crab_roe",
-			"count": 3,
-			"chance": 1,
-			"min_hearts": 10
+			"chance": 0.15,
+			"min_hearts": 9
 		}
 	]
 }
