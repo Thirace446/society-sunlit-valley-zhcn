@@ -100,6 +100,29 @@ ItemEvents.tooltip((tooltip) => {
       ]);
     }
   });
+  tooltip.addAdvanced("sunlit_cobblemon:mystery_gift", (item, advanced, text) => {
+    if (item.nbt) {
+
+      let { ot, pokemon } = item.nbt;
+      if (item.nbt.pokemon !== null) {
+        text.add(1, [
+          Component.translatable(`cobblemon.species.${pokemon}.name`).green(),
+        ]);
+        let resolvedOT = ot == null || ot === "Chakyl" ? "Chakyl" : Component.translatable(`dialog.npc.${ot}.name`).getString()
+        text.add(2, [
+          Component.translatable("tooltip.sunlit_cobblemon.mystery_gift.from", resolvedOT).gray(),
+        ]);
+      }
+    }
+    if (item.nbt == null || item.nbt.pokemon == null) {
+      text.add(1, [
+        Text.translatable("tooltip.sunlit_cobblemon.mystery_gift.random").green()
+      ]);
+              text.add(2, [
+          Component.translatable("tooltip.sunlit_cobblemon.mystery_gift.from", "Chakyl").gray(),
+        ]);
+    }
+  });
   // Gach
   // Gachapon
   tooltip.addAdvanced(
@@ -213,7 +236,6 @@ ItemEvents.tooltip((tooltip) => {
   [
     "ability_capsule", "ability_patch",
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.special.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   });
 
@@ -243,13 +265,13 @@ ItemEvents.tooltip((tooltip) => {
     "spell_tag", "fairy_feather", "twisted_spoon", "power_anklet", "power_band", "power_belt", "power_bracer",
     "power_lens", "power_weight",
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.held.${item}`).gray());
+    // tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.held.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.held_item`).gold());
   });
   [
     "dawn_stone", "dusk_stone", "fire_stone", "ice_stone", "leaf_stone", "moon_stone", "shiny_stone", "sun_stone", "thunder_stone", "water_stone"
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.stone`).gray());
+    // tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.stone`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
   });
 
@@ -302,7 +324,7 @@ ItemEvents.tooltip((tooltip) => {
     { item: "upgrade", crit: "trade" },
     { item: "whipped_dream", crit: "trade" },
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item.item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.${item.item}`).gray());
+    // tooltip.add(`cobblemon:${item.item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item.${item.item}`).gray());
     if (item.crit)
       tooltip.add(`cobblemon:${item.item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.crit.${item.crit}`).darkPurple());
     tooltip.add(`cobblemon:${item.item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.evo_item`).lightPurple());
@@ -326,7 +348,6 @@ ItemEvents.tooltip((tooltip) => {
     "exp_candy_xs", "exp_candy_s", "exp_candy_m", "exp_candy_l", "exp_candy_xl", "rare_candy",
     "health_feather", "muscle_feather", "resist_feather", "genius_feather", "clever_feather", "swift_feather"
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumables.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
   });
 
@@ -363,7 +384,6 @@ ItemEvents.tooltip((tooltip) => {
     "berry_juice", "remedy", "fine_remedy", "superb_remedy", "heal_powder",
     "potion", "super_potion", "hyper_potion", "max_potion", "full_restore"
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.medicine.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.medicine`).green());
   });
 

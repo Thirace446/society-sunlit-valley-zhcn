@@ -166,3 +166,21 @@ global.handleLeagueFee = (server, player, reason) => {
       ).toJson()
     ))
 };
+
+const NPCMysteryGifts = {
+    banker: "marshadow",
+    blacksmith: "magearna",
+    carpenter: "celebi",
+    fisher: "volcanion",
+    market: "zeraora",
+    shepherd: "meloetta"
+}
+
+
+global.giveNPCMysteryGift = (player, target, server, npcId) => {
+  player.give(Item.of("sunlit_cobblemon:mystery_gift", { pokemon: NPCMysteryGifts[npcId], ot: npcId}) )
+  server.runCommandSilent(
+    `dialog ${target.getUuid()} show ${player.username} ${npcId}_unique_cobblemon_mystery_gift`
+  );
+};
+

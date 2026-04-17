@@ -11,6 +11,7 @@
   "sunlit_cobblemon.gachamon_capsule.addiction": "Woah there you Gachamon addict! Defeat some nearby Pokémon before opening more!",
   "sunlit_cobblemon.legendary_bird": "Looks like a bird has taken the bait!",
   "sunlit_cobblemon.legendary_genie": "You sense a shift in the atmosphere...",
+  "sunlit_cobblemon.mystery_gift": "You found %s in your Mystery Gift!",
 
   "sunlit_cobblemon.sun_raid.clear_area": "The raid Pokémon won't come out with this many nearby Pokémon.",
   "sunlit_cobblemon.sun_raid.checkspawns.nothing": "Nothing can spawn here right now. Try clearing the area of Pokémon before trying again.",
@@ -54,6 +55,8 @@
   "tooltip.sunlit_cobblemon.sun_mirror.pokemon": "Pokemon: ",
   "tooltip.sunlit_cobblemon.sun_mirror.variant": "Variant: ",
   "tooltip.sunlit_cobblemon.sun_mirror.level": " Level: §6%s",
+  "tooltip.sunlit_cobblemon.mystery_gift.random": "Random from basic set",
+  "tooltip.sunlit_cobblemon.mystery_gift.from": "From: %s",
 
   "tooltip.sunlit_cobblemon.tm_pack.description": "12% chance for a TM",
   "tooltip.sunlit_cobblemon.greater_tm_pack.description.chance": "20% chance for a TM",
@@ -77,7 +80,7 @@
   "tooltip.sunlit_cobblemon.gem_box.description": "There's a menacing aura emanating from it...\nIt seems to have slots for gems on each side",
   "tooltip.sunlit_cobblemon.tabula_rasa.description": "There's an engraving of a box with a 7 in it on the back...",
   "tooltip.sunlit_cobblemon.mystica_nectar.description": "Has been said to attract powerful legendary birds when worn in the charm slot",
-  "tooltip.sunlit_cobblemon.rainbow_steam.description": "Has been said to attract powerful legendary genies when worn in the charm slot",
+  "tooltip.sunlit_cobblemon.rainbow_steam.description": "Has been said to attract powerful forces of nature when worn in the charm slot",
   "tooltip.sunlit_cobblemon.swampy_mystica_branch.description": "Has been said to attract lake spirits when worn in the charm slot",
   "tooltip.sunlit_cobblemon.ominous_black_stake.description": "A mysterious shrine to destruction...",
   "tooltip.sunlit_cobblemon.moongeist_crystal.description": "Used in a Moon Ritual to summon Lunala",

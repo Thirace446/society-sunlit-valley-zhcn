@@ -1444,7 +1444,7 @@
 			}]
 			title: "Mew"
 			x: -19.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			description: [""]
@@ -1525,16 +1525,15 @@
 			}]
 			title: "Deoxys"
 			x: -15.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
-			dependencies: ["46D1DABC476BF3E6"]
 			description: [""]
 			hide_until_deps_complete: false
 			id: "2152F97C1F6B73AE"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Evolve Phione"
+			subtitle: "Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1553,15 +1552,16 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Manaphy"
-			x: -13.0d
+			x: -15.0d
 			y: -17.0d
 		}
 		{
+			dependencies: ["2152F97C1F6B73AE"]
 			description: [""]
 			id: "46D1DABC476BF3E6"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Mystery Gift"
+			subtitle: "Breed Manaphy"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1580,7 +1580,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Phione"
-			x: -15.0d
+			x: -12.0d
 			y: -17.0d
 		}
 		{
@@ -1608,7 +1608,7 @@
 			}]
 			title: "Darkrai"
 			x: -17.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			description: [""]
@@ -1635,7 +1635,7 @@
 			}]
 			title: "Shaymin"
 			x: -13.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]
@@ -1662,14 +1662,14 @@
 			}]
 			title: "Arceus"
 			x: -9.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			description: [""]
 			id: "79DD774312E9E054"
 			shape: "none"
 			size: 2.0d
-			subtitle: "Mystery Gift"
+			subtitle: "Perfection Mystery Gift"
 			tasks: [{
 				action: "catch"
 				amount: 1L
@@ -1688,8 +1688,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Victini"
-			x: -10.0d
-			y: -19.0d
+			x: -15.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]
@@ -1715,8 +1715,8 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Keldeo"
-			x: -11.0d
-			y: -17.0d
+			x: -8.0d
+			y: -19.0d
 		}
 		{
 			description: [""]
@@ -1769,7 +1769,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Genesect"
-			x: -20.0d
+			x: -19.0d
 			y: -19.0d
 		}
 		{
@@ -1796,7 +1796,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Diancie"
-			x: -18.0d
+			x: -17.0d
 			y: -19.0d
 		}
 		{
@@ -1823,7 +1823,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Hoopa"
-			x: -16.0d
+			x: -15.0d
 			y: -19.0d
 		}
 		{
@@ -1958,7 +1958,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Meltan"
-			x: -14.0d
+			x: -13.0d
 			y: -19.0d
 		}
 		{
@@ -1987,7 +1987,7 @@
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
 			title: "Melmetal"
-			x: -12.0d
+			x: -11.0d
 			y: -19.0d
 		}
 		{
@@ -2042,7 +2042,7 @@
 			}]
 			title: "Pecharunt"
 			x: -11.0d
-			y: -14.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["155A8CA7F7CBE10F"]

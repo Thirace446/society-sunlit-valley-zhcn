@@ -27,7 +27,7 @@
 			"min_hearts": 8
 		},
 		{
-			"item": "society:deluxe_crab_trap_bait",
+			"item": "crabbersdelight:deluxe_crab_trap_bait",
 			"count": 4,
 			"chance": 0.5,
 			"min_hearts": 10
