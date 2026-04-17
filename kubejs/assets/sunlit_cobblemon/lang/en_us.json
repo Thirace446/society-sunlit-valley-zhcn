@@ -39,6 +39,8 @@
   "sunlit_cobblemon.pofflet.hated": "It doesn't like that flavor of Pofflet...",
   "sunlit_cobblemon.murder.fee": "● §4%s§c fined by the League for the death of a gym patron...",
   "sunlit_cobblemon.loss.fee": "● §c%s§7 paid to the winner...",
+  "sunlit_cobblemon.regi.fail": "That doesn't seem like the correct order...",
+  "sunlit_cobblemon.regi.no_space": "It was the right combination, but there doesn't seem to be enough open area...",
   
   "block.sunlit_cobblemon.trainer_podium.description": "Invites Trainers to your Gym. Their levels will match the average of your party",
   "block.sunlit_cobblemon.sun_raid_statue.description": "Summons a sun raid Pokémon once a day. Shift + Right click to activate the altar",

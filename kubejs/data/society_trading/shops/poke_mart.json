@@ -421,6 +421,24 @@
     },
     {
       "offer": {
+        "item": "sunlit_cobblemon:mystery_gift",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:prismatic_coin",
+        "count": 64
+      },
+      "second_request": {
+        "item": "sunlit_cobblemon:sunlit_league_medallion",
+        "count": 32
+      },
+      "numismatics_cost": 1073741824,
+      "stage_required": "trainer_lvl_8",
+      "unlock_description": "jei.society_trading.trainer_lvl_8",
+      "trade_id": "pmart_mystery_gift"
+    },
+    {
+      "offer": {
         "item": "sunlit_cobblemon:silph_scope",
         "count": 1
       },

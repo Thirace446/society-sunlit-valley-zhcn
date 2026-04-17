@@ -115,6 +115,14 @@
     }
   ],
   "lookup_history": [
+    "item:minecraft:ghast_tear",
+    "item:cobblemon:life_orb",
+    "item:society:amethyst_chunk",
+    "item:sunlit_cobblemon:grass_pledge",
+    "item:sunlit_cobblemon:fire_pledge",
+    "item:sunlit_cobblemon:uncharged_battery",
+    "item:sunlit_cobblemon:savage_sun",
+    "item:sunlit_cobblemon:mystery_gift",
     "item:society:botanical_tribute",
     "item:botania:terrasteel_ingot",
     "item:cobblemon:cherish_ball",
@@ -156,7 +164,6 @@
       "id": "cobblemon:exp_candy_s",
       "amount": 3
     },
-    "item:sunlit_cobblemon:grass_pledge",
     "item:sunlit_cobblemon:water_pledge",
     "item:betterarcheology:rotten_log",
     "item:snowyspirit:betterarcheology/sled_rotten",
@@ -459,7 +466,6 @@
     "item:sunlit_cobblemon:frosty_pofflet",
     "item:sunlit_cobblemon:mana_pofflet",
     "item:sunlit_cobblemon:mossy_pofflet",
-    "item:sunlit_cobblemon:fire_pledge",
     "item:sunlit_cobblemon:moondust",
     "item:cobblemon:magnet",
     "item:cobblemon:razor_claw",
@@ -528,7 +534,6 @@
     "item:cobblemon:nomel_berry",
     "item:society:jade",
     "item:sunlit_cobblemon:strange_spore",
-    "item:sunlit_cobblemon:savage_sun",
     "item:sunlit_cobblemon:bottlecaps_and_nothingness",
     "item:atmospheric:grimwood_sapling",
     "item:atmospheric:grimwood_leaves",
@@ -660,7 +665,6 @@
     "item:nethervinery:netherite_nectar{}",
     "item:society:amulet_of_light",
     "item:minecraft:spruce_wood",
-    "item:cobblemon:life_orb",
     "item:society:aquamarine",
     "item:society:ruby",
     "item:society:topaz",
@@ -1491,8 +1495,7 @@
     "item:unimplemented_items:ability_capsule",
     "item:unimplemented_items:potion",
     "item:cluttered:marble_sun_block",
-    "item:sunlit_cobblemon:pristine_normal_gem",
-    "item:sunlit_cobblemon:legendary_cobbleberry_preserves"
+    "item:sunlit_cobblemon:pristine_normal_gem"
   ],
   "craft_history": [
     "minecraft:kjs/cobblemon_exp_candy_s",

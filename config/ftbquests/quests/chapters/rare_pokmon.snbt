@@ -1453,7 +1453,7 @@
 			size: 2.0d
 			subtitle: "Villager Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1535,7 +1535,7 @@
 			size: 2.0d
 			subtitle: "Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1725,7 +1725,7 @@
 			size: 2.0d
 			subtitle: "Villager Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1752,7 +1752,7 @@
 			size: 2.0d
 			subtitle: "Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1779,7 +1779,7 @@
 			size: 2.0d
 			subtitle: "Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1806,7 +1806,7 @@
 			size: 2.0d
 			subtitle: "Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1833,7 +1833,7 @@
 			size: 2.0d
 			subtitle: "Villager Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1860,7 +1860,7 @@
 			size: 2.0d
 			subtitle: "Villager Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1887,7 +1887,7 @@
 			size: 2.0d
 			subtitle: "Villager Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1912,8 +1912,9 @@
 			id: "77EB2CA4A3E02D3D"
 			shape: "none"
 			size: 2.0d
+			subtitle: "Villager Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1940,7 +1941,7 @@
 			size: 2.0d
 			subtitle: "Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
@@ -1997,7 +1998,7 @@
 			size: 2.0d
 			subtitle: "Mystery Gift"
 			tasks: [{
-				action: "catch"
+				action: "obtain"
 				amount: 1L
 				biome: ""
 				dimension: ""
