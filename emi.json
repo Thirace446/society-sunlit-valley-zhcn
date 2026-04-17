@@ -115,6 +115,18 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "cobblemon:exp_candy_m",
+      "amount": 7
+    },
+    {
+      "type": "item",
+      "id": "cobblemon:exp_candy_s",
+      "amount": 7
+    },
+    "item:minecraft:chest{display:{Name:\u0027{\"translate\":\"Balloon Box\"}\u0027}}",
+    "item:cobblemon:shiny_stone",
     "item:minecraft:ghast_tear",
     "item:cobblemon:life_orb",
     "item:society:amethyst_chunk",
@@ -159,11 +171,6 @@
       "amount": 9
     },
     "item:cobblemon:quick_powder",
-    {
-      "type": "item",
-      "id": "cobblemon:exp_candy_s",
-      "amount": 3
-    },
     "item:sunlit_cobblemon:water_pledge",
     "item:betterarcheology:rotten_log",
     "item:snowyspirit:betterarcheology/sled_rotten",
@@ -223,11 +230,6 @@
     "item:society:crab_roe",
     "item:society:clawster_roe",
     "item:sunlit_cobblemon:pocket_pc",
-    {
-      "type": "item",
-      "id": "cobblemon:exp_candy_m",
-      "amount": 4
-    },
     "item:windswept:elder_feather",
     "item:windswept:dream_catcher",
     "item:cobblemon:dream_ball",
@@ -1494,15 +1496,14 @@
     "item:unimplemented_items:ability_patch",
     "item:unimplemented_items:ability_capsule",
     "item:unimplemented_items:potion",
-    "item:cluttered:marble_sun_block",
-    "item:sunlit_cobblemon:pristine_normal_gem"
+    "item:cluttered:marble_sun_block"
   ],
   "craft_history": [
+    "minecraft:kjs/cobblemon_exp_candy_m",
     "minecraft:kjs/cobblemon_exp_candy_s",
     "minecraft:kjs/society_cheese_press",
     "meadow:fire_log",
     "minecraft:kjs/cobblemon_exp_candy_l",
-    "minecraft:kjs/cobblemon_exp_candy_m",
     "unimplemented_items:bottle_cap_hp",
     "minecraft:kjs/sophisticatedstorage_basic_to_gold_tier_upgrade",
     "farmersdelight:rice",
