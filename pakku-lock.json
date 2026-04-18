@@ -2215,21 +2215,21 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Cobblemon Move Effects Backport 1.0.zip",
+                    "file_name": "Cobblemon Move Effects Backport 1.1.zip",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7844/67/Cobblemon Move Effects Backport 1.0.zip",
-                    "id": "7844067",
+                    "url": "https://edge.forgecdn.net/files/7900/911/Cobblemon Move Effects Backport 1.1.zip",
+                    "id": "7900911",
                     "parent_id": "1499371",
                     "hashes": {
-                        "sha1": "959d1184b71a937addcaa587d34e639a9d89f5d1",
-                        "md5": "fbed6afcfa9fc143e624aeaa3e6abdcc"
+                        "sha1": "509240ec7f5480b4ed84ca88e791e84552b018e8",
+                        "md5": "9ed0396c62efc0091218d0ed960ed6f1"
                     },
                     "required_dependencies": [],
-                    "size": 12901715,
-                    "date_published": "2026-03-30T02:56:48.747Z"
+                    "size": 13001332,
+                    "date_published": "2026-04-09T18:52:32.320Z"
                 }
             ]
         },
@@ -12801,21 +12801,21 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sunlit-mons-2.0.zip",
+                    "file_name": "sunlit-mons-3.0.zip",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7847/815/sunlit-mons-2.0.zip",
-                    "id": "7847815",
+                    "url": "https://edge.forgecdn.net/files/7928/420/sunlit-mons-3.0.zip",
+                    "id": "7928420",
                     "parent_id": "1488690",
                     "hashes": {
-                        "sha1": "3c46dc3ffe683c1088f286dbe37ff36d87f48ddf",
-                        "md5": "634a5e4f854307a494ca781729b57b2a"
+                        "sha1": "4a40cd13d94e85986da1f120196be6701435b026",
+                        "md5": "50897a128bfe24cbb6254a416bd7dde6"
                     },
                     "required_dependencies": [],
-                    "size": 6828916,
-                    "date_published": "2026-03-30T21:37:26.080Z"
+                    "size": 11085001,
+                    "date_published": "2026-04-15T01:01:52.320Z"
                 }
             ]
         },

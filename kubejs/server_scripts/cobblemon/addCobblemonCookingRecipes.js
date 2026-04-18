@@ -126,6 +126,6 @@ ServerEvents.recipes((e) => {
     poffletBase("deadly", "sunlit_cobblemon:spider_milk", 1);
     poffletBase("spicy", "vintagedelight:pepper_jam_mason_jar", 2);
     poffletBase("captivating", "sunlit_cobblemon:mystica_branch", 2);
-    poffletBase("crystalline", "society:spinel", 2);
+    poffletBase("crystalline", "society:amethyst_chunk", 2);
     poffletBase("mana", "society:mana_fruit", 1);
 })

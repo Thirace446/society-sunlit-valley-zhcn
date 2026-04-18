@@ -3,21 +3,21 @@
 	"pokemon": "deerling",
 	"forages": [
 		{
-			"item": "society:crystalberry",
+			"item": "society:salmonberry",
 			"count": 4,
 			"chance": 1,
 			"min_hearts": 3,
 			"has_quality": true
 		},
 		{
-			"item": "society:crystalberry",
+			"item": "society:salmonberry",
 			"count": 4,
 			"chance": 1,
 			"min_hearts": 6,
 			"has_quality": true
 		},
 		{
-			"item": "society:crystalberry",
+			"item": "society:salmonberry",
 			"count": 4,
 			"chance": 1,
 			"min_hearts": 9,

@@ -3,30 +3,30 @@
 	"pokemon": "sawsbuck",
 	"forages": [
 		{
-			"item": "society:crystalberry",
+			"item": "society:salmonberry",
 			"count": 4,
 			"chance": 1,
 			"min_hearts": 3,
 			"has_quality": true
 		},
 		{
-			"item": "society:crystalberry",
+			"item": "society:salmonberry",
 			"count": 4,
 			"chance": 1,
 			"min_hearts": 6,
 			"has_quality": true
 		},
 		{
-			"item": "society:crystalberry",
+			"item": "society:salmonberry",
 			"count": 4,
 			"chance": 1,
 			"min_hearts": 9,
 			"has_quality": true
 		},
 		{
-			"item": "windswept:frozen_branch",
+			"item": "sunlit_cobblemon:mystica_branch",
 			"count": 1,
-			"chance": 0.17,
+			"chance": 0.01,
 			"min_hearts": 10
 		}
 	]

@@ -83,7 +83,7 @@
           }
         },
         {
-          "weight": 1,
+          "weight": 0.01,
           "data": {
             "Name": "sunlit_cobblemon:ominous_black_stake"
           }

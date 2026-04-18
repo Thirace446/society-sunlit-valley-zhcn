@@ -120,11 +120,13 @@ StartupEvents.registry("item", (e) => {
   e.create("sunlit_cobblemon:poison_drop");
   e.create("sunlit_cobblemon:venomshine");
   e.create("sunlit_cobblemon:strange_spore");
-  e.create("sunlit_cobblemon:permafrost");
+  e.create("sunlit_cobblemon:permafrost_drop").texture(`sunlit_cobblemon:item/permafrost`);
   e.create("sunlit_cobblemon:resonance_gem");
   e.create("sunlit_cobblemon:electro_wool");
   e.create("sunlit_cobblemon:electric_canvas");
   e.create("sunlit_cobblemon:moondust");
+  e.create("sunlit_cobblemon:draco_meteorite");
+  e.create("sunlit_cobblemon:quicksilver");
   e.create("sunlit_cobblemon:paras_mushroom");
   e.create("sunlit_cobblemon:spider_milk")
     .food((food) => {

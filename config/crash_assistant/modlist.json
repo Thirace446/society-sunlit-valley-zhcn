@@ -1,9 +1,9 @@
 {
-  "fmlloader-1.20.1-47.4.20.jar (modloader)": {
-    "jarName": "fmlloader-1.20.1-47.4.20.jar (modloader)",
+  "fmlloader-1.20.1-47.4.0.jar (modloader)": {
+    "jarName": "fmlloader-1.20.1-47.4.0.jar (modloader)",
     "modId": "forge",
     "name": "forge",
-    "version": "fmlloader-1.20.1-47.4.20.jar"
+    "version": "fmlloader-1.20.1-47.4.0.jar"
   },
   "additional_attributes-1.20.1-1.3.6-all.jar": {
     "jarName": "additional_attributes-1.20.1-1.3.6-all.jar",
@@ -384,6 +384,7 @@
   "cobbledex-1.20.1-forge-1.1.0.jar": {
     "jarName": "cobbledex-1.20.1-forge-1.1.0.jar",
     "modId": "cobbledex",
+    "name": "Cobbledex",
     "version": "1.1.0",
     "curseForgeHash": 1833873857,
     "modrinthHash": "69c1fd0b12b142690f8d7aae54845be6240179e9"
@@ -391,6 +392,7 @@
   "cobbleemibackported-1.1.jar": {
     "jarName": "cobbleemibackported-1.1.jar",
     "modId": "cobbleemibackported",
+    "name": "CobbleEmiBackported",
     "version": "1.1",
     "curseForgeHash": 1414648059,
     "modrinthHash": "eb5b5252e5ff1a62a58f0bfa47be69666ff5a7a2"
@@ -398,6 +400,7 @@
   "cobblemon-capturexp-1.5-forge-1.0.1.jar": {
     "jarName": "cobblemon-capturexp-1.5-forge-1.0.1.jar",
     "modId": "capture_xp",
+    "name": "Cobblemon Capture XP",
     "version": "1.5-forge-1.0.1",
     "curseForgeHash": 4028205407,
     "modrinthHash": "422df1217de7e25e587aed463c9f5a50b69d98bb"
@@ -405,6 +408,7 @@
   "cobblemon-counter-1.5-forge-1.2.0.jar": {
     "jarName": "cobblemon-counter-1.5-forge-1.2.0.jar",
     "modId": "cobbled_counter",
+    "name": "Cobblemon Counter",
     "version": "1.5-forge-1.2.0",
     "curseForgeHash": 2234285211,
     "modrinthHash": "6ceff984f48049b383207b9aab6d9445897fa489"
@@ -412,6 +416,7 @@
   "Cobblemon-forge-1.5.2+1.20.1.jar": {
     "jarName": "Cobblemon-forge-1.5.2+1.20.1.jar",
     "modId": "cobblemon",
+    "name": "Cobblemon",
     "version": "1.5.2+1.20.1",
     "curseForgeHash": 2015119342,
     "modrinthHash": "02601f79f0c442b75463538da7a3c7f260fda42e"
@@ -419,6 +424,7 @@
   "cobblemon-unimplemented-items-1.5-forge-1.3.0.jar": {
     "jarName": "cobblemon-unimplemented-items-1.5-forge-1.3.0.jar",
     "modId": "unimplemented_items",
+    "name": "Unimplemented Items",
     "version": "1.5-forge-1.3.0",
     "curseForgeHash": 3290138757,
     "modrinthHash": "ac86f60938f74031e298f72d3bc6b852d703ecea"
@@ -426,13 +432,15 @@
   "cobblemon_farmers-1.0.jar": {
     "jarName": "cobblemon_farmers-1.0.jar",
     "modId": "cobblemon_farmers",
+    "name": "Cobblemon Farmers",
     "version": "1.0",
-    "curseForgeHash": 3781619287,
-    "modrinthHash": "d514bbc028fae2a794297638640bf198145df100"
+    "curseForgeHash": 3079918602,
+    "modrinthHash": "4ce7e37f63539459e61bb7419681802608bc8457"
   },
   "cobblemon_quests-[1.20.1]-forge-1.1.11.jar": {
     "jarName": "cobblemon_quests-[1.20.1]-forge-1.1.11.jar",
     "modId": "cobblemon_quests",
+    "name": "Cobblemon Quests",
     "version": "1.1.11",
     "curseForgeHash": 1336535914,
     "modrinthHash": "c0b615b40e9dfc34f0e6bfdabd9480fda6a0e32f"
@@ -440,6 +448,7 @@
   "cobblemon_showdown-1.0.1.jar": {
     "jarName": "cobblemon_showdown-1.0.1.jar",
     "modId": "cobblemon_showdown",
+    "name": "Cobblemon Showdown",
     "version": "1.0.1",
     "curseForgeHash": 3248614857,
     "modrinthHash": "78c0f577dac15e12155eb98800bb2f064e88af32"
@@ -447,6 +456,7 @@
   "cobblemonchallenge-forge-1.20.1-1.1.8.jar": {
     "jarName": "cobblemonchallenge-forge-1.20.1-1.1.8.jar",
     "modId": "cobblemonchallenge",
+    "name": "Cobblemon Challenge",
     "version": "1.1.8",
     "curseForgeHash": 238098482,
     "modrinthHash": "df024420d5b8439a4a15cc105954d12c337fe8c6"
@@ -454,6 +464,7 @@
   "cobblemonintegrations-1.20.1-1.0.7.jar": {
     "jarName": "cobblemonintegrations-1.20.1-1.0.7.jar",
     "modId": "cobblemonintegrations",
+    "name": "Cobblemon Integrations",
     "version": "1.0.7",
     "curseForgeHash": 482724836,
     "modrinthHash": "67400a2e6cec4f01a6a52aed3bb9937bfc29982d"
@@ -461,6 +472,7 @@
   "cobblemonrider-1.2.4.jar": {
     "jarName": "cobblemonrider-1.2.4.jar",
     "modId": "cobblemonrider",
+    "name": "cobblemonrider",
     "version": "1.2.4",
     "curseForgeHash": 4183619531,
     "modrinthHash": "b06b6b1ea7549c043bf5c1b2834ec12081862843"
@@ -468,6 +480,7 @@
   "CobblemonTrainers-1.1.11+1.5.2-forge.jar": {
     "jarName": "CobblemonTrainers-1.1.11+1.5.2-forge.jar",
     "modId": "cobblemontrainers",
+    "name": "CobblemonTrainers",
     "version": "1.1.11+1.5.2",
     "curseForgeHash": 4260633607,
     "modrinthHash": "5a7309a14211f4d3c5900b405c99588d7d00fe80"
@@ -475,16 +488,10 @@
   "Cobblepedia-Forge-0.6.8.jar": {
     "jarName": "Cobblepedia-Forge-0.6.8.jar",
     "modId": "cobblepedia",
+    "name": "Cobblepedia",
     "version": "0.6.8",
     "curseForgeHash": 3004108424,
     "modrinthHash": "edb3b145116035430b4a4f27e0f76755571ef0ba"
-  },
-  "Cobbreeding-forge-1.7.4.jar": {
-    "jarName": "Cobbreeding-forge-1.7.4.jar",
-    "modId": "cobbreeding",
-    "version": "1.7.4",
-    "curseForgeHash": 2203562775,
-    "modrinthHash": "af601dd1c556e12e7e88bcb23b629c2891251dd6"
   },
   "collective-1.20.1-7.87.jar": {
     "jarName": "collective-1.20.1-7.87.jar",
@@ -665,6 +672,7 @@
   "create_klinks_n_klangs-1.0.4.jar": {
     "jarName": "create_klinks_n_klangs-1.0.4.jar",
     "modId": "create_klinks_n_klangs",
+    "name": "Create: Klinks n\u0027 Klangs",
     "version": "1.0.4",
     "curseForgeHash": 2458623192,
     "modrinthHash": "5dd6a0ae6f56b84170f414617135d67e37281994"
@@ -1160,6 +1168,7 @@
   "fightorflight-forge-0.6.2.jar": {
     "jarName": "fightorflight-forge-0.6.2.jar",
     "modId": "fightorflight",
+    "name": "Cobblemon Fight or Flight",
     "version": "0.6.2",
     "curseForgeHash": 1989447541,
     "modrinthHash": "063daa6f5d17a4b10cba91a3664fe42ee0715fc3"
@@ -1924,6 +1933,7 @@
   "OpenLoader-Forge-1.20.1-19.0.5.jar": {
     "jarName": "OpenLoader-Forge-1.20.1-19.0.5.jar",
     "modId": "openloader",
+    "name": "OpenLoader",
     "version": "19.0.5",
     "curseForgeHash": 692457962,
     "modrinthHash": "a0d862da2dd1dc21d00e64508f56e45d31639686"
@@ -1995,6 +2005,7 @@
   "Pehkui-3.8.2+1.20.1-forge.jar": {
     "jarName": "Pehkui-3.8.2+1.20.1-forge.jar",
     "modId": "pehkui",
+    "name": "Pehkui",
     "version": "3.8.2+1.20.1-forge",
     "curseForgeHash": 3398908649,
     "modrinthHash": "4bc816efdd8e5e2a97423313674401351710e403"
@@ -2162,6 +2173,7 @@
   "rctmod-forge-1.20.1-0.12.1-beta.jar": {
     "jarName": "rctmod-forge-1.20.1-0.12.1-beta.jar",
     "modId": "rctmod",
+    "name": "Radical Cobblemon Trainers",
     "version": "0.12.1-beta",
     "curseForgeHash": 2873091553,
     "modrinthHash": "6254cae31f23d7d9800436f15e0d796083b0a971"
@@ -2209,6 +2221,7 @@
   "renderjs-forge-2001.2.1.jar": {
     "jarName": "renderjs-forge-2001.2.1.jar",
     "modId": "renderjs",
+    "name": "RenderJS",
     "version": "2001.2.1",
     "curseForgeHash": 3747131587,
     "modrinthHash": "6edcb7c9f49c3a964d7b3ba5bb664966022e7ca9"
@@ -2256,6 +2269,7 @@
   "rocket_mons-1.0.jar": {
     "jarName": "rocket_mons-1.0.jar",
     "modId": "rocket_mons",
+    "name": "Apocalypse Origins",
     "version": "1.0-1.20.X",
     "curseForgeHash": 54640955,
     "modrinthHash": "9ceaef2fc3ca742768d5295dc3daa5031c751a03"
@@ -2407,6 +2421,7 @@
   "SimpleTMsForge-1.1.2.jar": {
     "jarName": "SimpleTMsForge-1.1.2.jar",
     "modId": "simpletms",
+    "name": "Cobblemon: Simple TM\u0027s",
     "version": "1.1.2",
     "curseForgeHash": 690824267,
     "modrinthHash": "5bd648b08196658bcd515cb5d6f4e6f4248f81f2"
@@ -2606,13 +2621,15 @@
   "sunlit_cobblemon-1.1.jar": {
     "jarName": "sunlit_cobblemon-1.1.jar",
     "modId": "sunlit_cobblemon",
+    "name": "Sunlit Cobblemon",
     "version": "1.1",
-    "curseForgeHash": 1547222944,
-    "modrinthHash": "fdc58684f20c72b624b4ce9270ae9bd60407b648"
+    "curseForgeHash": 3503119371,
+    "modrinthHash": "5a90529b09c9823bc12e0b35ebd1b1afcc8e0e36"
   },
   "sunlitcobblemonmixin-1.0.0.jar": {
     "jarName": "sunlitcobblemonmixin-1.0.0.jar",
     "modId": "sunlitcobblemonmixin",
+    "name": "SunlitCobblemonMixin",
     "version": "1.0.0",
     "curseForgeHash": 1447280767,
     "modrinthHash": "6266576971549474636a2be7155dfb14a5811379"
@@ -2734,8 +2751,8 @@
     "modId": "trials",
     "name": "Trials Chambers Reuploaded",
     "version": "2.3.3",
-    "curseForgeHash": 2227381570,
-    "modrinthHash": "606bf9c8cb50b6f8560f892af70387db037f2ca7"
+    "curseForgeHash": 2836066589,
+    "modrinthHash": "c76eee317d09b669d89e71fa82b426f50ae3f241"
   },
   "trofers-forge-5.0.2.jar": {
     "jarName": "trofers-forge-5.0.2.jar",
