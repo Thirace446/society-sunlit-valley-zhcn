@@ -2,9 +2,9 @@
   "shop_id": "bookseller",
   "name": "shop.society_trading.bookseller",
   "texture": "minecraft:textures/block/bookshelf",
-  "jei_catalyst": { "item": "society:book_of_stars" },
+  "jei_catalyst": { "item": "whimsy_deco:phone" },
   "hidden_from_auto_trader": true,
-  "selector_weight": -100,
+  "selector_weight": -101,
   "seasons_required": ["late_spring", "late_summer", "late_autumn", "late_winter"],
   "trades": [
     {

@@ -1,0 +1,3715 @@
+{
+	autofocus_id: "5C5A08F990320793"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rare_pokmon"
+	group: "13003519EF914BA5"
+	hide_quest_until_deps_complete: true
+	icon: "cobblemon:beast_ball"
+	id: "6B6EF767526A7A1C"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "5258D723273DF790"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nUmbra Barrens"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "697E23AEF7B006DE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:screamtail"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Scream Trail"
+			x: 19.0d
+			y: -15.0d
+		}
+		{
+			description: [""]
+			id: "1ACEB759746487FE"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nUmbra Barrens/Blackstone Caves\\nNight"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "76CCE9B5609D3D37"
+				poke_ball_used: ""
+				pokemon: "cobblemon:fluttermane"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Flutter Mane"
+			x: 21.0d
+			y: -15.0d
+		}
+		{
+			id: "7B7B77F0C9ED1DE3"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nSkull Caves"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1176CF273C343CE7"
+				poke_ball_used: ""
+				pokemon: "cobblemon:slitherwing"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Slither Wing"
+			x: 23.0d
+			y: -15.0d
+		}
+		{
+			id: "3ED55D8417213673"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nDesert Fault"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2D9C5114670A8C0E"
+				poke_ball_used: ""
+				pokemon: "cobblemon:roaringmoon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Roaring Moon"
+			x: 25.0d
+			y: -15.0d
+		}
+		{
+			id: "497269BD63D3CAB5"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nFrozen Caves"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3281ADB2B78A791D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:walkingwake"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Walking Wake"
+			x: 27.0d
+			y: -15.0d
+		}
+		{
+			id: "4AC2C482DBE3C0B2"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nFrozen Maelstrom"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "61F690193F2D87AB"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ragingbolt"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Roaring Moon"
+			x: 29.0d
+			y: -15.0d
+		}
+		{
+			description: [""]
+			id: "780266EEBC9BBDA1"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nRequires Sparkstone Machines nearby\\nMore common in cold biomes"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "51ADB8A8466A7699"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironbundle"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Bundle"
+			x: 20.0d
+			y: -13.0d
+		}
+		{
+			description: [""]
+			id: "16080D969B4C44E9"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nRequires Sparkstone Machines nearby\\nHills \\& Deserts"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "22FEDC60FD421EBB"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironmoth"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Moth"
+			x: 24.0d
+			y: -13.0d
+		}
+		{
+			description: [""]
+			id: "713853BE7205B351"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nRequires Sparkstone Machines nearby\\nRequires Charging Rods nearby"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "62AE049CF8915159"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironthorns"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Thorns"
+			x: 22.0d
+			y: -13.0d
+		}
+		{
+			description: [""]
+			id: "53335158164831B9"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nRequires Sparkstone Machines nearby\\nRequires Charging Rods nearby"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "34E7B445883EA04D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironvaliant"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Valiant"
+			x: 26.0d
+			y: -13.0d
+		}
+		{
+			description: [""]
+			id: "71091CADB01BBBD9"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nRequires Sparkstone Machines nearby\\nRequires Charging Rods nearby\\nFloral Biomes"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "71C417C809587020"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironleaves"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Valiant"
+			x: 28.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"4AC2C482DBE3C0B2"
+				"713853BE7205B351"
+				"3ED55D8417213673"
+				"7B7B77F0C9ED1DE3"
+				"5258D723273DF790"
+				"780266EEBC9BBDA1"
+				"71091CADB01BBBD9"
+				"497269BD63D3CAB5"
+				"53335158164831B9"
+				"16080D969B4C44E9"
+				"1ACEB759746487FE"
+				"3E1B759B00428FB6"
+				"2118ADCB33C9C583"
+			]
+			description: [
+				"&6Paradox Pokémon&r are from a different time, pulled in periodically into the world through mysterious means."
+				""
+				"Selene will occasionally pull in Past Paradox Pokémon into the Skull Cavern, while Future Paradox Pokémon will be pulled into from the sparking energies of Aritsan Hoppers."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cobblemon:timer_ball"
+			id: "5DE5D055D7BC2BFE"
+			size: 2.0d
+			tasks: [{
+				icon: "tanukidecor:crystal_clock"
+				id: "042AA31A7E1092C0"
+				stat: "minecraft:play_time"
+				title: "Obtain all Paradox Pokémon"
+				type: "stat"
+				value: 1
+			}]
+			title: "Paradox Master"
+			x: 24.0d
+			y: -17.0d
+		}
+		{
+			description: [""]
+			id: "46AC1742C4A72259"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "455F03A6C678FECF"
+				poke_ball_used: ""
+				pokemon: "cobblemon:nihilego"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Nihilego"
+			x: 20.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "7169193680597E82"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6990275CBACAA27F"
+				poke_ball_used: ""
+				pokemon: "cobblemon:buzzwole"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Buzzwole"
+			x: 22.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "1B20E6F6F396A6B0"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "45C90627D902DE58"
+				poke_ball_used: ""
+				pokemon: "cobblemon:xurkitree"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Xurkitree"
+			x: 24.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "0AFC79E0751923A6"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "74C789F556D5657C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:kartana"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Kartana"
+			x: 26.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "40782D6A62B4B8D0"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "61F1CCFD39F66E62"
+				poke_ball_used: ""
+				pokemon: "cobblemon:guzzlord"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Guzzlord"
+			x: 28.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "0FD10C2F7AE4677E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2BABA96B57FA3BFE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:blacephalon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Blacephalon"
+			x: 25.0d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"46AC1742C4A72259"
+				"1B20E6F6F396A6B0"
+				"0AFC79E0751923A6"
+				"7169193680597E82"
+				"0FD10C2F7AE4677E"
+				"40782D6A62B4B8D0"
+				"0EBCCA3706A180E0"
+				"27095A5816F58B81"
+				"1862834CE4AA333D"
+			]
+			description: [
+				"&6Ultra Beasts&r are inter-dimensional Pokémon from a world quite unlike ours."
+				""
+				"You'll need to create a &6Wormhole Generator&r and fill it with &6Cosmic Dust&r you find rarely in the world. The biome you are in will match the alternate dimension, pulling a differe beast depending on where you stand."
+				""
+				"Regular balls will have trouble recognizing them as Pokémon, and &6Beast Balls&r are recommended."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cobblemon:beast_ball"
+			id: "6C472A1603AF02C5"
+			size: 2.0d
+			tasks: [{
+				icon: "sunlit_cobblemon:poke_genes"
+				id: "55426B8228B339F1"
+				stat: "minecraft:play_time"
+				title: "Obtain all Ultra Beast Pokémon"
+				type: "stat"
+				value: 1
+			}]
+			title: "Ultra Beast Master"
+			x: 24.0d
+			y: -25.0d
+		}
+		{
+			id: "2118ADCB33C9C583"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nBlackstone Caves"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "28897306AB4A7D7F"
+				poke_ball_used: ""
+				pokemon: "cobblemon:gougingfire"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Gouging Fire"
+			x: 31.0d
+			y: -15.0d
+		}
+		{
+			description: [""]
+			id: "3E1B759B00428FB6"
+			shape: "none"
+			size: 2.0d
+			subtitle: "&6Ultra-Rare&r\\nSkull Cavern\\nDesert Caves"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "494A8021733D582F"
+				poke_ball_used: ""
+				pokemon: "cobblemon:sandyshocks"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Sandy Shocks"
+			x: 17.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"33312768E1E4BA1D"
+				"7783E2BC686C0B13"
+				"3FB31EE76423D1B4"
+				"444BE411AB96960F"
+				"322ACE3883EF0B1B"
+				"1E0508A8E8FE6814"
+				"1C6F513A824DAE33"
+				"26AD3C36EA9987B0"
+				"582C75B20BE4A328"
+				"3B337B0AEB93D2B8"
+				"237C9725D6792C55"
+				"72A7C88BB579C98D"
+				"65F2AB32EFCF4051"
+				"7CD7B2B58503E5E1"
+				"5C5A08F990320793"
+				"39E05E31E342B400"
+				"16A265D611E1A200"
+				"08800F1153A12FA5"
+				"5F5FBD6D85C98EE0"
+				"12130DEA8E725997"
+				"2EC9CFEC5B6BE653"
+				"404206ADF8E6B097"
+				"59CE1B4B97CD55E8"
+				"237DDF00F56D5D30"
+				"520A32661462602C"
+				"5DF36F347032ECD3"
+				"1A7AF9AF189DF96F"
+				"0DE67C52EB82CF9E"
+				"606DAB6837BB5F96"
+				"4716D1AEB1AF123E"
+				"70053D76E4DA6905"
+				"3A174D139C314784"
+				"242F129C3C3DAD3D"
+				"6C211E4CDA3A4362"
+				"5B02036AA208B3D7"
+				"690C4EE7C6DBED87"
+				"08FF418D50AA50E0"
+				"069B5BCA35F1FB9A"
+				"3A0CC3BC3ACCD847"
+				"300A62FAE9A5C16B"
+				"5466D94C92226436"
+				"74F234EF490006A2"
+				"6E1708DFBF799BF1"
+				"47A1B7188C6C0E16"
+				"13F18C6036700BA7"
+				"5AC7A1589AB6E7E0"
+				"22B6D097B8DF5F34"
+				"4F67833D18A57835"
+				"1100E84A0DEB866E"
+				"3FD53A03E6D9D65F"
+				"6434E3E25D873D00"
+				"511218F87BDB47E3"
+				"019B0829BC7B711D"
+				"7CF60082CA31BE92"
+				"21DC364143467701"
+				"6ADF6AB779D9E96F"
+				"2999021D2E50828A"
+				"3D0A1299016A0118"
+				"5FEDE5F7908CA571"
+				"017B8D1E26A3992E"
+				"63757B60253677CF"
+				"3D4A56309EE1E175"
+				"65A0B894A64A878E"
+				"293D16E291C2E3E9"
+				"465458C42F58883E"
+				"10080BAD20ECA930"
+				"1F0857E5F4C8E85E"
+				"72CE11D7503543A9"
+				"3FDA64883A8F9681"
+			]
+			description: [
+				"&6Legendary Pokémon&r are incredibly rare and powerful ones that can only be obtained through specific means."
+				""
+				"Some will be easier to find, with information from this page and JEI/EMI. Others will require you to solve puzzles or complete complex rituals to summon..."
+				""
+				"The &6Sunlit League&r does not allow you to use Legendary Pokémon at your gym."
+				""
+				"&oNot all are implemented, and will be added in future versions of the pack&r"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: false
+			icon: "cobblemon:master_ball"
+			id: "302AA9BB1D2219A8"
+			size: 2.0d
+			tasks: [{
+				icon: "society:legendary_ink"
+				id: "2A07A81D198CD7AF"
+				stat: "minecraft:play_time"
+				title: "Obtain all LegendaryPokémon"
+				type: "stat"
+				value: 1
+			}]
+			title: "Legendary Master"
+			x: 5.0d
+			y: -25.0d
+		}
+		{
+			description: [""]
+			id: "1C6F513A824DAE33"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Ominous Stake"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "443C1F1B7EAAA769"
+				poke_ball_used: ""
+				pokemon: "cobblemon:chienpao"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Chien-Pao"
+			x: -3.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "3FB31EE76423D1B4"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "13FB719A9444CF0C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:wochien"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Wo-Chien"
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			description: [""]
+			id: "72A7C88BB579C98D"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6E663692DCD76699"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ogerpon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Ogerpon"
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			description: ["&6Galarian&r variant can be found in the same way."]
+			id: "33312768E1E4BA1D"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Mystica Nectar"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "10EF21C643A8F6EE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:articuno"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Articuno"
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			description: ["&6Galarian&r variant can be found in the same way."]
+			id: "322ACE3883EF0B1B"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Mystica Nectar"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6E997BE85F937877"
+				poke_ball_used: ""
+				pokemon: "cobblemon:zapdos"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zapdos"
+			x: -2.0d
+			y: -22.0d
+		}
+		{
+			description: ["&6Galarian&r variant can be found in the same way."]
+			id: "444BE411AB96960F"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Mystica Nectar"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "33C9A60CA25A74F9"
+				poke_ball_used: ""
+				pokemon: "cobblemon:moltres"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Moltres"
+			x: 0.0d
+			y: -22.0d
+		}
+		{
+			description: [""]
+			id: "26AD3C36EA9987B0"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2CB1305F46ADF46B"
+				poke_ball_used: ""
+				pokemon: "cobblemon:mewtwo"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Mewtwo"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			description: [""]
+			id: "237C9725D6792C55"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned using the Tabula Rasa"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7C7AEA0E1CE876AA"
+				poke_ball_used: ""
+				pokemon: "cobblemon:regirock"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Regirock"
+			x: 9.0d
+			y: -22.0d
+		}
+		{
+			description: [""]
+			id: "1E0508A8E8FE6814"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned using the Tabula Rasa"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "093A6A24993DE50E"
+				poke_ball_used: ""
+				pokemon: "cobblemon:regice"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Regice"
+			x: 11.0d
+			y: -22.0d
+		}
+		{
+			description: [""]
+			id: "65F2AB32EFCF4051"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned using the Tabula Rasa"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6B6D9D92D763D719"
+				poke_ball_used: ""
+				pokemon: "cobblemon:registeel"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Registeel"
+			x: 13.0d
+			y: -22.0d
+		}
+		{
+			description: [""]
+			id: "582C75B20BE4A328"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6C314B8C804CE8B9"
+				poke_ball_used: ""
+				pokemon: "cobblemon:kyogre"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Kyogre"
+			x: 3.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "7783E2BC686C0B13"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0E5CCEB93C62C5BE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:groudon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Groudon"
+			x: 5.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "3B337B0AEB93D2B8"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6B8FB5D0868AE608"
+				poke_ball_used: ""
+				pokemon: "cobblemon:rayquaza"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Rayquaza"
+			x: 7.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "3A174D139C314784"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Swampy Mystica Branch"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "25B95035B6D7A378"
+				poke_ball_used: ""
+				pokemon: "cobblemon:uxie"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Uxie"
+			x: -4.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "404206ADF8E6B097"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Swampy Mystica Branch"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2891EDF90024E31C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:mesprit"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Mesprit"
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "1F0857E5F4C8E85E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Swampy Mystica Branch"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "151C9B3110FA7EB9"
+				poke_ball_used: ""
+				pokemon: "cobblemon:azelf"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Azelf"
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "6ADF6AB779D9E96F"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "28B42D50EF39AA39"
+				poke_ball_used: ""
+				pokemon: "cobblemon:dialga"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Dialga"
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			description: [""]
+			id: "22B6D097B8DF5F34"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "23673411CC87D02E"
+				poke_ball_used: ""
+				pokemon: "cobblemon:palkia"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Palkia"
+			x: 5.0d
+			y: -18.0d
+		}
+		{
+			description: [""]
+			id: "3D0A1299016A0118"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1DB3A6448D47ABAF"
+				poke_ball_used: ""
+				pokemon: "cobblemon:giratina"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Giratina"
+			x: 7.0d
+			y: -18.0d
+		}
+		{
+			description: [""]
+			id: "7CF60082CA31BE92"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Rainbow Steam"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3C8B70D5B6BBA998"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tornadus"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Tornadus"
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			description: [""]
+			id: "5B02036AA208B3D7"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Rainbow Steam"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0D5ACF60A3AFA524"
+				poke_ball_used: ""
+				pokemon: "cobblemon:thundurus"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Thundurus"
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			description: [""]
+			id: "6434E3E25D873D00"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Lure using Rainbow Steam"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3C69B55A42316B8C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:landorus"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Landorus"
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			description: [""]
+			id: "5DF36F347032ECD3"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0E9E3581F0E2F1DE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:reshiram"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Reshiram"
+			x: 3.0d
+			y: -16.0d
+		}
+		{
+			description: [""]
+			id: "5C5A08F990320793"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "177E15B691C861E9"
+				poke_ball_used: ""
+				pokemon: "cobblemon:zekrom"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zekrom"
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			description: [""]
+			id: "6E1708DFBF799BF1"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6BAF0C4C7760EFEC"
+				poke_ball_used: ""
+				pokemon: "cobblemon:kyurem"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Kyurem"
+			x: 7.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"46D1DABC476BF3E6"
+				"75471B623063A9A6"
+				"3313E6055A9D68C9"
+				"79DD774312E9E054"
+				"4E59F51C1DF1A637"
+				"187BBD71E34984E6"
+				"455BB3288399204D"
+				"09AB8391C585D057"
+				"30B2D021B62C6735"
+				"2152F97C1F6B73AE"
+				"140A63847910E0D5"
+				"59A626ACC353DB15"
+				"0A6B1B2AFBC744C8"
+				"4261E8A7D5174E81"
+				"4DAB5AB60AB3DF1C"
+				"09BA4CE3E0F17C5A"
+				"77EB2CA4A3E02D3D"
+				"399A40142ADC8F40"
+				"13A9F909305BF8CF"
+				"0764E574F4DABF93"
+				"6BA7A0FA9D1106F6"
+				"57BBE9BF4B0DDBD4"
+				"35BDF76CA7B88956"
+			]
+			description: [
+				"&6Mythical Pokémon&r are a categorization of extremely rare Pokémon, similar to Legendaries. The primary way to obtain them is through &6Mystery Gifts&r, a rare item given to you from a villager or through expensive means."
+				""
+				"Some Mythical Pokémon are special, and will have specific ways to obtain them in the future, like Legendaries."
+				""
+				"The &6Sunlit League&r does not allow you to use Mythical Pokémon at your gym."
+				""
+				"&oNot all are implemented, and will be added in future versions of the pack&r"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: false
+			icon: "cobblemon:premier_ball"
+			id: "2321988BC85088DD"
+			size: 2.0d
+			tasks: [{
+				icon: "society:mystic_syrup"
+				id: "70C4CC51855C6E95"
+				stat: "minecraft:play_time"
+				title: "Obtain all Mythical Pokémon"
+				type: "stat"
+				value: 1
+			}]
+			title: "Mythical Master"
+			x: -15.0d
+			y: -25.0d
+		}
+		{
+			description: [""]
+			id: "0A6B1B2AFBC744C8"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "72D32CD696834392"
+				poke_ball_used: ""
+				pokemon: "cobblemon:mew"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Mew"
+			x: -19.0d
+			y: -14.0d
+		}
+		{
+			description: [""]
+			id: "13A9F909305BF8CF"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Villager Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5B1CAFFC0B21CD49"
+				poke_ball_used: ""
+				pokemon: "cobblemon:celebi"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Celebi"
+			x: -20.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "4DAB5AB60AB3DF1C"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Playtesting Mystery Gift"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "450E9C352E46D7A1"
+				poke_ball_used: ""
+				pokemon: "cobblemon:jirachi"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Jirachi"
+			x: -15.0d
+			y: -21.0d
+		}
+		{
+			description: [""]
+			id: "09BA4CE3E0F17C5A"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3C3F8CD07EE817BD"
+				poke_ball_used: ""
+				pokemon: "cobblemon:deoxys"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Deoxys"
+			x: -15.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["46D1DABC476BF3E6"]
+			description: [""]
+			hide_until_deps_complete: false
+			id: "2152F97C1F6B73AE"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Evolve Phione"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "432154EE1D8E957A"
+				poke_ball_used: ""
+				pokemon: "cobblemon:manaphy"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Manaphy"
+			x: -13.0d
+			y: -17.0d
+		}
+		{
+			description: [""]
+			id: "46D1DABC476BF3E6"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "596A0E3746A7F5E4"
+				poke_ball_used: ""
+				pokemon: "cobblemon:phione"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Phione"
+			x: -15.0d
+			y: -17.0d
+		}
+		{
+			description: [""]
+			id: "3313E6055A9D68C9"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "41C884921FBD6ABB"
+				poke_ball_used: ""
+				pokemon: "cobblemon:darkrai"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Darkrai"
+			x: -17.0d
+			y: -14.0d
+		}
+		{
+			description: [""]
+			id: "75471B623063A9A6"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "68E696F33D9BC9A3"
+				poke_ball_used: ""
+				pokemon: "cobblemon:shaymin"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Shaymin"
+			x: -13.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "35BDF76CA7B88956"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2693293867553ECB"
+				poke_ball_used: ""
+				pokemon: "cobblemon:arceus"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Arceus"
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			description: [""]
+			id: "79DD774312E9E054"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0EF4C8F2A3AD42BB"
+				poke_ball_used: ""
+				pokemon: "cobblemon:victini"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Victini"
+			x: -10.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "57BBE9BF4B0DDBD4"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6D1BB3DFB74B2E6F"
+				poke_ball_used: ""
+				pokemon: "cobblemon:keldeo"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Keldeo"
+			x: -11.0d
+			y: -17.0d
+		}
+		{
+			description: [""]
+			id: "4261E8A7D5174E81"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Villager Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "33128F0C1A5E6C21"
+				poke_ball_used: ""
+				pokemon: "cobblemon:meloetta"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Meloetta"
+			x: -14.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "09AB8391C585D057"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "56C3C9450BCBDC0C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:genesect"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Genesect"
+			x: -20.0d
+			y: -19.0d
+		}
+		{
+			description: [""]
+			id: "187BBD71E34984E6"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "18C350E0255D2A44"
+				poke_ball_used: ""
+				pokemon: "cobblemon:diancie"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Diancie"
+			x: -18.0d
+			y: -19.0d
+		}
+		{
+			description: [""]
+			id: "0764E574F4DABF93"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "376E777E6F966E31"
+				poke_ball_used: ""
+				pokemon: "cobblemon:hoopa"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Hoopa"
+			x: -16.0d
+			y: -19.0d
+		}
+		{
+			description: [""]
+			id: "59A626ACC353DB15"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Villager Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4B297F22BEC82613"
+				poke_ball_used: ""
+				pokemon: "cobblemon:volcanion"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Volcanion"
+			x: -10.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "140A63847910E0D5"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Villager Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7B967A84C33F96E4"
+				poke_ball_used: ""
+				pokemon: "cobblemon:magearna"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Magearna"
+			x: -18.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "6BA7A0FA9D1106F6"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Villager Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1F9BA6D08B6DCB7B"
+				poke_ball_used: ""
+				pokemon: "cobblemon:marshadow"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Marshadow"
+			x: -12.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "77EB2CA4A3E02D3D"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "599ECD75F674C7CC"
+				poke_ball_used: ""
+				pokemon: "cobblemon:zeraora"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zeraora"
+			x: -16.0d
+			y: -23.0d
+		}
+		{
+			description: [""]
+			id: "455BB3288399204D"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3A5DD78F57C55EA2"
+				poke_ball_used: ""
+				pokemon: "cobblemon:meltan"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Meltan"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Meltan"
+			x: -14.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["455BB3288399204D"]
+			description: [""]
+			hide_until_deps_complete: false
+			id: "4E59F51C1DF1A637"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Evolve Meltan"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "64C39A29D02E9873"
+				poke_ball_used: ""
+				pokemon: "cobblemon:melmetal"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Melmetal"
+			x: -12.0d
+			y: -19.0d
+		}
+		{
+			description: [""]
+			id: "30B2D021B62C6735"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Mystery Gift"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4879A1D5D9FEFE9D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:zarude"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zarude"
+			x: -17.0d
+			y: -17.0d
+		}
+		{
+			description: [""]
+			id: "399A40142ADC8F40"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0D80B21C17AE7296"
+				poke_ball_used: ""
+				pokemon: "cobblemon:pecharunt"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Pecharunt"
+			x: -11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "08FF418D50AA50E0"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2492701595DCE3B4"
+				poke_ball_used: ""
+				pokemon: "cobblemon:raikou"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Raikou"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "5AC7A1589AB6E7E0"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3D4F00BFC784DAD8"
+				poke_ball_used: ""
+				pokemon: "cobblemon:entei"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Entei"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "63757B60253677CF"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4CF3D7D5E8D06E7A"
+				poke_ball_used: ""
+				pokemon: "cobblemon:suicune"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Suicune"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			id: "293D16E291C2E3E9"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "291BD8158E42461D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:lugia"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Lugia"
+			x: 4.0d
+			y: -22.0d
+		}
+		{
+			description: [""]
+			id: "2999021D2E50828A"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1A25684637075B5D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:hooh"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Ho-Oh"
+			x: 6.0d
+			y: -22.0d
+		}
+		{
+			description: [""]
+			id: "3D4A56309EE1E175"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "56EC05BC4C57BAFB"
+				poke_ball_used: ""
+				pokemon: "cobblemon:latias"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Latias"
+			x: 10.0d
+			y: -15.0d
+		}
+		{
+			description: [""]
+			id: "465458C42F58883E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5C6B950FEE804B90"
+				poke_ball_used: ""
+				pokemon: "cobblemon:latios"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Latios"
+			x: 12.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "3FD53A03E6D9D65F"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2C4C51FDD729A3D4"
+				poke_ball_used: ""
+				pokemon: "cobblemon:heatran"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Heatran"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"237DDF00F56D5D30"
+				"237C9725D6792C55"
+				"1E0508A8E8FE6814"
+				"65F2AB32EFCF4051"
+				"74F234EF490006A2"
+			]
+			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "12130DEA8E725997"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned using the Tabula Rasa with all the Regis"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "45854A38219C9F56"
+				poke_ball_used: ""
+				pokemon: "cobblemon:regigigas"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Regigigas"
+			x: 11.0d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"3A174D139C314784"
+				"1F0857E5F4C8E85E"
+				"404206ADF8E6B097"
+			]
+			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "690C4EE7C6DBED87"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Fish while having all 3 lake spirits"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "69A900B8FBA302FE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:cresselia"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Cresselia"
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "4F67833D18A57835"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "34D459FCE23FFB96"
+				poke_ball_used: ""
+				pokemon: "cobblemon:cobalion"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Cobalion"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "4716D1AEB1AF123E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4760AE13E76C291C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:virizion"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Virizion"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "511218F87BDB47E3"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "609698C7129836DB"
+				poke_ball_used: ""
+				pokemon: "cobblemon:terrakion"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Terrakion"
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "47A1B7188C6C0E16"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from the Blooming Ring"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "56DF11F047D722E9"
+				poke_ball_used: ""
+				pokemon: "cobblemon:xerneas"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Xerneas"
+			x: 4.0d
+			y: -14.0d
+		}
+		{
+			description: [""]
+			id: "59CE1B4B97CD55E8"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from the Cornucopia of Greed"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7BFE7BD27BE77ECD"
+				poke_ball_used: ""
+				pokemon: "cobblemon:yveltal"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Yveltal"
+			x: 6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "21DC364143467701"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "01376F31BE7AC062"
+				poke_ball_used: ""
+				pokemon: "cobblemon:zygarde"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zygarde"
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["70053D76E4DA6905"]
+			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "069B5BCA35F1FB9A"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Evolve Cosmoem during the day"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3E35B22CFBD89B6F"
+				poke_ball_used: ""
+				pokemon: "cobblemon:solgaleo"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Solgaleo"
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["70053D76E4DA6905"]
+			description: [""]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "7CD7B2B58503E5E1"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Evolve Cosmoem at night"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0B5D225AC3571874"
+				poke_ball_used: ""
+				pokemon: "cobblemon:lunala"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Lunala"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			description: [""]
+			id: "300A62FAE9A5C16B"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1CC1727D17C5F180"
+				poke_ball_used: ""
+				pokemon: "cobblemon:necrozma"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Necrozma"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "72CE11D7503543A9"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "10E983AABF6E591C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:typenull"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Type: Null"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"72CE11D7503543A9"
+				"155A8CA7F7CBE10F"
+			]
+			description: [""]
+			id: "1DB8687963B4FA47"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6166BF411F83A4CE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:silvally"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Silvally"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Silvall"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "017B8D1E26A3992E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Complete the moon ritual and defeat Moonlit Lunala"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5BDCFC12EEA2762C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:cosmog"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Cosmog"
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["017B8D1E26A3992E"]
+			description: [""]
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
+			id: "70053D76E4DA6905"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Evolve Cosmog"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4E8188ED2EA27AB7"
+				poke_ball_used: ""
+				pokemon: "cobblemon:cosmoem"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Cosmoem"
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			description: [""]
+			id: "1100E84A0DEB866E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7CF92F4AD886C5DF"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tapukoko"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Tapu Koko"
+			x: 12.0d
+			y: -12.0d
+		}
+		{
+			description: [""]
+			id: "0DE67C52EB82CF9E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "73113A5AB8685845"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tapufini"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Tapu Fini"
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			description: [""]
+			id: "5F5FBD6D85C98EE0"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "45BE86251D5C5B41"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tapubulu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Tapu Bulu"
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			description: [""]
+			id: "6C211E4CDA3A4362"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "10E90EA878EA6B3D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tapulele"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Tapu Lele"
+			x: 10.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "10080BAD20ECA930"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "323ECD41ADECB340"
+				poke_ball_used: ""
+				pokemon: "cobblemon:zacian"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zacian"
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "3A0CC3BC3ACCD847"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "057377ABFEE25237"
+				poke_ball_used: ""
+				pokemon: "cobblemon:zamazenta"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zamazenta"
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			description: [""]
+			id: "16A265D611E1A200"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "55E179255D809EDE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:eternatus"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Eternatus"
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			description: [""]
+			id: "237DDF00F56D5D30"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned using the Tabula Rasa"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "26561EF69824F8A4"
+				poke_ball_used: ""
+				pokemon: "cobblemon:regieleki"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Regieleki"
+			x: 10.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "74F234EF490006A2"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned using the Tabula Rasa"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6F5FC43C1503FFA2"
+				poke_ball_used: ""
+				pokemon: "cobblemon:regidrago"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Regidrago"
+			x: 12.0d
+			y: -20.0d
+		}
+		{
+			description: [""]
+			id: "39E05E31E342B400"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "11AA5E3583373CAA"
+				poke_ball_used: ""
+				pokemon: "cobblemon:calyrex"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Calyrex"
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			description: [""]
+			id: "08800F1153A12FA5"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6E3AAF7B8C46AF28"
+				poke_ball_used: ""
+				pokemon: "cobblemon:glastrier"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Glastrier"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			description: [""]
+			id: "606DAB6837BB5F96"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "782143A40B3B6A36"
+				poke_ball_used: ""
+				pokemon: "cobblemon:spectrier"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Spectrier"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "019B0829BC7B711D"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "520FBD0C93722FA1"
+				poke_ball_used: ""
+				pokemon: "cobblemon:enamorus"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Enamorus"
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			description: [""]
+			id: "5466D94C92226436"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3B0162F412B20083"
+				poke_ball_used: ""
+				pokemon: "cobblemon:kubfu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Kubfu"
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5466D94C92226436"]
+			description: [""]
+			hide_until_deps_complete: false
+			id: "2EC9CFEC5B6BE653"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "310FE1A0407712E8"
+				poke_ball_used: ""
+				pokemon: "cobblemon:urshifu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Urshifu (Single Strike)"
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["5466D94C92226436"]
+			description: [""]
+			hide_until_deps_complete: false
+			id: "5FEDE5F7908CA571"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "091DB39401AFA8DF"
+				poke_ball_used: ""
+				pokemon: "cobblemon:urshifurs"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Urshifu (Rapid Strike)"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "242F129C3C3DAD3D"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "54BDDE1DE1713F42"
+				poke_ball_used: ""
+				pokemon: "cobblemon:terapagos"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Terapagos"
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "13F18C6036700BA7"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "443524C3E6ABA598"
+				poke_ball_used: ""
+				pokemon: "cobblemon:koraidon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Koraidon"
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "65A0B894A64A878E"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1229C28A33AF7293"
+				poke_ball_used: ""
+				pokemon: "cobblemon:miraidon"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Zacian"
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "3FDA64883A8F9681"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0B908D9D6253E6AE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:okidogi"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Ogerpon"
+			x: 9.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "520A32661462602C"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2A7A65FD82F44B69"
+				poke_ball_used: ""
+				pokemon: "cobblemon:munkidori"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Munkidori"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "1A7AF9AF189DF96F"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1AEE51447E2B7580"
+				poke_ball_used: ""
+				pokemon: "cobblemon:fezandipiti"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Fezandipiti"
+			x: 13.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			id: "4072967234D0EEEE"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4D37B2B9152DD6F7"
+				poke_ball_used: ""
+				pokemon: "cobblemon:brutebonnet"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Brute Bonnet"
+			x: 33.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			id: "23CD26D984004126"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "785C97E10D2A3024"
+				poke_ball_used: ""
+				pokemon: "cobblemon:greattusk"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Great Tusk"
+			x: 35.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			id: "218747DA6825532A"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "40CF5D22F1E0F691"
+				poke_ball_used: ""
+				pokemon: "cobblemon:irontreads"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Treads"
+			x: 38.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			id: "5381445CCB6A2430"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "674DB468C9406DC1"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironjugulis"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Jugulis"
+			x: 36.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "074AC296F1CC06DE"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "774093F819113ACA"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironboulder"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Boulder"
+			x: 30.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "3C04065F64DEC2A2"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6EEB7D740271C258"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironcrown"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Crown"
+			x: 32.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			id: "3493E9B6B38F2182"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "59EFD24813228919"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ironhands"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Iron Hands"
+			x: 34.0d
+			y: -13.0d
+		}
+		{
+			description: [""]
+			hide_dependency_lines: false
+			id: "0EBCCA3706A180E0"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "394F6A5E9BC58634"
+				poke_ball_used: ""
+				pokemon: "cobblemon:celesteela"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Celesteela"
+			x: 27.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "04F219DF9F2B8A72"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5ACE5132CABF5752"
+				poke_ball_used: ""
+				pokemon: "cobblemon:pheromosa"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Pheromosa"
+			x: 29.0d
+			y: -21.0d
+		}
+		{
+			description: [""]
+			id: "27095A5816F58B81"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Wormhole Generator"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6EA75BEA936854BD"
+				poke_ball_used: ""
+				pokemon: "cobblemon:poipole"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Poipole"
+			x: 21.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["27095A5816F58B81"]
+			description: [""]
+			hide_until_deps_complete: false
+			id: "1862834CE4AA333D"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Evolved from Poipole"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0A2A99F610165F32"
+				poke_ball_used: ""
+				pokemon: "cobblemon:naganadel"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Naganadel"
+			x: 23.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "4C9CE98D2374BC52"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "49647D0033F9B2AE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:stakataka"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Stakataka"
+			x: 31.0d
+			y: -21.0d
+		}
+		{
+			description: [""]
+			icon: {
+				Count: 1
+				id: "cobblemon:pokemon_model"
+				tag: {
+					species: "cobblemon:chiyu"
+				}
+			}
+			id: "57323D1D7796E99F"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Summoned from Ominous Stake"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7940361AAAAD785D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:chiyu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Wo-Chein"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Chi-Yu"
+			x: -1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["155A8CA7F7CBE10F"]
+			description: [""]
+			id: "31C7D687A7AF3DEB"
+			shape: "none"
+			size: 2.0d
+			subtitle: "Not Yet Implemented"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "157C032C5A22CF72"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tinglu"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 13.0d
+			y: 14.0d
+		}
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "155A8CA7F7CBE10F"
+			invisible_until_tasks: 10
+			secret: true
+			tasks: [{
+				id: "1CB7F8333950CAA3"
+				title: "Unimplemented"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+	]
+	title: "Rare Pokémon"
+}

@@ -333,6 +333,111 @@
     "curseForgeHash": 3263436338,
     "modrinthHash": "c1dca582de21cc540f1a84188db40d65d14c8153"
   },
+  "cobbledex-1.20.1-forge-1.1.0.jar": {
+    "jarName": "cobbledex-1.20.1-forge-1.1.0.jar",
+    "modId": "cobbledex",
+    "version": "1.1.0",
+    "curseForgeHash": 1833873857,
+    "modrinthHash": "69c1fd0b12b142690f8d7aae54845be6240179e9"
+  },
+  "cobbleemibackported-1.1.jar": {
+    "jarName": "cobbleemibackported-1.1.jar",
+    "modId": "cobbleemibackported",
+    "version": "1.1",
+    "curseForgeHash": 1414648059,
+    "modrinthHash": "eb5b5252e5ff1a62a58f0bfa47be69666ff5a7a2"
+  },
+  "cobblemon-capturexp-1.5-forge-1.0.1.jar": {
+    "jarName": "cobblemon-capturexp-1.5-forge-1.0.1.jar",
+    "modId": "capture_xp",
+    "version": "1.5-forge-1.0.1",
+    "curseForgeHash": 4028205407,
+    "modrinthHash": "422df1217de7e25e587aed463c9f5a50b69d98bb"
+  },
+  "cobblemon-counter-1.5-forge-1.2.0.jar": {
+    "jarName": "cobblemon-counter-1.5-forge-1.2.0.jar",
+    "modId": "cobbled_counter",
+    "version": "1.5-forge-1.2.0",
+    "curseForgeHash": 2234285211,
+    "modrinthHash": "6ceff984f48049b383207b9aab6d9445897fa489"
+  },
+  "Cobblemon-forge-1.5.2+1.20.1.jar": {
+    "jarName": "Cobblemon-forge-1.5.2+1.20.1.jar",
+    "modId": "cobblemon",
+    "version": "1.5.2+1.20.1",
+    "curseForgeHash": 2015119342,
+    "modrinthHash": "02601f79f0c442b75463538da7a3c7f260fda42e"
+  },
+  "cobblemon-unimplemented-items-1.5-forge-1.3.0.jar": {
+    "jarName": "cobblemon-unimplemented-items-1.5-forge-1.3.0.jar",
+    "modId": "unimplemented_items",
+    "version": "1.5-forge-1.3.0",
+    "curseForgeHash": 3290138757,
+    "modrinthHash": "ac86f60938f74031e298f72d3bc6b852d703ecea"
+  },
+  "cobblemon_farmers-1.0.jar": {
+    "jarName": "cobblemon_farmers-1.0.jar",
+    "modId": "cobblemon_farmers",
+    "version": "1.0",
+    "curseForgeHash": 3781619287,
+    "modrinthHash": "d514bbc028fae2a794297638640bf198145df100"
+  },
+  "cobblemon_quests-[1.20.1]-forge-1.1.11.jar": {
+    "jarName": "cobblemon_quests-[1.20.1]-forge-1.1.11.jar",
+    "modId": "cobblemon_quests",
+    "version": "1.1.11",
+    "curseForgeHash": 1336535914,
+    "modrinthHash": "c0b615b40e9dfc34f0e6bfdabd9480fda6a0e32f"
+  },
+  "cobblemon_showdown-1.0.1.jar": {
+    "jarName": "cobblemon_showdown-1.0.1.jar",
+    "modId": "cobblemon_showdown",
+    "version": "1.0.1",
+    "curseForgeHash": 3248614857,
+    "modrinthHash": "78c0f577dac15e12155eb98800bb2f064e88af32"
+  },
+  "cobblemonchallenge-forge-1.20.1-1.1.8.jar": {
+    "jarName": "cobblemonchallenge-forge-1.20.1-1.1.8.jar",
+    "modId": "cobblemonchallenge",
+    "version": "1.1.8",
+    "curseForgeHash": 238098482,
+    "modrinthHash": "df024420d5b8439a4a15cc105954d12c337fe8c6"
+  },
+  "cobblemonintegrations-1.20.1-1.0.7.jar": {
+    "jarName": "cobblemonintegrations-1.20.1-1.0.7.jar",
+    "modId": "cobblemonintegrations",
+    "version": "1.0.7",
+    "curseForgeHash": 482724836,
+    "modrinthHash": "67400a2e6cec4f01a6a52aed3bb9937bfc29982d"
+  },
+  "cobblemonrider-1.2.4.jar": {
+    "jarName": "cobblemonrider-1.2.4.jar",
+    "modId": "cobblemonrider",
+    "version": "1.2.4",
+    "curseForgeHash": 4183619531,
+    "modrinthHash": "b06b6b1ea7549c043bf5c1b2834ec12081862843"
+  },
+  "CobblemonTrainers-1.1.11+1.5.2-forge.jar": {
+    "jarName": "CobblemonTrainers-1.1.11+1.5.2-forge.jar",
+    "modId": "cobblemontrainers",
+    "version": "1.1.11+1.5.2",
+    "curseForgeHash": 4260633607,
+    "modrinthHash": "5a7309a14211f4d3c5900b405c99588d7d00fe80"
+  },
+  "Cobblepedia-Forge-0.6.8.jar": {
+    "jarName": "Cobblepedia-Forge-0.6.8.jar",
+    "modId": "cobblepedia",
+    "version": "0.6.8",
+    "curseForgeHash": 3004108424,
+    "modrinthHash": "edb3b145116035430b4a4f27e0f76755571ef0ba"
+  },
+  "Cobbreeding-forge-1.7.4.jar": {
+    "jarName": "Cobbreeding-forge-1.7.4.jar",
+    "modId": "cobbreeding",
+    "version": "1.7.4",
+    "curseForgeHash": 2203562775,
+    "modrinthHash": "af601dd1c556e12e7e88bcb23b629c2891251dd6"
+  },
   "collective-1.20.1-7.87.jar": {
     "jarName": "collective-1.20.1-7.87.jar",
     "modId": "collective",
@@ -486,6 +591,13 @@
     "version": "0.4.0",
     "curseForgeHash": 694433954,
     "modrinthHash": "49712554e365e4412fa6362f0394e919fe7eb261"
+  },
+  "create_klinks_n_klangs-1.0.4.jar": {
+    "jarName": "create_klinks_n_klangs-1.0.4.jar",
+    "modId": "create_klinks_n_klangs",
+    "version": "1.0.4",
+    "curseForgeHash": 2458623192,
+    "modrinthHash": "5dd6a0ae6f56b84170f414617135d67e37281994"
   },
   "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar": {
     "jarName": "create_mecanical_extruder-1.20.1-1.6.11-6.0.6.jar",
@@ -701,8 +813,8 @@
     "jarName": "emberstextapi-1.4.1.jar",
     "modId": "emberstextapi",
     "version": "1.4.1",
-    "curseForgeHash": 271363498,
-    "modrinthHash": "101d612a06b81b7ce8e5895dfd6160243456fe53"
+    "curseForgeHash": 892862891,
+    "modrinthHash": "306a2c3938246550e9c50fd06a17956e9c20e164"
   },
   "emi-1.1.22+1.20.1+forge.jar": {
     "jarName": "emi-1.1.22+1.20.1+forge.jar",
@@ -913,6 +1025,13 @@
     "version": "6.0.1",
     "curseForgeHash": 2683111440,
     "modrinthHash": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+  },
+  "fightorflight-forge-0.6.2.jar": {
+    "jarName": "fightorflight-forge-0.6.2.jar",
+    "modId": "fightorflight",
+    "version": "0.6.2",
+    "curseForgeHash": 1989447541,
+    "modrinthHash": "063daa6f5d17a4b10cba91a3664fe42ee0715fc3"
   },
   "findme-3.2.3-forge.jar": {
     "jarName": "findme-3.2.3-forge.jar",
@@ -1577,6 +1696,13 @@
     "curseForgeHash": 1733614260,
     "modrinthHash": "272bddb5e5284737f11519c6895cfb07fe38ab51"
   },
+  "OpenLoader-Forge-1.20.1-19.0.5.jar": {
+    "jarName": "OpenLoader-Forge-1.20.1-19.0.5.jar",
+    "modId": "openloader",
+    "version": "19.0.5",
+    "curseForgeHash": 692457962,
+    "modrinthHash": "a0d862da2dd1dc21d00e64508f56e45d31639686"
+  },
   "Oreganized 1.20.1-4.3.2.jar": {
     "jarName": "Oreganized 1.20.1-4.3.2.jar",
     "modId": "oreganized",
@@ -1632,6 +1758,13 @@
     "version": "1.20.1-84.1-FORGE",
     "curseForgeHash": 3571975239,
     "modrinthHash": "e91d2e2f251375d647d592b670ea6f310c2554eb"
+  },
+  "Pehkui-3.8.2+1.20.1-forge.jar": {
+    "jarName": "Pehkui-3.8.2+1.20.1-forge.jar",
+    "modId": "pehkui",
+    "version": "3.8.2+1.20.1-forge",
+    "curseForgeHash": 3398908649,
+    "modrinthHash": "4bc816efdd8e5e2a97423313674401351710e403"
   },
   "perfectplushies-forge-1.20.1-1.13.3.jar": {
     "jarName": "perfectplushies-forge-1.20.1-1.13.3.jar",
@@ -1773,6 +1906,13 @@
     "curseForgeHash": 3161842124,
     "modrinthHash": "9ef26f3479f4da16f052437f91e36205cbd71162"
   },
+  "rctmod-forge-1.20.1-0.12.1-beta.jar": {
+    "jarName": "rctmod-forge-1.20.1-0.12.1-beta.jar",
+    "modId": "rctmod",
+    "version": "0.12.1-beta",
+    "curseForgeHash": 2873091553,
+    "modrinthHash": "6254cae31f23d7d9800436f15e0d796083b0a971"
+  },
   "refinedstorage-1.12.4.jar": {
     "jarName": "refinedstorage-1.12.4.jar",
     "modId": "refinedstorage",
@@ -1808,6 +1948,13 @@
     "curseForgeHash": 3684028936,
     "modrinthHash": "7cae606158a0ddcecd0c68c1d82a29ad89da6ce2"
   },
+  "renderjs-forge-2001.2.1.jar": {
+    "jarName": "renderjs-forge-2001.2.1.jar",
+    "modId": "renderjs",
+    "version": "2001.2.1",
+    "curseForgeHash": 3747131587,
+    "modrinthHash": "6edcb7c9f49c3a964d7b3ba5bb664966022e7ca9"
+  },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
     "modId": "resourcefulconfig",
@@ -1842,6 +1989,13 @@
     "version": "1.20.1-Forge-3.0.5",
     "curseForgeHash": 3978204156,
     "modrinthHash": "5cc73d3399248300a188164406cd801cc4ae00b3"
+  },
+  "rocket_mons-1.0.jar": {
+    "jarName": "rocket_mons-1.0.jar",
+    "modId": "rocket_mons",
+    "version": "1.0-1.20.X",
+    "curseForgeHash": 54640955,
+    "modrinthHash": "9ceaef2fc3ca742768d5295dc3daa5031c751a03"
   },
   "rottencreatures-forge-1.20.1-1.1.0.jar": {
     "jarName": "rottencreatures-forge-1.20.1-1.1.0.jar",
@@ -1969,6 +2123,13 @@
     "curseForgeHash": 3998445220,
     "modrinthHash": "c461c1e56c53fe9a4ea0974a708c4b8bf8e5dd91"
   },
+  "SimpleTMsForge-1.1.2.jar": {
+    "jarName": "SimpleTMsForge-1.1.2.jar",
+    "modId": "simpletms",
+    "version": "1.1.2",
+    "curseForgeHash": 690824267,
+    "modrinthHash": "5bd648b08196658bcd515cb5d6f4e6f4248f81f2"
+  },
   "skillsexpnotifier-5.4.1-SNAPSHOT.jar": {
     "jarName": "skillsexpnotifier-5.4.1-SNAPSHOT.jar",
     "modId": "skillsexpnotifier",
@@ -2057,22 +2218,22 @@
     "jarName": "sophisticatedbackpacks-1.20.1-3.24.23.1529.jar",
     "modId": "sophisticatedbackpacks",
     "version": "3.24.23.1529",
-    "curseForgeHash": 2596633231,
-    "modrinthHash": "d6fa8d95ee29aeab6e582fdeff0c31e64a6be111"
+    "curseForgeHash": 4136527838,
+    "modrinthHash": "8d0f0be50453ec3ced2f1429cee4ccfcc5b38af7"
   },
   "sophisticatedcore-1.20.1-1.3.4.1491.jar": {
     "jarName": "sophisticatedcore-1.20.1-1.3.4.1491.jar",
     "modId": "sophisticatedcore",
     "version": "1.3.4.1491",
-    "curseForgeHash": 3269630044,
-    "modrinthHash": "d9f31213cbe1ff3c627b743a6615825240f5cf46"
+    "curseForgeHash": 2750149361,
+    "modrinthHash": "1df991d1850e3acf9a330e95ba0b48ce4890c629"
   },
   "sophisticatedstorage-1.20.1-1.4.25.1488.jar": {
     "jarName": "sophisticatedstorage-1.20.1-1.4.25.1488.jar",
     "modId": "sophisticatedstorage",
     "version": "1.4.25.1488",
-    "curseForgeHash": 3846802603,
-    "modrinthHash": "38430235be92366937b1d405b0f52f8f5c3eab51"
+    "curseForgeHash": 55333483,
+    "modrinthHash": "908d09c8a2d468f3fe851df064b8abdf2f20583b"
   },
   "sophisticatedstoragecreateintegration-1.20.1-0.1.15.63.jar": {
     "jarName": "sophisticatedstoragecreateintegration-1.20.1-0.1.15.63.jar",
@@ -2137,6 +2298,20 @@
     "curseForgeHash": 983096875,
     "modrinthHash": "f184257fad61df437f1e54b9c32d98649d7be996"
   },
+  "sunlit_cobblemon-1.1.jar": {
+    "jarName": "sunlit_cobblemon-1.1.jar",
+    "modId": "sunlit_cobblemon",
+    "version": "1.1",
+    "curseForgeHash": 1547222944,
+    "modrinthHash": "fdc58684f20c72b624b4ce9270ae9bd60407b648"
+  },
+  "sunlitcobblemonmixin-1.0.0.jar": {
+    "jarName": "sunlitcobblemonmixin-1.0.0.jar",
+    "modId": "sunlitcobblemonmixin",
+    "version": "1.0.0",
+    "curseForgeHash": 1447280767,
+    "modrinthHash": "6266576971549474636a2be7155dfb14a5811379"
+  },
   "supermartijn642configlib-1.1.8-forge-mc1.20.jar": {
     "jarName": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
     "modId": "supermartijn642configlib",
@@ -2162,8 +2337,8 @@
     "jarName": "SVDialog-0.3.jar",
     "modId": "dialog",
     "version": "0.3",
-    "curseForgeHash": 3295723622,
-    "modrinthHash": "44daa348a9a7fa5d82f6ba0836260475787d5e57"
+    "curseForgeHash": 3458137843,
+    "modrinthHash": "6e0446a20dedf8f23a96781cf3e1f0d262d3ad94"
   },
   "tanukidecor-20.1.1.0.jar": {
     "jarName": "tanukidecor-20.1.1.0.jar",
@@ -2239,8 +2414,8 @@
     "jarName": "Trials-2.3.3.jar",
     "modId": "trials",
     "version": "2.3.3",
-    "curseForgeHash": 2836066589,
-    "modrinthHash": "c76eee317d09b669d89e71fa82b426f50ae3f241"
+    "curseForgeHash": 2227381570,
+    "modrinthHash": "606bf9c8cb50b6f8560f892af70387db037f2ca7"
   },
   "trofers-forge-5.0.2.jar": {
     "jarName": "trofers-forge-5.0.2.jar",

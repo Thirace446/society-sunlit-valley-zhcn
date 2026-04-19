@@ -36,7 +36,8 @@
   "curios.identifier.wireless_terminal": "无线终端",
   "curios.identifier.chat_color": "聊天颜色",
   "curios.identifier.bank_meter": "银行计量器",
-  "curios.identifier.fish_radar": "鱼雷达",
+  "curios.identifier.radar": "雷达",
+  "curios.identifier.face": "面具",
 
   "entity.minecraft.villager.meadow.hermit": "动力机械师",
   "entity.minecraft.villager.hermit": "动力机械师",
@@ -952,6 +953,8 @@
   "society.trofers.autumn_mayhem": "建筑大赛奖杯 - 秋日狂欢",
   "society.trofers.community_center": "建筑大赛奖杯 - 社区之心",
   "society.trofers.train_station": "建筑大赛奖杯 - 中世纪火车站",
+
+  "curios.identifier.fish_radar": "探鱼器",
 
   "block.society.aging_cask": "陈酿桶",
   "block.society.ancient_cask": "上古陈酿桶",
