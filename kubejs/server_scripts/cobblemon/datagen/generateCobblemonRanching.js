@@ -1,5 +1,5 @@
 
-const runRanchingDataGen = false;
+const runRanchingDataGen = true;
 
 if (runRanchingDataGen) {
     let cobbleSheepMilk = { sm: "society:sheep_milk", lg: "society:large_sheep_milk" };
@@ -6401,6 +6401,44 @@ if (runRanchingDataGen) {
         },
         {
             pokemon: "tatsugiri",
+            forages: [
+                {
+                    item: "cobblemon:dragon_scale",
+                    count: 1,
+                    chance: 0.05,
+                    use_quality: true,
+                    min_hearts: 5
+                },
+                {
+                    item: "aquaculture:neptunium_nugget",
+                    count: 1,
+                    chance: 0.1,
+                    min_hearts: 5
+                }
+            ],
+        },
+        {
+            pokemon: "tatsugiri",
+            form: "stretchy",
+            forages: [
+                {
+                    item: "cobblemon:dragon_scale",
+                    count: 1,
+                    chance: 0.05,
+                    use_quality: true,
+                    min_hearts: 5
+                },
+                {
+                    item: "aquaculture:neptunium_nugget",
+                    count: 1,
+                    chance: 0.1,
+                    min_hearts: 5
+                }
+            ],
+        },
+        {
+            pokemon: "tatsugiri",
+            form: "droopy",
             forages: [
                 {
                     item: "cobblemon:dragon_scale",

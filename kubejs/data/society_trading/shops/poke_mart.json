@@ -398,7 +398,7 @@
       },
       "request": {
         "item": "sunlit_cobblemon:sunlit_league_medallion",
-        "count": 10
+        "count": 5
       },
       "stage_required": "trainer_lvl_5",
       "unlock_description": "jei.society_trading.trainer_lvl_5",
@@ -436,6 +436,23 @@
       "stage_required": "trainer_lvl_8",
       "unlock_description": "jei.society_trading.trainer_lvl_8",
       "trade_id": "pmart_mystery_gift"
+    },
+    {
+      "offer": {
+        "item": "cobblemon_farmers:worker_permit",
+        "count": 1
+      },
+      "request": {
+        "item": "cobblemon:ability_capsule",
+        "count": 1
+      },
+      "second_request": {
+        "item": "sunlit_cobblemon:sunlit_league_medallion",
+        "count": 1
+      },
+      "stage_required": "trainer_lvl_8",
+      "unlock_description": "jei.society_trading.trainer_lvl_8",
+      "trade_id": "pmart_worker_permit"
     },
     {
       "offer": {

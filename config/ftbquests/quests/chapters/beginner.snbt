@@ -1868,7 +1868,8 @@
 			id: "762B08326046D3EF"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3A41F152CD56B5FB"
+				id: "4F5985FC6B22A57B"
+				table_id: 2454335040232007403L
 				type: "choice"
 			}]
 			tasks: [{
@@ -2660,9 +2661,18 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "380475D88FD498B5"
-					type: "choice"
+					id: "5FBF9EC22FBD405B"
+					item: {
+						Count: 1
+						id: "sunlit_cobblemon:gachamon_capsule"
+						tag: {
+							quality_food: {
+								quality: 3
+							}
+							type: "paradox"
+						}
+					}
+					type: "item"
 				}
 			]
 			tasks: [{

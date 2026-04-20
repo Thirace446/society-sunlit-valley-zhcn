@@ -57,6 +57,7 @@ global.handleCobblemonDefeat = (e) => {
     }
     let account = global.GLOBAL_BANK.getAccount(winningPlayer.getUuid());
     if (account && account.getBalance() + reward < 2147483000) {
+      reward = Math.round(reward);
       account.deposit(reward);
       winningPlayer
         .getServer()

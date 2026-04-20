@@ -21,7 +21,7 @@
 			id: "68588C07B2EFCA55"
 			min_required_tasks: 1
 			rewards: [{
-				id: "51636436764E2284"
+				id: "1D634FB6A0A8DF28"
 				item: "sunlit_cobblemon:silph_scope"
 				type: "item"
 			}]
@@ -643,8 +643,8 @@
 			icon: "cobblemon:power_bracer"
 			id: "43DCB8601B40FB9A"
 			rewards: [{
-				id: "23612DCB6BD28D56"
-				item: "cobblemon:rare_candy"
+				id: "2D912A7DB11FBA62"
+				item: "sunlit_cobblemon:pofflet_box"
 				type: "item"
 			}]
 			size: 1.5d
@@ -753,7 +753,7 @@
 				item: "sunlit_cobblemon:berry_capsule"
 				type: "item"
 			}]
-			subtitle: "Breeding for Nerds!"
+			subtitle: "Super stats for super nerds!"
 			tasks: [{
 				id: "7B00E8F0BB4D5E9B"
 				title: "Understood!"
@@ -787,7 +787,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["43DCB8601B40FB9A"]
+			dependencies: ["539CA5F135AA627D"]
 			description: [
 				"Unnatural dust can be found within &6Beast Loot Balls&r scattered around the world."
 				""
@@ -804,7 +804,7 @@
 				item: "sunlit_cobblemon:cosmic_dust"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 22.5d
 			y: -2.0d
 		}
 		{
@@ -829,7 +829,7 @@
 				type: "item"
 			}]
 			title: "Ultra-Dimensional Transport"
-			x: 21.0d
+			x: 23.5d
 			y: -3.5d
 		}
 		{
@@ -925,8 +925,8 @@
 				item: "sunlit_cobblemon:mystica_cookie"
 				type: "item"
 			}]
-			x: 15.0d
-			y: -2.5d
+			x: 13.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6366052B4FD5F516"]
@@ -972,7 +972,7 @@
 				type: "item"
 			}]
 			title: "League Bosses"
-			x: 22.0d
+			x: 21.5d
 			y: -0.5d
 		}
 		{
@@ -1014,7 +1014,7 @@
 				}
 			]
 			title: "Guardians of the Sun"
-			x: 25.0d
+			x: 24.0d
 			y: -0.5d
 		}
 		{
@@ -1101,7 +1101,7 @@
 				""
 				"&6Friendship&r will increase when harvesting from a Pokémon manually depending on what tier of berry they've eaten last."
 				""
-				"It can also be gained from battling, being out of its Poké-ball, and certain consumables."
+				"It can also be gained from battling, being out of its Poké-ball, and certain consumables such as &6Pofflets&r."
 			]
 			icon: "society:face_note"
 			id: "771360679927C8E7"
@@ -1155,14 +1155,26 @@
 				"68F841C646C9F9E1"
 				"539CA5F135AA627D"
 			]
+			description: [
+				"The &6Pasture Block&r allows your Pokémon to roam free and do \"stuff\" with each other!"
+				""
+				"Pokémon in the pasture might lay eggs! These are a way you can get multiple or better versions of a Pokémon. "
+				""
+				"The breeding methods match the original games, so information on those is applicable here."
+			]
 			id: "41E167BF05E599AA"
+			rewards: [{
+				id: "2331EF9E21267C4C"
+				item: "cobblemon:destiny_knot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47B926E027A7AB4E"
 				item: "cobblemon:pasture"
 				type: "item"
 			}]
 			title: "Breeding Mons"
-			x: 23.0d
+			x: 22.5d
 			y: 1.0d
 		}
 		{
@@ -1192,8 +1204,81 @@
 				type: "checkmark"
 			}]
 			title: "The Hunt for Legendary Pokémon "
-			x: 27.5d
+			x: 26.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["3BD199B4A938437F"]
+			description: [
+				"When playing with friends, not being able to access each other's workstations can make things difficult."
+				""
+				"The &6Public Contract&r will take one of your worker slots and infuse it in the machine, allowing anyone to put in or take out workers, without cost."
+				""
+				"&cBe sure to claim areas your public workerstation is in, and only ally/team with those you trust! This makes your worker Pokemon able to be taken by others!&r"
+				""
+				"Break your own public workstation to get your worker slot back."
+			]
+			id: "0B74FF8930C18079"
+			rewards: [{
+				id: "74F3DDDD67D778BE"
+				item: "cobblemon_farmers:public_contract"
+				type: "item"
+			}]
+			subtitle: "Use with care"
+			tasks: [{
+				id: "4334296B52791FB7"
+				item: "cobblemon_farmers:public_contract"
+				type: "item"
+			}]
+			title: "Sharing Workstations"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B184B7096AC9BD8"]
+			description: [
+				"&6Worker Permits&r allow you to infinitely add worker slots! They aren't cheap, but they're the best way to maximize your farming potential as a master trainer."
+				""
+				"They can only be gotten once you reach the &6Prismatic Trainer tier&r. "
+			]
+			id: "68FCFC96B97D66A3"
+			rewards: [{
+				id: "45032ADA380CCFAF"
+				item: "cobblemon_farmers:worker_permit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C9F7C7118196DEB"
+				item: "cobblemon_farmers:worker_permit"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B184B7096AC9BD8"]
+			description: [
+				"&6Mythical Pokémon&r can be found via &6Mystery Gift!&r"
+				""
+				"The main way to obtain these is purchasing them for an insanely high price."
+				""
+				"Each of the 6 villagers also has a unique villager gift they'll give you at maximum friendship."
+				""
+				"They can only be gotten once you reach the &6Prismatic Trainer tier&r. "
+			]
+			id: "2F3C5A12C91B07A9"
+			rewards: [{
+				id: "3799F8CBCC3D077C"
+				item: "sunlit_cobblemon:mystery_gift"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21BDE9602553E6C8"
+				item: "sunlit_cobblemon:mystery_gift"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.5d
 		}
 	]
 	title: "Cobblemon Tutorial"

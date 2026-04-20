@@ -429,7 +429,7 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "sunlit_cobblemon:berry_labor_and_capital",
-      description: "+3 Pokémon worker slots.",
+      description: "+5 Pokémon worker slots.",
     },
     {
       item: "sunlit_cobblemon:bottlecaps_and_nothingness",

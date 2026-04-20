@@ -1,3 +1,4 @@
+console.info("[SOCIETY] cobblemonRaidPokemon.js loaded");
 
 global.handleRaidPokemonBattle = (e) => {
     const battle = e.battle;

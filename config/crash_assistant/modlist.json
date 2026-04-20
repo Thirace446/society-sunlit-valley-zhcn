@@ -429,13 +429,13 @@
     "curseForgeHash": 3290138757,
     "modrinthHash": "ac86f60938f74031e298f72d3bc6b852d703ecea"
   },
-  "cobblemon_farmers-1.0.jar": {
-    "jarName": "cobblemon_farmers-1.0.jar",
+  "cobblemon_farmers-1.2.jar": {
+    "jarName": "cobblemon_farmers-1.2.jar",
     "modId": "cobblemon_farmers",
     "name": "Cobblemon Farmers",
-    "version": "1.0",
-    "curseForgeHash": 3079918602,
-    "modrinthHash": "4ce7e37f63539459e61bb7419681802608bc8457"
+    "version": "1.2",
+    "curseForgeHash": 719118163,
+    "modrinthHash": "a9e3ebea8c352cbd422ff5d87b698a37ff030730"
   },
   "cobblemon_quests-[1.20.1]-forge-1.1.11.jar": {
     "jarName": "cobblemon_quests-[1.20.1]-forge-1.1.11.jar",

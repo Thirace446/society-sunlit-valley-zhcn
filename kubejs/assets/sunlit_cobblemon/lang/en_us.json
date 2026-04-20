@@ -47,7 +47,7 @@
   "block.sunlit_cobblemon.sun_raid_statue.breaks_forever": "Breaking the Sun Raid Statue will desecrate it forever and it will not drop! In order to break, you must sneak while doing so.",
 
   "tooltip.sunlit_cobblemon.silph_scope.description": "Allows Pokémon to spawn around you",
-  "tooltip.sunlit_cobblemon.silph_scope.description.equip": "Right click to equip!",
+  "tooltip.sunlit_cobblemon.silph_scope.equip": "Right click to equip!",
   "tooltip.sunlit_cobblemon.poke_bobber.description": "Fishes up a common Pokémon with every catch",
   "tooltip.sunlit_cobblemon.great_poke_bobber.description": "Fishes up an uncommon Pokémon with every catch",
   "tooltip.sunlit_cobblemon.ultra_poke_bobber.description": "Fishes up a rare Pokémon with every catch",
@@ -93,14 +93,23 @@
   "tooltip.sunlit_cobblemon.gachamon_capsule.description": "Spawns a random Pokémon from a preset pool alongside a bonus pool",
   "tooltip.sunlit_cobblemon.gachamon_capsule.guaranteed": "Guaranteed set Pokémon",
   "tooltip.sunlit_cobblemon.gachamon_capsule.shiny_chance": "Shiny chance: %s%%",
+  
   "tooltip.sunlit_cobblemon.gachamon_capsule.description.common": "Common set",
   "tooltip.sunlit_cobblemon.gachamon_capsule.description.dragon": "Dragon set",
   "tooltip.sunlit_cobblemon.gachamon_capsule.description.fairy": "Fairy set",
+
+  "tooltip.sunlit_cobblemon.gachamon_capsule.description.rock": "Rock set",
+  "tooltip.sunlit_cobblemon.gachamon_capsule.description.ghost": "Ghost set",
   "tooltip.sunlit_cobblemon.gachamon_capsule.description.steel": "Steel set",
+
+  "tooltip.sunlit_cobblemon.gachamon_capsule.description.baby": "Baby set",
   "tooltip.sunlit_cobblemon.gachamon_capsule.description.starter": "Starter set",
   "tooltip.sunlit_cobblemon.gachamon_capsule.description.paradox": "Paradox set",
   "tooltip.sunlit_cobblemon.gachamon_capsule.description.magikarp": "Magikarp set",
-  "tooltip.sunlit_cobblemon.gachamon_capsule.description.rock": "Rock set",
+  "tooltip.sunlit_cobblemon.gachamon_capsule.description.alolan": "Alolan set",
+  "tooltip.sunlit_cobblemon.gachamon_capsule.description.hisuian": "Hisuian set",
+  "tooltip.sunlit_cobblemon.gachamon_capsule.description.galarian": "Galarian set",
+  "tooltip.sunlit_cobblemon.gachamon_capsule.description.pika": "Pika set",
 
   "tooltip.sunlit_cobblemon.cobblemon.special.ability_capsule": "Changes the ability of the Pokémon it is used on to their alternative standard ability",
   "tooltip.sunlit_cobblemon.cobblemon.special.ability_patch": "Changes the ability of the Pokémon it is used on to their alternative hidden ability",
@@ -388,7 +397,7 @@
   "tooltip.sunlit_cobblemon.pofflet.hated": "Other types dislike the flavor...",
 
   "sunlit_cobblemon.books.the_art_of_battle.description": "The Sunlit league pays out 25% more per battle.",
-  "sunlit_cobblemon.books.berry_labor_and_capital.description": "+3 Pokémon worker slots.",
+  "sunlit_cobblemon.books.berry_labor_and_capital.description": "+5 Pokémon worker slots.",
   "sunlit_cobblemon.books.bottlecaps_and_nothingness.description": "Small chance to find Bottlecaps in loot chests.",
   "sunlit_cobblemon.books.braiding_surprisegrass.description": "Twice as likely to find Pokémon when harvesting crops and fruit trees.",
   "sunlit_cobblemon.books.the_gachamonbler.description": "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",

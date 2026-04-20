@@ -490,6 +490,226 @@
           "second_request": { "item": "society:aged_carp_roe", "count": 4 },
           "numismatics_cost": 32768,
           "trade_id": "gachamon_capsule_magikarp_3"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"ghost\"}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 2 },
+          "second_request": { "item": "cobblemon:ghost_gem", "count": 1 },
+          "numismatics_cost": 8192,
+          "trade_id": "gachamon_capsule_ghost_0"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"ghost\", \"quality_food\": {\"quality\":1}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 4 },
+          "second_request": { "item": "cobblemon:ghost_gem", "count": 1 },
+          "numismatics_cost": 16384,
+          "trade_id": "gachamon_capsule_ghost_1"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"ghost\", \"quality_food\": {\"quality\":2}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 6 },
+          "second_request": { "item": "cobblemon:ghost_gem", "count": 1 },
+          "numismatics_cost": 24576,
+          "trade_id": "gachamon_capsule_ghost_2"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"ghost\", \"quality_food\": {\"quality\":3}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 8 },
+          "second_request": { "item": "cobblemon:ghost_gem", "count": 1 },
+          "numismatics_cost": 32768,
+          "trade_id": "gachamon_capsule_ghost_3"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"pika\"}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 2 },
+          "second_request": { "item": "sunlit_cobblemon:electric_canvas", "count": 1 },
+          "numismatics_cost": 8192,
+          "trade_id": "gachamon_capsule_pika_0"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"pika\", \"quality_food\": {\"quality\":1}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 4 },
+          "second_request": { "item": "sunlit_cobblemon:electric_canvas", "count": 1 },
+          "numismatics_cost": 16384,
+          "trade_id": "gachamon_capsule_pika_1"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"pika\", \"quality_food\": {\"quality\":2}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 6 },
+          "second_request": { "item": "sunlit_cobblemon:electric_canvas", "count": 1 },
+          "numismatics_cost": 24576,
+          "trade_id": "gachamon_capsule_pika_2"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"pika\", \"quality_food\": {\"quality\":3}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 8 },
+          "second_request": { "item": "sunlit_cobblemon:electric_canvas", "count": 1 },
+          "numismatics_cost": 32768,
+          "trade_id": "gachamon_capsule_pika_3"
+        },        
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"alolan\"}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 2 },
+          "second_request": { "item": "beachparty:honey_cocktail", "count": 1 },
+          "numismatics_cost": 8192,
+          "trade_id": "gachamon_capsule_alolan_0"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"alolan\", \"quality_food\": {\"quality\":1}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 4 },
+          "second_request": { "item": "beachparty:honey_cocktail", "count": 1 },
+          "numismatics_cost": 16384,
+          "trade_id": "gachamon_capsule_alolan_1"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"alolan\", \"quality_food\": {\"quality\":2}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 6 },
+          "second_request": { "item": "beachparty:honey_cocktail", "count": 1 },
+          "numismatics_cost": 24576,
+          "trade_id": "gachamon_capsule_alolan_2"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"alolan\", \"quality_food\": {\"quality\":3}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 8 },
+          "second_request": { "item": "beachparty:honey_cocktail", "count": 1 },
+          "numismatics_cost": 32768,
+          "trade_id": "gachamon_capsule_alolan_3"
+        },        
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"hisuian\"}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 2 },
+          "second_request": { "item": "society:dried_ancient_fruit", "count": 1 },
+          "numismatics_cost": 8192,
+          "trade_id": "gachamon_capsule_hisuian_0"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"hisuian\", \"quality_food\": {\"quality\":1}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 4 },
+          "second_request": { "item": "society:dried_ancient_fruit", "count": 1 },
+          "numismatics_cost": 16384,
+          "trade_id": "gachamon_capsule_hisuian_1"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"hisuian\", \"quality_food\": {\"quality\":2}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 6 },
+          "second_request": { "item": "society:dried_ancient_fruit", "count": 1 },
+          "numismatics_cost": 24576,
+          "trade_id": "gachamon_capsule_hisuian_2"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"hisuian\", \"quality_food\": {\"quality\":3}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 8 },
+          "second_request": { "item": "society:dried_ancient_fruit", "count": 1 },
+          "numismatics_cost": 32768,
+          "trade_id": "gachamon_capsule_hisuian_3"
+        },        
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"galarian\"}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 2 },
+          "second_request": { "item": "cobblemon:galarica_wreath", "count": 1 },
+          "numismatics_cost": 8192,
+          "trade_id": "gachamon_capsule_galarian_0"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"galarian\", \"quality_food\": {\"quality\":1}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 4 },
+          "second_request": { "item": "cobblemon:galarica_wreath", "count": 1 },
+          "numismatics_cost": 16384,
+          "trade_id": "gachamon_capsule_galarian_1"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"galarian\", \"quality_food\": {\"quality\":2}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 6 },
+          "second_request": { "item": "cobblemon:galarica_wreath", "count": 1 },
+          "numismatics_cost": 24576,
+          "trade_id": "gachamon_capsule_galarian_2"
+        },
+        {
+          "offer": {
+            "item": "sunlit_cobblemon:gachamon_capsule",
+            "nbt": "{\"type\":\"galarian\", \"quality_food\": {\"quality\":3}}",
+            "count": 1
+          },
+          "request": { "item": "numismatics:sun", "count": 8 },
+          "second_request": { "item": "cobblemon:galarica_wreath", "count": 1 },
+          "numismatics_cost": 32768,
+          "trade_id": "gachamon_capsule_galarian_3"
         }
       ]
     }

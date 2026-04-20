@@ -36,7 +36,6 @@ let baseGachaSpawns = [
   { pokemon: "skitty", weight: 10, lvlRange: [2, 25] },
   { pokemon: "glameow", weight: 10, lvlRange: [2, 25] },
 ];
-let specialGachaTypes = ["starter", "baby_dragon", "baby_fairy", "baby_steel"];
 const specialGachaSpawns = new Map([
   [
     "starter",
@@ -147,7 +146,7 @@ const specialGachaSpawns = new Map([
       { pokemon: "impidimp", weight: 4, lvlRange: [2, 4] },
       { pokemon: "fidough", weight: 10, lvlRange: [2, 4] },
       { pokemon: "togepi", weight: 1, lvlRange: [2, 4] },
-      { pokemon: "weezing", weight: 10, lvlRange: [2, 4], variant: ["galarian"] },
+      { pokemon: "koffing", weight: 10, lvlRange: [2, 4], variant: ["region_bias=galar"] },
     ],
   ],
   [
@@ -188,6 +187,37 @@ const specialGachaSpawns = new Map([
       { pokemon: "orthworm", weight: 5, lvlRange: [2, 4] },
       { pokemon: "tinkatink", weight: 6, lvlRange: [2, 4] },
       { pokemon: "varoom", weight: 10, lvlRange: [2, 4] },
+    ],
+  ],
+  [
+    "ghost",
+    [
+      { pokemon: "gastly", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "shedinja", weight: 2, lvlRange: [2, 4] },
+      { pokemon: "sableye", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "shuppet", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "duskull", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "drifloon", weight: 4, lvlRange: [2, 4] },
+      { pokemon: "spiritomb", weight: 1, lvlRange: [2, 4] },
+      { pokemon: "rotom", weight: 1, lvlRange: [2, 4] },
+      { pokemon: "litwik", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "frillish", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "yamask", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "yamask", weight: 2, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "golett", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "zorua", weight: 4, lvlRange: [2, 4], variant: ["hisuian"] },
+      { pokemon: "honedge", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "phantump", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "pumpkaboo", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "sandygast", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "dhelmise", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "bramblin", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "greavard", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "gimmighoul", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "poltchageist", weight: 5, lvlRange: [2, 4] },
+      { pokemon: "sinistcha", weight: 5, lvlRange: [2, 4] },
+      { pokemon: "poltchageist", weight: 5, lvlRange: [2, 4]},
+      { pokemon: "sinistcha", weight: 5, lvlRange: [2, 4] },
     ],
   ],
   [
@@ -233,6 +263,70 @@ const specialGachaSpawns = new Map([
     ],
   ],
   [
+    "pika",
+    [
+      { pokemon: "pichu", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "pichu", weight: 6, lvlRange: [2, 4], variant: ["region_bias=alola"] },
+      { pokemon: "plusle", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "minun", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "pachirisu", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "emolga", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "dedenne", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "togedemaru", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "morpeko", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "pawmi", weight: 10, lvlRange: [2, 4] },
+      { pokemon: "mimikyu", weight: 1, lvlRange: [2, 4] },
+    ],
+  ],
+  [
+    "alolan",
+    [
+      { pokemon: "geodude", weight: 5, lvlRange: [2, 4], variant: ["alolan"] },
+      { pokemon: "meowth", weight: 8, lvlRange: [4, 29], variant: ["alolan"] },
+      { pokemon: "diglett", weight: 6, lvlRange: [2, 4], variant: ["alolan"] },
+      { pokemon: "vulpix", weight: 6, lvlRange: [2, 4], variant: ["alolan"] },
+      { pokemon: "grimer", weight: 8, lvlRange: [2, 4], variant: ["alolan"] },
+      { pokemon: "rattata", weight: 8, lvlRange: [2, 4], variant: ["alolan"] },
+      { pokemon: "pichu", weight: 6, lvlRange: [2, 4], variant: ["region_bias=alola"] },
+      { pokemon: "exeggcute", weight: 6, lvlRange: [2, 4], variant: ["region_bias=alola"] },
+      { pokemon: "cubone", weight: 6, lvlRange: [2, 4], variant: ["region_bias=alola"] },
+    ],
+  ],
+  [
+    "hisuian",
+    [
+      { pokemon: "growlithe", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
+      { pokemon: "voltorb", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
+      { pokemon: "qwilfish", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
+      { pokemon: "sneasel", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
+      { pokemon: "zorua", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
+      { pokemon: "avalugg", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
+      { pokemon: "rufflet", weight: 6, lvlRange: [2, 4], variant: ["region_bias=hisui"] },
+      { pokemon: "petilil", weight: 6, lvlRange: [2, 4], variant: ["region_bias=hisui"] },
+      { pokemon: "goomy", weight: 6, lvlRange: [2, 4], variant: ["region_bias=hisui"] },
+      { pokemon: "cyndaquil", weight: 2, lvlRange: [2, 4], variant: ["region_bias=hisui"] },
+      { pokemon: "oshawott", weight: 2, lvlRange: [2, 4], variant: ["region_bias=hisui"] },
+      { pokemon: "rowlet", weight: 2, lvlRange: [2, 4], variant: ["region_bias=hisui"] },
+    ],
+  ],
+  [
+    "galarian",
+    [
+      { pokemon: "meowth", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "ponyta", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "slowpoke", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "farfetchd", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "stunfisk", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "yamask", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "corsola", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "darumaka", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "zigzagoon", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "ponyta", weight: 6, lvlRange: [4, 29], variant: ["galarian"] },
+      { pokemon: "koffing", weight: 8, lvlRange: [2, 4], variant: ["region_bias=galar"] },
+      { pokemon: "mimejr", weight: 8, lvlRange: [2, 4], variant: ["region_bias=galar"] },
+    ],
+  ],
+  [
     "magikarp",
     [
 
@@ -251,20 +345,20 @@ const specialGachaSpawns = new Map([
       { pokemon: "magikarp", variant: ["magikarp_jump=orange-two-tone"], weight: 3, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=orange-orange-orca"], weight: 2, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=orange-dapples"], weight: 1, lvlRange: [3, 7] },
-      { pokemon: "magikarp", variant: ["magikarp_jump=blue-saucy"], weight: 3, lvlRange: [3, 7]},
+      { pokemon: "magikarp", variant: ["magikarp_jump=blue-saucy"], weight: 3, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=blue-raindrops"], weight: 2, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=apricot-zebra"], weight: 3, lvlRange: [3, 7] },
-      { pokemon: "magikarp", variant: ["magikarp_jump=apricot-stripes"], weight: 2, lvlRange: [3, 7]},
+      { pokemon: "magikarp", variant: ["magikarp_jump=apricot-stripes"], weight: 2, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=apricot-tiger"], weight: 1, lvlRange: [3, 7] },
 
-      { pokemon: "magikarp", variant: ["magikarp_jump=brown-zebra"], weight: 3, lvlRange: [3, 7]},
+      { pokemon: "magikarp", variant: ["magikarp_jump=brown-zebra"], weight: 3, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=brown-stripes"], weight: 2, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=brown-tiger"], weight: 1, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=purple-bubbles"], weight: 3, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=purple-patches"], weight: 2, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=purple-diamonds"], weight: 1, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=violet-saucy"], weight: 3, lvlRange: [3, 7] },
-      { pokemon: "magikarp", variant: ["magikarp_jump=violet-raindrops"], weight: 2, lvlRange: [3, 7]},
+      { pokemon: "magikarp", variant: ["magikarp_jump=violet-raindrops"], weight: 2, lvlRange: [3, 7] },
 
       { pokemon: "magikarp", variant: ["magikarp_jump=gray-bubbles"], weight: 3, lvlRange: [3, 7] },
       { pokemon: "magikarp", variant: ["magikarp_jump=gray-patches"], weight: 2, lvlRange: [3, 7] },
@@ -280,7 +374,7 @@ const getGachaPool = (type, qualityNbt, hasGachamonbler) => {
   let basePool = baseGachaSpawns;
   let specialPool = specialGachaSpawns.get(`${type}`);
   if (specialPool && specialPool.length > 0) {
-    if (qualityNbt && qualityNbt.quality && qualityNbt.quality == (hasGachamonbler ? 2.0 : 3.0)) {
+    if (qualityNbt && qualityNbt.quality && Number(qualityNbt.quality) >= (hasGachamonbler ? 2.0 : 3.0)) {
       return specialPool;
     }
     return basePool.concat(specialPool);
@@ -290,9 +384,9 @@ const getGachaPool = (type, qualityNbt, hasGachamonbler) => {
 const getShinyChance = (qualityNbt) => {
   let value = 0.001;
   if (qualityNbt && qualityNbt.quality) {
-    if (qualityNbt.quality == 1.0) value = 0.005;
-    if (qualityNbt.quality == 2.0) value = 0.01;
-    if (qualityNbt.quality == 3.0) value = 0.02;
+    if (qualityNbt.quality == 1.0) value = 0.0025;
+    if (qualityNbt.quality == 2.0) value = 0.005;
+    if (qualityNbt.quality == 3.0) value = 0.01;
   }
   return value;
 };

@@ -1,5 +1,4 @@
 global.removedItems = [
-  "unimplemented_items:repel",
   "unimplemented_items:potion",
   "unimplemented_items:potion_hyper",
   "unimplemented_items:potion_max",

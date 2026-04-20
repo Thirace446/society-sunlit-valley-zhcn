@@ -151,6 +151,7 @@ const cobblemonSummerCrops = [
   "cobblemon:white_mint",
 ];
 const cobblemonAutumnCrops = ["cobblemon:vivichoke", "cobblemon:vivichoke_seeds"];
+
 ServerEvents.tags("item", (e) => {
   e.add("stardew_fishing:bobbers", "sunlit_cobblemon:poke_bobber");
   e.add("stardew_fishing:bobbers", "sunlit_cobblemon:great_poke_bobber");
@@ -183,6 +184,13 @@ ServerEvents.tags("item", (e) => {
     "cobblemon_farmers"
   ].forEach((tag) => {
     e.add("furniture:trash_bag_blacklist", `@${tag}`);
+  });
+
+  [
+    "society:earth_crystal",
+    "society:fire_quartz",
+  ].forEach((blockItem) => {
+    e.add('cobblemon_farmers:craft_station_renders_flat', blockItem);
   });
 });
 
