@@ -1235,9 +1235,9 @@
 		{
 			dependencies: ["44A512703C4A9990"]
 			description: [
-				"{ftbquests.chapter.ii__building_up_the_farm.quest477FFAD808985736.description1}"
+				"{ftbquests.chapter.iii__advanced_farming.questA455A4E0D7D074E.description1}"
 				""
-				"{ftbquests.chapter.ii__building_up_the_farm.quest477FFAD808985736.description2}"
+				"{ftbquests.chapter.iii__advanced_farming.questA455A4E0D7D074E.description2}"
 			]
 			id: "0A455A4E0D7D074E"
 			rewards: [{

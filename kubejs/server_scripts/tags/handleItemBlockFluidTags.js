@@ -744,6 +744,7 @@ ServerEvents.tags("block", (e) => {
     "c:relocation_not_supported",
     "create:non_movable",
     "create:non_breakable",
+    "quark:iron_rod_immune"
   ];
   [
     "society:cavern_air",
