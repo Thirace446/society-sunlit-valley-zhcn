@@ -23,9 +23,50 @@
     },
     {
       "stack": "item:herbalbrews:coffee"
+    },
+    {
+      "stack": "item:atmospheric:passion_fruit"
+    },
+    {
+      "stack": "item:atmospheric:sun_pottery_sherd"
+    },
+    {
+      "stack": "item:atmospheric:succulent_pottery_sherd"
+    },
+    {
+      "stack": "item:atmospheric:scythe_pottery_sherd"
+    },
+    {
+      "stack": {
+        "type": "item",
+        "id": "society:fine_wool",
+        "amount": 5
+      }
     }
   ],
   "lookup_history": [
+    "item:sophisticatedbackpacks:advanced_pump_upgrade",
+    "item:quark:vertical_spruce_planks",
+    "item:society:merino_wool",
+    "item:crittersandcompanions:silk_cocoon",
+    {
+      "type": "item",
+      "id": "crittersandcompanions:silk",
+      "amount": 5
+    },
+    {
+      "type": "item",
+      "id": "society:fine_wool",
+      "amount": 5
+    },
+    "item:society:canvas",
+    {
+      "type": "item",
+      "id": "minecraft:white_wool",
+      "amount": 63
+    },
+    "item:atmospheric:sun_pottery_sherd",
+    "item:society:river_jelly",
     "item:rehooked:blaze_hook",
     "item:crittersandcompanions:silk_lead",
     "item:relics:blazing_flask{abilities:{bonfire:{points:0,stats:{height:4.31924d,speed:0.03042d,step:1.16796d}}}}",
@@ -528,7 +569,6 @@
     "item:minecraft:oak_fence_gate",
     "item:minecraft:oak_wood",
     "item:society:ocean_jelly",
-    "item:society:river_jelly",
     "item:relics:jellyfish_necklace{abilities:{paralysis:{points:0,stats:{duration:0.75187d}},shock:{points:0,stats:{damage:1.78922d},temp:{ticking:1b}}}}",
     "item:society:smoked_jellyfish",
     "item:society:double_aged_jellie_wine",
@@ -1097,11 +1137,11 @@
     "item:veggiesdelight:stuffed_zucchini_boat",
     "item:veggiesdelight:zucchini_quiche",
     [
-      "item:farm_and_charm:bacon_with_eggs",
-      "item:candlelight:pork_ribs",
-      "item:brewery:pork_knuckle",
-      "item:farmersdelight:cooked_bacon",
       "item:minecraft:cooked_porkchop",
+      "item:farmersdelight:cooked_bacon",
+      "item:candlelight:pork_ribs",
+      "item:farm_and_charm:bacon_with_eggs",
+      "item:brewery:pork_knuckle",
       "#item:forge:cooked_chicken",
       "#item:forge:cooked_beef",
       "#item:forge:cooked_mutton"
@@ -1112,16 +1152,16 @@
     "item:veggiesdelight:cooked_vegetarian_patty",
     "item:veggiesdelight:raw_vegetarian_patty",
     [
-      "#item:forge:crops/potato",
       "#item:forge:crops/cauliflower",
-      "#item:forge:crops/zucchini"
+      "#item:forge:crops/zucchini",
+      "#item:forge:crops/potato"
     ],
     "#item:forge:grain",
     "#item:forge:cabbage",
     "item:veggiesdelight:vegetables_wrap",
     [
-      "item:veggiesdelight:smoked_bellpepper",
       "item:veggiesdelight:roasted_zucchini",
+      "item:veggiesdelight:smoked_bellpepper",
       "#item:forge:mushrooms"
     ],
     "item:veggiesdelight:smoked_bellpepper",
@@ -1468,16 +1508,7 @@
     "item:beautify:lamp_jar",
     "item:longwings:glass_jar",
     "item:minecraft:torchflower",
-    "item:beachparty:coconut_open",
-    "item:minecraft:torchflower_seeds",
-    "item:meadow:oil_lantern",
-    "item:pamhc2trees:pammango",
-    "item:pamhc2trees:pamdragonfruit",
-    "item:pamhc2trees:pampassionfruit",
-    "item:pamhc2trees:pamlychee",
-    "item:pamhc2trees:pamapple",
-    "item:pamhc2trees:pamlemon",
-    "item:pamhc2trees:pamplum"
+    "item:beachparty:coconut_open"
   ],
   "craft_history": [
     "minecraft:yellow_outer_counter_left_recipe_1",
@@ -1588,9 +1619,9 @@
   ],
   "recipe_defaults": {
     "added": [
-      "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji",
+      "netherdepthsupgrade:eyeball",
       "minecraft:kjs/society_sun_candy",
-      "netherdepthsupgrade:eyeball"
+      "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji"
     ],
     "tags": {},
     "resolutions": {
