@@ -1,5 +1,5 @@
 
-const runRanchingDataGen = true;
+const runRanchingDataGen = false;
 
 if (runRanchingDataGen) {
     let cobbleSheepMilk = { sm: "society:sheep_milk", lg: "society:large_sheep_milk" };
