@@ -225,6 +225,6 @@ StartupEvents.registry("item", (e) => {
     e.create(`sunlit_cobblemon:pristine_${gem.item.path}`)
       .texture(`cobblemon:item/type_gem/${gem.item.path}`)
       .glow(true)
-      .tooltip(Text.gray("Created from the Crystalarium upgrade: Black Opal"));
+      .tooltip(Text.translatable("society.pristine_gems.description").gray());
   });
 });

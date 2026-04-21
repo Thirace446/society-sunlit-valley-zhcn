@@ -13,6 +13,8 @@
       "request": { "item": "numismatics:sun", "count": 1 },
       "numismatics_cost": 4096,
       "limit": 4,
+      "stage_required": "trainer_lvl_3",
+      "unlock_description": "jei.society_trading.trainer_lvl_3",
       "trade_id": "ball_botique_pofflet_box"
     },
     {
@@ -25,16 +27,16 @@
       "offer": { "item": "cobblemon:heal_ball", "count": 1 },
       "request": { "item": "numismatics:cog", "count": 5 },
       "numismatics_cost": 320,
-      "stage_required": "trainer_lvl_1",
-      "unlock_description": "jei.society_trading.trainer_lvl_1",
+      "stage_required": "trainer_lvl_3",
+      "unlock_description": "jei.society_trading.trainer_lvl_3",
       "trade_id": "ball_botique_gheal_ball"
     },
     {
       "offer": { "item": "cobblemon:lure_ball", "count": 1 },
       "request": { "item": "numismatics:crown", "count": 3 },
       "numismatics_cost": 1536,
-      "stage_required": "trainer_lvl_2",
-      "unlock_description": "jei.society_trading.trainer_lvl_2",
+      "stage_required": "trainer_lvl_3",
+      "unlock_description": "jei.society_trading.trainer_lvl_3",
       "trade_id": "ball_botique_lure_ball"
     },
     {

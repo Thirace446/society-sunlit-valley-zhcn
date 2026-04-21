@@ -34,6 +34,7 @@ const formMap = new Map([
     ["meowstic", "male"],
     ["pumpkaboo", "average"],
     ["gourgeist", "average"],
+    ["toxtricity"]
 ]);
 
 const handleIdentifier = (id) => {

@@ -161,7 +161,6 @@ const trainerBuckets = new Map([
       "lass_lisa_0085",
       "channeler_laurel_01bd",
       "channeler_paula_01bc",
-      "ace_trainer_alexa_0194",
       "channeler_angelica_01c3",
     ],
   ],
@@ -382,6 +381,7 @@ const trainerBuckets = new Map([
       "ace_trainer_caroline_0193",
       "ace_trainer_colby_018a",
       "ace_trainer_george_0189",
+      "ace_trainer_alexa_0194",
       "pokemaniac_dawson_00a7",
       "juggler_gregory_0122",
     ],
@@ -509,13 +509,7 @@ global.getRandomTrainer = (levelBucket) => {
   return trainerBucket[rnd(0, trainerBucket.length - 1)];
 };
 
-global.getPlayerPodiumLevelTier = (player, partyLevel) =>
-  Math.max(
-    10,
-    Math.round(partyLevel / 5) * 5 +
-    Math.floor(player.persistentData.winStreak / 10) * 5 -
-    5,
-  );
+global.getPlayerPodiumLevelTier = (player, partyLevel) => Math.max(10, Math.round(partyLevel / 5) * 5 + Math.floor(player.persistentData.winStreak / 10) * 5 - 5);
 
 const leagueBosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria", "karma", "king", "kingkarma"];
 const tier9Bosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria"];

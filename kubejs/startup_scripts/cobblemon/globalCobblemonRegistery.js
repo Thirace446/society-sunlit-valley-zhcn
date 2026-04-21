@@ -110,7 +110,24 @@ global.cobbleAdventuring = [
   { item: "cobblemon:assault_vest", value: 1208 },
   { item: "cobblemon:air_balloon", value: 204 },
   { item: "cobblemon:absorb_bulb", value: 64 },
-  { item: "cobblemon:ability_shield", value: 740 }
+  { item: "cobblemon:ability_shield", value: 740 },
+  { item: "cobblemon:exp_candy_xs", value: 10 },
+  { item: "cobblemon:exp_candy_s", value: 80 },
+  { item: "cobblemon:exp_candy_m", value: 300 },
+  { item: "cobblemon:exp_candy_l", value: 1000 },
+  { item: "cobblemon:exp_candy_xl", value: 3000 },
+  { item: "cobblemon:muscle_feather", value: 16 },
+  { item: "cobblemon:health_feather", value: 16 },
+  { item: "cobblemon:resist_feather", value: 16 },
+  { item: "cobblemon:genius_feather", value: 16 },
+  { item: "cobblemon:swift_feather", value: 16 },
+  { item: "cobblemon:clever_feather", value: 16 },
+  { item: "sunlit_cobblemon:pofflet_box", value: 1024 },
+  { item: "sunlit_cobblemon:tm_pack", value: 512 },
+  { item: "sunlit_cobblemon:greater_tm_pack", value: 5120 },
+  { item: "sunlit_cobblemon:prismatic_tm_pack", value: 9216 },
+  { item: "sunlit_cobblemon:sun_drops", value: 64 },
+  { item: "sunlit_cobblemon:mystica_branch", value: 2048 }
 ];
 
 global.cobbleTypeGems = [
@@ -198,8 +215,71 @@ global.cobblemonCooking = [
   { item: "cobblemon:clover_sweet", value: 312 },
   { item: "cobblemon:flower_sweet", value: 312 },
   { item: "cobblemon:star_sweet", value: 312 },
+  { item: "cobblemon:coward_candy", value: 1 },
+  { item: "cobblemon:sickly_candy", value: 1 },
+  { item: "cobblemon:weak_candy", value: 1 },
+  { item: "cobblemon:slow_candy", value: 1 },
+  { item: "cobblemon:numb_candy", value: 1 },
+  { item: "cobblemon:brittle_candy", value: 1 },
 ];
+// Crafting Table Cooking
+[
+  { item: "sunlit_cobblemon:berry_smoothie", value: 8 },
+  { item: "sunlit_cobblemon:super_berry_smoothie", value: 152 },
+  { item: "sunlit_cobblemon:hyper_berry_smoothie", value: 716 },
+  { item: "sunlit_cobblemon:max_berry_smoothie", value: 1326 },
+  { item: "cobblemon:protein", value: 920 },
+  { item: "cobblemon:hp_up", value: 1240 },
+  { item: "cobblemon:iron", value: 1012 },
+  { item: "cobblemon:calcium", value: 920 },
+  { item: "cobblemon:carbos", value: 952 },
+  { item: "cobblemon:zinc", value: 984 },
+  { item: "cobblemon:pp_up", value: 1386 },
+  { item: "cobblemon:pp_max", value: 3038 },
+].forEach((recipe) => {
+  global.cobblemonCooking.push({
+    item: recipe.item,
+    value: Math.floor(recipe.value * 1.4),
+  });
+});
 
+// Cooking pot cooking
+[
+  { item: "cobblemon:muscle_mochi", value: 348 },
+  { item: "cobblemon:health_mochi", value: 460 },
+  { item: "cobblemon:resist_mochi", value: 380},
+  { item: "cobblemon:genius_mochi", value: 348 },
+  { item: "cobblemon:swift_mochi", value: 359 },
+  { item: "cobblemon:clever_mochi", value: 370 },
+  { item: "cobblemon:fresh_start_mochi", value: 584 },
+  { item: "cobblemon:courage_candy", value: 4353 },
+  { item: "cobblemon:health_candy", value: 4353 },
+  { item: "cobblemon:mighty_candy", value: 4320 },
+  { item: "cobblemon:smart_candy", value: 4320 },
+  { item: "cobblemon:tough_candy", value: 4368 },
+  { item: "cobblemon:quick_candy", value: 4336 },
+].forEach((recipe) => {
+  global.cobblemonCooking.push({
+    item: recipe.item,
+    value: Math.round(recipe.value * 2),
+  });
+});
+// Stove recipes
+[
+  { item: "sunlit_cobblemon:plain_pofflet", value: 712 },
+  { item: "sunlit_cobblemon:mossy_pofflet", value: 202 },
+  { item: "sunlit_cobblemon:deadly_pofflet", value: 276 },
+  { item: "sunlit_cobblemon:crystalline_pofflet", value: 184 },
+  { item: "sunlit_cobblemon:frosty_pofflet", value: 136 },
+  { item: "sunlit_cobblemon:captivating_pofflet", value: 1060 },
+  { item: "sunlit_cobblemon:spicy_pofflet", value: 676 },
+  { item: "sunlit_cobblemon:mana_pofflet", value: 328 },
+].forEach((recipe) => {
+  global.cobblemonCooking.push({
+    item: recipe.item,
+    value: recipe.value * 3,
+  });
+});
 global.cobbleCrops = [
   { item: "cobblemon:big_root", value: 4 },
   { item: "cobblemon:energy_root", value: 16 },
@@ -319,6 +399,7 @@ global.cobblemonFarmerProducts = [
   { item: "cobblemon:razor_fang", value: 220 },
   { item: "cobblemon:razor_claw", value: 128 },
   { item: "cobblemon:dragon_fang", value: 1430 },
+  { item: "cobblemon:medicinal_brew", value: 768 },
 ];
 
 /**

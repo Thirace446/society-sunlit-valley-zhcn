@@ -62,6 +62,14 @@ ItemEvents.tooltip((tooltip) => {
     "sunlit_cobblemon:master_poke_bobber",
     Text.translatable(`tooltip.sunlit_cobblemon.master_poke_bobber.description`).gold()
   );
+  tooltip.add(
+    "unimplemented_items:repel",
+    Text.translatable(`tooltip.unimplemented_items.repel.description`).gray()
+  );
+  tooltip.add(
+    "unimplemented_items:repel",
+    Text.translatable("tooltip.society.area", `21x21x21`).green()
+  );
   tooltip.addAdvanced("sunlit_cobblemon:sun_mirror", (item, advanced, text) => {
     if (item.nbt && item.nbt.monData && item.nbt.monData.getString("type")) {
       let data = item.nbt.monData
@@ -118,9 +126,9 @@ ItemEvents.tooltip((tooltip) => {
       text.add(1, [
         Text.translatable("tooltip.sunlit_cobblemon.mystery_gift.random").green()
       ]);
-              text.add(2, [
-          Component.translatable("tooltip.sunlit_cobblemon.mystery_gift.from", "Chakyl").gray(),
-        ]);
+      text.add(2, [
+        Component.translatable("tooltip.sunlit_cobblemon.mystery_gift.from", "Chakyl").gray(),
+      ]);
     }
   });
   // Gach
@@ -158,6 +166,64 @@ ItemEvents.tooltip((tooltip) => {
       }
     },
   );
+
+  const formatIVS = (ivs) => {
+    let ivArray = [];
+    for (let index = 0; index < 6; index++) {
+      ivArray.push(ivs.get(index))
+      
+    }
+    return ivArray;
+  }
+  tooltip.addAdvanced('cobbreeding:pokemon_egg', (item, advanced, text) => {
+    if (item.nbt) {
+      let data = item.nbt
+      if (data) {
+        let startIndex = 2;
+        if (!data.getString("form").equals("normal")) {
+          text.add(startIndex, [
+            Text.translatable(
+              "tooltip.cobbreeding.cobblemon.pokemon_egg.form"
+            ).gray(),
+            Text.translate(data.getString("form")).red(),
+          ]);
+          startIndex = 3
+
+        }
+        text.add(startIndex + 1, [
+          Text.translatable(
+            "tooltip.cobbreeding.cobblemon.pokemon_egg.ability"
+          ).gray(),
+          Text.translate(`cobblemon.ability.${data.getString("ability")}`).green(),
+        ]);
+        text.add(startIndex + 2, [
+          Text.translatable(
+            "tooltip.cobbreeding.cobblemon.pokemon_egg.nature"
+          ).gray(),
+          Text.translate(`cobblemon.nature.${data.getString("nature").split(":")[1]}`).gold(),
+        ]);
+        text.add(startIndex + 3, [
+          Text.translatable(
+            "tooltip.cobbreeding.cobblemon.pokemon_egg.ivs",
+            formatIVS(data.get("ivs")).toString().replace(/,/g, '/')
+          ).lightPurple()
+        ]);
+        if (data.getInt("shiny") !== 0) {
+          text.add(startIndex + 4, [
+            Text.translatable(
+              "tooltip.cobbreeding.cobblemon.pokemon_egg.shiny"
+            ).aqua()
+          ]);
+        } else {
+          text.add(startIndex + 4, [
+            Text.translatable(
+              "tooltip.cobbreeding.cobblemon.pokemon_egg.not_shiny"
+            ).darkGray()
+          ]);
+        }
+      } 
+    } 
+  });
   // TM Packs
   tooltip.add("sunlit_cobblemon:tm_pack",
     Text.translatable("tooltip.society.right_click_open").gray()
@@ -375,6 +441,7 @@ ItemEvents.tooltip((tooltip) => {
     tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet`, String(effect.baseIncrease)).gray());
     if (effect.positiveTypes.length > 0) tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet.loved_by_${effect.positiveTypes.length == 2 ? "two" : "three"}`, effect.positiveTypes.map((type) => Text.translatable(`cobblemon.type.${type}`))).green())
     if (effect.decreaseOthers) tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet.hated`).red())
+    if (pofflet.equals("plain")) tooltip.add(`sunlit_cobblemon:${pofflet}_pofflet`, Text.translatable(`tooltip.sunlit_cobblemon.pofflet.triple_bonus`).green())
   });
 
   [

@@ -38,8 +38,7 @@ const rollDenPokemon = (level, player, pool) => {
 
 const displayStats = (player, raidLevel, nbt) => {
     let tierStats = getTierStats(nbt.data.tier)
-    player.tell(`Tier: ${nbt.data.tier} | Pokemon: ${nbt.data.type.equals("") ? "Unknown" : Text.translate(`cobblemon.species.${nbt.data.type}.name`).getString()} | Raid Level ${raidLevel} | Level: ${nbt.data.level} | Shiny Chance: ${Number(tierStats.shinyChance * 100).toFixed(2)}% | Hidden Ability Chance: ${Number(tierStats.hiddenAbilityChance * 100).toFixed(2)}%`)
-
+    player.tell(Text.translatable("sunlit_cobblemon.raid_statue.summary", `${Number(nbt.data.tier)}`, nbt.data.type.equals("") ? "Unknown" : Text.translate(`cobblemon.species.${nbt.data.type}.name`).getString(), `${Number(raidLevel)}`, `${Number(nbt.data.level)}`, `${Number(tierStats.shinyChance * 100).toFixed(2)}%`, `${Number(tierStats.hiddenAbilityChance * 100).toFixed(2)}%`));
 }
 
 const initializeSunRaid = (level, block, player) => {
@@ -183,7 +182,7 @@ BlockEvents.rightClicked("sunlit_cobblemon:sun_raid_statue", (e) => {
             });
             server.runCommandSilent(`playsound botania:spreader_fire block @a ${block.x} ${block.y} ${block.z}`);
             global.setBlockEntityData(block, nbt);
-            
+
             level.spawnParticles(
                 "atmospheric:orange_vapor",
                 true,

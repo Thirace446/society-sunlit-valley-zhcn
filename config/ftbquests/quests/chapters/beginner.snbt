@@ -367,11 +367,19 @@
 			dependencies: ["0F3E297B983F40DC"]
 			icon: "cobblemon:great_ball"
 			id: "45BBB1C3DD5D7554"
-			rewards: [{
-				id: "7F99DCEA7ACC0DB0"
-				item: "cobblemon:exp_candy_l"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31741F09D321347B"
+					table_id: 6979018325962330524L
+					type: "choice"
+				}
+				{
+					id: "2457D2CDDFB47CFA"
+					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+			]
 			tasks: [{
 				action: "level_up"
 				amount: 25L

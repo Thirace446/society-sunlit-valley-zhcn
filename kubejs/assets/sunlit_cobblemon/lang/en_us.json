@@ -13,6 +13,8 @@
   "sunlit_cobblemon.legendary_genie": "You sense a shift in the atmosphere...",
   "sunlit_cobblemon.mystery_gift": "You found %s in your Mystery Gift!",
 
+  "sunlit_cobblemon.win_reward": "● §6%s§7 rewarded by the League",
+  "sunlit_cobblemon.silph_scope.face": "You already have something on your face...",
   "sunlit_cobblemon.sun_raid.clear_area": "The raid Pokémon won't come out with this many nearby Pokémon.",
   "sunlit_cobblemon.sun_raid.checkspawns.nothing": "Nothing can spawn here right now. Try clearing the area of Pokémon before trying again.",
   "sunlit_cobblemon.sun_raid.highest_tier": "The tier of this Raid Statue is already the maximum!",
@@ -42,9 +44,28 @@
   "sunlit_cobblemon.regi.fail": "That doesn't seem like the correct order...",
   "sunlit_cobblemon.regi.no_space": "It was the right combination, but there doesn't seem to be enough open area...",
   
+  "sunlit_cobblemon.trainer_podium.label": "§a%s's§r§7 Trainer Podium",
+  "sunlit_cobblemon.trainer_podium.streak": "§7Current Win Streak:§r §6%s",
+  "sunlit_cobblemon.trainer_podium.tier": "§7Trainer Level Tier:§r §6%s",
+  "sunlit_cobblemon.trainer_podium.not_league_legal": "Not League legal!",
+  "sunlit_cobblemon.trainer_podium.stranger": "This is a stranger's Trainer Podium. They aren't online to draw stats from...",
+  "sunlit_cobblemon.trainer_podium.need_to_defeat_before_moving": "You need to defeat the trainer before moving the podium!",
+  "sunlit_cobblemon.trainer_podium.banned_mon": "Using a legendary or mythical Pokémon isn't allowed by the League...",
+  "sunlit_cobblemon.trainer_podium.too_high": "This trainer's level is too high for your team! You need an average level of %s.",
+  "sunlit_cobblemon.trainer_podium.too_low": "This trainer's level is too low for your team! You need an average level of %s.",
+  
+  "sunlit_cobblemon.raid_statue.summary": "Tier: %s | Pokémon: %s | Raid Level %s | Level: %s | Shiny Chance: %s | Hidden Ability Chance: %s",
+
+  "sunlit_cobblemon.trainer_podium.win_streak": "Your Gym win streak is now %s",
+  "sunlit_cobblemon.trainer_podium.win_streak_upgraded": "Your Gym win streak is now %s! Trainer reward money increased by x%s and difficulty increased!",
+  "sunlit_cobblemon.trainer_podium.win_streak_lost": "You lost your §6%s §cwinning streak...",
+
   "block.sunlit_cobblemon.trainer_podium.description": "Invites Trainers to your Gym. Their levels will match the average of your party",
   "block.sunlit_cobblemon.sun_raid_statue.description": "Summons a sun raid Pokémon once a day. Shift + Right click to activate the altar",
   "block.sunlit_cobblemon.sun_raid_statue.breaks_forever": "Breaking the Sun Raid Statue will desecrate it forever and it will not drop! In order to break, you must sneak while doing so.",
+
+  "block.sunlit_cobblemon.poke_loot_ball": "Poké Loot Ball",
+  "tooltip.unimplemented_items.repel.description": "Prevents Pokémon from spawning near it, even if there's Silph Scope users nearby",
 
   "tooltip.sunlit_cobblemon.silph_scope.description": "Allows Pokémon to spawn around you",
   "tooltip.sunlit_cobblemon.silph_scope.equip": "Right click to equip!",
@@ -54,7 +75,7 @@
   "tooltip.sunlit_cobblemon.master_poke_bobber.description": "Fishes up an epic Pokémon with every catch",
   "tooltip.sunlit_cobblemon.sun_mirror.description": "Right click a Sun Raid Statue to extract the Pokémon in the mirror",
   "tooltip.sunlit_cobblemon.sun_mirror.insert": "Right click a Sun Raid Statue to insert the Pokémon from the mirror",
-  "tooltip.sunlit_cobblemon.sun_mirror.pokemon": "Pokemon: ",
+  "tooltip.sunlit_cobblemon.sun_mirror.pokemon": "Pokémon: ",
   "tooltip.sunlit_cobblemon.sun_mirror.variant": "Variant: ",
   "tooltip.sunlit_cobblemon.sun_mirror.level": " Level: §6%s",
   "tooltip.sunlit_cobblemon.mystery_gift.random": "Random from basic set",
@@ -353,7 +374,6 @@
   "tooltip.sunlit_cobblemon.cobblemon.held.power_lens": "Gives extra Special Attack EVs when the holder participates in battle",
   "tooltip.sunlit_cobblemon.cobblemon.held.power_weight": "Gives extra HP EVs when the holder participates in battle",
 
-
   "tooltip.sunlit_cobblemon.cobblemon.mint.lonely_mint": "Changes a Pokémon's stats to be that of a Lonely nature",
   "tooltip.sunlit_cobblemon.cobblemon.mint.adamant_mint": "Changes a Pokémon's stats to be that of a Adamant nature",
   "tooltip.sunlit_cobblemon.cobblemon.mint.naughty_mint": "Changes a Pokémon's stats to be that of a Naughty nature",
@@ -390,11 +410,19 @@
   "tooltip.sunlit_cobblemon.cobblemon.crit.moon": "Requires a full moon at night",
   "tooltip.sunlit_cobblemon.cobblemon.crit.night": "Requires a level gained at night",
   "tooltip.sunlit_cobblemon.cobblemon.crit.form_time": "Time of day and sweet flavor affects form",
+
+  "tooltip.cobbreeding.cobblemon.pokemon_egg.form": "Form: ",
+  "tooltip.cobbreeding.cobblemon.pokemon_egg.ability": "Ability: ",
+  "tooltip.cobbreeding.cobblemon.pokemon_egg.nature": "Nature: ",
+  "tooltip.cobbreeding.cobblemon.pokemon_egg.ivs": "§7IVs:§d %s",
+  "tooltip.cobbreeding.cobblemon.pokemon_egg.shiny": "Shiny!",
+  "tooltip.cobbreeding.cobblemon.pokemon_egg.not_shiny": "Not shiny...",
   
   "tooltip.sunlit_cobblemon.pofflet": "Raises a Pokémon's friendship by %s",
   "tooltip.sunlit_cobblemon.pofflet.loved_by_three": "%s, %s, and %s types love these!",
   "tooltip.sunlit_cobblemon.pofflet.loved_by_two": "%s and %s types love these!",
   "tooltip.sunlit_cobblemon.pofflet.hated": "Other types dislike the flavor...",
+  "tooltip.sunlit_cobblemon.pofflet.triple_bonus": "Normal types love this three times as much!",
 
   "sunlit_cobblemon.books.the_art_of_battle.description": "The Sunlit league pays out 25% more per battle.",
   "sunlit_cobblemon.books.berry_labor_and_capital.description": "+5 Pokémon worker slots.",
@@ -402,5 +430,25 @@
   "sunlit_cobblemon.books.braiding_surprisegrass.description": "Twice as likely to find Pokémon when harvesting crops and fruit trees.",
   "sunlit_cobblemon.books.the_gachamonbler.description": "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
   "sunlit_cobblemon.books.mukbeth.description": "Grimer, Trubbish, and their evolutions are no longer caught by Poké Bobbers.",
-  "sunlit_cobblemon.books.savage_sun.description": "Sun Raid Statues have a 15% chance to ignore their activation cooldown when used."
+  "sunlit_cobblemon.books.savage_sun.description": "Sun Raid Statues have a 15% chance to ignore their activation cooldown when used.",
+
+   "sunlit_cobblemon.skills.trainer_level.category.title": "Trainer Level",
+
+   "sunlit_cobblemon.skills.trainer_level.twig": "Twig",
+   "sunlit_cobblemon.skills.trainer_level.twig.description": "§9New Poké Mart consumables§7\n§6New Sun Raid trades§r\n§d+3 Worker slots",
+   "sunlit_cobblemon.skills.trainer_level.rock": "Rock",
+   "sunlit_cobblemon.skills.trainer_level.rock.description": "Poké-Radar sold in the Poké Mart\n§d+3 Worker slots",
+   "sunlit_cobblemon.skills.trainer_level.iron": "Iron",
+   "sunlit_cobblemon.skills.trainer_level.iron.description": "§9New Poké Mart consumables§r\n§7Pocket PC & Great Poké Bobber sold in the Poké Mart\n§6New Sun Raid trades§r\nBall Botique available on the phone mid-season\n§d+3 Worker slots",
+   "sunlit_cobblemon.skills.trainer_level.gold": "Gold",
+   "sunlit_cobblemon.skills.trainer_level.gold.description": "§9New Poké Mart consumables§7\nBetter loot from Poké loot balls\n§6New Sun Raid trades§r\n§d+3 Worker slots",
+   "sunlit_cobblemon.skills.trainer_level.diamond": "Diamond",
+   "sunlit_cobblemon.skills.trainer_level.diamond.description": "§9New Poké Mart consumables§7\nGyms can now be ran by the trainers\n§6New Sun Raid trades§r\n§d+3 Worker slots",
+   "sunlit_cobblemon.skills.trainer_level.iridium": "Iridium",
+   "sunlit_cobblemon.skills.trainer_level.iridium.description": "§9New Poké Mart consumables§7\nUltra Poké Bobber sold in the Poké Mart\n§6New Sun Raid trades§r\n§d+3 Worker slots",
+   "sunlit_cobblemon.skills.trainer_level.ancient": "Ancient",
+   "sunlit_cobblemon.skills.trainer_level.ancient.description": "§9New Poké Mart consumables§7\nUltra Poké Bobber sold in the Poké Mart\n§6New Sun Raid trades§r\n§d+3 Worker slots",
+   "sunlit_cobblemon.skills.trainer_level.prismatic": "Prismatic",
+   "sunlit_cobblemon.skills.trainer_level.prismatic.description": "Mystery Gifts sold in the Poké Mart\nMaster Poké Bobber sold in the Poké Mart\n§6New Sun Raid trades§r\n§d+6 Worker slots"
+
 }

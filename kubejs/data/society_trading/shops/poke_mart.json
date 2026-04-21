@@ -316,6 +316,18 @@
     },
     {
       "offer": {
+        "item": "unimplemented_items:repel",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 2
+      },
+      "numismatics_cost": 8192,
+      "trade_id": "pmart_repel"
+    },
+    {
+      "offer": {
         "item": "cobblemon:pc",
         "count": 1
       },
