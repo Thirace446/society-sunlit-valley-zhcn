@@ -1299,9 +1299,9 @@
 		{
 			dependencies: ["0CA36182D78C1214"]
 			description: [
-				"&6Shiny&r Pokémon are incredibly rare, but you caught one!"
+				"{ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.description1}"
 				""
-				"The most important part about them is they look cool. But it's also good to know that when they're in workstations such as &6Craft Stations&r, they are usually twice as good as non-shiny versions! "
+				"{ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.description2}"
 			]
 			icon: "snowyspirit:glow_lights_prismatic"
 			id: "16BE1E8CB0C1AC35"
@@ -1329,7 +1329,7 @@
 				time_min: 0L
 				type: "cobblemon_tasks:cobblemon_task"
 			}]
-			title: "Special Shiny!"
+			title: "{ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.title}"
 			x: 8.5d
 			y: 2.5d
 		}

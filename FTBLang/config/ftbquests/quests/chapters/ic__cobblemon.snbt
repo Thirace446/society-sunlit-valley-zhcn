@@ -719,12 +719,19 @@
 			]
 			icon: "cobblemon:power_anklet"
 			id: "7B0A1FE4BD8D89B8"
-			rewards: [{
-				count: 4
-				id: "086D677A30105AA6"
-				item: "cobblemon:level_ball"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4AB4A9D7CFD7D9A5"
+					table_id: 6275220200599318285L
+					type: "choice"
+				}
+				{
+					id: "72AFF5830BFC1078"
+					item: "cobblemon:fresh_start_mochi"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.ic__cobblemon.quest7B0A1FE4BD8D89B8.subtitle}"
 			tasks: [{
 				id: "7E017CAC2944CB2F"
@@ -748,11 +755,20 @@
 			]
 			icon: "minecraft:turtle_egg"
 			id: "4AA0BB45D0A6782F"
-			rewards: [{
-				id: "29BFAE1233B81B34"
-				item: "sunlit_cobblemon:berry_capsule"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "274749690F52EC14"
+					table_id: 6979018325962330524L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D8C154402E037D2"
+					table_id: 6979018325962330524L
+					type: "choice"
+				}
+			]
 			subtitle: "{ftbquests.chapter.ic__cobblemon.quest4AA0BB45D0A6782F.subtitle}"
 			tasks: [{
 				id: "7B00E8F0BB4D5E9B"
@@ -1279,6 +1295,43 @@
 			}]
 			x: 25.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0CA36182D78C1214"]
+			description: [
+				"{ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.description1}"
+				""
+				"{ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.description2}"
+			]
+			icon: "snowyspirit:glow_lights_prismatic"
+			id: "16BE1E8CB0C1AC35"
+			invisible: true
+			rewards: [{
+				count: 4
+				id: "7ADEFE931FC6F165"
+				item: "cobblemon:cherish_ball"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "358619736AFA04C6"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: true
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "{ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.title}"
+			x: 8.5d
+			y: 2.5d
 		}
 	]
 	title: "{ftbquests.chapter.ic__cobblemon.title}"

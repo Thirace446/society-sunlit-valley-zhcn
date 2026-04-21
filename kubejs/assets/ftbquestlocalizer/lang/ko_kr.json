@@ -917,6 +917,9 @@
   "ftbquests.chapter.ic__cobblemon.quest12A48976D7B8F138.description1": "Leving up your Pokémon is an important aspect of Cobblemon. It gives them better stats in battle, learn new moves, and even evolve them if they can.",
   "ftbquests.chapter.ic__cobblemon.quest12A48976D7B8F138.description2": "For workers, a Pokémon's level can influence how fast they work and the quality of it. Looking at the recipe will tell you what stats impact both.",
   "ftbquests.chapter.ic__cobblemon.quest12A48976D7B8F138.title": "Leveling up Mons",
+  "ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.description1": "&6Shiny&r Pokémon are incredibly rare, but you caught one!",
+  "ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.description2": "The most important part about them is they look cool. But it's also good to know that when they're in workstations such as &6Craft Stations&r, they are usually twice as good as non-shiny versions! ",
+  "ftbquests.chapter.ic__cobblemon.quest16BE1E8CB0C1AC35.title": "Special Shiny!",
   "ftbquests.chapter.ic__cobblemon.quest179E6CCD0172DEE3.description1": "&6Sun Essence&r can be offered to increase the tier of a &6Sun Raid Statue&r.",
   "ftbquests.chapter.ic__cobblemon.quest179E6CCD0172DEE3.description2": "It does not re-roll the Pokémon assigned to it.",
   "ftbquests.chapter.ic__cobblemon.quest179E6CCD0172DEE3.subtitle": "Upgrading Tiers",
@@ -2443,6 +2446,8 @@
   "ftbquests.loot_table.4698371000991631378.title": "비료",
   "ftbquests.loot_table.5635253696830077546.title": "온실",
   "ftbquests.loot_table.6097669691163803424.title": "설비 업그레이드",
+  "ftbquests.loot_table.6275220200599318285.title": "Mochi",
+  "ftbquests.loot_table.6979018325962330524.title": "IV Candy",
   "ftbquests.loot_table.8298743981735202683.title": "포도 씨앗",
   "ftbquests.loot_table.9002246533416223198.title": "장인 설비",
   "ftbquests.loot_table.9162295297604142301.title": "Friendship"
