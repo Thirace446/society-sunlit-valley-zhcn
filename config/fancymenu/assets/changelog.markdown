@@ -3,6 +3,9 @@
 ### v4.0.6
 ^^^
 --- 
+
+Society: Sunlit Cobblemon releases on April 26th!
+
 ## 4.0.6
 - Updated zh_cn translation (Thanks Thirace446 & yizhouuu!)
 - Added ability to pause Auto-Trader with a redstone signal
@@ -20,6 +23,7 @@
 - Fixed cluttered logs not having the stripped log tag
 - Fixed Aging Cask Broken clock not having rounded up display in jade/right click
 - Fixed strawberries having vegetable tag for real this time
+- Fixed exploits
 ## 4.0.0
 - Added new NPC mechanics to completely replace the previous villager system
 - Added 6 handmade villagers with art by NifastGreentail and Nitbe

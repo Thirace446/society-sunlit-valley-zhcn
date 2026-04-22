@@ -10970,7 +10970,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society-1.15.jar",
+                    "file_name": "society-1.16.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -10978,16 +10978,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7679/695/society-1.15.jar",
-                    "id": "7679695",
+                    "url": "https://edge.forgecdn.net/files/7845/583/society-1.16.jar",
+                    "id": "7845583",
                     "parent_id": "1424785",
                     "hashes": {
-                        "sha1": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204",
-                        "md5": "79e40148281ede36b77f2c308cf6a3c7"
+                        "sha1": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9",
+                        "md5": "75d3aa69266d4fd7d1b94e89601fb27b"
                     },
                     "required_dependencies": [],
-                    "size": 22587785,
-                    "date_published": "2026-02-26T03:18:23.387Z"
+                    "size": 22585779,
+                    "date_published": "2026-03-30T13:04:52.800Z"
                 }
             ]
         },

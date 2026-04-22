@@ -277,14 +277,6 @@
     "curseForgeHash": 2212904341,
     "modrinthHash": "fa834f140bf7dce7b67c29b46cb531f4309d3209"
   },
-  "calmtheleaks-1.2 Hotfix-forge.jar": {
-    "jarName": "calmtheleaks-1.2 Hotfix-forge.jar",
-    "modId": "calmtheleaks",
-    "name": "Calm The Leaks",
-    "version": "1.2 Hotfix (Forge)",
-    "curseForgeHash": 1760133585,
-    "modrinthHash": "dbe083ab7ccd749a9f83dcfdd240dadebf2c0d7f"
-  },
   "carryon-forge-1.20.1-2.1.2.7.jar": {
     "jarName": "carryon-forge-1.20.1-2.1.2.7.jar",
     "modId": "carryon",
@@ -1228,14 +1220,6 @@
     "version": "4.6",
     "curseForgeHash": 3959515322,
     "modrinthHash": "890dc4bcba685a4a6a7790c3ed2958eef22dc0c6"
-  },
-  "guideme-20.1.14.jar": {
-    "jarName": "guideme-20.1.14.jar",
-    "modId": "guideme",
-    "name": "GuideME",
-    "version": "20.1.14",
-    "curseForgeHash": 768472251,
-    "modrinthHash": "57d883148f04989128505a1bd8919629440f714f"
   },
   "hamsters-forge-1.0.3-1.20.1.jar": {
     "jarName": "hamsters-forge-1.0.3-1.20.1.jar",
@@ -2330,13 +2314,13 @@
     "curseForgeHash": 3566033015,
     "modrinthHash": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9"
   },
-  "society_trading-1.0.5.jar": {
-    "jarName": "society_trading-1.0.5.jar",
+  "society_trading-1.0.6.jar": {
+    "jarName": "society_trading-1.0.6.jar",
     "modId": "society_trading",
     "name": "Society Trading",
-    "version": "1.0.5",
-    "curseForgeHash": 728567224,
-    "modrinthHash": "683a08b082448dd7376023ecf04b6fa14a828af3"
+    "version": "1.0.6",
+    "curseForgeHash": 295579729,
+    "modrinthHash": "c489a81a6dbc4940ba7a57d64fad695574836a04"
   },
   "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": {
     "jarName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
