@@ -395,7 +395,7 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
   let caughtMon = global.rollPokeWeightedTable(getGachaPool(itemNbt.type, itemNbt.quality_food, hasGachamonbler));
   let shinyChance = getShinyChance(itemNbt.quality_food);
   if (hasGachamonbler) shinyChance *= 2;
-  else if (Math.random() < 0.03) {
+  else if (Math.random() < 0.01) {
     player.give(Item.of("sunlit_cobblemon:the_gachamonbler"))
   }
   let isShiny = false;

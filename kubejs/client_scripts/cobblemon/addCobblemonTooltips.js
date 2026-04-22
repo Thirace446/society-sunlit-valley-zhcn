@@ -502,7 +502,7 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "sunlit_cobblemon:braiding_surprisegrass",
-      description: "Twice as likely to find Pokémon when harvesting crops and fruit trees.",
+      description: "2x as likely to find Pokémon when mining ores and harvesting crops/fruit trees.",
     },
     {
       item: "sunlit_cobblemon:the_gachamonbler",
