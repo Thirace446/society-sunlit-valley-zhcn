@@ -109,6 +109,11 @@
     }
   ],
   "lookup_history": [
+    "item:sunlit_cobblemon:master_poke_bobber",
+    "item:sunlit_cobblemon:ultra_poke_bobber",
+    "item:sunlit_cobblemon:great_poke_bobber",
+    "item:sunlit_cobblemon:poke_bobber",
+    "item:farmersdelight:sandy_shrub",
     "item:sophisticatedbackpacks:advanced_pump_upgrade",
     "item:cobblemon:belue_berry",
     {
@@ -153,8 +158,6 @@
     "item:cobblemon:cyan_mint_seeds",
     "item:cobblemon:silver_powder",
     "item:cobblemon:quick_ball",
-    "item:sunlit_cobblemon:ultra_poke_bobber",
-    "item:sunlit_cobblemon:master_poke_bobber",
     "item:cobblemon_farmers:normal_type_worker",
     "item:cobblemon_farmers:flying_type_worker",
     "item:cobblemon:light_clay",
@@ -268,7 +271,6 @@
     "item:sunlit_cobblemon:moongeist_crystal",
     "item:sunlit_cobblemon:cornucopia_of_greed",
     "item:society:cornucopia",
-    "item:sunlit_cobblemon:great_poke_bobber",
     "item:sunlit_cobblemon:electro_wool",
     "item:sunlit_cobblemon:electric_canvas",
     "item:minecraft:oak_pressure_plate",

@@ -401,7 +401,6 @@ ItemEvents.tooltip((tooltip) => {
     "mild_mint", "rash_mint", "quiet_mint", "calm_mint", "gentle_mint", "careful_mint", "sassy_mint", "timid_mint", "hasty_mint", "jolly_mint",
     "naive_mint", "serious_mint"
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.mint.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.mint`).darkGreen());
   });
 
@@ -457,7 +456,6 @@ ItemEvents.tooltip((tooltip) => {
   [
     "calcium", "carbos", "hp_up", "iron", "protein", "zinc", "pp_up", "pp_max",
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.medicine.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.vitamin`).aqua());
   });
 
