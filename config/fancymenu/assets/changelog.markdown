@@ -3,7 +3,23 @@
 ### v4.0.6
 ^^^
 --- 
-TODO
+## 4.0.6
+- Updated zh_cn translation (Thanks Thirace446 & yizhouuu!)
+- Added ability to pause Auto-Trader with a redstone signal
+- Added bulk silver -> electrum mana conversion recipe
+- Leaf Litter now needs shears to collect because I hate it and the way it fills up your inventory
+- Temporarily removed Advanced Pump Upgrade due to bugs
+- Cleaned up getting started quests and made some quests have unlocked visibility to reduce info overload
+- Changed ink liquid recipe to use ink sacs 
+- Player home blocks can be removed in creative no matter who placed it
+- Fixed shipping bin renaming bugging out on servers
+- Fixed Immortal spawning in the overworld forever and ever
+- Fixed edge case where Juice inserter was spamming logs
+- Fixed recipes of new Classic Pipes items
+- Fixed some Sherds having duplicate tooltips
+- Fixed cluttered logs not having the stripped log tag
+- Fixed Aging Cask Broken clock not having rounded up display in jade/right click
+- Fixed strawberries having vegetable tag for real this time
 ## 4.0.0
 - Added new NPC mechanics to completely replace the previous villager system
 - Added 6 handmade villagers with art by NifastGreentail and Nitbe
@@ -140,21 +156,7 @@ TODO
 - Various fixes that make the changelog too long to render
 
 ## 4.0.1
-- Villager home blocks can now be removed in creative if broken
-- Fixed Trades not matching on auto-trader
-- Fixed Auto-Trader not dropping when broken
-- Fixed old plushies not converting to the new system
-- Fixed building shop quest text
-- Fixed Pale Oak Logs always erroring
-- Fixed several blueprints not having the correct trades
-- Fixed artisan machines that should preserve quality not doing so when placed before 4.0
-- Fixed various network issues on certain servers (probably)
-- Fixed npc intros not playing if you didn't place down the block
-- Fixed Haruna's intro being wip
-- Fixed foraged items like eggs not properly using quality
-- Fixed cooking collection having removed item
-- Fixed Fish Ponds showing they have a quest at 10 max population
-- Fixed Fish Pond baskets draining fish ponds
+-  Changelog got too long so removed
 
 ## 4.0.2
 - Updated Korean translation

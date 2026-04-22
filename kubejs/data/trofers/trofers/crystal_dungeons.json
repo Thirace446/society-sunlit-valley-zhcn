@@ -1,14 +1,14 @@
 {
   "colors": {
-    "accent": "#F3CC4F",
-    "base": "#ECA063"
+    "accent": "#69B7CE",
+    "base": "#3F6F76"
   },
   "display": {
     "offset": { "x": 0, "y": 1, "z": 0 },
     "scale": 2.0
   },
   "item": {
-    "item": "minecraft:ochre_froglight",
+    "item": "society:pristine_spinel",
     "count": 1
   },
   "animation": {
@@ -17,11 +17,11 @@
   },
   "effects": {
     "sound": {
-      "soundEvent": "botania:light_relay"
+      "soundEvent": "minecraft:block.amethyst_block.resonate"
     }
   },
   "name": {
-    "color": "#F3CC4F",
-    "translate": "Building Contest Trophy - Blooming Sun"
+    "color": "#69B7CE",
+    "translate": "Building Contest Trophy - Crystal Dungeons"
   }
 }

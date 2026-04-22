@@ -1,50 +1,83 @@
 {
-  "favorites": [
-    {
-      "stack": "item:species:birtday_cake"
-    },
-    {
-      "stack": "item:minecraft:oak_door"
-    },
-    {
-      "stack": "item:farm_and_charm:pasta_with_onion_sauce"
-    },
-    {
-      "stack": "item:farm_and_charm:farmer_salad"
-    },
-    {
-      "stack": "item:farm_and_charm:barley_soup"
-    },
-    {
-      "stack": "item:bakery:sandwich"
-    },
-    {
-      "stack": "item:refurbished_furniture:vegetable_pizza_slice"
-    },
-    {
-      "stack": "item:herbalbrews:coffee"
-    },
-    {
-      "stack": "item:atmospheric:passion_fruit"
-    },
-    {
-      "stack": "item:atmospheric:sun_pottery_sherd"
-    },
-    {
-      "stack": "item:atmospheric:succulent_pottery_sherd"
-    },
-    {
-      "stack": "item:atmospheric:scythe_pottery_sherd"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "society:fine_wool",
-        "amount": 5
-      }
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "item:oreganized:electrum_block",
+    "item:oreganized:electrum_shovel{Damage:0}",
+    "item:atmospheric:sun_pottery_sherd",
+    "item:oreganized:electrum_ingot",
+    "item:farm_and_charm:strawberry",
+    "item:farm_and_charm:grandmothers_strawberry_cake",
+    "item:farm_and_charm:wild_strawberries",
+    "item:minecraft:stripped_pale_oak_log",
+    "item:minecraft:black_dye",
+    "item:railways:empty_paint_pitcher",
+    {
+      "type": "fluid",
+      "id": "railways:paint",
+      "nbt": "{Color:\"pink\"}",
+      "amount": 4000
+    },
+    "item:railways:pink_paint_pitcher",
+    "item:atmospheric:scythe_pottery_sherd",
+    "item:classicpipes:inverted_copper_pipe",
+    "item:classicpipes:inverted_advanced_copper_pipe",
+    {
+      "type": "item",
+      "id": "classicpipes:inverted_advanced_copper_fluid_pipe",
+      "amount": 8
+    },
+    "item:minecraft:honeycomb",
+    "item:classicpipes:advanced_copper_pipe",
+    "item:classicpipes:bamboo_pipe",
+    "item:classicpipes:copper_pipe",
+    "item:classicpipes:copper_fluid_pipe",
+    "item:classicpipes:matching_pipe",
+    "item:classicpipes:nether_brick_fluid_pipe",
+    "item:classicpipes:nether_brick_pipe",
+    "item:classicpipes:brick_fluid_pipe",
+    "item:classicpipes:cherry_fluid_pipe",
+    "item:classicpipes:jungle_fluid_pipe",
+    "item:classicpipes:recipe_pipe",
+    "item:classicpipes:pipe_slicer",
+    "item:classicpipes:mod_label",
+    "item:classicpipes:tag_label",
+    "item:classicpipes:obsidian_fluid_pipe",
+    "item:classicpipes:diamond_fluid_pipe",
+    "item:classicpipes:lapis_fluid_pipe",
+    "item:classicpipes:iron_fluid_pipe",
+    "item:classicpipes:advanced_copper_fluid_pipe",
+    "item:classicpipes:inverted_copper_fluid_pipe",
+    "item:classicpipes:warped_fluid_pipe",
+    "item:classicpipes:crimson_fluid_pipe",
+    "item:classicpipes:bamboo_fluid_pipe",
+    "item:classicpipes:mangrove_fluid_pipe",
+    "item:classicpipes:dark_oak_fluid_pipe",
+    "item:classicpipes:provider_pipe",
+    "item:classicpipes:stocking_pipe",
+    "item:classicpipes:routing_pipe",
+    "#item:classicpipes:pipes/networked",
+    "item:classicpipes:storage_pipe",
+    "item:classicpipes:oak_fluid_pipe",
+    "item:classicpipes:spruce_fluid_pipe",
+    "item:classicpipes:birch_fluid_pipe",
+    "item:classicpipes:acacia_fluid_pipe",
+    "item:classicpipes:bone_pipe",
+    "item:classicpipes:obsidian_pipe",
+    "item:classicpipes:brick_pipe",
+    "item:classicpipes:flint_pipe",
+    "item:classicpipes:diamond_pipe",
+    "item:classicpipes:golden_pipe",
+    "item:classicpipes:lapis_pipe",
+    "item:classicpipes:iron_pipe",
+    "item:classicpipes:request_pipe",
+    {
+      "type": "item",
+      "id": "society:milk",
+      "amount": 52
+    },
+    "item:classicpipes:mangrove_pipe",
+    "item:classicpipes:oak_pipe",
+    "item:species:birtday_cake",
     "item:sophisticatedbackpacks:advanced_pump_upgrade",
     "item:quark:vertical_spruce_planks",
     "item:society:merino_wool",
@@ -65,7 +98,6 @@
       "id": "minecraft:white_wool",
       "amount": 63
     },
-    "item:atmospheric:sun_pottery_sherd",
     "item:society:river_jelly",
     "item:rehooked:blaze_hook",
     "item:crittersandcompanions:silk_lead",
@@ -462,7 +494,6 @@
     "item:aquaculture:fish_fillet_cooked",
     "item:unusualfishmod:cooked_shockcat",
     "item:candlelight:fillet_steak",
-    "item:species:birtday_cake",
     "item:society:blueberry_preserves",
     "item:minecraft:sugar",
     "item:minecraft:cake",
@@ -547,7 +578,6 @@
     "item:etcetera:bismuth_ingot",
     "item:oreganized:silver_ingot",
     "item:minecraft:iron_ingot",
-    "item:oreganized:electrum_ingot",
     "item:oreganized:lead_ingot",
     "item:minecraft:gold_ingot",
     "item:create_factory_logistics:fluid_mechanism",
@@ -577,7 +607,6 @@
     "item:farmlife:galliraptor",
     "item:waystones:warp_scroll",
     "item:waystones:blue_sharestone",
-    "item:classicpipes:pipe_slicer",
     "item:automobility:launch_gel",
     "item:minecraft:tube_coral_block",
     "item:minecraft:fire_coral_block",
@@ -741,7 +770,6 @@
     "item:minecraft:end_stone",
     "item:quark:hollow_oak_log",
     "item:ribbits:ribbit_fisherman_spawn_egg",
-    "item:classicpipes:mangrove_pipe",
     "item:minecraft:oak_stairs",
     "item:mysticaloaktree:wise_oak",
     {
@@ -783,53 +811,8 @@
     },
     "item:botania:rune_gluttony",
     "item:botania:pump",
-    "item:classicpipes:flint_pipe",
-    "item:classicpipes:oak_pipe",
-    {
-      "type": "item",
-      "id": "classicpipes:provider_pipe",
-      "amount": 64
-    },
-    "item:classicpipes:routing_pipe",
     "item:society:aquamarine",
-    "item:classicpipes:stocking_pipe",
     "item:society:battery",
-    "item:classicpipes:request_pipe",
-    "item:classicpipes:storage_pipe",
-    "item:classicpipes:lapis_fluid_pipe",
-    "item:classicpipes:matching_pipe",
-    "item:classicpipes:cherry_fluid_pipe",
-    "item:classicpipes:mangrove_fluid_pipe",
-    "item:classicpipes:dark_oak_fluid_pipe",
-    "item:classicpipes:acacia_fluid_pipe",
-    "item:classicpipes:jungle_fluid_pipe",
-    "item:classicpipes:birch_fluid_pipe",
-    "item:classicpipes:spruce_fluid_pipe",
-    "item:classicpipes:oak_fluid_pipe",
-    "item:classicpipes:recipe_pipe",
-    "item:classicpipes:crimson_fluid_pipe",
-    "item:classicpipes:mod_label",
-    "item:classicpipes:bone_pipe",
-    "item:classicpipes:golden_pipe",
-    "item:classicpipes:diamond_pipe",
-    "item:classicpipes:iron_pipe",
-    "item:classicpipes:obsidian_pipe",
-    "item:classicpipes:brick_pipe",
-    "item:classicpipes:lapis_pipe",
-    "item:classicpipes:diamond_fluid_pipe",
-    "item:classicpipes:advanced_copper_fluid_pipe",
-    "item:classicpipes:copper_fluid_pipe",
-    "item:classicpipes:warped_fluid_pipe",
-    "item:classicpipes:obsidian_fluid_pipe",
-    "item:classicpipes:brick_fluid_pipe",
-    "item:classicpipes:iron_fluid_pipe",
-    {
-      "type": "item",
-      "id": "classicpipes:advanced_copper_pipe",
-      "amount": 64
-    },
-    "item:classicpipes:tag_label{}",
-    "item:classicpipes:bamboo_fluid_pipe",
     "item:oreganized:orange_crystal_glass",
     "item:oreganized:light_blue_crystal_glass",
     "item:oreganized:red_crystal_glass",
@@ -1137,11 +1120,11 @@
     "item:veggiesdelight:stuffed_zucchini_boat",
     "item:veggiesdelight:zucchini_quiche",
     [
-      "item:minecraft:cooked_porkchop",
-      "item:farmersdelight:cooked_bacon",
-      "item:candlelight:pork_ribs",
-      "item:farm_and_charm:bacon_with_eggs",
       "item:brewery:pork_knuckle",
+      "item:minecraft:cooked_porkchop",
+      "item:candlelight:pork_ribs",
+      "item:farmersdelight:cooked_bacon",
+      "item:farm_and_charm:bacon_with_eggs",
       "#item:forge:cooked_chicken",
       "#item:forge:cooked_beef",
       "#item:forge:cooked_mutton"
@@ -1152,9 +1135,9 @@
     "item:veggiesdelight:cooked_vegetarian_patty",
     "item:veggiesdelight:raw_vegetarian_patty",
     [
-      "#item:forge:crops/cauliflower",
       "#item:forge:crops/zucchini",
-      "#item:forge:crops/potato"
+      "#item:forge:crops/potato",
+      "#item:forge:crops/cauliflower"
     ],
     "#item:forge:grain",
     "#item:forge:cabbage",
@@ -1433,7 +1416,6 @@
     "item:pamhc2trees:bananaitem",
     "item:vintagedelight:gearo_berry",
     "item:vinery:rotten_cherry",
-    "item:farm_and_charm:strawberry",
     "item:autumnity:foul_berries",
     "item:society:double_aged_violet_moon",
     "item:society:aged_violet_moon",
@@ -1475,40 +1457,7 @@
       "type": "fluid",
       "id": "vinery:apple_juice",
       "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "vinery:red_taiga_grape_juice",
-      "amount": 0
-    },
-    "item:society:ancient_vespertine",
-    {
-      "type": "fluid",
-      "id": "society:ancient_fruit_juice",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "society:starfruit_juice",
-      "amount": 0
-    },
-    "item:society:aged_ancient_vespertine",
-    "item:society:aged_ancient_cider",
-    "item:society:double_aged_beer_attunecore",
-    "item:society:living_flesh",
-    "item:society:crystal_of_regret_mining",
-    "item:society:latte",
-    "item:society:forks_of_blue",
-    "item:create:copper_ladder",
-    "item:minecraft:resin_clump",
-    "item:vintagedelight:pepper_jam_mason_jar",
-    "item:vintagedelight:relish_mason_jar",
-    "item:windswept:mutton_pie",
-    "item:beachparty:sandwaves",
-    "item:beautify:lamp_jar",
-    "item:longwings:glass_jar",
-    "item:minecraft:torchflower",
-    "item:beachparty:coconut_open"
+    }
   ],
   "craft_history": [
     "minecraft:yellow_outer_counter_left_recipe_1",
@@ -1619,8 +1568,8 @@
   ],
   "recipe_defaults": {
     "added": [
-      "netherdepthsupgrade:eyeball",
       "minecraft:kjs/society_sun_candy",
+      "netherdepthsupgrade:eyeball",
       "jei:/create/kjs/8wkfd56owqz38eeg0aimv5kji"
     ],
     "tags": {},
