@@ -506,7 +506,7 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "sunlit_cobblemon:the_gachamonbler",
-      description: "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
+      description: "Gachamon Capsule Pokémon are 2x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
     },
     {
       item: "sunlit_cobblemon:mukbeth",
