@@ -77,7 +77,7 @@
           }
         },
         {
-          "weight": 1,
+          "weight": 2,
           "data": {
             "Name": "sunlit_cobblemon:mon_box",
             "Properties": {

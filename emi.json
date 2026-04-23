@@ -109,6 +109,39 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "cobblemon:exp_candy_s",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "cobblemon:ultra_ball",
+      "amount": 20
+    },
+    {
+      "type": "item",
+      "id": "minecraft:netherite_ingot",
+      "amount": 11
+    },
+    "item:society:mini_artisan_hopper",
+    "item:society:artisan_hopper",
+    "item:nethervinery:netherite_nectar{}",
+    {
+      "type": "item",
+      "id": "minecraft:netherite_scrap",
+      "amount": 11
+    },
+    "item:create_klinks_n_klangs:quick_ball_stencil",
+    "item:create_klinks_n_klangs:luxury_ball_stencil",
+    "item:create_klinks_n_klangs:nest_ball_stencil",
+    "item:create_klinks_n_klangs:level_ball_stencil",
+    "item:tanukidecor:plasma_ball",
+    "item:create_klinks_n_klangs:washed_apricorn",
+    "item:cobblemon:plume_fossil",
+    "item:cobblemon:shiny_stone",
+    "item:cobblemon:fossil_analyzer",
+    "item:sunlit_cobblemon:spider_milk",
     "item:sunlit_cobblemon:master_poke_bobber",
     "item:sunlit_cobblemon:ultra_poke_bobber",
     "item:sunlit_cobblemon:great_poke_bobber",
@@ -130,11 +163,6 @@
       "type": "item",
       "id": "cobblemon:exp_candy_m",
       "amount": 3
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:exp_candy_s",
-      "amount": 8
     },
     "item:sunlit_cobblemon:uncharged_battery",
     "item:create:rose_quartz",
@@ -322,7 +350,6 @@
     "item:cobblemon:dome_fossil",
     "item:cobblemon:skull_fossil",
     "item:cobblemon:cover_fossil",
-    "item:cobblemon:plume_fossil",
     "item:cobblemon:helix_fossil",
     "item:cobblemon:fossilized_drake",
     "item:minecraft:dragon_breath",
@@ -389,7 +416,6 @@
     "item:cobblemon:super_potion",
     "item:cobblemon:potion",
     "item:minecraft:chest{display:{Name:\u0027{\"translate\":\"Balloon Box\"}\u0027}}",
-    "item:cobblemon:shiny_stone",
     "item:minecraft:ghast_tear",
     "item:sunlit_cobblemon:mystery_gift",
     "item:society:botanical_tribute",
@@ -399,7 +425,6 @@
     "item:society:black_opal",
     "item:quark:stripped_oak_post",
     "item:society:slouching_towards_artistry",
-    "item:society:artisan_hopper",
     "item:society:oil_maker",
     "item:society:ancient_cask",
     "item:society:crystalarium",
@@ -417,7 +442,6 @@
     "item:society:cheese_press",
     "item:society:pink_matter",
     "item:society:canvas",
-    "item:society:mini_artisan_hopper",
     "item:society:tapper",
     "item:cobblemon:masterpiece_teacup",
     "item:society:deluxe_worm_farm",
@@ -684,7 +708,6 @@
     "item:cobblemon:monitor",
     "item:cobblemon:restoration_tank",
     "item:society:seed_maker",
-    "item:cobblemon:fossil_analyzer",
     "item:simplemagnets:basic_demagnetization_coil",
     {
       "type": "item",
@@ -840,7 +863,6 @@
     "item:nethervinery:lava_fizz",
     "item:society:aged_lava_fizz",
     "item:society:double_aged_lava_fizz",
-    "item:nethervinery:netherite_nectar{}",
     "item:society:amulet_of_light",
     "item:minecraft:spruce_wood",
     "item:society:aquamarine",
@@ -867,7 +889,6 @@
     "item:cobblemon:pokemon_model{aspects:[\"male\",\"snake-pattern-legacy\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:1,AbilityName:\"shedskin\",AbilityPriority:\"LOWEST\"},BenchedMoves:[{MoveName:\"crunch\",RaisedPPStages:0b},{MoveName:\"screech\",RaisedPPStages:0b},{MoveName:\"glare\",RaisedPPStages:0b},{MoveName:\"bite\",RaisedPPStages:0b},{MoveName:\"thunderfang\",RaisedPPStages:0b},{MoveName:\"acid\",RaisedPPStages:0b}],CaughtBall:\"cobblemon:great_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{attack:2s,defence:1s,hp:24s,special_defence:1s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:31465,FaintedTimer:-1,FormId:\"normal\",Friendship:109s,Gender:\"MALE\",GmaxFactor:0b,HealingTimer:-1,Health:87s,HeldItem:{Count:1b,id:\"cobblemon:power_weight\"},IVs:{attack:2s,defence:10s,hp:25s,special_attack:16s,special_defence:17s,speed:14s},Level:31s,MoveSet:[{MoveName:\"toxic\",MovePP:10,RaisedPPStages:0},{MoveName:\"psychicfangs\",MovePP:10,RaisedPPStages:0},{MoveName:\"icefang\",MovePP:15,RaisedPPStages:0},{MoveName:\"firefang\",MovePP:15,RaisedPPStages:0}],Nature:\"cobblemon:quiet\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:arbok\",TeraType:\"cobblemon:poison\",Tradeable:1b,UUID:[I;-787156538,-23638579,-2059259085,-1455287727],snake_pattern:\"legacy\"},species:\"cobblemon:arbok\"}",
     "item:minecraft:diamond",
     "item:minecraft:redstone",
-    "item:sunlit_cobblemon:spider_milk",
     "item:cobblemon:pokemon_model{aspects:[\"female\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"sandveil\",AbilityPriority:\"LOWEST\"},BenchedMoves:[],CaughtBall:\"cobblemon:premier_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{speed:3s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:96012,FaintedTimer:-1,FormId:\"normal\",Friendship:0s,Gender:\"FEMALE\",GmaxFactor:0b,HealingTimer:58,Health:1s,IVs:{attack:5s,defence:24s,hp:6s,special_attack:31s,special_defence:18s,speed:10s},Level:47s,MoveSet:[{MoveName:\"energyball\",MovePP:8,RaisedPPStages:0},{MoveName:\"pinmissile\",MovePP:18,RaisedPPStages:0},{MoveName:\"suckerpunch\",MovePP:3,RaisedPPStages:0},{MoveName:\"spikes\",MovePP:19,RaisedPPStages:0}],Nature:\"cobblemon:hasty\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:cacturne\",TeraType:\"cobblemon:grass\",Tradeable:1b,UUID:[I;1832233068,-684243066,-1081527890,1240173074]},species:\"cobblemon:cacturne\"}",
     "item:cobblemon:pokemon_model{aspects:[\"male\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:0,AbilityName:\"sturdy\",AbilityPriority:\"LOWEST\"},BenchedMoves:[],CaughtBall:\"cobblemon:net_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{},Evolutions:{Pending:{pending:[],progress:[]}},Experience:56660,FaintedTimer:-1,FormId:\"normal\",Friendship:50s,Gender:\"MALE\",GmaxFactor:0b,HealingTimer:58,Health:19s,IVs:{attack:23s,defence:8s,special_defence:10s,speed:11s},Level:40s,MoveSet:[{MoveName:\"rockslide\",MovePP:10,RaisedPPStages:0},{MoveName:\"guardsplit\",MovePP:9,RaisedPPStages:0},{MoveName:\"powersplit\",MovePP:9,RaisedPPStages:0},{MoveName:\"bugbite\",MovePP:19,RaisedPPStages:0}],Nature:\"cobblemon:naughty\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:shuckle\",TeraType:\"cobblemon:bug\",Tradeable:1b,UUID:[I;-39280389,1180649507,-1167717088,2060226897]},species:\"cobblemon:shuckle\"}",
     "item:cobblemon:pokemon_model{aspects:[\"female\"],pokeData:{Ability:{AbilityForced:0b,AbilityIndex:1,AbilityName:\"insomnia\",AbilityPriority:\"LOWEST\"},BenchedMoves:[],CaughtBall:\"cobblemon:ancient_poke_ball\",CobblemonVersion:\"1.5.2\",DmaxLevel:0,EVs:{attack:3s,speed:2s},Evolutions:{Pending:{pending:[],progress:[]}},Experience:37324,FaintedTimer:-1,FormId:\"normal\",Friendship:50s,Gender:\"FEMALE\",GmaxFactor:0b,HealingTimer:56,Health:12s,IVs:{attack:14s,defence:3s,hp:1s,special_attack:27s,special_defence:23s,speed:8s},Level:36s,MoveSet:[{MoveName:\"pinmissile\",MovePP:19,RaisedPPStages:0},{MoveName:\"agility\",MovePP:29,RaisedPPStages:0},{MoveName:\"suckerpunch\",MovePP:2,RaisedPPStages:0},{MoveName:\"furyswipes\",MovePP:14,RaisedPPStages:0}],Nature:\"cobblemon:gentle\",PersistentData:{},PokemonData:[],PokemonOriginalTrainer:\"8d3c8e31-8b73-4336-9adb-df8508f79251\",PokemonOriginalTrainerType:\"PLAYER\",ScaleModifier:1.0f,Shiny:0b,Species:\"cobblemon:ariados\",TeraType:\"cobblemon:bug\",Tradeable:1b,UUID:[I;1026409636,-476626689,-1324008993,-1109592684]},species:\"cobblemon:ariados\"}",
@@ -1106,7 +1127,6 @@
     "item:cobblemon:ancient_jet_ball",
     "item:cobblemon:mirror_herb",
     "item:cobblemon:loamy_mulch",
-    "item:cobblemon:ultra_ball",
     "item:cobblemon:pep_up_flower",
     "item:cobblemon:heal_powder",
     "item:farm_and_charm:strawberry_tea",
@@ -1477,30 +1497,12 @@
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:luminous\"}}",
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:ender\"}}",
     "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:blazing\"}}",
-    "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:bony\"}}",
-    "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:dusty\"}}",
-    "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:mechanic\"}}",
-    {
-      "type": "item",
-      "id": "cobblemon:ice_stone_block",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:leaf_stone_block",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "cobblemon:shiny_stone_block",
-      "amount": 64
-    },
-    "item:cobblemon:auspicious_armor",
-    "item:simpletms:tm_feint"
+    "item:splendid_slimes:slime_item{slime:{id:\"splendid_slimes:bony\"}}"
   ],
   "craft_history": [
-    "minecraft:kjs/cobblemon_exp_candy_m",
     "minecraft:kjs/cobblemon_exp_candy_s",
+    "minecraft:netherite_ingot",
+    "minecraft:kjs/cobblemon_exp_candy_m",
     "minecraft:kjs/sunlit_cobblemon_uncharged_battery",
     "create:crafting/materials/rose_quartz",
     "minecraft:kjs/society_dehydrator",
@@ -1623,7 +1625,6 @@
     "etcetera:light_bulb",
     "oreganized:silver_block",
     "minecraft:glowstone",
-    "minecraft:netherite_ingot",
     "minecraft:wooden_sword",
     "minecraft:iron_ingot_from_iron_block",
     "cobblemon:exp_share"

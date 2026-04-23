@@ -429,13 +429,13 @@
     "curseForgeHash": 3290138757,
     "modrinthHash": "ac86f60938f74031e298f72d3bc6b852d703ecea"
   },
-  "cobblemon_farmers-1.2.jar": {
-    "jarName": "cobblemon_farmers-1.2.jar",
+  "cobblemon_farmers-1.3.jar": {
+    "jarName": "cobblemon_farmers-1.3.jar",
     "modId": "cobblemon_farmers",
     "name": "Cobblemon Farmers",
-    "version": "1.2",
-    "curseForgeHash": 719118163,
-    "modrinthHash": "a9e3ebea8c352cbd422ff5d87b698a37ff030730"
+    "version": "1.3",
+    "curseForgeHash": 3508885826,
+    "modrinthHash": "3be361624d8bce6cf84093873176f434ebdf7498"
   },
   "cobblemon_quests-[1.20.1]-forge-1.1.11.jar": {
     "jarName": "cobblemon_quests-[1.20.1]-forge-1.1.11.jar",
@@ -492,14 +492,6 @@
     "version": "0.6.8",
     "curseForgeHash": 3004108424,
     "modrinthHash": "edb3b145116035430b4a4f27e0f76755571ef0ba"
-  },
-  "Cobbreeding-forge-1.7.4.jar": {
-    "jarName": "Cobbreeding-forge-1.7.4.jar",
-    "modId": "cobbreeding",
-    "name": "Cobbreeding",
-    "version": "1.7.4",
-    "curseForgeHash": 2203562775,
-    "modrinthHash": "af601dd1c556e12e7e88bcb23b629c2891251dd6"
   },
   "collective-1.20.1-7.87.jar": {
     "jarName": "collective-1.20.1-7.87.jar",
@@ -2626,13 +2618,13 @@
     "curseForgeHash": 983096875,
     "modrinthHash": "f184257fad61df437f1e54b9c32d98649d7be996"
   },
-  "sunlit_cobblemon-1.1.jar": {
-    "jarName": "sunlit_cobblemon-1.1.jar",
+  "sunlit_cobblemon-1.2.jar": {
+    "jarName": "sunlit_cobblemon-1.2.jar",
     "modId": "sunlit_cobblemon",
     "name": "Sunlit Cobblemon",
-    "version": "1.1",
-    "curseForgeHash": 3503119371,
-    "modrinthHash": "5a90529b09c9823bc12e0b35ebd1b1afcc8e0e36"
+    "version": "1.2",
+    "curseForgeHash": 3128886577,
+    "modrinthHash": "621ad6353d9e7ba2ce0b373f866ba416aba42579"
   },
   "sunlitcobblemonmixin-1.0.0.jar": {
     "jarName": "sunlitcobblemonmixin-1.0.0.jar",
