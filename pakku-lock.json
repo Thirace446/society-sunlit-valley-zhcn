@@ -2378,7 +2378,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cobblemon_showdown-1.0.1.jar",
+                    "file_name": "cobblemon_showdown-1.1.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2386,18 +2386,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7776/261/cobblemon_showdown-1.0.1.jar",
-                    "id": "7776261",
+                    "url": "https://edge.forgecdn.net/files/7970/820/cobblemon_showdown-1.1.0.jar",
+                    "id": "7970820",
                     "parent_id": "1469729",
                     "hashes": {
-                        "sha1": "78c0f577dac15e12155eb98800bb2f064e88af32",
-                        "md5": "88c5976dbcc490bd592794f51839f825"
+                        "sha1": "6378fa3e92e2ecd9a255abf405d91d365ab7c8e7",
+                        "md5": "be4512443cbf45b99804d3c27b7315ac"
                     },
                     "required_dependencies": [
                         "687131"
                     ],
-                    "size": 378050,
-                    "date_published": "2026-03-18T15:12:34.067Z"
+                    "size": 392466,
+                    "date_published": "2026-04-23T06:11:19.973Z"
                 }
             ]
         },
@@ -12804,21 +12804,21 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sunlit-mons-3.0.zip",
+                    "file_name": "sunlit-mons-3.1.zip",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7928/420/sunlit-mons-3.0.zip",
-                    "id": "7928420",
+                    "url": "https://edge.forgecdn.net/files/7973/713/sunlit-mons-3.1.zip",
+                    "id": "7973713",
                     "parent_id": "1488690",
                     "hashes": {
-                        "sha1": "4a40cd13d94e85986da1f120196be6701435b026",
-                        "md5": "50897a128bfe24cbb6254a416bd7dde6"
+                        "sha1": "795d10f18c0fbe2675ff5a2449b38717b489642c",
+                        "md5": "6338af3bbad03f85de8e1978002bdfb7"
                     },
                     "required_dependencies": [],
-                    "size": 11085001,
-                    "date_published": "2026-04-15T01:01:52.320Z"
+                    "size": 11083755,
+                    "date_published": "2026-04-23T18:48:50.437Z"
                 }
             ]
         },
