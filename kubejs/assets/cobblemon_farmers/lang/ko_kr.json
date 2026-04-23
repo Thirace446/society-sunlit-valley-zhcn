@@ -59,6 +59,14 @@
     "item.cobblemon_farmers.dragon_type_worker": "드래곤 타입 작업 포켓몬",
     "item.cobblemon_farmers.dark_type_worker": "악 타입 작업 포켓몬",
     "item.cobblemon_farmers.fairy_type_worker": "페어리 타입 작업 포켓몬",
+    "item.cobblemon_farmers.worker_permit": "작업 권한",
+    "item.cobblemon_farmers.public_contract": "공공 계약",
+    "item.cobblemon_farmers.worker_permit.description": "작업 포켓몬 상한을 1 늘립니다",
+    "item.cobblemon_farmers.public_contract.description": "작업 스테이션에 작업 슬롯을 귀속시키고 아무나 작업 포켓몬을 할당할 수 있도록 합니다.",
+    "item.cobblemon_farmers.public_contract.warn": "아무나 작업 중인 포켓몬을 회수할 수 있게 됩니다!",
+    "item.cobblemon_farmers.public_contract.used": "이 작업 스테이션은 이제 공용입니다!",
+    "item.cobblemon_farmers.public_contract.already_used": "이 작업 스테이션은 이미 공공 개방되었습니다!",
+    "item.cobblemon_farmers.worker_permit.used": "작업 포켓몬 상한이 %s(으)로 증가했습니다",
 
     "block.cobblemon_farmers.craft_station": "제작 스테이션",
     "block.cobblemon_farmers.gardening_station": "정원 스테이션",
@@ -135,7 +143,7 @@
     "jei.cobblemon_farmers.ranching_station.more_info": "아이템에 마우스를 올려 추가 정보 확인",
     "jei.cobblemon_farmers.ranching_station.forage.affection.over": "호감도 %s ❤ 이상",
     "jei.cobblemon_farmers.ranching_station.forage.chance": "%s 확률",
-    "jei.cobblemon_farmers.ranching_station.forage.affection.quality":  "호감도에 비례하여 등급 상승",
+    "jei.cobblemon_farmers.ranching_station.forage.affection.quality": "호감도에 비례하여 등급 상승",
     "jei.cobblemon_farmers.ranching_station.milk.affection.range": "호감도 %s ❤",
     "jei.cobblemon_farmers.ranching_station.milk.affection.over": "호감도 %s ❤ 이상",
 
@@ -146,10 +154,18 @@
     "jei.cobblemon_farmers.gardening_station.level_scaling.normal": "10레벨마다 작업 반경 1 증가",
     "jei.cobblemon_farmers.gardening_station.level_scaling.fairy": "10레벨마다 작업 반경 1 증가",
     "jei.cobblemon_farmers.gardening_station.level_scaling.dark": "10레벨마다 작업 반경 및 경험치 1 증가",
+    "jei.cobblemon_farmers.gardening_station.level_scaling.flying": "10레벨마다 작업 반경 1 증가 및 열매 섭취율 감소",
     "jei.cobblemon_farmers.gardening_station.elemental_type": "%s",
     "gui.cobblemon_farmers.actions": "작업",
     "gui.cobblemon_farmers.friendship_hearts": "친밀도: %s/5",
     "gui.cobblemon_farmers.hp_hearts": "HP: %s/5",
     "gui.cobblemon_farmers.eats_berries": "매일 나무열매 소비",
-    "gui.cobblemon_farmers.view_recipes": "생산품 보기"
+    "gui.cobblemon_farmers.view_recipes": "생산품 보기",
+
+    "config.jade.plugin_cobblemon_farmers.cobblemon_farmers": "Cobblemon Farmers",
+    "jade.cobblemon_farmers.workstation.pokemon.name": "%s Lv. %s",
+    "jade.cobblemon_farmers.workstation.no_worker": "작업 포켓몬 없음",
+    "jade.cobblemon_farmers.workstation.public": "공공 작업 스테이션",
+    "jade.cobblemon_farmers.owner": "주인: %s",
+    "item.cobblemon_farmers.public_contract.not_enough": "여유 작업자 슬롯이 없습니다!"
 }

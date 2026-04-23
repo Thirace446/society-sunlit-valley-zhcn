@@ -5,6 +5,7 @@
   "unimplemented_items.errors.alreadyPerfectIv": "%d 개체치가 이미 최대치입니다.",
   "unimplemented_items.errors.alreadyPerfectIvs": "개체치가 이미 최대치입니다.",
   "unimplemented_items.errors.alreadyHasZeroEvs": "가진 기초 포인트가 없습니다.",
+  "block.unimplemented_items.repel": "벌레회피스프레이",
   "item.unimplemented_items.ability_patch": "특성패치",
   "item.unimplemented_items.bottle_cap_hp": "은색병뚜껑 (HP)",
   "item.unimplemented_items.bottle_cap_atk": "은색병뚜껑 (공격)",
