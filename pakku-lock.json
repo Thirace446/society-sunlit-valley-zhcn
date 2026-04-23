@@ -12027,7 +12027,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society_trading-1.0.5.jar",
+                    "file_name": "society_trading-1.0.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12035,18 +12035,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7907/806/society_trading-1.0.5.jar",
-                    "id": "7907806",
+                    "url": "https://edge.forgecdn.net/files/7968/188/society_trading-1.0.6.jar",
+                    "id": "7968188",
                     "parent_id": "1347329",
                     "hashes": {
-                        "sha1": "683a08b082448dd7376023ecf04b6fa14a828af3",
-                        "md5": "6249e4fcb455a5beeb064cb4169a1cc6"
+                        "sha1": "c489a81a6dbc4940ba7a57d64fad695574836a04",
+                        "md5": "fc2016c65c4991567ad82014ea2c2dc1"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 174084,
-                    "date_published": "2026-04-11T01:01:29.350Z"
+                    "size": 174375,
+                    "date_published": "2026-04-22T17:52:32.790Z"
                 }
             ]
         },
@@ -12065,7 +12065,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society-1.15.jar",
+                    "file_name": "society-1.16.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12073,16 +12073,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7679/695/society-1.15.jar",
-                    "id": "7679695",
+                    "url": "https://edge.forgecdn.net/files/7845/583/society-1.16.jar",
+                    "id": "7845583",
                     "parent_id": "1424785",
                     "hashes": {
-                        "sha1": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204",
-                        "md5": "79e40148281ede36b77f2c308cf6a3c7"
+                        "sha1": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9",
+                        "md5": "75d3aa69266d4fd7d1b94e89601fb27b"
                     },
                     "required_dependencies": [],
-                    "size": 22587785,
-                    "date_published": "2026-02-26T03:18:23.387Z"
+                    "size": 22585779,
+                    "date_published": "2026-03-30T13:04:52.800Z"
                 }
             ]
         },

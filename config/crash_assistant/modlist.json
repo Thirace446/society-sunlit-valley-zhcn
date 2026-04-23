@@ -2482,21 +2482,21 @@
     "curseForgeHash": 3402444196,
     "modrinthHash": "15296a7d8942a7a3376f293265b5146af6c42ec7"
   },
-  "society-1.15.jar": {
-    "jarName": "society-1.15.jar",
+  "society-1.16.jar": {
+    "jarName": "society-1.16.jar",
     "modId": "society",
     "name": "Society",
-    "version": "1.15",
-    "curseForgeHash": 710360043,
-    "modrinthHash": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204"
+    "version": "1.16",
+    "curseForgeHash": 3566033015,
+    "modrinthHash": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9"
   },
-  "society_trading-1.0.5.jar": {
-    "jarName": "society_trading-1.0.5.jar",
+  "society_trading-1.0.6.jar": {
+    "jarName": "society_trading-1.0.6.jar",
     "modId": "society_trading",
     "name": "Society Trading",
-    "version": "1.0.5",
-    "curseForgeHash": 728567224,
-    "modrinthHash": "683a08b082448dd7376023ecf04b6fa14a828af3"
+    "version": "1.0.6",
+    "curseForgeHash": 295579729,
+    "modrinthHash": "c489a81a6dbc4940ba7a57d64fad695574836a04"
   },
   "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": {
     "jarName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
