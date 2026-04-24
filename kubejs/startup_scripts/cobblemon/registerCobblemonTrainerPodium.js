@@ -68,7 +68,7 @@ global.runTrainerPodium = (entity) => {
         trainers = block.getEntityData().trainers;
         newTrainer = "";
       } else {
-         newTrainer = trainers.get(`${levelTier}`);
+        newTrainer = trainers.get(`${levelTier}`);
       }
       // ownerPlayer.persistentData.winStreak = 200
       if (ownerPlayer.persistentData.winStreak == 0 || !newTrainer || newTrainer === "") {
@@ -91,6 +91,10 @@ global.runTrainerPodium = (entity) => {
         Number(block.y),
         Number(block.z) + 0.5,
       ];
+      trainerNBT.Rotation = [
+        NBT.f(global.rotationFromFacing(block.properties.get("facing"))),
+        NBT.f(0),
+      ];
       freshTrainer.setNbt(trainerNBT);
       freshTrainer.persistentData.levelTier = levelTier
       freshTrainer.spawn();
@@ -112,7 +116,7 @@ global.runTrainerPodium = (entity) => {
 
 StartupEvents.registry("block", (event) => {
   event
-    .create("sunlit_cobblemon:trainer_podium")
+    .create("sunlit_cobblemon:trainer_podium", "cardinal")
     .tagBlock("minecraft:mineable/pickaxe")
     .tagBlock("minecraft:mineable/axe")
     .tagBlock("minecraft:needs_stone_tool")

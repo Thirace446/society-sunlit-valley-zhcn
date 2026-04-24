@@ -171,7 +171,7 @@ ItemEvents.tooltip((tooltip) => {
     let ivArray = [];
     for (let index = 0; index < 6; index++) {
       ivArray.push(ivs.get(index))
-      
+
     }
     return ivArray;
   }
@@ -221,8 +221,8 @@ ItemEvents.tooltip((tooltip) => {
             ).darkGray()
           ]);
         }
-      } 
-    } 
+      }
+    }
   });
   // TM Packs
   tooltip.add("sunlit_cobblemon:tm_pack",
@@ -401,7 +401,6 @@ ItemEvents.tooltip((tooltip) => {
     "mild_mint", "rash_mint", "quiet_mint", "calm_mint", "gentle_mint", "careful_mint", "sassy_mint", "timid_mint", "hasty_mint", "jolly_mint",
     "naive_mint", "serious_mint"
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.mint.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.mint`).darkGreen());
   });
 
@@ -457,10 +456,17 @@ ItemEvents.tooltip((tooltip) => {
   [
     "calcium", "carbos", "hp_up", "iron", "protein", "zinc", "pp_up", "pp_max",
   ].forEach((item) => {
-    tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.medicine.${item}`).gray());
     tooltip.add(`cobblemon:${item}`, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.vitamin`).aqua());
   });
-
+  ['cobblemon:helix_fossil', 'cobblemon:dome_fossil', 'cobblemon:old_amber_fossil', 'cobblemon:root_fossil', 'cobblemon:claw_fossil', 'cobblemon:skull_fossil', 'cobblemon:armor_fossil', 'cobblemon:cover_fossil', 'cobblemon:plume_fossil', 'cobblemon:jaw_fossil', 'cobblemon:sail_fossil', 'cobblemon:fossilized_bird', 'cobblemon:fossilized_fish', 'cobblemon:fossilized_drake', 'cobblemon:fossilized_dino'].forEach((item) => {
+    if (item.includes("fossilized")) {
+      tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.combination_fossil_info`).gray());
+      tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.combination_fossil`).gold());
+    }
+    else {
+      tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.fossil`).gold());
+    }
+  });
   ['unimplemented_items:bottle_cap_gold', 'unimplemented_items:bottle_cap', 'unimplemented_items:bottle_cap_atk', 'unimplemented_items:bottle_cap_sd', 'unimplemented_items:bottle_cap_def', 'unimplemented_items:bottle_cap_sa', 'unimplemented_items:bottle_cap_spd', 'unimplemented_items:bottle_cap_hp', 'unimplemented_items:dry_root'].forEach((item) => {
     tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.unimplemented_items.${item.split(":")[1]}`).gray());
     tooltip.add(item, Text.translatable(`tooltip.sunlit_cobblemon.cobblemon.consumable`).red());
@@ -504,11 +510,11 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "sunlit_cobblemon:braiding_surprisegrass",
-      description: "Twice as likely to find Pokémon when harvesting crops and fruit trees.",
+      description: "2x as likely to find Pokémon when mining ores and harvesting crops/fruit trees.",
     },
     {
       item: "sunlit_cobblemon:the_gachamonbler",
-      description: "Gachamon Capsule Pokémon are 3x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
+      description: "Gachamon Capsule Pokémon are 2x as likely to be shiny. Gold Quality and higher capsules will exclusively spawn from the bonus pool.",
     },
     {
       item: "sunlit_cobblemon:mukbeth",

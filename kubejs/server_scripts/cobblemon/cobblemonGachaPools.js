@@ -11,15 +11,15 @@ let baseGachaSpawns = [
   { pokemon: "voltorb", weight: 10, lvlRange: [20, 35] },
   { pokemon: "voltorb", weight: 6, lvlRange: [20, 35], variant: ["hisuian"] },
   { pokemon: "koffing", weight: 10, lvlRange: [9, 35] },
-  { pokemon: "chansey", weight: 4, lvlRange: [17, 55] },
-  { pokemon: "blissey", weight: 2, lvlRange: [45, 90] },
+  { pokemon: "chansey", weight: 2, lvlRange: [17, 55] },
+  { pokemon: "blissey", weight: 1, lvlRange: [45, 90] },
   { pokemon: "mrmime", weight: 10, lvlRange: [26, 46] },
   { pokemon: "mimejr", weight: 10, lvlRange: [4, 20] },
   { pokemon: "jynx", weight: 1, lvlRange: [26, 46] },
-  { pokemon: "eevee", weight: 7, lvlRange: [4, 30] },
+  { pokemon: "eevee", weight: 1, lvlRange: [4, 30] },
   { pokemon: "snubbull", weight: 7, lvlRange: [4, 30] },
   { pokemon: "smoochum", weight: 10, lvlRange: [4, 30] },
-  { pokemon: "ralts", weight: 4, lvlRange: [4, 20] },
+  { pokemon: "ralts", weight: 2, lvlRange: [4, 20] },
   { pokemon: "lillipup", weight: 10, lvlRange: [4, 20] },
   { pokemon: "pawmi", weight: 10, lvlRange: [4, 20] },
   { pokemon: "trubbish", weight: 6, lvlRange: [4, 20] },
@@ -394,8 +394,8 @@ const rollGacha = (level, server, itemNbt, player, pos) => {
   let hasGachamonbler = player.stages.has("the_gachamonbler");
   let caughtMon = global.rollPokeWeightedTable(getGachaPool(itemNbt.type, itemNbt.quality_food, hasGachamonbler));
   let shinyChance = getShinyChance(itemNbt.quality_food);
-  if (hasGachamonbler) shinyChance *= 3;
-  else if (Math.random() < 0.03) {
+  if (hasGachamonbler) shinyChance *= 2;
+  else if (Math.random() < 0.01) {
     player.give(Item.of("sunlit_cobblemon:the_gachamonbler"))
   }
   let isShiny = false;

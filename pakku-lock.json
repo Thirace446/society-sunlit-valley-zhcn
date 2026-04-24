@@ -2063,7 +2063,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cobbleemibackported-1.1.jar",
+                    "file_name": "cobbleemibackported-1.2.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2071,19 +2071,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7867/487/cobbleemibackported-1.1.jar",
-                    "id": "7867487",
+                    "url": "https://edge.forgecdn.net/files/7956/594/cobbleemibackported-1.2.jar",
+                    "id": "7956594",
                     "parent_id": "1502748",
                     "hashes": {
-                        "sha1": "ef544d9ed6669171df88542c34ec262c7c87e322",
-                        "md5": "d07649c0c94890770631a743acd0c39a"
+                        "sha1": "cfbd8a53d2d4a32e4cfd6b0406d1f73b1cf6a1b1",
+                        "md5": "facf1af3b022367458af62ae1d10ad68"
                     },
                     "required_dependencies": [
                         "687131",
                         "580555"
                     ],
-                    "size": 54940,
-                    "date_published": "2026-04-03T13:06:46.423Z"
+                    "size": 48842,
+                    "date_published": "2026-04-20T15:29:53.150Z"
                 }
             ]
         },
@@ -2105,7 +2105,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cobblemon_farmers-1.0.jar",
+                    "file_name": "cobblemon_farmers-1.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2113,18 +2113,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7876/122/cobblemon_farmers-1.0.jar",
-                    "id": "7876122",
+                    "url": "https://edge.forgecdn.net/files/7974/519/cobblemon_farmers-1.3.jar",
+                    "id": "7974519",
                     "parent_id": "1375081",
                     "hashes": {
-                        "sha1": "46128b5ef358af4c4a71ccfd541943b090ce8cfb",
-                        "md5": "eccd24f4b862ed23114bcc22f7ace27c"
+                        "sha1": "e9e6210d4a1f2c8b8355104f07aea83c79a4eef9",
+                        "md5": "708a546aeb64d991afe969dfc2986be4"
                     },
                     "required_dependencies": [
                         "687131"
                     ],
-                    "size": 394402,
-                    "date_published": "2026-04-04T21:04:49.337Z"
+                    "size": 428391,
+                    "date_published": "2026-04-23T21:20:45.270Z"
                 }
             ]
         },
@@ -2378,7 +2378,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cobblemon_showdown-1.0.1.jar",
+                    "file_name": "cobblemon_showdown-1.1.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2386,18 +2386,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7776/261/cobblemon_showdown-1.0.1.jar",
-                    "id": "7776261",
+                    "url": "https://edge.forgecdn.net/files/7970/820/cobblemon_showdown-1.1.0.jar",
+                    "id": "7970820",
                     "parent_id": "1469729",
                     "hashes": {
-                        "sha1": "78c0f577dac15e12155eb98800bb2f064e88af32",
-                        "md5": "88c5976dbcc490bd592794f51839f825"
+                        "sha1": "6378fa3e92e2ecd9a255abf405d91d365ab7c8e7",
+                        "md5": "be4512443cbf45b99804d3c27b7315ac"
                     },
                     "required_dependencies": [
                         "687131"
                     ],
-                    "size": 378050,
-                    "date_published": "2026-03-18T15:12:34.067Z"
+                    "size": 392466,
+                    "date_published": "2026-04-23T06:11:19.973Z"
                 }
             ]
         },
@@ -12027,7 +12027,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society_trading-1.0.5.jar",
+                    "file_name": "society_trading-1.0.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12035,18 +12035,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7907/806/society_trading-1.0.5.jar",
-                    "id": "7907806",
+                    "url": "https://edge.forgecdn.net/files/7968/188/society_trading-1.0.6.jar",
+                    "id": "7968188",
                     "parent_id": "1347329",
                     "hashes": {
-                        "sha1": "683a08b082448dd7376023ecf04b6fa14a828af3",
-                        "md5": "6249e4fcb455a5beeb064cb4169a1cc6"
+                        "sha1": "c489a81a6dbc4940ba7a57d64fad695574836a04",
+                        "md5": "fc2016c65c4991567ad82014ea2c2dc1"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 174084,
-                    "date_published": "2026-04-11T01:01:29.350Z"
+                    "size": 174375,
+                    "date_published": "2026-04-22T17:52:32.790Z"
                 }
             ]
         },
@@ -12065,7 +12065,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society-1.15.jar",
+                    "file_name": "society-1.16.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12073,16 +12073,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7679/695/society-1.15.jar",
-                    "id": "7679695",
+                    "url": "https://edge.forgecdn.net/files/7845/583/society-1.16.jar",
+                    "id": "7845583",
                     "parent_id": "1424785",
                     "hashes": {
-                        "sha1": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204",
-                        "md5": "79e40148281ede36b77f2c308cf6a3c7"
+                        "sha1": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9",
+                        "md5": "75d3aa69266d4fd7d1b94e89601fb27b"
                     },
                     "required_dependencies": [],
-                    "size": 22587785,
-                    "date_published": "2026-02-26T03:18:23.387Z"
+                    "size": 22585779,
+                    "date_published": "2026-03-30T13:04:52.800Z"
                 }
             ]
         },
@@ -12765,7 +12765,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sunlit_cobblemon-1.1.jar",
+                    "file_name": "sunlit_cobblemon-1.3.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -12773,16 +12773,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7938/112/sunlit_cobblemon-1.1.jar",
-                    "id": "7938112",
+                    "url": "https://edge.forgecdn.net/files/7974/701/sunlit_cobblemon-1.3.jar",
+                    "id": "7974701",
                     "parent_id": "1516290",
                     "hashes": {
-                        "sha1": "5a90529b09c9823bc12e0b35ebd1b1afcc8e0e36",
-                        "md5": "955f1956caadd877acce12f2d498be66"
+                        "sha1": "40a885c5ba70ed661f40c3a4b5f710f729a18e29",
+                        "md5": "51f4a0df2ec4cbf7e69df7ae81ebf017"
                     },
-                    "required_dependencies": [],
-                    "size": 132856,
-                    "date_published": "2026-04-17T02:49:32.237Z"
+                    "required_dependencies": [
+                        "990998",
+                        "1037354"
+                    ],
+                    "size": 151606,
+                    "date_published": "2026-04-23T22:18:04.897Z"
                 }
             ]
         },
@@ -12801,21 +12804,21 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sunlit-mons-3.0.zip",
+                    "file_name": "sunlit-mons-3.1.zip",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7928/420/sunlit-mons-3.0.zip",
-                    "id": "7928420",
+                    "url": "https://edge.forgecdn.net/files/7973/713/sunlit-mons-3.1.zip",
+                    "id": "7973713",
                     "parent_id": "1488690",
                     "hashes": {
-                        "sha1": "4a40cd13d94e85986da1f120196be6701435b026",
-                        "md5": "50897a128bfe24cbb6254a416bd7dde6"
+                        "sha1": "795d10f18c0fbe2675ff5a2449b38717b489642c",
+                        "md5": "6338af3bbad03f85de8e1978002bdfb7"
                     },
                     "required_dependencies": [],
-                    "size": 11085001,
-                    "date_published": "2026-04-15T01:01:52.320Z"
+                    "size": 11083755,
+                    "date_published": "2026-04-23T18:48:50.437Z"
                 }
             ]
         },

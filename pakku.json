@@ -1,6 +1,6 @@
 {
     "name": "Society Sunlit Cobblemon",
-    "version": "1.0.0-SSV4.0.5",
+    "version": "1.0.0-SSV4.0.6",
     "overrides": [
         "config",
         "defaultconfigs",
@@ -10,7 +10,7 @@
         "mods/Cobbreeding-forge-1.7.4.jar"
     ],
     "client_overrides": [
-        "resourcepacks",
+        "resourcepacks/sunlit_overrides.zip",
         "shaderpacks",
         "journeymap/config"
     ],

@@ -15,9 +15,32 @@ const trainerBuckets = new Map([
       "bug_catcher_doug_0067",
       "biker_0212",
       "bug_catcher_charlie_0214",
-      "bug_catcher_colton_0069",
       "super_nerd_jovan_00a9",
       "lass_janice_0074",
+      "gentleman_komodo_0005",
+      "lass_iris_0079",
+      "camper_liam_008e",
+      "bug_catcher_james_006b",
+      "bug_catcher_kent_006c",
+      "bug_catcher_robby_006d",
+      "bug_catcher_sammy_0068",
+      "youngster_ben_0059",
+    ],
+  ],
+  [
+    15,
+    [
+      "bug_catcher_anthony_0213",
+      "gambler_0107",
+      "friendly_maniac_0006",
+      "expert_lancere_0024",
+      "bug_catcher_rick_0066",
+      "bug_catcher_greg_006a",
+      "bug_catcher_doug_0067",
+      "biker_0212",
+      "bug_catcher_charlie_0214",
+      "bug_catcher_colton_0069",
+      "super_nerd_jovan_00a9",
       "gentleman_komodo_0005",
       "lass_iris_0079",
       "bug_catcher_greg_006a",
@@ -28,7 +51,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    15,
+    20,
     [
       "bug_catcher_cale_006e",
       "swimmerm_luis_00ea",
@@ -55,7 +78,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    20,
+    25,
     [
       "lass_megan_0288",
       "lass_reli_01f5",
@@ -80,10 +103,9 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    25,
+    30,
     [
       "camper_drew_0095",
-      "camper_jeff_0275",
       "lass_reli_01f6",
       "picnicker_alicia_009a",
       "bird_keeper_robert_0290",
@@ -118,7 +140,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    30,
+    35,
     [
       "pokemaniac_hector_0249",
       "bird_keeper_jacob_02a8",
@@ -144,7 +166,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    35,
+    40,
     [
       "fisherman_wade_02ae",
       "fisherman_elliot_00e4",
@@ -165,7 +187,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    40,
+    45,
     [
       "tamer_cole_0129",
       "tamer_john_012b",
@@ -189,7 +211,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    45,
+    50,
     [
       "lass_megan_0289",
       "black_belt_hitoshi_0141",
@@ -231,11 +253,12 @@ const trainerBuckets = new Map([
       "psychic_jaclyn_0205",
       "ranger_jackson_0254",
       "camper_riley_026a",
+      "camper_jeff_0275",
       "black_belt_hugh_02b9",
     ],
   ],
   [
-    50,
+    55,
     [
       "black_belt_hugh_02ba",
       "ranger_jackson_02d4",
@@ -270,7 +293,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    55,
+    60,
     [
       "crush_girl_tanya_02b6",
       "cue_ball_raul_00fc",
@@ -293,7 +316,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    60,
+    65,
     [
       "pokemaniac_mark_00a2",
       "swimmerf_alice_0115",
@@ -328,7 +351,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    65,
+    70,
     [
       "swimmerm_dean_00f3",
       "swimmerm_douglas_00ee",
@@ -345,8 +368,9 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    70,
+    75,
     [
+      "trainer_may_003d",
       "super_nerd_erik_00b1",
       "super_nerd_derek_00b3",
       "super_nerd_aavery_00b2",
@@ -356,12 +380,12 @@ const trainerBuckets = new Map([
       "burglar_quinn_00d5",
       "burglar_ramon_00d6",
       "burglar_dusty_00d7",
+      "juggler_nelson_011f",
     ],
   ],
   [
-    75,
+    80,
     [
-      "trainer_may_003d",
       "team_rocket_grunt_0046",
       "team_rocket_grunt_0047",
       "team_rocket_grunt_0048",
@@ -372,10 +396,9 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    80,
+    85,
     [
       "black_belt_daisuke_0145",
-      "juggler_nelson_011f",
       "friendly_thug_0015",
       "friendly_thug_0016",
       "ace_trainer_caroline_0193",
@@ -387,12 +410,11 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    85,
+    90,
     [
       "bird_keeper_robert_012e",
       "bird_keeper_perry_012d",
       "biker_hideo_00c9",
-      "ace_trainer_alexa_0194",
       "ace_trainer_naomi_0196",
       "ace_trainer_rolando_018c",
       "swimmerf_amara_0222",
@@ -401,78 +423,95 @@ const trainerBuckets = new Map([
       "rocket_admin_ariana_0029",
       "rocket_admin_archer_002a",
       "sailor_trevor_0087",
-      "super_nerd_miguel_00aa",
       "cue_ball_koji_00f9",
       "cue_ball_luke_00fa",
       "lass_anne_00041",
     ],
   ],
   [
-    90,
+    95,
     [
+      "super_nerd_miguel_00aa",
       "camper_justin_01dd",
       "channeler_rachel_0093",
       "rocker_luca_011d",
       "swimmerf_maria_0223",
-      "bird_keeper_sebastian_012c",
       "bird_keeper_jacob_0135",
       "biker_william_00ce",
       "biker_jared_00c3",
-      "fisherman_tommy_0227",
       "fisherman_andrew_00e9",
       "beauty_lola_010c",
       "aroma_lady_violet_022e",
-      "aroma_lady_nikki_020b",
       "ace_trainer_samantha_0052",
       "ace_trainer_sharon_00ae",
       "beauty_sheila_010d",
-      "picnicker_alma_01d2",
       "lass_ann_007e",
       "crush_girl_tanya_0228",
+      "team_rocket_grunt_0164",
+      "team_rocket_grunt_0163",
       "ranger_beth_0255",
+      "tuber_amira_02bd",
       "black_belt_hugh_022a",
-    ],
-  ],
-  [
-    95,
-    [
-      "ace_trainer_symes_0071",
-      "ace_trainer_janny_00af",
-      "ace_trainer_andrew_0002",
-      "ace_trainer_barry_0058",
-      "ace_trainer_nick_0055",
-      "ace_trainer_runan_007c",
-      "ace_trainer_wilton_0133",
-      "dragon_tamer_ramiro_0134",
+      "swimmerf_amara_0222",
     ],
   ],
   [
     100,
     [
-      "gym_crusher_alexander",
-      "gym_crusher_howitzer",
-      "ace_swimmer_torrent",
-      "gym_crusher_foxxy"
+      "cue_ball_camron_00fb",
+      "picnicker_alma_01d2",
+      "picnicker_caitlin_009b",
+      "picnicker_claire_022c",
+      "swimmerf_abigail_0224",
+      "swimmerf_maria_0223",
+      "swimmerm_garrett_0226",
+      "swimmerf_tisha_0231",
+      "swimmerm_finn_0225",
+      "bird_keeper_sebastian_012c",
+      "fisherman_tommy_0227",
+      "picnicker_alma_01d2",
+      "tuber_alexis_022f",
+      "tuber_amira_0207",
+      "aroma_lady_nikki_020b",
+      "ace_trainer_symes_0071",
+      "ace_trainer_andrew_0002",
+      "ace_trainer_wilton_0133",
+      "dragon_tamer_ramiro_0134",
     ],
   ],
   [
     105,
     [
+      "gym_crusher_alexander",
+      "gym_crusher_howitzer",
+      "ace_swimmer_torrent",
+      "gym_crusher_foxxy",
+      "ace_trainer_janny_00af",
+      "ace_trainer_barry_0058"
+    ],
+  ],
+  [
+    110,
+    [
+      "ace_trainer_runan_007c",
+      "ace_trainer_nick_0055",
+      "professor_oak_00d2",
       "gym_crusher_salad",
       "gym_rat_king",
       "gym_crusher_cruelty"
     ],
   ],
   [
-    110,
+    115,
     [
+      "professor_oak_00c8",
       "gym_crusher_dennis",
       "raging_red",
       "raging_blue",
     ],
   ],
   [
-    115,
+    120,
     [
       "bird_legend_arctic",
       "bird_legend_zap",
@@ -481,7 +520,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    120,
+    125,
     [
       "gym_obliterator_warp",
       "gym_obliterator_cofh",
@@ -489,7 +528,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    125,
+    130,
     [
       "gym_obliterator_origin",
       "gym_obliterator_tao",
@@ -497,7 +536,7 @@ const trainerBuckets = new Map([
     ],
   ],
   [
-    130,
+    135,
     ["dimensional_entity_0"],
   ],
 ]);
@@ -509,7 +548,7 @@ global.getRandomTrainer = (levelBucket) => {
   return trainerBucket[rnd(0, trainerBucket.length - 1)];
 };
 
-global.getPlayerPodiumLevelTier = (player, partyLevel) => Math.max(10, Math.round(partyLevel / 5) * 5 + Math.floor(player.persistentData.winStreak / 10) * 5 - 5);
+global.getPlayerPodiumLevelTier = (player, partyLevel) => Math.max(10, (Math.round(partyLevel / 5) * 5 + (Math.floor(player.persistentData.winStreak / 10) * 5)));
 
 const leagueBosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria", "karma", "king", "kingkarma"];
 const tier9Bosses = ["leon", "aiden", "ace", "caroline", "haruna", "maria"];
