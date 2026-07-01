@@ -449,8 +449,7 @@ const handleSpecialItem = (
   let resolvedItem = item;
   let resolvedChance = chance;
   let resolvedHasQuality = hasQuality
-  let dropAmount =
-    mult * (plushieModifiers && plushieModifiers.doubleDrops ? 2 : 1);
+  let dropAmount = mult * (plushieModifiers && plushieModifiers.doubleDrops ? 2 : 1);
   if (plushieModifiers) {
     affection = 1000;
     mood = 256;
@@ -490,8 +489,7 @@ const handleSpecialItem = (
     specialItem.x = player.x;
     specialItem.y = player.y;
     specialItem.z = player.z;
-    specialItem.item = Item.of(
-      `${dropAmount}x ${resolvedItem}`,
+    specialItem.item = Item.of(`${dropAmount}x ${resolvedItem}`,
       quality > 0 ? `{quality_food:{effects:[],quality:${quality}}}` : null
     );
     specialItem.spawn();

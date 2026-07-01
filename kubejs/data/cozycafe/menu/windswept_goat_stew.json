@@ -2,6 +2,7 @@
 	"item": "windswept:goat_stew",
 	"category": "main",
 	"price": 380,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

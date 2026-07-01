@@ -2,6 +2,7 @@
 	"item": "bakery:sandwich",
 	"category": "main",
 	"price": 78,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

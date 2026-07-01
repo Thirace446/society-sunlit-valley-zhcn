@@ -2,6 +2,7 @@
 	"item": "farmersdelight:apple_cider",
 	"category": "drink",
 	"price": 358,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

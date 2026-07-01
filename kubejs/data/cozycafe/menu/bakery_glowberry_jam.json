@@ -2,6 +2,7 @@
 	"item": "bakery:glowberry_jam",
 	"category": "dessert",
 	"price": 54,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

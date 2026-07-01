@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:bisque",
 	"category": "main",
 	"price": 376,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

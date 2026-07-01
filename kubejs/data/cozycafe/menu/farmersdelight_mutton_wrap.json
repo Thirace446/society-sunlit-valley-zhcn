@@ -2,6 +2,7 @@
 	"item": "farmersdelight:mutton_wrap",
 	"category": "main",
 	"price": 159,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

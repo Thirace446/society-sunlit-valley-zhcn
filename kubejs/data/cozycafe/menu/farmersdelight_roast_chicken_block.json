@@ -2,6 +2,7 @@
 	"item": "farmersdelight:roast_chicken_block",
 	"category": "main",
 	"price": 340,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

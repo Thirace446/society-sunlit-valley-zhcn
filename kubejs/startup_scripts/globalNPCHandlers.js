@@ -144,7 +144,7 @@ const villagerSpecificGifts = new Map([
         hated: [],
     }],
     ["market", {
-        loved: ["#vinery:red_wine","society:glitched_vhs", "windswept:elder_feather", "society:latte", "society:tubasmoke_carton", "society:ancient_vespertine"],
+        loved: ["#vinery:red_wine", "society:glitched_vhs", "windswept:elder_feather", "society:latte", "society:tubasmoke_carton", "society:ancient_vespertine"],
         liked: ["society:tubasmoke_stick", "society:energy_drink", "supplementaries:antique_ink", "herbalbrews:coffee", "untitledduckmod:duck_feather"],
         neutral: [],
         disliked: [],
@@ -158,10 +158,10 @@ const villagerSpecificGifts = new Map([
         hated: [],
     }],
     ["witch", {
-        loved: [],
-        liked: [],
+        loved: ["society:energy_drink", "society:latte", "society:mocha", "society:bowl_of_soul", "herbalbrews:milk_coffee", "herbalbrews:hazelnut_coffee"],
+        liked: ["herbalbrews:coffee", "society:espresso", "society:dirty_chai"],
         neutral: [],
-        disliked: [],
+        disliked: ["society:truffle_tea"],
         hated: [],
     }],
     ["trader", {

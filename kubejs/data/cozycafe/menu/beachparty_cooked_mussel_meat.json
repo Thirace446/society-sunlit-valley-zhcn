@@ -2,6 +2,7 @@
 	"item": "beachparty:cooked_mussel_meat",
 	"category": "main",
 	"price": 24,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

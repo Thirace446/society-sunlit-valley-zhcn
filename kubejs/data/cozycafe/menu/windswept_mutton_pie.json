@@ -2,6 +2,7 @@
 	"item": "windswept:mutton_pie",
 	"category": "dessert",
 	"price": 162,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

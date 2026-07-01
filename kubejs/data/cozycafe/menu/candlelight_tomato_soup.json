@@ -2,6 +2,7 @@
 	"item": "candlelight:tomato_soup",
 	"category": "main",
 	"price": 140,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

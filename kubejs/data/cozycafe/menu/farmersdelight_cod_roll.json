@@ -2,6 +2,7 @@
 	"item": "farmersdelight:cod_roll",
 	"category": "main",
 	"price": 78,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

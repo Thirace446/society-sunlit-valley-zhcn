@@ -2,6 +2,7 @@
 	"item": "society:ancient_cookie",
 	"category": "dessert",
 	"price": 2184,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

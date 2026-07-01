@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:broccoli_salad",
 	"category": "main",
 	"price": 128,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "windswept:cooked_goat",
 	"category": "main",
 	"price": 60,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

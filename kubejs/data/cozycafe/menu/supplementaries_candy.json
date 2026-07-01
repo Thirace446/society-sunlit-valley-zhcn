@@ -2,6 +2,7 @@
 	"item": "supplementaries:candy",
 	"category": "dessert",
 	"price": 33,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

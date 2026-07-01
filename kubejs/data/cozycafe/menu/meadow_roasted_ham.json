@@ -2,6 +2,7 @@
 	"item": "meadow:roasted_ham",
 	"category": "main",
 	"price": 151,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

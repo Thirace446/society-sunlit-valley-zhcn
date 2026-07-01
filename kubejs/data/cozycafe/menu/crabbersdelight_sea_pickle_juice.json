@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:sea_pickle_juice",
 	"category": "drink",
 	"price": 11,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

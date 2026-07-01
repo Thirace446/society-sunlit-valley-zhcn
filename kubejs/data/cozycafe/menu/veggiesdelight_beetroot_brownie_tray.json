@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:beetroot_brownie_tray",
 	"category": "main",
 	"price": 197,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

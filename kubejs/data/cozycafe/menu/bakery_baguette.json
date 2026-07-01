@@ -2,6 +2,7 @@
 	"item": "bakery:baguette",
 	"category": "main",
 	"price": 27,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

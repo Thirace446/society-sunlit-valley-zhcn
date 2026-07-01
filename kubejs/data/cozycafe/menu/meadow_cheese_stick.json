@@ -2,6 +2,7 @@
 	"item": "meadow:cheese_stick",
 	"category": "main",
 	"price": 56,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

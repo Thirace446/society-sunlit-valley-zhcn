@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:shrimp_skewer",
 	"category": "main",
 	"price": 53,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

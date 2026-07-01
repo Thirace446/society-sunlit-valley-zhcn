@@ -2,6 +2,7 @@
 	"item": "bakery:hazelnut_ella",
 	"category": "main",
 	"price": 2000,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "vintagedelight:ghost_charcoal",
 	"category": "main",
 	"price": 54,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

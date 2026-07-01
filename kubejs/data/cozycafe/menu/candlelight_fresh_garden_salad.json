@@ -2,6 +2,7 @@
 	"item": "candlelight:fresh_garden_salad",
 	"category": "main",
 	"price": 111,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

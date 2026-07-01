@@ -2,6 +2,7 @@
 	"item": "candlelight:fillet_steak",
 	"category": "main",
 	"price": 816,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "society:tubasmoke_stick",
 	"category": "main",
 	"price": 275,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

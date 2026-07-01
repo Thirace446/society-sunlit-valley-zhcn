@@ -2,6 +2,7 @@
 	"item": "candlelight:chicken_teriyaki",
 	"category": "main",
 	"price": 64,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:roasted_vegetables",
 	"category": "main",
 	"price": 480,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

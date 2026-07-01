@@ -2,6 +2,7 @@
 	"item": "refurbished_furniture:bread_slice",
 	"category": "main",
 	"price": 7,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "brewery:dumplings",
 	"category": "main",
 	"price": 120,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

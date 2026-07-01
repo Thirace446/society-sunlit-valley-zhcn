@@ -2,6 +2,7 @@
 	"item": "bakery:waffle",
 	"category": "main",
 	"price": 54,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "brewery:dried_oat",
 	"category": "main",
 	"price": 51,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

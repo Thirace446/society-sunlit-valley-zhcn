@@ -2,6 +2,7 @@
 	"item": "farmersdelight:mushroom_rice",
 	"category": "main",
 	"price": 144,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

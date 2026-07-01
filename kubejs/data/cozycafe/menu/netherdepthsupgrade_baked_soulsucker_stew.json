@@ -2,6 +2,7 @@
 	"item": "netherdepthsupgrade:baked_soulsucker_stew",
 	"category": "main",
 	"price": 2448,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

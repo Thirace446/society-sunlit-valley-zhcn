@@ -3,29 +3,40 @@ if (global.datagenDialog) {
   runNpcDatagen("witch", {
     name: "Evelyne",
     intro: [
-      "I KNOW WHO YOU ARE.",
+      "I KNOW WHO YOU ARE!",
       "But it's not about that! It's about me! And what you've seen!",
-      "Caroline told me all about your little trip to the Nether. I'll need to see your findings for my research!",
+      "Caroline told me all about your little trip to the Nether. I'll be needing to see your findings for my research!",
       "Oh I'm also supposed to sell you some magical stuff I've been working on. I don't really want to, but that Caroline seems very threatening..."
     ],
     chatter: {
       friendship0: [
-        "Oh I wasn't expecting a visitor, what do you want?",
+        "Begone! I'm working!",
+        ["I made everything more expensive, please don't buy it.", "That's a lie actually, Caroline audits my books regularly..."],
+        "What do you want!?",
+        ["I didn't do it I swear, I bet Leon did it!", "Oh? Caroline didn't send you? Nevermind then."],
+        ["* It appears that Evelyne is sleepwalking *", "* Would be best to leave your payment somewhere nearby... *"],
+        "...Hmmmmm? What do you want @i."
       ],
       friendship1: [
-        ["Upgrading your tools is important, but don't slack on the armor either!", "Cave diving can be pretty dangerous if you're not wearing any."],
+        "What have you found today? You aren't holding out on me right?",
+        ["I don't like that Haruna...", "Why do people keep secrets from me! Of all people!"],
+        ["Found any weird bugs lately? I know a person that really likes weird bugs.", "I really need a favor from them, but I don't want anyone asking questions."]
       ],
       friendship2: [
-        "Busy day today @i?",
+        "You don't know a thing @i. There are forces at work you cannot imagine.",
+        "There is a deeper magic in this valley, I can sense it and you can too.",
       ],
       friendship3: [
-        "",
+        "I don't know a thing!! There are forces at work I cannot imagine!!",
+        ["My plans are measured in centuries...", "...But I cannot for the life of me rememeber where I put them..."],
+        "Please buy something, I need to bribe Aiden into giving me some expensive mining equipment!"
       ],
       friendship4: [
-        "Well well well, @i's back in my shop!",
+        ["Welcome back @i! I have your special order somewhere around here, let me fetch it...", "Oh you didn't order anything? What am I supposed to do with 48 pounds of plorts?"],
+        ["Carlos keeps trying to give me these raw deals! Who has the time to make that much Truffle Tea?", "Why would anyone want that much?"]
       ],
       friendship5: [
-        "Heya @i! What do you need!",
+        ["Aiden keeps bringing me coffee every morning and I haven't figured out why...", "Maybe we have another occult researcher on our hands!"],
       ],
     },
     giftResponse: {

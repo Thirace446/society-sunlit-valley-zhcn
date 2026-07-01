@@ -892,7 +892,7 @@
   "item.society.animal_cracker.description": "Give to a farm animal to permanently double its produce.",
   "item.society.sunlit_crystal.description": "Right click to house a farm animal in the plushie in your offhand.\nAnimals inside are always in a happy mood and cannot lose affection.\nThey can also be interacted with using Auto-Grabbers.",
 
-  "society.item.plushie.trait.description": "When housing an animal",
+  "society.item.plushie.trait.description": "When housing an animal using a Sunlit Crystal:",
   "society.item.plushie.aquatic": "Aquatic",
   "society.item.plushie.aquatic.description": "Chance to forage a River or Ocean jelly when harvesting\n§65%% chance per quality level",
   "society.item.plushie.woodsy": "Woodsy",

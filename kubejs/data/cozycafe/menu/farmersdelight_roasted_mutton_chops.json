@@ -2,6 +2,7 @@
 	"item": "farmersdelight:roasted_mutton_chops",
 	"category": "main",
 	"price": 187,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

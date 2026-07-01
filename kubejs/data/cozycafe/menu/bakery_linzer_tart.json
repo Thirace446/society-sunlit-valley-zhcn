@@ -2,6 +2,7 @@
 	"item": "bakery:linzer_tart",
 	"category": "dessert",
 	"price": 3105,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

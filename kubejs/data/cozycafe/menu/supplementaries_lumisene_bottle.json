@@ -2,6 +2,7 @@
 	"item": "supplementaries:lumisene_bottle",
 	"category": "drink",
 	"price": 72,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

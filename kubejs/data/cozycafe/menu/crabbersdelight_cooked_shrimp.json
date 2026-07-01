@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:cooked_shrimp",
 	"category": "main",
 	"price": 8,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

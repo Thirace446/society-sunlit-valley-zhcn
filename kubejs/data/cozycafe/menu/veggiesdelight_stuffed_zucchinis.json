@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:stuffed_zucchinis",
 	"category": "main",
 	"price": 372,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

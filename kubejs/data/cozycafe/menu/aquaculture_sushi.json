@@ -2,6 +2,7 @@
 	"item": "aquaculture:sushi",
 	"category": "main",
 	"price": 16,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "candlelight:pasta_with_lettuce",
 	"category": "main",
 	"price": 264,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "farmersdelight:tomato_sauce",
 	"category": "main",
 	"price": 104,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "minecraft:cooked_beef",
 	"category": "main",
 	"price": 24,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

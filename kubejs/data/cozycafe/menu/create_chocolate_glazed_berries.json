@@ -2,6 +2,7 @@
 	"item": "create:chocolate_glazed_berries",
 	"category": "dessert",
 	"price": 47,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

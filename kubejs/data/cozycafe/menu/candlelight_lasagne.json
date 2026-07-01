@@ -2,6 +2,7 @@
 	"item": "candlelight:lasagne",
 	"category": "main",
 	"price": 222,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

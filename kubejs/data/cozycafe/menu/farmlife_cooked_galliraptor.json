@@ -2,6 +2,7 @@
 	"item": "farmlife:cooked_galliraptor",
 	"category": "main",
 	"price": 1350,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

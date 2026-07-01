@@ -2,6 +2,7 @@
 	"item": "netherdepthsupgrade:baked_magmacubefish_stew",
 	"category": "main",
 	"price": 4296,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

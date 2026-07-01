@@ -2,6 +2,7 @@
 	"item": "farm_and_charm:potato_soup",
 	"category": "main",
 	"price": 72,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

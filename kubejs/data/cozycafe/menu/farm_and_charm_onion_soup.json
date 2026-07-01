@@ -2,6 +2,7 @@
 	"item": "farm_and_charm:onion_soup",
 	"category": "main",
 	"price": 64,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

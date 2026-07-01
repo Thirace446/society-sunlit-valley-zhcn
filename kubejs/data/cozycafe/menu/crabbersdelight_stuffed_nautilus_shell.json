@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:stuffed_nautilus_shell",
 	"category": "main",
 	"price": 384,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

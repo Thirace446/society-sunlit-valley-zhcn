@@ -2,6 +2,7 @@
 	"item": "windswept:roasted_chestnuts",
 	"category": "main",
 	"price": 3,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

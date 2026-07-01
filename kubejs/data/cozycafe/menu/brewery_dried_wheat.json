@@ -2,6 +2,7 @@
 	"item": "brewery:dried_wheat",
 	"category": "main",
 	"price": 69,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

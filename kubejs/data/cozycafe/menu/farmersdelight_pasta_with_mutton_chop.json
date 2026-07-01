@@ -2,6 +2,7 @@
 	"item": "farmersdelight:pasta_with_mutton_chop",
 	"category": "main",
 	"price": 220,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "society:chicken_tortilla_soup",
 	"category": "main",
 	"price": 558,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

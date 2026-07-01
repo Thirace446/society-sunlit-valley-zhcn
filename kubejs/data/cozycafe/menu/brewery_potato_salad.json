@@ -2,6 +2,7 @@
 	"item": "brewery:potato_salad",
 	"category": "main",
 	"price": 246,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

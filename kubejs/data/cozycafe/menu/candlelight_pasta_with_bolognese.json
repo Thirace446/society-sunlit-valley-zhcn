@@ -2,6 +2,7 @@
 	"item": "candlelight:pasta_with_bolognese",
 	"category": "main",
 	"price": 762,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

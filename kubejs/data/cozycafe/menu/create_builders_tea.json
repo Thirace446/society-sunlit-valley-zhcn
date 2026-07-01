@@ -2,6 +2,7 @@
 	"item": "create:builders_tea",
 	"category": "drink",
 	"price": 492,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

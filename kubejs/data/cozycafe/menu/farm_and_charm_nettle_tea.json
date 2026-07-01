@@ -2,6 +2,7 @@
 	"item": "farm_and_charm:nettle_tea",
 	"category": "drink",
 	"price": 104,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

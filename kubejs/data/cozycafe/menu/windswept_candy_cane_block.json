@@ -2,6 +2,7 @@
 	"item": "windswept:candy_cane_block",
 	"category": "dessert",
 	"price": 50,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

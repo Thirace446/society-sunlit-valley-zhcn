@@ -2,6 +2,7 @@
 	"item": "farm_and_charm:cooked_cod",
 	"category": "main",
 	"price": 429,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

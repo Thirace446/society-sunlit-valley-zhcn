@@ -2,6 +2,7 @@
 	"item": "windswept:christmas_pudding",
 	"category": "dessert",
 	"price": 320,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

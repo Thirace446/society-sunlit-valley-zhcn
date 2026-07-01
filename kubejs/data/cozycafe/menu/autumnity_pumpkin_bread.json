@@ -2,6 +2,7 @@
 	"item": "autumnity:pumpkin_bread",
 	"category": "main",
 	"price": 285,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

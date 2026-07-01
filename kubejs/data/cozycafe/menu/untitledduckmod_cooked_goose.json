@@ -2,6 +2,7 @@
 	"item": "untitledduckmod:cooked_goose",
 	"category": "main",
 	"price": 24,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

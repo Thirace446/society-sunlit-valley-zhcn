@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:frog_leg_kebob",
 	"category": "main",
 	"price": 208,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

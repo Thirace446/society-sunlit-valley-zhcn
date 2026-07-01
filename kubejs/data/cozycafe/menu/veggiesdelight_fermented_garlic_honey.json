@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:fermented_garlic_honey",
 	"category": "main",
 	"price": 468,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

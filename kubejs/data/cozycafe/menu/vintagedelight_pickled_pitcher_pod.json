@@ -2,6 +2,7 @@
 	"item": "vintagedelight:pickled_pitcher_pod",
 	"category": "main",
 	"price": 192,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

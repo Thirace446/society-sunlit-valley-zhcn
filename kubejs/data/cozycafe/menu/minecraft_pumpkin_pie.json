@@ -2,6 +2,7 @@
 	"item": "minecraft:pumpkin_pie",
 	"category": "dessert",
 	"price": 121,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

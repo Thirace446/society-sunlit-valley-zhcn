@@ -2,6 +2,7 @@
 	"item": "candlelight:mushroom_soup",
 	"category": "main",
 	"price": 1128,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

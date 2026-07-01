@@ -2,6 +2,7 @@
 	"item": "farmersdelight:stuffed_pumpkin_block",
 	"category": "main",
 	"price": 600,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

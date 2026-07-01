@@ -2,6 +2,7 @@
 	"item": "brewery:sausage",
 	"category": "main",
 	"price": 112,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

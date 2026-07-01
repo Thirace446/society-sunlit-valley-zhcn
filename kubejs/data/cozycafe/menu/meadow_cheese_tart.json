@@ -2,6 +2,7 @@
 	"item": "meadow:cheese_tart",
 	"category": "dessert",
 	"price": 68,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

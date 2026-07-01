@@ -2,6 +2,7 @@
 	"item": "windswept:minty_snow_cone",
 	"category": "dessert",
 	"price": 37,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

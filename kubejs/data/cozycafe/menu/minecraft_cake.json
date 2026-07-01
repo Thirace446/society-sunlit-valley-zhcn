@@ -2,6 +2,7 @@
 	"item": "minecraft:cake",
 	"category": "dessert",
 	"price": 445,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

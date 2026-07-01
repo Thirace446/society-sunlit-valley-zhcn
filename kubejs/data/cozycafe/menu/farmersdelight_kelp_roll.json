@@ -2,6 +2,7 @@
 	"item": "farmersdelight:kelp_roll",
 	"category": "main",
 	"price": 102,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

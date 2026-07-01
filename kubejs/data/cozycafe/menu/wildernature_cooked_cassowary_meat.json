@@ -2,6 +2,7 @@
 	"item": "wildernature:cooked_cassowary_meat",
 	"category": "main",
 	"price": 135,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

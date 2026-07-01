@@ -2,6 +2,7 @@
 	"item": "minecraft:popped_chorus_fruit",
 	"category": "main",
 	"price": 24,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

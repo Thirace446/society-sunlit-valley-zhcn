@@ -2,6 +2,7 @@
 	"item": "vintagedelight:salted_cod",
 	"category": "main",
 	"price": 25,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

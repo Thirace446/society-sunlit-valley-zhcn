@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:clam_bake",
 	"category": "main",
 	"price": 232,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

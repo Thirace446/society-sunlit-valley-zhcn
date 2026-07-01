@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:turnip_mutton_skewer",
 	"category": "main",
 	"price": 84,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

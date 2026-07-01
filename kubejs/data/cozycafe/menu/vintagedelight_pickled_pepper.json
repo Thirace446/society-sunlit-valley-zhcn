@@ -2,6 +2,7 @@
 	"item": "vintagedelight:pickled_pepper",
 	"category": "main",
 	"price": 114,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

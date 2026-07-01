@@ -2,6 +2,7 @@
 	"item": "farmersdelight:dumplings",
 	"category": "main",
 	"price": 204,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

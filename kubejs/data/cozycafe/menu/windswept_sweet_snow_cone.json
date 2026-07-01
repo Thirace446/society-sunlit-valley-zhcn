@@ -2,6 +2,7 @@
 	"item": "windswept:sweet_snow_cone",
 	"category": "dessert",
 	"price": 47,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

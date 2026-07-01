@@ -2,6 +2,7 @@
 	"item": "vintagedelight:pad_thai",
 	"category": "main",
 	"price": 744,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

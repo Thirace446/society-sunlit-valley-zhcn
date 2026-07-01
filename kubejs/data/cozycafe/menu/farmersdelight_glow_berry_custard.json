@@ -2,6 +2,7 @@
 	"item": "farmersdelight:glow_berry_custard",
 	"category": "main",
 	"price": 430,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

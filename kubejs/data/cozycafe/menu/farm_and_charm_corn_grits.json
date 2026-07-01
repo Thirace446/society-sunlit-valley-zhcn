@@ -2,6 +2,7 @@
 	"item": "farm_and_charm:corn_grits",
 	"category": "main",
 	"price": 144,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

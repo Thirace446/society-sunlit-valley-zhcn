@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:sweet_potato_pie",
 	"category": "dessert",
 	"price": 684,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

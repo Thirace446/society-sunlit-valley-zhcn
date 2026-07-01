@@ -2,6 +2,7 @@
 	"item": "society:dried_tubabacco_leaf",
 	"category": "main",
 	"price": 131,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

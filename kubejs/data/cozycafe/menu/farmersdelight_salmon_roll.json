@@ -2,6 +2,7 @@
 	"item": "farmersdelight:salmon_roll",
 	"category": "main",
 	"price": 50,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

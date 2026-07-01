@@ -2,6 +2,7 @@
 	"item": "crabbersdelight:shrimp_fried_rice",
 	"category": "main",
 	"price": 190,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

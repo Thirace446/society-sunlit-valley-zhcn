@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:cauliflower_burger",
 	"category": "main",
 	"price": 226,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

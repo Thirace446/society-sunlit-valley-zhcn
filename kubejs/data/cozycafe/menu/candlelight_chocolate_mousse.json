@@ -2,6 +2,7 @@
 	"item": "candlelight:chocolate_mousse",
 	"category": "dessert",
 	"price": 26,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

@@ -2,6 +2,7 @@
 	"item": "veggiesdelight:garlic_stuffed_mushrooms",
 	"category": "main",
 	"price": 200,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

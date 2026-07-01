@@ -2,6 +2,7 @@
 	"item": "farmersdelight:hamburger",
 	"category": "main",
 	"price": 214,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

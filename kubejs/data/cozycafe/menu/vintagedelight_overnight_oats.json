@@ -2,6 +2,7 @@
 	"item": "vintagedelight:overnight_oats",
 	"category": "main",
 	"price": 360,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

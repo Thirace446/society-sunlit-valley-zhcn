@@ -2,6 +2,7 @@
 	"item": "bakery:bundt_cake",
 	"category": "dessert",
 	"price": 312,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

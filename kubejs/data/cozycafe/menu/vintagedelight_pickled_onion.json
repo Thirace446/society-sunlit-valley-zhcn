@@ -2,6 +2,7 @@
 	"item": "vintagedelight:pickled_onion",
 	"category": "main",
 	"price": 42,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

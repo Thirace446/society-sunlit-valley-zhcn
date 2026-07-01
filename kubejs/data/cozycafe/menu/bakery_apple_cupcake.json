@@ -2,6 +2,7 @@
 	"item": "bakery:apple_cupcake",
 	"category": "dessert",
 	"price": 32,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

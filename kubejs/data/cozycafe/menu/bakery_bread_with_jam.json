@@ -2,6 +2,7 @@
 	"item": "bakery:bread_with_jam",
 	"category": "dessert",
 	"price": 44,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

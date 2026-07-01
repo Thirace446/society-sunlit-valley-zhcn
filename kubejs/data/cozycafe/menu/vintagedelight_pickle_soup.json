@@ -2,6 +2,7 @@
 	"item": "vintagedelight:pickle_soup",
 	"category": "main",
 	"price": 932,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

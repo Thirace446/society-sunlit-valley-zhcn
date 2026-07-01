@@ -2,6 +2,7 @@
 	"item": "farmersdelight:grilled_salmon",
 	"category": "main",
 	"price": 155,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }

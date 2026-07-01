@@ -2,6 +2,7 @@
 	"item": "bakery:chocolate_cake",
 	"category": "dessert",
 	"price": 568,
+	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
 }
