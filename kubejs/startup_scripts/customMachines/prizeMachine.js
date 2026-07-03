@@ -238,8 +238,7 @@ global.prizeMachineRewards = [
       "beachparty:chair",
       "beachparty:table",
       "beachparty:beach_chair",
-      "beachparty:deck_chair",
-      "beachparty:radio",
+      "beachparty:deck_chair"
     ],
   },
   {
@@ -440,7 +439,7 @@ StartupEvents.registry("block", (event) => {
                 : (nbt.data.prize += 1),
           },
         });
-        block.setEntityData(nbt);
+        global.setBlockEntityData(block, nbt)
         click.server.runCommandSilent(
           `playsound stardew_fishing:complete block @a ${player.x} ${player.y} ${player.z}`
         );

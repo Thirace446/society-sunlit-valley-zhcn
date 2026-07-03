@@ -18,6 +18,7 @@ global.runIridiumClock = (entity) => {
       y + radius,
       z + radius,
     ])) {
+      if (!level.isLoaded(pos)) continue;
       scanBlock = level.getBlock(pos);
       if (scanBlock.id.equals("society:golden_clock")) {
         surroundingClocks++;
@@ -32,7 +33,7 @@ global.runIridiumClock = (entity) => {
         },
       });
     }
-    block.setEntityData(blockNbt);
+    global.setBlockEntityData(block, blockNbt);
     let spinelType = Math.random() < 0.01 * surroundingClocks ? "society:pristine_spinel" : "society:spinel"
     let spinelToInsert = blockNbt.data.triggerTimes;
     let roundedStacks = Math.floor(spinelToInsert / 64);

@@ -263,7 +263,7 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "society:the_quality_of_the_earth",
-      description: "Quality impacts of non-fish farmer products are doubled.",
+      description: "Quality impacts of non-fish farmer products on prices are doubled.",
     },
     {
       item: "society:the_red_and_the_black",
@@ -387,34 +387,10 @@ ItemEvents.tooltip((tooltip) => {
     Text.translatable("tooltip.society.phone.tip").green()
   );
   // Furniture
-  tooltip.add(
-    "tanukidecor:diy_workbench",
-    Text.translatable("tooltip.society.diy_workbench").gray()
-  );
-  tooltip.add("society:tanuki_catalog", [
-    Text.translatable(
-      "tooltip.society.furniture_catalog",
-      "2",
-      Text.translatable("item.numismatics.crown").gold(),
-      Text.translatable("item.society.tanuki_leaf").green()
-    ).gray(),
-  ]);
-  tooltip.add("society:modern_catalog", [
-    Text.translatable(
-      "tooltip.society.furniture_catalog",
-      "6",
-      Text.translatable("item.numismatics.crown").gold(),
-      Text.translatable("item.society.architects_digest").white()
-    ).gray(),
-  ]);
-  tooltip.add("society:fantasy_catalog", [
-    Text.translatable(
-      "tooltip.society.furniture_catalog",
-      "4",
-      Text.translatable("item.numismatics.crown").gold(),
-      Text.translatable("item.society.fantasy_dust").yellow()
-    ).gray(),
-  ]);
+  tooltip.add("tanukidecor:diy_workbench", Text.translatable("tooltip.society.diy_workbench").gray());
+  tooltip.add("society:tanuki_catalog", Text.translatable("tooltip.society.tanuki_catalog").gray());
+  tooltip.add("society:modern_catalog", Text.translatable("tooltip.society.modern_catalog").gray());
+  tooltip.add("society:fantasy_catalog", Text.translatable("tooltip.society.fantasy_catalog").gray());
   global.lootFurniture.forEach((item) => {
     tooltip.add(
       item,
@@ -627,6 +603,10 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add(
     "society:magic_tunnel",
     Text.translatable("item.society.magic_rope.description.warn").red()
+  );
+  tooltip.add(
+    "society_trading:auto_trader",
+    Text.translatable("item.society_trading.auto_trader.description").gray()
   );
   // Fertilizers
   tooltip.add(
@@ -880,10 +860,6 @@ ItemEvents.tooltip((tooltip) => {
     Text.translatable("item.society.frozen_tear.description").gray()
   );
   tooltip.add(
-    "liltractor:liltractor",
-    Text.translatable("tooltip.society.liltractor").gray()
-  );
-  tooltip.add(
     ["displaydelight:food_plate", "displaydelight:small_food_plate"],
     Text.translatable("tooltip.society.food_plate").gray()
   );
@@ -1034,6 +1010,10 @@ ItemEvents.tooltip((tooltip) => {
   tooltip.add(
     "society:scavenged_food_bag",
     Text.translatable("tooltip.society.right_click_open").gray()
+  );
+  tooltip.add(
+    "species:treeper_spawn_egg",
+    Text.translatable("tooltip.society.treeper_spawn_egg").red()
   );
   tooltip.add(
     "gag:time_sand_pouch",
@@ -1382,7 +1362,7 @@ ItemEvents.tooltip((tooltip) => {
     "gag:escape_rope",
     Text.translatable("tooltip.society.escape_rope_hold").red()
   );
-    tooltip.add(
+  tooltip.add(
     "society:face_note",
     Text.translatable("tooltip.society.face_note").green()
   );

@@ -1,8 +1,6 @@
 /* eslint-disable no-unused-vars */
 // Priority: 1000
-global.getDay = (level) =>
-  Number((Math.floor(Number(level.dayTime() / 24000)) + 1).toFixed());
-const artMachineTickRate = 20;
+const artMachineTickRate = 200;
 
 const artMachineProgTime = 20;
 
@@ -60,8 +58,7 @@ let increaseDataStage = (block, count) => {
   let currentStage = nbt.data.stage;
   currentStage += count || 1;
   nbt.merge({ data: { stage: currentStage } });
-  block.setEntityData(nbt);
-  block.getEntity().setChanged();
+  global.setBlockEntityData(block, nbt)
 };
 
 let increaseStage = (input, count) => {
@@ -93,14 +90,8 @@ const successParticles = (level, block) => {
 };
 
 const itemHasTag = (item, tag) => {
-  let tags = item.getTags().toList();
-  let found = false;
-  tags.forEach((itemTag) => {
-    if (itemTag.toString().includes(tag.slice(1))) {
-      found = true;
-    }
-  });
-  return found;
+  const tagString = tag.startsWith("#") ? tag.substring(1) : tag;
+  return item.hasTag(tagString);
 };
 
 const setQuality = (nbt, stage, itemQuality) => {
@@ -120,31 +111,29 @@ const getCanTakeItems = (
   recipes,
   nbt
 ) => {
+  if (properties.get("working") == "true" || properties.get("mature") == "true") return false;
   let itemCheck = recipe !== undefined;
   if (hasTag) {
     Array.from(recipes.keys()).forEach((key) => {
-      if (key.includes("#")) {
+      if (key.startsWith("#")) {
         if (itemHasTag(item, key)) {
-          itemCheck = true;
           if (nbt.data.recipe.equals("") || nbt.data.recipe == undefined) {
             nbt.merge({ data: { recipe: key, originalInputs: [] } });
+            itemCheck = true;
           }
-          if (inputCount != -1) {
+          if (inputCount != -1 && nbt.data.recipe.equals(key)) {
             let inputArray = nbt.data.originalInputs.copy();
             let usedItem = item.copy();
             usedItem.count = inputCount;
             inputArray.push(usedItem);
             nbt.merge({ data: { originalInputs: inputArray } });
+            itemCheck = true;
           }
         }
       }
     });
   }
-  return (
-    itemCheck &&
-    properties.get("working").toLowerCase() === "false" &&
-    properties.get("mature").toLowerCase() === "false"
-  );
+  return itemCheck
 };
 
 global.convertFromLegacy = (recipes, level, block) => {
@@ -155,7 +144,7 @@ global.convertFromLegacy = (recipes, level, block) => {
     newProperties.working = false;
     newProperties.mature = false;
     nbt.merge({ data: { stage: 0, recipe: "" } });
-    block.setEntityData(nbt);
+    global.setBlockEntityData(block, nbt)
     block.set(block.id, newProperties);
     return;
   }
@@ -165,14 +154,14 @@ global.convertFromLegacy = (recipes, level, block) => {
   }
   if (['society:cheese_press', 'society:mayonnaise_machine', 'society:fish_smoker', 'society:seed_maker'].includes(block.id)) {
     nbt.merge({ data: { quality: 0 } });
-    block.setEntityData(nbt);
+    global.setBlockEntityData(block, nbt)
   }
   if (newRecipe) {
     let newProperties = level.getBlock(block.pos).getProperties();
     newProperties.working = false;
     newProperties.mature = true;
     nbt.merge({ data: { recipe: newRecipe } });
-    block.setEntityData(nbt);
+    global.setBlockEntityData(block, nbt)
     block.set(block.id, newProperties);
   }
 };
@@ -198,7 +187,7 @@ global.artisanHarvest = (
       );
     }
     let nbt = block.getEntityData();
-    let hasQuality = nbt.data.quality !== undefined;
+    let hasQuality = nbt.data.quality !== undefined && Number(nbt.data.quality) > 0;
     recipes.get(nbt.data.recipe).output.forEach((id) => {
       harvestOutput = Item.of(
         id,
@@ -224,7 +213,7 @@ global.artisanHarvest = (
       if (nbt.data.quality) {
         nbt.merge({ data: { stage: 0, recipe: "", quality: 0 } });
       }
-      block.setEntityData(nbt);
+      global.setBlockEntityData(block, nbt)
       newProperties.working = false;
       newProperties.mature = false;
       if (newProperties.duration) newProperties.duration = "0";
@@ -304,7 +293,7 @@ global.artisanInsert = (
       newProperties.working = true;
       nbt.merge({ data: { stage: 0 } });
     }
-    block.setEntityData(nbt);
+    global.setBlockEntityData(block, nbt)
     block.set(block.id, newProperties);
     if (player && !player.isCreative()) item.count -= useCount;
     if (artisanHopper) return useCount;
@@ -449,7 +438,7 @@ global.handleTapperRandomTick = (tickEvent, returnFluidData) => {
           nbt.merge({ data: { recipe: `${attachedBlock.getId()}`, stage: 0 } });
           hasError = false;
         }
-        block.setEntityData(nbt);
+        global.setBlockEntityData(block, nbt)
       }
     }
     if (returnFluidData) {
@@ -479,6 +468,7 @@ const getMushroomLogData = (level, centerPos, radius) => {
     new BlockPos(x - radius, y - radius, z - radius),
     [x + radius, y + radius, z + radius]
   )) {
+    if (!level.isLoaded(pos)) continue;
     scanBlock = level.getBlock(pos);
     if (scanBlock.hasTag("society:mushroom_log_detects")) {
       scannedBlocks++;
@@ -542,7 +532,7 @@ global.handleMushroomLogRandomTick = (tickEvent) => {
           data: { recipe: `${rolledRecipe}`, stage: 0, baseCount: baseCount, quality: quality },
         });
       }
-      block.setEntityData(nbt);
+      global.setBlockEntityData(block, nbt)
       block.set(block.id, newProperties);
     }
   }
@@ -604,20 +594,20 @@ global.handleBETick = (entity, recipes, stageCount, halveTime, forced) => {
   const { level, block } = entity;
   let dayTime = level.dayTime();
   let morningModulo = dayTime % 24000;
-  let blockProperties = level.getBlock(block.pos).getProperties();
-
-  if (blockProperties.get("working").toLowerCase() === "false") return;
 
   if (
     forced ||
     (morningModulo >= artMachineProgTime &&
       morningModulo < artMachineProgTime + artMachineTickRate)
   ) {
+    let blockProperties = level.getBlock(block.pos).getProperties();
+
+    if (blockProperties.get("working").toLowerCase() === "false") return;
     global.convertFromLegacy(recipes, level, block);
     let nbt = block.getEntityData();
     let mature;
     let recipe = recipes && recipes.get(nbt.data.recipe);
-    let resolvedStage = (recipes && recipe.time) || stageCount;
+    let resolvedStage = (recipe && recipe.time) || stageCount;
 
     const nbtStage = nbt.data.stage;
     if (halveTime && blockProperties.get("upgraded").toLowerCase() == "true") {
@@ -851,12 +841,10 @@ global.onDrain = (blockInfo, fluid, sim) => {
 };
 
 // Text display utils
-global.clearOldTextDisplay = (block, id) => {
+global.clearOldTextDisplay = (block, level, id) => {
   const { x, y, z } = block;
-  block
-    .getLevel()
-    .getServer()
-    .getEntities()
+  level.getEntitiesWithin(AABB.ofBlock(block).inflate(3))
+    .filter((entityType) => entityType.type === "minecraft:text_display")
     .forEach((entity) => {
       entity.getTags().forEach((tag) => {
         if (tag === `${id}-${x}-${y}-${z}`) {
@@ -920,15 +908,19 @@ global.getProcessedItem = (item, dropAmount) => {
   let processOutput = global.mayonnaiseMachineRecipes.get(item);
   if (processOutput)
     return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: true };
+  // Wine Keg 
   processOutput = global.wineKegRecipes.get(item);
   if (processOutput)
     return { divisor: 3, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+  // Oil Maker
   processOutput = global.oilMakerRecipes.get(item);
-  if (processOutput && dropAmount >= 5)
-    return { divisor: 5, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
-  processOutput = global.loomRecipes.get(item);
   if (processOutput)
     return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+  // Loom
+  processOutput = global.loomRecipes.get(item);
+  if (processOutput && dropAmount >= 5)
+    return { divisor: 5, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+  // Recycling Machine
   processOutput = global.recyclingMachineRecipes.get(item);
   if (processOutput)
     return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
@@ -1148,6 +1140,7 @@ global.cropList = [
   "farmersdelight:rice_panicles",
   "society:ancient_fruit",
   "society:cranberry",
+  "society:sparkpod",
   "windswept:wild_berry_bush",
   "society:mana_fruit",
   "etcetera:cotton",
@@ -1371,6 +1364,7 @@ global.getTaggedBlocksInRadius = (
     new BlockPos(x - radius, y - radius, z - radius),
     [x + radius, y + radius, z + radius]
   )) {
+    if (!level.isLoaded(pos)) continue;
     scanBlock = level.getBlock(pos);
     if (scanBlock.hasTag(scanTag)) {
       scannedBlocks++;
@@ -1379,4 +1373,9 @@ global.getTaggedBlocksInRadius = (
   }
   if (returnTagged) return taggedBlocks;
   return scannedBlocks;
+};
+
+global.setBlockEntityData = (block, nbt) => {
+  block.setEntityData(nbt);
+  block.getEntity().setChanged();
 };

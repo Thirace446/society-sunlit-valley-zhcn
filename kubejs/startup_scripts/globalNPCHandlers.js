@@ -118,7 +118,7 @@ const villagerSpecificGifts = new Map([
     ["banker", {
         loved: ["society:legendary_ink", "wildernature:bison_horn", "candlelight:beef_wellington", "society:aged_goat_cheese_block", "meadow:goat_cheese_block"],
         liked: ["society:truffle_oil", "meadow:piece_of_goat_cheese", "society:mystic_syrup", "windswept:goat_stew", "society:ancient_vespertine"],
-        neutral: [],
+        neutral: ["#society:dish"],
         disliked: ["#society:farmer_product"],
         hated: ["society:energy_drink", "supplementaries:candy"],
     }],
@@ -144,11 +144,32 @@ const villagerSpecificGifts = new Map([
         hated: [],
     }],
     ["market", {
-        loved: ["#vinery:red_wine","society:glitched_vhs", "windswept:elder_feather", "society:latte", "society:tubasmoke_carton", "society:ancient_vespertine"],
+        loved: ["#vinery:red_wine", "society:glitched_vhs", "windswept:elder_feather", "society:latte", "society:tubasmoke_carton", "society:ancient_vespertine"],
         liked: ["society:tubasmoke_stick", "society:energy_drink", "supplementaries:antique_ink", "herbalbrews:coffee", "untitledduckmod:duck_feather"],
         neutral: [],
         disliked: [],
         hated: ["herbalbrews:milk_coffee", "society:death_liquid"],
+    }],
+    ["librarian", {
+        loved: [],
+        liked: [],
+        neutral: [],
+        disliked: [],
+        hated: [],
+    }],
+    ["witch", {
+        loved: ["#society:eldritch", "society:energy_drink", "society:latte", "society:mocha", "society:bowl_of_soul", "herbalbrews:milk_coffee", "herbalbrews:hazelnut_coffee"],
+        liked: ["#society:mineral", "#minecraft:flowers", "herbalbrews:coffee", "society:espresso", "society:dirty_chai", "society:death_liquid"],
+        neutral: ["#society:farmer_product",],
+        disliked: ["society:truffle_tea"],
+        hated: ["#minecraft:fishes"],
+    }],
+    ["trader", {
+        loved: [],
+        liked: [],
+        neutral: [],
+        disliked: [],
+        hated: [],
     }]
 ]);
 
@@ -170,11 +191,11 @@ const includesItemOrHasTag = (array, item) => {
 global.getVillagerGiftResult = (npcId, gift) => {
     const giftDefs = villagerSpecificGifts.get(npcId)
     if (giftDefs) {
-        if (includesItemOrHasTag(giftDefs.hated, gift)) return "hated";
-        if (includesItemOrHasTag(giftDefs.disliked, gift)) return "disliked";
-        if (includesItemOrHasTag(giftDefs.neutral, gift)) return "neutral";
-        if (includesItemOrHasTag(giftDefs.liked, gift)) return "liked";
         if (includesItemOrHasTag(giftDefs.loved, gift)) return "loved";
+        if (includesItemOrHasTag(giftDefs.liked, gift)) return "liked";
+        if (includesItemOrHasTag(giftDefs.neutral, gift)) return "neutral";
+        if (includesItemOrHasTag(giftDefs.disliked, gift)) return "disliked";
+        if (includesItemOrHasTag(giftDefs.hated, gift)) return "hated";
     }
     if (includesItemOrHasTag(UNIVERSAL_HATED, gift)) return "hated";
     if (includesItemOrHasTag(UNIVERSAL_DISLIKED, gift)) return "disliked";

@@ -1,18 +1,18 @@
 console.info("[SOCIETY] autoPetter.js loaded");
 
 const autoPetterTickRate = 20;
-const autoPetterProgTime = 20;
+const autoPetterProgTime = 1000;
 
 global.runAutoPetter = (entity) => {
   const { block, level } = entity;
-  let radius = 1;
+  let radius = 2;
 
   let dayTime = level.dayTime();
   let morningModulo = dayTime % 24000;
   if (morningModulo >= autoPetterProgTime && morningModulo < autoPetterProgTime + autoPetterTickRate) {
     let day = global.getDay(level);
 
-    let nearbyFarmAnimals   = level
+    let nearbyFarmAnimals = level
       .getEntitiesWithin(AABB.ofBlock(block).inflate(radius))
       .filter((entity) =>
         global.checkEntityTag(entity, "society:husbandry_animal")
@@ -22,7 +22,7 @@ global.runAutoPetter = (entity) => {
       let ageLastPet = data.getInt("ageLastPet");
       let ageLastFed = data.getInt("ageLastFed");
       if (day > ageLastPet) {
-        let hungry = day - ageLastFed > 1;
+        let hungry = global.compareDay(day, ageLastFed, 1)
         let affection = data.getInt("affection");
         let affectionIncreaseMult = data.bribed ? 2 : 1;
         let affectionIncrease = 5 * affectionIncreaseMult;
@@ -37,6 +37,18 @@ global.runAutoPetter = (entity) => {
           data.affection = affection - (hungry ? 15 : 25);
         }
         data.ageLastPet = day;
+        level.spawnParticles(
+          "minecraft:heart",
+          true,
+          animal.x,
+          animal.y + 1.5,
+          animal.z,
+          0,
+          0.1,
+          0,
+          1,
+          0.01
+        );
       }
     });
   }
@@ -54,7 +66,7 @@ StartupEvents.registry("block", (e) => {
         Text.translatable("block.society.auto_petter.description").gray()
       );
       item.tooltip(
-        Text.translatable("tooltip.society.area", `3x3x3`).green()
+        Text.translatable("tooltip.society.area", `5x5x5`).green()
       );
       item.modelJson({
         parent: "society:block/kubejs/auto_petter",

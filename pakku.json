@@ -1,6 +1,6 @@
 {
     "name": "Society Sunlit Valley",
-    "version": "4.0.3-HOTFIX",
+    "version": "4.1.0",
     "overrides": [
         "config",
         "defaultconfigs",
@@ -8,8 +8,9 @@
         "patchouli_books"
     ],
     "client_overrides": [
-        "resourcepacks",
-        "shaderpacks"
+        "resourcepacks/sunlit_overrides.zip",
+        "shaderpacks",
+        "configureddefaults"
     ],
     "projects": {
         "ambientsounds": {
@@ -43,6 +44,9 @@
             "side": "CLIENT"
         },
         "controlling": {
+            "side": "CLIENT"
+        },
+        "controllable": {
             "side": "CLIENT"
         },
         "crash-assistant": {
@@ -122,7 +126,7 @@
         },
         "tmrv": {
             "side": "CLIENT"
-         },
+        },
         "raws-visual-keybinder": {
             "side": "CLIENT"
         },
@@ -150,5 +154,6 @@
         "skillexpnotifier": {
             "side": "BOTH"
         }
-    }
+    },
+    "export_server_side_projects_to_client": true
 }

@@ -55,6 +55,17 @@
         "value": 100
       }
     },
+    "elixirum:generic.tenebrae_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:spell_type_angel_wing": {
       "enabled": false,
       "min": {
@@ -143,6 +154,17 @@
         "value": 10
       }
     },
+    "elixirum:generic.venenum_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:spell_type_lightning_bolt": {
       "enabled": false,
       "min": {
@@ -198,6 +220,17 @@
         "value": 100
       }
     },
+    "elixirum:generic.fortuna_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:spell_type_fireball": {
       "enabled": false,
       "min": {
@@ -251,6 +284,17 @@
       "max": {
         "default": 142,
         "value": 142
+      }
+    },
+    "elixirum:generic.crescere_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:cast_time_reduction": {
@@ -341,6 +385,28 @@
         "value": 100
       }
     },
+    "stardew_fishing:golden_chest_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "elixirum:generic.venenum_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "reforgingstation:critical_damage": {
       "enabled": false,
       "min": {
@@ -374,6 +440,17 @@
         "value": 100
       }
     },
+    "elixirum:generic.potion_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/poison_splash": {
       "enabled": false,
       "min": {
@@ -383,6 +460,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "elixirum:generic.mutatio_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "additional_attributes:spell_type_thunderstorm": {
@@ -693,6 +781,17 @@
         "value": 100
       }
     },
+    "minecraft:bounciness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additional_attributes:spell_type_gluttony": {
       "enabled": false,
       "min": {
@@ -779,6 +878,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "minecraft:friction_modifier": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "additional_attributes:innate_spell/irons_spellbooks/spider_aspect": {
@@ -878,6 +988,17 @@
       "max": {
         "default": 64,
         "value": 64
+      }
+    },
+    "elixirum:generic.medela_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "additional_attributes:spell_type_acid_orb": {
@@ -984,6 +1105,17 @@
       "min": {
         "default": 0,
         "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "elixirum:generic.mutatio_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
       },
       "max": {
         "default": 1024,
@@ -1122,6 +1254,17 @@
         "value": 100
       }
     },
+    "elixirum:generic.anima_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:innate_spell/irons_spellbooks/gluttony": {
       "enabled": false,
       "min": {
@@ -1164,6 +1307,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "elixirum:generic.corpus_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "l2damagetracker:damage_absorption": {
@@ -1936,6 +2090,17 @@
         "value": 10
       }
     },
+    "elixirum:generic.crescere_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "attributeslib:life_steal": {
       "enabled": false,
       "min": {
@@ -1945,6 +2110,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "elixirum:generic.potion_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "confluence:crit_chance": {
@@ -2123,6 +2299,17 @@
         "value": 100
       }
     },
+    "minecraft:air_drag_modifier": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "additional_attributes:spell_school_ender": {
       "enabled": false,
       "min": {
@@ -2198,6 +2385,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "elixirum:generic.medela_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "shippingbin:crop_sell_multiplier": {
@@ -2374,6 +2572,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "elixirum:generic.anima_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "additional_attributes:spell_school_eldritch": {
@@ -3267,6 +3476,17 @@
         "value": 1024
       }
     },
+    "elixirum:generic.corpus_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "additional_attributes:spell_type_arrow_volley": {
       "enabled": false,
       "min": {
@@ -3397,6 +3617,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "elixirum:generic.fortuna_mastery": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "l2damagetracker:crit_rate": {
@@ -3617,6 +3848,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "elixirum:generic.tenebrae_resistance": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "additional_attributes:spell_type_summon_polar_bear": {

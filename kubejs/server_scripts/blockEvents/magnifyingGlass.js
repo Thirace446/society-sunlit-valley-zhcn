@@ -7,7 +7,7 @@ const magnifyingGlassBlocks = [
   { id: "society:auto_grabber", radius: 5, includeY: true },
   { id: "society:artisan_hopper", radius: 3, includeY: true },
   { id: "society:mini_artisan_hopper", radius: 1, includeY: true },
-  { id: "society:auto_petter", radius: 1, includeY: true },
+  { id: "society:auto_petter", radius: 2, includeY: true },
   { id: "society:fish_pond_basket", radius: 1, includeY: true },
   { id: "society:feeding_trough", radius: 6, includeY: true },
   { id: "splendid_slimes:slime_feeder", radius: 6, includeY: true },
@@ -25,6 +25,7 @@ const magnifyingGlassBlocks = [
   { id: "society:ribbit_hut", radius: 7, includeY: false },
   { id: "society:mushroom_log", radius: 8, includeY: true },
   { id: "society:fish_pond_quest_manager", radius: 10, includeY: true },
+  { id: "society:drum_cornucopia", radius: 10, includeY: true },
 ];
 const magnifyingGlassBlockIds = magnifyingGlassBlocks.map((x) => x.id);
 

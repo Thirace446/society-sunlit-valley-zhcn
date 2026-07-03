@@ -6,7 +6,10 @@ const npcMap = new Map([
   ["blacksmith", "humanoid/blacksmith"],
   ["shepherd", "humanoid_slim/shepherd"],
   ["fisher", "humanoid_slim/fisher"],
-  ["banker", "humanoid_slim/banker"]
+  ["banker", "humanoid_slim/banker"],
+  ["librarian", "humanoid_slim/librarian"],
+  ["witch", "humanoid_slim/witch"],
+  ["trader", "humanoid/trader"]
 ]);
 const getBoundNpc = (level, block, boundNpc) => {
   let nearbyNPCs = level.getLevel()
@@ -46,12 +49,12 @@ BlockEvents.placed("society:villager_home", (e) => {
     if (!npcData.dayLastPlaced) npcData.dayLastPlaced = -10
     if (day > Number(npcData.dayLastPlaced) + 10 || Number(npcData.dayLastPlaced) - day > 1) {
       let nearbyNPCs = level
-        .getEntitiesWithin(AABB.ofBlock(block).inflate(3))
+        .getEntitiesWithin(AABB.ofBlock(block).inflate(4))
         .filter((entityType) => entityType.type === "easy_npc:humanoid" || entityType.type === "easy_npc:humanoid_slim");
 
       if (player && nearbyNPCs.length == 0) {
         server.runCommandSilent(
-          `easy_npc preset import_new custom easy_npc:preset/${npcMap.get(
+          `execute in ${level.dimension} run easy_npc preset import_new custom easy_npc:preset/${npcMap.get(
             String(villagerType)
           )}.npc.nbt ${x} ${y + 0.25} ${z}`
         );
@@ -82,7 +85,7 @@ BlockEvents.placed("society:villager_home", (e) => {
             placer: player.getUuid().toString(),
           },
         });
-        block.setEntityData(nbt);
+        global.setBlockEntityData(block, nbt)
         player.tell(
           Text.translatable(
             "society.villager_home.moved_in",
@@ -110,7 +113,7 @@ BlockEvents.broken("society:villager_home", (e) => {
   const { block, player, level, server } = e;
   let nbt = block.getEntityData();
   const { type, placer, boundNpc } = nbt.data;
-  if (player.getUuid().toString() !== placer && placer != -1) {
+  if (player.getUuid().toString() !== placer && placer != -1 && !player.isCreative()) {
     player.tell(
       Text.translatable(
         "society.villager_home.not_invited_by_you",

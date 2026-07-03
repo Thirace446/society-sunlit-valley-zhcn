@@ -124,14 +124,20 @@ StartupEvents.registry("block", (event) => {
         }
       }
 
-      if (upgraded && block.properties.get("mature") === "true" && rnd10()) {
-        let nbt = block.getEntityData();
-        global.crystalariumCrystals.get(nbt.data.type).output.forEach((item) => {
-          block.popItemFromFace(
-            `society:pristine_${String(Item.of(item).id).path}`,
-            block.properties.get("facing").toLowerCase()
-          );
-        });
+      global.convertFromLegacy(global.crystalariumCrystals, level, block);
+
+      if (upgraded && block.properties.get("mature") === "true") {
+        const nbt = block.getEntityData();
+        const recipeId = nbt.data.recipe;
+        const recipe = recipeId ? global.crystalariumCrystals.get(recipeId) : null;
+        if (recipe && recipe.output){
+          recipe.output.forEach((item) => {
+            const pristinePath = String(Item.of(item).id).split(":")[1];
+            if (pristinePath){
+              block.popItemFromFace(`society:pristine_${pristinePath}`, block.properties.get("facing").toLowerCase());
+            }
+          })
+        }
       }
 
       global.handleBERightClick(

@@ -13,6 +13,7 @@ global.handleSnowMelter = (entity) => {
     y + verticalRadius,
     z + radius,
   ])) {
+    if (!level.isLoaded(pos)) continue;
     scanBlock = level.getBlock(pos);
     if (scanBlock.id === "minecraft:snow") {
       scanBlock.set("minecraft:air");
@@ -41,7 +42,6 @@ StartupEvents.registry("block", (e) => {
     })
     .model("society:block/kubejs/snow_melter")
     .blockEntity((blockInfo) => {
-      blockInfo.inventory(9, 1);
       blockInfo.serverTick(600, 0, (entity) => {
         global.handleSnowMelter(entity);
       });

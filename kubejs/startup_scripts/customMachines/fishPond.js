@@ -34,7 +34,7 @@ global.handleFishInsertion = (clickEvent) => {
         non_native_fish: 1,
       },
     });
-    block.setEntityData(nbt);
+    global.setBlockEntityData(block, nbt)
     if (!player.isCreative()) item.count--;
   } else if (type == item && population < max_population) {
     server.runCommandSilent(
@@ -58,7 +58,7 @@ global.handleFishInsertion = (clickEvent) => {
         non_native_fish: increaseStage(non_native_fish),
       },
     });
-    block.setEntityData(nbt);
+    global.setBlockEntityData(block, nbt)
     if (!player.isCreative()) item.count--;
   }
 };
@@ -94,7 +94,7 @@ global.handleQuestSubmission = (type, clickEvent) => {
         },
       });
 
-      block.setEntityData(nbt);
+      global.setBlockEntityData(block, nbt)
       if (
         player.stages.has("fishing_mastery") &&
         !player.stages.has("pond_house_five") &&
@@ -161,7 +161,7 @@ global.handleFishPondRightClick = (clickEvent) => {
       }
       global.handleFishInsertion(clickEvent);
       if (mature === "true") {
-        global.handleFishHarvest(block, player, server);
+        global.handleFishHarvest(block, player, server, false, player.stages);
       }
       if (!type.equals("") && population == "0") {
         if (item && item.hasTag("forge:tools/fishing_rods")) {
@@ -188,7 +188,7 @@ global.handleFishPondRightClick = (clickEvent) => {
         }
       }
     } else if (population > 0) {
-      let fishItem = global.handleFishExtraction(block, player, server);
+      let fishItem = global.handleFishExtraction(block, player, server, player.stages);
       if (fishItem) player.give(fishItem);
     }
   }

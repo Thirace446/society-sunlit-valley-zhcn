@@ -15,6 +15,7 @@ global.manaSprinklerScan = (entity, radius) => {
     new BlockPos(x - radius, y - radius, z - radius),
     [x + radius, y + radius, z + radius]
   )) {
+    if (!level.isLoaded(pos)) continue;
     scanBlock = level.getBlock(pos);
     if (scanBlock.id == "society:mana_fruit_crop") {
       sprinklerMana = entity.persistentData.getInt("mana");
@@ -74,24 +75,24 @@ StartupEvents.registry("block", (event) => {
     .model("society:block/kubejs/mana_sprinkler")
     .blockEntity((blockInfo) => {
       blockInfo.serverTick(20, 0, (entity) => {
-        global.manaSprinklerScan(entity, 3);
+        global.manaSprinklerScan(entity, 2);
       }),
-      blockInfo.attachCapability(
-        BotaniaCapabilityBuilder.MANA.blockEntity()
-          .canReceiveManaFromBurst((be) => {
-            let mana = be.persistentData.getInt("mana");
-            return mana < SPRINKLER_MAX_MANA;
-          })
-          .receiveMana((be, amount) => {
-            let currentMana = be.persistentData.getInt("mana");
-            let received = Math.min(SPRINKLER_MAX_MANA - currentMana, amount);
-            be.persistentData.putInt("mana", currentMana + received);
-          })
-          .getCurrentMana((be) => be.persistentData.getInt("mana"))
-          .isFull((be) => {
-            let mana = be.persistentData.getInt("mana");
-            return mana >= SPRINKLER_MAX_MANA;
-          })
-      );
+        blockInfo.attachCapability(
+          BotaniaCapabilityBuilder.MANA.blockEntity()
+            .canReceiveManaFromBurst((be) => {
+              let mana = be.persistentData.getInt("mana");
+              return mana < SPRINKLER_MAX_MANA;
+            })
+            .receiveMana((be, amount) => {
+              let currentMana = be.persistentData.getInt("mana");
+              let received = Math.min(SPRINKLER_MAX_MANA - currentMana, amount);
+              be.persistentData.putInt("mana", currentMana + received);
+            })
+            .getCurrentMana((be) => be.persistentData.getInt("mana"))
+            .isFull((be) => {
+              let mana = be.persistentData.getInt("mana");
+              return mana >= SPRINKLER_MAX_MANA;
+            })
+        );
     });
 });
