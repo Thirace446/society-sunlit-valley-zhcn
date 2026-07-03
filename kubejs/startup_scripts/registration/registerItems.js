@@ -8,9 +8,8 @@ StartupEvents.registry("item", (e) => {
     .maxStackSize(16);
   e.create("justhammers:small_core").texture("society:item/small_core");
   e.create("buildinggadgets2:gadget_core").texture("society:item/gadget_core");
-  e.create("society:farm_building_supplies").texture("society:item/farm_building_supplies");
+  e.create("society:building_supplies").texture("society:item/farm_building_supplies");
   e.create("society:greenhouse_building_supplies").texture("society:item/greenhouse_building_supplies");
-  e.create("society:village_building_supplies").texture("society:item/village_building_supplies");
   const tiers = [
     "Stone, Leather, Chainmail, and Cotton",
     "Iron",
@@ -795,6 +794,7 @@ StartupEvents.registry("item", (e) => {
   e.create("society:coconut_oil").texture("society:item/coconut_oil");
   e.create("society:butterfly_amber").texture("society:item/butterfly_amber");
   e.create("society:moth_pollen").texture("society:item/moth_pollen");
+  e.create("society:caterpillar_eggs").texture("society:item/caterpillar_eggs");
   e.create(`society:magic_rope`).texture(`society:item/magic_rope`);
   e.create(`society:magic_tunnel`).texture(`society:item/magic_tunnel`);
   e.create(`society:magnifying_glass`)

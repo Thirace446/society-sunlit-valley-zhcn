@@ -779,6 +779,7 @@ global.handleHusbandryBase = (hand, player, item, target, level, server) => {
 
 ItemEvents.entityInteracted((e) => {
   const { hand, player, item, target, level, server } = e;
+  if (item === 'moblassos:diamond_lasso') return;
   global.handleHusbandryBase(hand, player, item, target, level, server);
 });
 
