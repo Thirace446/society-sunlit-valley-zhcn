@@ -736,6 +736,43 @@ ServerEvents.tags("block", (e) => {
     e.add("society:mushroom_log_detects", key);
     e.add("society:mushroom_log_dominant", key);
   });
+  const immovableTags = [
+    "buildinggadgets2:deny",
+    "c:relocation_not_supported",
+    "create:non_movable"
+  ];
+  [
+    "society:fish_pond",
+    "society:coin_leaderboard",
+    "society:iridium_clock",
+    "society:golden_clock",
+    "society:mana_clock",
+    "society:sparkstone_recycler",
+    "society:artisan_hopper",
+    "society:mini_artisan_hopper",
+    "society:auto_grabber",
+    "society:auto_tapper",
+    "society:auto_worm_farm",
+    "society:feeding_trough",
+    "society:fish_pond_basket",
+    "society:growth_obelisk",
+    "society:juice_inserter",
+    "society:mana_milker",
+    "society:mana_sprinkler",
+    "society:quality_washer",
+    "society:snow_melter",
+    "society:villager_home",
+    "society:shipping_bin_monitor",
+    "society:ribbit_hut",
+    "society:ribbit_hut_block",
+    "society:roe_recycler",
+    "society:pickling_can",
+    "society:mana_fruit_crop"
+  ].forEach((block) => {
+    immovableTags.forEach((tag) => {
+      e.add(tag, block);
+    });
+  });
   const unbreakableTags = [
     "minecraft:wither_immune",
     "buildinggadgets2:deny",
@@ -785,8 +822,9 @@ ServerEvents.tags("block", (e) => {
     e.add("society:artisan_machine", log);
     e.add("society:golden_clock_advanced", log);
     e.add("buildinggadgets2:deny", log);
+    e.add("c:relocation_not_supported", log);
+    e.add("create:non_movable", log);
   });
-  e.add("buildinggadgets2:deny", "society:fish_pond");
   const agingCasks = ["society:aging_cask", "society:ancient_cask"];
   agingCasks.forEach((log) => {
     e.add("society:aging_cask", log);

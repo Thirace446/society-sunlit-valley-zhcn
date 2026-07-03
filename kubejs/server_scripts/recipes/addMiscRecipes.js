@@ -696,6 +696,21 @@ ServerEvents.recipes((e) => {
     "pamhc2trees:pawpawitem",
     "minecraft:sugar",
   ]);
+  e.shapeless("society:pink_energy_drink", [
+    "society:sparkpod_juice",
+    "pamhc2trees:peachitem",
+    "minecraft:sugar",
+  ]);
+  e.shapeless("society:white_energy_drink", [
+    "society:starfruit_juice",
+    "pamhc2trees:dragonfruititem",
+    "minecraft:sugar",
+  ]);
+  e.shapeless("society:mana_energy_drink", [
+    "society:mana_fruit_juice",
+    "pamhc2trees:lemonitem",
+    "minecraft:sugar",
+  ]);
   e.shapeless("society:death_liquid", [
     "minecraft:skeleton_skull",
     "society:battery",
@@ -1022,11 +1037,11 @@ ServerEvents.recipes((e) => {
   e.shapeless("dew_drop_farmland_growth:pristine_quality_fertilized_farmland", ["minecraft:dirt", "dew_drop_farmland_growth:pristine_quality_fertilizer"])
 
   e.custom({
-  type: "create:filling",
-  ingredients: [
-    {"item": "vintagedelight:roasted_peanut"},
-    {"amount": 125, "fluid": "create:honey"}
-  ],
-  "results": [{ "item": "vintagedelight:honey_roasted_peanut" }]
-});
+    type: "create:filling",
+    ingredients: [
+      { "item": "vintagedelight:roasted_peanut" },
+      { "amount": 125, "fluid": "create:honey" }
+    ],
+    "results": [{ "item": "vintagedelight:honey_roasted_peanut" }]
+  });
 });

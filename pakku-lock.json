@@ -7740,7 +7740,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "modernfix-forge-5.27.40+mc1.20.1.jar",
+                    "file_name": "modernfix-forge-5.27.58+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -7748,16 +7748,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8141/550/modernfix-forge-5.27.40+mc1.20.1.jar",
-                    "id": "8141550",
+                    "url": "https://edge.forgecdn.net/files/8335/833/modernfix-forge-5.27.58+mc1.20.1.jar",
+                    "id": "8335833",
                     "parent_id": "790626",
                     "hashes": {
-                        "sha1": "d1bb6bac6255b657a6c4b3bfb25135806e2eed3e",
-                        "md5": "790c08df98022b28713584d958835a91"
+                        "sha1": "dd78e4110f40fa2c072cc6c1b3d8a06af906cf00",
+                        "md5": "bcadcedf354a182b68cbdc26ce87ce0c"
                     },
                     "required_dependencies": [],
-                    "size": 970410,
-                    "date_published": "2026-05-25T03:11:52.210Z"
+                    "size": 990660,
+                    "date_published": "2026-06-28T17:14:47.667Z"
                 }
             ]
         },
@@ -11477,7 +11477,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "splendid_slimes-0.20.3.jar",
+                    "file_name": "splendid_slimes-0.20.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -11485,18 +11485,18 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8057/560/splendid_slimes-0.20.3.jar",
-                    "id": "8057560",
+                    "url": "https://edge.forgecdn.net/files/8180/278/splendid_slimes-0.20.4.jar",
+                    "id": "8180278",
                     "parent_id": "1240935",
                     "hashes": {
-                        "sha1": "85d43864434b8cd34a7dc4dc0e257cf7b9f24a44",
-                        "md5": "eebc7c257e73d482ef3c5752932b7933"
+                        "sha1": "fa052e84ace4ba1bc19ee6ca9651e5989f77c25d",
+                        "md5": "a8d2916bf2b8bc079705777c91ba3c17"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 511712,
-                    "date_published": "2026-05-08T12:19:25.837Z"
+                    "size": 511727,
+                    "date_published": "2026-06-01T13:19:49.297Z"
                 }
             ]
         },
@@ -11786,7 +11786,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "dew_drop_farmland_growth-6.0.jar",
+                    "file_name": "dew_drop_farmland_growth-8.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -11794,18 +11794,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7410/800/dew_drop_farmland_growth-6.0.jar",
-                    "id": "7410800",
+                    "url": "https://edge.forgecdn.net/files/8281/305/dew_drop_farmland_growth-8.0.jar",
+                    "id": "8281305",
                     "parent_id": "1172429",
                     "hashes": {
-                        "sha1": "398a63d4a21b95f35e8708e06cb566f54051c4d0",
-                        "md5": "6852cde819926e4596f16e822659d76c"
+                        "sha1": "7d76c34ce24c05237810d0da3b56631a840de562",
+                        "md5": "68e120102e2f9c499c18bcb547ef1697"
                     },
                     "required_dependencies": [
                         "1062753"
                     ],
-                    "size": 146879,
-                    "date_published": "2026-01-03T03:33:41.373Z"
+                    "size": 147861,
+                    "date_published": "2026-06-19T17:19:54.893Z"
                 }
             ]
         },

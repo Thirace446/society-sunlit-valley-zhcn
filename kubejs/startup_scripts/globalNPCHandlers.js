@@ -158,11 +158,11 @@ const villagerSpecificGifts = new Map([
         hated: [],
     }],
     ["witch", {
-        loved: ["society:energy_drink", "society:latte", "society:mocha", "society:bowl_of_soul", "herbalbrews:milk_coffee", "herbalbrews:hazelnut_coffee"],
-        liked: ["herbalbrews:coffee", "society:espresso", "society:dirty_chai"],
-        neutral: [],
+        loved: ["#society:eldritch", "society:energy_drink", "society:latte", "society:mocha", "society:bowl_of_soul", "herbalbrews:milk_coffee", "herbalbrews:hazelnut_coffee"],
+        liked: ["#society:mineral", "#minecraft:flowers", "herbalbrews:coffee", "society:espresso", "society:dirty_chai", "society:death_liquid"],
+        neutral: ["#society:farmer_product",],
         disliked: ["society:truffle_tea"],
-        hated: [],
+        hated: ["#minecraft:fishes"],
     }],
     ["trader", {
         loved: [],

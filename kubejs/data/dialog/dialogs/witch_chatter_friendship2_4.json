@@ -1,6 +1,6 @@
 {
-	"id": "witch_chatter_friendship0_4",
-	"title": "[4] witch chatter at friendship level: friendship0",
+	"id": "witch_chatter_friendship2_4",
+	"title": "[4] witch chatter at friendship level: friendship2",
 	"description": "dialog.npc.witch.chatter.description",
 	"allowClose": true,
 	"entries": [
@@ -12,7 +12,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.chatter_friendship0.4.line_0"
+					"translate": "dialog.npc.witch.chatter_friendship2.4.line_0"
 				}
 			],
 			"portraits": [

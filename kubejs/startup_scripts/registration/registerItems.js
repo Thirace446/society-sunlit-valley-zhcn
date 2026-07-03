@@ -492,6 +492,30 @@ StartupEvents.registry("item", (e) => {
       food.effect("minecraft:speed", 4800, 2, 1.0);
     })
     .useAnimation("drink");
+  e.create("society:pink_energy_drink")
+    .texture("society:item/drinks/pink_energy_drink")
+    .food((food) => {
+      food.fastToEat(true);
+      food.effect("botania:emptiness", 4800, 0, 1.0);
+      food.effect("minecraft:haste", 4800, 2, 1.0);
+    })
+    .useAnimation("drink");
+  e.create("society:white_energy_drink")
+    .texture("society:item/drinks/white_energy_drink")
+    .food((food) => {
+      food.fastToEat(true);
+      food.effect("botania:emptiness", 4800, 0, 1.0);
+      food.effect("minecraft:strength", 4800, 2, 1.0);
+    })
+    .useAnimation("drink");
+  e.create("society:mana_energy_drink")
+    .texture("society:item/drinks/mana_energy_drink")
+    .food((food) => {
+      food.fastToEat(true);
+      food.effect("botania:emptiness", 4800, 0, 1.0);
+      food.effect("minecraft:resistance", 4800, 2, 1.0);
+    })
+    .useAnimation("drink");
   e.create("society:death_liquid")
     .texture("society:item/drinks/death_liquid")
     .tooltip(

@@ -14,28 +14,43 @@ if (global.datagenDialog) {
         ["I made everything more expensive, please don't buy it.", "That's a lie actually, Caroline audits my books regularly..."],
         "What do you want!?",
         ["I didn't do it I swear, I bet Leon did it!", "Oh? Caroline didn't send you? Nevermind then."],
+        "Sorry, I don't do tarot readings. Not that kind of witch.",
         ["* It appears that Evelyne is sleepwalking *", "* Would be best to leave your payment somewhere nearby... *"],
         "...Hmmmmm? What do you want @i."
       ],
       friendship1: [
         "What have you found today? You aren't holding out on me right?",
         ["I don't like that Haruna...", "Why do people keep secrets from me! Of all people!"],
+        ["Do you have an appointment?", "Sorry, I've been asking everyone that, I can't find my calendar..."],
+        ["Maria is so annoying about getting those Miracle Potions restocked!", "Who even needs that many animals!"],
         ["Found any weird bugs lately? I know a person that really likes weird bugs.", "I really need a favor from them, but I don't want anyone asking questions."]
       ],
       friendship2: [
         "You don't know a thing @i. There are forces at work you cannot imagine.",
+        "Caroline is so mean to me! Everybody falls asleep during business meetings, they're boring!",
+        "* You hear snoring as you approach. Evelyne is once again fast sleep while standing. *",
+        ["I've been studying the magic around here for a few seasons, there's definitely more to be found...", "...Keep that between us."],
         "There is a deeper magic in this valley, I can sense it and you can too.",
       ],
       friendship3: [
         "I don't know a thing!! There are forces at work I cannot imagine!!",
-        ["My plans are measured in centuries...", "...But I cannot for the life of me rememeber where I put them..."],
+        ["My plans are measured in centuries...", "...But I cannot for the life of me remember where I put them..."],
+        ["Ace has been such a treasure for finding me herbs.", "I actually realllly hate nature so I can appreciate a person that does."],
+        "I've made a break through last night! Normally I would tell you because we're friends and all but I think this one is a bit above your paygrade...",
         "Please buy something, I need to bribe Aiden into giving me some expensive mining equipment!"
       ],
       friendship4: [
+        ["That stupid moon lady keeps yelling at me in my sleep!", "What's so wrong with hoarding? I might need this stuff again at some point!"],
+        "You haven't been shipping enough minerals lately, please don't tell me you're keeping them all for yourself...",
+        ["I've seen it in a vision!", "The crust of the Nether sinking to the bottom of the abyss, descending into the heavens!", "Purified into crystline fields of agonizing brightness!", "I'm certain it shall come to pass!"],
         ["Welcome back @i! I have your special order somewhere around here, let me fetch it...", "Oh you didn't order anything? What am I supposed to do with 48 pounds of plorts?"],
         ["Carlos keeps trying to give me these raw deals! Who has the time to make that much Truffle Tea?", "Why would anyone want that much?"]
       ],
       friendship5: [
+        "Moon lady and I are on better terms these days but I still think she's way more aggressive than she should be...",
+        "Now that we're such good friends... Do you mind cleaning up around here for me? We're friends right?",
+        ["Did you know that in some worlds, people train bugs and dragons to fight against each other?", "They let children do this, for money even!"],
+        ["Can you tell Vernoica there's another typo in the 12 edition of 'Gneiss' Dictionary of Geology & Mineralogy'?", "Honestly literature these days is in shambles, its embarrassing."],
         ["Aiden keeps bringing me coffee every morning and I haven't figured out why...", "Maybe we have another occult researcher on our hands!"],
       ],
     },
@@ -48,7 +63,7 @@ if (global.datagenDialog) {
         "I knew you weren't useless! Caroline was wrong! Thank you @i!"
       ],
       liked: [
-        "I've been meaning to get more of these, thank you."
+        "I've been meaning to get more of these, thank you.",
         ["Who sent you? Do they know?", "You seem confused, nevermind then.", "Oh give me that before you go, I kinda want it."],
         "Hand it over, I can use that. I think.",
         ["Sorry I don't have any money right now.", "Oh, you're just giving it to me? Just like that? Okay weirdo."],

@@ -722,13 +722,13 @@
     "curseForgeHash": 595699106,
     "modrinthHash": "58959b8a1114d4730c3d6ba3996f26bd97fd61c8"
   },
-  "dew_drop_farmland_growth-6.0.jar": {
-    "jarName": "dew_drop_farmland_growth-6.0.jar",
+  "dew_drop_farmland_growth-8.0.jar": {
+    "jarName": "dew_drop_farmland_growth-8.0.jar",
     "modId": "dew_drop_farmland_growth",
     "name": "Dew Drop Farmland - Growth Edition",
-    "version": "6.0",
-    "curseForgeHash": 1280159138,
-    "modrinthHash": "398a63d4a21b95f35e8708e06cb566f54051c4d0"
+    "version": "8.0",
+    "curseForgeHash": 1926820445,
+    "modrinthHash": "7d76c34ce24c05237810d0da3b56631a840de562"
   },
   "dew_drop_watering_cans-1.0.2.jar": {
     "jarName": "dew_drop_watering_cans-1.0.2.jar",
@@ -1647,13 +1647,13 @@
     "curseForgeHash": 940832561,
     "modrinthHash": "0586f2cdfe31d98824e4acf1556f9e070b5453da"
   },
-  "modernfix-forge-5.27.57+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.27.57+mc1.20.1.jar",
+  "modernfix-forge-5.27.58+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.27.58+mc1.20.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.57+mc1.20.1",
-    "curseForgeHash": 86334362,
-    "modrinthHash": "d5ac644109cd123e2d59756b34a2034f7cbec843"
+    "version": "5.27.58+mc1.20.1",
+    "curseForgeHash": 3498320800,
+    "modrinthHash": "dd78e4110f40fa2c072cc6c1b3d8a06af906cf00"
   },
   "moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar": {
     "jarName": "moogs_structure_lib-1.1.0-1.20-1.20.4-forge.jar",
@@ -2359,13 +2359,13 @@
     "curseForgeHash": 710360043,
     "modrinthHash": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204"
   },
-  "society_trading-1.2.1.jar": {
-    "jarName": "society_trading-1.2.1.jar",
+  "society_trading-1.2.4.jar": {
+    "jarName": "society_trading-1.2.4.jar",
     "modId": "society_trading",
     "name": "Society Trading",
-    "version": "1.2.1",
-    "curseForgeHash": 2672622022,
-    "modrinthHash": "4d42e68f0e259adc5016227b72484868400eb7a2"
+    "version": "1.2.4",
+    "curseForgeHash": 2956330767,
+    "modrinthHash": "418222a7e13fcfeb1950dfde99c2cfc55ec232a8"
   },
   "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": {
     "jarName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
@@ -2439,13 +2439,13 @@
     "curseForgeHash": 4174736090,
     "modrinthHash": "b4d924f4faf6eb201db04205b61fa1524a8b0178"
   },
-  "splendid_slimes-0.20.3.jar": {
-    "jarName": "splendid_slimes-0.20.3.jar",
+  "splendid_slimes-0.20.4.jar": {
+    "jarName": "splendid_slimes-0.20.4.jar",
     "modId": "splendid_slimes",
     "name": "Splendid Slimes",
-    "version": "0.20.3",
-    "curseForgeHash": 500964973,
-    "modrinthHash": "85d43864434b8cd34a7dc4dc0e257cf7b9f24a44"
+    "version": "0.20.4",
+    "curseForgeHash": 2152038394,
+    "modrinthHash": "fa052e84ace4ba1bc19ee6ca9651e5989f77c25d"
   },
   "stardew_fishing-3.7-1.20.1.jar": {
     "jarName": "stardew_fishing-3.7-1.20.1.jar",
