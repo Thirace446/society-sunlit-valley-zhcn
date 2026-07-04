@@ -293,13 +293,13 @@
     "curseForgeHash": 1899432453,
     "modrinthHash": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f"
   },
-  "certain_questing_additions-forge-1.1.7+mc1.20.1.jar": {
-    "jarName": "certain_questing_additions-forge-1.1.7+mc1.20.1.jar",
+  "certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar": {
+    "jarName": "certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar",
     "modId": "certain_questing_additions",
     "name": "Certain Questing Additions",
-    "version": "1.1.7",
-    "curseForgeHash": 4249096595,
-    "modrinthHash": "cc8ea7eb1f797a9198077ba6e97fc2db48c30461"
+    "version": "1.2.0.2",
+    "curseForgeHash": 3798241293,
+    "modrinthHash": "4fda004986d58562ac62e8d61b60c7d66be4115c"
   },
   "chat_heads-0.13.7-forge-1.20.jar": {
     "jarName": "chat_heads-0.13.7-forge-1.20.jar",
@@ -2567,13 +2567,13 @@
     "curseForgeHash": 3460520715,
     "modrinthHash": "3e4e2d2e3ee9486de4c6b64bcf8f25d87d55fc92"
   },
-  "tooltipoverhaul-forge-1.20.1-1.4.2.jar": {
-    "jarName": "tooltipoverhaul-forge-1.20.1-1.4.2.jar",
+  "tooltipoverhaul-forge-1.20.1-1.5.0.jar": {
+    "jarName": "tooltipoverhaul-forge-1.20.1-1.5.0.jar",
     "modId": "tooltipoverhaul",
     "name": "Tooltip Overhaul",
-    "version": "1.4.2",
-    "curseForgeHash": 972780846,
-    "modrinthHash": "693c9eeb6f7f1e80f8427be6c363bbb5c1872f0c"
+    "version": "1.5.0",
+    "curseForgeHash": 2529328776,
+    "modrinthHash": "596a262b1f2d6c374ecb5da87e0013683022717e"
   },
   "torchmaster-20.1.9.jar": {
     "jarName": "torchmaster-20.1.9.jar",

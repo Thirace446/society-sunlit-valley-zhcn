@@ -740,7 +740,8 @@
   "block.society.moon_statue.already_taken": "You've already received a blessing today.",
   "block.society.villager_home.type": "Summons a %s",
   "block.society.villager_home.description": "Transports the villager to your town and assigns them the nearby area as their home.\n Cannot be placed near other villagers.",
-  "block.society.fish_pond_quest_manager.tooltip": "Manages quests for fish ponds at 7am every morning",
+  "block.society.fish_pond_manager.description": "Manages quests for fish ponds at 7am every morning",
+  "block.society.caterpillar_box.description": "Hatches Caterpillar Eggs placed inside every 5 minutes. Butterflies and Moths fly out of the box's top.",
 
   "item.society.froggy_helm.description": "There's a large tongue nestled inside",
   "item.society.ribbit_drum.description": "Nitwit Ribbits love to bang on this",
@@ -892,6 +893,10 @@
   "item.society.wayward_lantern.description": "Following pets will teleport here when they're far away from you.",
   "item.society.animal_cracker.description": "Give to a farm animal to permanently double its produce.",
   "item.society.sunlit_crystal.description": "Right click to house a farm animal in the plushie in your offhand.\nAnimals inside are always in a happy mood and cannot lose affection.\nThey can also be interacted with using Auto-Grabbers.",
+  "item.society.caterpillar_eggs.description": "Place in Caterpillar Box to hatch into a Butterfly or Moth!",
+  "item.society.caterpillar_eggs.longwing.type": "Type: %s",
+  "item.society.caterpillar_eggs.longwing.parents": "Parents: %s & %s",
+  "item.society.caterpillar_eggs.longwing.size": "Size: %s",
 
   "society.item.plushie.trait.description": "When housing an animal using a Sunlit Crystal:",
   "society.item.plushie.aquatic": "Aquatic",

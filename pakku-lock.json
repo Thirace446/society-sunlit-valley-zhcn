@@ -1417,7 +1417,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "certain_questing_additions-forge-1.1.7+mc1.20.1.jar",
+                    "file_name": "certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1425,19 +1425,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8048/68/certain_questing_additions-forge-1.1.7+mc1.20.1.jar",
-                    "id": "8048068",
+                    "url": "https://edge.forgecdn.net/files/8367/713/certain_questing_additions-forge-1.2.0.2+mc1.20.1.jar",
+                    "id": "8367713",
                     "parent_id": "1372051",
                     "hashes": {
-                        "sha1": "cc8ea7eb1f797a9198077ba6e97fc2db48c30461",
-                        "md5": "98951f1ff6a573dd663a39f3de83d674"
+                        "sha1": "4fda004986d58562ac62e8d61b60c7d66be4115c",
+                        "md5": "573306c204360552b2705ebd8ed57ee6"
                     },
                     "required_dependencies": [
-                        "289412",
-                        "419699"
+                        "419699",
+                        "289412"
                     ],
-                    "size": 1141295,
-                    "date_published": "2026-05-06T13:30:22.870Z"
+                    "size": 1220866,
+                    "date_published": "2026-07-04T07:51:55.890Z"
                 }
             ]
         },
@@ -12164,7 +12164,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "tooltipoverhaul-forge-1.20.1-1.4.2.jar",
+                    "file_name": "tooltipoverhaul-forge-1.20.1-1.5.0.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -12173,16 +12173,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7548/782/tooltipoverhaul-forge-1.20.1-1.4.2.jar",
-                    "id": "7548782",
+                    "url": "https://edge.forgecdn.net/files/8368/399/tooltipoverhaul-forge-1.20.1-1.5.0.jar",
+                    "id": "8368399",
                     "parent_id": "1327508",
                     "hashes": {
-                        "sha1": "693c9eeb6f7f1e80f8427be6c363bbb5c1872f0c",
-                        "md5": "69d69226507529a9047c3e41bf299f71"
+                        "sha1": "596a262b1f2d6c374ecb5da87e0013683022717e",
+                        "md5": "c3482294b7680889679464679e07ba0e"
                     },
                     "required_dependencies": [],
-                    "size": 459743,
-                    "date_published": "2026-01-30T02:17:45.130Z"
+                    "size": 573562,
+                    "date_published": "2026-07-04T11:08:13.600Z"
                 }
             ]
         },

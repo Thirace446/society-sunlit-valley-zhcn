@@ -53,7 +53,7 @@ BlockEvents.placed(
     "society:mini_artisan_hopper",
     "society:fish_pond_basket",
     "society:auto_grabber",
-    "society:fish_pond_quest_manager",
+    "society:fish_pond_manager",
   ],
   (e) => {
     const playerUUID = e.player.getUuid().toString();

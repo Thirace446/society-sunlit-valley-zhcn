@@ -1,20 +1,33 @@
 // priority: -21
-console.info("[SOCIETY] picklingCan.js loaded");
+console.info("[SOCIETY] caterpillarBox.js loaded");
 
 global.handleCaterpillarBox = (e) => {
   const { inventory, level, block } = e;
   const { x, y, z } = block;
   let slots = inventory.getSlots();
   let slotItem;
-  const belowPos = block.getPos().below();
-  const belowBlock = level.getBlock(belowPos.x, belowPos.y, belowPos.z);
   if (!inventory.isEmpty()) {
     for (let i = 0; i < slots; i++) {
       slotItem = inventory.getStackInSlot(i);
-      if (
-        slotItem !== Item.of("minecraft:air") &&
-        global.picklingRecipes.get(`${slotItem.id}`)
-      ) {
+      if (slotItem.id == "society:caterpillar_eggs") {
+        let type = "butterfly";
+        let longwingDef;
+        if (slotItem.nbt && slotItem.nbt.child) {
+          global.longwings.forEach((wing) => {
+            if (wing.variant === slotItem.nbt.child) {
+              longwingDef = wing
+            }
+          })
+          type = longwingDef.type;
+        }
+        let longwing = level.createEntity("longwings:" + type);
+        if (longwingDef) {
+          longwing.mergeNbt({ Variant: longwingDef.variant, size: Math.round((Math.min(global.getLongwingSize(longwingDef.size) * 2, slotItem.nbt.size)) / 2 * 100) / 100});
+        }
+        longwing.setPosition(x, y + 1, z);
+        longwing.spawn();
+        slotItem.shrink(1);
+        return;
       }
     }
   }

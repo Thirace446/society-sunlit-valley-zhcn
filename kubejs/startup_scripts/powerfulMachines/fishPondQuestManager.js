@@ -186,20 +186,20 @@ global.runFishPondQuestManager = (entity) => {
 
 StartupEvents.registry("block", (event) => {
   event
-    .create("society:fish_pond_quest_manager", "cardinal")
+    .create("society:fish_pond_manager", "cardinal")
     .tagBlock("minecraft:mineable/axe")
     .tagBlock("minecraft:needs_stone_tool")
     .defaultCutout()
     .item((item) => {
-      item.tooltip(Text.translatable("block.society.fish_pond_quest_manager.tooltip").gray());
+      item.tooltip(Text.translatable("block.society.fish_pond_manager.description").gray());
       item.tooltip(Text.translatable("society.working_block_entity.apply_player_skill").gray());
       item.tooltip(Text.translatable("tooltip.society.area", `21x21x21`).green());
       item.modelJson({
-        parent: "society:block/kubejs/fish_pond_quest_manager",
+        parent: "society:block/kubejs/fish_pond_manager",
       });
     })
     .soundType("copper")
-    .model("society:block/kubejs/fish_pond_quest_manager")
+    .model("society:block/kubejs/fish_pond_manager")
     .blockEntity((blockInfo) => {
       blockInfo.inventory(9, 2);
       blockInfo.initialData({ owner: "-1" });

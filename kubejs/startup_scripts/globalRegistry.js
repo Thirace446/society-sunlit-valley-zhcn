@@ -580,6 +580,7 @@ global.animalProducts = [
   { item: "buzzier_bees:bee_bottle", value: 16 },
   { item: "etcetera:cotton_flower", value: 24 },
   { item: "society:butterfly_amber", value: 64 },
+  { item: "society:caterpillar_eggs", value: 132 },
   { item: "society:moth_pollen", value: 128 },
   // Misc
   { item: "minecraft:leather", value: 8 },
@@ -1710,7 +1711,7 @@ global.fish.forEach((fish) => {
 });
 
 global.miscAdventurer = [
-  { item: "minecraft:dragon_breath", value: 4},
+  { item: "minecraft:dragon_breath", value: 4 },
   { item: "society:sunlit_pearl", value: 1920 },
   { item: "crittersandcompanions:clam", value: 512 },
   { item: "windswept:elder_feather", value: 128 },
@@ -1881,7 +1882,102 @@ global.plorts.forEach((plort) => {
     value: Math.floor(plort.value * 16),
   });
 });
-
+// Commented out ones are defined in longwings code but not obtainable. Maybe they'll be added?
+global.longwings = [
+  { variant: "monarch", rarity: 12, size: "normal", type: "butterfly" },
+  { variant: "giant_swallowtail", rarity: 7, size: "larger", type: "butterfly" },
+  { variant: "glasswing", rarity: 4, size: "normal", type: "butterfly" },
+  { variant: "blue_morpho", rarity: 4, size: "larger", type: "butterfly" },
+  { variant: "cabbage_white", rarity: 9, size: "small", type: "butterfly" },
+  { variant: "common_blue", rarity: 8, size: "small", type: "butterfly" },
+  { variant: "orange_tip", rarity: 8, size: "small", type: "butterfly" },
+  { variant: "sleepy_orange", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "zebra", rarity: 12, size: "normal", type: "butterfly" },
+  { variant: "julia", rarity: 10, size: "normal", type: "butterfly" },
+  // { variant: "giant_owl", rarity: 8, size: "normal", type: "butterfly" },
+  { variant: "queen", rarity: 8, size: "normal", type: "butterfly" },
+  { variant: "swallowtail", rarity: 7, size: "normal", type: "butterfly" },
+  { variant: "common_leopard", rarity: 7, size: "normal", type: "butterfly" },
+  { variant: "postman", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "shoemaker", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "malabar_banded_peacock", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "ruddy_daggerwing", rarity: 5, size: "small", type: "butterfly" },
+  { variant: "king_crow", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "hebes_pink_forester", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "red_spotted_purple", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "malachite", rarity: 7, size: "normal", type: "butterfly" },
+  { variant: "giant_glasswing", rarity: 4, size: "larger", type: "butterfly" },
+  { variant: "tailed_jay", rarity: 4, size: "normal", type: "butterfly" },
+  { variant: "comma", rarity: 8, size: "small", type: "butterfly" },
+  { variant: "sara_longwing", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "statira", rarity: 9, size: "normal", type: "butterfly" },
+  { variant: "rajah_brookes_birdwing", rarity: 4, size: "larger", type: "butterfly" },
+  { variant: "purple_king_shoemaker", rarity: 4, size: "normal", type: "butterfly" },
+  { variant: "dark_blue_tiger", rarity: 3, size: "normal", type: "butterfly" },
+  { variant: "archduke", rarity: 5, size: "small", type: "butterfly" },
+  { variant: "long_tailed_skipper", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "white_peacock", rarity: 8, size: "small", type: "butterfly" },
+  { variant: "dart_skipper", rarity: 9, size: "small", type: "butterfly" },
+  { variant: "plum_judy", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "plain_blue_crow", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "common_birdwing", rarity: 5, size: "larger", type: "butterfly" },
+  { variant: "zebra_swallowtail", rarity: 4, size: "normal", type: "butterfly" },
+  { variant: "sulphur", rarity: 6, size: "normal", type: "butterfly" },
+  { variant: "painted_lady", rarity: 12, size: "small", type: "butterfly" },
+  { variant: "small_copper", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "malay_lacewing", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "olivewing", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "novice", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "peacock", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "pearl_bordered_fritillary", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "gold_banded_forester", rarity: 4, size: "larger", type: "butterfly" },
+  { variant: "atala", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "pink_spotted_cattleheart", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "queen_alexandra_birdwing", rarity: 2, size: "larger", type: "butterfly" },
+  { variant: "marble", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "monk_skipper", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "large_tree_nymph", rarity: 4, size: "normal", type: "butterfly" },
+  { variant: "brimstone", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "black_swallowtail", rarity: 7, size: "normal", type: "butterfly" },
+  { variant: "ludlows_bhutan_swallowtail", rarity: 3, size: "larger", type: "butterfly" },
+  { variant: "great_purple_emperor", rarity: 5, size: "normal", type: "butterfly" },
+  { variant: "blue_pansy", rarity: 7, size: "normal", type: "butterfly" },
+  // { variant: "green_hairstreak", rarity: 7, size: "small", type: "butterfly" },
+  { variant: "mourning_cloak", rarity: 5, size: "small", type: "butterfly" },
+  { variant: "tropical_leafwing", rarity: 3, size: "normal", type: "butterfly" },
+  // { variant: "yellow_spotted_skipper", rarity: 4, size: "small", type: "butterfly" },
+  // { variant: "mangrove_skipper", rarity: 4, size: "small", type: "butterfly" },
+  { variant: "small_white_wave", rarity: 15, size: "small", type: "moth" },
+  { variant: "salt_marsh", rarity: 10, size: "normal", type: "moth" },
+  { variant: "tiger", rarity: 8, size: "normal", type: "moth" },
+  { variant: "rosy_maple", rarity: 6, size: "small", type: "moth" },
+  // { variant: "apamea", rarity: 15, size: "normal", type: "moth" }, 
+  { variant: "scarlet_bodied_wasp", rarity: 5, size: "normal", type: "moth" },
+  { variant: "luna", rarity: 4, size: "normal", type: "moth" },
+  { variant: "atlas", rarity: 1, size: "larger", type: "moth" },
+  { variant: "madagascan_sunset", rarity: 2, size: "larger", type: "moth" },
+  { variant: "cecropia", rarity: 4, size: "larger", type: "moth" },
+  { variant: "false_tiger", rarity: 10, size: "normal", type: "moth" },
+  { variant: "hummingbird_clearwing", rarity: 7, size: "small", type: "moth" },
+  { variant: "japanese_silk", rarity: 5, size: "normal", type: "moth" },
+  { variant: "marbled_emperor", rarity: 4, size: "normal", type: "moth" },
+  { variant: "imperial", rarity: 4, size: "normal", type: "moth" },
+  { variant: "oak_beauty", rarity: 9, size: "small", type: "moth" },
+  { variant: "dark_bordered_beauty", rarity: 5, size: "small", type: "moth" },
+  { variant: "silk", rarity: 6, size: "normal", type: "moth" },
+  // { variant: "mother_of_pearl", rarity: 5, size: "small", type: "moth" },
+  { variant: "july_belle", rarity: 7, size: "small", type: "moth" },
+  { variant: "omiza", rarity: 3, size: "normal", type: "moth" },
+  { variant: "chickweed", rarity: 8, size: "small", type: "moth" },
+  // { variant: "feathered_thorn", rarity: 5, size: "normal", type: "moth" },
+  { variant: "owl", rarity: 3, size: "larger", type: "moth" },
+  // { variant: "brown_scoopwing", rarity: 4, size: "small", type: "moth" },
+  { variant: "small_emerald", rarity: 5, size: "small", type: "moth" },
+  // { variant: "red_carpet", rarity: 6, size: "small", type: "moth" },
+  // { variant: "arched_hooktip", rarity: 6, size: "normal", type: "moth" },
+  // { variant: "small_emperor", rarity: 5, size: "small", type: "moth" },
+  { variant: "comet", rarity: 6, size: "larger", type: "moth" }
+];
 global.farmerProductMult = 1.0
 global.artisanProductMult = 1.0
 global.miningProductMult = 1.0
@@ -1960,7 +2056,7 @@ global.brews.forEach((brew) => {
 global.geodeList.forEach((treasure) => {
   const { item, value } = treasure;
   global.trades.set(item, {
-    value: global.getConfiguredValue(value, item === "society:froggy_helm" ? "meat" :"gem"),
+    value: global.getConfiguredValue(value, item === "society:froggy_helm" ? "meat" : "gem"),
     multiplier:
       item === "society:froggy_helm"
         ? "shippingbin:meat_sell_multiplier"
@@ -1970,7 +2066,7 @@ global.geodeList.forEach((treasure) => {
 global.frozenGeodeList.forEach((treasure) => {
   const { item, value } = treasure;
   global.trades.set(item, {
-    value: global.getConfiguredValue(value, item === "society:ribbit_drum" ? "meat" :"gem"),
+    value: global.getConfiguredValue(value, item === "society:ribbit_drum" ? "meat" : "gem"),
     multiplier:
       item === "society:ribbit_drum"
         ? "shippingbin:meat_sell_multiplier"
@@ -1980,7 +2076,7 @@ global.frozenGeodeList.forEach((treasure) => {
 global.magmaGeodeList.forEach((treasure) => {
   const { item, value } = treasure;
   global.trades.set(item, {
-    value: global.getConfiguredValue(value, item === "society:ribbit_gadget" ? "meat" :"gem"),
+    value: global.getConfiguredValue(value, item === "society:ribbit_gadget" ? "meat" : "gem"),
     multiplier:
       item === "society:ribbit_gadget"
         ? "shippingbin:meat_sell_multiplier"
@@ -2096,6 +2192,15 @@ global.slimeHearts.forEach((heart) => {
   const { type, value } = heart;
   global.trades.set(`splendid_slimes:slime_heart/${type}`, {
     value: global.getConfiguredValue(value, "crop"),
+    multiplier: "shippingbin:crop_sell_multiplier",
+  });
+});
+//   { variant: "atala", rarity: 7, size: "small", type: "butterfly" },
+// Formula: (16 - rarity) * 78
+global.longwings.forEach((heart) => {
+  const { variant, rarity } = heart;
+  global.trades.set(`longwings:variant/${variant}`, {
+    value: global.getConfiguredValue((16 - rarity * 78), "meat"),
     multiplier: "shippingbin:crop_sell_multiplier",
   });
 });

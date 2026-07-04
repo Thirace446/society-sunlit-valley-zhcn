@@ -263,7 +263,45 @@ ItemEvents.tooltip((tooltip) => {
       ]);
     }
   });
-
+  const getLongwingTooltips = (item, text) => {
+    let variant;
+    let size = 1.0;
+    let price = 1;
+    if (item.nbt) {
+      if (item.nbt.variant) {
+        variant = item.nbt.variant;
+      }
+      if (item.nbt.size && typeof item.nbt.size !== "function") {
+        size = item.nbt.size;
+      }
+    }
+    global.longwings.forEach((wing) => {
+      if (wing.variant == variant) price = (16 - wing.rarity) * 78;
+    });
+    price += Math.round((size / 0.01) * 4)  
+    if (tooltip.shift) {
+      getStackBonusValueTooltips(text, price, item, "meat", 0);
+    } else {
+      text.add(1, [
+        Text.translatable(
+          "tooltip.society.coins",
+          `${formatNumber(price, 0)}`
+        ).white(),
+        Text.of(" "),
+        Text.translatable(
+          "tooltip.society.hold_key",
+          Text.translatable("key.keyboard.shift").gray()
+        ).darkGray(),
+      ]);
+    }
+  }
+  // Item.of('longwings:moth', '{size:1.0f,variant:"small_emerald"}')
+  tooltip.addAdvanced("longwings:butterfly", (item, advanced, text) => {
+    getLongwingTooltips(item, text)
+  });
+  tooltip.addAdvanced("longwings:moth", (item, advanced, text) => {
+    getLongwingTooltips(item, text)
+  });
   // Ore
   global.ore.forEach((item) => {
     global.addPriceTooltip(tooltip, item, "gem");

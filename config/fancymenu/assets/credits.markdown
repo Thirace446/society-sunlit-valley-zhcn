@@ -34,7 +34,7 @@
 - Space_mex - Skillexpnotifier mod
 - Devon - Farmer's Almanac trees, various fixes
 - copixel - Fish Finder
-- Mayhan - Shipping Bin renaming, Various fix contributions
+- Mayhan - Fish Pond Manager, Shipping Bin renaming, Various fix contributions
 - Tomsauy - /debt commands
 - simonLeary42 - Offline caching for Artisan Hopper, Auto-Grabber, Fish Pond Basket
 

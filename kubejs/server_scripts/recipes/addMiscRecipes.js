@@ -504,6 +504,19 @@ ServerEvents.recipes((e) => {
     s: "society:sparkstone",
     N: "aquaculture:neptunium_ingot",
   });
+  e.shaped("society:fish_pond_hatchery", ["NSN", "sbs", "sss"], {
+    S: "society:sunlit_pearl",
+    b: "society:fish_pond_basket",
+    s: "oreganized:silver_ingot",
+    N: "aquaculture:algae",
+  });
+    e.shaped("society:fish_pond_manager", ["NCN", "ScS", "NbN"], {
+    c: "cozycafe:cafe_manager",
+    C: "minecraft:conduit",
+    b: "society:magic_bulb",
+    S: "society:sunlit_pearl",
+    N: "aquaculture:neptunium_ingot",
+  });
   // Fish
   e.shaped("society:fish_pond", [" j ", "PwP", "rNr"], {
     j: "society:river_jelly",
@@ -804,6 +817,17 @@ ServerEvents.recipes((e) => {
     e: "society:earth_crystal",
   });
   e.shaped(
+    "society:caterpillar_box",
+    ["isi", "aba", "iBi"],
+    {
+      s: "#minecraft:saplings",
+      i: "minecraft:iron_block",
+      b: "minecraft:barrel",
+      B: "society:battery",
+      a: "society:butterfly_amber",
+    }
+  );
+  e.shaped(
     "dew_drop_farmland_growth:diamond_sprinkler",
     ["nDn", " s ", " b "],
     {
@@ -885,10 +909,11 @@ ServerEvents.recipes((e) => {
     s: "society:sparkstone_block",
     h: "minecraft:goat_horn",
   });
-  e.shaped("society:drum_cornucopia", ["lLl", "lcl", "lLl"], {
+  e.shaped("society:drum_cornucopia", ["LLL", "lcl", "lbl"], {
     L: "minecraft:leather",
     c: "society:cornucopia",
-    l: "#botania:livingwood_logs"
+    b: "society:magic_bulb",
+    l: "meadow:fire_log"
   });
   e.shaped("society:mana_milker", ["rtr", "nMn", "lTl"], {
     r: "botania:rune_earth",
@@ -942,7 +967,7 @@ ServerEvents.recipes((e) => {
     g: "society:ribbit_gadget",
     f: "society:froggy_helm",
     s: "society:sparkstone",
-    S: "oreganized:silver_block",
+    S: "oreganized:silver_ingot",
     b: "etcetera:light_bulb",
   });
   [

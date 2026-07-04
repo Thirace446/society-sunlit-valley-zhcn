@@ -179,7 +179,7 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout()
     .item((item) => {
       item.tooltip(
-        Text.translatable("block.society.fish_pond_hatchery.description").gray()
+        Text.translatable("block.society.fish_pond_basket.description").gray()
       );
       item.tooltip(
         Text.translatable(
@@ -188,7 +188,7 @@ StartupEvents.registry("block", (event) => {
       );
       item.tooltip(
         Text.translatable(
-          "block.society.fish_pond_hatchery.description.upgrade"
+          "block.society.fish_pond_basket.description.upgrade"
         ).gold()
       );
       item.tooltip(Text.translatable("tooltip.society.area", `3x7x3`).green());

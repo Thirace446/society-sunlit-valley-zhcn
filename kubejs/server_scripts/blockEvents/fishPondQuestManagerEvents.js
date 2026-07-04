@@ -1,4 +1,4 @@
-BlockEvents.rightClicked("society:fish_pond_quest_manager", (e) => {
+BlockEvents.rightClicked("society:fish_pond_manager", (e) => {
   const { item, hand, player, level, block } = e;
   if (hand !== "MAIN_HAND" || item !== "create:clipboard") return;
   global.addItemCooldown(player, item, 10);
