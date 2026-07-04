@@ -6,6 +6,8 @@ crash-reports/
 emojiful/cache
 local/
 logs
+config/CSC/Data/variables.data
+config/CSC/Log/CSC_Record.log
 options.txt
 resourcepacks/*
 !/resourcepacks/sunlit_overrides.zip
