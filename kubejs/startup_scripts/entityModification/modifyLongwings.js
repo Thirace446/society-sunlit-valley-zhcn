@@ -7,26 +7,26 @@ global.getLongwingSize = (size) => {
 
 global.getLongwingFromEgg = (parent, coparent) => {
   if (parent === coparent) return parent;
-  
+
   let parent1;
   let parent2;
   global.longwings.forEach((wing, index) => {
     if (wing.variant == parent) parent1 = index;
     if (wing.variant == coparent) parent2 = index;
   });
-  
+
   let child = parent1 + parent2;
   if (global.longwings.length - 1 < child) child -= global.longwings.length;
-  
+
   let maxAllowedRarity = Math.min(global.longwings[parent1].rarity, global.longwings[parent2].rarity) - 1;
   let initialChild = child;
-  
+
   while (global.longwings[child].rarity < maxAllowedRarity) {
     child++;
     if (child >= global.longwings.length) child = 0;
     if (child === initialChild) break;
   }
-  
+
   return global.longwings[child].variant;
 };
 
@@ -34,7 +34,7 @@ global.handleLongwings = (entity, item) => {
   const { level } = entity;
   const entities = level
     .getEntitiesWithin(entity.boundingBox.inflate(8))
-    .filter((e) => global.checkEntityTag(e, "society:longwing"));
+    .filter((e) => e !== entity && global.checkEntityTag(e, "society:longwing"));
   const radius = 4;
   const { x, y, z } = entity;
   let scanBlock;
@@ -55,7 +55,7 @@ global.handleLongwings = (entity, item) => {
       if (!stolenBlock) stolenBlock = scanBlock;
     }
   }
-  const chance = Math.min(1, scannedBlocks * 0.15 - (entities.length - 1) * 0.1);
+  const chance = Math.min(1, scannedBlocks * 0.15 - entities.length * 0.1);
   if (chance > 0 && Math.random() <= chance) {
     let drop = level.createEntity("minecraft:item");
     drop.item = item;
@@ -67,15 +67,15 @@ global.handleLongwings = (entity, item) => {
       stolenBlock.set("minecraft:air");
     }
   }
-  if (entities.length > 1 && true &&  chance > 0 && Math.random() <= (chance / 4)) {
+  if (entities.length > 0 && true && chance > 0 && Math.random() <= (chance / 4)) {
     entities.sort((a, b) => a.distanceToSqr(entity) - b.distanceToSqr(entity));
-    let coparent = entities[1];
+    let coparent = entities[0];
     let eggs = level.createEntity("minecraft:item");
     let parentVariant = entity.getNbt().Variant;
     let coparentVariant = coparent.getNbt().Variant
     eggs.item = Item.of(
       "1x society:caterpillar_eggs",
-      `{parent:"${parentVariant}",coparent:"${coparentVariant}",child:"${global.getLongwingFromEgg(parentVariant, coparentVariant)}",size:${Math.round((entity.getNbt().size + coparent.getNbt().size) / 2 * 100) / 100}}`);
+      `{parent:"${parentVariant}",coparent:"${coparentVariant}",child:"${global.getLongwingFromEgg(parentVariant, coparentVariant)}",size:${Math.max(0.25, Math.round((entity.getNbt().size + coparent.getNbt().size) / 2 * 100) / 100)}}`);
     eggs.x = x + 0.5;
     eggs.y = y;
     eggs.z = z + 0.5;

@@ -153,13 +153,17 @@ ItemEvents.tooltip((tooltip) => {
         if (item.nbt) {
             text.add(
                 1,
+                Text.translatable("item.society.caterpillar_eggs.description").darkGray()
+            );
+            text.add(
+                2,
                 Text.translatable(
                     "item.society.caterpillar_eggs.longwing.type",
                     Text.translatable(`item.longwings.${item.nbt.getString("child")}`).gray()
                 ).green()
             );
             text.add(
-                2,
+                3,
                 Text.translatable(
                     "item.society.caterpillar_eggs.longwing.parents",
                     Text.translatable(`item.longwings.${item.nbt.getString("parent")}`).gray(),
@@ -167,16 +171,11 @@ ItemEvents.tooltip((tooltip) => {
                 ).lightPurple()
             );
             text.add(
-                3,
+                4,
                 Text.translatable(
                     "item.society.caterpillar_eggs.longwing.size",
                     `${item.nbt.getDouble("size")}`
                 ).darkGray()
-            );
-
-            text.add(
-                4,
-                Text.translatable("item.society.caterpillar_eggs.description").gray()
             );
         } else {
             text.add(
@@ -329,105 +328,4 @@ ItemEvents.tooltip((tooltip) => {
                 text.set(0, text.get(0).copy().darkAqua());
         });
     });
-    // Mastery
-    tooltip.add(
-        "society:treasure_totem",
-        Text.translatable("item.society.treasure_totem.description").gray()
-    );
-    tooltip.add(
-        "society:bubble_totem",
-        Text.translatable("item.society.bubble_totem.description").gray()
-    );
-    tooltip.add(
-        "society:needle_bobber",
-        Text.translatable("item.society.needle_bobber.description").gray()
-    );
-    tooltip.add(
-        "society:net_bobber",
-        Text.translatable("item.society.net_bobber.description").gray()
-    );
-    tooltip.add(
-        "domesticationinnovation:collar_tag",
-        Text.translatable("item.society.collar_tag.description").gray()
-    );
-    tooltip.add(
-        "domesticationinnovation:drum",
-        Text.translatable("item.society.drum.description").gray()
-    );
-    tooltip.add(
-        "domesticationinnovation:wayward_lantern",
-        Text.translatable("item.society.wayward_lantern.description").gray()
-    );
-    tooltip.add(
-        "society:animal_cracker",
-        Text.translatable("item.society.animal_cracker.description").gray()
-    );
-    tooltip.add(
-        "society:sunlit_crystal",
-        Text.translatable("item.society.sunlit_crystal.description").gray()
-    );
-    tooltip.add(
-        "society:plushie_wand",
-        Text.translatable("item.society.plushie_wand.description").gray()
-    );
-    const getMasteryTooltip = (id, mastery) => {
-        tooltip.addAdvanced(id, (item, advanced, text) => {
-            if (tooltip.shift) {
-                text.add(Text.translatable("tooltip.society.general_mastery.required"));
-                text.add(Text.translatable("tooltip.society.general_mastery.description").aqua());
-                text.add(Text.translatable(`tooltip.society.${mastery}_mastery`).gray());
-            } else {
-                text.add([
-                    Text.translatable("tooltip.society.general_mastery.required").append(" "),
-                    Text.translatable("tooltip.society.hold_key", Text.translatable("key.keyboard.shift").gray()).darkGray(),
-                ]);
-            }
-        });
-    }
-
-
-    [
-        "society:the_quality_of_the_earth",
-        "society:mystic_syrup",
-        "cluttered:willow_log",
-        "cluttered:willow_sapling",
-        "society:bubble_totem",
-        "society:treasure_totem",
-        "society:sparkpod_seed",
-        "society:sparkpod",
-        "society:statue_of_cravings",
-    ].forEach((item) => {
-        getMasteryTooltip(item, "farming")
-    });
-    [
-        "society:the_spark_also_rises",
-        "society:recycled_core",
-        "society:moon_statue",
-    ].forEach((item) => {
-        getMasteryTooltip(item, "mining")
-    });
-    [
-        "society:the_red_and_the_black",
-        "domesticationinnovation:drum",
-        "domesticationinnovation:wayward_lantern",
-        "domesticationinnovation:collar_tag",
-        "minecraft:enchanting_table",
-    ].forEach((item) => {
-        getMasteryTooltip(item, "adventuring")
-    });
-    [
-        "society:women_who_run_with_the_plushies",
-        "society:animal_cracker",
-        "society:sunlit_crystal",
-    ].forEach((item) => {
-        getMasteryTooltip(item, "husbandry")
-    });
-    [
-        "society:pond_house_five",
-        "society:roe_recycler",
-        "society:net_bobber",
-        "society:needle_bobber",
-    ].forEach((item) => {
-        getMasteryTooltip(item, "fishing")
-    })
 });

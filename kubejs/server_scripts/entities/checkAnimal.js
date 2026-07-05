@@ -27,7 +27,7 @@ ItemEvents.entityInteracted((e) => {
         if (!stolenBlock) stolenBlock = scanBlock;
       }
     }
-    let chance = scannedBlocks * 0.15 - (nearbyLongwings.length - 1) * 0.1;
+    let chance = scannedBlocks * 0.15 - nearbyLongwings.length * 0.1;
     let eggChance = chance <= 0 ? "0%" : `${Math.min(100, Math.floor((Math.min(1, chance) / 4) * 100))}%`;
     chance = chance <= 0 ? "0%" : `${Math.min(100, Math.floor(chance * 100))}%`;
     let product = target.type.toString().equals("longwings:butterfly") ? Text.translatable("item.society.butterfly_amber") : Text.translatable("item.society.moth_pollen");

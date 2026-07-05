@@ -618,6 +618,7 @@ ServerEvents.recipes((e) => {
     "betterarcheology:growth_totem",
     "bakery:baker_station",
     "farm_and_charm:silo_wood",
+    "liltractor:liltractor",
     "create_central_kitchen:cooking_guide",
     // Fisher
     "minecraft:fishing_rod",

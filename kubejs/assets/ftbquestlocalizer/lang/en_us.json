@@ -1580,7 +1580,7 @@
   "ftbquests.chapter.welcome.quest67486880FE3E2CCD.subtitle": "I can't stand the squirrels",
   "ftbquests.chapter.welcome.quest67486880FE3E2CCD.task.5994513234133630691.title": "Understood!",
   "ftbquests.chapter.welcome.quest67486880FE3E2CCD.title": "Muting Sounds",
-  "ftbquests.chapter.welcome.quest6EA5618181628D34.description1": "This pack has a configuration! Things like the Stardew Fishing minigame or hospital fees can be turned off.",
+  "ftbquests.chapter.welcome.quest6EA5618181628D34.description1": "This pack has a configuration! Things like multiplayer sharestones or hospital fees can be turned on or off.",
   "ftbquests.chapter.welcome.quest6EA5618181628D34.description2": "In the modpack folder, go to the folder &6kubejs&r and then &6startup_scripts&r.",
   "ftbquests.chapter.welcome.quest6EA5618181628D34.description3": "Find the file &6_config.js&r, and open it up with Notepad. Update the values save the file, and restart the game.",
   "ftbquests.chapter.welcome.quest6EA5618181628D34.description4": "If you're on a server, the server admin may need to change these values as well.",

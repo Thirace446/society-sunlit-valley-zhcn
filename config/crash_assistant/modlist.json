@@ -221,13 +221,13 @@
     "curseForgeHash": 2325681367,
     "modrinthHash": "c53d9eb5ce9e8ef0f2ea9b11e478d84ce958c3e5"
   },
-  "Botania-1.20.1-453-FORGE.jar": {
-    "jarName": "Botania-1.20.1-453-FORGE.jar",
+  "Botania-1.20.1-454-FORGE.jar": {
+    "jarName": "Botania-1.20.1-454-FORGE.jar",
     "modId": "botania",
     "name": "Botania",
-    "version": "1.20.1-453-FORGE",
-    "curseForgeHash": 108609829,
-    "modrinthHash": "38e2edbf0fa91c573cbbbf3f8bb88a07e220aa8d"
+    "version": "1.20.1-454-FORGE",
+    "curseForgeHash": 3773314933,
+    "modrinthHash": "7e167de1c70738fd9f29a00556f1c5ebb1daf34d"
   },
   "botania_seeds-1.1.1.jar": {
     "jarName": "botania_seeds-1.1.1.jar",
@@ -405,21 +405,21 @@
     "curseForgeHash": 1136338572,
     "modrinthHash": "840036c824edfe6e155f4488337e5f5aec26a17f"
   },
-  "colorwheel-forge-1.2.1+mc1.20.1.jar": {
-    "jarName": "colorwheel-forge-1.2.1+mc1.20.1.jar",
+  "colorwheel-forge-1.2.9+mc1.20.1.jar": {
+    "jarName": "colorwheel-forge-1.2.9+mc1.20.1.jar",
     "modId": "colorwheel",
     "name": "Colorwheel",
-    "version": "1.2.1+mc1.20.1",
-    "curseForgeHash": 4138397164,
-    "modrinthHash": "791578afecd261f0d03669db993b35d14badc1a9"
+    "version": "1.2.9+mc1.20.1",
+    "curseForgeHash": 1778224379,
+    "modrinthHash": "a179a98c4515742848159a81dd3e183ab7d0a2c7"
   },
-  "colorwheel_patcher-forge-1.0.4+mc1.20.1.jar": {
-    "jarName": "colorwheel_patcher-forge-1.0.4+mc1.20.1.jar",
+  "colorwheel_patcher-forge-1.0.5+mc1.20.1.jar": {
+    "jarName": "colorwheel_patcher-forge-1.0.5+mc1.20.1.jar",
     "modId": "colorwheel_patcher",
     "name": "Colorwheel Patcher",
-    "version": "1.0.4+mc1.20.1",
-    "curseForgeHash": 2060817090,
-    "modrinthHash": "a8ae8241362d7de40fd8909f942c3b1362779bd6"
+    "version": "1.0.5+mc1.20.1",
+    "curseForgeHash": 908356253,
+    "modrinthHash": "386458190144b431ac0a7151785bb639cdff2a62"
   },
   "comforts-forge-6.4.0+1.20.1.jar": {
     "jarName": "comforts-forge-6.4.0+1.20.1.jar",
@@ -498,14 +498,6 @@
     "curseForgeHash": 3614955629,
     "modrinthHash": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea"
   },
-  "cozycafe-1.0-all.jar": {
-    "jarName": "cozycafe-1.0-all.jar",
-    "modId": "cozycafe",
-    "name": "Cozy Cafe",
-    "version": "1.0",
-    "curseForgeHash": 2754346383,
-    "modrinthHash": "d8e3ff15e71433d17d4f437b9322f2ad2931e584"
-  },
   "CrabbersDelight-1.20.1-1.1.7d.jar": {
     "jarName": "CrabbersDelight-1.20.1-1.1.7d.jar",
     "modId": "crabbersdelight",
@@ -530,13 +522,13 @@
     "curseForgeHash": 1007694343,
     "modrinthHash": "1c93d31216aa53e53e97f4e24adb899673accb52"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.11.9.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.11.9.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.11.10.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.11.10.jar",
     "modId": "crash_assistant",
     "name": "Crash Assistant",
-    "version": "1.11.9",
-    "curseForgeHash": 289595968,
-    "modrinthHash": "e94c49268c83301ee066dca9501c4b5fa902b33d"
+    "version": "1.11.10",
+    "curseForgeHash": 915431175,
+    "modrinthHash": "b70324f326cffc2c01e4eee9bf48f808f92bda10"
   },
   "crashutilities-8.1.4.jar": {
     "jarName": "crashutilities-8.1.4.jar",
@@ -826,21 +818,21 @@
     "curseForgeHash": 892862891,
     "modrinthHash": "306a2c3938246550e9c50fd06a17956e9c20e164"
   },
-  "emi-1.1.22+1.20.1+forge.jar": {
-    "jarName": "emi-1.1.22+1.20.1+forge.jar",
+  "emi-1.1.24+1.20.1+forge.jar": {
+    "jarName": "emi-1.1.24+1.20.1+forge.jar",
     "modId": "emi",
     "name": "EMI",
-    "version": "1.1.22+1.20.1+forge",
-    "curseForgeHash": 104637065,
-    "modrinthHash": "d8049d6ec86befcd100a0ff0fc8ebc289f735997"
+    "version": "1.1.24+1.20.1+forge",
+    "curseForgeHash": 573012167,
+    "modrinthHash": "ea320200878e4a49196760234a22da763671520a"
   },
-  "emixx-forge-1.4.0.jar": {
-    "jarName": "emixx-forge-1.4.0.jar",
+  "emixx-forge-1.5.1.jar": {
+    "jarName": "emixx-forge-1.5.1.jar",
     "modId": "emixx",
     "name": "EMI++",
-    "version": "1.4.0",
-    "curseForgeHash": 1678723589,
-    "modrinthHash": "23361abccf76787056a32cfb8c6f8424b81cfb34"
+    "version": "1.5.1",
+    "curseForgeHash": 3150861670,
+    "modrinthHash": "7bf56799042bb929418a497b08218e8a922e9d9e"
   },
   "Emojiful-Forge-1.20.1-4.2.0.jar": {
     "jarName": "Emojiful-Forge-1.20.1-4.2.0.jar",
@@ -1250,6 +1242,14 @@
     "curseForgeHash": 284323107,
     "modrinthHash": "9926bb85531bc5db1e7621de135896e4b928f3e5"
   },
+  "hobbit_hill_village-0.0.4.jar": {
+    "jarName": "hobbit_hill_village-0.0.4.jar",
+    "modId": "hobbit_hill_village",
+    "name": "Hobbit Hill Village",
+    "version": "0.0.4",
+    "curseForgeHash": 1332087795,
+    "modrinthHash": "d4ad726af786f96182878a0630ef5fab8aba122c"
+  },
   "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar": {
     "jarName": "HopoBetterMineshaft-[1.20.1-1.20.4]-1.2.2d.jar",
     "modId": "hopo",
@@ -1274,13 +1274,13 @@
     "curseForgeHash": 263977206,
     "modrinthHash": "d551ff55814cfb01403b812459ee5a02b020d87b"
   },
-  "ImmediatelyFast-Forge-1.5.4+1.20.4.jar": {
-    "jarName": "ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+  "ImmediatelyFast-Forge-1.5.5+1.20.4.jar": {
+    "jarName": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
     "modId": "immediatelyfast",
     "name": "ImmediatelyFast",
-    "version": "1.5.4+1.20.4",
-    "curseForgeHash": 4234781540,
-    "modrinthHash": "e2e60485a0c3efa72f1948c952b095150e3ba4fc"
+    "version": "1.5.5+1.20.4",
+    "curseForgeHash": 220541488,
+    "modrinthHash": "9eacd407b7dea636d375dc47335d92f616484ea2"
   },
   "immersive_paintings-0.6.8+1.20.1-forge.jar": {
     "jarName": "immersive_paintings-0.6.8+1.20.1-forge.jar",
@@ -1919,13 +1919,13 @@
     "curseForgeHash": 3174429337,
     "modrinthHash": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f"
   },
-  "Platform-forge-1.20.1-1.3.3.jar": {
-    "jarName": "Platform-forge-1.20.1-1.3.3.jar",
+  "Platform-forge-1.20.1-1.3.4.jar": {
+    "jarName": "Platform-forge-1.20.1-1.3.4.jar",
     "modId": "platform",
     "name": "Platform",
-    "version": "1.3.3",
-    "curseForgeHash": 1481783712,
-    "modrinthHash": "8512d726e006207052147c5919846a33913fe1bd"
+    "version": "1.3.4",
+    "curseForgeHash": 217260071,
+    "modrinthHash": "066cc06802107183d6a1028a5e358a2bfd505402"
   },
   "player-animation-lib-forge-1.0.2-rc1+1.20.jar": {
     "jarName": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
@@ -2351,13 +2351,13 @@
     "curseForgeHash": 3402444196,
     "modrinthHash": "15296a7d8942a7a3376f293265b5146af6c42ec7"
   },
-  "society-1.15.jar": {
-    "jarName": "society-1.15.jar",
+  "society-1.16.jar": {
+    "jarName": "society-1.16.jar",
     "modId": "society",
     "name": "Society",
-    "version": "1.15",
-    "curseForgeHash": 710360043,
-    "modrinthHash": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204"
+    "version": "1.16",
+    "curseForgeHash": 3566033015,
+    "modrinthHash": "94a081aa2d2ea34a3ab242836fbc6e114b0834a9"
   },
   "society_trading-1.2.4.jar": {
     "jarName": "society_trading-1.2.4.jar",
@@ -2639,13 +2639,13 @@
     "curseForgeHash": 1881972453,
     "modrinthHash": "8810bc55f7603ec7a6317c1b7e288b80ff313e1e"
   },
-  "VanillaBackport-forge-1.20.1-1.1.7.6.jar": {
-    "jarName": "VanillaBackport-forge-1.20.1-1.1.7.6.jar",
+  "VanillaBackport-forge-1.20.1-1.1.7.10.jar": {
+    "jarName": "VanillaBackport-forge-1.20.1-1.1.7.10.jar",
     "modId": "vanillabackport",
     "name": "VanillaBackport",
-    "version": "1.1.7.6",
-    "curseForgeHash": 3603432171,
-    "modrinthHash": "fa93aa300bdc8273b96701437d6ff5939a16c55f"
+    "version": "1.1.7.10",
+    "curseForgeHash": 3913788548,
+    "modrinthHash": "a5ca598c0badd4b37a7b133ae8d2d9bf4cc20c40"
   },
   "VeggiesDelight-1.20.1-1.9.2.jar": {
     "jarName": "VeggiesDelight-1.20.1-1.9.2.jar",
