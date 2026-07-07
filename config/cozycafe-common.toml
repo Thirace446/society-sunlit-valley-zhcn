@@ -35,5 +35,5 @@ pickle_bonus_stage = "brine_and_punishment"
 numismatics_utils_payment = true
 #Chance a customer orders a dessert, if the menu has any.
 #Range: 0.0 ~ 1.0
-dessert_chance = 0.25
+dessert_chance = 0.4
 
