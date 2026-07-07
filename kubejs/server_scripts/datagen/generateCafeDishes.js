@@ -10,16 +10,21 @@
 //     ["bottle", "drink", "eggnog", "coffee", "latte", "_tea", "juice", "cider", "hot_chocolate"].forEach((keyword) => {
 //         if (dish.item.path.includes(keyword)) category = "drink"
 //     });
+//     let modid = dish.item.split(':')[0];
 
-//     JsonIO.write(`kubejs/data/cozycafe/menu/${dish.item.replace(":", "_")}.json`,
-//         {
-//             "item": dish.item,
-//             "category": categoryOverride || category,
-//             "price": dish.value,
-//             "product_type": productType,
-//             "flavors": [],
-//             "themes": []
-//         });
+//     try {
+//         JsonIO.write(`kubejs/data/cozycafe/menu/${modid}/${dish.item.split(":")[1]}.json`,
+//             {
+//                 "item": dish.item,
+//                 "category": categoryOverride || category,
+//                 "price": dish.value,
+//                 "product_type": productType,
+//                 "flavors": [],
+//                 "themes": []
+//             });
+//     } catch (err) {
+//         console.error(`Failed to write JSON for ${modid}: ${err}`);
+//     }
 //     wikiTable.push({ name: formatItemName(dish.item), price: dish.value, category: categoryOverride || category, productType: productType })
 // }
 // global.cooking.forEach((dish) => {
