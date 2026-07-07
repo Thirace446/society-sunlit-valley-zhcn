@@ -1,10 +1,10 @@
 #How many menu items are required to open your cafe, per star + 1. Has a very large impact on difficulty!
-#Range: 1 ~ 256
+#Range: 0 ~ 5
 menu_size_per_star = 3
 #The minimum seconds it can take for a customer to spawn at max reputation. Every star of reputation adds 20% of this value. For example, if its set to 20 seconds, these are the times per star: 400 | 320 | 240 | 160 | 80 | 20,
 #Range: 4 ~ 4096
 customer_spawn_interval = 30
-#Chance an additional customer is added to the currently spawning group of customers. Repeats until a roll is failed or 4 customers are spawned,
+#Chance an additional customer is added to the currently spawning group of customers. Repeats until a roll is failed or 4 customers are spawned/
 #Range: 0.0 ~ 1.0
 group_customer_chance = 0.5
 #How long a customer will wait for their order, in ticks.
@@ -33,4 +33,7 @@ quality_bonus_stage = "the_quality_of_the_earth"
 pickle_bonus_stage = "brine_and_punishment"
 #Allows customers to pay to player's bank account directly if Create Numismatics Utils is installed. Set to false if you don't want that to happen.
 numismatics_utils_payment = true
+#Chance a customer orders a dessert, if the menu has any.
+#Range: 0.0 ~ 1.0
+dessert_chance = 0.25
 

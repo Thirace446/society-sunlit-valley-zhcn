@@ -498,6 +498,14 @@
     "curseForgeHash": 3614955629,
     "modrinthHash": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea"
   },
+  "cozycafe-1.0-all.jar": {
+    "jarName": "cozycafe-1.0-all.jar",
+    "modId": "cozycafe",
+    "name": "Cozy Cafe",
+    "version": "1.0",
+    "curseForgeHash": 2754346383,
+    "modrinthHash": "d8e3ff15e71433d17d4f437b9322f2ad2931e584"
+  },
   "CrabbersDelight-1.20.1-1.1.7d.jar": {
     "jarName": "CrabbersDelight-1.20.1-1.1.7d.jar",
     "modId": "crabbersdelight",
@@ -2734,6 +2742,14 @@
     "version": "1.1",
     "curseForgeHash": 3494631913,
     "modrinthHash": "7408d13c279d640879857fe59ab6d22c9feafed4"
+  },
+  "wikizoomer-1.0.4-1.20.1.jar": {
+    "jarName": "wikizoomer-1.0.4-1.20.1.jar",
+    "modId": "wikizoomer",
+    "name": "Wiki Zoomer Unofficial",
+    "version": "1.0.4",
+    "curseForgeHash": 2146319522,
+    "modrinthHash": "79f6cb57506f9a99fd2bd825513a7919ff201e56"
   },
   "windswept-1.20.1-3.0.4.jar": {
     "jarName": "windswept-1.20.1-3.0.4.jar",

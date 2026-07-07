@@ -2394,6 +2394,42 @@
             ]
         },
         {
+            "pakku_id": "byg6lUfkCtYHj3ks",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cozy-cafe"
+            },
+            "name": {
+                "curseforge": "Cozy Cafe"
+            },
+            "id": {
+                "curseforge": "1590319"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cozycafe-1.0-all.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8389/93/cozycafe-1.0-all.jar",
+                    "id": "8389093",
+                    "parent_id": "1590319",
+                    "hashes": {
+                        "sha1": "f11787589fd8b86e831cbb2597462d74acc01fec",
+                        "md5": "20385d5b3bb864de416a61bb05cf5f1b"
+                    },
+                    "required_dependencies": [],
+                    "size": 387679,
+                    "date_published": "2026-07-07T20:16:12.427Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vcqzJlT4u8igeX16",
             "pakku_links": [
                 "d68PQzeRJiHfvcfD",

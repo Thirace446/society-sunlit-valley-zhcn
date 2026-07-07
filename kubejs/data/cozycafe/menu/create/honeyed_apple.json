@@ -1,7 +1,7 @@
 {
 	"item": "create:honeyed_apple",
-	"category": "main",
-	"price": 44,
+	"category": "dessert",
+	"price": 66,
 	"product_type": "farmer",
 	"flavors": [],
 	"themes": []

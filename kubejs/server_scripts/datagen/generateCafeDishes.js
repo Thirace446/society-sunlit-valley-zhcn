@@ -3,7 +3,7 @@
 // let wikiTable = []
 // let dishGenerator = (dish, productType, categoryOverride) => {
 //     let category = "main";
-//     ["jam", "tart", "sorbet", "muffin", "candy", "candied", "pie", "cake", "cookie", "pudding", "jam", "jelly", "sweet", "tart", "chocolate", "snow", "gateau"].forEach((keyword) => {
+//     ["jam", "tart", "sorbet", "muffin", "candy", "candied", "pie", "cake", "cookie", "pudding", "jam", "jelly", "sweet", "tart", "chocolate", "snow", "gateau", "custard", "honey"].forEach((keyword) => {
 //         if (dish.item.path.includes(keyword)) category = "dessert"
 //     });
 
@@ -17,7 +17,7 @@
 //             {
 //                 "item": dish.item,
 //                 "category": categoryOverride || category,
-//                 "price": dish.value,
+//                 "price": dish.value * 1.5,
 //                 "product_type": productType,
 //                 "flavors": [],
 //                 "themes": []
@@ -25,7 +25,7 @@
 //     } catch (err) {
 //         console.error(`Failed to write JSON for ${modid}: ${err}`);
 //     }
-//     wikiTable.push({ name: formatItemName(dish.item), price: dish.value, category: categoryOverride || category, productType: productType })
+//     wikiTable.push({ name: formatItemName(dish.item), price: dish.value * 1.5, category: categoryOverride || category, productType: productType })
 // }
 // global.cooking.forEach((dish) => {
 //     dishGenerator(dish, "farmer")

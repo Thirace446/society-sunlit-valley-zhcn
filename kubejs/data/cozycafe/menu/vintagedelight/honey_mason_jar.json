@@ -1,7 +1,7 @@
 {
 	"item": "vintagedelight:honey_mason_jar",
-	"category": "main",
-	"price": 33,
+	"category": "dessert",
+	"price": 49.5,
 	"product_type": "farmer",
 	"flavors": [],
 	"themes": []

@@ -1,7 +1,7 @@
 {
 	"item": "create:bar_of_chocolate",
 	"category": "dessert",
-	"price": 42,
+	"price": 63,
 	"product_type": "farmer",
 	"flavors": [],
 	"themes": []
