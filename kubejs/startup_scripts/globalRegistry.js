@@ -2227,7 +2227,7 @@ global.slimeHearts.forEach((heart) => {
 global.longwings.forEach((heart) => {
   const { variant, rarity } = heart;
   global.trades.set(`longwings:variant/${variant}`, {
-    value: global.getConfiguredValue((16 - rarity * 78), "meat"),
-    multiplier: "shippingbin:crop_sell_multiplier",
+    value: global.getConfiguredValue((16 - rarity) * 78, "meat"),
+    multiplier: "shippingbin:meat_sell_multiplier",
   });
 });

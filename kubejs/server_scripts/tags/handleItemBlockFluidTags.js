@@ -767,7 +767,13 @@ ServerEvents.tags("block", (e) => {
     "society:ribbit_hut_block",
     "society:roe_recycler",
     "society:pickling_can",
-    "society:mana_fruit_crop"
+    "society:mana_fruit_crop",
+    "shippingbin:smart_shipping_bin",
+    "shippingbin:basic_shipping_bin",
+    "society_trading:auto_trader",
+    "society:fish_pond_manager",
+    "society:fish_pond_hatchery",
+    "society:caterpillar_box"
   ].forEach((block) => {
     immovableTags.forEach((tag) => {
       e.add(tag, block);
