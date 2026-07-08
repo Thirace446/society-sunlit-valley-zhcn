@@ -1909,6 +1909,7 @@ global.plorts.forEach((plort) => {
     value: Math.floor(plort.value * 16),
   });
 });
+
 // Commented out ones are defined in longwings code but not obtainable. Maybe they'll be added?
 global.longwings = [
   { variant: "monarch", rarity: 12, size: "normal", type: "butterfly" },
