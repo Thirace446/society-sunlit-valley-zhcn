@@ -7,7 +7,7 @@
 //         if (dish.item.path.includes(keyword)) category = "dessert"
 //     });
 
-//     ["bottle", "drink", "eggnog", "coffee", "latte", "_tea", "juice", "cider", "hot_chocolate"].forEach((keyword) => {
+//     ["bottle", "drink", "eggnog", "coffee", "latte", "_tea", "juice", "cider", "hot_cocoa"].forEach((keyword) => {
 //         if (dish.item.path.includes(keyword)) category = "drink"
 //     });
 //     let modid = dish.item.split(':')[0];

@@ -179,9 +179,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 10L
+				count: 8L
 				id: "37C96B9C3AB00CB1"
-				item: { Count: 10, id: "numismatics:sun" }
+				item: "numismatics:sun"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.iii__advanced_farming.quest44A512703C4A9990.title}"
@@ -1261,8 +1261,8 @@
 				item: "moreminecarts:chiseled_organic_glass"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -0.5d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["263CCA4D2EAF2629"]
@@ -1311,6 +1311,80 @@
 			title: "Butterfly Breeding!"
 			x: 5.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["44A512703C4A9990"]
+			description: [
+				"It might be the time to open up your first Cafe!"
+				""
+				"The &6Cafe Manager&r will allow you to create a place where customers come to eat at. The menu is fully customizable, allowing you to serve whatever your farm specializes in."
+				""
+				"Items sold in your cafe are worth &650% more&r! Fast service will also get you up to&6 100% more&r in tips. Your skills will also be used, making this worth the time investment. "
+			]
+			id: "52844505B8DFD385"
+			rewards: [
+				{
+					id: "4CF75ABDF160ECF8"
+					item: "cozycafe:cafe_sign"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "29821E079677C149"
+					item: "cozycafe:cafe_menu"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F0D23DBCA7E62DC"
+				item: "cozycafe:cafe_manager"
+				type: "item"
+			}]
+			title: "Opening a Cozy Cafe"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52844505B8DFD385"]
+			description: [
+				"Main dishes in your &6cafe&r will need to be plated before serving!"
+				""
+				"A &6Plating Station&r is used to plate these items."
+				""
+				"Note that dishes that already come with a bowl will not need to be plated, if you prefer not washing dishes!"
+			]
+			icon: {
+				Count: 1
+				id: "cozycafe:serving_plate"
+				tag: {
+					platedFood: {
+						Count: 1b
+						id: "veggiesdelight:vegetables_wrap"
+					}
+				}
+			}
+			id: "2B8A8B8E56690406"
+			rewards: [{
+				id: "4837D9173BA5B716"
+				item: "cluttered:kitchen_set_brown_counter_sink"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4CB168301302933D"
+					item: "cozycafe:plating_station"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "37706D067217EFBD"
+					item: { Count: 4, id: "cozycafe:serving_plate" }
+					type: "item"
+				}
+			]
+			title: "Plating Up"
+			x: 10.5d
+			y: -0.5d
 		}
 	]
 	title: "{ftbquests.chapter.iii__advanced_farming.title}"

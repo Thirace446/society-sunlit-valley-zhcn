@@ -4,6 +4,7 @@ ServerEvents.recipes((e) => {
   e.remove({ mod: "justhammers" });
   e.remove({ mod: "itemfilters" });
   const removeByOutput = [
+    'cozycafe:cafe_manager',
     "domesticationinnovation:drum",
     "domesticationinnovation:pet_bed_white",
     "domesticationinnovation:collar_tag",
