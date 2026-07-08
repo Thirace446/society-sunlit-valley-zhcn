@@ -2,7 +2,7 @@
 	"item": "society:smoked_eyelash",
 	"category": "main",
 	"price": 2880,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

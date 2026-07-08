@@ -1,8 +1,8 @@
 {
 	"item": "veggiesdelight:vegetables_wrap",
 	"category": "main",
-	"price": 409.5,
-	"product_type": "farmer",
+	"price": 410,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

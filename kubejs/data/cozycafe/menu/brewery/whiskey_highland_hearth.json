@@ -2,7 +2,7 @@
 	"item": "brewery:whiskey_highland_hearth",
 	"category": "drink",
 	"price": 558,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

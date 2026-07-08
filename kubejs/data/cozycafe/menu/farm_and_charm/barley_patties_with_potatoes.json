@@ -2,7 +2,7 @@
 	"item": "farm_and_charm:barley_patties_with_potatoes",
 	"category": "main",
 	"price": 360,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

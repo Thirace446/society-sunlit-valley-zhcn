@@ -1,8 +1,8 @@
 {
 	"item": "society:dried_tubabacco_leaf",
 	"category": "main",
-	"price": 196.5,
-	"product_type": "farmer",
+	"price": 197,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

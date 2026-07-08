@@ -2,7 +2,7 @@
 	"item": "farm_and_charm:onion_soup",
 	"category": "main",
 	"price": 96,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

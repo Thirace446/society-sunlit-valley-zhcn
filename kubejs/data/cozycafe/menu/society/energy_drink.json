@@ -1,8 +1,8 @@
 {
 	"item": "society:energy_drink",
 	"category": "drink",
-	"price": 580.5,
-	"product_type": "farmer",
+	"price": 581,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

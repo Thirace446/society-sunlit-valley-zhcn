@@ -2,7 +2,7 @@
 	"item": "wildernature:cooked_bison_meat",
 	"category": "main",
 	"price": 144,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

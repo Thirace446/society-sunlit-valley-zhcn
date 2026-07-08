@@ -1,8 +1,8 @@
 {
 	"item": "bakery:linzer_tart",
 	"category": "dessert",
-	"price": 4657.5,
-	"product_type": "farmer",
+	"price": 4658,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

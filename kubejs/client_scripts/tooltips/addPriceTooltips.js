@@ -54,6 +54,26 @@ const getStackBonusValueTooltips = (text, number, item, attribute, quality) => {
       ).aqua()
     );
   }
+
+  if (
+    clientStages.has("the_metamorphosize") &&
+    ["longwings:moth", "longwings:butterfly"].includes(item.id)
+  ) {
+    hasMultipliers = true;
+    let size = 1.0;
+    if (item.nbt) {
+      if (item.nbt.size && typeof item.nbt.size !== "function") {
+        size = item.nbt.size;
+      }
+    }
+    let increase = Number(Math.round((size / 0.01) * 4) * 2);
+    value += increase;
+    bonusTooltips.push(
+      Text.translatable(
+        "item.society.the_metamorphosize.price_modifier", String(increase)
+      ).aqua()
+    );
+  }
   if (
     quality > 0 &&
     clientStages.has("the_quality_of_the_earth") &&
@@ -278,7 +298,7 @@ ItemEvents.tooltip((tooltip) => {
     global.longwings.forEach((wing) => {
       if (wing.variant == variant) price = (16 - wing.rarity) * 78;
     });
-    price += Math.round((size / 0.01) * 4)  
+    price += Math.round((size / 0.01) * 4)
     if (tooltip.shift) {
       getStackBonusValueTooltips(text, price, item, "meat", 0);
     } else {

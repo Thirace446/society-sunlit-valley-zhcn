@@ -1,8 +1,8 @@
 {
 	"item": "farm_and_charm:roasted_chicken",
 	"category": "main",
-	"price": 211.5,
-	"product_type": "farmer",
+	"price": 212,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

@@ -1,8 +1,8 @@
 {
 	"item": "bakery:bread_crate",
 	"category": "main",
-	"price": 133.5,
-	"product_type": "farmer",
+	"price": 134,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

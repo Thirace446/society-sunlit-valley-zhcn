@@ -2,7 +2,7 @@
 	"item": "brewery:whiskey_smokey_reverie",
 	"category": "drink",
 	"price": 477,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

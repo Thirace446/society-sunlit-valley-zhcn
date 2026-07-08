@@ -1,8 +1,8 @@
 {
 	"item": "brewery:beer_haley",
 	"category": "drink",
-	"price": 220.5,
-	"product_type": "artisan",
+	"price": 221,
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

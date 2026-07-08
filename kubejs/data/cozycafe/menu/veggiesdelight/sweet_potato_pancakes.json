@@ -2,7 +2,7 @@
 	"item": "veggiesdelight:sweet_potato_pancakes",
 	"category": "dessert",
 	"price": 1008,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

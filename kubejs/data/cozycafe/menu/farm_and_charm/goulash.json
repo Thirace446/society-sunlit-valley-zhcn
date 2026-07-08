@@ -2,7 +2,7 @@
 	"item": "farm_and_charm:goulash",
 	"category": "main",
 	"price": 927,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

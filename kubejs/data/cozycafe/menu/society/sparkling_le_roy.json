@@ -2,7 +2,7 @@
 	"item": "society:sparkling_le_roy",
 	"category": "drink",
 	"price": 4308,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

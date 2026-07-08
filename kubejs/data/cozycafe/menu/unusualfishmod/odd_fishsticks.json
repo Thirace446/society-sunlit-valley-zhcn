@@ -2,7 +2,7 @@
 	"item": "unusualfishmod:odd_fishsticks",
 	"category": "main",
 	"price": 201,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

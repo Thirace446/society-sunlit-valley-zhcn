@@ -1,8 +1,8 @@
 {
 	"item": "bakery:glowberry_tart",
 	"category": "dessert",
-	"price": 157.5,
-	"product_type": "farmer",
+	"price": 158,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

@@ -2,7 +2,7 @@
 	"item": "brewery:fried_chicken",
 	"category": "main",
 	"price": 342,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

@@ -1,8 +1,8 @@
 {
 	"item": "refurbished_furniture:cooked_vegetable_pizza",
 	"category": "main",
-	"price": 931.5,
-	"product_type": "farmer",
+	"price": 932,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

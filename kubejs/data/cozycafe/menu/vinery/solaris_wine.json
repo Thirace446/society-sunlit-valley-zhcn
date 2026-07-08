@@ -2,7 +2,7 @@
 	"item": "vinery:solaris_wine",
 	"category": "drink",
 	"price": 864,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

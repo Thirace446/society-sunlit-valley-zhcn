@@ -1,8 +1,8 @@
 {
 	"item": "netherdepthsupgrade:magmacubefish_roll",
 	"category": "main",
-	"price": 2653.5,
-	"product_type": "farmer",
+	"price": 2654,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

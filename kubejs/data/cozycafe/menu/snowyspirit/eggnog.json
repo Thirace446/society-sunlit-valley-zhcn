@@ -1,8 +1,8 @@
 {
 	"item": "snowyspirit:eggnog",
 	"category": "drink",
-	"price": 91.5,
-	"product_type": "farmer",
+	"price": 92,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

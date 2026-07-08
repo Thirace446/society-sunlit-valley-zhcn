@@ -155,6 +155,11 @@ ServerEvents.recipes((e) => {
     S: "unusualfishmod:raw_sneep_snorp",
     f: "meadow:fire_log",
   });
+    e.shaped("society:dry_totem", ["ppp", "ptp", "fff"], {
+    p: "society:fire_quartz",
+    t: "society:truffle_oil",
+    f: "meadow:fire_log",
+  });
   e.shaped("society:rain_totem", ["ppp", "ptp", "fff"], {
     p: "society:pine_tar",
     t: "society:truffle_oil",

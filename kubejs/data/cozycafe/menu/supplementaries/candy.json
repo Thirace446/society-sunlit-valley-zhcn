@@ -1,8 +1,8 @@
 {
 	"item": "supplementaries:candy",
 	"category": "dessert",
-	"price": 49.5,
-	"product_type": "farmer",
+	"price": 50,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

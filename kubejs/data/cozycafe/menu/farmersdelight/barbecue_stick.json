@@ -1,8 +1,8 @@
 {
 	"item": "farmersdelight:barbecue_stick",
 	"category": "main",
-	"price": 121.5,
-	"product_type": "farmer",
+	"price": 122,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

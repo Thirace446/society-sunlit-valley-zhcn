@@ -8,7 +8,7 @@ StartupEvents.registry("item", (e) => {
     .maxStackSize(16);
   e.create("justhammers:small_core").texture("society:item/small_core");
   e.create("buildinggadgets2:gadget_core").texture("society:item/gadget_core");
-  e.create("society:building_supplies").texture("society:item/farm_building_supplies");
+  e.create("society:building_supplies").texture("society:item/building_supplies");
   e.create("society:greenhouse_building_supplies").texture("society:item/greenhouse_building_supplies");
   const tiers = [
     "Stone, Leather, Chainmail, and Cotton",
@@ -189,6 +189,7 @@ StartupEvents.registry("item", (e) => {
   e.create("splendid_slimes:slime_ticket").texture(
     "splendid_slimes:item/slime_ticket"
   );
+  e.create("society:dry_totem").texture("society:item/dry_totem");
   e.create("society:rain_totem").texture("society:item/rain_totem");
   e.create("society:thunder_totem").texture("society:item/thunder_totem");
   e.create("society:furniture_box").texture("society:item/furniture_box");
@@ -663,6 +664,7 @@ StartupEvents.registry("item", (e) => {
     "universal_methods_of_farming",
     "wuthering_logs",
     "women_who_run_with_the_plushies",
+    "the_metamorphosize",
   ].forEach((item) => {
     e.create(`society:${item}`)
       .texture(`society:item/books/${item}`)

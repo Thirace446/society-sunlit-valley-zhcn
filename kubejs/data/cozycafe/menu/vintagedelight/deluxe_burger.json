@@ -1,8 +1,8 @@
 {
 	"item": "vintagedelight:deluxe_burger",
 	"category": "main",
-	"price": 673.5,
-	"product_type": "farmer",
+	"price": 674,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

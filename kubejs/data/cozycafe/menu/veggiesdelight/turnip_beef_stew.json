@@ -2,7 +2,7 @@
 	"item": "veggiesdelight:turnip_beef_stew",
 	"category": "main",
 	"price": 225,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

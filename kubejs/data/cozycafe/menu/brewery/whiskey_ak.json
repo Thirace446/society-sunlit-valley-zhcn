@@ -1,8 +1,8 @@
 {
 	"item": "brewery:whiskey_ak",
 	"category": "drink",
-	"price": 436.5,
-	"product_type": "artisan",
+	"price": 437,
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

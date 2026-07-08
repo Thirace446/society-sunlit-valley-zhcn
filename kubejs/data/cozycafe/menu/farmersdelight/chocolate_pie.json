@@ -1,8 +1,8 @@
 {
 	"item": "farmersdelight:chocolate_pie",
 	"category": "dessert",
-	"price": 1384.5,
-	"product_type": "farmer",
+	"price": 1385,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

@@ -1,8 +1,8 @@
 {
 	"item": "farmersdelight:grilled_salmon",
 	"category": "main",
-	"price": 232.5,
-	"product_type": "farmer",
+	"price": 233,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

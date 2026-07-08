@@ -2,7 +2,7 @@
 	"item": "windswept:ginger_tea",
 	"category": "drink",
 	"price": 192,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

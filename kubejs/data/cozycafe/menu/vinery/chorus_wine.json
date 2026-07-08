@@ -2,7 +2,7 @@
 	"item": "vinery:chorus_wine",
 	"category": "drink",
 	"price": 720,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

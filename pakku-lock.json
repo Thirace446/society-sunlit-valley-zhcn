@@ -2408,7 +2408,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cozycafe-1.0-all.jar",
+                    "file_name": "cozycafe-1.2-all.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2416,16 +2416,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8389/93/cozycafe-1.0-all.jar",
-                    "id": "8389093",
+                    "url": "https://edge.forgecdn.net/files/8396/50/cozycafe-1.2-all.jar",
+                    "id": "8396050",
                     "parent_id": "1590319",
                     "hashes": {
-                        "sha1": "f11787589fd8b86e831cbb2597462d74acc01fec",
-                        "md5": "20385d5b3bb864de416a61bb05cf5f1b"
+                        "sha1": "99d303157af438b86f0daee8bd2d0f90431c2d4e",
+                        "md5": "113ec4dad74ebe03075460151d0db24f"
                     },
-                    "required_dependencies": [],
-                    "size": 387679,
-                    "date_published": "2026-07-07T20:16:12.427Z"
+                    "required_dependencies": [
+                        "283644"
+                    ],
+                    "size": 403454,
+                    "date_published": "2026-07-08T20:02:17.403Z"
                 }
             ]
         },

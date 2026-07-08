@@ -2,7 +2,7 @@
 	"item": "nethervinery:blazewine_pinot",
 	"category": "drink",
 	"price": 3312,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

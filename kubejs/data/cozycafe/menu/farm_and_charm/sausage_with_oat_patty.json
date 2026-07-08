@@ -2,7 +2,7 @@
 	"item": "farm_and_charm:sausage_with_oat_patty",
 	"category": "main",
 	"price": 324,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

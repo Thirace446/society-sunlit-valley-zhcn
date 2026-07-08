@@ -1,8 +1,8 @@
 {
 	"item": "brewery:dried_oat",
 	"category": "main",
-	"price": 76.5,
-	"product_type": "farmer",
+	"price": 77,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

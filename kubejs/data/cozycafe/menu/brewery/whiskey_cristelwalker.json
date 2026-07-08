@@ -2,7 +2,7 @@
 	"item": "brewery:whiskey_cristelwalker",
 	"category": "drink",
 	"price": 396,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

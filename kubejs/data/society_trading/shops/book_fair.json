@@ -97,6 +97,19 @@
     },
     {
       "offer": {
+        "item": "society:husbandry_hourly",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 2
+      },
+      "limit": 4,
+      "numismatics_cost": 8192,
+      "trade_id": "book_fair_husbandry_hourly_for_sun"
+    },
+    {
+      "offer": {
         "item": "society:mining_monthly",
         "count": 1
       },
@@ -372,6 +385,19 @@
       "numismatics_cost": 65536,
       "stage_removed": "banana_karenina",
       "trade_id": "book_fair_banana_karenina_for_sun"
+    },
+    {
+      "offer": {
+        "item": "society:the_metamorphosize",
+        "count": 1
+      },
+      "request": {
+        "item": "numismatics:sun",
+        "count": 12
+      },
+      "numismatics_cost": 49152,
+      "stage_removed": "the_metamorphosize",
+      "trade_id": "book_fair_the_metamorphosize_for_sun"
     },
     {
       "offer": { "item": "society:universal_methods_of_farming", "count": 1 },

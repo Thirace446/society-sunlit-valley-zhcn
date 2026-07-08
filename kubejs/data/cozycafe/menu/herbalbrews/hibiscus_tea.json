@@ -2,7 +2,7 @@
 	"item": "herbalbrews:hibiscus_tea",
 	"category": "drink",
 	"price": 24,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

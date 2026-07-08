@@ -2,7 +2,7 @@
 	"item": "brewery:beer_wheat",
 	"category": "drink",
 	"price": 423,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

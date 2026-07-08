@@ -2,7 +2,7 @@
 	"item": "vintagedelight:overnight_oats",
 	"category": "main",
 	"price": 540,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

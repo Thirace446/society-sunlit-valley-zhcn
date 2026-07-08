@@ -2,7 +2,7 @@
 	"item": "society:mexican_street_corn",
 	"category": "main",
 	"price": 486,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

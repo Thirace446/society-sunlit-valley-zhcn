@@ -2,7 +2,7 @@
 	"item": "farmlife:cooked_tribull_shank",
 	"category": "main",
 	"price": 4050,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

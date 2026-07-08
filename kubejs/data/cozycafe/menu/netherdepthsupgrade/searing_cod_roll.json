@@ -2,7 +2,7 @@
 	"item": "netherdepthsupgrade:searing_cod_roll",
 	"category": "main",
 	"price": 1158,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

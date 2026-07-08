@@ -2,7 +2,7 @@
 	"item": "society:violet_moon",
 	"category": "drink",
 	"price": 2232,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

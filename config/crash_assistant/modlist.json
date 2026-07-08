@@ -498,13 +498,13 @@
     "curseForgeHash": 3614955629,
     "modrinthHash": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea"
   },
-  "cozycafe-1.0-all.jar": {
-    "jarName": "cozycafe-1.0-all.jar",
+  "cozycafe-1.2-all.jar": {
+    "jarName": "cozycafe-1.2-all.jar",
     "modId": "cozycafe",
     "name": "Cozy Cafe",
-    "version": "1.0",
-    "curseForgeHash": 2754346383,
-    "modrinthHash": "d8e3ff15e71433d17d4f437b9322f2ad2931e584"
+    "version": "1.2",
+    "curseForgeHash": 4232935768,
+    "modrinthHash": "bf7796ca4af24c01655e2f404b1f89abd192cc7d"
   },
   "CrabbersDelight-1.20.1-1.1.7d.jar": {
     "jarName": "CrabbersDelight-1.20.1-1.1.7d.jar",

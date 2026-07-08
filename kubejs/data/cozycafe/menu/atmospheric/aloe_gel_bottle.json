@@ -1,8 +1,8 @@
 {
 	"item": "atmospheric:aloe_gel_bottle",
 	"category": "drink",
-	"price": 268.5,
-	"product_type": "farmer",
+	"price": 269,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

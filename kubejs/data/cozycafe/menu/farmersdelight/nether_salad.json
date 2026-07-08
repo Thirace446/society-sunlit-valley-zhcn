@@ -1,8 +1,8 @@
 {
 	"item": "farmersdelight:nether_salad",
 	"category": "main",
-	"price": 604.5,
-	"product_type": "farmer",
+	"price": 605,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

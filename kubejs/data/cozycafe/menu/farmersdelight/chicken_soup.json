@@ -2,7 +2,7 @@
 	"item": "farmersdelight:chicken_soup",
 	"category": "main",
 	"price": 360,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

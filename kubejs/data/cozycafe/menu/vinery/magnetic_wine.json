@@ -2,7 +2,7 @@
 	"item": "vinery:magnetic_wine",
 	"category": "drink",
 	"price": 576,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

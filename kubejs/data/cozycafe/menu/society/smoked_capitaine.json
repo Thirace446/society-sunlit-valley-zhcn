@@ -2,7 +2,7 @@
 	"item": "society:smoked_capitaine",
 	"category": "main",
 	"price": 1728,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

@@ -1,8 +1,8 @@
 {
 	"item": "farmersdelight:shepherds_pie_block",
 	"category": "dessert",
-	"price": 547.5,
-	"product_type": "farmer",
+	"price": 548,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

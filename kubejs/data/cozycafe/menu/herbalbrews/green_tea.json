@@ -2,7 +2,7 @@
 	"item": "herbalbrews:green_tea",
 	"category": "drink",
 	"price": 216,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

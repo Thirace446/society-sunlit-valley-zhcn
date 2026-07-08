@@ -2,7 +2,7 @@
 	"item": "farm_and_charm:oat_pancake",
 	"category": "dessert",
 	"price": 378,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

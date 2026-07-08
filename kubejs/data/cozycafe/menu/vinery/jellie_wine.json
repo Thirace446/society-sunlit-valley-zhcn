@@ -2,7 +2,7 @@
 	"item": "vinery:jellie_wine",
 	"category": "drink",
 	"price": 9072,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

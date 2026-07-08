@@ -198,6 +198,11 @@ ItemEvents.tooltip((tooltip) => {
       description:
         "Plushies will start at 2 hearts of affection. Increases rates of high quality Plushies.",
     },
+    {
+      item: "society:the_metamorphosize",  
+      description:
+        "Impact of size on Butterfly/Moth prices are tripled.",
+    }
   ].forEach((book) => {
     tooltip.add(
       book.item,
@@ -1139,7 +1144,18 @@ ItemEvents.tooltip((tooltip) => {
     global.removedItems,
     Text.translatable("tooltip.society.removed_items").red()
   );
-
+  tooltip.add(
+    "society:dry_totem",
+    Text.translatable("item.society.dry_totem.description").gray()
+  );
+  tooltip.add(
+    "society:thunder_totem",
+    Text.translatable("item.society.thunder_totem.description").gray()
+  );
+  tooltip.add(
+    "society:rain_totem",
+    Text.translatable("item.society.rain_totem.description").gray()
+  );
 
   // Mastery
   tooltip.add(

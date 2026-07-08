@@ -2,7 +2,7 @@
 	"item": "brewery:whiskey_jojannik",
 	"category": "drink",
 	"price": 171,
-	"product_type": "artisan",
+	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

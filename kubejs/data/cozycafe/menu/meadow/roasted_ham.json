@@ -1,8 +1,8 @@
 {
 	"item": "meadow:roasted_ham",
 	"category": "main",
-	"price": 226.5,
-	"product_type": "farmer",
+	"price": 227,
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }

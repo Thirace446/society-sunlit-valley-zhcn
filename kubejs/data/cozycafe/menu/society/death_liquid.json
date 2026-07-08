@@ -2,7 +2,7 @@
 	"item": "society:death_liquid",
 	"category": "main",
 	"price": 1953,
-	"product_type": "farmer",
+	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
 	"themes": []
 }
