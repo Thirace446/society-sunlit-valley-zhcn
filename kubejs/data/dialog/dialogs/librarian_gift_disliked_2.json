@@ -1,7 +1,7 @@
 {
-	"id": "librarian_gift_loved_0",
+	"id": "librarian_gift_disliked_2",
 	"title": "librarian introduction",
-	"description": "dialog.npc.librarian.gift.loved",
+	"description": "dialog.npc.librarian.gift.disliked",
 	"entries": [
 		{
 			"id": "start",
@@ -11,12 +11,12 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.gift_loved.0.line_0"
+					"translate": "dialog.npc.librarian.gift_disliked.2.line_0"
 				}
 			],
 			"portraits": [
 				{
-					"path": "loved/librarian.png",
+					"path": "disliked/librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}

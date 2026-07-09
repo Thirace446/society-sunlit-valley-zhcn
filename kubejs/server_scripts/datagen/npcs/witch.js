@@ -86,6 +86,7 @@ if (global.datagenDialog) {
       hated: [
         "Hmmmmm...? I don't really need more garbage to burn I have plenty.",
         "I don't have space to keep this.",
+        "Am I joke to you or something? Have some respect.",
         ["* You hear aggressively loud fake snoring. *", "* It appears Evelyne does not want this. *"],
         "I really don't feel like throwing your garbage away for you.",
         ["Oh, why are you giving this to me? I don't want this.", "Nobody wants this."]

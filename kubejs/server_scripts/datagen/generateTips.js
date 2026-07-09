@@ -1,7 +1,7 @@
 
 
 
-// if (false) {
+// if (true) {
 //     let translationKeys = {};
 //     [
 //         { title: "mining_skill_fortune", content: "If you can't afford the Fortune enchantment early game, invest in the Mining skill tree Fortune nodes." },
@@ -107,7 +107,11 @@
 //         { title: "villager_leon", content: "Leon loves a glass of red wine in the evening." },
 //         { title: "villager_haruna", content: "Aquamagical Dust reminds Haruna of home." },
 //         { title: "villager_maria", content: "Maria views flowers as manipulative gifts." },
-//         { title: "villager_caroline", content: "Caroline respects a farmer that can handle goats." }
+//         { title: "villager_caroline", content: "Caroline respects a farmer that can handle goats." },
+//         { title: "villager_evelyne", content: "Evelyne finds the witch hat professionally degreading." },
+//         { title: "villager_veronica", content: "Veronica has a small but expensive collection of archival fashion." },
+//         { title: "longwings_size", content: "The larger a butterfly or moth is, the more it sells for." },
+//         // TODO:Calos
 //     ].forEach((tip) => {
 //         translationKeys[`society_tips.tip.${tip.title}`] = tip.content;
 //         JsonIO.write(`kubejs/assets/society/tips/${tip.title}.json`, {

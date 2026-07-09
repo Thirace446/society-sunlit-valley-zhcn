@@ -1,7 +1,7 @@
 {
-	"id": "librarian_intro",
+	"id": "librarian_gift_loved_1",
 	"title": "librarian introduction",
-	"description": "dialog.npc.librarian.intro.description",
+	"description": "dialog.npc.librarian.gift.loved",
 	"entries": [
 		{
 			"id": "start",
@@ -11,12 +11,12 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_0"
+					"translate": "dialog.npc.librarian.gift_loved.1.line_0"
 				}
 			],
 			"portraits": [
 				{
-					"path": "librarian.png",
+					"path": "loved/librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -30,31 +30,12 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_1"
+					"translate": "dialog.npc.librarian.gift_loved.1.line_1"
 				}
 			],
 			"portraits": [
 				{
-					"path": "librarian.png",
-					"position": "INLINE",
-					"brightness": 1
-				}
-			]
-		},
-		{
-			"id": 2,
-			"speaker": {
-				"translate": "dialog.npc.librarian.name",
-				"color": "white"
-			},
-			"text": [
-				{
-					"translate": "dialog.npc.librarian.intro.0.line_2"
-				}
-			],
-			"portraits": [
-				{
-					"path": "librarian.png",
+					"path": "loved/librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -68,12 +49,12 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_3"
+					"translate": "dialog.npc.librarian.gift_loved.1.line_2"
 				}
 			],
 			"portraits": [
 				{
-					"path": "librarian.png",
+					"path": "loved/librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}

@@ -1,5 +1,5 @@
 {
-	"id": "witch_gift_hated_3",
+	"id": "witch_gift_hated_5",
 	"title": "witch introduction",
 	"description": "dialog.npc.witch.gift.hated",
 	"entries": [
@@ -11,7 +11,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.gift_hated.3.line_0"
+					"translate": "dialog.npc.witch.gift_hated.5.line_0"
 				}
 			],
 			"portraits": [
@@ -30,7 +30,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.gift_hated.3.line_1"
+					"translate": "dialog.npc.witch.gift_hated.5.line_1"
 				}
 			],
 			"portraits": [
