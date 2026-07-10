@@ -15,8 +15,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/basic/greenhouse_basic",
 			"image_description": "portable_blueprints.worn_blueprint.basic_greenhouse.dimensions",
@@ -29,8 +29,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/alpine/greenhouse_alpine",
 			"image_description": "portable_blueprints.worn_blueprint.alpine_greenhouse.dimensions",
@@ -43,8 +43,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/arid/greenhouse_arid",
 			"image_description": "portable_blueprints.worn_blueprint.arid_greenhouse.dimensions",
@@ -57,8 +57,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/bamboo/greenhouse_bamboo",
 			"image_description": "portable_blueprints.worn_blueprint.bamboo_greenhouse.dimensions",
@@ -71,8 +71,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/bavarian/greenhouse_bavarian",
 			"image_description": "portable_blueprints.worn_blueprint.bavarian_greenhouse.dimensions",
@@ -85,8 +85,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/cherry/greenhouse_cherry",
 			"image_description": "portable_blueprints.worn_blueprint.cherry_greenhouse.dimensions",
@@ -99,8 +99,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/entrana/greenhouse_entrana",
 			"image_description": "portable_blueprints.worn_blueprint.entrana_greenhouse.dimensions",
@@ -113,8 +113,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/mason/greenhouse_mason",
 			"image_description": "portable_blueprints.worn_blueprint.mason_greenhouse.dimensions",
@@ -127,8 +127,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/prismarine/greenhouse_prismarine",
 			"image_description": "portable_blueprints.worn_blueprint.prismarine_greenhouse.dimensions",
@@ -141,8 +141,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/siberian/greenhouse_siberian",
 			"image_description": "portable_blueprints.worn_blueprint.siberian_greenhouse.dimensions",
@@ -155,8 +155,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/tudor/greenhouse_tudor",
 			"image_description": "portable_blueprints.worn_blueprint.tudor_greenhouse.dimensions",
@@ -169,8 +169,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/vibrantown/greenhouse_vibrantown",
 			"image_description": "portable_blueprints.worn_blueprint.vibrantown_greenhouse.dimensions",
@@ -183,8 +183,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/floral/greenhouse_floral",
 			"image_description": "portable_blueprints.worn_blueprint.floral_greenhouse.dimensions",
@@ -197,8 +197,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:greenhouse_building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/sakura/greenhouse_sakura",
 			"image_description": "portable_blueprints.worn_blueprint.sakura_greenhouse.dimensions",

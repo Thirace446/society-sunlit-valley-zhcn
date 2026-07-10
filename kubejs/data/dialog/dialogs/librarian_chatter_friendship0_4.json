@@ -1,6 +1,6 @@
 {
-	"id": "librarian_chatter_friendship3_0",
-	"title": "[0] librarian chatter at friendship level: friendship3",
+	"id": "librarian_chatter_friendship0_4",
+	"title": "[4] librarian chatter at friendship level: friendship0",
 	"description": "dialog.npc.librarian.chatter.description",
 	"allowClose": true,
 	"entries": [
@@ -12,7 +12,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.chatter_friendship3.0.line_0"
+					"translate": "dialog.npc.librarian.chatter_friendship0.4.line_0"
 				}
 			],
 			"portraits": [
@@ -31,7 +31,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.chatter_friendship3.0.line_1"
+					"translate": "dialog.npc.librarian.chatter_friendship0.4.line_1"
 				}
 			],
 			"portraits": [

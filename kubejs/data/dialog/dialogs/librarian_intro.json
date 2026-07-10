@@ -61,7 +61,7 @@
 			]
 		},
 		{
-			"id": "end",
+			"id": 3,
 			"speaker": {
 				"translate": "dialog.npc.librarian.name",
 				"color": "white"
@@ -69,6 +69,25 @@
 			"text": [
 				{
 					"translate": "dialog.npc.librarian.intro.0.line_3"
+				}
+			],
+			"portraits": [
+				{
+					"path": "librarian.png",
+					"position": "INLINE",
+					"brightness": 1
+				}
+			]
+		},
+		{
+			"id": "end",
+			"speaker": {
+				"translate": "dialog.npc.librarian.name",
+				"color": "white"
+			},
+			"text": [
+				{
+					"translate": "dialog.npc.librarian.intro.0.line_4"
 				}
 			],
 			"portraits": [

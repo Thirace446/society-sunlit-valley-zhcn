@@ -15,8 +15,8 @@
 				"count": 1
 			},
 			"request": {
-				"item": "meadow:fire_log",
-				"count": 32
+				"item": "society:building_supplies",
+				"count": 2
 			},
 			"image": "society:textures/gui/buildings/basic/blacksmith_basic",
 			"image_description": "portable_blueprints.worn_blueprint.npc_basic_blacksmith.dimensions",
