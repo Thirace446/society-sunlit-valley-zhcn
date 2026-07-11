@@ -55,7 +55,7 @@
 //         { title: "artisan_upgrades", content: "Artisan machines drop their upgrades when broken." },
 //         { title: "fish_season_rainy", content: "Some fish can only be caught while it's raining." },
 //         { title: "capitalism", content: "Capitalism." },
-//         { title: "regret_crystals", content: "Don't like the skills you chose? Purchase a Regret Crystal from a Cleric!" },
+//         { title: "regret_crystals", content: "Don't like the skills you chose? Purchase a Regret Crystal from a Witch!" },
 //         { title: "rainbow_trout", content: "Rainbow Trout in Fish Ponds have a 1% chance of giving Prismatic Shards." },
 //         { title: "wandering_trader_two", content: "The Wandering Trader sells certain rare furniture drops reliably." },
 //         { title: "snorp_sneep", content: "Snorp Sneep \u0190:" },

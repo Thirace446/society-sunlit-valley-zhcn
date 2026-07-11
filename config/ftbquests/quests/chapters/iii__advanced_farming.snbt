@@ -696,6 +696,7 @@
 				""
 				"{ftbquests.chapter.iii__advanced_farming.quest527F7721ED60868C.description6}"
 			]
+			hide_until_deps_complete: true
 			id: "527F7721ED60868C"
 			tasks: [{
 				id: "0FBC71E396E14EB1"
@@ -1353,6 +1354,7 @@
 				""
 				"Note that dishes that already come with a bowl will not need to be plated, if you prefer not washing dishes!"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "cozycafe:serving_plate"
@@ -1385,6 +1387,35 @@
 			title: "Plating Up"
 			x: 10.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["52844505B8DFD385"]
+			description: [
+				"Wondering what foods you can put on your menu?"
+				""
+				"In JEI/EMI's search bar you can search for &6#cozycafe:menu_items&r to find out! You can also search for just the specific types:"
+				""
+				"- &6#cozycafe:drink&r"
+				"- &6#cozycafe:main&r"
+				"- &6#cozycafe:dessert&r"
+			]
+			hide_until_deps_complete: true
+			icon: "cozycafe:cafe_menu"
+			id: "2FB9C8009C0829B7"
+			rewards: [{
+				count: 2
+				id: "0B528CD7CCA468FA"
+				item: "society:furniture_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "663DDCD0E4C13211"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "Finding Menu Items"
+			x: 10.5d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.iii__advanced_farming.title}"

@@ -504,7 +504,7 @@ ServerEvents.recipes((e) => {
     "sewingkit:gold_sewing_needle",
     "sewingkit:diamond_sewing_needle",
     "sewingkit:netherite_sewing_needle",
-    // Cleric
+    // Witch
     "paraglider:spirit_orb",
     "constructionwand:stone_wand",
     "constructionwand:iron_wand",

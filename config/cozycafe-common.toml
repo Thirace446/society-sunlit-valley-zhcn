@@ -40,4 +40,6 @@ dessert_chance = 0.4
 daily_limit = true
 #When enabled, main dishes that aren't in bowls will need to be plated using a Plating Station before serving.
 plating_required = true
+#When enabled, items from all mods will be registered as menu items if they're edible and do not have the tag cozycafe:not_served. Turn off if you want more control over the menu.
+dynamic_menu_items = false
 

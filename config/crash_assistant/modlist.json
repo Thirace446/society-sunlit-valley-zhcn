@@ -498,13 +498,13 @@
     "curseForgeHash": 3614955629,
     "modrinthHash": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea"
   },
-  "cozycafe-1.2-all.jar": {
-    "jarName": "cozycafe-1.2-all.jar",
+  "cozycafe-1.3-all.jar": {
+    "jarName": "cozycafe-1.3-all.jar",
     "modId": "cozycafe",
     "name": "Cozy Cafe",
-    "version": "1.2",
-    "curseForgeHash": 4232935768,
-    "modrinthHash": "bf7796ca4af24c01655e2f404b1f89abd192cc7d"
+    "version": "1.3",
+    "curseForgeHash": 1219793338,
+    "modrinthHash": "2920d45d0944856d1cdc0b030f69cf5ba06c10d0"
   },
   "CrabbersDelight-1.20.1-1.1.7d.jar": {
     "jarName": "CrabbersDelight-1.20.1-1.1.7d.jar",
@@ -2535,13 +2535,13 @@
     "curseForgeHash": 2077716116,
     "modrinthHash": "efc650df395d938bb67058d848d0b35cb9df32bb"
   },
-  "Tips-Forge-1.20.1-12.1.8.jar": {
-    "jarName": "Tips-Forge-1.20.1-12.1.8.jar",
+  "Tips-Forge-1.20.1-12.1.9.jar": {
+    "jarName": "Tips-Forge-1.20.1-12.1.9.jar",
     "modId": "tipsmod",
     "name": "Tips",
-    "version": "12.1.8",
-    "curseForgeHash": 4175959745,
-    "modrinthHash": "bb1aaf585ac975f94d27162a1346c60a8d8f2765"
+    "version": "12.1.9",
+    "curseForgeHash": 2041389298,
+    "modrinthHash": "033d62395ecf7939f82e5a69ef53cf62ad1afb7f"
   },
   "titanium-1.20.1-3.8.32.jar": {
     "jarName": "titanium-1.20.1-3.8.32.jar",

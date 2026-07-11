@@ -175,7 +175,7 @@ ItemEvents.tooltip((tooltip) => {
     },
     {
       item: "society:the_spark_also_rises",
-      description: "mining any ore drops Sparkstone.",
+      description: "Mining any ore drops Sparkstone.",
     },
     {
       item: "society:universal_methods_of_farming",
