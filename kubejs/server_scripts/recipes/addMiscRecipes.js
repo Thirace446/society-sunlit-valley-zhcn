@@ -972,7 +972,7 @@ ServerEvents.recipes((e) => {
     g: "society:ribbit_gadget",
     f: "society:froggy_helm",
     s: "society:sparkstone",
-    S: "oreganized:silver_ingot",
+    S: "oreganized:silver_block",
     b: "etcetera:light_bulb",
   });
   [

@@ -27,19 +27,31 @@ if (global.datagenDialog) {
       friendship2: [
         "How has Aiden managed to break so many of my storage crates? Are ingots being placed in them hot or something?",
         ["Have you seen a copy of Vōg Italia lying around anywhere?", "I haven't had a chance to look at this season's collection yet..."],
+        "What can I do for you today @i?",
+        "I'm getting food with Caroline soon so make it quick, I don't have much time.",
         ["I have no idea how to talk to that Ace.", "I've never met someone that talks so fast, it's frustrating."]
       ],
       friendship3: [
         ["Some farmers prefer the more applied school of digital storage, though I find it overly complex.", "Unfortunately, I only have enough room in my shop for the refined approach."],
-        "Can you check in with Leon? I need that copy of 'Notebooks from Underneath' back, it's been weeks."
+        "Don't forget to stop by every time I do the Book Fair! I can only stock so many books so some are seasonal!",
+        "Can you check in with Leon? I need that copy of 'Notebooks from Underneath' back, it's been weeks...",
+        "Ugh, this is the third nature field guide Ace has ruined this month! Annoying!",
+        "How can I help you today?"
       ],
       friendship4: [
         "Evelyne has to be the most unorganized person I have ever met. It's embarrassing.",
         ["It breaks my heart that Caroline is so misunderstood...", "Supporting towns like these require so much time, energy and resources to support.", "It's very thankless work, most people flame out of it. But not my Caroline!"],
-        ""
+        "Caroline doesn't like when people are unprofessional, so keep our little chats when I'm on the clock between you and I.",
+        "Hey @i, what can I get you? You can't possibly need more space, right?",
+        ["Get some minisheep! They have the most beautifully shininig coats. Their wool makes some gorgeous sweaters... ♡","Ah! Not that I'm an expert or anything! Ask Maria!"],
       ],
       friendship5: [
-        "",
+        "The key to making beautiful nit fabrics to do it by hand, this is something you should understand intuitively being a farmer and all.",
+        ["Did you seen Iris von Harpten's latest collection??", "I have no idea how she manages to use those strange materials to create such beautiful shapes... ♡"],
+        "It's @i! I'm so happy to see you right now, Carolines been so busy this week and I need someone to talk to!",
+        ["I wonder where Carlos sends all those random items you give him...", "He's always asking for more shipping materials."],
+        "Oh hey @i! What can I get you today?"
+        ["Fashion houses should never continue once their founding designers leave.", "Yes I get that there are exceptions, but just look at Gaultiyay! It's become so gauche!"]
       ],
     },
     giftResponse: {

@@ -26,6 +26,10 @@
 				"count": 1
 			},
 			"request": {
+				"item": "society:building_supplies",
+				"count": 1
+			},
+			"second_request": {
 				"item": "moreminecarts:chiseled_organic_glass",
 				"count": 24
 			},
