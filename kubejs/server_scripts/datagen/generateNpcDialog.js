@@ -14,7 +14,7 @@ const generateDialogEntries = (npcId, dialogType, dialogIndex, dialogLines, port
       text: [{ translate: lineTranslationKey }],
       portraits: [
         {
-          path: `${portraitPath}${npcId}.png`,
+          path: `${portraitPath}.png`,
           position: "INLINE",
           brightness: 1.0
         },
@@ -52,8 +52,28 @@ const generateDialogEntries = (npcId, dialogType, dialogIndex, dialogLines, port
           command: [
             "openselector @p building_shop"
           ]
-        }
-      ]
+        }]
+      } else if (npcId == "librarian" && dialogType == "unique_book_fair") {
+        translationKeys["dialog.npc.librarian.purchase_supplies"] = "Purchase supplies";
+        translationKeys["dialog.npc.librarian.book_fair"] = "Book Fair";
+        queuedEntry.options = [{
+          text: {
+            translate: "dialog.npc.librarian.purchase_supplies"
+          },
+          target: "end",
+          command: [
+            "openshop @p librarian"
+          ]
+        },
+        {
+          text: {
+            translate: "dialog.npc.librarian.book_fair"
+          },
+          target: "end",
+          command: [
+            "openshop @p book_fair"
+          ]
+        }]
       } else {
         queuedEntry.command = [`openshop @p ${npcId}`]
       }
@@ -93,7 +113,7 @@ const runNpcDatagen = (npcId, npcDef) => {
                 `chatter_${friendshipKey}`,
                 chatterIndex,
                 chatter,
-                "",
+                npcId == "wise_oak" ? "mystical_oak" : npcId,
                 true
               ),
             }
@@ -130,7 +150,7 @@ const runNpcDatagen = (npcId, npcDef) => {
               `gift_${responseType}`,
               responseIndex,
               response,
-              responseType.equals("neutral") ? "" : `${responseType}/`
+              responseType.equals("neutral") ? npcId : `${responseType}/${npcId}`
             ),
           }
         );
@@ -150,7 +170,7 @@ const runNpcDatagen = (npcId, npcDef) => {
             `unique_${dialog.name}`,
             -1,
             dialog.text,
-            "",
+            npcId,
             true
           ),
         }

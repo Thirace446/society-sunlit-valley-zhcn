@@ -1,22 +1,22 @@
 {
-	"id": "librarian_intro",
-	"title": "librarian introduction",
-	"description": "dialog.npc.librarian.intro.description",
+	"id": "wise_oak_unique_five_gift",
+	"title": "wise_oak introduction",
+	"description": "dialog.npc.wise_oak.unique.five_gift",
 	"entries": [
 		{
 			"id": "start",
 			"speaker": {
-				"translate": "dialog.npc.librarian.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_0"
+					"translate": "dialog.npc.wise_oak.unique_five_gift.line_0"
 				}
 			],
 			"portraits": [
 				{
-					"path": ".png",
+					"path": "wise_oak.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -25,17 +25,17 @@
 		{
 			"id": 1,
 			"speaker": {
-				"translate": "dialog.npc.librarian.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_1"
+					"translate": "dialog.npc.wise_oak.unique_five_gift.line_1"
 				}
 			],
 			"portraits": [
 				{
-					"path": ".png",
+					"path": "wise_oak.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -44,17 +44,17 @@
 		{
 			"id": 2,
 			"speaker": {
-				"translate": "dialog.npc.librarian.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_2"
+					"translate": "dialog.npc.wise_oak.unique_five_gift.line_2"
 				}
 			],
 			"portraits": [
 				{
-					"path": ".png",
+					"path": "wise_oak.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -63,17 +63,17 @@
 		{
 			"id": 3,
 			"speaker": {
-				"translate": "dialog.npc.librarian.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_3"
+					"translate": "dialog.npc.wise_oak.unique_five_gift.line_3"
 				}
 			],
 			"portraits": [
 				{
-					"path": ".png",
+					"path": "wise_oak.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -82,20 +82,23 @@
 		{
 			"id": "end",
 			"speaker": {
-				"translate": "dialog.npc.librarian.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.librarian.intro.0.line_4"
+					"translate": "dialog.npc.wise_oak.unique_five_gift.line_4"
 				}
 			],
 			"portraits": [
 				{
-					"path": ".png",
+					"path": "wise_oak.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
+			],
+			"command": [
+				"openshop @p wise_oak"
 			]
 		}
 	]

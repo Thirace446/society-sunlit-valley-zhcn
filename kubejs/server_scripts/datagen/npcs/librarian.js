@@ -50,7 +50,7 @@ if (global.datagenDialog) {
         ["Did you seen Iris von Harpten's latest collection??", "I have no idea how she manages to use those strange materials to create such beautiful shapes... ♡"],
         "It's @i! I'm so happy to see you right now, Carolines been so busy this week and I need someone to talk to!",
         ["I wonder where Carlos sends all those random items you give him...", "He's always asking for more shipping materials."],
-        "Oh hey @i! What can I get you today?"
+        "Oh hey @i! What can I get you today?",
         ["Fashion houses should never continue once their founding designers leave.", "Yes I get that there are exceptions, but just look at Gaultiyay! It's become so gauche!"]
       ],
     },
@@ -96,6 +96,12 @@ if (global.datagenDialog) {
         name: "five_gift",
         text: [
           "Oh hey hey hey it's my best friend @i!! I've got something that'll make your day even brighter!"
+        ]
+      },
+      {
+        name: "book_fair",
+        text: [
+          "I have a selection of special books availible for the book fair this season, please take a look.",
         ]
       },
     ]

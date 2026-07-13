@@ -498,13 +498,13 @@
     "curseForgeHash": 3614955629,
     "modrinthHash": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea"
   },
-  "cozycafe-1.3-all.jar": {
-    "jarName": "cozycafe-1.3-all.jar",
+  "cozycafe-1.5-all.jar": {
+    "jarName": "cozycafe-1.5-all.jar",
     "modId": "cozycafe",
     "name": "Cozy Cafe",
-    "version": "1.3",
-    "curseForgeHash": 1219793338,
-    "modrinthHash": "2920d45d0944856d1cdc0b030f69cf5ba06c10d0"
+    "version": "1.5",
+    "curseForgeHash": 686597378,
+    "modrinthHash": "9c45beb6c44eef3ce08b97224eecf67ac65f5ed1"
   },
   "CrabbersDelight-1.20.1-1.1.7d.jar": {
     "jarName": "CrabbersDelight-1.20.1-1.1.7d.jar",
@@ -1170,14 +1170,6 @@
     "curseForgeHash": 2434900653,
     "modrinthHash": "f665d7798eee078084585238ec53b745d0093c76"
   },
-  "fzzy_config-0.7.6+1.20.1+forge.jar": {
-    "jarName": "fzzy_config-0.7.6+1.20.1+forge.jar",
-    "modId": "fzzy_config",
-    "name": "Fzzy Config",
-    "version": "0.7.6+1.20.1+forge",
-    "curseForgeHash": 3620637257,
-    "modrinthHash": "2e9ca1c5f028c251e1bc18b9ebaa06d401c8e624"
-  },
   "gag-forge-3.0.0-build.13.jar": {
     "jarName": "gag-forge-3.0.0-build.13.jar",
     "modId": "gag",
@@ -1250,14 +1242,6 @@
     "curseForgeHash": 3959515322,
     "modrinthHash": "890dc4bcba685a4a6a7790c3ed2958eef22dc0c6"
   },
-  "guitween-3.3.7-1.20.1+forge.jar": {
-    "jarName": "guitween-3.3.7-1.20.1+forge.jar",
-    "modId": "guitween",
-    "name": "GUI Tween",
-    "version": "3.3.7",
-    "curseForgeHash": 117996615,
-    "modrinthHash": "e1c247a7d5f6f2bd7743d97d37f0d7830f9bd444"
-  },
   "hamsters-forge-1.0.3-1.20.1.jar": {
     "jarName": "hamsters-forge-1.0.3-1.20.1.jar",
     "modId": "hamsters",
@@ -1306,13 +1290,13 @@
     "curseForgeHash": 220541488,
     "modrinthHash": "9eacd407b7dea636d375dc47335d92f616484ea2"
   },
-  "immersive_paintings-0.6.8+1.20.1-forge.jar": {
-    "jarName": "immersive_paintings-0.6.8+1.20.1-forge.jar",
+  "immersive_paintings-0.6.13+1.20.1-forge.jar": {
+    "jarName": "immersive_paintings-0.6.13+1.20.1-forge.jar",
     "modId": "immersive_paintings",
     "name": "Immersive Paintings",
-    "version": "0.6.8+1.20.1",
-    "curseForgeHash": 2144919017,
-    "modrinthHash": "f3a464ae2cb3173c7a7b765b4b9e61591f71833c"
+    "version": "0.6.13+1.20.1",
+    "curseForgeHash": 24907013,
+    "modrinthHash": "3f2a668f2235a6a908fde545d140013456b5412f"
   },
   "incontrol-1.20-9.4.1.jar": {
     "jarName": "incontrol-1.20-9.4.1.jar",
@@ -1639,13 +1623,13 @@
     "curseForgeHash": 1431799465,
     "modrinthHash": "564bbddb1e48ad1cb4398218128d6b05bcd92c11"
   },
-  "MCT-RS-Mixin-1.20.1-1.0.0-b400-release.jar": {
-    "jarName": "MCT-RS-Mixin-1.20.1-1.0.0-b400-release.jar",
+  "MCT-RS-Mixin-1.20.1-1.1.0-b412-release.jar": {
+    "jarName": "MCT-RS-Mixin-1.20.1-1.1.0-b412-release.jar",
     "modId": "rsmixin",
     "name": "Refined Storage Mixin",
-    "version": "1.0.0-b400-release",
-    "curseForgeHash": 2257259623,
-    "modrinthHash": "e5fcaa67c9e00c78293fc718716f630e8d561ad7"
+    "version": "1.1.0-b411-release",
+    "curseForgeHash": 3187397626,
+    "modrinthHash": "7e59d73232c582c3608a9d6c0adb0afacf2efe78"
   },
   "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar": {
     "jarName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
@@ -1895,13 +1879,13 @@
     "curseForgeHash": 4171088984,
     "modrinthHash": "51fdf94686fc847515e6de8a6c9fd4dab3466ea5"
   },
-  "particlerain-4.0.0-beta.5+1.20.1-forge.jar": {
-    "jarName": "particlerain-4.0.0-beta.5+1.20.1-forge.jar",
+  "particlerain-4.0.0-beta.10+1.20.1-forge.jar": {
+    "jarName": "particlerain-4.0.0-beta.10+1.20.1-forge.jar",
     "modId": "particlerain",
     "name": "Particle Rain",
-    "version": "4.0.0-beta.5",
-    "curseForgeHash": 3683312586,
-    "modrinthHash": "f0776c78f8ef74b34137ce3acb5ce229a8152d3b"
+    "version": "4.0.0-beta.10",
+    "curseForgeHash": 1318765130,
+    "modrinthHash": "26616591ebf471f787faa633b220d8f5c30e8282"
   },
   "PassableFoliage-1.20.1-forge-8.2.1.jar": {
     "jarName": "PassableFoliage-1.20.1-forge-8.2.1.jar",
@@ -2191,13 +2175,13 @@
     "curseForgeHash": 2056995272,
     "modrinthHash": "a22d7c1e3f6142d061f4f52447489628ebcf3e43"
   },
-  "scholar-1.20.1-1.2.2-forge.jar": {
-    "jarName": "scholar-1.20.1-1.2.2-forge.jar",
+  "scholar-1.20.1-1.2.3-forge.jar": {
+    "jarName": "scholar-1.20.1-1.2.3-forge.jar",
     "modId": "scholar",
     "name": "Scholar",
-    "version": "1.2.2",
-    "curseForgeHash": 2926049833,
-    "modrinthHash": "33c49424b27db253547b567a2aa1d94c7e7089ea"
+    "version": "1.2.3",
+    "curseForgeHash": 1464153343,
+    "modrinthHash": "f0dd4e87872f81db8136ef19aa33e1420403da65"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
@@ -2375,13 +2359,13 @@
     "curseForgeHash": 3402444196,
     "modrinthHash": "15296a7d8942a7a3376f293265b5146af6c42ec7"
   },
-  "society-1.15.jar": {
-    "jarName": "society-1.15.jar",
+  "society-1.17.jar": {
+    "jarName": "society-1.17.jar",
     "modId": "society",
     "name": "Society",
-    "version": "1.15",
-    "curseForgeHash": 710360043,
-    "modrinthHash": "9adb0f3395b047e17c7dd0d32c82e2b164fc4204"
+    "version": "1.17",
+    "curseForgeHash": 570972094,
+    "modrinthHash": "48bdcec147e365c807cac108b47f43a0deef693e"
   },
   "society_trading-1.2.5.jar": {
     "jarName": "society_trading-1.2.5.jar",
@@ -2758,14 +2742,6 @@
     "version": "1.1",
     "curseForgeHash": 3494631913,
     "modrinthHash": "7408d13c279d640879857fe59ab6d22c9feafed4"
-  },
-  "wikizoomer-1.0.4-1.20.1.jar": {
-    "jarName": "wikizoomer-1.0.4-1.20.1.jar",
-    "modId": "wikizoomer",
-    "name": "Wiki Zoomer Unofficial",
-    "version": "1.0.4",
-    "curseForgeHash": 2146319522,
-    "modrinthHash": "79f6cb57506f9a99fd2bd825513a7919ff201e56"
   },
   "windswept-1.20.1-3.0.4.jar": {
     "jarName": "windswept-1.20.1-3.0.4.jar",

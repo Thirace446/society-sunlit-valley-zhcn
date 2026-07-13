@@ -3,7 +3,47 @@
 ### v4.1.0
 ^^^
 --- 
-
-- Artisan Hoppers, Auto Grabbers, Fish Pond Baskets can now work while the owner is offline
-
-TODO
+- Added Cozy Cafe, a new mod made for the pack that adds a Diner Dash/Plate Up! style cafe management minigame
+- Added new villagers: Trader, Witch, and Librarian (formerly Storagesmith)
+- Added new system for Building Shop (Previously in the Quest book) using Building Supplies
+- Added Floral farmhouse building set by SianaTheSavage
+- Added Sakura farmhouse building set by EeveeBeby
+- Added Butterfly and Moth breeding and genetics mechanics
+- Added Caterpillar Eggs and Caterpillar Box
+- Added longwings: Tropical Leafwing Butterfly and Comet Moth
+- Added sell values to Moths and Butterflies that scale off rarity and size
+- Added Skill book: The Metamorphosize
+- Added Living Gnomes that are definitely real
+- Added Fish Pond Hatchery
+- Added Fish Pond Manager (Thanks Mayhan!)
+- Added Drum of the Cornucopia
+- Added Dry Totem
+- Added Rain Totem
+- Added Thunder Totem
+- Added random furniture items per day for sale from Carpenter
+- Added more thorough jade support for crop growing (Thanks Hexagreen!)
+- Added filling recipe for Honey Roasted Peanut (Thanks Emma!)
+- Added ability to befriend the Mystical Wise Oak
+- Added recipe for Armadillo Spawn Egg crafting recipe
+- Added Chaos Cubed update via Vanilla Backport
+- Added back vanilla villages and added a new type
+- Added White, Pink, and Mana Energy Drinks (Not agable as the aging from normal energy drink will be removed)
+- Added offline caching for Artisan Hopper, Auto-Grabber, Fish Pond Basket (Thanks simonLeary42!)
+- Added sell values to cake slices and feast items
+- Added stack groups to EMI/JEI 
+- Reworked furniture catalogs to be shops instead of having unique items
+- Updated Galaxy Sword and Meowmageddon text to be shiny
+- Increased Terracotta conversion rate 1/30s -> 1/10s
+- Increased Bountiful Fertilizer crafting output 1 -> 4
+- Reduced max upgrade from Hay Golems to High Quality Fertilizer
+- Reduced effective cost of larger building shop building types
+- Removed beachparty radio due to issues
+- Removed offshoot grape fluid types as they are now unified into red/white
+- Renamed Bookseller to Book Fair
+- Fixed certain society blocks not having pickaxe minable tags
+- Fixed Mana Sprinkler having wrong working area
+- Fixed Mana Clock not working 
+- Fixed Ripper Tooth not working
+- Fixed Diamond wand not working with destruction core
+- Fixed Husbandry Hourly not appearing in the Bookseller/Book Fair
+- Fixed Crystalarium's Black Opal upgrade not working on manual harvests

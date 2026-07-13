@@ -1,17 +1,17 @@
 {
-	"id": "market_intro",
-	"title": "market introduction",
-	"description": "dialog.npc.market.intro.description",
+	"id": "wise_oak_intro",
+	"title": "wise_oak introduction",
+	"description": "dialog.npc.wise_oak.intro.description",
 	"entries": [
 		{
 			"id": "start",
 			"speaker": {
-				"translate": "dialog.npc.market.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.market.intro.0.line_0"
+					"translate": "dialog.npc.wise_oak.intro.0.line_0"
 				}
 			],
 			"portraits": [
@@ -25,12 +25,12 @@
 		{
 			"id": 1,
 			"speaker": {
-				"translate": "dialog.npc.market.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.market.intro.0.line_1"
+					"translate": "dialog.npc.wise_oak.intro.0.line_1"
 				}
 			],
 			"portraits": [
@@ -44,12 +44,31 @@
 		{
 			"id": 2,
 			"speaker": {
-				"translate": "dialog.npc.market.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.market.intro.0.line_2"
+					"translate": "dialog.npc.wise_oak.intro.0.line_2"
+				}
+			],
+			"portraits": [
+				{
+					"path": ".png",
+					"position": "INLINE",
+					"brightness": 1
+				}
+			]
+		},
+		{
+			"id": 3,
+			"speaker": {
+				"translate": "dialog.npc.wise_oak.name",
+				"color": "white"
+			},
+			"text": [
+				{
+					"translate": "dialog.npc.wise_oak.intro.0.line_3"
 				}
 			],
 			"portraits": [
@@ -63,12 +82,12 @@
 		{
 			"id": "end",
 			"speaker": {
-				"translate": "dialog.npc.market.name",
+				"translate": "dialog.npc.wise_oak.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.market.intro.0.line_3"
+					"translate": "dialog.npc.wise_oak.intro.0.line_4"
 				}
 			],
 			"portraits": [

@@ -5,12 +5,12 @@ const dialogLengths = {
     blacksmith: { chatterLengths: [16.0, 10.0, 13.0, 12.0, 11.0, 14.0], giftResponseLengths: { loved: 8.0, liked: 9.0, neutral: 8.0, disliked: 8.0, hated: 10.0 } },
     carpenter: { chatterLengths: [11.0, 10.0, 13.0, 9.0, 9.0, 15.0], giftResponseLengths: { loved: 6.0, liked: 7.0, neutral: 8.0, disliked: 10.0, hated: 10.0 } },
     fisher: { chatterLengths: [11.0, 9.0, 10.0, 10.0, 10.0, 11.0], giftResponseLengths: { loved: 7.0, liked: 6.0, neutral: 9.0, disliked: 7.0, hated: 7.0 } },
+    librarian: { chatterLengths: [5.0, 5.0, 5.0, 5.0, 5.0, 6.0], giftResponseLengths: { loved: 5.0, liked: 5.0, neutral: 5.0, disliked: 5.0, hated: 5.0 } },
     market: { chatterLengths: [18.0, 14.0, 9.0, 16.0, 14.0, 14.0], giftResponseLengths: { loved: 10.0, liked: 8.0, neutral: 17.0, disliked: 12.0, hated: 13.0 } },
-    mystical_oak: { chatterLengths: [3.0, 1.0, 1.0, 1.0, 1.0, 1.0], giftResponseLengths: { loved: 1.0, liked: 1.0, neutral: 1.0, disliked: 2.0, hated: 1.0 } },
+    wise_oak: { chatterLengths: [7.0, 5.0, 5.0, 5.0, 5.0, 7.0], giftResponseLengths: { loved: 0.0, liked: 0.0, neutral: 0.0, disliked: 0.0, hated: 0.0 } },
     shepherd: { chatterLengths: [15.0, 14.0, 13.0, 12.0, 14.0, 17.0], giftResponseLengths: { loved: 9.0, liked: 10.0, neutral: 8.0, disliked: 8.0, hated: 11.0 } },
-    witch: {chatterLengths: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], giftResponseLengths: {loved: 1.0, liked: 1.0, neutral: 1.0, disliked: 1.0, hated: 1.0}},
-    librarian: {chatterLengths: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], giftResponseLengths: {loved: 1.0, liked: 1.0, neutral: 1.0, disliked: 1.0, hated: 1.0}},
-    trader: {chatterLengths: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], giftResponseLengths: {loved: 1.0, liked: 1.0, neutral: 1.0, disliked: 1.0, hated: 1.0}}
+    trader: { chatterLengths: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], giftResponseLengths: { loved: 1.0, liked: 1.0, neutral: 1.0, disliked: 1.0, hated: 1.0 } },
+    witch: { chatterLengths: [7.0, 5.0, 5.0, 5.0, 5.0, 5.0], giftResponseLengths: { loved: 5.0, liked: 5.0, neutral: 5.0, disliked: 5.0, hated: 6.0 } }
 }
 const maxGifts = {
     banker: "society:slouching_towards_artistry",
@@ -151,6 +151,7 @@ const handleNpc = (e, npcId, level, server, target, player) => {
                 if (npcData.friendship + 5 > 500) {
                     npcData.friendship = 500
                 } else {
+                    if (npcId === "wise_oak") npcData.friendship + 15
                     npcData.friendship = npcData.friendship + 5
                 }
             } else {
@@ -158,11 +159,17 @@ const handleNpc = (e, npcId, level, server, target, player) => {
                     server.runCommandSilent(
                         `dialog ${player.getUuid()} show ${player.username} carpenter_unique_need_to_buy`
                     );
-                } else if (npcId === "mystical_oak") {
-                    return;
+                } else if (npcId === "librarian" && global.isLateSeason(level)) {
+                    server.runCommandSilent(
+                        `dialog ${player.getUuid()} show ${player.username} librarian_unique_book_fair`
+                    );
+                } else if (npcId === "wise_oak") {
+                    if (Number(npcData.friendship) >= 500) {
+                        player.tell("opening shop")
+                        server.runCommandSilent(`openshop ${player.username} wise_oak`)
+                    }
                 } else {
                     server.runCommandSilent(`openshop ${player.username} ${npcId}`)
-
                 }
             }
         }
@@ -188,6 +195,6 @@ BlockEvents.rightClicked("mysticaloaktree:wise_oak", (e) => {
     if (player.isFake()) return;
     if (hand == "OFF_HAND") return;
     if (hand == "MAIN_HAND") {
-        handleNpc(e, "mystical_oak", level, server, block, player)
+        handleNpc(e, "wise_oak", level, server, block, player)
     }
 });
