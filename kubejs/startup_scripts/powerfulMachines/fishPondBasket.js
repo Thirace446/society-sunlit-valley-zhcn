@@ -195,7 +195,7 @@ StartupEvents.registry("block", (event) => {
       item.tooltip(Text.translatable("tooltip.society.area", `3x7x3`).green());
       item.tooltip(
         Text.translatable(
-          "block.society.fish_pond_hatchery.description.fuel"
+          "block.society.fish_pond_basket.description.fuel"
         ).lightPurple()
       );
       item.modelJson({

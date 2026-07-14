@@ -1,6 +1,6 @@
 {
-	"id": "wise_oak_chatter_friendship5_1",
-	"title": "[1] wise_oak chatter at friendship level: friendship5",
+	"id": "wise_oak_chatter_friendship5_7",
+	"title": "[7] wise_oak chatter at friendship level: friendship5",
 	"description": "dialog.npc.wise_oak.chatter.description",
 	"allowClose": true,
 	"entries": [
@@ -12,7 +12,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.wise_oak.chatter_friendship5.1.line_0"
+					"translate": "dialog.npc.wise_oak.chatter_friendship5.7.line_0"
 				}
 			],
 			"portraits": [
@@ -31,7 +31,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.wise_oak.chatter_friendship5.1.line_1"
+					"translate": "dialog.npc.wise_oak.chatter_friendship5.7.line_1"
 				}
 			],
 			"portraits": [
@@ -50,7 +50,7 @@
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.wise_oak.chatter_friendship5.1.line_2"
+					"translate": "dialog.npc.wise_oak.chatter_friendship5.7.line_2"
 				}
 			],
 			"portraits": [

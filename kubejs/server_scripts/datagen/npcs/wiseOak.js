@@ -49,7 +49,7 @@ if (global.datagenDialog) {
         ["The wind feels nice today. Genuine wind is something your industrial self will never recreate.", "The blades of those metallic abominations you call fans will never compare."],
       ],
       friendship5: [
-        ["The mystery of Selene will never be unraveled. The mysteries of the moon are endless."]
+        ["The mystery of Selene will never be unraveled. The mysteries of the moon are endless."],
         ["I have an interest in that sage of yours, the sleepy unkempt one.", "During clear nights I see a glimmer of an eye watching me...", "Like a cardinal in spring looks at a fresh berry..."],
         "Hello my Soft One.",
         "The company of others is to be enjoyed, not shamed. Be kind others as you have I.",
