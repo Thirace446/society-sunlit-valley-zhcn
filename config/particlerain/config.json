@@ -1,11 +1,11 @@
 {
   "configVersion": 5,
   "perf": {
-    "maxParticleAmount": 1500,
-    "particleDensity": 100,
-    "particleStormDensity": 200,
-    "particleDistance": 16,
-    "surfaceRange": 100
+    "maxParticleAmount": 120,
+    "particleDensity": 20,
+    "particleStormDensity": 50,
+    "particleDistance": 8,
+    "surfaceRange": 40
   },
   "sound": {
     "rainVolume": 0.2,
@@ -28,6 +28,14 @@
     "syncRegistries": true,
     "crossBiomeBorder": false,
     "useHeightmapTemp": true,
+    "weatherIgnoreBlocks": {
+      "entries": [
+        "#minecraft:fences",
+        "#minecraft:all_signs",
+        "minecraft:barrier"
+      ],
+      "isWhitelist": true
+    },
     "doSpawnHeightLimit": false,
     "spawnHeightLimit": 0
   },

@@ -131,7 +131,7 @@ const runNpcDatagen = (npcId, npcDef) => {
       id: `${npcId}_intro`,
       title: `${npcId} introduction`,
       description: `dialog.npc.${npcId}.intro.description`,
-      entries: generateDialogEntries(npcId, `intro`, 0, npcDef.intro, ""),
+      entries: generateDialogEntries(npcId, `intro`, 0, npcDef.intro, npcId),
     });
   }
   // Gifts

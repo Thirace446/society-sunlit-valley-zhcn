@@ -171,6 +171,7 @@ StartupEvents.registry("block", (event) => {
       },
     ],
   };
+  
   event
     .create("society:fish_pond_hatchery")
     .tagBlock("minecraft:mineable/axe")

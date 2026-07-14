@@ -823,13 +823,14 @@ ServerEvents.recipes((e) => {
   });
   e.shaped(
     "society:caterpillar_box",
-    ["isi", "aba", "iBi"],
+    ["isi", "abm", "iBi"],
     {
       s: "#minecraft:saplings",
       i: "minecraft:iron_block",
       b: "minecraft:barrel",
       B: "society:battery",
       a: "society:butterfly_amber",
+      m: "society:moth_pollen",
     }
   );
   e.shaped(

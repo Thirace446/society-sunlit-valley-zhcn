@@ -16,7 +16,7 @@
 			],
 			"portraits": [
 				{
-					"path": ".png",
+					"path": "trader.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
