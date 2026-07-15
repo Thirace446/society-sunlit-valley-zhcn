@@ -1242,7 +1242,7 @@
 			}]
 			title: "{ftbquests.chapter.iii__advanced_farming.quest6C95E6AEEC55CFA5.title}"
 			x: 3.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["44A512703C4A9990"]
@@ -1262,8 +1262,8 @@
 				item: "moreminecarts:chiseled_organic_glass"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["263CCA4D2EAF2629"]
@@ -1312,110 +1312,6 @@
 			title: "Butterfly Breeding!"
 			x: 5.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["44A512703C4A9990"]
-			description: [
-				"It might be the time to open up your first Cafe!"
-				""
-				"The &6Cafe Manager&r will allow you to create a place where customers come to eat at. The menu is fully customizable, allowing you to serve whatever your farm specializes in."
-				""
-				"Items sold in your cafe are worth &650% more&r! Fast service will also get you up to&6 100% more&r in tips. Your skills will also be used, making this worth the time investment. "
-			]
-			id: "52844505B8DFD385"
-			rewards: [
-				{
-					id: "4CF75ABDF160ECF8"
-					item: "cozycafe:cafe_sign"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "29821E079677C149"
-					item: "cozycafe:cafe_menu"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3F0D23DBCA7E62DC"
-				item: "cozycafe:cafe_manager"
-				type: "item"
-			}]
-			title: "Opening a Cozy Cafe"
-			x: 9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["52844505B8DFD385"]
-			description: [
-				"Main dishes in your &6cafe&r will need to be plated before serving!"
-				""
-				"A &6Plating Station&r is used to plate these items."
-				""
-				"Note that dishes that already come with a bowl will not need to be plated, if you prefer not washing dishes!"
-			]
-			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "cozycafe:serving_plate"
-				tag: {
-					platedFood: {
-						Count: 1b
-						id: "veggiesdelight:vegetables_wrap"
-					}
-				}
-			}
-			id: "2B8A8B8E56690406"
-			rewards: [{
-				id: "4837D9173BA5B716"
-				item: "cluttered:kitchen_set_brown_counter_sink"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "4CB168301302933D"
-					item: "cozycafe:plating_station"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "37706D067217EFBD"
-					item: { Count: 4, id: "cozycafe:serving_plate" }
-					type: "item"
-				}
-			]
-			title: "Plating Up"
-			x: 10.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["52844505B8DFD385"]
-			description: [
-				"Wondering what foods you can put on your menu?"
-				""
-				"In JEI/EMI's search bar you can search for &6#cozycafe:menu_items&r to find out! You can also search for just the specific types:"
-				""
-				"- &6#cozycafe:drink&r"
-				"- &6#cozycafe:main&r"
-				"- &6#cozycafe:dessert&r"
-			]
-			hide_until_deps_complete: true
-			icon: "cozycafe:cafe_menu"
-			id: "2FB9C8009C0829B7"
-			rewards: [{
-				count: 2
-				id: "0B528CD7CCA468FA"
-				item: "society:furniture_box"
-				type: "item"
-			}]
-			tasks: [{
-				id: "663DDCD0E4C13211"
-				title: "Understood!"
-				type: "checkmark"
-			}]
-			title: "Finding Menu Items"
-			x: 10.5d
-			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.iii__advanced_farming.title}"

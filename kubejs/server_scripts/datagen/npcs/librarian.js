@@ -101,7 +101,7 @@ if (global.datagenDialog) {
       {
         name: "book_fair",
         text: [
-          "I have a selection of special books availible for the book fair this season, please take a look.",
+          "I have a selection of special books available for the book fair this season, please take a look.",
         ]
       },
     ]
