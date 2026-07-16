@@ -230,7 +230,6 @@ global.lootFurniture = [
   "furniture:explorers_box",
   "furniture:pells",
   "furniture:display",
-  "furniture:blueprints",
   "furniture:canvas",
   "furniture:gramophone",
   "furniture:telescope",

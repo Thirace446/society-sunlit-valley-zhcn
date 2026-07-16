@@ -59,9 +59,6 @@
 					"position": "INLINE",
 					"brightness": 1
 				}
-			],
-			"command": [
-				"openshop @p wise_oak"
 			]
 		}
 	]

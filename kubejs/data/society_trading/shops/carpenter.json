@@ -5233,18 +5233,6 @@
         },
         {
           "offer": {
-            "item": "furniture:blueprints",
-            "count": 1
-          },
-          "request": {
-            "item": "numismatics:crown",
-            "count": 8
-          },
-          "numismatics_cost": 4096,
-          "trade_id": "carpenter_furniture_blueprints"
-        },
-        {
-          "offer": {
             "item": "cluttered:bulletin_board",
             "count": 1
           },

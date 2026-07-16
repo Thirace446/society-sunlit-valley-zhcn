@@ -1631,13 +1631,13 @@
     "curseForgeHash": 1431799465,
     "modrinthHash": "564bbddb1e48ad1cb4398218128d6b05bcd92c11"
   },
-  "MCT-RS-Mixin-1.20.1-1.1.0-b412-release.jar": {
-    "jarName": "MCT-RS-Mixin-1.20.1-1.1.0-b412-release.jar",
+  "MCT-RS-Mixin-1.20.1-1.1.0-b420-release.jar": {
+    "jarName": "MCT-RS-Mixin-1.20.1-1.1.0-b420-release.jar",
     "modId": "rsmixin",
     "name": "Refined Storage Mixin",
-    "version": "1.1.0-b411-release",
-    "curseForgeHash": 3187397626,
-    "modrinthHash": "7e59d73232c582c3608a9d6c0adb0afacf2efe78"
+    "version": "1.1.0-b418-release",
+    "curseForgeHash": 927114829,
+    "modrinthHash": "40856555c69228ee36c32ad87d0fa84beacd7f77"
   },
   "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar": {
     "jarName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
@@ -2527,13 +2527,13 @@
     "curseForgeHash": 1988549846,
     "modrinthHash": "326d65a29981de28016e3828370d68a8f63e1798"
   },
-  "SVDialog-0.3.jar": {
-    "jarName": "SVDialog-0.3.jar",
+  "SVDialog-0.5.jar": {
+    "jarName": "SVDialog-0.5.jar",
     "modId": "dialog",
     "name": "SVDialog",
-    "version": "0.3",
-    "curseForgeHash": 3458137843,
-    "modrinthHash": "6e0446a20dedf8f23a96781cf3e1f0d262d3ad94"
+    "version": "0.5",
+    "curseForgeHash": 3704170726,
+    "modrinthHash": "a55b689650e2ad0a472c47dd7a6884cf418e6035"
   },
   "tanukidecor-20.1.1.0.jar": {
     "jarName": "tanukidecor-20.1.1.0.jar",

@@ -1,5 +1,4 @@
 {
-
 	"portable_blueprints.worn_blueprint.alpine_barn": "Alpine Barn",
 	"portable_blueprints.worn_blueprint.alpine_barn.author": "Designed by: Krewella",
 	"portable_blueprints.worn_blueprint.alpine_barn.dimensions": "Dimensions: 15x19x10",
@@ -207,6 +206,12 @@
 	"portable_blueprints.worn_blueprint.npc_basic_shepherd": "Basic Shepherd Home",
 	"portable_blueprints.worn_blueprint.npc_basic_shepherd.author": "Designed by: EeveeBeby",
 	"portable_blueprints.worn_blueprint.npc_basic_shepherd.dimensions": "Dimensions: 16x16x9",
+	"portable_blueprints.worn_blueprint.npc_basic_trader": "Basic Trader Home",
+	"portable_blueprints.worn_blueprint.npc_basic_trader.author": "Designed by: ",
+	"portable_blueprints.worn_blueprint.npc_basic_trader.dimensions": "",
+	"portable_blueprints.worn_blueprint.npc_basic_witch": "Basic Witch Home",
+	"portable_blueprints.worn_blueprint.npc_basic_witch.author": "Designed by: ",
+	"portable_blueprints.worn_blueprint.npc_basic_witch.dimensions": "",
 	"portable_blueprints.worn_blueprint.prismarine_barn": "Prismarine Barn",
 	"portable_blueprints.worn_blueprint.prismarine_barn.author": "Designed by: AndieCherries",
 	"portable_blueprints.worn_blueprint.prismarine_barn.dimensions": "Dimensions: 17x21x10",

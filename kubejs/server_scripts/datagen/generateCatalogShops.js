@@ -43,6 +43,8 @@
 //     { keyword: "display_case", price: 6 },
 //     { keyword: "chair", price: 1 },
 //     { keyword: "stool", price: 1 },
+//     { keyword: "/wool", price: 1 },
+//     { keyword: "royal/wool", price: 2 },
 //     { keyword: "streamer", price: 1 },
 //     { keyword: "garland", price: 1 },
 //     { keyword: "tarp", price: 2 },
@@ -76,7 +78,7 @@
 //     return {
 //         offer: {
 //             item: id,
-//             count: 1
+//             count: id.includes("/wool") ? 8 : 1
 //         },
 //         request: {
 //             item: "numismatics:crown",

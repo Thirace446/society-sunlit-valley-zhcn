@@ -43,7 +43,7 @@
   "shop.society_trading.carpenter.description": "Sells building blocks & seasonal furniture for constructing your farm.",
   "shop.society_trading.invitations.description": "Has trades to invite new villagers to your town.",
   "shop.society_trading.guild.description": "Sells goods for adventuring and fighting mobs.",
-
+  "shop.society_trading.wise_oak.description": "The Wise Oak only follows the teachings of Mazovian Socio-Economics.",
 
   
   "shop.society_trading.ribbit_fisher.description": "Ribbit...?",
@@ -80,32 +80,46 @@
   "jei.society_trading.only_autumn": "Sold in Autumn only",
   "jei.society_trading.only_winter": "Sold in Winter only",
 
-	"shop.society_trading.building_shop.banker": "Banker Home",
 	"shop.society_trading.building_shop.barn": "Barn",
-	"shop.society_trading.building_shop.blacksmith": "Blacksmith Home",
-	"shop.society_trading.building_shop.carpenter": "Carpenter Home",
 	"shop.society_trading.building_shop.coop": "Coop",
-	"shop.society_trading.building_shop.deluxe_barn": "Deluxe_barn",
-	"shop.society_trading.building_shop.fisher": "Fisher Home",
+	"shop.society_trading.building_shop.deluxe_barn": "Deluxe Barn",
 	"shop.society_trading.building_shop.greenhouse": "Greenhouse",
 	"shop.society_trading.building_shop.home": "Home",
-	"shop.society_trading.building_shop.large_shed": "Large_shed",
-	"shop.society_trading.building_shop.market": "Market Home",
+	"shop.society_trading.building_shop.large_shed": "Large Shed",
 	"shop.society_trading.building_shop.shed": "Shed",
+
+	"shop.society_trading.building_shop.banker": "Banker Home",
+	"shop.society_trading.building_shop.blacksmith": "Blacksmith Home",
+	"shop.society_trading.building_shop.carpenter": "Carpenter Home",
+	"shop.society_trading.building_shop.fisher": "Fisher Home",
+	"shop.society_trading.building_shop.market": "Market Home",
 	"shop.society_trading.building_shop.shepherd": "Shepherd Home",
 	"shop.society_trading.building_shop.trader": "Trader Home",
 	"shop.society_trading.building_shop.witch": "Witch Home",
 
-  "shop.society_trading.bs_home.description": "Farmhouses are the main housing of your farm.",
-  "shop.society_trading.bs_barn.description": "Barns are perfectly sized for larger farm animals.",
-  "shop.society_trading.bs_deluxe_barn.description": "Deluxe Barns are larger, grander versions of barns, with seperate sections to divide up animals.",
+	"shop.society_trading.bs_banker.description": "A home for a Banker to live in your village",
+	"shop.society_trading.bs_blacksmith.description": "A home for a Blacksmith to live in your village",
+	"shop.society_trading.bs_carpenter.description": "A home for a Carpenter to live in your village",
+	"shop.society_trading.bs_fisher.description": "A home for a Fisher to live in your village",
+	"shop.society_trading.bs_market.description": "A home for a Market to live in your village",
+	"shop.society_trading.bs_shepherd.description": "A home for a Shepherd to live in your village",
+	"shop.society_trading.bs_trader.description": "A home for a Trader to live in your village",
+	"shop.society_trading.bs_witch.description": "A home for a Witch to live in your village",
+
+  "shop.society_trading.bs_home.description": "The main housing of your farm.",
+  "shop.society_trading.bs_barn.description": "Perfectly sized for larger farm animals.",
+  "shop.society_trading.bs_deluxe_barn.description": "Larger, grander versions of barns.",
   "shop.society_trading.bs_coop.description": "Coops are small cozy homes for all types of egg-laying animals.",
-  "shop.society_trading.bs_greenhouse.description": "Greenhouses are buildings perfect for growing Anything, Anytime, Anywhere!",
-  "shop.society_trading.bs_shed.description": "Sheds are utility buildings for storing Artisan Machines, chests, and anything else you need.",
-  "shop.society_trading.bs_large_shed.description": "Large Sheds are as you may expect; larger sheds!",
+  "shop.society_trading.bs_greenhouse.description": "Buildings perfect for growing Anything, Anytime, Anywhere! Greenhouse Glass included!",
+  "shop.society_trading.bs_shed.description": "Utility buildings for storing Artisan Machines, chests, and anything else you need.",
+  "shop.society_trading.bs_large_shed.description": "Larger sheds!",
 
   
   "shop.society_trading.tanuki_catalog": "Tanuki Catalog",
   "shop.society_trading.fantasy_catalog": "Fantasy Catalog",
-  "shop.society_trading.modern_catalog": "Modern Catalog"
+  "shop.society_trading.modern_catalog": "Modern Catalog",
+
+  "shop.society_trading.tanuki_catalog.description": "Sells furniture from the Tanuki set",
+  "shop.society_trading.fantasy_catalog.description": "Sells furniture from the Fantasy set",
+  "shop.society_trading.modern_catalog.description": "Sells furniture from the Modern set"
 }

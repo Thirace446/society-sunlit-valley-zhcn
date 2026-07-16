@@ -143,4 +143,10 @@
 	#Tip: if you were already hit by this bug, look for a refinedstorage_disks.dat.temp file in your
 	#world's data folder - renaming it to refinedstorage_disks.dat usually recovers everything.
 	enableSafeDataSaving = true
+	#When enabled, wireless items (Wireless Grid, Fluid Grid, Crafting Monitor, and addon wireless items)
+	#can only be used in the same dimension as the network they are linked to.
+	#Trying to use one from another dimension shows an on-screen message instead of opening,
+	#even if an addon's infinite/cross-dimension wireless transmitter would normally allow it.
+	#Disabled by default (vanilla behavior).
+	enableWirelessDimensionLock = false
 

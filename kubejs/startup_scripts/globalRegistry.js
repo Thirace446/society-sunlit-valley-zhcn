@@ -1487,6 +1487,7 @@ const cookingPotRecipes = [
   { item: "veggiesdelight:shakshouka", value: 165 },
   { item: "veggiesdelight:roasted_vegetables", value: 240 },
   { item: "veggiesdelight:stuffed_bellpeppers_block", value: 146 },
+  { item: 'veggiesdelight:stuffed_bellpepper', value: 48 },
   { item: "veggiesdelight:garlic_rice_with_cauliflower", value: 148 },
   { item: "veggiesdelight:garlic_stuffed_mushrooms", value: 100 },
   { item: "veggiesdelight:fish_and_chips", value: 92 },

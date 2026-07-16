@@ -38,7 +38,7 @@
 
 //         langStrings[`shop.society_trading.building_shop.${type}`] = `${global.formatName(type)}${villager ? " Home" : ""}`;
 //         shopTrades = [];
-        
+    
 //         sets.forEach((set) => {
 //             langPrefix = `portable_blueprints.worn_blueprint.${villager ? "npc_" : ""}${set}_${type}`;
 //             blueprintLangStrings[langPrefix] = `${global.formatName(set)} ${name}${villager ? " Home" : ""}`;

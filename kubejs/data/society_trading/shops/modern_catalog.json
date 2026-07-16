@@ -3,7 +3,7 @@
 	"name": "shop.society_trading.modern_catalog",
 	"hidden_from_selector": true,
 	"display_type": "thin",
-	"texture": "",
+	"texture": "minecraft:textures/block/quartz_block_side",
 	"jei_catalyst": {
 		"item": "society:modern_catalog"
 	},
@@ -572,18 +572,6 @@
 			},
 			"numismatics_cost": 7168,
 			"trade_id": "modern_purchasing_cluttered_retro_toaster_blue"
-		},
-		{
-			"offer": {
-				"item": "furniture:blueprints",
-				"count": 1
-			},
-			"request": {
-				"item": "numismatics:crown",
-				"count": 8
-			},
-			"numismatics_cost": 4096,
-			"trade_id": "modern_purchasing_furniture_blueprints"
 		},
 		{
 			"offer": {

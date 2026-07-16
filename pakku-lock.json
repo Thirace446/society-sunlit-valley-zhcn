@@ -9953,6 +9953,47 @@
             ]
         },
         {
+            "pakku_id": "tVT3uxkcS7MCGh1M",
+            "pakku_links": [
+                "iWvCryH4gcmPkw7g"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mct-refined-storage-mixin"
+            },
+            "name": {
+                "curseforge": "Refined Storage (Fixes) Mixin"
+            },
+            "id": {
+                "curseforge": "1431536"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MCT-RS-Mixin-1.20.1-1.1.0-b420-release.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8441/87/MCT-RS-Mixin-1.20.1-1.1.0-b420-release.jar",
+                    "id": "8441087",
+                    "parent_id": "1431536",
+                    "hashes": {
+                        "sha1": "40856555c69228ee36c32ad87d0fa84beacd7f77",
+                        "md5": "091d65bdce5e40f6edcaf73e60fa9132"
+                    },
+                    "required_dependencies": [
+                        "243076"
+                    ],
+                    "size": 167405,
+                    "date_published": "2026-07-16T00:28:40.397Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xoa5SvUxiN2AacXe",
             "type": "MOD",
             "slug": {
@@ -9986,47 +10027,6 @@
                     "required_dependencies": [],
                     "size": 33771,
                     "date_published": "2023-07-05T11:08:13.323Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "DRxW3InVYzkJruba",
-            "pakku_links": [
-                "iWvCryH4gcmPkw7g"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "refined-storage-mixin"
-            },
-            "name": {
-                "curseforge": "Refined Storage Mixin"
-            },
-            "id": {
-                "curseforge": "1431536"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "MCT-RS-Mixin-1.20.1-1.1.0-b412-release.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8415/542/MCT-RS-Mixin-1.20.1-1.1.0-b412-release.jar",
-                    "id": "8415542",
-                    "parent_id": "1431536",
-                    "hashes": {
-                        "sha1": "7e59d73232c582c3608a9d6c0adb0afacf2efe78",
-                        "md5": "ccf1752f6461f04dffad19c9aa4cd5ce"
-                    },
-                    "required_dependencies": [
-                        "243076"
-                    ],
-                    "size": 161847,
-                    "date_published": "2026-07-11T23:46:55.210Z"
                 }
             ]
         },

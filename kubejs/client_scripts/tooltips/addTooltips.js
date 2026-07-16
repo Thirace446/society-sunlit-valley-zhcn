@@ -888,9 +888,17 @@ ItemEvents.tooltip((tooltip) => {
     "furniture:trash_bag",
     Text.translatable("tooltip.society.trash_bag").gray()
   );
-  tooltip.add(
+    tooltip.add(
     "society:bouquet_bag",
     Text.translatable("tooltip.society.bouquet_bag").green()
+  );
+  tooltip.add(
+    "furniture:blueprints",
+    Text.translatable("tooltip.society.blueprints").gray()
+  );
+  tooltip.add(
+    'via_romana:charting_map',
+    Text.translatable("tooltip.society.charting_map").gray()
   );
   tooltip.add(
     "society:bouquet_bag",

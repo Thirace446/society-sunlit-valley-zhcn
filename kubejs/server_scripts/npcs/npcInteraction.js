@@ -59,25 +59,38 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
     } else if (!npcData.maxGifted && Number(npcData.friendship) >= 500) {
         if (npcId.equals("banker") && player.stages.has("slouching_towards_artistry")) {
             player.give(Item.of("2x waystones:waystone"))
-            server.runCommandSilent(
-                `dialog ${player.username} show ${player.username} banker_unique__gift_read`
-            );
+            server.runCommandSilent(`dialog ${player.username} show ${player.username} banker_unique__gift_read`);
         } else if (npcId.equals("market") && player.stages.has("universal_methods_of_farming")) {
             player.give(Item.of("16x society:sparkpod_seed"))
-            server.runCommandSilent(
-                `dialog ${player.username} show ${player.username} market_unique_five_gift_read`
-            );
+            server.runCommandSilent(`dialog ${player.username} show ${player.username} market_unique_five_gift_read`);
         } else {
             player.give(maxGifts[npcId])
-            server.runCommandSilent(
-                `dialog ${player.getUuid()} show ${player.username} ${npcId}_unique_five_gift`
-            );
+            server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} ${npcId}_unique_five_gift`);
         }
         npcData.maxGifted = true
     } else {
         // Carpenter has two shops so it always needs dialog to choose between the two.
         let dialogNumber;
         if (player.isCrouching() && item.hasTag("society:villager_gift")) {
+            if (npcId === "wise_oak") {
+
+                server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} wise_oak_unique_no_gifting`);
+                server.runCommandSilent(`playsound stardew_fishing:fish_escape block @a ${target.x} ${target.y} ${target.z}`);
+                server.runCommandSilent(`playsound species:item.wicked_swapper.teleport block @a ${target.x} ${target.y} ${target.z}`);
+                level.spawnParticles(
+                    "mysticaloaktree:wind",
+                    true,
+                    target.x,
+                    target.y + 1.5,
+                    target.z,
+                    0.2 * rnd(1, 2),
+                    0.2 * rnd(1, 2),
+                    0.2 * rnd(1, 2),
+                    25,
+                    0.001
+                );
+                return;
+            }
             if (day > npcData.dayLastGifted + 3 || npcData.dayLastGifted - day > 1) {
                 let giftValue = global.getVillagerGiftResult(npcId, item.id);
                 dialogNumber = Math.floor(Math.random() * dialogLengths[npcId].giftResponseLengths[giftValue]);
@@ -103,12 +116,8 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
 
                 npcData.friendship = npcData.friendship + friendshipModification;
                 npcData.dayLastGifted = day
-                server.runCommandSilent(
-                    `playsound stardew_fishing:complete block @a ${target.x} ${target.y} ${target.z}`
-                );
-                server.runCommandSilent(
-                    `playsound species:item.wicked_swapper.teleport block @a ${target.x} ${target.y} ${target.z}`
-                );
+                server.runCommandSilent(`playsound stardew_fishing:complete block @a ${target.x} ${target.y} ${target.z}`);
+                server.runCommandSilent(`playsound species:item.wicked_swapper.teleport block @a ${target.x} ${target.y} ${target.z}`);
                 level.spawnParticles(
                     "supplementaries:confetti",
                     true,
@@ -142,7 +151,7 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
         } else {
             if (global.compareDay(day, npcData.dayLastChatted, 1)) {
                 let hearts = Math.floor(npcData.friendship / 100);
-                dialogNumber = Math.floor(Math.random() * dialogLengths[npcId].chatterLengths[hearts]);
+                dialogNumber = Math.floor(Math.random() * (dialogLengths[npcId].chatterLengths[hearts]));
 
                 server.runCommandSilent(
                     `dialog ${player.getUuid()} show ${player.username} ${npcId}_chatter_friendship${hearts}_${dialogNumber}`
@@ -156,13 +165,9 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
                 }
             } else {
                 if (npcId === "carpenter") {
-                    server.runCommandSilent(
-                        `dialog ${player.getUuid()} show ${player.username} carpenter_unique_need_to_buy`
-                    );
+                    server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} carpenter_unique_need_to_buy`);
                 } else if (npcId === "librarian" && global.isLateSeason(level)) {
-                    server.runCommandSilent(
-                        `dialog ${player.getUuid()} show ${player.username} librarian_unique_book_fair`
-                    );
+                    server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} librarian_unique_book_fair`);
                 } else if (npcId === "wise_oak") {
                     if (Number(npcData.friendship) >= 500) {
                         player.tell("opening shop")
@@ -174,7 +179,14 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
             }
         }
     }
+    if (npcId === "wise_oak") {
+        if (['society:tapper', 'society:auto_tapper'].includes(item.id)) {
+            npcData.friendship = 0;
+        }
+    } else {
     e.cancel()
+
+    }
 }
 
 ItemEvents.entityInteracted((e) => {

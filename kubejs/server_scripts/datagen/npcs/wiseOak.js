@@ -1,6 +1,7 @@
 // Priority: -100
 if (global.datagenDialog) {
   runNpcDatagen("wise_oak", {
+    portraitPath: "mystical_oak",
     name: "Wise Oak",
     intro: [
       "Do you like hurting other people?",
@@ -25,7 +26,7 @@ if (global.datagenDialog) {
         ["That one with the red hair...", "You know the one.", "Do not let that one be corrupted by the influence of Caroline."],
         ["My dog barks some...", "Mentally, you picture my dog but I have not told you the type of dog which I have..."],
         ["Let us speak frankly, o' Soft One.", "Cottagecore is an infantilization of the act your people call 'colonization'.", "Burying it in sweet words will not save your soul from the darkness of the forest."],
-      
+
       ],
       friendship2: [
         "You're barking up the wrong Quercus.",
@@ -38,7 +39,7 @@ if (global.datagenDialog) {
         "You sap my strenght with this needless chatter. Let me rest.",
         "A sapling a day keeps the bourgeoisie away!",
         ["Capitalist ideology disguises itself in inevitabilities.", "'If I do not claim this for myself, someone else will.'", "You are not immune to this trapping, o' Soft One."],
-        "Those that dismiss their own role in the abomination that is capitalism are not absolved from it in the eyes of the forest.", 
+        "Those that dismiss their own role in the abomination that is capitalism are not absolved from it in the eyes of the forest.",
         ["There is an angel amongst your people!", "That pale large one gently spoke to a bed of roses as if equals.", "Something you could learn a thing or to about."]
       ],
       friendship4: [
@@ -81,6 +82,10 @@ if (global.datagenDialog) {
           "Even that purple demon leaves the fruit of your labor to yourself... But I digress.",
           "I wish to participate in this society, but like anyone else it needs to be on my terms as I represent the natural order of things."
         ]
+      },
+      {
+        name: "no_gifting",
+        text: ["Oh soft one, your petty little bribes won't work on me.", "My respect cannot be bought, as much as you capitalists wish otherwise.", "Earn my respect through conversation and conversation alone."]
       }
     ]
   });
