@@ -1,6 +1,6 @@
 {
 	"item": "bakery:chocolate_donut",
-	"category": "main",
+	"category": "dessert",
 	"price": 1281,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

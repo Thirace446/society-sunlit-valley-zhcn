@@ -1,6 +1,6 @@
 {
 	"item": "bakery:strawberry_cupcake",
-	"category": "main",
+	"category": "dessert",
 	"price": 72,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

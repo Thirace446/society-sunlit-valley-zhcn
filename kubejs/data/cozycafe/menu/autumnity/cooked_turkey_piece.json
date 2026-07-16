@@ -1,6 +1,6 @@
 {
 	"item": "autumnity:cooked_turkey_piece",
-	"category": "dessert",
+	"category": "main",
 	"price": 14,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

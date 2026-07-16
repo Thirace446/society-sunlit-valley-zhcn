@@ -1,6 +1,6 @@
 {
 	"item": "farmersdelight:shepherds_pie_block",
-	"category": "dessert",
+	"category": "main",
 	"price": 548,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

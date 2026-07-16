@@ -1,6 +1,6 @@
 {
 	"item": "bakery:apple_jam",
-	"category": "main",
+	"category": "dessert",
 	"price": 33,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

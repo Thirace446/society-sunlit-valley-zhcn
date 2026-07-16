@@ -1,6 +1,6 @@
 {
 	"item": "create:sweet_roll",
-	"category": "main",
+	"category": "dessert",
 	"price": 134,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

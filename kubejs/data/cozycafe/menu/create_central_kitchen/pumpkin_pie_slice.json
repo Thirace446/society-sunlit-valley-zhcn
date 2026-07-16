@@ -1,6 +1,6 @@
 {
 	"item": "create_central_kitchen:pumpkin_pie_slice",
-	"category": "main",
+	"category": "dessert",
 	"price": 44,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

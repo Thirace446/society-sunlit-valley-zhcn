@@ -1,6 +1,6 @@
 {
 	"item": "bakery:chocolate_cake",
-	"category": "main",
+	"category": "dessert",
 	"price": 852,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

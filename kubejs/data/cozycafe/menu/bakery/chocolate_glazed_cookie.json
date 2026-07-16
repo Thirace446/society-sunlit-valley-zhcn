@@ -1,6 +1,6 @@
 {
 	"item": "bakery:chocolate_glazed_cookie",
-	"category": "main",
+	"category": "dessert",
 	"price": 324,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

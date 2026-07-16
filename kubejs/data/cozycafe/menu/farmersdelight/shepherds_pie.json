@@ -1,6 +1,6 @@
 {
 	"item": "farmersdelight:shepherds_pie",
-	"category": "dessert",
+	"category": "main",
 	"price": 137,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

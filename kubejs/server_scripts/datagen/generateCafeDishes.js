@@ -6,8 +6,8 @@ const dessertBlacklist = ['veggiesdelight:sweet_potato_pancakes', 'farm_and_char
 let dishGenerator = (dish, productType, categoryOverride) => {
     if (blacklist.includes(dish.item)) return;
     let category = "main";
-    if (dessertBlacklist.includes(dish.item)) {
-        ['waffle', 'misslilitu_biscuit', 'icecream', "popsicle", "jam", "tart", "sorbet", "muffin", "candy", "candied", "pie", "cake", "Slice of", "cookie", "pudding", "jam", "jelly", "sweet", "tart", "chocolate", "snow", "gateau", "custard", "honey"].forEach((keyword) => {
+    if (!dessertBlacklist.includes(dish.item)) {
+        [ 'misslilitu_biscuit', 'icecream', "popsicle", "jam", "tart", "sorbet", "muffin", "candy", "candied", "pie", "cake", "Slice of", "cookie", "pudding", "jam", "jelly", "sweet", "tart", "chocolate", "snow", "gateau", "custard", "honey"].forEach((keyword) => {
             if (dish.item.path.includes(keyword)) category = "dessert"
         });
     }
