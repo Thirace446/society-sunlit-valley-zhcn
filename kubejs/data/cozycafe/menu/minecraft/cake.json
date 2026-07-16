@@ -1,6 +1,6 @@
 {
 	"item": "minecraft:cake",
-	"category": "dessert",
+	"category": "main",
 	"price": 668,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

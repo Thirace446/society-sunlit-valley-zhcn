@@ -1,8 +1,9 @@
 {
 	"item": "crabbersdelight:kelp_shake",
-	"category": "main",
+	"category": "drink",
 	"price": 17,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
-	"themes": []
+	"themes": [],
+	"bottle_drink": true
 }

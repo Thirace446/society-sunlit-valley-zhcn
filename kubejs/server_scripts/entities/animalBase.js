@@ -456,8 +456,8 @@ const handleSpecialItem = (
     resolvedChance = chance + plushieModifiers.probabilityIncrease;
     if (plushieModifiers.processItems) {
       let processOutput = global.getProcessedItem(item, dropAmount);
-      resolvedItem = processOutput.item;
-      dropAmount = Math.round(dropAmount / processOutput.divisor);
+      resolvedItem = processOutput.item.id;
+      dropAmount = Math.round(dropAmount / processOutput.divisor) *  processOutput.item.count;
       resolvedHasQuality = processOutput.preserveQuality
     }
   } else {

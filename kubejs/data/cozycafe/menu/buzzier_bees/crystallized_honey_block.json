@@ -1,6 +1,6 @@
 {
 	"item": "buzzier_bees:crystallized_honey_block",
-	"category": "dessert",
+	"category": "main",
 	"price": 54,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

@@ -1,6 +1,6 @@
 {
 	"item": "bakery:strawberry_cake",
-	"category": "dessert",
+	"category": "main",
 	"price": 288,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

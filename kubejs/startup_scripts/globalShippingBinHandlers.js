@@ -104,9 +104,7 @@ global.processShippingBinInventory = (
           trade = global.trades.get(`${slotItem.id}/${slotNbt.plort.id}`);
       }
       if (slotNbt && isLongwing && slotNbt.variant) {
-        console.log(`longwings:variant/${slotNbt.variant}`)
         trade = global.trades.get(`longwings:variant/${slotNbt.variant}`);
-        console.log(trade)
       }
       if (slotNbt && slotNbt.quality_food) {
         quality = slotNbt.quality_food.quality;

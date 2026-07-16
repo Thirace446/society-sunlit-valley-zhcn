@@ -1,6 +1,6 @@
 {
 	"item": "veggiesdelight:carrot_cake",
-	"category": "dessert",
+	"category": "main",
 	"price": 537,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

@@ -22,7 +22,7 @@ global.handleCaterpillarBox = (e) => {
         }
         let longwing = level.createEntity("longwings:" + type);
         if (longwingDef) {
-          longwing.mergeNbt({ Variant: longwingDef.variant, size: Math.round((Math.min(global.getLongwingSize(longwingDef.size) * 2, slotItem.nbt.size)) / 2 * 100) / 100});
+          longwing.mergeNbt({ Variant: longwingDef.variant, size: Math.round(Math.min(global.getLongwingSize(longwingDef.size) * 2, slotItem.nbt.size) * 100) / 100});
         }
         longwing.setPosition(x, y + 1, z);
         longwing.spawn();

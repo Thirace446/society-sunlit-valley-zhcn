@@ -37,7 +37,7 @@ const getNpcKey = (customName) => {
 }
 const npcIds = ["easy_npc:humanoid", "easy_npc:humanoid_slim"];
 
-const handleNpc = (e, npcId, level, server, target, player) => {
+const handleNpc = (e, npcId, level, server, target, player, item) => {
     let day = global.getDay(level);
     if (!player.persistentData.npcData) player.persistentData.npcData = {}
     let npcData = player.persistentData.npcData[npcId];
@@ -185,16 +185,16 @@ ItemEvents.entityInteracted((e) => {
     if (!npcIds.includes(target.type)) return;
     if (hand == "MAIN_HAND") {
         let npcId = getNpcKey(target.nbt.CustomName.toString())
-        handleNpc(e, npcId, level, server, target, player)
+        handleNpc(e, npcId, level, server, target, player, item)
     }
 });
 
 
 BlockEvents.rightClicked("mysticaloaktree:wise_oak", (e) => {
-    const { hand, player, block, level, server } = e;
+    const { hand, player, block, level, server, item } = e;
     if (player.isFake()) return;
     if (hand == "OFF_HAND") return;
     if (hand == "MAIN_HAND") {
-        handleNpc(e, "wise_oak", level, server, block, player)
+        handleNpc(e, "wise_oak", level, server, block, player, item)
     }
 });

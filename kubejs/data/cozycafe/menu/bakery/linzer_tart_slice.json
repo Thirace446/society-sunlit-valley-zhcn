@@ -1,6 +1,6 @@
 {
 	"item": "bakery:linzer_tart_slice",
-	"category": "dessert",
+	"category": "main",
 	"price": 1161,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

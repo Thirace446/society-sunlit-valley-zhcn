@@ -284,7 +284,7 @@ global["JadeSocietyCropClientCallback"] = (
     );
   } else {
     $JadeCropInfo.INSTANCE.appendTooltip(tooltip.getTooltip(), accessor, pluginConfig);
-    if (!blockContainer.hasTag("dew_drop_farmland_growth:cancel_random_tick") && !isCropFertile(name)) {
+    if (!blockContainer.hasTag("dew_drop_farmland_growth:cancel_random_tick") && $SereneFertility.isCrop(state) && !isCropFertile(name)) {
       tooltip.add(Component.translatable("jade.society.crop_growth.stop").red());
     }
   }

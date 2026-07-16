@@ -887,12 +887,12 @@ global.spawnTextDisplay = (block, y, id, text) => {
   entity.spawn();
 };
 
-global.giveExperience = (server, player, category, xp) => {
+global.giveExperience = (server, player, category, xp, excludeMastery) => {
   if (!player.isFake()) {
     server.runCommandSilent(
       `puffish_skills experience add ${player.username} society:${category} ${xp}`
     );
-    if (player.stages.has("mastery_unlocked")) {
+    if (!excludeMastery && player.stages.has("mastery_unlocked")) {
       server.runCommandSilent(
         `puffish_skills experience add ${player.username} society:mastery ${xp}`
       );
@@ -901,29 +901,29 @@ global.giveExperience = (server, player, category, xp) => {
 };
 
 /**
- * If you can figure out a way to simplify this in a way that doesn't make it
- * More difficult to read you get an artifact in-game.
+ * If you can figure out a way to simplify this in a way that doesn't 
+ * make it more difficult to read you get an artifact in-game.
  */
 global.getProcessedItem = (item, dropAmount) => {
   let processOutput = global.mayonnaiseMachineRecipes.get(item);
   if (processOutput)
-    return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: true };
+    return { divisor: 1, item: Item.of(processOutput.output[0]), preserveQuality: true };
   // Wine Keg 
   processOutput = global.wineKegRecipes.get(item);
   if (processOutput)
-    return { divisor: 3, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+    return { divisor: 3, item: Item.of(processOutput.output[0]), preserveQuality: false };
   // Oil Maker
   processOutput = global.oilMakerRecipes.get(item);
   if (processOutput)
-    return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+    return { divisor: 1, item: Item.of(processOutput.output[0]), preserveQuality: false };
   // Loom
   processOutput = global.loomRecipes.get(item);
   if (processOutput && dropAmount >= 5)
-    return { divisor: 5, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+    return { divisor: 5, item: Item.of(processOutput.output[0]), preserveQuality: false };
   // Recycling Machine
   processOutput = global.recyclingMachineRecipes.get(item);
   if (processOutput)
-    return { divisor: 1, item: Item.of(processOutput.output[0]).id, preserveQuality: false };
+    return { divisor: 1, item: Item.of(processOutput.output[0]), preserveQuality: false };
   return { divisor: 1, item: item, preserveQuality: true };
 };
 

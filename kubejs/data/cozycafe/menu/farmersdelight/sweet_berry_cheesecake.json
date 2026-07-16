@@ -1,6 +1,6 @@
 {
 	"item": "farmersdelight:sweet_berry_cheesecake",
-	"category": "dessert",
+	"category": "main",
 	"price": 953,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

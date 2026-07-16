@@ -1,6 +1,6 @@
 {
 	"item": "create:honeyed_apple",
-	"category": "dessert",
+	"category": "main",
 	"price": 66,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

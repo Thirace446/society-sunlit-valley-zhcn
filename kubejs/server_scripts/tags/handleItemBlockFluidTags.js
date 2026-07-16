@@ -385,6 +385,7 @@ ServerEvents.tags("item", (e) => {
     "meadow:raw_buffalo_meat",
     "untitledduckmod:raw_duck",
     "untitledduckmod:raw_goose",
+    'wildernature:pelican_meat'
   ].forEach((meat) => {
     e.add("forge:raw_meat", meat);
   });
@@ -399,6 +400,7 @@ ServerEvents.tags("item", (e) => {
     "meadow:cooked_buffalo_meat",
     "untitledduckmod:cooked_goose",
     "untitledduckmod:cooked_duck",
+    'wildernature:cooked_pelican_meat'
   ].forEach((meat) => {
     e.add("forge:cooked_meat", meat);
   });

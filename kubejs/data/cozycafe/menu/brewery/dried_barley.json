@@ -1,8 +1,0 @@
-{
-	"item": "brewery:dried_barley",
-	"category": "main",
-	"price": 26,
-	"product_type": "shippingbin:crop_sell_multiplier",
-	"flavors": [],
-	"themes": []
-}

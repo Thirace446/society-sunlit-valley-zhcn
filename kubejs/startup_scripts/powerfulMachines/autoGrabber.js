@@ -19,16 +19,15 @@ const handleAutoGrabSpecialItem = (
   let resolvedItem = item;
   let resolvedChance = chance;
   let resolvedHasQuality = hasQuality
-  let dropAmount =
-    mult * (plushieModifiers && plushieModifiers.doubleDrops ? 2 : 1);
+  let dropAmount = mult * (plushieModifiers && plushieModifiers.doubleDrops ? 2 : 1);
   if (plushieModifiers) {
     affection = 1000;
     mood = 256;
     resolvedChance = chance + plushieModifiers.probabilityIncrease;
     if (plushieModifiers.processItems) {
       let processOutput = global.getProcessedItem(item, dropAmount);
-      resolvedItem = processOutput.item;
-      dropAmount = Math.round(dropAmount / processOutput.divisor);
+      resolvedItem = processOutput.item.id;
+      dropAmount = Math.round(dropAmount / processOutput.divisor) * processOutput.item.count;
       resolvedHasQuality = processOutput.preserveQuality
     }
   } else {
@@ -50,11 +49,15 @@ const handleAutoGrabSpecialItem = (
     if (resolvedHasQuality && mood >= 160) {
       quality = global.getHusbandryQuality(hearts, mood);
     }
-    let specialItem = Item.of(
-      `${dropAmount}x ${resolvedItem}`,
-      quality > 0 ? `{quality_food:{effects:[],quality:${quality}}}` : null
-    );
-    let specialItemResultCode = global.insertBelow(level, block, specialItem);
+    let remaining = dropAmount;
+    let specialItemResultCode = 1;
+
+    while (remaining > 0 && specialItemResultCode == 1) {
+      let currentAmount = Math.min(remaining, 64);
+      let specialItem = Item.of(`${currentAmount}x ${resolvedItem}`, quality > 0 ? `{quality_food:{effects:[],quality:${quality}}}` : null);
+      specialItemResultCode = global.insertBelow(level, block, specialItem);
+      remaining -= currentAmount;
+    }
     if (specialItemResultCode == 1) {
       recycleSparkstone = global.checkSparkstoneRecyclers(level, block);
       if (!recycleSparkstone && global.useInventoryItems(inventory, "society:sparkstone", 1) != 1)
@@ -166,7 +169,7 @@ global.autoGrabAnimal = (autoGrabber, player, animal, plushieModifiers) => {
         level,
         plushieModifiers ? data : animal,
         player,
-        animal.server,
+        level.server,
         block,
         inventory,
         plushieModifiers,

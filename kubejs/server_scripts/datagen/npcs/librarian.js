@@ -13,7 +13,7 @@ if (global.datagenDialog) {
       friendship0: [
         "Hello @i, what can I get for you today?",
         "Do you need some organizational supplies or books?",
-        "Make sure to check in during the middle of the season, I have some rare books for sale then.",
+        "Make sure to check in during the end of the season, I have some rare books for sale then.",
         "Welcome, what can I get you?",
         ["How about that weather?", "...Sorry I'm not good with small talk..."]
       ],

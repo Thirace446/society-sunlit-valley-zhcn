@@ -4,5 +4,7 @@
 	"price": 437,
 	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
-	"themes": []
+	"themes": [],
+	"bottle_drink": true,
+	"bottle": "brewery:beer_mug"
 }

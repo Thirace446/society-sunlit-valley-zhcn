@@ -4,5 +4,7 @@
 	"price": 2448,
 	"product_type": "shippingbin:wood_sell_multiplier",
 	"flavors": [],
-	"themes": []
+	"themes": [],
+	"bottle_drink": true,
+	"bottle": "vinery:wine_bottle"
 }

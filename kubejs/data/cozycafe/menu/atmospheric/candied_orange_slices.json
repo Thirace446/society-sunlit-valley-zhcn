@@ -1,6 +1,6 @@
 {
 	"item": "atmospheric:candied_orange_slices",
-	"category": "dessert",
+	"category": "main",
 	"price": 207,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

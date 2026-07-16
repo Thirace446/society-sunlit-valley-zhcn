@@ -7040,6 +7040,49 @@
             ]
         },
         {
+            "pakku_id": "naKR523YypG0SFyD",
+            "pakku_links": [
+                "yO7cCSUp0uIkv7Qf",
+                "RBzJ5jZwsppstrfM"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-curios"
+            },
+            "name": {
+                "curseforge": "KubeJS Curios"
+            },
+            "id": {
+                "curseforge": "1255211"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs_curios_forge_1.20.1-1.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6825/88/kubejs_curios_forge_1.20.1-1.0.4.jar",
+                    "id": "6825088",
+                    "parent_id": "1255211",
+                    "hashes": {
+                        "sha1": "e09eb503cfb62fec1264321dc605cbcace5a58c9",
+                        "md5": "682321afb7a890679293c13cc80cbdc6"
+                    },
+                    "required_dependencies": [
+                        "309927",
+                        "238086"
+                    ],
+                    "size": 42322,
+                    "date_published": "2025-07-29T13:28:29.830Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "C31lSnrVRml1vkFT",
             "pakku_links": [
                 "vyRWqNyAZ05FKBPl"

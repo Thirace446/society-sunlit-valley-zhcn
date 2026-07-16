@@ -1,8 +1,9 @@
 {
 	"item": "candlelight:chocolate_mousse",
-	"category": "dessert",
+	"category": "main",
 	"price": 39,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
-	"themes": []
+	"themes": [],
+	"bowl_food": true
 }

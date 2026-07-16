@@ -75,7 +75,7 @@ global.handleLongwings = (entity, item) => {
     let coparentVariant = coparent.getNbt().Variant
     eggs.item = Item.of(
       "1x society:caterpillar_eggs",
-      `{parent:"${parentVariant}",coparent:"${coparentVariant}",child:"${global.getLongwingFromEgg(parentVariant, coparentVariant)}",size:${Math.max(0.25, Math.round((entity.getNbt().size + coparent.getNbt().size) / 2 * 100) / 100)}}`);
+      `{parent:"${parentVariant}",coparent:"${coparentVariant}",child:"${global.getLongwingFromEgg(parentVariant, coparentVariant)}",size:${Math.max(0.25, Math.round((((entity.getNbt().size + coparent.getNbt().size) + Math.random()) / 2) * 100) / 100)}}`);
     if (Math.random() <= 0.001) {
       eggs.item = Item.of("society:the_metamorphosize")
     }

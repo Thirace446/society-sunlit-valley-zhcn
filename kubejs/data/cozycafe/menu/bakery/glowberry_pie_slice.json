@@ -1,6 +1,6 @@
 {
 	"item": "bakery:glowberry_pie_slice",
-	"category": "dessert",
+	"category": "main",
 	"price": 36,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

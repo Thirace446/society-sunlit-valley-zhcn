@@ -1,6 +1,6 @@
 {
 	"item": "atmospheric:orange_pudding",
-	"category": "dessert",
+	"category": "main",
 	"price": 492,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

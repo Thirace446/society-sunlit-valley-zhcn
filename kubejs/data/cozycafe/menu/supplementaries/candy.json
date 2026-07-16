@@ -1,6 +1,6 @@
 {
 	"item": "supplementaries:candy",
-	"category": "dessert",
+	"category": "main",
 	"price": 50,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],

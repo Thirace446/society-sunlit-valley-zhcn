@@ -4,5 +4,6 @@
 	"price": 5760,
 	"product_type": "shippingbin:crop_sell_multiplier",
 	"flavors": [],
-	"themes": []
+	"themes": [],
+	"bottle_drink": true
 }
