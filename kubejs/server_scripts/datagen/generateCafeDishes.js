@@ -11,7 +11,7 @@
 //             if (dish.item.path.includes(keyword)) category = "dessert"
 //         });
 //     }
-//     ["bottle", "drink", "eggnog", "coffee", "latte", "shake", "_tea", "water", "juice", "cider", "hot_cocoa"].forEach((keyword) => {
+//     ["bottle", "drink", "cocktail", "eggnog", "coffee", "latte", "shake", "_tea", "water", "juice", "cider", "hot_cocoa"].forEach((keyword) => {
 //         if (dish.item.path.includes(keyword)) category = "drink"
 //     });
 
@@ -68,7 +68,7 @@
 // });
 
 // global.cocktails.forEach((dish) => {
-//     dishGenerator(dish, "shippingbin:crop_sell_multiplier", "drink")
+//     dishGenerator(dish, "shippingbin:crop_sell_multiplier")
 // });
 
 // global.herbalBrews.forEach((dish) => {
