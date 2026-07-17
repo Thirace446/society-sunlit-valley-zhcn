@@ -41,10 +41,10 @@ global.manaSprinklerScan = (entity, radius) => {
   }
   if (triggeredSpread) {
     level.server.runCommandSilent(
-      `playsound doapi:water_sprinkler block @a ${x} ${y} ${z}`
+      `playsound doapi:water_sprinkler block @a ${x} ${y} ${z} 0.5 1`
     );
     level.server.runCommandSilent(
-      `playsound botania:spreader_fire block @a ${x} ${y} ${z}`
+      `playsound botania:spreader_fire block @a ${x} ${y} ${z} 0.5 1`
     );
   }
 };

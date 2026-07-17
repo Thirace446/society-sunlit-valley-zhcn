@@ -21,7 +21,7 @@ if (global.datagenDialog) {
     runNpcDatagen("blueprints", {
         noPortrait: true,
         name: "Blueprints",
-        dialog: [
+        choiceDialogs: [
             {
                 name: "prompt",
                 text: ["What buildings would you like to browse?"],

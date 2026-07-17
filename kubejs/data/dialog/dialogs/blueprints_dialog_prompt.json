@@ -1,6 +1,6 @@
 {
-	"id": "blueprints_dialog_prompt",
-	"title": "blueprints dialog: prompt",
+	"id": "blueprints_choice_dialog_prompt",
+	"title": "blueprints prompt",
 	"description": "dialog.npc.blueprints.dialog.prompt",
 	"entries": [
 		{

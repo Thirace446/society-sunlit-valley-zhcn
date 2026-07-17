@@ -165,9 +165,9 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
                 }
             } else {
                 if (npcId === "carpenter") {
-                    server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} carpenter_unique_need_to_buy`);
+                    server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} carpenter_choice_dialog_need_to_buy`);
                 } else if (npcId === "librarian" && global.isLateSeason(level)) {
-                    server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} librarian_unique_book_fair`);
+                    server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} librarian_choice_dialog_book_fair`);
                 } else if (npcId === "wise_oak") {
                     if (Number(npcData.friendship) >= 500) {
                         player.tell("opening shop")

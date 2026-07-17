@@ -41,7 +41,8 @@ const generateDialogEntries = (npcId, dialogType, dialogIndex, dialogLines, port
       if (npcId == "carpenter") {
         translationKeys["dialog.npc.carpenter.purchase_supplies"] = "Purchase supplies";
         translationKeys["dialog.npc.carpenter.invite_villagers"] = "Invite Villagers";
-        translationKeys["dialog.npc.carpenter.build_farm"] = "Build Farm Buildings";
+        translationKeys["dialog.npc.carpenter.build_farm"] = "Build Farm buildings";
+        translationKeys["dialog.npc.carpenter.build_village"] = "Build Village buildings";
         queuedEntry.options = [{
           text: {
             translate: "dialog.npc.carpenter.purchase_supplies"
@@ -68,26 +69,14 @@ const generateDialogEntries = (npcId, dialogType, dialogIndex, dialogLines, port
           command: [
             "openselector @p building_shop"
           ]
-        }]
-      } else if (npcId == "librarian" && dialogType == "unique_book_fair") {
-        translationKeys["dialog.npc.librarian.purchase_supplies"] = "Purchase supplies";
-        translationKeys["dialog.npc.librarian.book_fair"] = "Book Fair";
-        queuedEntry.options = [{
-          text: {
-            translate: "dialog.npc.librarian.purchase_supplies"
-          },
-          target: "end",
-          command: [
-            "openshop @p librarian"
-          ]
         },
         {
           text: {
-            translate: "dialog.npc.librarian.book_fair"
+            translate: "dialog.npc.carpenter.build_village"
           },
           target: "end",
           command: [
-            "openshop @p book_fair"
+            "openselector @p building_shop"
           ]
         }]
       } else if (npcId !== "wise_oak") {
@@ -197,13 +186,13 @@ const runNpcDatagen = (npcId, npcDef) => {
       );
     });
   }
-  if (npcDef.dialog) {
-    npcDef.dialog.forEach((dialog) => {
+  if (npcDef.choiceDialogs) {
+    npcDef.choiceDialogs.forEach((dialog) => {
       JsonIO.write(
         `kubejs/data/dialog/dialogs/${npcId}_dialog_${dialog.name}.json`,
         {
-          id: `${npcId}_dialog_${dialog.name}`,
-          title: `${npcId} dialog: ${dialog.name}`,
+          id: `${npcId}_choice_dialog_${dialog.name}`,
+          title: `${npcId} ${dialog.name}`,
           description: `dialog.npc.${npcId}.dialog.${dialog.name}`,
           entries: generateDialogEntries(
             npcId,

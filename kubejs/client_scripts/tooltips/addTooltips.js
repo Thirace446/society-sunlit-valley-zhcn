@@ -265,20 +265,12 @@ ItemEvents.tooltip((tooltip) => {
     }
   });
   tooltip.add(
-    "society:architects_digest",
-    Text.translatable("item.society.architects_digest.description").gray()
-  );
-  tooltip.add(
-    "society:tanuki_leaf",
-    Text.translatable("item.society.tanuki_leaf.description").gray()
-  );
-  tooltip.add(
     /fantasyfurniture/,
     Text.translatable("tooltip.society.furnitures.fantasy").white()
   );
   tooltip.add(
-    "society:fantasy_dust",
-    Text.translatable("item.society.fantasy_dust.description").gray()
+    "society:fairy_dust",
+    Text.translatable("item.society.fairy_dust.description").gray()
   );
   // Hammers
   tooltip.add(

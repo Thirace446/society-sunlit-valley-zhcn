@@ -2,12 +2,13 @@
 if (global.datagenDialog) {
   runNpcDatagen("wise_oak", {
     portraitPath: "mystical_oak",
+    noPortrait: true,
     name: "Wise Oak",
     intro: [
       "Do you like hurting other people?",
       "Taking that axe of yours and burying it deep into your so-called friends?",
       "My non-verbal brothers in bark are toppled by you every day. And for what?",
-      "This never ending machine you call progress. Capital. You are not a good person.",
+      "That never ending machine you call progress? Capital? You are not a good person.",
       "It's a 'pleasure' to make your acquaintance, o' Soft One. Now leave me be."
     ],
     chatter: {

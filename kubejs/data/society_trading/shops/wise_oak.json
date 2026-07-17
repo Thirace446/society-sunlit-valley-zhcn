@@ -120,6 +120,19 @@
     },
     {
       "offer": {
+        "item": "society:fairy_dust",
+        "count": 4
+      },
+      "request": {
+        "item": "society:mystic_syrup",
+        "count": 1
+      },
+      "stage_required": "farming_mastery",
+      "unlock_description": "jei.society_trading.farming_mastery_unlocked",
+      "trade_id": "wise_oak_mystic_syrup_for_fairy_dust"
+    },
+    {
+      "offer": {
         "item": "society:alias_moss",
         "count": 1
       },

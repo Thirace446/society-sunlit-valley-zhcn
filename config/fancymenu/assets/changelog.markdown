@@ -20,6 +20,7 @@
 - Added Dry Totem
 - Added Rain Totem
 - Added Thunder Totem
+- Added Fairy Dust
 - Added random furniture items per day for sale from Carpenter
 - Added more thorough jade support for crop growing (Thanks Hexagreen!)
 - Added filling recipe for Honey Roasted Peanut (Thanks Emma!)
@@ -30,13 +31,17 @@
 - Added White, Pink, and Mana Energy Drinks (Not agable as the aging from normal energy drink will be removed)
 - Added offline caching for Artisan Hopper, Auto-Grabber, Fish Pond Basket (Thanks simonLeary42!)
 - Added sell values to cake slices and feast items
+- Added Charting Map to guild
 - Added stack groups to EMI/JEI 
+- Reworked Mana Clock: Now works exactly like Golden Clock but with a smaller radius and mana cost
 - Reworked furniture catalogs to be shops instead of having unique items
 - Updated Galaxy Sword and Meowmageddon text to be shiny
 - Increased Terracotta conversion rate 1/30s -> 1/10s
 - Increased Bountiful Fertilizer crafting output 1 -> 4
 - Reduced max upgrade from Hay Golems to High Quality Fertilizer
 - Reduced effective cost of larger building shop building types
+- Reduced heat requirement for green, hibiscus, and rooibos tea
+- Reduced sound volume of mana sprinklers
 - Removed beachparty radio due to issues
 - Removed offshoot grape fluid types as they are now unified into red/white
 - Renamed Bookseller to Book Fair
@@ -47,3 +52,6 @@
 - Fixed Diamond wand not working with destruction core
 - Fixed Husbandry Hourly not appearing in the Bookseller/Book Fair
 - Fixed Crystalarium's Black Opal upgrade not working on manual harvests
+- Fixed pelican meat not having correct tags
+- Fixed Sommelier trait not taking into account recipe output count (e.x. Artifact Shards)
+- Fixed Prismatic Shard/Sparkstone blocks not having minable tags

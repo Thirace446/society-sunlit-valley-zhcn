@@ -498,13 +498,13 @@
     "curseForgeHash": 3614955629,
     "modrinthHash": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea"
   },
-  "cozycafe-1.6-all.jar": {
-    "jarName": "cozycafe-1.6-all.jar",
+  "cozycafe-1.7-all.jar": {
+    "jarName": "cozycafe-1.7-all.jar",
     "modId": "cozycafe",
     "name": "Cozy Cafe",
-    "version": "1.6",
-    "curseForgeHash": 2611763936,
-    "modrinthHash": "e52d2b0cf70ae7ea0e3e13fa5367fe1dd107cd0e"
+    "version": "1.7",
+    "curseForgeHash": 611706119,
+    "modrinthHash": "2da194b65bfee360b1f1288f74a840c8dbdaa4df"
   },
   "CrabbersDelight-1.20.1-1.1.7d.jar": {
     "jarName": "CrabbersDelight-1.20.1-1.1.7d.jar",
@@ -2367,21 +2367,21 @@
     "curseForgeHash": 3402444196,
     "modrinthHash": "15296a7d8942a7a3376f293265b5146af6c42ec7"
   },
-  "society-1.17.jar": {
-    "jarName": "society-1.17.jar",
+  "society-1.18.jar": {
+    "jarName": "society-1.18.jar",
     "modId": "society",
     "name": "Society",
-    "version": "1.17",
-    "curseForgeHash": 570972094,
-    "modrinthHash": "48bdcec147e365c807cac108b47f43a0deef693e"
+    "version": "1.18",
+    "curseForgeHash": 1292452540,
+    "modrinthHash": "8943408a628f3509768b5dcb8ec39923b3d52a40"
   },
-  "society_trading-1.2.5.jar": {
-    "jarName": "society_trading-1.2.5.jar",
+  "society_trading-1.2.6.jar": {
+    "jarName": "society_trading-1.2.6.jar",
     "modId": "society_trading",
     "name": "Society Trading",
-    "version": "1.2.5",
-    "curseForgeHash": 1250921782,
-    "modrinthHash": "122076a033ab5da29867a21a33a7480a899203a7"
+    "version": "1.2.6",
+    "curseForgeHash": 3688007141,
+    "modrinthHash": "76d004f255fab5c90c3503a624ded0fc2f57d53e"
   },
   "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": {
     "jarName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",

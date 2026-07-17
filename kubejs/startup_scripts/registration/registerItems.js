@@ -56,15 +56,13 @@ StartupEvents.registry("item", (e) => {
     }
   });
 
-  e.create("society:tanuki_leaf")
-    .texture("society:item/tanuki_leaf")
-    .displayName(Text.green("♤ Tanuki Leaf"));
-  e.create("society:architects_digest")
-    .texture("society:item/architects_digest")
-    .displayName("♧ Architect's Digest");
-  e.create("society:fantasy_dust")
-    .texture("society:item/fantasy_dust")
-    .displayName(Text.yellow("♡ Fantasy Dust"));
+  // e.create("society:tanuki_leaf")
+  //   .texture("society:item/tanuki_leaf")
+  //   .displayName(Text.green("♤ Tanuki Leaf"));
+  // e.create("society:architects_digest")
+  //   .texture("society:item/architects_digest")
+  //   .displayName("♧ Architect's Digest");
+  e.create("society:fairy_dust").texture("society:item/fantasy_dust")
   e.create("society:stone_hand").texture("society:item/stone_hand");
   e.create("society:ancient_cog").texture("society:item/ancient_cog");
   e.create("society:pink_matter").texture("society:item/pink_matter");
