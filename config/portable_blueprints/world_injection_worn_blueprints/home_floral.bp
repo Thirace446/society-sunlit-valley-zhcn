@@ -3511,7 +3511,6 @@
   },
   "NotSolidBlocksData": {
     "0": {
-      "x\u003d0,y\u003d0,z\u003d21": "\u003cbid\u003elittlejoys:dig_spot\u003c/bid\u003enull",
       "x\u003d21,y\u003d0,z\u003d2": "\u003cbid\u003eminecraft:azalea_leaves\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003edistance\u003c/name\u003e\u003cvalue\u003e1\u003c/value\u003e\u003cclasse\u003ejava.lang.Integer\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003epersistent\u003c/name\u003e\u003cvalue\u003etrue\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003ewaterlogged\u003c/name\u003e\u003cvalue\u003efalse\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e",
       "x\u003d21,y\u003d0,z\u003d1": "\u003cbid\u003eminecraft:cherry_leaves\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003edistance\u003c/name\u003e\u003cvalue\u003e2\u003c/value\u003e\u003cclasse\u003ejava.lang.Integer\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003epersistent\u003c/name\u003e\u003cvalue\u003etrue\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003ewaterlogged\u003c/name\u003e\u003cvalue\u003efalse\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e",
       "x\u003d4,y\u003d0,z\u003d18": "\u003cbid\u003ecluttered:flowering_crabapple_leaves\u003c/bid\u003e\u003cproperties\u003e\u003cpropertie\u003e\u003cname\u003edistance\u003c/name\u003e\u003cvalue\u003e7\u003c/value\u003e\u003cclasse\u003ejava.lang.Integer\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003epersistent\u003c/name\u003e\u003cvalue\u003etrue\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003cpropertie\u003e\u003cname\u003ewaterlogged\u003c/name\u003e\u003cvalue\u003efalse\u003c/value\u003e\u003cclasse\u003ejava.lang.Boolean\u003c/classe\u003e\u003c/propertie\u003e;!v!;\u003c/properties\u003e",
@@ -4061,15 +4060,14 @@
   },
   "BlocksNBT": {
     "0": {
-      "x\u003d0,y\u003d0,z\u003d21": "{ForgeCaps:{},TrackedData:{},id:\"littlejoys:dig_spot\",recipe:\"littlejoys:dig_spot/grass_block\",x:-212,y:1,z:824}",
-      "x\u003d9,y\u003d0,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:-203,y:1,z:807}",
-      "x\u003d8,y\u003d0,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:-204,y:1,z:807}"
+      "x\u003d9,y\u003d0,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:1229,y:-60,z:-332}",
+      "x\u003d8,y\u003d0,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:1228,y:-60,z:-332}"
     },
     "18": {
-      "x\u003d8,y\u003d18,z\u003d3": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:-204,y:19,z:806}",
-      "x\u003d8,y\u003d18,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:-204,y:19,z:807}",
-      "x\u003d7,y\u003d18,z\u003d3": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:-205,y:19,z:806}",
-      "x\u003d7,y\u003d18,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:-205,y:19,z:807}"
+      "x\u003d8,y\u003d18,z\u003d3": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:1228,y:-42,z:-333}",
+      "x\u003d8,y\u003d18,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:1228,y:-42,z:-332}",
+      "x\u003d7,y\u003d18,z\u003d3": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:1227,y:-42,z:-333}",
+      "x\u003d7,y\u003d18,z\u003d4": "{CookingTimes:[I;0,0,0,0],CookingTotalTimes:[I;0,0,0,0],ForgeCaps:{},Items:[],TrackedData:{},id:\"minecraft:campfire\",x:1227,y:-42,z:-332}"
     }
   }
 }
