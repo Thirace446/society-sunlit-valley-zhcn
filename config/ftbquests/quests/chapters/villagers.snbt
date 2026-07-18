@@ -361,8 +361,8 @@
 				title: "{ftbquests.chapter.villagers.quest55F17BB945CA5BB2.task.2611303800061629606.title}"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 10.5d
+			x: 6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["33338792EF0994BD"]
@@ -374,8 +374,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.villagers.quest7B2AB58CA9C1C19B.title}"
-			x: 7.5d
-			y: 10.5d
+			x: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["66E1AC55824DF1D9"]

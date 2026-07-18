@@ -27,7 +27,7 @@ if (global.datagenDialog) {
       ],
       friendship2: [
         "You don't know a thing @i. There are forces at work you cannot imagine.",
-        "Caroline is so mean to me! Everybody falls asleep during business meetings, they're boring!",
+        "Caroline is so mean to me! Everybody dozes off during business meetings, they're boring!",
         "* You hear snoring as you approach. Evelyne is once again fast sleep while standing. *",
         ["I've been studying the magic around here for a few seasons, there's definitely more to be found...", "...Keep that between us."],
         "There is a deeper magic in this valley, I can sense it and you can too.",
@@ -35,7 +35,7 @@ if (global.datagenDialog) {
       friendship3: [
         "I don't know a thing!! There are forces at work I cannot imagine!!",
         ["My plans are measured in centuries...", "...But I cannot for the life of me remember where I put them..."],
-        ["Ace has been such a treasure for finding me herbs.", "I actually realllly hate nature so I can appreciate a person that does."],
+        ["Ace has been such a treasure for finding me herbs.", "I actually realllly hate being out in nature so I can appreciate a person that does."],
         "I've made a break through last night! Normally I would tell you because we're friends and all but I think this one is a bit above your paygrade...",
         "Please buy something, I need to bribe Aiden into giving me some expensive mining equipment!"
       ],

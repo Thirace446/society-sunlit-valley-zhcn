@@ -6,9 +6,20 @@
 	"entries": [
 		{
 			"id": "start",
+			"speaker": {
+				"translate": "dialog.npc.wise_oak.name",
+				"color": "white"
+			},
 			"text": [
 				{
 					"translate": "dialog.npc.wise_oak.chatter_friendship5.4.line_0"
+				}
+			],
+			"portraits": [
+				{
+					"path": "mysticaloaktree:textures/block/wise_oak.png",
+					"position": "INLINE",
+					"brightness": 1
 				}
 			]
 		}

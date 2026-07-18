@@ -1,8 +1,7 @@
 // Priority: -100
 if (global.datagenDialog) {
   runNpcDatagen("wise_oak", {
-    portraitPath: "mystical_oak",
-    noPortrait: true,
+    portraitPath: "mysticaloaktree:textures/block/wise_oak",
     name: "Wise Oak",
     intro: [
       "Do you like hurting other people?",

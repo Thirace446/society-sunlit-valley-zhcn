@@ -160,8 +160,9 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
                 if (npcData.friendship + 5 > 500) {
                     npcData.friendship = 500
                 } else {
-                    if (npcId === "wise_oak") npcData.friendship + 15
+                    if (npcId === "wise_oak") npcData.friendship = npcData.friendship + 15
                     npcData.friendship = npcData.friendship + 5
+
                 }
             } else {
                 if (npcId === "carpenter") {
@@ -184,7 +185,7 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
             npcData.friendship = 0;
         }
     } else {
-    e.cancel()
+        e.cancel()
 
     }
 }

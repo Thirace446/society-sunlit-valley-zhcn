@@ -6,25 +6,58 @@
 	"entries": [
 		{
 			"id": "start",
+			"speaker": {
+				"translate": "dialog.npc.wise_oak.name",
+				"color": "white"
+			},
 			"text": [
 				{
 					"translate": "dialog.npc.wise_oak.chatter_friendship3.4.line_0"
+				}
+			],
+			"portraits": [
+				{
+					"path": "mysticaloaktree:textures/block/wise_oak.png",
+					"position": "INLINE",
+					"brightness": 1
 				}
 			]
 		},
 		{
 			"id": 1,
+			"speaker": {
+				"translate": "dialog.npc.wise_oak.name",
+				"color": "white"
+			},
 			"text": [
 				{
 					"translate": "dialog.npc.wise_oak.chatter_friendship3.4.line_1"
+				}
+			],
+			"portraits": [
+				{
+					"path": "mysticaloaktree:textures/block/wise_oak.png",
+					"position": "INLINE",
+					"brightness": 1
 				}
 			]
 		},
 		{
 			"id": "end",
+			"speaker": {
+				"translate": "dialog.npc.wise_oak.name",
+				"color": "white"
+			},
 			"text": [
 				{
 					"translate": "dialog.npc.wise_oak.chatter_friendship3.4.line_2"
+				}
+			],
+			"portraits": [
+				{
+					"path": "mysticaloaktree:textures/block/wise_oak.png",
+					"position": "INLINE",
+					"brightness": 1
 				}
 			]
 		}
