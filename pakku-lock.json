@@ -3695,6 +3695,40 @@
             ]
         },
         {
+            "pakku_id": "SUnnuVUuwvDPwN5u",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "derps-compat-for-every-compat"
+            },
+            "name": {
+                "curseforge": "Derp's Compat for Every Compat"
+            },
+            "id": {
+                "curseforge": "1317066"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DerpWood.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7831/789/DerpWood.zip",
+                    "id": "7831789",
+                    "parent_id": "1317066",
+                    "hashes": {
+                        "sha1": "0d1afdd2cf10ee0343a183f786764c2d2485d0a7",
+                        "md5": "76f493ebaf09413c78a023d906b59f28"
+                    },
+                    "required_dependencies": [],
+                    "size": 835275,
+                    "date_published": "2026-03-28T22:46:25.017Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Y91PhqOEgMlwdW66",
             "pakku_links": [
                 "vyRWqNyAZ05FKBPl"

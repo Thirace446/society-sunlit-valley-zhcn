@@ -1,22 +1,22 @@
 {
-	"id": "witch_unique_five_gift",
-	"title": "witch introduction",
-	"description": "dialog.npc.witch.unique.five_gift",
+	"id": "librarian_unique_five_gift_read",
+	"title": "librarian introduction",
+	"description": "dialog.npc.librarian.unique.five_gift_read",
 	"entries": [
 		{
 			"id": "start",
 			"speaker": {
-				"translate": "dialog.npc.witch.name",
+				"translate": "dialog.npc.librarian.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.unique_five_gift.line_0"
+					"translate": "dialog.npc.librarian.unique_five_gift_read.line_0"
 				}
 			],
 			"portraits": [
 				{
-					"path": "witch.png",
+					"path": "librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -25,17 +25,17 @@
 		{
 			"id": 1,
 			"speaker": {
-				"translate": "dialog.npc.witch.name",
+				"translate": "dialog.npc.librarian.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.unique_five_gift.line_1"
+					"translate": "dialog.npc.librarian.unique_five_gift_read.line_1"
 				}
 			],
 			"portraits": [
 				{
-					"path": "witch.png",
+					"path": "librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -44,17 +44,17 @@
 		{
 			"id": 2,
 			"speaker": {
-				"translate": "dialog.npc.witch.name",
+				"translate": "dialog.npc.librarian.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.unique_five_gift.line_2"
+					"translate": "dialog.npc.librarian.unique_five_gift_read.line_2"
 				}
 			],
 			"portraits": [
 				{
-					"path": "witch.png",
+					"path": "librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -63,17 +63,17 @@
 		{
 			"id": 3,
 			"speaker": {
-				"translate": "dialog.npc.witch.name",
+				"translate": "dialog.npc.librarian.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.unique_five_gift.line_3"
+					"translate": "dialog.npc.librarian.unique_five_gift_read.line_3"
 				}
 			],
 			"portraits": [
 				{
-					"path": "witch.png",
+					"path": "librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}
@@ -82,17 +82,17 @@
 		{
 			"id": "end",
 			"speaker": {
-				"translate": "dialog.npc.witch.name",
+				"translate": "dialog.npc.librarian.name",
 				"color": "white"
 			},
 			"text": [
 				{
-					"translate": "dialog.npc.witch.unique_five_gift.line_4"
+					"translate": "dialog.npc.librarian.unique_five_gift_read.line_4"
 				}
 			],
 			"portraits": [
 				{
-					"path": "witch.png",
+					"path": "librarian.png",
 					"position": "INLINE",
 					"brightness": 1
 				}

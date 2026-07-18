@@ -95,7 +95,21 @@ if (global.datagenDialog) {
       {
         name: "five_gift",
         text: [
-          "Oh hey hey hey it's my best friend @i!! I've got something that'll make your day even brighter!"
+          "Hey @i! I've got an idea on how to earn Caroline's respect!",
+          "As you've probably figured out right now, she's insatiable when it comes to your role in this little town.",
+          "It doesn't matter how much your farm makes, it will never be enough! Everyone around here relies on the economic activity of your farm after all.",
+          "That said, being knowledgable about your financial history will give her at least a little more peace of mind.",
+          "It would be a shame if my two best friends didn't get along, so please read it when you get the chance ♡"
+        ]
+      },
+      {
+        name: "five_gift_read",
+        text: [
+          "Hey @i! I've got another idea on how to earn Caroline's respect!",
+          "As you've probably figured out right now, she's insatiable when it comes to your role in this little town.",
+          "It doesn't matter how much your farm makes, it will never be enough! Everyone around here relies on the economic activity of your farm after all.",
+          "That said, not having to worry about you passing out in the Skull Cavern should give her a little more peace of mind.",
+          "It would be a shame if my two best friends didn't get along, so please make sure to wear these while you're down there ♡"
         ]
       },
       {

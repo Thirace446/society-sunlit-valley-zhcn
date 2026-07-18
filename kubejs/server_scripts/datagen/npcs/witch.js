@@ -3,7 +3,7 @@ if (global.datagenDialog) {
   runNpcDatagen("witch", {
     name: "Evelyne",
     intro: [
-      "I KNOW WHO YOU ARE!",
+      "...I know who YOU are!",
       "But it's not about that! It's about me! And what you've seen!",
       "Caroline told me all about your little trip to the Nether. I'll be needing to see your findings for my research!",
       "Oh I'm also supposed to sell you some magical stuff I've been working on. I don't really want to, but that Caroline seems very threatening..."
@@ -34,6 +34,7 @@ if (global.datagenDialog) {
       ],
       friendship3: [
         "I don't know a thing!! There are forces at work I cannot imagine!!",
+        ["* You cannot tell if Evelyne is half asleep or about to yell strange things at you *", "Hmmm? Why are you staring at me like that? Buy something."],
         ["My plans are measured in centuries...", "...But I cannot for the life of me remember where I put them..."],
         ["Ace has been such a treasure for finding me herbs.", "I actually realllly hate being out in nature so I can appreciate a person that does."],
         "I've made a break through last night! Normally I would tell you because we're friends and all but I think this one is a bit above your paygrade...",
@@ -96,7 +97,11 @@ if (global.datagenDialog) {
       {
         name: "five_gift",
         text: [
-          "Oh hey hey hey it's my best friend @i!! I've got something that'll make your day even brighter!"
+          "Want to make Maria mad for me? Not for me actually, WITH ME.",
+          "Take this peculiar device and put it near your animals!",
+          "It's imbued with the power of the sun and makes your animals feel as though they've been pet!",
+          "Normally it's nearly impossible to get one of these things, but I reallly want to prove to Maria that cattle is cattle!",
+          "None of that 'love and affection' stuff! She's conning everyone and you will prove it!"
         ]
       },
     ]

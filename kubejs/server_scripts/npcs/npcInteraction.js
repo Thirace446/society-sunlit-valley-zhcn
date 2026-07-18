@@ -19,9 +19,9 @@ const maxGifts = {
     fisher: "society:heart_of_neptunium",
     market: "society:universal_methods_of_farming",
     shepherd: Item.of('2x wildernature:penguin_spawn_egg'),
-    librarian: "society:universal_methods_of_farming",
-    trader: "society:universal_methods_of_farming",
-    witch: "society:universal_methods_of_farming",
+    librarian: 'society:debt_caverns',
+    trader: "",
+    witch: "society:auto_petter",
 }
 
 const getNpcKey = (customName) => {
@@ -62,6 +62,10 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
             server.runCommandSilent(`dialog ${player.username} show ${player.username} banker_unique__gift_read`);
         } else if (npcId.equals("market") && player.stages.has("universal_methods_of_farming")) {
             player.give(Item.of("16x society:sparkpod_seed"))
+            server.runCommandSilent(`dialog ${player.username} show ${player.username} market_unique_five_gift_read`);
+        } else if (npcId.equals("librarian") && player.stages.has("debt_caverns")) {
+            player.give(Item.of('botania:diva_charm'))
+            player.give(Item.of('botania:mana_ring', '{mana:500000}'))
             server.runCommandSilent(`dialog ${player.username} show ${player.username} market_unique_five_gift_read`);
         } else {
             player.give(maxGifts[npcId])
