@@ -702,7 +702,8 @@ ServerEvents.tags("block", (e) => {
   [
     "society:prismatic_shard_block",
     "society:sparkstone_block",
-    "aquaculture:neptunium_block"
+    "aquaculture:neptunium_block",
+    "society:supreme_mayonnaise"
   ].forEach((item) => {
     e.add("minecraft:beacon_base_blocks", item);
   });

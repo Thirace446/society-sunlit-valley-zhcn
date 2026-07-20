@@ -802,6 +802,14 @@
     "curseForgeHash": 892604122,
     "modrinthHash": "122083fd49e9a6eb273a549bfd226431f11f83ee"
   },
+  "easy_npc_config_ui-forge-1.20.1-6.1.1.jar": {
+    "jarName": "easy_npc_config_ui-forge-1.20.1-6.1.1.jar",
+    "modId": "easy_npc_config_ui",
+    "name": "Easy NPC: Config UI",
+    "version": "6.1.1",
+    "curseForgeHash": 1943614371,
+    "modrinthHash": "14a0c109e5b57742cdc2d59cb175a9c0e277ec04"
+  },
   "EasyAnvils-v8.0.2-1.20.1-Forge.jar": {
     "jarName": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
     "modId": "easyanvils",

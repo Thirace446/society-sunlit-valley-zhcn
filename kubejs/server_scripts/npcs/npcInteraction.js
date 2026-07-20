@@ -7,10 +7,10 @@ const dialogLengths = {
     fisher: { chatterLengths: [11.0, 9.0, 10.0, 10.0, 10.0, 11.0], giftResponseLengths: { loved: 7.0, liked: 6.0, neutral: 9.0, disliked: 7.0, hated: 7.0 } },
     librarian: { chatterLengths: [5.0, 5.0, 5.0, 5.0, 5.0, 6.0], giftResponseLengths: { loved: 5.0, liked: 5.0, neutral: 5.0, disliked: 5.0, hated: 5.0 } },
     market: { chatterLengths: [18.0, 14.0, 9.0, 16.0, 14.0, 14.0], giftResponseLengths: { loved: 10.0, liked: 8.0, neutral: 17.0, disliked: 12.0, hated: 13.0 } },
-    wise_oak: { chatterLengths: [7.0, 5.0, 5.0, 5.0, 5.0, 7.0], giftResponseLengths: { loved: 0.0, liked: 0.0, neutral: 0.0, disliked: 0.0, hated: 0.0 } },
     shepherd: { chatterLengths: [15.0, 14.0, 13.0, 12.0, 14.0, 17.0], giftResponseLengths: { loved: 9.0, liked: 10.0, neutral: 8.0, disliked: 8.0, hated: 11.0 } },
-    trader: { chatterLengths: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0], giftResponseLengths: { loved: 1.0, liked: 1.0, neutral: 1.0, disliked: 1.0, hated: 1.0 } },
-    witch: { chatterLengths: [7.0, 5.0, 5.0, 5.0, 5.0, 5.0], giftResponseLengths: { loved: 5.0, liked: 5.0, neutral: 5.0, disliked: 5.0, hated: 6.0 } }
+    trader: { chatterLengths: [7.0, 5.0, 5.0, 7.0, 7.0, 6.0], giftResponseLengths: { loved: 5.0, liked: 5.0, neutral: 5.0, disliked: 5.0, hated: 5.0 } },
+    wise_oak: { chatterLengths: [7.0, 5.0, 5.0, 5.0, 5.0, 8.0], giftResponseLengths: { loved: 0.0, liked: 0.0, neutral: 0.0, disliked: 0.0, hated: 0.0 } },
+    witch: { chatterLengths: [7.0, 5.0, 6.0, 8.0, 6.0, 5.0], giftResponseLengths: { loved: 5.0, liked: 5.0, neutral: 5.0, disliked: 5.0, hated: 6.0 } },
 }
 const maxGifts = {
     banker: "society:slouching_towards_artistry",
@@ -67,6 +67,9 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
             player.give(Item.of('botania:diva_charm'))
             player.give(Item.of('botania:mana_ring', '{mana:500000}'))
             server.runCommandSilent(`dialog ${player.username} show ${player.username} market_unique_five_gift_read`);
+        } else if (npcId.equals("trader")) {
+            player.stages.add("trader_clothing")
+            server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} ${npcId}_unique_five_gift`);
         } else {
             player.give(maxGifts[npcId])
             server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} ${npcId}_unique_five_gift`);
@@ -77,7 +80,6 @@ const handleNpc = (e, npcId, level, server, target, player, item) => {
         let dialogNumber;
         if (player.isCrouching() && item.hasTag("society:villager_gift")) {
             if (npcId === "wise_oak") {
-
                 server.runCommandSilent(`dialog ${player.getUuid()} show ${player.username} wise_oak_unique_no_gifting`);
                 server.runCommandSilent(`playsound stardew_fishing:fish_escape block @a ${target.x} ${target.y} ${target.z}`);
                 server.runCommandSilent(`playsound species:item.wicked_swapper.teleport block @a ${target.x} ${target.y} ${target.z}`);

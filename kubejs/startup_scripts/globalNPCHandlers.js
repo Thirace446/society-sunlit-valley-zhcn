@@ -158,18 +158,18 @@ const villagerSpecificGifts = new Map([
         hated: ["society:tubasmoke_stick", "society:tubasmoke_carton"],
     }],
     ["witch", {
-        loved: ["#society:eldritch", "society:energy_drink", "society:latte", "society:mocha", "society:bowl_of_soul", "herbalbrews:milk_coffee", "herbalbrews:hazelnut_coffee"],
+        loved: ["#society:eldritch", "society:energy_drink", 'society:pink_energy_drink', 'society:white_energy_drink', 'society:mana_energy_drink', "society:latte", "society:mocha", "society:bowl_of_soul", "herbalbrews:milk_coffee", "herbalbrews:hazelnut_coffee"],
         liked: ["#society:mineral", "#minecraft:flowers", "herbalbrews:coffee", "society:espresso", "society:dirty_chai", "society:death_liquid"],
         neutral: ["#society:farmer_product",],
         disliked: ["society:truffle_tea"],
         hated: ["#minecraft:fishes", "herbalbrews:witch_hat"],
     }],
     ["trader", {
-        loved: [],
-        liked: [],
+        loved: ["society:star_coquito", "society:starcardi", "society:truffle_tea", 'veggiesdelight:rice_and_vegetables', 'society:chicken_tortilla_soup'],
+        liked: ["snuffles:frosty_fluff", "#society:mineral", "#society:dish", "society:prismatic_shard", "minecraft:rabbit_foot", "society:sunlit_pearl", "crabbersdelight:pearl_block"],
         neutral: [],
-        disliked: [],
-        hated: [],
+        disliked: ["#society:clothing"],
+        hated: ["society:gnome", 'society:spider_silk'],
     }]
 ]);
 

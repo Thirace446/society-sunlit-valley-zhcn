@@ -21,25 +21,6 @@
 					"brightness": 1
 				}
 			]
-		},
-		{
-			"id": "end",
-			"speaker": {
-				"translate": "dialog.npc.trader.name",
-				"color": "white"
-			},
-			"text": [
-				{
-					"translate": "dialog.npc.trader.gift_loved.0.line_1"
-				}
-			],
-			"portraits": [
-				{
-					"path": "loved/trader.png",
-					"position": "INLINE",
-					"brightness": 1
-				}
-			]
 		}
 	]
 }

@@ -29,6 +29,7 @@ if (global.datagenDialog) {
         "You don't know a thing @i. There are forces at work you cannot imagine.",
         "Caroline is so mean to me! Everybody dozes off during business meetings, they're boring!",
         "* You hear snoring as you approach. Evelyne is once again fast sleep while standing. *",
+        ["I'm a fountain of blood. In the shape of a girl...", "I guess that makes you a bird? So they say of course."],
         ["I've been studying the magic around here for a few seasons, there's definitely more to be found...", "...Keep that between us."],
         "There is a deeper magic in this valley, I can sense it and you can too.",
       ],
@@ -36,13 +37,16 @@ if (global.datagenDialog) {
         "I don't know a thing!! There are forces at work I cannot imagine!!",
         ["* You cannot tell if Evelyne is half asleep or about to yell strange things at you *", "Hmmm? Why are you staring at me like that? Buy something."],
         ["My plans are measured in centuries...", "...But I cannot for the life of me remember where I put them..."],
+        "I thought I could organize my worktable.... How Scandinavian of me!",
         ["Ace has been such a treasure for finding me herbs.", "I actually realllly hate being out in nature so I can appreciate a person that does."],
+        ["Just because the mind can make up whatever it wants, doesn't mean that it'll never come true...", "So sayeth the matron saint!"],
         "I've made a break through last night! Normally I would tell you because we're friends and all but I think this one is a bit above your paygrade...",
         "Please buy something, I need to bribe Aiden into giving me some expensive mining equipment!"
       ],
       friendship4: [
         ["That stupid moon lady keeps yelling at me in my sleep!", "What's so wrong with hoarding? I might need this stuff again at some point!"],
         "You haven't been shipping enough minerals lately, please don't tell me you're keeping them all for yourself...",
+        "You shouldn't let poets lie to you!! And by poets I mean that Leon!!!",
         ["I've seen it in a vision!", "The crust of the Nether sinking to the bottom of the abyss, descending into the heavens!", "Purified into crystline fields of agonizing brightness!", "I'm certain it shall come to pass!"],
         ["Welcome back @i! I have your special order somewhere around here, let me fetch it...", "Oh you didn't order anything? What am I supposed to do with 48 pounds of plorts?"],
         ["Carlos keeps trying to give me these raw deals! Who has the time to make that much Truffle Tea?", "Why would anyone want that much?"]
