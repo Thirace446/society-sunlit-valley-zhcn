@@ -350,22 +350,22 @@
 		{
 			dependencies: ["2B6877708A709B5C"]
 			description: [
-				"If you're not familiar with it, the big list of items in your inventory is known as the &6JEI&r or &6EMI&r panel! While hovering on an item:"
+				"{ftbquests.chapter.welcome.quest238702B124895A0A.description1}"
 				""
-				"&6Left Click/Press R&r to view its recipes"
-				"&6Right Click/Press U&r to view its uses"
+				"{ftbquests.chapter.welcome.quest238702B124895A0A.description2}"
+				"{ftbquests.chapter.welcome.quest238702B124895A0A.description3}"
 				""
-				"Be sure to check each tab on the top of the recipe, this modpack has many different ways to obtain every item. "
+				"{ftbquests.chapter.welcome.quest238702B124895A0A.description4}"
 			]
 			icon: "society:magnifying_glass"
 			id: "238702B124895A0A"
-			subtitle: "How to use JEI/EMI"
+			subtitle: "{ftbquests.chapter.welcome.quest238702B124895A0A.subtitle}"
 			tasks: [{
 				id: "071758A047AA8A61"
-				title: "Understood!"
+				title: "{ftbquests.chapter.welcome.quest238702B124895A0A.task.510974528150211169.title}"
 				type: "checkmark"
 			}]
-			title: "Finding Answers!"
+			title: "{ftbquests.chapter.welcome.quest238702B124895A0A.title}"
 			x: 1.5d
 			y: 1.5d
 		}

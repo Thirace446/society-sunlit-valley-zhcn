@@ -381,6 +381,7 @@
 		{
 			dependencies: ["2B3BEC36F6C0F6BE"]
 			description: ["{ftbquests.chapter.ii__building_up_the_farm.quest230E02067CBC21CF.description1}"]
+			hide_until_deps_complete: true
 			id: "230E02067CBC21CF"
 			rewards: [{
 				id: "5D513DA30D642A58"
@@ -398,6 +399,7 @@
 		{
 			dependencies: ["2B3BEC36F6C0F6BE"]
 			description: ["{ftbquests.chapter.ii__building_up_the_farm.quest7B2EB2B56F155E49.description1}"]
+			hide_until_deps_visible: true
 			id: "7B2EB2B56F155E49"
 			rewards: [{
 				id: "1FB60E6724AEDA99"
@@ -1440,7 +1442,7 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.ii__building_up_the_farm.questE68DD5DFB2DFD97.title}"
-			x: 9.5d
+			x: 9.0d
 			y: -2.5d
 		}
 		{
@@ -1565,6 +1567,7 @@
 				""
 				"{ftbquests.chapter.ii__building_up_the_farm.quest242D49A4D71EDBEA.description2}"
 			]
+			hide_until_deps_complete: true
 			id: "242D49A4D71EDBEA"
 			rewards: [{
 				count: 8
@@ -1577,8 +1580,8 @@
 				item: "society:frozen_geode"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.0d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5AD7C2BCDA001A53"]
@@ -1902,6 +1905,7 @@
 				""
 				"{ftbquests.chapter.ii__building_up_the_farm.quest69C3121C90AABBF4.description3}"
 			]
+			hide_until_deps_complete: true
 			icon: "refinedstorage:4k_storage_block"
 			id: "69C3121C90AABBF4"
 			tasks: [
@@ -1929,6 +1933,7 @@
 				""
 				"{ftbquests.chapter.ii__building_up_the_farm.quest55D658B5939D9DEB.description3}"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "refinedstorageaddons:wireless_crafting_grid"
@@ -2108,8 +2113,8 @@
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.ii__building_up_the_farm.quest6F3FC6227213B886.title}"
-			x: 11.5d
-			y: -2.5d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["07858B887B222BC2"]
@@ -2159,6 +2164,110 @@
 			}]
 			title: "{ftbquests.chapter.ii__building_up_the_farm.quest1F12BF72B966E0CC.title}"
 			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B6FD08D6063D6AA"]
+			description: [
+				"{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.description1}"
+				""
+				"{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.description2}"
+				""
+				"{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.description3}"
+			]
+			id: "723A5C8DB06D8C36"
+			rewards: [
+				{
+					id: "35B88FDE0AB2F86E"
+					item: "cozycafe:cafe_sign"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2234E899812935DB"
+					item: "cozycafe:cafe_menu"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C2C38F8D9DBD4C5"
+				item: "cozycafe:cafe_manager"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.title}"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["723A5C8DB06D8C36"]
+			description: [
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description1}"
+				""
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description2}"
+				""
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description3}"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description4}"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description5}"
+			]
+			hide_until_deps_complete: true
+			icon: "cozycafe:cafe_menu"
+			id: "62129A6009E60E0F"
+			rewards: [{
+				count: 2
+				id: "65E808D4AE33925C"
+				item: "society:furniture_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64723DD811BD1C1F"
+				title: "{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.task.7237915549357644831.title}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.title}"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["723A5C8DB06D8C36"]
+			description: [
+				"{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.description1}"
+				""
+				"{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.description2}"
+				""
+				"{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.description3}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "cozycafe:serving_plate"
+				tag: {
+					platedFood: {
+						Count: 1b
+						id: "veggiesdelight:vegetables_wrap"
+					}
+				}
+			}
+			id: "7C30FC21953CF7D3"
+			rewards: [{
+				id: "4421B0B2ADC081B2"
+				item: "cluttered:kitchen_set_brown_counter_sink"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3254F63E9C93A786"
+					item: "cozycafe:plating_station"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C633234709FF8E8"
+					item: { Count: 4, id: "cozycafe:serving_plate" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.title}"
+			x: 13.5d
 			y: -3.0d
 		}
 	]

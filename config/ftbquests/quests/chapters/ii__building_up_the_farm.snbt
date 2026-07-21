@@ -2169,11 +2169,11 @@
 		{
 			dependencies: ["5B6FD08D6063D6AA"]
 			description: [
-				"It might be the time to open up your first Cafe!"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.description1}"
 				""
-				"The &6Cafe Manager&r will allow you to create a place where customers come to eat at. The menu is fully customizable, allowing you to serve whatever your farm specializes in."
+				"{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.description2}"
 				""
-				"Items sold in your cafe are worth &650% more&r! Fast service will also get you up to&6 100% more&r in tips. Your skills will also be used, making this worth the time investment. "
+				"{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.description3}"
 			]
 			id: "723A5C8DB06D8C36"
 			rewards: [
@@ -2194,20 +2194,20 @@
 				item: "cozycafe:cafe_manager"
 				type: "item"
 			}]
-			title: "Opening a Cozy Cafe"
+			title: "{ftbquests.chapter.ii__building_up_the_farm.quest723A5C8DB06D8C36.title}"
 			x: 12.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["723A5C8DB06D8C36"]
 			description: [
-				"Wondering what foods you can put on your menu?"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description1}"
 				""
-				"In JEI/EMI's search bar you can search for &6#cozycafe:menu_items&r to find out! You can also search for just the specific types:"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description2}"
 				""
-				"- &6#cozycafe:drink&r"
-				"- &6#cozycafe:main&r"
-				"- &6#cozycafe:dessert&r"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description3}"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description4}"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.description5}"
 			]
 			hide_until_deps_complete: true
 			icon: "cozycafe:cafe_menu"
@@ -2220,21 +2220,21 @@
 			}]
 			tasks: [{
 				id: "64723DD811BD1C1F"
-				title: "Understood!"
+				title: "{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.task.7237915549357644831.title}"
 				type: "checkmark"
 			}]
-			title: "Finding Menu Items"
+			title: "{ftbquests.chapter.ii__building_up_the_farm.quest62129A6009E60E0F.title}"
 			x: 13.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["723A5C8DB06D8C36"]
 			description: [
-				"Main dishes in your &6cafe&r will need to be plated before serving!"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.description1}"
 				""
-				"A &6Plating Station&r is used to plate these items."
+				"{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.description2}"
 				""
-				"Note that dishes that already come with a bowl will not need to be plated, if you prefer not washing dishes!"
+				"{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.description3}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -2266,7 +2266,7 @@
 					type: "item"
 				}
 			]
-			title: "Plating Up"
+			title: "{ftbquests.chapter.ii__building_up_the_farm.quest7C30FC21953CF7D3.title}"
 			x: 13.5d
 			y: -3.0d
 		}

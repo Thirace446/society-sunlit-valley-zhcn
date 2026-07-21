@@ -1750,6 +1750,8 @@
 				"{ftbquests.chapter.iv__prismatic_farming.quest2C4862DD33189878.description2}"
 			]
 			id: "2C4862DD33189878"
+			invisible: true
+			optional: true
 			rewards: [{
 				count: 3
 				id: "5644B1652E87A67C"
@@ -1763,6 +1765,28 @@
 			}]
 			x: -3.0d
 			y: 20.0d
+		}
+		{
+			dependencies: ["63F8C52D082BBCB3"]
+			id: "4CCA31DA0B782830"
+			tasks: [{
+				id: "777E8C982C73B22B"
+				item: "society:drum_cornucopia"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["63F8C52D082BBCB3"]
+			id: "73D3DF7A58D2112A"
+			tasks: [{
+				id: "084DC2042C9DBB51"
+				item: "society:fish_pond_manager"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
 		}
 	]
 	title: "{ftbquests.chapter.iv__prismatic_farming.title}"

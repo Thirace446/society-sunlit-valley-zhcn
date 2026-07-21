@@ -21,6 +21,7 @@
 - Added Rain Totem
 - Added Thunder Totem
 - Added Fairy Dust
+- Added ability for Wand of the Forest to view custom Botania block mana levels (looks jank but it works!)
 - Added random furniture items per day for sale from Carpenter
 - Added more thorough jade support for crop growing (Thanks Hexagreen!)
 - Added filling recipe for Honey Roasted Peanut (Thanks Emma!)
@@ -42,6 +43,8 @@
 - Increased Terracotta conversion rate 1/30s -> 1/10s
 - Increased Bountiful Fertilizer crafting output 1 -> 4
 - Increased fishing spot range tolerance
+- Reduced max mana of mana fruit crops so they don't suck up as much mana
+- Reduced Sparkstone Recyler mana consumption per recycle 10k -> 5k
 - Reduced max upgrade from Hay Golems to High Quality Fertilizer
 - Reduced effective cost of larger building shop building types
 - Reduced heat requirement for green, hibiscus, yerba mate, and rooibos tea
@@ -58,6 +61,7 @@
 - Fixed Crystalarium's Black Opal upgrade not working on manual harvests
 - Fixed pelican meat not having correct tags
 - Fixed Sommelier trait not taking into account recipe output count (e.x. Artifact Shards)
+- Fixed bottom kelp blocks not being valid fish pond water blocks
 - Fixed Redstone Link using Brass Casing instead of Andesite
 - Fixed building sets having inconsistent amounts of troughs
 - Fixed Prismatic Shard/Sparkstone blocks not having minable tags

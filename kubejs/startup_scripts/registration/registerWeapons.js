@@ -16,7 +16,7 @@ StartupEvents.registry("item", (e) => {
     .texture("society:item/galaxy_sword")
     .rarity("epic")
     .tier("prismatic")
-    .displayName("<ltcolor>c=AA0000;c=FFAA00;c=FF55FF;c=FFFF55;c=00AA00;c=00AAAA;c=AA00AA;c=FF55FF;w=1;p=2;Galaxy Sword</ltcolor>")
+    .displayName("<ltcolor>c=AA0000;c=FFAA00;c=FF55FF;c=FFFF55;c=00AA00;c=00AAAA;c=AA00AA;c=FF55FF;w=10;p=2;Galaxy Sword</ltcolor>")
     .tag("minecraft:swords")
     .attackDamageBaseline(10.0)
     .speed(3.0)

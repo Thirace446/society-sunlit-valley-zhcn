@@ -1268,11 +1268,11 @@
 		{
 			dependencies: ["263CCA4D2EAF2629"]
 			description: [
-				"&6Caterpillar Eggs&r need a safe place to hatch and metamorphosize!"
+				"{ftbquests.chapter.iii__advanced_farming.quest17C8B0197B8636E7.description1}"
 				""
-				"The &6Caterpillar Box&r handles this all for you! Any eggs that are placed inside will eventually turn into beautiful Butterflies and Moths, flying out of the top block."
+				"{ftbquests.chapter.iii__advanced_farming.quest17C8B0197B8636E7.description2}"
 				""
-				"Some types of Butterflies can be difficult to obtain due to how rare they are. Careful breeding can be used to complete your collection or for income!"
+				"{ftbquests.chapter.iii__advanced_farming.quest17C8B0197B8636E7.description3}"
 			]
 			id: "17C8B0197B8636E7"
 			rewards: [{
@@ -1280,7 +1280,7 @@
 				item: "longwings:melon_butterfly_brew_block"
 				type: "item"
 			}]
-			subtitle: "Hobbling towards metamorphosis"
+			subtitle: "{ftbquests.chapter.iii__advanced_farming.quest17C8B0197B8636E7.subtitle}"
 			tasks: [{
 				id: "6FE0C3D9E8F62020"
 				item: "society:caterpillar_box"
@@ -1292,11 +1292,11 @@
 		{
 			dependencies: ["6F8709C925DE7237"]
 			description: [
-				"When two different Butterflies or Moths are in the same area, they might lay &6Caterpillar Eggs&r!"
+				"{ftbquests.chapter.iii__advanced_farming.quest263CCA4D2EAF2629.description1}"
 				""
-				"These are produced using the same mechanics as amber and pollen."
+				"{ftbquests.chapter.iii__advanced_farming.quest263CCA4D2EAF2629.description2}"
 				""
-				"The type and size of egg is determined by the closest Butterfly/Moth, and two different parents will produce a third type of butterfly!"
+				"{ftbquests.chapter.iii__advanced_farming.quest263CCA4D2EAF2629.description3}"
 			]
 			id: "263CCA4D2EAF2629"
 			rewards: [{
@@ -1309,7 +1309,7 @@
 				item: "society:caterpillar_eggs"
 				type: "item"
 			}]
-			title: "Butterfly Breeding!"
+			title: "{ftbquests.chapter.iii__advanced_farming.quest263CCA4D2EAF2629.title}"
 			x: 5.0d
 			y: -6.0d
 		}

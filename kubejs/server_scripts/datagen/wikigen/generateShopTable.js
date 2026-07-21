@@ -21,7 +21,7 @@
 
 //         let request = trade.request;
 //         let secondRequest = trade.second_request;
-//         let accountCost = trade.numismatics_cost ? global.formatPrice(Number(trade.numismatics_cost)) : undefined;
+//         let accountCost = trade.numismatics_cost ? `{{Price|${Number(trade.numismatics_cost)}}}` : undefined;
 
 //         let requestText = request ? ((request.count > 1 ? request.count + 'x ' : '') + formatItemName(request.item)) : '';
 //         let secondRequestText = secondRequest ? ((secondRequest.count > 1 ? secondRequest.count + 'x ' : '') + formatItemName(secondRequest.item)) : '';
@@ -61,7 +61,7 @@
 //     table += '|}';
 //     return table;
 // }
-// let shops = ["ball_boutique",
+// let shops = [
 //     "banker",
 //     "barkeeper",
 //     "blacksmith",
@@ -71,7 +71,6 @@
 //     "guild",
 //     "invitations",
 //     "market",
-//     "poke_mart",
 //     "ribbit_fisher",
 //     "ribbit_merchant",
 //     "shepherd",
@@ -81,7 +80,10 @@
 //     "wanderer",
 //     "wandering_baker",
 //     "wandering_winemaker",
-//     "witch"
+//     "witch",
+//     "wise_oak"
+//     // "poke_mart",
+//     // "ball_boutique",
 // ]
 // ItemEvents.rightClicked('rehooked:wood_chain', (e) => {
 //     shops.forEach((shop) => {

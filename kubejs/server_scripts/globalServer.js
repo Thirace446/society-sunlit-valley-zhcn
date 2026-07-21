@@ -20,7 +20,8 @@ global.mainUiElementIds = [
   "chanceMessage",
   "eggChanceMessage",
   "longwingCountMessage",
-  "flowerCountMessage"
+  "flowerCountMessage",
+  "botaniaMana"
 ];
 const clearUiPaint = (player, ids) => {
   let removedText = {};
